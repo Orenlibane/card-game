@@ -1,6 +1,6 @@
 window.MVP_GAME_DATA = {
   "schema_version": 1,
-  "generated_at": "2026-05-10T16:48:29.149Z",
+  "generated_at": "2026-05-10T18:16:18.343Z",
   "product_name_he": "אוספים עובדות",
   "language": "he",
   "text_direction": "rtl",
@@ -19124,6 +19124,186 @@ window.MVP_GAME_DATA = {
               "correct_index": 0
             }
           ]
+        }
+      ]
+    },
+    {
+      "pack_id": "world-wonders",
+      "pack_title_he": "פלאי העולם",
+      "domain_he": "חבילת פרומו",
+      "age_group_he": "יסודי",
+      "pack_asset_path": "assets/season-1/packs-promo-he/pack-world-wonders.webp",
+      "card_count": 10,
+      "cards": [
+        {
+          "card_id": "world-wonders-01-great-pyramid",
+          "index": 1,
+          "title_he": "הפירמידה הגדולה",
+          "asset_path": "assets/season-1/cards-promo-he/world-wonders/01-great-pyramid.webp",
+          "facts_he": [
+            "הפירמידה הגדולה נבנתה במצרים העתיקה לפני אלפי שנים.",
+            "היא מורכבת ממיליוני אבני ענק שסודרו בדיוק רב.",
+            "היא נחשבת לאחד מפלאי העולם העתיק."
+          ],
+          "tags_he": [
+            "מצרים",
+            "עתיקות",
+            "הנדסה"
+          ],
+          "rarity": "rare"
+        },
+        {
+          "card_id": "world-wonders-02-great-wall",
+          "index": 2,
+          "title_he": "החומה הגדולה",
+          "asset_path": "assets/season-1/cards-promo-he/world-wonders/02-great-wall.webp",
+          "facts_he": [
+            "החומה הגדולה נבנתה לאורך אזורים עצומים בסין.",
+            "היא שימשה להגנה, לתצפית ולשליטה בדרכי מעבר.",
+            "החומה מורכבת מחלקים רבים שנבנו בתקופות שונות."
+          ],
+          "tags_he": [
+            "סין",
+            "הגנה",
+            "בניין"
+          ],
+          "rarity": "rare"
+        },
+        {
+          "card_id": "world-wonders-03-colosseum",
+          "index": 3,
+          "title_he": "הקולוסיאום",
+          "asset_path": "assets/season-1/cards-promo-he/world-wonders/03-colosseum.webp",
+          "facts_he": [
+            "הקולוסיאום הוא אמפיתיאטרון עתיק שנמצא ברומא.",
+            "בעבר התקיימו בו מופעים ואירועים מול קהל גדול.",
+            "הקשתות הרבות שלו הפכו אותו לסמל אדריכלי מפורסם."
+          ],
+          "tags_he": [
+            "רומא",
+            "אדריכלות",
+            "היסטוריה"
+          ],
+          "rarity": "rare"
+        },
+        {
+          "card_id": "world-wonders-04-taj-mahal",
+          "index": 4,
+          "title_he": "טאג' מהאל",
+          "asset_path": "assets/season-1/cards-promo-he/world-wonders/04-taj-mahal.webp",
+          "facts_he": [
+            "טאג' מהאל נמצא בהודו ונבנה מאבן שיש לבנה.",
+            "המבנה מפורסם בכיפה הגדולה, בגנים ובסימטריה שלו.",
+            "הוא נחשב לאחד המבנים היפים והמוכרים בעולם."
+          ],
+          "tags_he": [
+            "הודו",
+            "שיש",
+            "סימטריה"
+          ],
+          "rarity": "rare"
+        },
+        {
+          "card_id": "world-wonders-05-machu-picchu",
+          "index": 5,
+          "title_he": "מאצ'ו פיצ'ו",
+          "asset_path": "assets/season-1/cards-promo-he/world-wonders/05-machu-picchu.webp",
+          "facts_he": [
+            "מאצ'ו פיצ'ו היא עיר עתיקה בהרי פרו.",
+            "היא בנויה על רכס גבוה ומוקפת בנוף הררי מרשים.",
+            "האבנים במקום סותתו והונחו בצורה מדויקת מאוד."
+          ],
+          "tags_he": [
+            "פרו",
+            "הרים",
+            "אינקה"
+          ],
+          "rarity": "rare"
+        },
+        {
+          "card_id": "world-wonders-06-petra",
+          "index": 6,
+          "title_he": "פטרה",
+          "asset_path": "assets/season-1/cards-promo-he/world-wonders/06-petra.webp",
+          "facts_he": [
+            "פטרה היא עיר עתיקה בירדן שנחצבה בסלע אדום.",
+            "הכניסה המפורסמת אליה עוברת דרך קניון צר וגבוה.",
+            "חזיתות המבנים נחצבו באבן והשתמרו במשך שנים רבות."
+          ],
+          "tags_he": [
+            "ירדן",
+            "סלע",
+            "נבטים"
+          ],
+          "rarity": "rare"
+        },
+        {
+          "card_id": "world-wonders-07-christ-redeemer",
+          "index": 7,
+          "title_he": "ישו הגואל",
+          "asset_path": "assets/season-1/cards-promo-he/world-wonders/07-christ-redeemer.webp",
+          "facts_he": [
+            "פסל ישו הגואל ניצב על הר מעל העיר ריו דה ז׳ניירו.",
+            "הפסל מפורסם בזכות הידיים הפרושות שלו.",
+            "מההר נשקף נוף רחב של העיר והים."
+          ],
+          "tags_he": [
+            "ברזיל",
+            "פסל",
+            "ריו"
+          ],
+          "rarity": "rare"
+        },
+        {
+          "card_id": "world-wonders-08-chichen-itza",
+          "index": 8,
+          "title_he": "צ'יצ'ן איצה",
+          "asset_path": "assets/season-1/cards-promo-he/world-wonders/08-chichen-itza.webp",
+          "facts_he": [
+            "צ'יצ'ן איצה הוא אתר עתיק של תרבות המאיה במקסיקו.",
+            "במרכז האתר נמצאת פירמידה מדורגת ומפורסמת.",
+            "המבנים באתר קשורים ללוח שנה, לטקסים ולידע אסטרונומי."
+          ],
+          "tags_he": [
+            "מאיה",
+            "מקסיקו",
+            "פירמידה"
+          ],
+          "rarity": "rare"
+        },
+        {
+          "card_id": "world-wonders-09-alexandria-lighthouse",
+          "index": 9,
+          "title_he": "מגדלור אלכסנדריה",
+          "asset_path": "assets/season-1/cards-promo-he/world-wonders/09-alexandria-lighthouse.webp",
+          "facts_he": [
+            "מגדלור אלכסנדריה היה אחד מפלאי העולם העתיק.",
+            "הוא עזר לספינות למצוא את דרכן אל הנמל.",
+            "המגדלור היה מבנה גבוה ומרשים לתקופתו."
+          ],
+          "tags_he": [
+            "מצרים",
+            "ים",
+            "מגדלור"
+          ],
+          "rarity": "rare"
+        },
+        {
+          "card_id": "world-wonders-10-hanging-gardens",
+          "index": 10,
+          "title_he": "גני בבל התלויים",
+          "asset_path": "assets/season-1/cards-promo-he/world-wonders/10-hanging-gardens.webp",
+          "facts_he": [
+            "גני בבל התלויים מתוארים כפלא עתיק מלא צמחייה ומדרגות.",
+            "הם קשורים לסיפורים על העיר בבל במסופוטמיה.",
+            "עד היום חוקרים מתווכחים היכן בדיוק היו ואם אכן התקיימו כפי שתוארו."
+          ],
+          "tags_he": [
+            "בבל",
+            "גנים",
+            "עתיקות"
+          ],
+          "rarity": "rare"
         }
       ]
     }

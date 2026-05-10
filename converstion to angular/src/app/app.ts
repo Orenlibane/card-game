@@ -43,6 +43,7 @@ export class App implements OnInit, OnDestroy {
       .filter((opened) => opened.card);
   });
   protected readonly lastDuplicateCount = computed(() => this.lastOpenedCards().filter((opened) => opened.duplicate).length);
+  protected readonly promoPack = computed(() => this.game.packs().find((pack) => pack.pack_id === 'world-wonders') ?? null);
   private readonly openingTimers: Array<ReturnType<typeof window.setTimeout>> = [];
 
   async ngOnInit(): Promise<void> {
@@ -124,6 +125,14 @@ export class App implements OnInit, OnDestroy {
     this.openingTimers.push(window.setTimeout(() => {
       this.openingPhase.set('idle');
     }, 6200));
+  }
+
+  protected buyPromoPack(): void {
+    const pack = this.promoPack();
+    if (!pack || this.openingPhase() !== 'idle') return;
+
+    this.game.selectPack(pack.pack_id);
+    window.setTimeout(() => this.playPackOpening(), 0);
   }
 
   protected inspectOpenedCard(cardId: string): void {

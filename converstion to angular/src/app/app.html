@@ -101,7 +101,7 @@
                 </div>
 
                 <div class="pack-shelf">
-                  @for (pack of game.packs().slice(0, 5); track pack.pack_id) {
+                  @for (pack of game.packs(); track pack.pack_id) {
                     <button
                       class="pack-pouch"
                       type="button"
@@ -330,12 +330,27 @@
 
                 <div class="shop-shelves">
                   <div class="awning" aria-hidden="true"></div>
-                  <div class="shelf-board">
+                  @if (promoPack(); as pack) {
+                    <article class="promo-shop-card">
+                      <div class="promo-pack-art">
+                        <img [src]="assetUrl(pack.pack_asset_path)" [alt]="pack.pack_title_he">
+                        <span>חדש</span>
+                      </div>
+                      <div class="promo-shop-copy">
+                        <b>חבילת פרומו</b>
+                        <h3>{{ pack.pack_title_he }}</h3>
+                        <p>10 קלפי פלאי עולם. כל פתיחה שולפת {{ game.rules()?.pack_size }} קלפים בלבד.</p>
+                        <button class="primary-game-button" type="button" (click)="buyPromoPack()" [disabled]="openingPhase() !== 'idle'">
+                          קנה ופתח · {{ game.rules()?.pack_cost || 0 }}★
+                        </button>
+                      </div>
+                    </article>
+                  }
+                  <div class="wood-shelf" aria-hidden="true"></div>
+                  <div class="shop-empty-note">
                     <b>בקרוב</b>
-                    <span>חבילות, בונוסים ושדרוגים ייכנסו כאן בהמשך.</span>
+                    <span>בונוסים ושדרוגים ייכנסו למדפים הבאים.</span>
                   </div>
-                  <div class="wood-shelf" aria-hidden="true"></div>
-                  <div class="wood-shelf" aria-hidden="true"></div>
                 </div>
               </section>
             }

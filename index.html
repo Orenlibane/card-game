@@ -1,0 +1,1118 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>אוספים עובדות - מרכז משחק</title>
+  <style>
+    :root {
+      --bg: #171c20;
+      --surface: #f6efe3;
+      --surface-2: #fff8ec;
+      --ink: #172033;
+      --muted: #687481;
+      --line: rgba(23, 32, 51, .14);
+      --line-light: rgba(255, 255, 255, .22);
+      --teal: #17b8a6;
+      --gold: #e9bb43;
+      --red: #d94d61;
+      --blue: #477de7;
+      --green: #4f9f62;
+      --shadow: 0 24px 70px rgba(0, 0, 0, .28);
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      min-height: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, "Noto Sans Hebrew", system-ui, sans-serif;
+      color: #fff8e9;
+      background:
+        linear-gradient(115deg, rgba(23, 184, 166, .16), transparent 34%),
+        linear-gradient(245deg, rgba(233, 187, 67, .16), transparent 31%),
+        radial-gradient(circle at 46% 22%, #343c43 0, var(--bg) 60%);
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, rgba(255,255,255,.026) 1px, transparent 1px) 0 0 / 34px 34px,
+        linear-gradient(0deg, rgba(255,255,255,.02) 1px, transparent 1px) 0 0 / 34px 34px;
+      mask-image: linear-gradient(180deg, rgba(0,0,0,.9), transparent 76%);
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a,
+    button {
+      font: inherit;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      color: inherit;
+      cursor: pointer;
+    }
+
+    .app {
+      width: min(1480px, calc(100% - 28px));
+      min-height: 100svh;
+      margin: 0 auto;
+      padding: 18px 0 28px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 18px;
+    }
+
+    .workspace,
+    .rail {
+      min-width: 0;
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      gap: 14px;
+    }
+
+    .topbar,
+    .rail,
+    .pack-opener,
+    .quick-link,
+    .collection-strip {
+      border: 1px solid var(--line-light);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .08);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, .18);
+    }
+
+    .topbar {
+      min-height: 84px;
+      padding: 14px;
+      display: grid;
+      grid-template-columns: minmax(240px, 1fr) auto;
+      align-items: center;
+      gap: 14px;
+      background:
+        linear-gradient(90deg, rgba(23, 184, 166, .15), transparent 46%, rgba(233, 187, 67, .13)),
+        rgba(255,255,255,.08);
+      animation: enterTop .46s ease both;
+    }
+
+    .brand {
+      display: grid;
+      gap: 5px;
+    }
+
+    .brand b {
+      color: #fff8e9;
+      font-size: clamp(2rem, 4vw, 4.4rem);
+      line-height: .92;
+      letter-spacing: 0;
+    }
+
+    .brand span {
+      color: #c9d3df;
+      font-weight: 900;
+    }
+
+    .top-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: end;
+    }
+
+    .action-button,
+    .link-button,
+    .ghost-button {
+      min-height: 44px;
+      border-radius: var(--radius);
+      border: 1px solid rgba(255, 255, 255, .18);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-weight: 900;
+      transition: transform .16s ease, background .16s ease, border-color .16s ease;
+    }
+
+    .action-button {
+      padding: 0 15px;
+      color: #10201e;
+      border-color: transparent;
+      background: linear-gradient(180deg, #36d8c8, var(--teal));
+      box-shadow: 0 10px 22px rgba(23, 184, 166, .2);
+    }
+
+    .link-button,
+    .ghost-button {
+      padding: 0 13px;
+      background: rgba(255,255,255,.1);
+    }
+
+    .action-button:hover,
+    .link-button:hover,
+    .ghost-button:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255, 255, 255, .34);
+      background-color: rgba(255,255,255,.16);
+    }
+
+    .dashboard {
+      min-height: 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 290px;
+      gap: 14px;
+    }
+
+    .pack-opener {
+      position: relative;
+      min-height: 650px;
+      padding: clamp(14px, 2vw, 24px);
+      display: grid;
+      grid-template-columns: minmax(250px, 390px) minmax(0, 1fr);
+      gap: clamp(14px, 2vw, 28px);
+      align-items: center;
+      background:
+        linear-gradient(90deg, rgba(255,255,255,.08), transparent 18%, rgba(0,0,0,.12)),
+        repeating-linear-gradient(0deg, rgba(255,255,255,.018) 0 2px, transparent 2px 8px),
+        #2a3035;
+      overflow: hidden;
+      perspective: 1800px;
+    }
+
+    .pack-opener::before {
+      content: "";
+      position: absolute;
+      inset: 12px;
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius);
+      pointer-events: none;
+    }
+
+    .pack-panel {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 16px;
+      align-content: center;
+    }
+
+    .pack-copy {
+      display: grid;
+      gap: 7px;
+    }
+
+    .pack-copy h1 {
+      margin: 0;
+      color: #fff8e9;
+      font-size: clamp(2.2rem, 5vw, 5.5rem);
+      line-height: .9;
+      letter-spacing: 0;
+    }
+
+    .pack-copy p {
+      width: min(520px, 100%);
+      margin: 0;
+      color: #cdd8e2;
+      font-weight: 900;
+      line-height: 1.45;
+    }
+
+    .pack-frame {
+      position: relative;
+      width: min(310px, 82vw);
+      margin: 0 auto;
+      aspect-ratio: 512 / 716;
+      transform-style: preserve-3d;
+      animation: packFloat 4.6s ease-in-out infinite;
+    }
+
+    .pack-frame.is-opening {
+      animation: packOpen .74s cubic-bezier(.2,.9,.2,1) both;
+    }
+
+    .pack-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .pack-frame::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: var(--radius);
+      background: linear-gradient(110deg, transparent 6%, rgba(255,255,255,.48) 22%, transparent 35%);
+      mix-blend-mode: screen;
+      pointer-events: none;
+    }
+
+    .pack-meta {
+      display: grid;
+      gap: 8px;
+      padding: 12px;
+      border: 1px solid rgba(255,255,255,.13);
+      border-radius: var(--radius);
+      background: rgba(8,12,15,.26);
+    }
+
+    .pack-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      color: #dce6ef;
+      font-weight: 900;
+    }
+
+    .pack-row strong {
+      color: #fff8e9;
+      font-size: 1.12rem;
+    }
+
+    .bar {
+      height: 9px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.13);
+      overflow: hidden;
+    }
+
+    .bar i {
+      display: block;
+      width: var(--progress, 0%);
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+      transition: width .24s ease;
+    }
+
+    .pack-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .reveal-area {
+      position: relative;
+      z-index: 1;
+      min-width: 0;
+      display: grid;
+      gap: 16px;
+    }
+
+    .reveal-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255,255,255,.13);
+    }
+
+    .reveal-head h2 {
+      margin: 0;
+      font-size: clamp(1.4rem, 2.2vw, 2.15rem);
+      line-height: 1;
+    }
+
+    .reveal-head span {
+      color: #c7d2dd;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: clamp(9px, 1.2vw, 16px);
+      align-items: start;
+    }
+
+    .revealed-card {
+      position: relative;
+      min-width: 0;
+      aspect-ratio: 512 / 716;
+      padding: 4px;
+      border: 1px solid rgba(255,255,255,.2);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(135deg, rgba(255,255,255,.55), rgba(255,255,255,.14)),
+        rgba(255,255,255,.28);
+      box-shadow: 0 16px 26px rgba(0,0,0,.2);
+      overflow: hidden;
+      opacity: 0;
+      transform: translateY(18px) rotate(-1.5deg);
+      animation: revealCard .52s cubic-bezier(.2,.9,.2,1) both;
+      animation-delay: calc(var(--i) * 80ms);
+    }
+
+    .revealed-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .revealed-card b {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      max-width: calc(100% - 20px);
+      min-height: 28px;
+      padding: 5px 8px;
+      border-radius: 999px;
+      background: rgba(23,32,51,.78);
+      color: #fff;
+      font-size: .78rem;
+      line-height: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .empty-slot {
+      min-width: 0;
+      aspect-ratio: 512 / 716;
+      border: 1px dashed rgba(255,255,255,.26);
+      border-radius: var(--radius);
+      display: grid;
+      place-items: center;
+      color: #cbd6df;
+      font-weight: 900;
+      background: rgba(255,255,255,.05);
+    }
+
+    .pack-picker {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .pack-thumb {
+      min-width: 0;
+      min-height: 76px;
+      padding: 6px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.08);
+      display: grid;
+      grid-template-columns: 42px minmax(0, 1fr);
+      align-items: center;
+      gap: 8px;
+      text-align: start;
+      transition: transform .16s ease, border-color .16s ease, background .16s ease;
+    }
+
+    .pack-thumb:hover,
+    .pack-thumb.is-active {
+      transform: translateY(-2px);
+      border-color: rgba(23,184,166,.62);
+      background: rgba(23,184,166,.12);
+    }
+
+    .pack-thumb img {
+      width: 42px;
+      aspect-ratio: 512 / 716;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .pack-thumb b,
+    .pack-thumb span {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .pack-thumb b {
+      font-size: .92rem;
+      color: #fff8e9;
+    }
+
+    .pack-thumb span {
+      color: #b9c5d0;
+      font-size: .78rem;
+      font-weight: 900;
+    }
+
+    .side-panel {
+      min-width: 0;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 14px;
+    }
+
+    .quick-links {
+      display: grid;
+      gap: 10px;
+    }
+
+    .quick-link {
+      min-height: 122px;
+      padding: 14px;
+      display: grid;
+      gap: 10px;
+      align-content: space-between;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,.1), transparent 54%),
+        rgba(255,255,255,.07);
+      transition: transform .16s ease, border-color .16s ease, background .16s ease;
+    }
+
+    .quick-link:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255,255,255,.34);
+      background-color: rgba(255,255,255,.11);
+    }
+
+    .quick-link b {
+      color: #fff8e9;
+      font-size: 1.18rem;
+    }
+
+    .quick-link span,
+    .collection-strip span {
+      color: #c5d0db;
+      font-weight: 900;
+      line-height: 1.35;
+    }
+
+    .quick-link i {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #10201e;
+      background: var(--teal);
+      font-style: normal;
+      font-weight: 900;
+    }
+
+    .collection-strip {
+      padding: 14px;
+      display: grid;
+      gap: 12px;
+      align-content: start;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.1), transparent 180px),
+        rgba(255,255,255,.07);
+    }
+
+    .strip-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .strip-head b {
+      color: #fff8e9;
+      font-size: 1.15rem;
+    }
+
+    .mini-stack {
+      min-height: 186px;
+      position: relative;
+      display: grid;
+      place-items: center;
+    }
+
+    .mini-stack img {
+      position: absolute;
+      width: 112px;
+      aspect-ratio: 512 / 716;
+      object-fit: cover;
+      border-radius: 7px;
+      box-shadow: 0 18px 36px rgba(0,0,0,.28);
+      transform: translateX(calc(var(--x) * 1px)) rotate(calc(var(--r) * 1deg));
+    }
+
+    .rail {
+      min-height: calc(100svh - 46px);
+      padding: 16px;
+      display: grid;
+      grid-template-rows: auto auto 1fr;
+      gap: 14px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.08), transparent 190px),
+        rgba(20,25,30,.8);
+    }
+
+    .rail h2 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    .mission-list {
+      display: grid;
+      gap: 8px;
+      align-content: start;
+    }
+
+    .mission {
+      padding: 12px;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.06);
+      display: grid;
+      gap: 8px;
+    }
+
+    .mission b {
+      color: #fff8e9;
+    }
+
+    .mission span {
+      color: #c2ccd6;
+      font-weight: 900;
+      line-height: 1.32;
+    }
+
+    .mission .bar {
+      height: 7px;
+    }
+
+    @keyframes enterTop {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes packFloat {
+      0%, 100% { transform: translateY(0) rotate(-1deg); }
+      50% { transform: translateY(-10px) rotate(1.2deg); }
+    }
+
+    @keyframes packOpen {
+      0% { transform: translateY(0) rotate(-1deg) scale(1); filter: brightness(1); }
+      45% { transform: translateY(-14px) rotate(4deg) scale(1.04); filter: brightness(1.12); }
+      100% { transform: translateY(0) rotate(0) scale(.98); filter: brightness(.92); }
+    }
+
+    @keyframes revealCard {
+      to { opacity: 1; transform: translateY(0) rotate(0); }
+    }
+
+    @media (max-width: 1120px) {
+      .app,
+      .dashboard,
+      .pack-opener {
+        grid-template-columns: 1fr;
+      }
+
+      .rail {
+        min-height: auto;
+      }
+
+      .side-panel {
+        grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+        grid-template-rows: auto;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .app {
+        width: calc(100% - 16px);
+        padding-top: 8px;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+      }
+
+      .top-actions {
+        justify-content: stretch;
+      }
+
+      .top-actions > * {
+        flex: 1;
+      }
+
+      .pack-opener {
+        min-height: auto;
+        padding: 12px;
+      }
+
+      .pack-copy h1 {
+        font-size: 2.45rem;
+      }
+
+      .card-grid,
+      .pack-picker,
+      .side-panel {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .side-panel {
+        display: grid;
+      }
+
+      .quick-links,
+      .collection-strip {
+        grid-column: 1 / -1;
+      }
+
+      .pack-thumb {
+        grid-template-columns: 34px minmax(0, 1fr);
+        min-height: 64px;
+      }
+
+      .pack-thumb img {
+        width: 34px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .card-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .pack-picker {
+        grid-template-columns: 1fr;
+      }
+
+      .brand b {
+        font-size: 2.35rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 1ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <section class="workspace">
+      <header class="topbar">
+        <div class="brand">
+          <b>אוספים עובדות</b>
+          <span>מרכז אחד לפתיחת חבילות, מעבר ל-Binder ובוחנים</span>
+        </div>
+        <nav class="top-actions" aria-label="פעולות ראשיות">
+          <button class="action-button" id="openPackButton" type="button">פתח חבילה</button>
+          <a class="link-button" href="binder-demo.html">פתח Binder</a>
+          <a class="link-button" href="quiz-preview.html">בוחן קלפים</a>
+        </nav>
+      </header>
+
+      <section class="dashboard">
+        <article class="pack-opener" aria-label="פתיחת חבילה">
+          <section class="pack-panel">
+            <div class="pack-copy">
+              <h1 id="packTitle">חבילת חיות</h1>
+              <p id="packDescription">פותחים חבילה, בוחרים קלפים מעניינים, ואז עוברים ל-Binder כדי לראות את כל האוסף במקום אחד.</p>
+            </div>
+
+            <div class="pack-frame" id="packFrame">
+              <img id="packImage" src="assets/season-1/packs-native-he/pack-native-animals.webp" width="512" height="716" alt="חבילת חיות">
+            </div>
+
+            <div class="pack-meta">
+              <div class="pack-row"><span>התקדמות פתיחות</span><strong id="openCount">0/8</strong></div>
+              <div class="bar" aria-hidden="true"><i id="openProgress"></i></div>
+            </div>
+
+            <div class="pack-actions">
+              <button class="action-button" id="openPackButtonSecondary" type="button">פתח עכשיו</button>
+              <button class="ghost-button" id="shuffleButton" type="button">בחר חבילה אחרת</button>
+            </div>
+          </section>
+
+          <section class="reveal-area">
+            <div class="reveal-head">
+              <div>
+                <h2 id="revealTitle">קלפים שיצאו עכשיו</h2>
+                <span id="revealSubtitle">לחץ על פתיחה כדי לחשוף 4 קלפים מהחבילה</span>
+              </div>
+              <a class="link-button" href="binder-demo.html">אל האלבום</a>
+            </div>
+
+            <div class="card-grid" id="cardGrid" aria-live="polite"></div>
+            <div class="pack-picker" id="packPicker" aria-label="בחירת חבילה"></div>
+          </section>
+        </article>
+
+        <aside class="side-panel">
+          <nav class="quick-links" aria-label="ניווט מהיר">
+            <a class="quick-link" href="binder-demo.html">
+              <i aria-hidden="true">01</i>
+              <b>Binder מלא</b>
+              <span>חיפוש, פילטרים, עמודי אלבום ובוחן קצר על כל קלף.</span>
+            </a>
+            <a class="quick-link" href="quiz-preview.html">
+              <i aria-hidden="true">02</i>
+              <b>פתיחת קלף ובוחן</b>
+              <span>בחירת קלף מתוך חבילה והפיכתו לקלף שנאסף.</span>
+            </a>
+            <a class="quick-link" href="project-structure.html">
+              <i aria-hidden="true">03</i>
+              <b>מפת הפרויקט</b>
+              <span>גישה מהירה לנכסים, מניפסטים, חבילות ותצוגות.</span>
+            </a>
+          </nav>
+
+          <section class="collection-strip" aria-label="תצוגת קלפים">
+            <div class="strip-head">
+              <b>עונה 1</b>
+              <span id="seasonCount">0 קלפים זמינים</span>
+            </div>
+            <div class="mini-stack" aria-hidden="true">
+              <img style="--x: -54; --r: -9" src="assets/season-1/cards-generated-he/animals/10-shark.webp" alt="">
+              <img style="--x: 0; --r: 1" src="assets/season-1/cards-wave2-he/ai/01-algorithm.webp" alt="">
+              <img style="--x: 54; --r: 9" src="assets/season-1/cards-wave2-he/minecraft/01-cube.webp" alt="">
+            </div>
+            <span>העמוד הזה הוא השער: פתיחה מהירה כאן, ניהול ועבודה אמיתית בתוך ה-Binder.</span>
+          </section>
+        </aside>
+      </section>
+    </section>
+
+    <aside class="rail">
+      <h2>מסלול משחק</h2>
+      <div class="pack-meta">
+        <div class="pack-row"><span>מטבעות מוח</span><strong id="coinCount">120</strong></div>
+        <div class="pack-row"><span>קלפים שנחשפו</span><strong id="revealedCount">0</strong></div>
+      </div>
+
+      <section class="mission-list" aria-label="משימות">
+        <article class="mission">
+          <b>1. פתח חבילה</b>
+          <span>חשוף ארבעה קלפים כדי להתחיל סשן למידה.</span>
+          <div class="bar" aria-hidden="true"><i style="--progress: 66%"></i></div>
+        </article>
+        <article class="mission">
+          <b>2. בחר קלף</b>
+          <span>עבור לבוחן כדי להפוך קלף מועמד לקלף שלך.</span>
+          <div class="bar" aria-hidden="true"><i style="--progress: 42%"></i></div>
+        </article>
+        <article class="mission">
+          <b>3. סדר ב-Binder</b>
+          <span>ראה חבילות, מצב בוחנים וקלפים לפי קטגוריה.</span>
+          <div class="bar" aria-hidden="true"><i style="--progress: 74%"></i></div>
+        </article>
+      </section>
+    </aside>
+  </main>
+
+  <script>
+    const packs = [
+      {
+        id: "animals",
+        title: "חבילת חיות",
+        description: "חיות מוכרות, עובדות קצרות וקלפים שמתאימים לפתיחה ראשונה.",
+        packImage: "assets/season-1/packs-native-he/pack-native-animals.webp",
+        color: "#17b8a6",
+        cards: [
+          ["חתול", "assets/season-1/cards-generated-he/animals/01-cat.webp"],
+          ["כלב", "assets/season-1/cards-generated-he/animals/02-dog.webp"],
+          ["ארנב", "assets/season-1/cards-generated-he/animals/03-rabbit.webp"],
+          ["פיל", "assets/season-1/cards-generated-he/animals/04-elephant.webp"],
+          ["ג'ירפה", "assets/season-1/cards-generated-he/animals/05-giraffe.webp"],
+          ["צב", "assets/season-1/cards-generated-he/animals/06-turtle.webp"],
+          ["דולפין", "assets/season-1/cards-generated-he/animals/07-dolphin.webp"],
+          ["פרפר", "assets/season-1/cards-generated-he/animals/08-butterfly.webp"],
+          ["פינגווין", "assets/season-1/cards-generated-he/animals/09-penguin.webp"],
+          ["כריש", "assets/season-1/cards-generated-he/animals/10-shark.webp"]
+        ]
+      },
+      {
+        id: "crystals",
+        title: "גבישים ומינרלים",
+        description: "סלעים, גבישים ומושגים שמכניסים מדע לאלבום.",
+        packImage: "assets/season-1/packs-native-he/pack-native-crystals.webp",
+        color: "#8c6ce8",
+        cards: [
+          ["קוורץ", "assets/season-1/cards-generated-he/crystals/01-quartz.webp"],
+          ["אמטיסט", "assets/season-1/cards-generated-he/crystals/02-amethyst.webp"],
+          ["טורמלין", "assets/season-1/cards-generated-he/crystals/03-tourmaline.webp"],
+          ["פיריט", "assets/season-1/cards-generated-he/crystals/04-pyrite.webp"],
+          ["אובסידיאן", "assets/season-1/cards-generated-he/crystals/05-obsidian.webp"],
+          ["גרניט", "assets/season-1/cards-generated-he/crystals/06-granite.webp"],
+          ["בזלת", "assets/season-1/cards-generated-he/crystals/07-basalt.webp"],
+          ["יהלום", "assets/season-1/cards-generated-he/crystals/08-diamond.webp"],
+          ["מלח סלעים", "assets/season-1/cards-generated-he/crystals/09-rock-salt.webp"],
+          ["מאובן מינרלי", "assets/season-1/cards-generated-he/crystals/10-mineral-fossil.webp"]
+        ]
+      },
+      {
+        id: "vehicles",
+        title: "כלי תחבורה",
+        description: "נסיעה, תנועה וכלים שילדים מזהים מהר.",
+        packImage: "assets/season-1/packs-wave2-he/pack-vehicles.webp",
+        color: "#477de7",
+        cards: [
+          ["אוטובוס", "assets/season-1/cards-wave2-he/vehicles/01-bus.webp"],
+          ["רכבת", "assets/season-1/cards-wave2-he/vehicles/02-train.webp"],
+          ["מטוס", "assets/season-1/cards-wave2-he/vehicles/03-airplane.webp"],
+          ["סירה", "assets/season-1/cards-wave2-he/vehicles/04-boat.webp"],
+          ["אופניים", "assets/season-1/cards-wave2-he/vehicles/05-bicycle.webp"],
+          ["טרקטור", "assets/season-1/cards-wave2-he/vehicles/06-tractor.webp"],
+          ["כבאית", "assets/season-1/cards-wave2-he/vehicles/07-firetruck.webp"],
+          ["אמבולנס", "assets/season-1/cards-wave2-he/vehicles/08-ambulance.webp"],
+          ["חללית", "assets/season-1/cards-wave2-he/vehicles/09-spaceship.webp"],
+          ["רכבל", "assets/season-1/cards-wave2-he/vehicles/10-cable-car.webp"]
+        ]
+      },
+      {
+        id: "ai",
+        title: "בינה מלאכותית",
+        description: "אלגוריתמים, נתונים, מודלים ומושגי AI בעברית פשוטה.",
+        packImage: "assets/season-1/packs-wave2-he/pack-ai.webp",
+        color: "#217aae",
+        cards: [
+          ["אלגוריתם", "assets/season-1/cards-wave2-he/ai/01-algorithm.webp"],
+          ["נתונים", "assets/season-1/cards-wave2-he/ai/02-data.webp"],
+          ["אימון מודל", "assets/season-1/cards-wave2-he/ai/03-model-training.webp"],
+          ["רשת עצבית", "assets/season-1/cards-wave2-he/ai/04-neural-network.webp"],
+          ["ראייה ממוחשבת", "assets/season-1/cards-wave2-he/ai/05-computer-vision.webp"],
+          ["מודל שפה", "assets/season-1/cards-wave2-he/ai/06-language-model.webp"],
+          ["רובוט לומד", "assets/season-1/cards-wave2-he/ai/07-learning-robot.webp"],
+          ["הטיה", "assets/season-1/cards-wave2-he/ai/08-bias.webp"],
+          ["פרטיות", "assets/season-1/cards-wave2-he/ai/09-privacy.webp"],
+          ["יצירה חכמה", "assets/season-1/cards-wave2-he/ai/10-creative-ai.webp"]
+        ]
+      },
+      {
+        id: "minecraft",
+        title: "עולם קוביות",
+        description: "חבילת משחקיות, בנייה ומשאבים עם תחושה מוכרת לילדים.",
+        packImage: "assets/season-1/packs-wave2-he/pack-minecraft.webp",
+        color: "#54904c",
+        cards: [
+          ["קובייה", "assets/season-1/cards-wave2-he/minecraft/01-cube.webp"],
+          ["מכוש", "assets/season-1/cards-wave2-he/minecraft/02-pickaxe.webp"],
+          ["מחסה ראשון", "assets/season-1/cards-wave2-he/minecraft/03-shelter.webp"],
+          ["מערה", "assets/season-1/cards-wave2-he/minecraft/04-cave.webp"],
+          ["משאבים", "assets/season-1/cards-wave2-he/minecraft/05-resources.webp"],
+          ["יצירה", "assets/season-1/cards-wave2-he/minecraft/06-crafting.webp"],
+          ["חווה", "assets/season-1/cards-wave2-he/minecraft/07-farm.webp"],
+          ["אזור טבע", "assets/season-1/cards-wave2-he/minecraft/08-biome.webp"],
+          ["מפה", "assets/season-1/cards-wave2-he/minecraft/09-map.webp"],
+          ["מעגלי כוח", "assets/season-1/cards-wave2-he/minecraft/10-circuits.webp"]
+        ]
+      },
+      {
+        id: "colors",
+        title: "צבעים",
+        description: "זיהוי צבעים וקטגוריות בסיסיות בחבילת פתיחה קלה.",
+        packImage: "assets/season-1/packs-wave2-he/pack-colors.webp",
+        color: "#19a3d8",
+        cards: [
+          ["אדום", "assets/season-1/cards-wave2-he/colors/01-red.webp"],
+          ["כחול", "assets/season-1/cards-wave2-he/colors/02-blue.webp"],
+          ["צהוב", "assets/season-1/cards-wave2-he/colors/03-yellow.webp"],
+          ["ירוק", "assets/season-1/cards-wave2-he/colors/04-green.webp"],
+          ["כתום", "assets/season-1/cards-wave2-he/colors/05-orange.webp"],
+          ["סגול", "assets/season-1/cards-wave2-he/colors/06-purple.webp"],
+          ["ורוד", "assets/season-1/cards-wave2-he/colors/07-pink.webp"],
+          ["חום", "assets/season-1/cards-wave2-he/colors/08-brown.webp"],
+          ["שחור ולבן", "assets/season-1/cards-wave2-he/colors/09-black-white.webp"],
+          ["קשת צבעים", "assets/season-1/cards-wave2-he/colors/10-rainbow.webp"]
+        ]
+      },
+      {
+        id: "shapes",
+        title: "צורות",
+        description: "צורות בסיסיות וחיזוק שפה חזותית לילדים צעירים.",
+        packImage: "assets/season-1/packs-wave2-he/pack-shapes.webp",
+        color: "#69b84f",
+        cards: [
+          ["עיגול", "assets/season-1/cards-wave2-he/shapes/01-circle.webp"],
+          ["ריבוע", "assets/season-1/cards-wave2-he/shapes/02-square.webp"],
+          ["משולש", "assets/season-1/cards-wave2-he/shapes/03-triangle.webp"],
+          ["מלבן", "assets/season-1/cards-wave2-he/shapes/04-rectangle.webp"],
+          ["כוכב", "assets/season-1/cards-wave2-he/shapes/05-star.webp"],
+          ["לב", "assets/season-1/cards-wave2-he/shapes/06-heart.webp"],
+          ["מעוין", "assets/season-1/cards-wave2-he/shapes/07-diamond.webp"],
+          ["אליפסה", "assets/season-1/cards-wave2-he/shapes/08-oval.webp"],
+          ["משושה", "assets/season-1/cards-wave2-he/shapes/09-hexagon.webp"],
+          ["ספירלה", "assets/season-1/cards-wave2-he/shapes/10-spiral.webp"]
+        ]
+      },
+      {
+        id: "fruits",
+        title: "פירות וירקות",
+        description: "קלפים צבעוניים עם נושאים יומיומיים וקלים לזיהוי.",
+        packImage: "assets/season-1/packs-wave2-he/pack-fruits-veggies.webp",
+        color: "#f08b45",
+        cards: [
+          ["תפוח", "assets/season-1/cards-wave2-he/fruits-veggies/01-apple.webp"],
+          ["בננה", "assets/season-1/cards-wave2-he/fruits-veggies/02-banana.webp"],
+          ["תות", "assets/season-1/cards-wave2-he/fruits-veggies/03-strawberry.webp"],
+          ["אבטיח", "assets/season-1/cards-wave2-he/fruits-veggies/04-watermelon.webp"],
+          ["גזר", "assets/season-1/cards-wave2-he/fruits-veggies/05-carrot.webp"],
+          ["עגבנייה", "assets/season-1/cards-wave2-he/fruits-veggies/06-tomato.webp"],
+          ["מלפפון", "assets/season-1/cards-wave2-he/fruits-veggies/07-cucumber.webp"],
+          ["ענבים", "assets/season-1/cards-wave2-he/fruits-veggies/08-grapes.webp"],
+          ["תפוז", "assets/season-1/cards-wave2-he/fruits-veggies/09-orange.webp"],
+          ["תירס", "assets/season-1/cards-wave2-he/fruits-veggies/10-corn.webp"]
+        ]
+      }
+    ];
+
+    const state = {
+      activePackIndex: 0,
+      opened: Number(localStorage.getItem("portalOpenedPacks") || "0"),
+      revealed: Number(localStorage.getItem("portalRevealedCards") || "0"),
+      coins: Number(localStorage.getItem("portalCoins") || "120"),
+      currentCards: []
+    };
+
+    const els = {
+      packTitle: document.querySelector("#packTitle"),
+      packDescription: document.querySelector("#packDescription"),
+      packImage: document.querySelector("#packImage"),
+      packFrame: document.querySelector("#packFrame"),
+      openCount: document.querySelector("#openCount"),
+      openProgress: document.querySelector("#openProgress"),
+      openPackButton: document.querySelector("#openPackButton"),
+      openPackButtonSecondary: document.querySelector("#openPackButtonSecondary"),
+      shuffleButton: document.querySelector("#shuffleButton"),
+      revealTitle: document.querySelector("#revealTitle"),
+      revealSubtitle: document.querySelector("#revealSubtitle"),
+      cardGrid: document.querySelector("#cardGrid"),
+      packPicker: document.querySelector("#packPicker"),
+      seasonCount: document.querySelector("#seasonCount"),
+      coinCount: document.querySelector("#coinCount"),
+      revealedCount: document.querySelector("#revealedCount")
+    };
+
+    function activePack() {
+      return packs[state.activePackIndex];
+    }
+
+    function sampleCards(pack) {
+      return [...pack.cards]
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 4)
+        .map(([title, image]) => ({ title, image }));
+    }
+
+    function saveProgress() {
+      localStorage.setItem("portalOpenedPacks", String(state.opened));
+      localStorage.setItem("portalRevealedCards", String(state.revealed));
+      localStorage.setItem("portalCoins", String(state.coins));
+    }
+
+    function renderPack() {
+      const pack = activePack();
+      els.packTitle.textContent = pack.title;
+      els.packDescription.textContent = pack.description;
+      els.packImage.src = pack.packImage;
+      els.packImage.alt = pack.title;
+      document.documentElement.style.setProperty("--teal", pack.color);
+      els.packPicker.querySelectorAll(".pack-thumb").forEach((button, index) => {
+        button.classList.toggle("is-active", index === state.activePackIndex);
+      });
+      if (!state.currentCards.length) renderEmptyCards();
+    }
+
+    function renderStats() {
+      const totalCards = packs.reduce((sum, pack) => sum + pack.cards.length, 0);
+      const visibleOpened = Math.min(state.opened, 8);
+      els.openCount.textContent = `${visibleOpened}/8`;
+      els.openProgress.style.setProperty("--progress", `${(visibleOpened / 8) * 100}%`);
+      els.seasonCount.textContent = `${totalCards} קלפים זמינים`;
+      els.coinCount.textContent = state.coins;
+      els.revealedCount.textContent = state.revealed;
+    }
+
+    function renderEmptyCards() {
+      els.cardGrid.innerHTML = "";
+      for (let i = 0; i < 4; i += 1) {
+        const slot = document.createElement("div");
+        slot.className = "empty-slot";
+        slot.textContent = "ממתין לפתיחה";
+        els.cardGrid.append(slot);
+      }
+    }
+
+    function renderCards() {
+      const pack = activePack();
+      els.revealTitle.textContent = `יצאו מ${pack.title}`;
+      els.revealSubtitle.textContent = "אפשר להמשיך לבוחן או לפתוח עוד חבילה";
+      els.cardGrid.innerHTML = "";
+      state.currentCards.forEach((card, index) => {
+        const item = document.createElement("article");
+        item.className = "revealed-card";
+        item.style.setProperty("--i", index);
+        item.innerHTML = `<img src="${card.image}" alt="${card.title}" loading="lazy" decoding="async"><b>${card.title}</b>`;
+        els.cardGrid.append(item);
+      });
+    }
+
+    function openPack() {
+      const pack = activePack();
+      state.currentCards = sampleCards(pack);
+      state.opened += 1;
+      state.revealed += state.currentCards.length;
+      state.coins = Math.max(0, state.coins - 10);
+      saveProgress();
+      els.packFrame.classList.remove("is-opening");
+      void els.packFrame.offsetWidth;
+      els.packFrame.classList.add("is-opening");
+      renderCards();
+      renderStats();
+    }
+
+    function selectPack(index) {
+      state.activePackIndex = (index + packs.length) % packs.length;
+      state.currentCards = [];
+      els.revealTitle.textContent = "קלפים שיצאו עכשיו";
+      els.revealSubtitle.textContent = "לחץ על פתיחה כדי לחשוף 4 קלפים מהחבילה";
+      renderPack();
+    }
+
+    function renderPicker() {
+      els.packPicker.innerHTML = "";
+      packs.forEach((pack, index) => {
+        const button = document.createElement("button");
+        button.className = `pack-thumb${index === state.activePackIndex ? " is-active" : ""}`;
+        button.type = "button";
+        button.innerHTML = `
+          <img src="${pack.packImage}" alt="">
+          <span><b>${pack.title.replace("חבילת ", "")}</b><span>${pack.cards.length} קלפים</span></span>
+        `;
+        button.addEventListener("click", () => selectPack(index));
+        els.packPicker.append(button);
+      });
+    }
+
+    els.openPackButton.addEventListener("click", openPack);
+    els.openPackButtonSecondary.addEventListener("click", openPack);
+    els.shuffleButton.addEventListener("click", () => selectPack(state.activePackIndex + 1));
+
+    renderPicker();
+    renderPack();
+    renderStats();
+  </script>
+</body>
+</html>

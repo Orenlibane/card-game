@@ -23,7 +23,7 @@ const mimeTypes = {
 
 function resolveRequestPath(url) {
   const pathname = decodeURIComponent(new URL(url, "http://localhost").pathname);
-  const requested = pathname === "/" ? "/binder-demo.html" : pathname;
+  const requested = pathname === "/" ? "/index.html" : pathname;
   const filePath = resolve(join(root, normalize(requested)));
 
   if (!filePath.startsWith(root)) {

@@ -30,7 +30,16 @@
     "assets/season-1/cards-generated-he/security/08-logistics.webp",
     "assets/season-1/cards-generated-he/security/09-home-front-command.webp",
     "assets/season-1/cards-generated-he/security/10-military-ethics.webp",
-    "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.webp"
+    "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.webp",
+    "assets/season-1/cards-wave2-he/bank-hapoalim/02-mortgage.webp",
+    "assets/season-1/cards-wave2-he/bank-hapoalim/03-pre-approval.webp",
+    "assets/season-1/cards-wave2-he/bank-hapoalim/04-mortgage-mix.webp",
+    "assets/season-1/cards-wave2-he/bank-hapoalim/05-prime-track.webp",
+    "assets/season-1/cards-wave2-he/bank-hapoalim/06-fixed-rate.webp",
+    "assets/season-1/cards-wave2-he/bank-hapoalim/07-variable-rate.webp",
+    "assets/season-1/cards-wave2-he/bank-hapoalim/08-index-linked.webp",
+    "assets/season-1/cards-wave2-he/bank-hapoalim/09-refinance.webp",
+    "assets/season-1/cards-wave2-he/bank-hapoalim/10-collateral-appraisal.webp"
   ],
   "packs": [
     "assets/season-1/packs-native-he/pack-native-animals.webp",
@@ -51,5 +60,5 @@
   "final_asset_policy_he": "כל קלף וכל חבילה סופיים חייבים להיווצר כתמונה עצמאית בפרומפט עצמאי. אין להשתמש בגיליון שנחתך כמקור לנכסים סופיים.",
   "current_cards_note_he": "30 הקלפים המוצגים בדמו נוצרו כתמונות עצמאיות אחת־אחת דרך כלי image generation, ונשמרו גם כ-PNG מקורי וגם כ-WebP לדמו מהיר.",
   "season_1_card_back_he": "גב קלף אחיד לכל הקלפים של עונה 1, כתמונת asset עצמאית.",
-  "bank_hapoalim_note_he": "חבילת בנק הפועלים וקלף פיקדון יומי נוספו לדמו עונה 1 כנכסי image generation עצמאיים."
+  "bank_hapoalim_note_he": "חבילת בנק הפועלים כוללת 10 קלפים: פיקדון יומי ועוד 9 קלפי משכנתאות ומסלולים, כולם נכסי image generation עצמאיים."
 }

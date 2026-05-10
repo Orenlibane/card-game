@@ -5,7 +5,7 @@
   "text_direction": "rtl",
   "season": 1,
   "generation_mode_he": "נכסי production נוצרים אחד־אחד בכלי image generation, עם בדיקה וייבוא אחרי כל תמונה.",
-  "status_he": "יובא לדמו עונה 1 מתמונות image generation.",
+  "status_he": "חבילת בנק הפועלים כוללת 10 קלפים בדמו עונה 1.",
   "source_pack_json": "assets/season-1/quizzes/bank-hapoalim.json",
   "prompts_json": "tmp/bank-hapoalim-asset-prompts.json",
   "packs": [
@@ -28,12 +28,111 @@
       "png": "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.png",
       "webp": "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.webp",
       "prompt_file": "tmp/imagegen/bank-hapoalim-daily-deposit-card-prompt.txt",
-      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "generation_status_he": "נוצר כתמונת image generation יחידה, נבדק ויובא לפרויקט.",
       "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a003f129d288191a2054acaa017a4c3.png",
       "updated_at": "2026-05-10T08:19:59.702Z",
       "theme_adjustment_he": "גווני הטורקיז/כחול בקלף הוחלפו לאדום כדי להתאים לתמת בנק הפועלים.",
       "theme_adjusted_at": "2026-05-10T08:23:29.913637+00:00",
       "blue_original_png": "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit-blue-original.png"
+    },
+    {
+      "card_id": "bank-hapoalim-02-mortgage",
+      "pack_id": "bank-hapoalim",
+      "title_he": "משכנתא",
+      "png": "assets/season-1/cards-wave2-he/bank-hapoalim/02-mortgage.png",
+      "webp": "assets/season-1/cards-wave2-he/bank-hapoalim/02-mortgage.webp",
+      "prompt_file": "tmp/imagegen/bank-hapoalim-cards/02-bank-hapoalim-02-mortgage.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0042bbc4ac8191b1f13bcc7d7e23e6.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T10:45:48.824687+00:00"
+    },
+    {
+      "card_id": "bank-hapoalim-03-pre-approval",
+      "pack_id": "bank-hapoalim",
+      "title_he": "אישור עקרוני",
+      "png": "assets/season-1/cards-wave2-he/bank-hapoalim/03-pre-approval.png",
+      "webp": "assets/season-1/cards-wave2-he/bank-hapoalim/03-pre-approval.webp",
+      "prompt_file": "tmp/imagegen/bank-hapoalim-cards/03-bank-hapoalim-03-pre-approval.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0043140ab081919121a80693daac81.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T10:45:48.824687+00:00"
+    },
+    {
+      "card_id": "bank-hapoalim-04-mortgage-mix",
+      "pack_id": "bank-hapoalim",
+      "title_he": "תמהיל מסלולים",
+      "png": "assets/season-1/cards-wave2-he/bank-hapoalim/04-mortgage-mix.png",
+      "webp": "assets/season-1/cards-wave2-he/bank-hapoalim/04-mortgage-mix.webp",
+      "prompt_file": "tmp/imagegen/bank-hapoalim-cards/04-bank-hapoalim-04-mortgage-mix.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0052629ba88191840d96dc25a0bb9f.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T10:45:48.824687+00:00"
+    },
+    {
+      "card_id": "bank-hapoalim-05-prime-track",
+      "pack_id": "bank-hapoalim",
+      "title_he": "מסלול פריים",
+      "png": "assets/season-1/cards-wave2-he/bank-hapoalim/05-prime-track.png",
+      "webp": "assets/season-1/cards-wave2-he/bank-hapoalim/05-prime-track.webp",
+      "prompt_file": "tmp/imagegen/bank-hapoalim-cards/05-bank-hapoalim-05-prime-track.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0052d3d8748191814333b463e74818.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T10:45:48.824687+00:00"
+    },
+    {
+      "card_id": "bank-hapoalim-06-fixed-rate",
+      "pack_id": "bank-hapoalim",
+      "title_he": "ריבית קבועה",
+      "png": "assets/season-1/cards-wave2-he/bank-hapoalim/06-fixed-rate.png",
+      "webp": "assets/season-1/cards-wave2-he/bank-hapoalim/06-fixed-rate.webp",
+      "prompt_file": "tmp/imagegen/bank-hapoalim-cards/06-bank-hapoalim-06-fixed-rate.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a005393ab7081918ef1f3da08c9f174.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T10:45:48.824687+00:00"
+    },
+    {
+      "card_id": "bank-hapoalim-07-variable-rate",
+      "pack_id": "bank-hapoalim",
+      "title_he": "ריבית משתנה",
+      "png": "assets/season-1/cards-wave2-he/bank-hapoalim/07-variable-rate.png",
+      "webp": "assets/season-1/cards-wave2-he/bank-hapoalim/07-variable-rate.webp",
+      "prompt_file": "tmp/imagegen/bank-hapoalim-cards/07-bank-hapoalim-07-variable-rate.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0053eb25ac8191933e0c334dee9286.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T10:45:48.824687+00:00"
+    },
+    {
+      "card_id": "bank-hapoalim-08-index-linked",
+      "pack_id": "bank-hapoalim",
+      "title_he": "הצמדה למדד",
+      "png": "assets/season-1/cards-wave2-he/bank-hapoalim/08-index-linked.png",
+      "webp": "assets/season-1/cards-wave2-he/bank-hapoalim/08-index-linked.webp",
+      "prompt_file": "tmp/imagegen/bank-hapoalim-cards/08-bank-hapoalim-08-index-linked.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00600b350c81919a7f6cabd36a0ec9.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T10:45:48.824687+00:00"
+    },
+    {
+      "card_id": "bank-hapoalim-09-refinance",
+      "pack_id": "bank-hapoalim",
+      "title_he": "מחזור משכנתא",
+      "png": "assets/season-1/cards-wave2-he/bank-hapoalim/09-refinance.png",
+      "webp": "assets/season-1/cards-wave2-he/bank-hapoalim/09-refinance.webp",
+      "prompt_file": "tmp/imagegen/bank-hapoalim-cards/09-bank-hapoalim-09-refinance.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0060abfe948191aee9d64940f61493.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T10:45:48.824687+00:00"
+    },
+    {
+      "card_id": "bank-hapoalim-10-collateral-appraisal",
+      "pack_id": "bank-hapoalim",
+      "title_he": "ביטחונות ושמאות",
+      "png": "assets/season-1/cards-wave2-he/bank-hapoalim/10-collateral-appraisal.png",
+      "webp": "assets/season-1/cards-wave2-he/bank-hapoalim/10-collateral-appraisal.webp",
+      "prompt_file": "tmp/imagegen/bank-hapoalim-cards/10-bank-hapoalim-10-collateral-appraisal.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00611072ec8191b018164df290e9dc.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T10:45:48.824687+00:00"
     }
   ]
 }

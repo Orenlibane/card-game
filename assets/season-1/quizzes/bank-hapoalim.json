@@ -143,6 +143,15 @@
           "correct_answer_index": 0,
           "source_fact_he": "ההחזר נפרס על פני שנים"
         }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0042bbc4ac8191b1f13bcc7d7e23e6.png",
+        "project_png": "assets/season-1/cards-wave2-he/bank-hapoalim/02-mortgage.png",
+        "project_webp": "assets/season-1/cards-wave2-he/bank-hapoalim/02-mortgage.webp",
+        "prompt_file": "tmp/imagegen/bank-hapoalim-cards/02-bank-hapoalim-02-mortgage.txt",
+        "updated_at": "2026-05-10T10:45:48.824687+00:00"
       }
     },
     {
@@ -197,6 +206,15 @@
           "correct_answer_index": 0,
           "source_fact_he": "מבוסס על פרטים שמוסרים לבנק"
         }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0043140ab081919121a80693daac81.png",
+        "project_png": "assets/season-1/cards-wave2-he/bank-hapoalim/03-pre-approval.png",
+        "project_webp": "assets/season-1/cards-wave2-he/bank-hapoalim/03-pre-approval.webp",
+        "prompt_file": "tmp/imagegen/bank-hapoalim-cards/03-bank-hapoalim-03-pre-approval.txt",
+        "updated_at": "2026-05-10T10:45:48.824687+00:00"
       }
     },
     {
@@ -251,6 +269,15 @@
           "correct_answer_index": 0,
           "source_fact_he": "כל מסלול מתנהג אחרת לאורך זמן"
         }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0052629ba88191840d96dc25a0bb9f.png",
+        "project_png": "assets/season-1/cards-wave2-he/bank-hapoalim/04-mortgage-mix.png",
+        "project_webp": "assets/season-1/cards-wave2-he/bank-hapoalim/04-mortgage-mix.webp",
+        "prompt_file": "tmp/imagegen/bank-hapoalim-cards/04-bank-hapoalim-04-mortgage-mix.txt",
+        "updated_at": "2026-05-10T10:45:48.824687+00:00"
       }
     },
     {
@@ -305,6 +332,15 @@
           "correct_answer_index": 0,
           "source_fact_he": "השינוי תלוי בריבית הפריים"
         }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0052d3d8748191814333b463e74818.png",
+        "project_png": "assets/season-1/cards-wave2-he/bank-hapoalim/05-prime-track.png",
+        "project_webp": "assets/season-1/cards-wave2-he/bank-hapoalim/05-prime-track.webp",
+        "prompt_file": "tmp/imagegen/bank-hapoalim-cards/05-bank-hapoalim-05-prime-track.txt",
+        "updated_at": "2026-05-10T10:45:48.824687+00:00"
       }
     },
     {
@@ -359,6 +395,15 @@
           "correct_answer_index": 0,
           "source_fact_he": "החזר צפוי עוזר לתכנון"
         }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a005393ab7081918ef1f3da08c9f174.png",
+        "project_png": "assets/season-1/cards-wave2-he/bank-hapoalim/06-fixed-rate.png",
+        "project_webp": "assets/season-1/cards-wave2-he/bank-hapoalim/06-fixed-rate.webp",
+        "prompt_file": "tmp/imagegen/bank-hapoalim-cards/06-bank-hapoalim-06-fixed-rate.txt",
+        "updated_at": "2026-05-10T10:45:48.824687+00:00"
       }
     },
     {
@@ -413,6 +458,15 @@
           "correct_answer_index": 0,
           "source_fact_he": "ההחזר יכול לעלות או לרדת"
         }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0053eb25ac8191933e0c334dee9286.png",
+        "project_png": "assets/season-1/cards-wave2-he/bank-hapoalim/07-variable-rate.png",
+        "project_webp": "assets/season-1/cards-wave2-he/bank-hapoalim/07-variable-rate.webp",
+        "prompt_file": "tmp/imagegen/bank-hapoalim-cards/07-bank-hapoalim-07-variable-rate.txt",
+        "updated_at": "2026-05-10T10:45:48.824687+00:00"
       }
     },
     {
@@ -467,6 +521,15 @@
           "correct_answer_index": 0,
           "source_fact_he": "מדד עולה משפיע על יתרה"
         }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00600b350c81919a7f6cabd36a0ec9.png",
+        "project_png": "assets/season-1/cards-wave2-he/bank-hapoalim/08-index-linked.png",
+        "project_webp": "assets/season-1/cards-wave2-he/bank-hapoalim/08-index-linked.webp",
+        "prompt_file": "tmp/imagegen/bank-hapoalim-cards/08-bank-hapoalim-08-index-linked.txt",
+        "updated_at": "2026-05-10T10:45:48.824687+00:00"
       }
     },
     {
@@ -521,6 +584,15 @@
           "correct_answer_index": 0,
           "source_fact_he": "מטרת המחזור היא התאמה מחדש"
         }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a0060abfe948191aee9d64940f61493.png",
+        "project_png": "assets/season-1/cards-wave2-he/bank-hapoalim/09-refinance.png",
+        "project_webp": "assets/season-1/cards-wave2-he/bank-hapoalim/09-refinance.webp",
+        "prompt_file": "tmp/imagegen/bank-hapoalim-cards/09-bank-hapoalim-09-refinance.txt",
+        "updated_at": "2026-05-10T10:45:48.824687+00:00"
       }
     },
     {
@@ -575,6 +647,15 @@
           "correct_answer_index": 0,
           "source_fact_he": "שמאות מעריכה את שווי הדירה"
         }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00611072ec8191b018164df290e9dc.png",
+        "project_png": "assets/season-1/cards-wave2-he/bank-hapoalim/10-collateral-appraisal.png",
+        "project_webp": "assets/season-1/cards-wave2-he/bank-hapoalim/10-collateral-appraisal.webp",
+        "prompt_file": "tmp/imagegen/bank-hapoalim-cards/10-bank-hapoalim-10-collateral-appraisal.txt",
+        "updated_at": "2026-05-10T10:45:48.824687+00:00"
       }
     }
   ],

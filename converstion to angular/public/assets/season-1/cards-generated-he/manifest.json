@@ -1,0 +1,188 @@
+{
+  "season": 1,
+  "brand_he": "אוספים עובדות",
+  "source": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624",
+  "generation_mode_he": "כל קלף נוצר כתמונה עצמאית אחת",
+  "cards": [
+    {
+      "pack": "animals",
+      "title_he": "חתול",
+      "png": "assets/season-1/cards-generated-he/animals/01-cat.png",
+      "webp": "assets/season-1/cards-generated-he/animals/01-cat.webp"
+    },
+    {
+      "pack": "animals",
+      "title_he": "כלב",
+      "png": "assets/season-1/cards-generated-he/animals/02-dog.png",
+      "webp": "assets/season-1/cards-generated-he/animals/02-dog.webp"
+    },
+    {
+      "pack": "animals",
+      "title_he": "ארנב",
+      "png": "assets/season-1/cards-generated-he/animals/03-rabbit.png",
+      "webp": "assets/season-1/cards-generated-he/animals/03-rabbit.webp"
+    },
+    {
+      "pack": "animals",
+      "title_he": "פיל",
+      "png": "assets/season-1/cards-generated-he/animals/04-elephant.png",
+      "webp": "assets/season-1/cards-generated-he/animals/04-elephant.webp"
+    },
+    {
+      "pack": "animals",
+      "title_he": "ג׳ירפה",
+      "png": "assets/season-1/cards-generated-he/animals/05-giraffe.png",
+      "webp": "assets/season-1/cards-generated-he/animals/05-giraffe.webp"
+    },
+    {
+      "pack": "animals",
+      "title_he": "צב",
+      "png": "assets/season-1/cards-generated-he/animals/06-turtle.png",
+      "webp": "assets/season-1/cards-generated-he/animals/06-turtle.webp"
+    },
+    {
+      "pack": "animals",
+      "title_he": "דולפין",
+      "png": "assets/season-1/cards-generated-he/animals/07-dolphin.png",
+      "webp": "assets/season-1/cards-generated-he/animals/07-dolphin.webp"
+    },
+    {
+      "pack": "animals",
+      "title_he": "פרפר",
+      "png": "assets/season-1/cards-generated-he/animals/08-butterfly.png",
+      "webp": "assets/season-1/cards-generated-he/animals/08-butterfly.webp"
+    },
+    {
+      "pack": "animals",
+      "title_he": "פינגווין",
+      "png": "assets/season-1/cards-generated-he/animals/09-penguin.png",
+      "webp": "assets/season-1/cards-generated-he/animals/09-penguin.webp"
+    },
+    {
+      "pack": "animals",
+      "title_he": "כריש",
+      "png": "assets/season-1/cards-generated-he/animals/10-shark.png",
+      "webp": "assets/season-1/cards-generated-he/animals/10-shark.webp"
+    },
+    {
+      "pack": "crystals",
+      "title_he": "קוורץ",
+      "png": "assets/season-1/cards-generated-he/crystals/01-quartz.png",
+      "webp": "assets/season-1/cards-generated-he/crystals/01-quartz.webp"
+    },
+    {
+      "pack": "crystals",
+      "title_he": "אמטיסט",
+      "png": "assets/season-1/cards-generated-he/crystals/02-amethyst.png",
+      "webp": "assets/season-1/cards-generated-he/crystals/02-amethyst.webp"
+    },
+    {
+      "pack": "crystals",
+      "title_he": "טורמלין",
+      "png": "assets/season-1/cards-generated-he/crystals/03-tourmaline.png",
+      "webp": "assets/season-1/cards-generated-he/crystals/03-tourmaline.webp"
+    },
+    {
+      "pack": "crystals",
+      "title_he": "פיריט",
+      "png": "assets/season-1/cards-generated-he/crystals/04-pyrite.png",
+      "webp": "assets/season-1/cards-generated-he/crystals/04-pyrite.webp"
+    },
+    {
+      "pack": "crystals",
+      "title_he": "אובסידיאן",
+      "png": "assets/season-1/cards-generated-he/crystals/05-obsidian.png",
+      "webp": "assets/season-1/cards-generated-he/crystals/05-obsidian.webp"
+    },
+    {
+      "pack": "crystals",
+      "title_he": "גרניט",
+      "png": "assets/season-1/cards-generated-he/crystals/06-granite.png",
+      "webp": "assets/season-1/cards-generated-he/crystals/06-granite.webp"
+    },
+    {
+      "pack": "crystals",
+      "title_he": "בזלת",
+      "png": "assets/season-1/cards-generated-he/crystals/07-basalt.png",
+      "webp": "assets/season-1/cards-generated-he/crystals/07-basalt.webp"
+    },
+    {
+      "pack": "crystals",
+      "title_he": "יהלום",
+      "png": "assets/season-1/cards-generated-he/crystals/08-diamond.png",
+      "webp": "assets/season-1/cards-generated-he/crystals/08-diamond.webp"
+    },
+    {
+      "pack": "crystals",
+      "title_he": "מלח סלעים",
+      "png": "assets/season-1/cards-generated-he/crystals/09-rock-salt.png",
+      "webp": "assets/season-1/cards-generated-he/crystals/09-rock-salt.webp"
+    },
+    {
+      "pack": "crystals",
+      "title_he": "מאובן מינרלי",
+      "png": "assets/season-1/cards-generated-he/crystals/10-mineral-fossil.png",
+      "webp": "assets/season-1/cards-generated-he/crystals/10-mineral-fossil.webp"
+    },
+    {
+      "pack": "security",
+      "title_he": "חילוץ והצלה",
+      "png": "assets/season-1/cards-generated-he/security/01-rescue.png",
+      "webp": "assets/season-1/cards-generated-he/security/01-rescue.webp"
+    },
+    {
+      "pack": "security",
+      "title_he": "מודיעין",
+      "png": "assets/season-1/cards-generated-he/security/02-intelligence.png",
+      "webp": "assets/season-1/cards-generated-he/security/02-intelligence.webp"
+    },
+    {
+      "pack": "security",
+      "title_he": "חיל האוויר",
+      "png": "assets/season-1/cards-generated-he/security/03-air-force.png",
+      "webp": "assets/season-1/cards-generated-he/security/03-air-force.webp"
+    },
+    {
+      "pack": "security",
+      "title_he": "חיל הים",
+      "png": "assets/season-1/cards-generated-he/security/04-navy.png",
+      "webp": "assets/season-1/cards-generated-he/security/04-navy.webp"
+    },
+    {
+      "pack": "security",
+      "title_he": "חיל הרפואה",
+      "png": "assets/season-1/cards-generated-he/security/05-medical-corps.png",
+      "webp": "assets/season-1/cards-generated-he/security/05-medical-corps.webp"
+    },
+    {
+      "pack": "security",
+      "title_he": "כיפת ברזל",
+      "png": "assets/season-1/cards-generated-he/security/06-iron-dome.png",
+      "webp": "assets/season-1/cards-generated-he/security/06-iron-dome.webp"
+    },
+    {
+      "pack": "security",
+      "title_he": "לוחמה בסייבר",
+      "png": "assets/season-1/cards-generated-he/security/07-cyber-warfare.png",
+      "webp": "assets/season-1/cards-generated-he/security/07-cyber-warfare.webp"
+    },
+    {
+      "pack": "security",
+      "title_he": "לוגיסטיקה",
+      "png": "assets/season-1/cards-generated-he/security/08-logistics.png",
+      "webp": "assets/season-1/cards-generated-he/security/08-logistics.webp"
+    },
+    {
+      "pack": "security",
+      "title_he": "פיקוד העורף",
+      "png": "assets/season-1/cards-generated-he/security/09-home-front-command.png",
+      "webp": "assets/season-1/cards-generated-he/security/09-home-front-command.webp"
+    },
+    {
+      "pack": "security",
+      "title_he": "אתיקה צבאית",
+      "png": "assets/season-1/cards-generated-he/security/10-military-ethics.png",
+      "webp": "assets/season-1/cards-generated-he/security/10-military-ethics.webp"
+    }
+  ]
+}

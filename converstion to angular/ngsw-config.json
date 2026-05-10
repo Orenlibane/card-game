@@ -1,0 +1,44 @@
+{
+  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/manifest.webmanifest",
+          "/*.css",
+          "/*.js"
+        ]
+      }
+    },
+    {
+      "name": "season-assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/icons/**",
+          "/assets/season-1/**"
+        ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "backend-api",
+      "urls": [
+        "https://fact-collectors-backend-production.up.railway.app/api/**"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 80,
+        "maxAge": "1h",
+        "timeout": "5s"
+      }
+    }
+  ]
+}

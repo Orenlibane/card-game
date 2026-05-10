@@ -1,0 +1,1042 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>אוספים עובדות - ארכיטקטורת MVP</title>
+  <style>
+    :root {
+      --ink: #182233;
+      --muted: #687385;
+      --paper: #f6f0e4;
+      --surface: #fffaf0;
+      --surface-2: #f0e6d3;
+      --line: rgba(24, 34, 51, .14);
+      --teal: #159a91;
+      --gold: #e7ad2f;
+      --coral: #d85d58;
+      --blue: #356dc8;
+      --green: #478b4d;
+      --dark: #172033;
+      --shadow: 0 22px 70px rgba(24, 34, 51, .16);
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Arial, "Noto Sans Hebrew", system-ui, sans-serif;
+      background:
+        radial-gradient(circle at 8% 12%, rgba(21,154,145,.16), transparent 20rem),
+        radial-gradient(circle at 88% 8%, rgba(231,173,47,.2), transparent 18rem),
+        linear-gradient(180deg, #fff8eb 0%, var(--paper) 48%, #e8dcc9 100%);
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      opacity: .42;
+      background:
+        linear-gradient(90deg, rgba(24,34,51,.045) 1px, transparent 1px) 0 0 / 32px 32px,
+        linear-gradient(0deg, rgba(24,34,51,.035) 1px, transparent 1px) 0 0 / 32px 32px;
+      mask-image: linear-gradient(180deg, #000 0%, transparent 78%);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .shell {
+      width: min(1360px, calc(100% - 28px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      margin: 14px auto 0;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border: 1px solid rgba(255,255,255,.7);
+      border-radius: var(--radius);
+      background: rgba(255, 250, 240, .82);
+      box-shadow: 0 14px 44px rgba(24, 34, 51, .1);
+      backdrop-filter: blur(16px);
+    }
+
+    .brand {
+      display: grid;
+      gap: 2px;
+      padding-inline: 8px;
+    }
+
+    .brand strong {
+      font-size: 1.18rem;
+      line-height: 1;
+    }
+
+    .brand span {
+      color: var(--muted);
+      font-size: .86rem;
+      font-weight: 700;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .nav a,
+    .action {
+      min-height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.72);
+      color: var(--ink);
+      font-weight: 900;
+      transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+    }
+
+    .nav a:hover,
+    .action:hover {
+      transform: translateY(-2px);
+      border-color: rgba(21,154,145,.4);
+      background: #fff;
+    }
+
+    .hero {
+      min-height: calc(100svh - 82px);
+      display: grid;
+      grid-template-columns: minmax(0, .95fr) minmax(320px, .8fr);
+      align-items: center;
+      gap: 42px;
+      padding: 38px 0 30px;
+    }
+
+    .hero-copy {
+      display: grid;
+      gap: 18px;
+      animation: rise .5s ease both;
+    }
+
+    .eyebrow {
+      width: fit-content;
+      margin: 0;
+      padding: 7px 10px;
+      border: 1px solid rgba(21,154,145,.26);
+      border-radius: var(--radius);
+      color: #0e6f69;
+      background: rgba(21,154,145,.1);
+      font-size: .92rem;
+      font-weight: 900;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      max-width: 900px;
+      font-size: clamp(3rem, 8vw, 7.6rem);
+      line-height: .9;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 700px;
+      color: #465264;
+      font-size: clamp(1.04rem, 2vw, 1.22rem);
+      font-weight: 700;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 4px;
+    }
+
+    .primary {
+      border-color: transparent;
+      color: #fff;
+      background: linear-gradient(180deg, #1aa79b, #11756f);
+      box-shadow: 0 12px 30px rgba(17,117,111,.26);
+    }
+
+    .primary:hover {
+      background: linear-gradient(180deg, #1bb3a7, #11756f);
+    }
+
+    .hero-art {
+      position: relative;
+      min-height: 520px;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      animation: floatIn .68s ease both;
+    }
+
+    .art-disc {
+      position: absolute;
+      inset: 8% 0 7% 0;
+      border-radius: 999px;
+      background:
+        linear-gradient(135deg, rgba(21,154,145,.18), rgba(231,173,47,.2)),
+        #fdf4dc;
+      box-shadow: inset 0 0 0 1px rgba(24,34,51,.08), var(--shadow);
+    }
+
+    .pack-image,
+    .card-image {
+      position: absolute;
+      width: min(44vw, 290px);
+      border-radius: 14px;
+      box-shadow: 0 20px 46px rgba(24, 34, 51, .26);
+      transform-origin: center bottom;
+    }
+
+    .pack-image {
+      right: 12%;
+      top: 13%;
+      transform: rotate(7deg);
+    }
+
+    .card-image {
+      left: 10%;
+      bottom: 10%;
+      width: min(38vw, 230px);
+      transform: rotate(-8deg);
+    }
+
+    .mini-board {
+      position: absolute;
+      left: 2%;
+      right: auto;
+      top: 8%;
+      width: min(45%, 220px);
+      padding: 14px;
+      border: 1px solid rgba(255,255,255,.7);
+      border-radius: var(--radius);
+      background: rgba(255,250,240,.86);
+      box-shadow: 0 18px 42px rgba(24,34,51,.14);
+    }
+
+    .mini-board b {
+      display: block;
+      font-size: 1.05rem;
+    }
+
+    .mini-board span {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: .9rem;
+      font-weight: 700;
+    }
+
+    main {
+      padding: 10px 0 70px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin: 0 0 26px;
+    }
+
+    .stat {
+      min-width: 0;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,250,240,.8);
+      box-shadow: 0 12px 38px rgba(24,34,51,.08);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: clamp(2rem, 5vw, 3.1rem);
+      line-height: 1;
+    }
+
+    .stat span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, .58fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .stack {
+      display: grid;
+      gap: 18px;
+      min-width: 0;
+    }
+
+    section {
+      scroll-margin-top: 86px;
+    }
+
+    .panel {
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,250,240,.86);
+      box-shadow: 0 16px 46px rgba(24,34,51,.1);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 16px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(90deg, rgba(21,154,145,.08), transparent 64%);
+    }
+
+    .panel-head h2 {
+      font-size: clamp(1.45rem, 3vw, 2.2rem);
+      line-height: 1.05;
+    }
+
+    .panel-head p {
+      max-width: 620px;
+      margin-top: 5px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .status {
+      white-space: nowrap;
+      padding: 7px 10px;
+      border-radius: var(--radius);
+      color: #fff;
+      background: var(--dark);
+      font-size: .86rem;
+      font-weight: 900;
+    }
+
+    .status.done { background: var(--green); }
+    .status.partial { background: var(--gold); color: #513b00; }
+    .status.missing { background: var(--coral); }
+    .status.empty { background: #6c7380; }
+
+    .list {
+      display: grid;
+      gap: 1px;
+      background: var(--line);
+    }
+
+    .row {
+      min-width: 0;
+      display: grid;
+      grid-template-columns: minmax(160px, .42fr) minmax(0, 1fr) auto;
+      gap: 14px;
+      align-items: center;
+      padding: 15px 18px;
+      background: rgba(255,250,240,.95);
+    }
+
+    .row b {
+      font-size: 1rem;
+    }
+
+    .row p {
+      color: var(--muted);
+      font-size: .95rem;
+      font-weight: 700;
+    }
+
+    .flow {
+      padding: 20px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .flow-line {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      align-items: stretch;
+    }
+
+    .node {
+      position: relative;
+      min-height: 132px;
+      padding: 16px;
+      border: 1px solid rgba(24,34,51,.14);
+      border-radius: var(--radius);
+      background: #fff;
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .node:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 34px rgba(24,34,51,.12);
+    }
+
+    .node small {
+      display: block;
+      color: var(--teal);
+      font-weight: 900;
+    }
+
+    .node b {
+      display: block;
+      margin-top: 8px;
+      font-size: 1.05rem;
+    }
+
+    .node p {
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: .9rem;
+      font-weight: 700;
+    }
+
+    .target {
+      background: #182233;
+      color: #fff8eb;
+    }
+
+    .target p {
+      color: #ced6df;
+    }
+
+    .target small {
+      color: #ffd15d;
+    }
+
+    .packs {
+      padding: 18px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .pack-chip {
+      min-width: 0;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+    }
+
+    .pack-chip b,
+    .pack-chip span {
+      display: block;
+      overflow-wrap: anywhere;
+    }
+
+    .pack-chip b {
+      font-size: .98rem;
+    }
+
+    .pack-chip span {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: .86rem;
+      font-weight: 800;
+    }
+
+    .store {
+      position: sticky;
+      top: 88px;
+      display: grid;
+      gap: 12px;
+      padding: 18px;
+      border: 1px solid rgba(24,34,51,.16);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(180deg, rgba(53,109,200,.08), transparent 42%),
+        rgba(255,250,240,.92);
+      box-shadow: var(--shadow);
+    }
+
+    .store h2 {
+      font-size: clamp(1.6rem, 4vw, 2.6rem);
+      line-height: 1;
+    }
+
+    .empty-shelf {
+      min-height: 220px;
+      display: grid;
+      place-items: center;
+      padding: 22px;
+      border: 2px dashed rgba(24,34,51,.2);
+      border-radius: var(--radius);
+      background:
+        repeating-linear-gradient(90deg, rgba(24,34,51,.04) 0 1px, transparent 1px 24px),
+        #fff;
+      text-align: center;
+    }
+
+    .empty-shelf b {
+      display: block;
+      font-size: 1.25rem;
+    }
+
+    .empty-shelf span {
+      display: block;
+      max-width: 290px;
+      margin-top: 8px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .store-slots {
+      display: grid;
+      gap: 8px;
+    }
+
+    .slot {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.72);
+      color: var(--muted);
+      font-weight: 900;
+    }
+
+    .roadmap {
+      padding: 18px 20px 20px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .step {
+      position: relative;
+      display: grid;
+      grid-template-columns: 42px minmax(0, 1fr);
+      gap: 12px;
+      align-items: start;
+    }
+
+    .step i {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: var(--radius);
+      background: #fff;
+      color: var(--teal);
+      font-style: normal;
+      font-weight: 900;
+      box-shadow: inset 0 0 0 1px var(--line);
+    }
+
+    .step b {
+      display: block;
+      padding-top: 1px;
+    }
+
+    .step span {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: .94rem;
+      font-weight: 700;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding: 18px 0 0;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes floatIn {
+      from { opacity: 0; transform: translateY(24px) scale(.98); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @media (max-width: 1060px) {
+      .hero,
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: auto;
+        padding-top: 34px;
+      }
+
+      .hero-art {
+        min-height: 430px;
+      }
+
+      .store {
+        position: static;
+      }
+
+      .flow-line {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 760px) {
+      .shell {
+        width: min(100% - 18px, 1360px);
+      }
+
+      .topbar {
+        position: static;
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .nav {
+        justify-content: stretch;
+      }
+
+      .nav a {
+        flex: 1 1 140px;
+      }
+
+      h1 {
+        font-size: clamp(2.75rem, 17vw, 4.2rem);
+      }
+
+      .hero-art {
+        min-height: 360px;
+      }
+
+      .mini-board {
+        width: 52%;
+        left: 0;
+        top: 0;
+      }
+
+      .pack-image {
+        right: 4%;
+        width: min(58vw, 240px);
+      }
+
+      .card-image {
+        left: 4%;
+        width: min(46vw, 190px);
+      }
+
+      .stats,
+      .packs {
+        grid-template-columns: 1fr;
+      }
+
+      .row {
+        grid-template-columns: 1fr;
+        gap: 7px;
+      }
+
+      .row .status {
+        width: fit-content;
+      }
+
+      .panel-head {
+        display: grid;
+        align-items: start;
+      }
+
+      .flow-line {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 1ms !important;
+        transition-duration: 1ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar shell">
+    <a class="brand" href="index.html" aria-label="חזרה למרכז המשחק">
+      <strong>אוספים עובדות</strong>
+      <span>ארכיטקטורת MVP</span>
+    </a>
+    <nav class="nav" aria-label="ניווט עמוד">
+      <a href="#current">מה קיים</a>
+      <a href="#missing">מה חסר</a>
+      <a href="#architecture">ארכיטקטורה</a>
+      <a href="#store">חנות</a>
+      <a href="backend-architecture.html">קליינט/בקאנד</a>
+      <a href="mvp.html">פתח MVP</a>
+    </nav>
+  </header>
+
+  <section class="hero shell" aria-labelledby="pageTitle">
+    <div class="hero-copy">
+      <p class="eyebrow">מסמך עבודה חי</p>
+      <h1 id="pageTitle">מפת הארכיטקטורה של המשחק</h1>
+      <p class="lead">תמונת מצב אחת למה שבנוי עכשיו, מה עדיין חסר לפי האפיון, ואיפה החנות תיכנס ללופ של פתיחת חבילה, בחירת קלף, בוחן וקבלת בעלות.</p>
+      <div class="hero-actions">
+        <a class="action primary" href="#current">בדוק מצב קיים</a>
+        <a class="action" href="#missing">ראה פערים ל-MVP</a>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-label="תצוגת נכסי חבילה וקלף">
+      <div class="art-disc" aria-hidden="true"></div>
+      <img class="pack-image" src="assets/season-1/packs-native-he/pack-native-animals.webp" width="512" height="716" alt="חבילת חיות">
+      <img class="card-image" src="assets/season-1/cards-native-he/animals/01-cat.webp" width="512" height="716" alt="קלף חתול">
+      <div class="mini-board">
+        <b>הלופ המרכזי</b>
+        <span>חבילה נפתחת, 10 קלפים נחשפים, בוחרים קלף, עוברים בוחן, ומקבלים בעלות.</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="shell">
+    <section class="stats" aria-label="מדדי מצב">
+      <div class="stat">
+        <strong id="packCount">13</strong>
+        <span>חבילות שמישות ב-MVP</span>
+      </div>
+      <div class="stat">
+        <strong id="cardCount">130</strong>
+        <span>קלפים עם נכסי תמונה</span>
+      </div>
+      <div class="stat">
+        <strong id="questionCount">10</strong>
+        <span>קלפים עם 10 שאלות אמיתיות</span>
+      </div>
+      <div class="stat">
+        <strong id="excludedCount">8</strong>
+        <span>חבילות מחוץ לבילד כרגע</span>
+      </div>
+    </section>
+
+    <div class="grid">
+      <div class="stack">
+        <section class="panel" id="current" aria-labelledby="currentTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="currentTitle">מה יש כרגע</h2>
+              <p>הפרויקט הוא אבטיפוס סטטי מתקדם: HTML, דאטה מג'ונרט, נכסי WebP, מצב משחק ב-localStorage, ושרת פיתוח קטן.</p>
+            </div>
+            <span class="status partial">MVP בתנועה</span>
+          </div>
+          <div class="list">
+            <div class="row">
+              <b>מסך משחק מחובר</b>
+              <p>`mvp.html` כולל פתיחת חבילה, אלבום, בחירת קלף, בוחן של 10 שאלות, סף הצלחה 80%, מטבעות וקירור ניסיון.</p>
+              <span class="status done">קיים</span>
+            </div>
+            <div class="row">
+              <b>דאטה מרכזי</b>
+              <p>`scripts/build-mvp-data.mjs` מייצר `game-data.json/js` מתוך חבילות, קלפים, נכסים ושאלות מיובאות.</p>
+              <span class="status done">קיים</span>
+            </div>
+            <div class="row">
+              <b>שאלות אמיתיות</b>
+              <p>חבילת חיות קיבלה 100 שאלות אמיתיות. שאר החבילות עדיין משתמשות בשאלות fallback שנוצרות מהעובדות.</p>
+              <span class="status partial">חלקי</span>
+            </div>
+            <div class="row">
+              <b>נכסי עונה 1</b>
+              <p>קיימים קלפים וחבילות במספר סטים: native, generated, tech, wave2. הבילד מכניס רק חבילות שלמות.</p>
+              <span class="status done">קיים</span>
+            </div>
+            <div class="row">
+              <b>עמודי עזר</b>
+              <p>`index.html`, `binder-demo.html`, `quiz-preview.html`, `spec.html`, `project-structure.html` ועמוד זה.</p>
+              <span class="status done">קיים</span>
+            </div>
+            <div class="row">
+              <b>חנות</b>
+              <p>אין עדיין מסך חנות פעיל, קטלוג מוצרים, רכישה, מחירים דינמיים או סנכרון לכלכלה.</p>
+              <span class="status empty">ריק</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="architecture" aria-labelledby="architectureTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="architectureTitle">ארכיטקטורה נוכחית מול יעד</h2>
+              <p>כרגע הכל רץ מקומית בדפדפן. לפי האפיון, היעד הוא PWA עם backend סמכותי, אימות, אחסון נכסים וכלכלה מאובטחת.</p>
+            </div>
+            <span class="status partial">מעבר עתידי</span>
+          </div>
+          <div class="flow">
+            <div class="flow-line" aria-label="מצב נוכחי">
+              <div class="node">
+                <small>עכשיו</small>
+                <b>HTML סטטי</b>
+                <p>מסכי משחק ואבטיפוס ללא framework.</p>
+              </div>
+              <div class="node">
+                <small>דאטה</small>
+                <b>game-data.js</b>
+                <p>קובץ אחד נטען לדפדפן ומכיל עונה, חבילות, קלפים ושאלות.</p>
+              </div>
+              <div class="node">
+                <small>מצב</small>
+                <b>localStorage</b>
+                <p>שמירת מטבעות, קלפים שנחשפו, בעלות וקירור ניסיון.</p>
+              </div>
+              <div class="node">
+                <small>נכסים</small>
+                <b>WebP מקומי</b>
+                <p>תמונות קלפים וחבילות מתוך תיקיית assets.</p>
+              </div>
+              <div class="node">
+                <small>בדיקה</small>
+                <b>server.mjs</b>
+                <p>שרת פיתוח קטן עם cache ידידותי לדאטה.</p>
+              </div>
+            </div>
+
+            <div class="flow-line" aria-label="ארכיטקטורת יעד">
+              <div class="node target">
+                <small>יעד</small>
+                <b>Angular PWA</b>
+                <p>Shell רספונסיבי, offline, התקנה למסך בית ו-state ב-Signals.</p>
+              </div>
+              <div class="node target">
+                <small>חוויה</small>
+                <b>Three.js</b>
+                <p>פתיחת חבילות, קלפים תלת-ממדיים, פרלקסה ואפקטים.</p>
+              </div>
+              <div class="node target">
+                <small>שרת</small>
+                <b>Railway API</b>
+                <p>שכבת BFF, rate limit, orchestration וקריאות מאובטחות.</p>
+              </div>
+              <div class="node target">
+                <small>אמת</small>
+                <b>Supabase</b>
+                <p>Auth, PostgreSQL, Edge Functions, ולידציה ופתיחת חבילות.</p>
+              </div>
+              <div class="node target">
+                <small>מפעל</small>
+                <b>Asset Pipeline</b>
+                <p>יצירת נכסים בעברית, אופטימיזציה, manifests וטעינה ל-storage.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="missing" aria-labelledby="missingTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="missingTitle">מה חסר לפי האפיון</h2>
+              <p>הפערים מחולקים למה שחייבים כדי להפוך את האבטיפוס למשחק MVP יציב, ומה ששייך לשלב production.</p>
+            </div>
+            <span class="status missing">פערים פתוחים</span>
+          </div>
+          <div class="list">
+            <div class="row">
+              <b>חנות וכלכלה</b>
+              <p>מסך חנות, מחירי חבילות, קטלוג מוצרים, רכישה במטבעות מוח, rewards, מגבלות רכישה ומקור אמת ליתרות.</p>
+              <span class="status missing">חסר</span>
+            </div>
+            <div class="row">
+              <b>Backend סמכותי</b>
+              <p>פתיחת חבילות, RNG, בדיקת תשובות, unlock ו-retry cooldown צריכים לעבור לשרת ולא להישאר רק בדפדפן.</p>
+              <span class="status missing">חסר</span>
+            </div>
+            <div class="row">
+              <b>פרופילים וגילים</b>
+              <p>Family Profile, שכבות גיל, התאמת קושי, parent account ושמירה בין מכשירים עדיין לא קיימים.</p>
+              <span class="status missing">חסר</span>
+            </div>
+            <div class="row">
+              <b>שאלות לכל קלף</b>
+              <p>צריך להשלים 10 שאלות לכל אחד מ-130 הקלפים שב-MVP, ובהמשך לכל 200 קלפי עונה 1.</p>
+              <span class="status partial">חלקי</span>
+            </div>
+            <div class="row">
+              <b>פתיחת חבילה טקסית</b>
+              <p>כרגע יש מעבר משחקי בסיסי. האפיון דורש tear, קלפים שעולים, קונפטי, סאונד, haptics ויכולת skip.</p>
+              <span class="status partial">חלקי</span>
+            </div>
+            <div class="row">
+              <b>PWA ואופליין</b>
+              <p>חסרים manifest, service worker, OPFS cache, אסטרטגיית assets ויכולת לעיין באלבום בלי רשת.</p>
+              <span class="status missing">חסר</span>
+            </div>
+            <div class="row">
+              <b>נכסי production</b>
+              <p>צריך גב עונתי, חבילות לכל הסטים, בדיקת עברית בנכסים, ורמת ליטוש אחידה לקלפים וחבילות.</p>
+              <span class="status partial">חלקי</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="packsTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="packsTitle">חבילות שנכנסות כרגע ל-MVP</h2>
+              <p>הרשימה נטענת מתוך `assets/season-1/game-data.js`, כך שהיא תתעדכן עם build הדאטה.</p>
+            </div>
+            <span class="status done">דאטה חי</span>
+          </div>
+          <div class="packs" id="packList" aria-live="polite"></div>
+        </section>
+      </div>
+
+      <aside class="stack">
+        <section class="store" id="store" aria-labelledby="storeTitle">
+          <div>
+            <span class="status empty">ריק כרגע</span>
+            <h2 id="storeTitle">חנות</h2>
+            <p class="lead">אזור מיועד לחנות המשחק: חבילות, מטבעות מוח, מבצעי עונה ופריטים עתידיים.</p>
+          </div>
+          <div class="empty-shelf">
+            <div>
+              <b>אין מוצרים בחנות עדיין</b>
+              <span>המקום שמור לקטלוג חנות אחרי שנקבע מודל כלכלה, מחיר חבילה, חבילות מומלצות ומגבלות רכישה.</span>
+            </div>
+          </div>
+          <div class="store-slots" aria-label="מקומות עתידיים בחנות">
+            <div class="slot"><span>חבילות עונה</span><b>בהמשך</b></div>
+            <div class="slot"><span>מטבעות מוח</span><b>בהמשך</b></div>
+            <div class="slot"><span>מבצעים יומיים</span><b>בהמשך</b></div>
+            <div class="slot"><span>חבילות לפי גיל</span><b>בהמשך</b></div>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="roadmapTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="roadmapTitle">סדר עבודה מומלץ</h2>
+              <p>הנתיב הקצר ביותר ל-MVP ראשוני שאפשר לשחק ולבדוק.</p>
+            </div>
+          </div>
+          <div class="roadmap">
+            <div class="step">
+              <i>1</i>
+              <div>
+                <b>להשלים שאלות לחבילות MVP</b>
+                <span>להכניס 10 שאלות לכל קלף בקבצי `card-questions`.</span>
+              </div>
+            </div>
+            <div class="step">
+              <i>2</i>
+              <div>
+                <b>לבנות חנות בסיסית</b>
+                <span>מסך חנות ריק יהפוך לקטלוג חבילות עם מחיר, יתרה וקנייה.</span>
+              </div>
+            </div>
+            <div class="step">
+              <i>3</i>
+              <div>
+                <b>להקשיח לוגיקת משחק</b>
+                <span>לעבור ממימוש מקומי למודל actions ברור שאפשר להעביר לשרת.</span>
+              </div>
+            </div>
+            <div class="step">
+              <i>4</i>
+              <div>
+                <b>להוסיף טקס פתיחה</b>
+                <span>אנימציית חבילה, reveal-all, feedback וכניסה אלבומית.</span>
+              </div>
+            </div>
+            <div class="step">
+              <i>5</i>
+              <div>
+                <b>להחליט על stack הפקה</b>
+                <span>Angular PWA, Supabase, Railway, Storage ו-pipeline נכסים.</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <p class="footer">עודכן לפי מצב הפרויקט המקומי. הנתונים המספריים נטענים מה-build הנוכחי של עונה 1.</p>
+  </main>
+
+  <script src="assets/season-1/game-data.js?v=mvp-questions-1"></script>
+  <script>
+    const data = window.MVP_GAME_DATA;
+
+    function setText(id, value) {
+      const element = document.getElementById(id);
+      if (element) element.textContent = value;
+    }
+
+    function renderData() {
+      if (!data) return;
+
+      const cards = data.packs.flatMap((pack) => pack.cards || []);
+      const customQuestionCards = cards.filter((card) => (card.mvp_questions || []).length >= data.mvp_rules.quiz_questions_per_card).length;
+
+      setText("packCount", data.packs.length);
+      setText("cardCount", cards.length);
+      setText("questionCount", customQuestionCards);
+      setText("excludedCount", data.excluded_packs.length);
+
+      const packList = document.getElementById("packList");
+      packList.innerHTML = "";
+      data.packs.forEach((pack) => {
+        const questionReady = (pack.cards || []).filter((card) => (card.mvp_questions || []).length >= data.mvp_rules.quiz_questions_per_card).length;
+        const item = document.createElement("div");
+        item.className = "pack-chip";
+        item.innerHTML = `<b>${pack.pack_title_he}</b><span>${pack.cards.length} קלפים · ${questionReady}/10 עם שאלות אמיתיות</span>`;
+        packList.append(item);
+      });
+    }
+
+    renderData();
+  </script>
+</body>
+</html>

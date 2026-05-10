@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "status_he": "סגור - תוקן לרינדור AI פרימיום עונה 1",
+  "image_policy_he": "כל קלף וכל חבילה הם קובץ תמונה סופי. HTML/CSS משמשים להצגה ואנימציה בלבד ואינם מקור הנכס.",
+  "packs": [
+    {
+      "pack_id": "colors",
+      "pack_title_he": "צבעים",
+      "domain_he": "זיהוי צבעים, גוונים ודוגמאות מהעולם",
+      "status_he": "סגור",
+      "pack_asset_path": "assets/season-1/packs-wave2-he/pack-colors.webp",
+      "quiz_path": "assets/season-1/quizzes/colors.json",
+      "contact_sheet_path": "assets/season-1/cards-wave2-he/colors-contact-sheet.webp",
+      "card_count": 10,
+      "cards": [
+        {
+          "card_id": "colors-01-red",
+          "index": 1,
+          "title_he": "אדום",
+          "asset_path": "assets/season-1/cards-wave2-he/colors/01-red.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "colors-02-blue",
+          "index": 2,
+          "title_he": "כחול",
+          "asset_path": "assets/season-1/cards-wave2-he/colors/02-blue.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "colors-03-yellow",
+          "index": 3,
+          "title_he": "צהוב",
+          "asset_path": "assets/season-1/cards-wave2-he/colors/03-yellow.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "colors-04-green",
+          "index": 4,
+          "title_he": "ירוק",
+          "asset_path": "assets/season-1/cards-wave2-he/colors/04-green.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "colors-05-orange",
+          "index": 5,
+          "title_he": "כתום",
+          "asset_path": "assets/season-1/cards-wave2-he/colors/05-orange.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "colors-06-purple",
+          "index": 6,
+          "title_he": "סגול",
+          "asset_path": "assets/season-1/cards-wave2-he/colors/06-purple.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "colors-07-pink",
+          "index": 7,
+          "title_he": "ורוד",
+          "asset_path": "assets/season-1/cards-wave2-he/colors/07-pink.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "colors-08-brown",
+          "index": 8,
+          "title_he": "חום",
+          "asset_path": "assets/season-1/cards-wave2-he/colors/08-brown.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "colors-09-black-white",
+          "index": 9,
+          "title_he": "שחור ולבן",
+          "asset_path": "assets/season-1/cards-wave2-he/colors/09-black-white.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "colors-10-rainbow",
+          "index": 10,
+          "title_he": "קשת צבעים",
+          "asset_path": "assets/season-1/cards-wave2-he/colors/10-rainbow.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        }
+      ]
+    },
+    {
+      "pack_id": "shapes",
+      "pack_title_he": "צורות",
+      "domain_he": "זיהוי צורות, פינות, קווים ודגמים",
+      "status_he": "סגור",
+      "pack_asset_path": "assets/season-1/packs-wave2-he/pack-shapes.webp",
+      "quiz_path": "assets/season-1/quizzes/shapes.json",
+      "contact_sheet_path": "assets/season-1/cards-wave2-he/shapes-contact-sheet.webp",
+      "card_count": 10,
+      "cards": [
+        {
+          "card_id": "shapes-01-circle",
+          "index": 1,
+          "title_he": "עיגול",
+          "asset_path": "assets/season-1/cards-wave2-he/shapes/01-circle.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "shapes-02-square",
+          "index": 2,
+          "title_he": "ריבוע",
+          "asset_path": "assets/season-1/cards-wave2-he/shapes/02-square.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "shapes-03-triangle",
+          "index": 3,
+          "title_he": "משולש",
+          "asset_path": "assets/season-1/cards-wave2-he/shapes/03-triangle.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "shapes-04-rectangle",
+          "index": 4,
+          "title_he": "מלבן",
+          "asset_path": "assets/season-1/cards-wave2-he/shapes/04-rectangle.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "shapes-05-star",
+          "index": 5,
+          "title_he": "כוכב",
+          "asset_path": "assets/season-1/cards-wave2-he/shapes/05-star.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "shapes-06-heart",
+          "index": 6,
+          "title_he": "לב",
+          "asset_path": "assets/season-1/cards-wave2-he/shapes/06-heart.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "shapes-07-diamond",
+          "index": 7,
+          "title_he": "מעוין",
+          "asset_path": "assets/season-1/cards-wave2-he/shapes/07-diamond.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "shapes-08-oval",
+          "index": 8,
+          "title_he": "אליפסה",
+          "asset_path": "assets/season-1/cards-wave2-he/shapes/08-oval.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "shapes-09-hexagon",
+          "index": 9,
+          "title_he": "משושה",
+          "asset_path": "assets/season-1/cards-wave2-he/shapes/09-hexagon.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        },
+        {
+          "card_id": "shapes-10-spiral",
+          "index": 10,
+          "title_he": "ספירלה",
+          "asset_path": "assets/season-1/cards-wave2-he/shapes/10-spiral.webp",
+          "quiz_tiers": [
+            "junior",
+            "child",
+            "advanced"
+          ]
+        }
+      ]
+    }
+  ],
+  "visual_fix_he": "קלפי צבעים וצורות הוחלפו לרינדור AI פרימיום אחד-אחד, עם מסגרת זהב, איור מרכזי עשיר, פאנלי עובדות וטקסט עברי כחלק מתמונת הקלף.",
+  "ai_source_map_path": "assets/season-1/cards-wave2-he/ai-sources/import-map-colors-shapes.json"
+}

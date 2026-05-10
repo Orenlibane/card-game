@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, "Noto Sans Hebrew", system-ui, sans-serif;
+  background:
+    radial-gradient(circle at 12% 10%, rgba(26, 167, 155, .18), transparent 19rem),
+    radial-gradient(circle at 86% 9%, rgba(255, 207, 88, .2), transparent 18rem),
+    linear-gradient(180deg, #091527 0%, #152039 100%);
+  color: #1d2940;
+}
+
+button {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

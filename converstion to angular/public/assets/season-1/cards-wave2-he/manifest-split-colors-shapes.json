@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "season": 1,
+  "note_he": "חבילת צבעים וצורות פוצלה לשתי חבילות עצמאיות. כל קלף וחבילה הם תמונת WebP נפרדת.",
+  "packs": [
+    {
+      "pack_id": "colors",
+      "title_he": "צבעים",
+      "asset_path": "assets/season-1/packs-wave2-he/pack-colors.webp"
+    },
+    {
+      "pack_id": "shapes",
+      "title_he": "צורות",
+      "asset_path": "assets/season-1/packs-wave2-he/pack-shapes.webp"
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "colors-01-red",
+      "title_he": "אדום",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/01-red.webp"
+    },
+    {
+      "card_id": "colors-02-blue",
+      "title_he": "כחול",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/02-blue.webp"
+    },
+    {
+      "card_id": "colors-03-yellow",
+      "title_he": "צהוב",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/03-yellow.webp"
+    },
+    {
+      "card_id": "colors-04-green",
+      "title_he": "ירוק",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/04-green.webp"
+    },
+    {
+      "card_id": "colors-05-orange",
+      "title_he": "כתום",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/05-orange.webp"
+    },
+    {
+      "card_id": "colors-06-purple",
+      "title_he": "סגול",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/06-purple.webp"
+    },
+    {
+      "card_id": "colors-07-pink",
+      "title_he": "ורוד",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/07-pink.webp"
+    },
+    {
+      "card_id": "colors-08-brown",
+      "title_he": "חום",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/08-brown.webp"
+    },
+    {
+      "card_id": "colors-09-black-white",
+      "title_he": "שחור ולבן",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/09-black-white.webp"
+    },
+    {
+      "card_id": "colors-10-rainbow",
+      "title_he": "קשת צבעים",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/10-rainbow.webp"
+    },
+    {
+      "card_id": "shapes-01-circle",
+      "title_he": "עיגול",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/01-circle.webp"
+    },
+    {
+      "card_id": "shapes-02-square",
+      "title_he": "ריבוע",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/02-square.webp"
+    },
+    {
+      "card_id": "shapes-03-triangle",
+      "title_he": "משולש",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/03-triangle.webp"
+    },
+    {
+      "card_id": "shapes-04-rectangle",
+      "title_he": "מלבן",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/04-rectangle.webp"
+    },
+    {
+      "card_id": "shapes-05-star",
+      "title_he": "כוכב",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/05-star.webp"
+    },
+    {
+      "card_id": "shapes-06-heart",
+      "title_he": "לב",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/06-heart.webp"
+    },
+    {
+      "card_id": "shapes-07-diamond",
+      "title_he": "מעוין",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/07-diamond.webp"
+    },
+    {
+      "card_id": "shapes-08-oval",
+      "title_he": "אליפסה",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/08-oval.webp"
+    },
+    {
+      "card_id": "shapes-09-hexagon",
+      "title_he": "משושה",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/09-hexagon.webp"
+    },
+    {
+      "card_id": "shapes-10-spiral",
+      "title_he": "ספירלה",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/10-spiral.webp"
+    }
+  ]
+}

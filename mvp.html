@@ -1,0 +1,1331 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>אוספים עובדות - MVP</title>
+  <style>
+    :root {
+      --ink: #24304f;
+      --muted: #6b5e4f;
+      --paper: #fff6de;
+      --paper-deep: #e6c998;
+      --binder: #c98f5f;
+      --ring: #244337;
+      --blue: #2f6387;
+      --violet: #7766d7;
+      --green: #5e9d42;
+      --gold: #ffcf58;
+      --rose: #df6690;
+      --bad: #d94f64;
+      --good: #36b779;
+      --shadow: 0 18px 44px rgba(42, 26, 15, .22);
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      min-height: 100%;
+      margin: 0;
+      overflow-x: hidden;
+    }
+
+    body {
+      color: var(--ink);
+      font-family: Arial, "Noto Sans Hebrew", system-ui, sans-serif;
+      background:
+        radial-gradient(circle at 14% 18%, rgba(142,230,194,.16), transparent 18rem),
+        radial-gradient(circle at 84% 12%, rgba(255,207,88,.15), transparent 18rem),
+        linear-gradient(180deg, #071425 0%, #152039 100%);
+    }
+
+    button,
+    input {
+      font: inherit;
+      color: inherit;
+    }
+
+    button {
+      border: 0;
+      cursor: pointer;
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      filter: grayscale(.25);
+      opacity: .62;
+    }
+
+    .app {
+      width: min(1180px, calc(100% - 24px));
+      min-height: 100svh;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      padding-bottom: 76px;
+      background:
+        linear-gradient(90deg, rgba(67,42,27,.42) 0 18px, transparent 18px),
+        linear-gradient(180deg, #d2a06c, #b97d51);
+      border: 1px solid rgba(255,230,178,.5);
+      border-radius: 20px 20px 0 0;
+      box-shadow: 0 28px 90px rgba(0,0,0,.44);
+      overflow: hidden;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      min-height: 92px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 18px;
+      background: linear-gradient(180deg, rgba(255,244,210,.94), rgba(223,188,132,.92));
+      box-shadow: 0 8px 22px rgba(91,59,34,.14);
+    }
+
+    .brand-plaque {
+      justify-self: center;
+      min-height: 46px;
+      display: grid;
+      place-items: center;
+      padding: 0 22px;
+      border: 3px solid #6d91ab;
+      border-radius: 8px;
+      color: #fff;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.14), transparent 45%),
+        linear-gradient(180deg, #315f82, #23445f);
+      box-shadow: inset 0 0 0 2px rgba(255,255,255,.12), 0 5px 0 rgba(55,35,21,.22);
+      font-size: clamp(1.28rem, 2.8vw, 2rem);
+      font-weight: 900;
+      text-shadow: 0 2px 0 rgba(0,0,0,.28);
+      white-space: nowrap;
+    }
+
+    .round-button,
+    .coin-bank {
+      min-height: 44px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 999px;
+      background: linear-gradient(180deg, #fff7df, #e4c38c);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.7), 0 5px 0 rgba(87,54,29,.18);
+      font-weight: 900;
+    }
+
+    .round-button {
+      width: 44px;
+      font-size: 1.4rem;
+    }
+
+    .coin-bank {
+      grid-auto-flow: column;
+      gap: 6px;
+      padding: 0 14px;
+      color: #fff;
+      background: linear-gradient(180deg, #9789ee, #6754b4);
+      text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    }
+
+    .stage {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(300px, 410px) minmax(0, 1fr);
+      gap: 18px;
+      padding: 18px 18px 22px 38px;
+      background:
+        linear-gradient(90deg, #4d2c22 0 12px, transparent 12px 100%),
+        radial-gradient(circle at 20px 70px, var(--ring) 0 8px, transparent 9px),
+        radial-gradient(circle at 20px 170px, var(--ring) 0 8px, transparent 9px),
+        radial-gradient(circle at 20px 270px, var(--ring) 0 8px, transparent 9px),
+        radial-gradient(circle at 20px 370px, var(--ring) 0 8px, transparent 9px),
+        linear-gradient(180deg, #ead2a9, #d8b986);
+    }
+
+    .stage::before {
+      content: "";
+      position: absolute;
+      top: 56px;
+      bottom: 120px;
+      left: 13px;
+      width: 25px;
+      border-radius: 999px;
+      background: repeating-linear-gradient(180deg, transparent 0 69px, #244337 69px 75px, transparent 75px 100px);
+      opacity: .82;
+      pointer-events: none;
+    }
+
+    .rail {
+      display: grid;
+      gap: 14px;
+      align-content: start;
+    }
+
+    .main {
+      min-width: 0;
+      display: grid;
+      gap: 14px;
+      align-content: start;
+    }
+
+    .panel {
+      position: relative;
+      border: 2px dashed rgba(88,105,121,.26);
+      border-radius: 10px;
+      background:
+        radial-gradient(circle at 12% 18%, rgba(255,122,165,.1), transparent 4rem),
+        radial-gradient(circle at 88% 72%, rgba(142,230,194,.13), transparent 4rem),
+        linear-gradient(180deg, #f6e7ca, #ead4af);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.46), 0 5px 0 rgba(111,76,40,.12);
+      padding: 14px;
+    }
+
+    .ribbon {
+      width: max-content;
+      min-height: 34px;
+      display: grid;
+      place-items: center;
+      margin: -32px auto 12px;
+      padding: 0 22px;
+      border-radius: 999px;
+      color: #fff;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.18), transparent 45%),
+        linear-gradient(180deg, #75b75f, #4f8c3c);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.3), 0 5px 0 rgba(65,96,45,.18);
+      font-weight: 900;
+      text-shadow: 0 2px 0 rgba(44,87,34,.26);
+    }
+
+    .pack-view {
+      display: grid;
+      gap: 12px;
+    }
+
+    .pack-art {
+      width: min(100%, 230px);
+      aspect-ratio: 512 / 716;
+      justify-self: center;
+      border-radius: 10px;
+      object-fit: cover;
+      background: #fff7df;
+      box-shadow: 0 16px 22px rgba(89,61,37,.2), 0 0 0 8px rgba(255,255,255,.24);
+      transform: rotate(-1deg);
+      transition: transform .34s cubic-bezier(.2,1.1,.25,1), filter .2s ease;
+    }
+
+    .pack-art.opening {
+      transform: rotate(2deg) translateY(-8px) scale(1.035);
+      filter: brightness(1.08);
+    }
+
+    .pack-title {
+      margin: 0;
+      text-align: center;
+      font-size: clamp(1.5rem, 3vw, 2.1rem);
+      line-height: 1;
+    }
+
+    .pack-meta,
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+
+    .note,
+    .stat {
+      min-height: 58px;
+      display: grid;
+      place-items: center;
+      padding: 8px;
+      border-radius: 6px;
+      color: #244061;
+      background: linear-gradient(180deg, #d6ecff, #acd1f0);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.62), 0 5px 0 rgba(92,67,115,.12);
+      text-align: center;
+      font-weight: 900;
+    }
+
+    .note.alt,
+    .stat.alt {
+      background: linear-gradient(180deg, #d5f2b8, #a6d987);
+      color: #285329;
+    }
+
+    .primary,
+    .ghost {
+      min-height: 50px;
+      border-radius: 8px;
+      padding: 0 16px;
+      font-weight: 900;
+      transition: transform .15s ease, filter .15s ease;
+    }
+
+    .primary {
+      color: #fffbe8;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.14), transparent 42%),
+        linear-gradient(180deg, #86bd67, #5b983f);
+      box-shadow: inset 0 0 0 2px rgba(255,255,255,.13), 0 7px 0 rgba(63,95,43,.24);
+    }
+
+    .ghost {
+      color: var(--ink);
+      background: linear-gradient(180deg, #fff8e6, #ead4af);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.65), 0 6px 0 rgba(111,76,40,.12);
+    }
+
+    .primary:hover:not(:disabled),
+    .ghost:hover:not(:disabled),
+    .pack-chip:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.03);
+    }
+
+    .pack-list {
+      display: grid;
+      gap: 8px;
+      max-height: 390px;
+      overflow: auto;
+      padding-left: 3px;
+    }
+
+    .pack-chip {
+      display: grid;
+      grid-template-columns: 48px 1fr auto;
+      align-items: center;
+      gap: 8px;
+      min-height: 66px;
+      border-radius: 8px;
+      padding: 7px;
+      background: rgba(255,248,229,.78);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.5), 0 4px 0 rgba(111,76,40,.08);
+      text-align: right;
+      transition: transform .15s ease, filter .15s ease;
+    }
+
+    .pack-chip.active {
+      outline: 3px solid rgba(142,196,107,.55);
+      background: #fff7df;
+    }
+
+    .pack-chip img {
+      width: 48px;
+      aspect-ratio: 512 / 716;
+      border-radius: 5px;
+      object-fit: cover;
+      background: #fff;
+    }
+
+    .pack-chip b,
+    .pack-chip span {
+      display: block;
+    }
+
+    .pack-chip span {
+      color: var(--muted);
+      font-size: .84rem;
+      font-weight: 800;
+    }
+
+    .workspace {
+      display: grid;
+      gap: 14px;
+    }
+
+    .revealed-strip {
+      display: grid;
+      grid-template-columns: repeat(10, minmax(42px, 1fr));
+      gap: 8px;
+      min-height: 96px;
+      align-items: center;
+      overflow-x: auto;
+    }
+
+    .mini-card {
+      position: relative;
+      min-width: 42px;
+      border-radius: 7px;
+      padding: 3px;
+      background: #fff7df;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.7), 0 4px 0 rgba(111,76,40,.1);
+    }
+
+    .mini-card img {
+      width: 100%;
+      aspect-ratio: 512 / 716;
+      display: block;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+
+    .mini-card.owned {
+      outline: 3px solid rgba(54,183,121,.55);
+    }
+
+    .album-layout {
+      display: grid;
+      grid-template-columns: minmax(180px, 280px) minmax(0, 1fr);
+      gap: 14px;
+      align-items: start;
+    }
+
+    .selected-card {
+      display: grid;
+      gap: 10px;
+      justify-items: center;
+      padding: 12px;
+      border-radius: 10px;
+      background: rgba(255,248,229,.72);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.5);
+    }
+
+    .selected-card img {
+      width: min(100%, 230px);
+      aspect-ratio: 512 / 716;
+      border-radius: 8px;
+      object-fit: cover;
+      background: #fff7df;
+      box-shadow: 0 13px 19px rgba(89,61,37,.18);
+    }
+
+    .selected-card h2 {
+      margin: 0;
+      font-size: clamp(1.55rem, 3vw, 2.25rem);
+      line-height: 1;
+      text-align: center;
+    }
+
+    .status-pill {
+      display: inline-grid;
+      place-items: center;
+      min-height: 30px;
+      padding: 0 12px;
+      border-radius: 999px;
+      color: #fff;
+      background: linear-gradient(180deg, #9789ee, #6754b4);
+      font-weight: 900;
+    }
+
+    .status-pill.owned { background: linear-gradient(180deg, #4cd391, #268f5a); }
+    .status-pill.cooldown { background: linear-gradient(180deg, #ec8aa1, #c44d68); }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(82px, 1fr));
+      gap: 10px;
+    }
+
+    .album-card {
+      position: relative;
+      min-height: 138px;
+      display: grid;
+      gap: 5px;
+      padding: 6px;
+      border-radius: 8px;
+      background: rgba(255,248,229,.78);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.52), 0 5px 0 rgba(111,76,40,.1);
+      text-align: center;
+      font-weight: 900;
+    }
+
+    .album-card.active {
+      outline: 3px solid rgba(119,102,215,.42);
+    }
+
+    .album-card img {
+      width: 100%;
+      aspect-ratio: 512 / 716;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+
+    .album-card.locked img {
+      filter: saturate(.65) opacity(.72);
+    }
+
+    .album-card small {
+      color: var(--muted);
+      font-weight: 900;
+    }
+
+    .quiz-panel {
+      display: none;
+    }
+
+    .quiz-panel.active {
+      display: grid;
+      gap: 12px;
+    }
+
+    .question-box {
+      min-height: 170px;
+      display: grid;
+      align-content: center;
+      gap: 10px;
+      padding: 18px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #b9b1ff, #7fd6f5 58%, #9be7c9);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.55), 0 8px 0 rgba(98,82,144,.1);
+      text-align: center;
+    }
+
+    .question-box span {
+      color: #6f55c6;
+      font-weight: 900;
+    }
+
+    .question-box h2 {
+      margin: 0;
+      font-size: clamp(1.75rem, 5vw, 3.2rem);
+      line-height: 1.05;
+    }
+
+    .score-track {
+      height: 18px;
+      padding: 3px;
+      border-radius: 999px;
+      background: rgba(98,82,144,.14);
+      overflow: hidden;
+    }
+
+    .score-fill {
+      width: 0%;
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #ffab82, #ffd45d, #36b779);
+      transition: width .25s ease;
+    }
+
+    .answers {
+      display: grid;
+      gap: 10px;
+    }
+
+    .answer {
+      position: relative;
+      min-height: 62px;
+      padding: 12px 56px 12px 14px;
+      border: 2px solid rgba(122,90,52,.15);
+      border-radius: 8px;
+      background: linear-gradient(180deg, #fffaf0, #f5e6c9);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.7), 0 6px 0 rgba(111,76,40,.1);
+      text-align: right;
+      font-weight: 900;
+    }
+
+    .answer::before {
+      content: attr(data-letter);
+      position: absolute;
+      top: 50%;
+      right: 13px;
+      width: 32px;
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      color: #fff;
+      background: linear-gradient(180deg, #9a8be5, #5f4bb4);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.35), 0 3px 0 rgba(98,82,144,.18);
+      transform: translateY(-50%);
+    }
+
+    .answer.correct {
+      border-color: rgba(54,183,121,.85);
+      background: linear-gradient(180deg, #edfff7, #c8f9df);
+      animation: pop .38s cubic-bezier(.22,1.45,.28,1) both;
+    }
+
+    .answer.wrong {
+      border-color: rgba(217,79,100,.78);
+      background: linear-gradient(180deg, #fff4f5, #ffd7de);
+      animation: wiggle .34s ease both;
+    }
+
+    .answer.dimmed { opacity: .55; }
+
+    .result {
+      min-height: 70px;
+      display: grid;
+      align-content: center;
+      gap: 4px;
+      padding: 12px;
+      border-radius: 8px;
+      background: #fff8e6;
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.74), 0 5px 0 rgba(111,76,40,.1);
+      font-weight: 900;
+    }
+
+    .result p {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .actions .primary { flex: 1; }
+
+    .bottom-tabs {
+      position: fixed;
+      left: 50%;
+      bottom: 0;
+      z-index: 40;
+      width: min(1180px, calc(100% - 24px));
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      padding: 7px 10px 8px;
+      background: linear-gradient(180deg, rgba(255,248,229,.88), rgba(229,195,144,.98));
+      box-shadow: 0 -8px 22px rgba(80,51,30,.16), 0 -1px 0 rgba(255,255,255,.44);
+      transform: translateX(-50%);
+    }
+
+    .tab {
+      min-height: 54px;
+      display: grid;
+      place-items: center;
+      gap: 2px;
+      border-radius: 8px;
+      background: transparent;
+      color: #6e5535;
+      font-size: .82rem;
+      font-weight: 900;
+    }
+
+    .tab.active {
+      color: #fff;
+      background: linear-gradient(180deg, #ecb58a, #c46f49);
+      box-shadow: inset 0 2px 0 rgba(255,255,255,.28), 0 4px 0 rgba(118,65,42,.16);
+    }
+
+    .album-panel-empty .selected-card {
+      background:
+        radial-gradient(circle at 20% 20%, rgba(255,207,88,.2), transparent 6rem),
+        rgba(255,248,229,.76);
+    }
+
+    .toast {
+      position: fixed;
+      right: 50%;
+      bottom: 82px;
+      z-index: 50;
+      width: min(360px, calc(100% - 28px));
+      min-height: 58px;
+      display: none;
+      place-items: center;
+      padding: 12px 16px;
+      border-radius: 10px;
+      color: #fff;
+      background: linear-gradient(180deg, #315f82, #23445f);
+      box-shadow: var(--shadow);
+      font-weight: 900;
+      text-align: center;
+      transform: translateX(50%);
+      pointer-events: none;
+    }
+
+    .toast.show {
+      display: grid;
+      animation: toast-in .22s ease both;
+    }
+
+    .hidden { display: none !important; }
+
+    @keyframes toast-in {
+      from { opacity: 0; transform: translate(50%, 12px); }
+      to { opacity: 1; transform: translate(50%, 0); }
+    }
+
+    @keyframes pop {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.04); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes wiggle {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(7px); }
+      50% { transform: translateX(-7px); }
+      75% { transform: translateX(4px); }
+    }
+
+    @media (max-width: 899px) {
+      .app {
+        width: min(430px, 100%);
+        margin-right: auto;
+        margin-left: 0;
+        border-radius: 0;
+      }
+
+      .bottom-tabs {
+        left: 0;
+        width: min(430px, 100%);
+        transform: none;
+      }
+
+      .topbar {
+        min-height: 80px;
+        padding: 10px 12px;
+      }
+
+      .brand-plaque {
+        max-width: 210px;
+        padding-inline: 12px;
+        font-size: 1.3rem;
+      }
+
+      .stage {
+        grid-template-columns: 1fr;
+        padding: 18px 12px 18px 30px;
+      }
+
+      .album-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .selected-card {
+        grid-template-columns: 116px 1fr;
+        align-items: center;
+        justify-items: stretch;
+        text-align: right;
+      }
+
+      .selected-card img {
+        width: 116px;
+      }
+
+      .pack-list {
+        max-height: 260px;
+      }
+
+      .revealed-strip {
+        grid-template-columns: repeat(10, 54px);
+      }
+    }
+
+    @media (max-width: 430px) {
+      .topbar {
+        grid-template-columns: 44px 1fr 78px;
+      }
+
+      .coin-bank {
+        padding-inline: 9px;
+      }
+
+      .stage {
+        padding-right: 9px;
+        padding-left: 25px;
+      }
+
+      .panel {
+        padding: 12px;
+      }
+
+      .card-grid {
+        grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
+      }
+
+      .album-card {
+        min-height: 126px;
+        font-size: .84rem;
+      }
+
+      .question-box h2 {
+        font-size: clamp(1.55rem, 8vw, 2.35rem);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app" aria-live="polite">
+    <header class="topbar">
+      <button class="round-button" type="button" id="resetButton" aria-label="איפוס משחק">↺</button>
+      <div class="brand-plaque">אוספים עובדות</div>
+      <div class="coin-bank"><span>★</span><span id="coinCount">120</span></div>
+    </header>
+
+    <section class="stage">
+      <aside class="rail">
+        <section class="panel">
+          <div class="ribbon">חנות חבילות</div>
+          <div class="pack-view">
+            <img class="pack-art" id="packImage" src="" alt="">
+            <h1 class="pack-title" id="packTitle">טוען חבילות</h1>
+            <div class="pack-meta">
+              <div class="note"><span id="packProgress">0/10 נחשפו</span></div>
+              <div class="note alt"><span id="packOwned">0/10 נאספו</span></div>
+            </div>
+            <button class="primary" type="button" id="openPackButton">פתח חבילה</button>
+            <button class="ghost" type="button" id="goAlbumButton">עבור לאלבום</button>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="ribbon">בחירת חבילה</div>
+          <div class="pack-list" id="packList"></div>
+        </section>
+      </aside>
+
+      <section class="main">
+        <section class="panel workspace" id="packPanel">
+          <div class="ribbon">קלפים מהחבילה</div>
+          <div class="stat-grid">
+            <div class="stat"><span id="totalDiscovered">0 מועמדים</span></div>
+            <div class="stat alt"><span id="totalOwned">0 נאספו</span></div>
+          </div>
+          <div class="revealed-strip" id="revealedStrip"></div>
+        </section>
+
+        <section class="panel workspace" id="albumPanel">
+          <div class="ribbon">אלבום</div>
+          <div class="album-layout">
+            <article class="selected-card">
+              <img id="selectedCardImage" src="" alt="">
+              <div>
+                <span class="status-pill" id="selectedStatus">מועמד</span>
+                <h2 id="selectedCardTitle">בחר קלף</h2>
+                <p id="selectedFact">פתח חבילה כדי לחשוף קלפים לבוחן.</p>
+                <button class="primary" type="button" id="startQuizButton">התחל בוחן</button>
+              </div>
+            </article>
+            <div class="card-grid" id="cardGrid"></div>
+          </div>
+        </section>
+
+        <section class="panel quiz-panel" id="quizPanel">
+          <div class="ribbon">בוחן קלף</div>
+          <div class="stat-grid">
+            <div class="stat"><span id="quizStep">שאלה 1 מתוך 10</span></div>
+            <div class="stat alt"><span id="quizScore">0 נכונות</span></div>
+          </div>
+          <div class="score-track" aria-hidden="true">
+            <div class="score-fill" id="scoreFill"></div>
+          </div>
+          <section class="question-box">
+            <span id="questionKicker">בוחן</span>
+            <h2 id="questionText">בחר תשובה</h2>
+          </section>
+          <div class="answers" id="answers"></div>
+          <section class="result" id="resultBox">
+            <strong>צריך 8 נכונות מתוך 10</strong>
+            <p>הקלף ייכנס לאוסף רק אחרי הצלחה בבוחן.</p>
+          </section>
+          <div class="actions">
+            <button class="ghost" type="button" id="cancelQuizButton">חזרה לאלבום</button>
+            <button class="primary" type="button" id="nextQuestionButton" disabled>שאלה הבאה</button>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <nav class="bottom-tabs" aria-label="ניווט MVP">
+      <button class="tab active" type="button" data-view="pack">חבילה</button>
+      <button class="tab" type="button" data-view="album">אלבום</button>
+      <button class="tab" type="button" data-view="quiz">בוחן</button>
+      <button class="tab" type="button" data-view="stats">מצב</button>
+    </nav>
+  </main>
+  <div class="toast" id="toast"></div>
+
+  <script src="assets/season-1/game-data.js?v=mvp-questions-1"></script>
+  <script>
+    const STORAGE_KEY = "factCollectorsMvpStateV1";
+    const letters = ["א", "ב", "ג"];
+    let gameData;
+    let toastTimer;
+
+    const state = {
+      view: "pack",
+      selectedPackId: "",
+      selectedCardId: "",
+      coins: 120,
+      discovered: {},
+      owned: {},
+      cooldownUntil: {},
+      quiz: null,
+    };
+
+    const els = {
+      coinCount: document.querySelector("#coinCount"),
+      resetButton: document.querySelector("#resetButton"),
+      packImage: document.querySelector("#packImage"),
+      packTitle: document.querySelector("#packTitle"),
+      packProgress: document.querySelector("#packProgress"),
+      packOwned: document.querySelector("#packOwned"),
+      openPackButton: document.querySelector("#openPackButton"),
+      goAlbumButton: document.querySelector("#goAlbumButton"),
+      packList: document.querySelector("#packList"),
+      totalDiscovered: document.querySelector("#totalDiscovered"),
+      totalOwned: document.querySelector("#totalOwned"),
+      revealedStrip: document.querySelector("#revealedStrip"),
+      albumPanel: document.querySelector("#albumPanel"),
+      packPanel: document.querySelector("#packPanel"),
+      quizPanel: document.querySelector("#quizPanel"),
+      selectedCardImage: document.querySelector("#selectedCardImage"),
+      selectedStatus: document.querySelector("#selectedStatus"),
+      selectedCardTitle: document.querySelector("#selectedCardTitle"),
+      selectedFact: document.querySelector("#selectedFact"),
+      startQuizButton: document.querySelector("#startQuizButton"),
+      cardGrid: document.querySelector("#cardGrid"),
+      quizStep: document.querySelector("#quizStep"),
+      quizScore: document.querySelector("#quizScore"),
+      scoreFill: document.querySelector("#scoreFill"),
+      questionKicker: document.querySelector("#questionKicker"),
+      questionText: document.querySelector("#questionText"),
+      answers: document.querySelector("#answers"),
+      resultBox: document.querySelector("#resultBox"),
+      cancelQuizButton: document.querySelector("#cancelQuizButton"),
+      nextQuestionButton: document.querySelector("#nextQuestionButton"),
+      tabs: document.querySelectorAll(".tab"),
+      toast: document.querySelector("#toast"),
+    };
+
+    function loadState() {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+      Object.assign(state, saved);
+    }
+
+    function saveState() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        view: state.view,
+        selectedPackId: state.selectedPackId,
+        selectedCardId: state.selectedCardId,
+        coins: state.coins,
+        discovered: state.discovered,
+        owned: state.owned,
+        cooldownUntil: state.cooldownUntil,
+      }));
+    }
+
+    function packById(id = state.selectedPackId) {
+      return gameData.packs.find((pack) => pack.pack_id === id) || gameData.packs[0];
+    }
+
+    function allCards() {
+      return gameData.packs.flatMap((pack) => pack.cards.map((card) => ({ ...card, pack_id: pack.pack_id, pack_title_he: pack.pack_title_he })));
+    }
+
+    function cardById(id = state.selectedCardId) {
+      return allCards().find((card) => card.card_id === id) || packById().cards[0];
+    }
+
+    function discoveredSet(packId = state.selectedPackId) {
+      return new Set(state.discovered[packId] || []);
+    }
+
+    function isDiscovered(card) {
+      return discoveredSet(card.pack_id || state.selectedPackId).has(card.card_id);
+    }
+
+    function isOwned(cardId) {
+      return Boolean(state.owned[cardId]);
+    }
+
+    function cooldownActive(cardId) {
+      const until = state.cooldownUntil[cardId];
+      return until && Date.now() < until;
+    }
+
+    function statusFor(card) {
+      if (isOwned(card.card_id)) return { text: "נאסף", className: "owned" };
+      if (cooldownActive(card.card_id)) return { text: "ניסיון מחר", className: "cooldown" };
+      if (isDiscovered(card)) return { text: "מועמד", className: "" };
+      return { text: "לא נחשף", className: "" };
+    }
+
+    function showToast(text) {
+      clearTimeout(toastTimer);
+      els.toast.textContent = text;
+      els.toast.classList.add("show");
+      toastTimer = setTimeout(() => els.toast.classList.remove("show"), 2300);
+    }
+
+    function shuffle(items) {
+      return [...items].sort(() => Math.random() - 0.5);
+    }
+
+    function wrongOptions(card, pack) {
+      return pack.cards
+        .filter((item) => item.card_id !== card.card_id)
+        .map((item) => item.title_he)
+        .slice(0, 6);
+    }
+
+    function makeQuestion(prompt, correct, wrong, note) {
+      const options = shuffle([correct, ...shuffle(wrong).slice(0, 2)]).map((text) => ({ text, correct: text === correct }));
+      return { prompt, options, note };
+    }
+
+    function buildCustomQuiz(card) {
+      const needed = gameData.mvp_rules.quiz_questions_per_card;
+      const questions = (card.mvp_questions || [])
+        .filter((item) => item.question && Array.isArray(item.options) && Number.isInteger(item.correct_index))
+        .slice(0, needed)
+        .map((item) => ({
+          prompt: item.question,
+          options: item.options.map((text, index) => ({ text, correct: index === item.correct_index })),
+          note: item.options[item.correct_index],
+        }));
+
+      return questions.length === needed ? questions : null;
+    }
+
+    function buildQuiz(card, pack) {
+      const customQuiz = buildCustomQuiz(card);
+      if (customQuiz) return customQuiz;
+
+      const facts = card.facts_he.length ? card.facts_he : ["זהו קלף מתוך אוספים עובדות."];
+      const tags = card.tags_he.length ? card.tags_he : [pack.domain_he || pack.pack_title_he];
+      const otherTitles = wrongOptions(card, pack);
+      const falseFacts = [
+        "העובדה הזו לא מופיעה בקלף.",
+        "זהו נושא מחבילה אחרת.",
+        "אי אפשר להסיק את זה מהקלף.",
+        "הפרט הזה אינו קשור לעובדות שנחשפו.",
+      ];
+      const base = [
+        makeQuestion("איזה קלף בחרת מהחבילה?", card.title_he, otherTitles, "זיהית את הקלף שנבחר."),
+        makeQuestion(`מה נכון לגבי ${card.title_he}?`, facts[0], falseFacts, facts[0]),
+        makeQuestion(`איזו עובדה הופיעה על ${card.title_he}?`, facts[1] || facts[0], falseFacts, facts[1] || facts[0]),
+        makeQuestion(`איזה פרט מתאים לקלף ${card.title_he}?`, facts[2] || facts[0], falseFacts, facts[2] || facts[0]),
+        makeQuestion(`לאיזו חבילה שייך ${card.title_he}?`, pack.pack_title_he, gameData.packs.filter((item) => item.pack_id !== pack.pack_id).map((item) => item.pack_title_he), `הקלף שייך לחבילת ${pack.pack_title_he}.`),
+        makeQuestion(`איזה תג מתאים ל${card.title_he}?`, tags[0], ["חשבון", "מזג אוויר", "כלי תחבורה"], `תג הלמידה הוא ${tags[0]}.`),
+        makeQuestion(`מה צריך לזכור מהקלף ${card.title_he}?`, facts[0], falseFacts, facts[0]),
+        makeQuestion("כמה שאלות יש בבוחן של כל קלף?", "10 שאלות", ["3 שאלות", "שאלה אחת", "20 שאלות"], "כל קלף עומד בפני עצמו עם בוחן של 10 שאלות."),
+        makeQuestion("כמה תשובות נכונות צריך כדי לקבל את הקלף?", "לפחות 8 מתוך 10", ["לפחות 5 מתוך 10", "מספיק לענות על שאלה אחת", "צריך 10 מתוך 10 בלבד"], "80% הצלחה פותחת בעלות על הקלף."),
+        makeQuestion("מה קורה אם לא מגיעים ל-80%?", "אפשר לנסות שוב מחר", ["הקלף נעלם לתמיד", "מקבלים אותו בכל מקרה", "החבילה נמחקת"], "כישלון לא מוחק את הקלף. הוא מחכה לניסיון נוסף מחר."),
+      ];
+      return base.slice(0, gameData.mvp_rules.quiz_questions_per_card);
+    }
+
+    function openPack() {
+      const pack = packById();
+      const alreadyOpened = discoveredSet(pack.pack_id).size === pack.cards.length;
+      if (!alreadyOpened && state.coins < gameData.mvp_rules.pack_cost) {
+        showToast("אין מספיק מטבעות מוח לפתיחת חבילה.");
+        return;
+      }
+      if (!alreadyOpened) state.coins -= gameData.mvp_rules.pack_cost;
+      state.discovered[pack.pack_id] = pack.cards.map((card) => card.card_id);
+      state.selectedCardId = pack.cards[0].card_id;
+      state.view = "album";
+      els.packImage.classList.add("opening");
+      setTimeout(() => els.packImage.classList.remove("opening"), 360);
+      saveState();
+      render();
+      showToast(`נפתחו 10 קלפים מתוך ${pack.pack_title_he}. עכשיו בוחרים קלף לבוחן.`);
+    }
+
+    function selectPack(packId) {
+      state.selectedPackId = packId;
+      const pack = packById(packId);
+      const discovered = discoveredSet(packId);
+      state.selectedCardId = pack.cards.find((card) => discovered.has(card.card_id))?.card_id || pack.cards[0].card_id;
+      state.quiz = null;
+      saveState();
+      render();
+    }
+
+    function selectCard(cardId) {
+      state.selectedCardId = cardId;
+      state.view = "album";
+      state.quiz = null;
+      saveState();
+      render();
+    }
+
+    function startQuiz() {
+      const pack = packById();
+      const card = cardById();
+      if (!isDiscovered({ ...card, pack_id: pack.pack_id })) {
+        showToast("צריך לפתוח את החבילה לפני הבוחן.");
+        return;
+      }
+      if (isOwned(card.card_id)) {
+        showToast("הקלף כבר שלך.");
+        return;
+      }
+      if (cooldownActive(card.card_id)) {
+        showToast("אפשר לנסות שוב מחר.");
+        return;
+      }
+      state.quiz = {
+        card_id: card.card_id,
+        questions: buildQuiz(card, pack),
+        index: 0,
+        score: 0,
+        answered: false,
+        selectedOptionIndex: null,
+      };
+      state.view = "quiz";
+      saveState();
+      render();
+      document.querySelector("#quizPanel").scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    function answerQuestion(optionIndex) {
+      if (!state.quiz || state.quiz.answered) return;
+      const question = state.quiz.questions[state.quiz.index];
+      const option = question.options[optionIndex];
+      state.quiz.answered = true;
+      state.quiz.selectedOptionIndex = optionIndex;
+      if (option.correct) state.quiz.score += 1;
+      renderQuiz();
+      if (navigator.vibrate) navigator.vibrate(option.correct ? 18 : 28);
+    }
+
+    function nextQuestion() {
+      if (!state.quiz || !state.quiz.answered) return;
+      if (state.quiz.index < state.quiz.questions.length - 1) {
+        state.quiz.index += 1;
+        state.quiz.answered = false;
+        state.quiz.selectedOptionIndex = null;
+        renderQuiz();
+        return;
+      }
+      finishQuiz();
+    }
+
+    function finishQuiz() {
+      const card = cardById(state.quiz.card_id);
+      const passed = state.quiz.score >= gameData.mvp_rules.pass_score;
+      if (passed) {
+        state.owned[card.card_id] = Date.now();
+        delete state.cooldownUntil[card.card_id];
+        state.coins += gameData.mvp_rules.quiz_reward_brain_coins;
+        showToast(`הקלף ${card.title_he} נכנס לאוסף.`);
+      } else {
+        state.cooldownUntil[card.card_id] = Date.now() + gameData.mvp_rules.retry_cooldown_hours * 60 * 60 * 1000;
+        showToast(`קיבלת ${state.quiz.score}/10. אפשר לנסות שוב מחר.`);
+      }
+      state.quiz = null;
+      state.view = "album";
+      saveState();
+      render();
+    }
+
+    function setView(view) {
+      if (view === "quiz" && !state.quiz) {
+        startQuiz();
+        return;
+      }
+      if (view === "stats") {
+        showToast(`${Object.keys(state.owned).length} קלפים נאספו מתוך ${allCards().length}.`);
+        return;
+      }
+      if (view === "album" && !discoveredSet(state.selectedPackId).size) {
+        showToast("האלבום מוכן. פתח חבילה כדי לחשוף 10 קלפים לבחירה.");
+      }
+      state.view = view;
+      saveState();
+      render();
+    }
+
+    function resetGame() {
+      if (!confirm("לאפס את התקדמות ה-MVP המקומית?")) return;
+      localStorage.removeItem(STORAGE_KEY);
+      state.view = "pack";
+      state.coins = gameData.mvp_rules.starter_coins;
+      state.discovered = {};
+      state.owned = {};
+      state.cooldownUntil = {};
+      state.quiz = null;
+      state.selectedPackId = gameData.packs[0].pack_id;
+      state.selectedCardId = gameData.packs[0].cards[0].card_id;
+      render();
+    }
+
+    function renderPackRail() {
+      const pack = packById();
+      const discovered = discoveredSet(pack.pack_id);
+      const ownedCount = pack.cards.filter((card) => isOwned(card.card_id)).length;
+      els.packImage.src = pack.pack_asset_path;
+      els.packImage.alt = `חבילת ${pack.pack_title_he}`;
+      els.packTitle.textContent = `חבילת ${pack.pack_title_he}`;
+      els.packProgress.textContent = `${discovered.size}/10 נחשפו`;
+      els.packOwned.textContent = `${ownedCount}/10 נאספו`;
+      els.openPackButton.textContent = discovered.size ? "פתח שוב את החבילה" : `פתח חבילה · ${gameData.mvp_rules.pack_cost}★`;
+
+      els.packList.innerHTML = "";
+      gameData.packs.forEach((item) => {
+        const itemDiscovered = discoveredSet(item.pack_id).size;
+        const itemOwned = item.cards.filter((card) => isOwned(card.card_id)).length;
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `pack-chip ${item.pack_id === state.selectedPackId ? "active" : ""}`;
+        button.innerHTML = `
+          <img src="${item.pack_asset_path}" alt="">
+          <span><b>${item.pack_title_he}</b><span>${itemDiscovered}/10 נחשפו · ${itemOwned}/10 נאספו</span></span>
+          <strong>${item.card_count}</strong>
+        `;
+        button.addEventListener("click", () => selectPack(item.pack_id));
+        els.packList.append(button);
+      });
+    }
+
+    function renderRevealed() {
+      const pack = packById();
+      const discovered = discoveredSet(pack.pack_id);
+      const totalDiscovered = Object.values(state.discovered).reduce((sum, ids) => sum + ids.length, 0);
+      const totalOwned = Object.keys(state.owned).length;
+      els.totalDiscovered.textContent = `${totalDiscovered} מועמדים`;
+      els.totalOwned.textContent = `${totalOwned} נאספו`;
+      els.revealedStrip.innerHTML = "";
+      pack.cards.forEach((card) => {
+        const isSeen = discovered.has(card.card_id);
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `mini-card ${isOwned(card.card_id) ? "owned" : ""}`;
+        button.disabled = !isSeen;
+        button.innerHTML = `<img src="${isSeen ? card.asset_path : "assets/visual/season-1-card-back.webp"}" alt="${isSeen ? card.title_he : "קלף לא נחשף"}">`;
+        button.addEventListener("click", () => selectCard(card.card_id));
+        els.revealedStrip.append(button);
+      });
+    }
+
+    function renderAlbum() {
+      const pack = packById();
+      const selected = cardById();
+      const packDiscovered = discoveredSet(pack.pack_id);
+      const albumIsEmpty = packDiscovered.size === 0;
+      const selectedWithPack = { ...selected, pack_id: pack.pack_id };
+      const selectedStatus = statusFor(selectedWithPack);
+      els.albumPanel.classList.toggle("album-panel-empty", albumIsEmpty);
+      els.selectedCardImage.src = isDiscovered(selectedWithPack) ? selected.asset_path : "assets/visual/season-1-card-back.webp";
+      els.selectedCardImage.alt = albumIsEmpty ? "גב קלף" : selected.title_he;
+      els.selectedCardTitle.textContent = albumIsEmpty ? "האלבום מחכה לחבילה" : selected.title_he;
+      els.selectedFact.textContent = albumIsEmpty ? "פתח חבילה כדי לקבל 10 קלפים מועמדים. אחר כך בוחרים קלף ועושים עליו בוחן." : isDiscovered(selectedWithPack) ? selected.facts_he[0] : "הקלף יופיע אחרי פתיחת החבילה.";
+      els.selectedStatus.textContent = albumIsEmpty ? "ריק כרגע" : selectedStatus.text;
+      els.selectedStatus.className = `status-pill ${albumIsEmpty ? "" : selectedStatus.className}`;
+      els.startQuizButton.disabled = albumIsEmpty || !isDiscovered(selectedWithPack) || isOwned(selected.card_id) || cooldownActive(selected.card_id);
+      els.startQuizButton.textContent = albumIsEmpty ? "פתח חבילה קודם" : isOwned(selected.card_id) ? "הקלף כבר שלך" : cooldownActive(selected.card_id) ? "אפשר שוב מחר" : "התחל בוחן";
+
+      els.cardGrid.innerHTML = "";
+      pack.cards.forEach((card) => {
+        const cardWithPack = { ...card, pack_id: pack.pack_id };
+        const isSeen = isDiscovered(cardWithPack);
+        const status = statusFor(cardWithPack);
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `album-card ${card.card_id === selected.card_id ? "active" : ""} ${isSeen ? "" : "locked"}`;
+        button.innerHTML = `
+          <img src="${isSeen ? card.asset_path : "assets/visual/season-1-card-back.webp"}" alt="${isSeen ? card.title_he : "קלף נעול"}">
+          <b>${isSeen ? card.title_he : "נעול"}</b>
+          <small>${status.text}</small>
+        `;
+        button.addEventListener("click", () => selectCard(card.card_id));
+        els.cardGrid.append(button);
+      });
+    }
+
+    function renderQuiz() {
+      const quiz = state.quiz;
+      els.quizPanel.classList.toggle("active", Boolean(quiz));
+      if (!quiz) return;
+      const card = cardById(quiz.card_id);
+      const question = quiz.questions[quiz.index];
+      els.quizStep.textContent = `שאלה ${quiz.index + 1} מתוך ${quiz.questions.length}`;
+      els.quizScore.textContent = `${quiz.score} נכונות`;
+      els.scoreFill.style.width = `${Math.min(100, (quiz.score / gameData.mvp_rules.pass_score) * 100)}%`;
+      els.questionKicker.textContent = `בוחן על ${card.title_he}`;
+      els.questionText.textContent = question.prompt;
+      els.answers.innerHTML = "";
+      question.options.forEach((option, index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "answer";
+        button.dataset.letter = letters[index];
+        button.textContent = option.text;
+        button.disabled = quiz.answered;
+        if (quiz.answered) {
+          if (option.correct) button.classList.add("correct");
+          else if (index === quiz.selectedOptionIndex) button.classList.add("wrong");
+          else button.classList.add("dimmed");
+        }
+        button.addEventListener("click", () => answerQuestion(index));
+        els.answers.append(button);
+      });
+      if (quiz.answered) {
+        const selected = question.options[quiz.selectedOptionIndex];
+        els.resultBox.innerHTML = `<strong>${selected?.correct ? "נכון" : "לא הפעם"}</strong><p>${question.note}</p>`;
+      } else {
+        els.resultBox.innerHTML = "<strong>בחר תשובה</strong><p>צריך 8 נכונות כדי לקבל את הקלף.</p>";
+      }
+      els.nextQuestionButton.disabled = !quiz.answered;
+      els.nextQuestionButton.textContent = quiz.index === quiz.questions.length - 1 ? "סיים בוחן" : "שאלה הבאה";
+    }
+
+    function renderTabs() {
+      els.tabs.forEach((tab) => {
+        tab.classList.toggle("active", tab.dataset.view === state.view);
+      });
+    }
+
+    function render() {
+      if (!gameData) return;
+      els.coinCount.textContent = state.coins;
+      renderPackRail();
+      renderRevealed();
+      renderAlbum();
+      renderQuiz();
+      renderTabs();
+      els.packPanel.classList.toggle("hidden", state.view !== "pack");
+      els.albumPanel.classList.toggle("hidden", state.view !== "album");
+      els.quizPanel.classList.toggle("hidden", state.view !== "quiz");
+    }
+
+    function renderGameToText() {
+      const pack = packById();
+      const card = cardById();
+      const discovered = discoveredSet(pack.pack_id).size;
+      const owned = pack.cards.filter((item) => isOwned(item.card_id)).length;
+      return JSON.stringify({
+        coordinate_system: "DOM app, RTL, no canvas",
+        view: state.view,
+        coins: state.coins,
+        selected_pack: { id: pack.pack_id, title: pack.pack_title_he, discovered, owned },
+        selected_card: { id: card.card_id, title: card.title_he, status: statusFor({ ...card, pack_id: pack.pack_id }).text },
+        quiz: state.quiz ? { index: state.quiz.index + 1, score: state.quiz.score, answered: state.quiz.answered } : null,
+      });
+    }
+
+    window.render_game_to_text = renderGameToText;
+    window.advanceTime = () => render();
+
+    async function init() {
+      gameData = window.MVP_GAME_DATA || await fetch("assets/season-1/game-data.json").then((response) => response.json());
+      loadState();
+      state.coins = Number.isFinite(state.coins) ? state.coins : gameData.mvp_rules.starter_coins;
+      state.selectedPackId = state.selectedPackId || gameData.packs[0].pack_id;
+      state.selectedCardId = state.selectedCardId || gameData.packs[0].cards[0].card_id;
+      els.openPackButton.addEventListener("click", openPack);
+      els.goAlbumButton.addEventListener("click", () => setView("album"));
+      els.startQuizButton.addEventListener("click", startQuiz);
+      els.cancelQuizButton.addEventListener("click", () => {
+        state.quiz = null;
+        state.view = "album";
+        saveState();
+        render();
+      });
+      els.nextQuestionButton.addEventListener("click", nextQuestion);
+      els.resetButton.addEventListener("click", resetGame);
+      els.tabs.forEach((tab) => tab.addEventListener("click", () => setView(tab.dataset.view)));
+      render();
+    }
+
+    init().catch((error) => {
+      console.error(error);
+      showToast("לא הצלחתי לטעון את נתוני המשחק.");
+    });
+  </script>
+</body>
+</html>

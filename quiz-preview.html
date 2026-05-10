@@ -1877,12 +1877,14 @@
     ];
 
     const falseFacts = [
-      "הקלף הזה מתאר כוכב לכת עשוי גבינה.",
-      "הנושא הזה הוא כלי תחבורה עם גלגלי מתכת.",
-      "העובדה הזו שייכת לחבילת רובוטים ולא לחיות.",
-      "החיה הזו נולדת תמיד בתוך צדפה מוזיקלית.",
-      "זהו קלף מזג אוויר ולא קלף של בעל חיים."
+      "החיה הזו חיה תמיד רק מתחת לאדמה.",
+      "החיה הזו נושמת רק דרך עלים.",
+      "החיה הזו אינה משתמשת בחושים כדי להכיר את הסביבה.",
+      "החיה הזו אינה צריכה מזון, מים או מנוחה.",
+      "כל הפרטים עליה זהים אצל כל בעלי החיים."
     ];
+
+    const wrongTags = ["חשבון", "בניית מבנים", "כלי תחבורה", "מזג אוויר", "כתיבה"];
 
     const letters = ["א", "ב", "ג"];
     const state = {
@@ -1950,16 +1952,16 @@
       const others = otherTitles(index);
       const [factA, factB, factC] = card.facts;
       return [
-        { q: "איזה קלף בחרת מהחבילה?", options: mix(card.title, others), note: "זיהוי הקלף שנבחר." },
         { q: `מה נכון לגבי ${card.title}?`, options: mix(factA, falseFacts.slice(0, 2)), note: factA },
-        { q: `איזו עובדה הופיעה על ${card.title}?`, options: mix(factB, falseFacts.slice(1, 3)), note: factB },
-        { q: `איזה פרט מתאים לקלף ${card.title}?`, options: mix(factC, falseFacts.slice(2, 4)), note: factC },
-        { q: `לאיזו חבילה שייך ${card.title}?`, options: mix("חיות", ["כלי תחבורה", "קריסטלים"]), note: "הקלף הגיע מחבילת חיות." },
-        { q: `איזה תג למידה מתאים ל${card.title}?`, options: mix(card.tag, ["חשבון", "מזג אוויר"]), note: `תג הלמידה של הקלף הוא ${card.tag}.` },
-        { q: `מה צריך לזכור מהקלף ${card.title}?`, options: mix(factA, falseFacts.slice(3, 5)), note: factA },
-        { q: "כמה שאלות יש בבוחן של כל קלף?", options: mix("10 שאלות", ["3 שאלות", "שאלה אחת"]), note: "כל קלף עומד בפני עצמו עם בוחן של 10 שאלות." },
-        { q: "כמה תשובות נכונות צריך כדי לקבל את הקלף?", options: mix("לפחות 8 מתוך 10", ["לפחות 5 מתוך 10", "רק תשובה אחת"]), note: "80% הצלחה פותחת בעלות על הקלף." },
-        { q: "מה קורה אם לא מגיעים ל-80%?", options: mix("אפשר לנסות שוב מחר", ["הקלף נעלם לתמיד", "מקבלים אותו בכל מקרה"]), note: "כישלון לא מוחק את הקלף. הוא מחכה לניסיון נוסף מחר." }
+        { q: `איזו עובדה מתארת את ${card.title}?`, options: mix(factB, falseFacts.slice(1, 3)), note: factB },
+        { q: `איזה פרט חשוב לזכור על ${card.title}?`, options: mix(factC, falseFacts.slice(2, 4)), note: factC },
+        { q: `איזה נושא למידה מתאים ל${card.title}?`, options: mix(card.tag, wrongTags.slice(0, 2)), note: `הנושא המרכזי כאן הוא ${card.tag}.` },
+        { q: `איזו יכולת או תכונה עוזרת ל${card.title} בסביבה שלו?`, options: mix(factA, falseFacts.slice(3, 5)), note: factA },
+        { q: `איזו התנהגות מתאימה ל${card.title}?`, options: mix(factB, [falseFacts[0], falseFacts[4]]), note: factB },
+        { q: `מה אפשר ללמוד מהקלף על ${card.title}?`, options: mix(factC, [falseFacts[1], falseFacts[2]]), note: factC },
+        { q: `איזה קשר מתאים בין ${card.title} לבין עולם החיות?`, options: mix(`${card.title} קשור לנושא ${card.tag} ולעובדות על בעלי חיים.`, [`${card.title} הוא ${others[0]} בשם אחר.`, `${card.title} שייך בעיקר לכלי תחבורה.`]), note: `${card.title} נלמד דרך ${card.tag} ועובדות על החיים שלו.` },
+        { q: `איזו עובדה עוזרת לזהות את ${card.title}?`, options: mix(factA, [falseFacts[4], `${others[0]} ו${card.title} הם תמיד אותה חיה.`]), note: factA },
+        { q: `איזו מסקנה מתאימה לקלף ${card.title}?`, options: mix(`אפשר ללמוד על ${card.title} דרך עובדות על הגוף, ההתנהגות או הסביבה שלו.`, ["אין קשר בין עובדות לבין בעלי חיים.", "כל בעלי החיים מתנהגים בדיוק אותו דבר."]), note: `הקלף מחבר בין ${card.title} לבין ידע אמיתי על בעלי חיים.` }
       ];
     }
 

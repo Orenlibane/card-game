@@ -3,6 +3,8 @@
 # Local environment and secrets
 .env
 .env.*
+!.env.example
+!**/.env.example
 
 # Dependency directories and virtual environments
 node_modules/
@@ -15,8 +17,13 @@ dist/
 build/
 coverage/
 .cache/
+.playwright-mcp/
+.railway-deploy/
+output/
 __pycache__/
 *.pyc
 
 # Temporary working files
 tmp/
+test-artifacts-*.png
+card-learn-*.png

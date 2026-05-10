@@ -159,8 +159,8 @@ function quizzes(title, facts, tags) {
     junior: {
       age_band_he: "3-5",
       reward_brain_coins: 8,
-      question_he: "איזה קלף ראית עכשיו?",
-      options_he: [title, "כוכב", "עץ"],
+      question_he: `מה נכון לגבי ${title}?`,
+      options_he: [facts[0], "זהו נושא שאינו קשור לעובדות בקלף.", "אי אפשר ללמוד עליו מתוך הקלף."],
       correct_answer_index: 0,
       source_fact_he: facts[0],
     },

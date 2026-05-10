@@ -33,6 +33,14 @@ function resolveRequestPath(url) {
   return filePath;
 }
 
+function cacheHeader(filePath) {
+  if (filePath.endsWith(".html") || filePath.endsWith("game-data.js") || filePath.endsWith("game-data.json")) {
+    return "no-cache";
+  }
+
+  return "public, max-age=31536000, immutable";
+}
+
 const server = createServer((request, response) => {
   const filePath = resolveRequestPath(request.url || "/");
 
@@ -44,7 +52,7 @@ const server = createServer((request, response) => {
 
   response.writeHead(200, {
     "content-type": mimeTypes[extname(filePath).toLowerCase()] || "application/octet-stream",
-    "cache-control": filePath.endsWith(".html") ? "no-cache" : "public, max-age=31536000, immutable"
+    "cache-control": cacheHeader(filePath)
   });
   createReadStream(filePath).pipe(response);
 });

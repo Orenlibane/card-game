@@ -97,12 +97,13 @@ const quizTemplates = {
 function makeQuizzes(cardItem) {
   const firstFact = cardItem.facts_he[0];
   const secondFact = cardItem.facts_he[1];
+  const thirdFact = cardItem.facts_he[2] || firstFact;
   const tag = cardItem.tags_he[0];
   return {
     junior: {
       ...quizTemplates.junior,
-      question_he: `איזה קלף ראית עכשיו?`,
-      options_he: [cardItem.title_he, "כוכב", "עץ"],
+      question_he: `מה נכון לגבי ${cardItem.title_he}?`,
+      options_he: [firstFact, "הנושא הזה אינו קשור לעובדות בקלף.", "אי אפשר ללמוד עליו מתוך הקלף."],
       correct_answer_index: 0,
       source_fact_he: firstFact,
     },
@@ -116,7 +117,7 @@ function makeQuizzes(cardItem) {
     advanced: {
       ...quizTemplates.advanced,
       question_he: `איזו מסקנה אפשר להסיק מהעובדות על ${cardItem.title_he}?`,
-      options_he: [secondFact, `המידע על ${cardItem.title_he} שייך לתג ${tag} בלבד בלי הקשר נוסף.`, "אי אפשר ללמוד עליו מתוך הקלף."],
+      options_he: [secondFact, thirdFact, `המידע על ${cardItem.title_he} אינו קשור לתג ${tag}.`],
       correct_answer_index: 0,
       source_fact_he: secondFact,
     },

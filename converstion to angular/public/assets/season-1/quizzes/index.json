@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "packs": [
+    {
+      "pack_id": "animals",
+      "pack_title_he": "חיות",
+      "domain_he": "עולם החיות",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/animals.json"
+    },
+    {
+      "pack_id": "crystals",
+      "pack_title_he": "קריסטלים ומינרלים",
+      "domain_he": "טבע וחומרים",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/crystals.json"
+    },
+    {
+      "pack_id": "security",
+      "pack_title_he": "ביטחון והצלה",
+      "domain_he": "חברה, אזרחות וביטחון",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/security.json"
+    },
+    {
+      "pack_id": "colors",
+      "pack_title_he": "צבעים",
+      "domain_he": "זיהוי צבעים, גוונים ודוגמאות מהעולם",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/colors.json"
+    },
+    {
+      "pack_id": "shapes",
+      "pack_title_he": "צורות",
+      "domain_he": "זיהוי צורות, פינות, קווים ודגמים",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/shapes.json"
+    },
+    {
+      "pack_id": "vehicles",
+      "pack_title_he": "כלי תחבורה",
+      "domain_he": "תנועה, נסיעה ובטיחות",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/vehicles.json"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "pack_title_he": "פירות וירקות",
+      "domain_he": "אוכל בריא, צבעים וטבע",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/fruits-veggies.json"
+    },
+    {
+      "pack_id": "my-body",
+      "pack_title_he": "הגוף שלי",
+      "domain_he": "היכרות עם הגוף והחושים",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/my-body.json"
+    },
+    {
+      "pack_id": "dinosaurs",
+      "pack_title_he": "דינוזאורים",
+      "domain_he": "יצורים קדומים ומאובנים",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/dinosaurs.json"
+    },
+    {
+      "pack_id": "space-stars",
+      "pack_title_he": "חלל וכוכבים",
+      "domain_he": "מערכת השמש וחקר החלל",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/space-stars.json"
+    },
+    {
+      "pack_id": "sea-oceans",
+      "pack_title_he": "ים ואוקיינוסים",
+      "domain_he": "חיים מתחת למים",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/sea-oceans.json"
+    },
+    {
+      "pack_id": "inventions",
+      "pack_title_he": "המצאות חשובות",
+      "domain_he": "רעיונות ששינו את העולם",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/inventions.json"
+    },
+    {
+      "pack_id": "weather-nature",
+      "pack_title_he": "מזג אוויר וטבע",
+      "domain_he": "תופעות טבע סביבנו",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/weather-nature.json"
+    },
+    {
+      "pack_id": "human-science",
+      "pack_title_he": "גוף האדם ומדע",
+      "domain_he": "מערכות הגוף והמדע שמאחוריהן",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/human-science.json"
+    },
+    {
+      "pack_id": "world-history",
+      "pack_title_he": "היסטוריה עולמית",
+      "domain_he": "תרבויות, רעיונות ושינויים",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/world-history.json"
+    },
+    {
+      "pack_id": "angular",
+      "pack_title_he": "Angular",
+      "domain_he": "פיתוח ווב עם Angular",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/angular.json"
+    },
+    {
+      "pack_id": "codex",
+      "pack_title_he": "Codex",
+      "domain_he": "סוכן קידוד ועבודה עם קוד",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/codex.json"
+    },
+    {
+      "pack_id": "kiro",
+      "pack_title_he": "Kiro",
+      "domain_he": "פיתוח מונחה מפרט עם AI",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/kiro.json"
+    },
+    {
+      "pack_id": "ai",
+      "pack_title_he": "בינה מלאכותית",
+      "domain_he": "מחשבים, נתונים וחשיבה",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/ai.json"
+    },
+    {
+      "pack_id": "minecraft",
+      "pack_title_he": "עולם קוביות",
+      "domain_he": "בנייה, משאבים וחקר עולם קוביות",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/minecraft.json"
+    },
+    {
+      "pack_id": "bank-hapoalim",
+      "pack_title_he": "בנק הפועלים",
+      "domain_he": "בנקאות, חיסכון והתנהלות פיננסית",
+      "card_count": 1,
+      "quiz_path": "assets/season-1/quizzes/bank-hapoalim.json"
+    }
+  ]
+}

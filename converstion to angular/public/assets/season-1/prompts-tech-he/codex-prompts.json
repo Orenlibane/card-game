@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "source_pack_json": "assets/season-1/quizzes/codex.json",
+  "pack_id": "codex",
+  "pack_prompt": "Create ONE final premium Hebrew booster pack image for the educational TCG \"אוספים עובדות\".\nPortrait 512x716 card-pack ratio, one pack only, full wrapper visible, no sheet.\nNative Hebrew RTL text integrated into the printed wrapper itself, not overlay.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Codex\", \"10 קלפי עובדות\".\nPremium foil wrapper with crimped top and bottom, warm gold trim, turquoise accents, glossy toy-like material, rich lighting, original collectible booster quality.\nCentral original pack art for the domain: סוכן קידוד ועבודה עם קוד.\nNo English, no existing brands, no watermark.",
+  "card_prompts": [
+    {
+      "card_id": "codex-01-coding-agent",
+      "title_he": "סוכן קידוד",
+      "asset_path": "assets/season-1/cards-tech-he/codex/01-coding-agent.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Codex\", \"סוכן קידוד\", \"1/10\", \"Codex יכול לקבל משימה ולעבוד על קבצים\", \"סוכן טוב מתקדם דרך קריאה, שינוי ובדיקה\", \"האדם עדיין מאשר כיוון ותוצאה\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for סוכן קידוד, connected to סוכן קידוד ועבודה עם קוד.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "codex-02-workspace",
+      "title_he": "Workspace",
+      "asset_path": "assets/season-1/cards-tech-he/codex/02-workspace.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Codex\", \"Workspace\", \"2/10\", \"Workspace נותן לסוכן הקשר של הפרויקט\", \"קבצים, בדיקות וכלים עוזרים להבין מערכת\", \"שינויים נשמרים במקום שאפשר לבדוק\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for Workspace, connected to סוכן קידוד ועבודה עם קוד.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "codex-03-tasks",
+      "title_he": "משימות",
+      "asset_path": "assets/season-1/cards-tech-he/codex/03-tasks.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Codex\", \"משימות\", \"3/10\", \"משימה טובה מגדירה יעד ותוצאה רצויה\", \"Codex מתאים לעבודות עם כמה צעדים\", \"פירוק משימות מקל על בדיקה\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for משימות, connected to סוכן קידוד ועבודה עם קוד.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "codex-04-skills",
+      "title_he": "Skills",
+      "asset_path": "assets/season-1/cards-tech-he/codex/04-skills.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Codex\", \"Skills\", \"4/10\", \"Skill שומר workflow חוזר לשימוש עתידי\", \"Skill יכול לכלול הוראות, scripts ו-references\", \"סטנדרט קבוע עוזר לשמור איכות\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for Skills, connected to סוכן קידוד ועבודה עם קוד.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "codex-05-sandbox",
+      "title_he": "סביבת הרצה",
+      "asset_path": "assets/season-1/cards-tech-he/codex/05-sandbox.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Codex\", \"סביבת הרצה\", \"5/10\", \"Sandbox מגביל ומבודד עבודה מסוכנת\", \"הרצה מקומית עוזרת לבדוק שינויים\", \"אבטחה חשובה כשסוכן משנה קוד\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for סביבת הרצה, connected to סוכן קידוד ועבודה עם קוד.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "codex-06-code-review",
+      "title_he": "Code Review",
+      "asset_path": "assets/season-1/cards-tech-he/codex/06-code-review.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Codex\", \"Code Review\", \"6/10\", \"סקירת קוד מחפשת באגים וסיכונים\", \"ממצא טוב מצביע על קובץ ושורה\", \"בדיקות חסרות הן חלק מהסיכון\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for Code Review, connected to סוכן קידוד ועבודה עם קוד.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "codex-07-parallel-agents",
+      "title_he": "עבודה במקביל",
+      "asset_path": "assets/season-1/cards-tech-he/codex/07-parallel-agents.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Codex\", \"עבודה במקביל\", \"7/10\", \"כמה סוכנים יכולים לטפל בחלקים שונים\", \"פיצול טוב מונע התנגשויות בקבצים\", \"שילוב תוצאות דורש בדיקה מרוכזת\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for עבודה במקביל, connected to סוכן קידוד ועבודה עם קוד.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "codex-08-cli",
+      "title_he": "Codex CLI",
+      "asset_path": "assets/season-1/cards-tech-he/codex/08-cli.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Codex\", \"Codex CLI\", \"8/10\", \"CLI מאפשר לעבוד עם Codex מהטרמינל\", \"פקודות יכולות לקרוא, לשנות ולהריץ בדיקות\", \"אישורי פעולה שומרים על שליטה\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for Codex CLI, connected to סוכן קידוד ועבודה עם קוד.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "codex-09-automations",
+      "title_he": "Automations",
+      "asset_path": "assets/season-1/cards-tech-he/codex/09-automations.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Codex\", \"Automations\", \"9/10\", \"Automation מפעילה עבודה חוזרת בזמן הנכון\", \"מעקב אחרי בעיות יכול לקרות ברקע\", \"אוטומציה טובה חוסכת עבודה ידנית\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for Automations, connected to סוכן קידוד ועבודה עם קוד.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "codex-10-pull-requests",
+      "title_he": "Pull Requests",
+      "asset_path": "assets/season-1/cards-tech-he/codex/10-pull-requests.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Codex\", \"Pull Requests\", \"10/10\", \"PR מציג שינוי לפני מיזוג\", \"סוכן יכול להכין תיקון ולהסביר אותו\", \"בדיקות וסקירה מגינות על הקוד הראשי\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for Pull Requests, connected to סוכן קידוד ועבודה עם קוד.\nNo English, no existing brands, no watermark."
+    }
+  ]
+}

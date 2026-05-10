@@ -1,0 +1,395 @@
+@if (dataService.loading()) {
+  <main class="loading-screen">
+    <strong>אוספים עובדות</strong>
+    <span>טוען קלפים וחבילות...</span>
+  </main>
+} @else if (dataService.error()) {
+  <main class="loading-screen error">
+    <strong>טעינת המשחק נכשלה</strong>
+    <span>{{ dataService.error() }}</span>
+  </main>
+} @else if (game.state(); as state) {
+  <main
+    class="app-shell"
+    [class.view-pack]="state.view === 'pack'"
+    [class.view-album]="state.view === 'album'"
+    [class.view-quiz]="state.view === 'quiz'"
+    [class.view-shop]="state.view === 'shop'">
+    <div class="spark-field" aria-hidden="true"></div>
+
+    <header class="game-header">
+      <button class="round-button reset-button" type="button" aria-label="איפוס משחק" (click)="game.reset()">↺</button>
+
+      <div class="brand-lockup" aria-label="אוספים עובדות">
+        <div class="mascot-badge" aria-hidden="true">
+          <span>ע</span>
+        </div>
+        <div>
+          <h1>אוספים עובדות</h1>
+          <p>לומדים · אוספים · מנצחים</p>
+        </div>
+      </div>
+
+      <div class="top-hud" aria-label="מצב שחקן">
+        <div class="hud-pill coin-pill">
+          <i aria-hidden="true">★</i>
+          <span>{{ state.coins }}</span>
+        </div>
+        <div class="hud-pill brain-pill">
+          <i aria-hidden="true">●</i>
+          <span>{{ game.ownedCount() }}/10</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="game-board">
+      <aside class="pack-dock" aria-label="בחירת חבילה">
+        <div class="dock-title">
+          <b>מדף חבילות</b>
+          <span>{{ game.packs().length }} חבילות בעונה 1</span>
+        </div>
+
+        <div class="pack-shelf-list">
+          @for (pack of game.packs(); track pack.pack_id) {
+            <button
+              class="shelf-pack"
+              type="button"
+              [class.active]="pack.pack_id === state.selectedPackId"
+              (click)="game.selectPack(pack.pack_id)">
+              <img [src]="assetUrl(pack.pack_asset_path)" [alt]="pack.pack_title_he">
+              <span>{{ pack.pack_title_he }}</span>
+              <small>{{ game.discoveredSet(pack.pack_id).size }}/{{ pack.cards.length }}</small>
+            </button>
+          }
+        </div>
+      </aside>
+
+      <section class="phone-stage" aria-label="תצוגת משחק">
+        <div class="phone-shell">
+          <div class="phone-glow" aria-hidden="true"></div>
+
+          <div class="phone-hud">
+            <div class="player-chip">
+              <span aria-hidden="true">ע</span>
+              <b>שחקן</b>
+            </div>
+            <div class="mini-meter">
+              <i aria-hidden="true"></i>
+              <span>{{ game.discoveredSet(state.selectedPackId).size }}/10</span>
+            </div>
+            <button class="tiny-gear" type="button" aria-label="איפוס משחק" (click)="game.reset()">⚙</button>
+          </div>
+
+          <section class="phone-content">
+            @if (state.view === 'pack') {
+              <section class="screen screen-pack">
+                <div class="screen-title">
+                  <span>1. בית / מדף חבילות</span>
+                  <h2>{{ game.selectedPack().pack_title_he }}</h2>
+                  <p>{{ game.selectedPack().domain_he }} · כל פתיחה נותנת {{ game.rules()?.pack_size }} קלפים</p>
+                </div>
+
+                <div class="pack-theater">
+                  <app-three-pack-scene
+                    [packImage]="assetUrl(game.selectedPack().pack_asset_path)"
+                    [cardImage]="assetUrl(game.selectedCard()?.asset_path)"
+                    [opened]="packOpened()" />
+                  <div class="burst-label" [class.show]="packOpened()">
+                    <b>{{ game.rules()?.pack_size }}</b>
+                    <span>קלפים חדשים!</span>
+                  </div>
+                </div>
+
+                <div class="pack-shelf">
+                  @for (pack of game.packs().slice(0, 5); track pack.pack_id) {
+                    <button
+                      class="pack-pouch"
+                      type="button"
+                      [class.active]="pack.pack_id === state.selectedPackId"
+                      (click)="game.selectPack(pack.pack_id)">
+                      <img [src]="assetUrl(pack.pack_asset_path)" [alt]="pack.pack_title_he">
+                      <span>{{ pack.pack_title_he }}</span>
+                      <small>{{ game.discoveredSet(pack.pack_id).size }}/{{ pack.cards.length }}</small>
+                    </button>
+                  }
+                </div>
+
+                @if (lastOpenedCards().length) {
+                  <div class="reveal-result">
+                    <b>פתחת {{ lastOpenedCards().length }} קלפים</b>
+                    <span>כפולים נותנים {{ game.rules()?.duplicate_reward_coins }}★ כל אחד</span>
+                  </div>
+                  <div class="revealed-strip" aria-label="קלפים שנפתחו">
+                    @for (opened of lastOpenedCards(); track opened.cardId) {
+                    <button
+                      type="button"
+                      class="reveal-card"
+                      [class.duplicate]="opened.duplicate"
+                      (click)="game.selectCard(opened.cardId)">
+                        <img [src]="assetUrl(opened.card!.asset_path)" [alt]="opened.card!.title_he">
+                        <span>{{ opened.duplicate ? '+5★' : 'חדש' }}</span>
+                      </button>
+                    }
+                  </div>
+                }
+
+                <div class="screen-actions">
+                  <button class="primary-game-button" type="button" (click)="playPackOpening()" [disabled]="openingPhase() !== 'idle'">
+                    פתח חבילה · {{ game.rules()?.pack_cost || 0 }}★
+                  </button>
+                  <button class="secondary-game-button" type="button" (click)="game.setView('album')">לאלבום</button>
+                </div>
+              </section>
+            }
+
+            @if (state.view === 'album') {
+              <section class="screen screen-album">
+                <div class="screen-title compact">
+                  <span>3. אלבום / בחירת קלף</span>
+                  <h2>אוספים</h2>
+                  <p>בחר סוג חבילה ואז היכנס לקלפים שלה</p>
+                </div>
+
+                <div class="album-pack-picker" aria-label="סוגי חבילות באלבום">
+                  @for (pack of game.packs(); track pack.pack_id) {
+                    <button
+                      type="button"
+                      [class.active]="pack.pack_id === state.selectedPackId"
+                      (click)="selectAlbumPack(pack.pack_id)">
+                      <img [src]="assetUrl(pack.pack_asset_path)" [alt]="pack.pack_title_he">
+                      <b>{{ pack.pack_title_he }}</b>
+                      <span>{{ game.discoveredSet(pack.pack_id).size }}/{{ pack.cards.length }}</span>
+                    </button>
+                  }
+                </div>
+
+                @if (lastOpenedCards().length) {
+                  <div class="last-open-panel">
+                    <b>הפתיחה האחרונה: {{ lastOpenedCards().length }} קלפים</b>
+                    <span>כפולים: {{ lastDuplicateCount() }} · בונוס: {{ state.lastPackOpen?.duplicateCoins || 0 }}★</span>
+                  </div>
+                }
+
+                @if (game.discoveredCards().length === 0) {
+                  <div class="empty-game-state">
+                    <b>{{ game.selectedPack().pack_title_he }} מחכה לפתיחה</b>
+                    <span>פתח חבילה כדי לחשוף {{ game.rules()?.pack_size }} קלפים מתוך 10.</span>
+                    <button class="primary-game-button" type="button" (click)="game.setView('pack')">לפתוח חבילה</button>
+                  </div>
+                } @else {
+                  <div class="album-pack-head">
+                    <b>{{ game.selectedPack().pack_title_he }}</b>
+                    <span>{{ game.discoveredSet(state.selectedPackId).size }}/10 נחשפו · {{ game.ownedCount() }}/10 שלך</span>
+                  </div>
+
+                  <div class="album-stage">
+                    <button class="carousel-arrow right" type="button" aria-label="קלף קודם" (click)="selectAdjacentCard(-1)">‹</button>
+                    <div class="card-shadow-stack" aria-hidden="true"></div>
+                    <article class="hero-card">
+                      <div class="card-art-frame hero-card-frame">
+                        <img [src]="assetUrl(game.selectedCard()?.asset_path)" [alt]="game.selectedCard()?.title_he || ''">
+                      </div>
+                      <span [class]="'status-ribbon ' + game.statusFor(game.selectedCard()!).className">
+                        {{ game.statusFor(game.selectedCard()!).text === 'מועמד' ? 'עדיין לא שלך' : game.statusFor(game.selectedCard()!).text }}
+                      </span>
+                    </article>
+                    <button class="carousel-arrow left" type="button" aria-label="קלף הבא" (click)="selectAdjacentCard(1)">›</button>
+                  </div>
+
+                  <div class="card-detail-panel">
+                    <b>{{ game.selectedCard()?.facts_he?.[0] }}</b>
+                    <span>ענה נכון על 8 מתוך 10 שאלות כדי שהקלף ייכנס לאוסף.</span>
+                    <button
+                      class="primary-game-button"
+                      type="button"
+                      (click)="game.startQuiz()"
+                      [disabled]="game.isOwned(game.selectedCard()!.card_id) || game.cooldownActive(game.selectedCard()!.card_id)">
+                      התחל בוחן
+                    </button>
+                  </div>
+
+                  <div class="album-strip" aria-label="קלפים שנחשפו">
+                    @for (card of game.discoveredCards(); track card.card_id) {
+                      <button
+                        type="button"
+                        class="album-thumb"
+                        [class.active]="card.card_id === state.selectedCardId"
+                        [class.owned]="game.isOwned(card.card_id)"
+                        (click)="game.selectCard(card.card_id)">
+                        <img [src]="assetUrl(card.asset_path)" [alt]="card.title_he">
+                      </button>
+                    }
+                  </div>
+                }
+              </section>
+            }
+
+            @if (state.view === 'quiz') {
+              <section class="screen screen-quiz">
+                @if (quiz(); as activeQuiz) {
+                  @if (currentQuestion(); as question) {
+                    <div class="quiz-top">
+                      <div class="heart-score">
+                        <i aria-hidden="true">♥</i>
+                        <b>{{ activeQuiz.score }}</b>
+                      </div>
+                      <span>שאלה {{ activeQuiz.index + 1 }}/{{ activeQuiz.questions.length }}</span>
+                      <div class="coin-score">
+                        <i aria-hidden="true">★</i>
+                        <b>{{ state.coins }}</b>
+                      </div>
+                    </div>
+
+                    <div class="quiz-progress" aria-hidden="true">
+                      <i [style.width.%]="quizProgress()"></i>
+                    </div>
+
+                    <div class="question-board">
+                      <div class="card-art-frame quiz-card-frame">
+                        <img [src]="assetUrl(game.selectedCard()?.asset_path)" [alt]="game.selectedCard()?.title_he || ''">
+                      </div>
+                      <h2>{{ question.prompt }}</h2>
+                    </div>
+
+                    <div class="answer-stack">
+                      @for (option of question.options; track option.text; let i = $index) {
+                        <button
+                          class="answer-button"
+                          type="button"
+                          [class.correct]="activeQuiz.answered && option.correct"
+                          [class.wrong]="activeQuiz.answered && activeQuiz.selectedOptionIndex === i && !option.correct"
+                          [disabled]="activeQuiz.answered"
+                          (click)="game.answerQuestion(i)">
+                          <i>{{ answerLetter(i) }}</i>
+                          <span>{{ option.text }}</span>
+                        </button>
+                      }
+                    </div>
+
+                    <div class="quiz-feedback" [class.answered]="activeQuiz.answered">
+                      @if (activeQuiz.answered) {
+                        <b>{{ question.options[activeQuiz.selectedOptionIndex || 0].correct ? 'נכון!' : 'לא הפעם' }}</b>
+                        <span>{{ question.note }}</span>
+                      } @else {
+                        <b>בחר תשובה</b>
+                        <span>צריך {{ game.rules()?.pass_score }} נכונות כדי לקבל את הקלף.</span>
+                      }
+                    </div>
+
+                    <button class="primary-game-button wide" type="button" [disabled]="!activeQuiz.answered" (click)="game.nextQuestion()">
+                      {{ activeQuiz.index === activeQuiz.questions.length - 1 ? 'סיים בוחן' : 'שאלה הבאה' }}
+                    </button>
+                  }
+                } @else {
+                  <div class="empty-game-state">
+                    <b>אין בוחן פתוח</b>
+                    <span>בחר קלף מהאלבום והתחל בוחן של 10 שאלות.</span>
+                    <button class="primary-game-button" type="button" (click)="game.setView('album')">לאלבום</button>
+                  </div>
+                }
+              </section>
+            }
+
+            @if (state.view === 'shop') {
+              <section class="screen screen-shop">
+                <div class="screen-title compact">
+                  <span>5. חנות</span>
+                  <h2>חנות</h2>
+                  <p>{{ state.coins }} מטבעות זמינים</p>
+                </div>
+
+                <div class="shop-shelves">
+                  <div class="awning" aria-hidden="true"></div>
+                  <div class="shelf-board">
+                    <b>בקרוב</b>
+                    <span>חבילות, בונוסים ושדרוגים ייכנסו כאן בהמשך.</span>
+                  </div>
+                  <div class="wood-shelf" aria-hidden="true"></div>
+                  <div class="wood-shelf" aria-hidden="true"></div>
+                </div>
+              </section>
+            }
+          </section>
+
+          @if (openingPhase() !== 'idle') {
+            <div class="pack-opening-overlay" [class.revealing]="openingPhase() === 'revealing'" aria-live="polite">
+              <div class="confetti-layer" aria-hidden="true">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+
+              <div class="opening-burst" aria-hidden="true"></div>
+
+              <div class="opening-pack-wrap">
+                <img class="opening-pack-image" [src]="assetUrl(openingPackPath())" alt="">
+                <div class="tear-line" aria-hidden="true"></div>
+              </div>
+
+              @if (openingPhase() === 'charging') {
+                <div class="opening-copy">
+                  <b>פותחים חבילה...</b>
+                  <span>מתכוננים לשלוף {{ game.rules()?.pack_size }} קלפים</span>
+                </div>
+              }
+
+              @if (openingPhase() === 'revealing') {
+                <div class="opening-cards" aria-label="קלפים שנפתחו">
+                  @for (opened of lastOpenedCards(); track opened.cardId; let i = $index) {
+                    <button
+                      type="button"
+                      class="opening-card"
+                      [class.duplicate]="opened.duplicate"
+                      [style.--card-index]="i"
+                      (click)="inspectOpenedCard(opened.cardId)">
+                      <div class="card-art-frame opening-card-frame">
+                        <img [src]="assetUrl(opened.card!.asset_path)" [alt]="opened.card!.title_he">
+                      </div>
+                      <span>{{ opened.duplicate ? '+5★ כפול' : 'חדש!' }}</span>
+                    </button>
+                  }
+                </div>
+
+                <div class="opening-copy result">
+                  <b>נפתחו {{ lastOpenedCards().length }} קלפים</b>
+                  <span>לחץ על קלף כדי לראות אותו · {{ lastDuplicateCount() }} כפולים · +{{ game.state()?.lastPackOpen?.duplicateCoins || 0 }}★</span>
+                </div>
+              }
+            </div>
+          }
+
+          <nav class="bottom-nav" aria-label="ניווט אפליקציה">
+            <button type="button" [class.active]="state.view === 'pack'" (click)="game.setView('pack')">
+              <i aria-hidden="true">⌂</i>
+              <span>בית</span>
+            </button>
+            <button type="button" [class.active]="state.view === 'shop'" (click)="game.setView('shop')">
+              <i aria-hidden="true">▣</i>
+              <span>חנות</span>
+            </button>
+            <button type="button" [class.active]="state.view === 'quiz'" (click)="game.setView('quiz')">
+              <i aria-hidden="true">♕</i>
+              <span>בוחן</span>
+            </button>
+            <button type="button" [class.active]="state.view === 'album'" (click)="game.setView('album')">
+              <i aria-hidden="true">▰</i>
+              <span>אוספים</span>
+            </button>
+          </nav>
+        </div>
+      </section>
+
+      <aside class="desktop-preview" aria-label="התאמה למסכים רחבים">
+        <b>מותאם לכל מסך</b>
+        <span>טלפון קודם, ואז טאבלט ומחשב עם אותו HUD ואותם אזורי משחק.</span>
+        <div class="wide-mini">
+          @for (pack of game.packs().slice(0, 4); track pack.pack_id) {
+            <img [src]="assetUrl(pack.pack_asset_path)" [alt]="pack.pack_title_he">
+          }
+        </div>
+      </aside>
+    </section>
+
+    @if (game.toast()) {
+      <div class="toast" role="status">{{ game.toast() }}</div>
+    }
+  </main>
+}

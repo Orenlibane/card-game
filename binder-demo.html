@@ -405,6 +405,19 @@
       border-color: rgba(255, 255, 255, .34);
     }
 
+    .text-button:disabled,
+    .icon-button:disabled {
+      cursor: not-allowed;
+      opacity: .42;
+      transform: none;
+    }
+
+    .text-button.accent {
+      color: #13201f;
+      border-color: transparent;
+      background: linear-gradient(180deg, #f3d36b, var(--gold));
+    }
+
     .stage {
       position: relative;
       min-height: 0;
@@ -616,6 +629,52 @@
       font-weight: 900;
     }
 
+    .slot.is-unacquired {
+      border-style: dashed;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,.54), rgba(255,255,255,.18)),
+        repeating-linear-gradient(135deg, rgba(55,67,79,.09) 0 8px, rgba(55,67,79,.02) 8px 16px),
+        rgba(255,255,255,.38);
+    }
+
+    .slot.is-unacquired::after {
+      opacity: .36;
+    }
+
+    .empty-card-button {
+      width: 100%;
+      height: 100%;
+      padding: 18px 10px;
+      border: 0;
+      border-radius: 6px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.28), rgba(255,255,255,.08)),
+        rgba(23,32,51,.08);
+      color: #725c3c;
+      display: grid;
+      place-items: center;
+      align-content: center;
+      gap: 8px;
+      text-align: center;
+      cursor: default;
+    }
+
+    .empty-card-button b {
+      font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+      line-height: 1;
+    }
+
+    .empty-card-button span {
+      color: #93764f;
+      font-weight: 900;
+      font-size: .86rem;
+      line-height: 1.25;
+    }
+
+    .slot.is-unacquired .quiz-badge {
+      background: rgba(55, 67, 79, .68);
+    }
+
     .card-button {
       width: 100%;
       height: 100%;
@@ -720,10 +779,11 @@
       inset: 0;
       z-index: 20;
       display: none;
-      place-items: center;
+      place-items: start center;
       padding: 18px;
       background: rgba(9, 12, 15, .74);
       backdrop-filter: blur(8px);
+      overflow: auto;
     }
 
     .inspector.is-open {
@@ -736,12 +796,20 @@
       display: grid;
       gap: 12px;
       color: #fff8e9;
+      margin: auto 0;
+      padding-block: 8px;
     }
 
     .inspect-card img {
       width: 100%;
+      max-height: min(58vh, 620px);
+      object-fit: contain;
       border-radius: var(--radius);
       box-shadow: 0 30px 80px rgba(0,0,0,.46);
+    }
+
+    .inspector.has-quiz .inspect-card img {
+      max-height: min(36vh, 420px);
     }
 
     .inspect-meta {
@@ -1092,6 +1160,9 @@
         <div class="controls">
           <button class="icon-button" id="nextButton" type="button" aria-label="העמוד הבא">‹</button>
           <button class="text-button" id="allButton" type="button">עונה ראשונה</button>
+          <button class="text-button accent" id="pullOneButton" type="button">שלוף קלף</button>
+          <button class="text-button accent" id="openPackButton" type="button">פתח חבילה</button>
+          <button class="text-button" id="resetCollectionButton" type="button">אפס אלבום</button>
           <button class="icon-button" id="prevButton" type="button" aria-label="העמוד הקודם">›</button>
         </div>
       </header>
@@ -1253,7 +1324,7 @@
       {
         id: "bank-hapoalim",
         title: "בנק הפועלים",
-        subtitle: "בנקאות ומשכנתאות",
+        subtitle: "עונה 1",
         color: "#e24b5a",
         cards: makeCards("bank-hapoalim", "assets/season-1/cards-wave2-he/bank-hapoalim/", [
           ["פיקדון יומי", "01-daily-deposit"], ["משכנתא", "02-mortgage"], ["אישור עקרוני", "03-pre-approval"], ["תמהיל מסלולים", "04-mortgage-mix"], ["מסלול פריים", "05-prime-track"],
@@ -1290,6 +1361,7 @@
       statusFilter: "all",
       activeCard: null,
       selectedTier: "child",
+      acquiredCardIds: loadAcquiredCardIds(),
       completedQuizIds: loadCompletedQuizIds()
     };
 
@@ -1310,6 +1382,9 @@
       prev: document.querySelector("#prevButton"),
       next: document.querySelector("#nextButton"),
       all: document.querySelector("#allButton"),
+      pullOne: document.querySelector("#pullOneButton"),
+      openPack: document.querySelector("#openPackButton"),
+      resetCollection: document.querySelector("#resetCollectionButton"),
       collectionCount: document.querySelector("#collectionCount"),
       collectionPercent: document.querySelector("#collectionPercent"),
       progressBar: document.querySelector("#progressBar"),
@@ -1349,21 +1424,41 @@
       }
     }
 
+    function loadAcquiredCardIds() {
+      try {
+        return new Set(JSON.parse(localStorage.getItem("binderAcquiredCardIds") || "[]"));
+      } catch {
+        return new Set();
+      }
+    }
+
     function saveCompletedQuizIds() {
       localStorage.setItem("binderCompletedQuizIds", JSON.stringify([...state.completedQuizIds]));
+    }
+
+    function saveAcquiredCardIds() {
+      localStorage.setItem("binderAcquiredCardIds", JSON.stringify([...state.acquiredCardIds]));
     }
 
     function quizFor(card) {
       return window.BINDER_QUIZ_DATA?.[card.id] || null;
     }
 
+    function isAcquired(card) {
+      return state.acquiredCardIds.has(card.id);
+    }
+
     function isQuizDone(card) {
-      return state.completedQuizIds.has(card.id);
+      return isAcquired(card) && state.completedQuizIds.has(card.id);
+    }
+
+    function isQuizPending(card) {
+      return isAcquired(card) && !isQuizDone(card);
     }
 
     function statusMatches(card) {
       if (state.statusFilter === "done") return isQuizDone(card);
-      if (state.statusFilter === "pending") return !isQuizDone(card);
+      if (state.statusFilter === "pending") return isQuizPending(card);
       return true;
     }
 
@@ -1374,7 +1469,9 @@
     }
 
     function markQuizDone(card) {
+      state.acquiredCardIds.add(card.id);
       state.completedQuizIds.add(card.id);
+      saveAcquiredCardIds();
       saveCompletedQuizIds();
       renderBinder();
       renderNav();
@@ -1399,6 +1496,44 @@
         const inCards = cards.some(card => card.title.includes(q));
         return inSeries || inCards;
       });
+    }
+
+    function allCards() {
+      return series.flatMap(item => item.cards);
+    }
+
+    function acquireCards(cards) {
+      cards.forEach(card => state.acquiredCardIds.add(card.id));
+      saveAcquiredCardIds();
+    }
+
+    function missingCardsForSeries(item) {
+      return item.cards.filter(card => !isAcquired(card));
+    }
+
+    function pullFromActive(count) {
+      const active = series[state.activeIndex];
+      const missing = missingCardsForSeries(active);
+      if (!missing.length) return;
+
+      const shuffled = [...missing].sort(() => Math.random() - .5);
+      const pulled = shuffled.slice(0, count);
+      acquireCards(pulled);
+      state.statusFilter = "all";
+      state.allMode = false;
+      render("forward");
+
+      const firstPulled = { ...pulled[0], seriesTitle: active.title };
+      window.setTimeout(() => openInspect(firstPulled, true), 180);
+    }
+
+    function resetCollection() {
+      state.acquiredCardIds.clear();
+      state.completedQuizIds.clear();
+      saveAcquiredCardIds();
+      saveCompletedQuizIds();
+      closeInspect();
+      render("back");
     }
 
     function cardsForActive() {
@@ -1448,7 +1583,7 @@
         button.innerHTML = `
           <i class="swatch" style="background:${item.color}"></i>
           <span class="series-copy"><b>${item.title}</b><span>${item.subtitle}</span></span>
-          <span class="count">${item.cards.filter(isQuizDone).length}/${item.cards.length}</span>
+          <span class="count">${item.cards.filter(isAcquired).length}/${item.cards.length}</span>
         `;
         button.addEventListener("click", () => setActive(index, "forward"));
         els.seriesList.append(button);
@@ -1467,29 +1602,33 @@
       const active = series[state.activeIndex];
       const cards = cardsForActive();
       const total = series.reduce((sum, item) => sum + item.cards.length, 0);
-      const completed = series.flatMap(item => item.cards).filter(isQuizDone).length;
-      const pending = total - completed;
-      const completion = total ? Math.round((completed / total) * 100) : 0;
+      const acquired = allCards().filter(isAcquired).length;
+      const completed = allCards().filter(isQuizDone).length;
+      const pending = allCards().filter(isQuizPending).length;
+      const completion = total ? Math.round((acquired / total) * 100) : 0;
+      const activeAcquired = active.cards.filter(isAcquired).length;
+      const activeDone = active.cards.filter(isQuizDone).length;
 
       const searching = Boolean(state.query.trim());
       const allCount = allModeCardCount();
       const allStart = Math.min(state.allPage * 12 + 1, allCount || 0);
       const allEnd = Math.min((state.allPage + 1) * 12, allCount);
       els.activeTitle.textContent = searching ? "תוצאות חיפוש" : state.allMode ? "עונה ראשונה" : active.title;
-      els.activeSubtitle.textContent = searching ? `${cards.length} קלפים תואמים · ${filterLabel()}` : state.allMode ? `${allStart}-${allEnd} מתוך ${allCount} קלפים בעונה · ${filterLabel()}` : `${cards.length}/${active.cards.length} קלפים בחבילה · ${filterLabel()}`;
+      els.activeSubtitle.textContent = searching ? `${cards.length} קלפים תואמים · ${filterLabel()}` : state.allMode ? `${allStart}-${allEnd} מתוך ${allCount} קלפים בעונה · ${acquired}/${total} נשלפו` : `${activeAcquired}/${active.cards.length} נשלפו · ${activeDone} בוצעו`;
       els.rightPageTitle.textContent = searching ? state.query.trim() : state.allMode ? "עונה 1" : active.title;
       els.leftPageTitle.textContent = searching ? "עוד תוצאות" : state.allMode ? "המשך עונה 1" : "המשך חבילה";
       els.rightPageIndex.textContent = String((state.allMode ? state.allPage : state.activeIndex) * 2 + 1).padStart(2, "0");
       els.leftPageIndex.textContent = String((state.allMode ? state.allPage : state.activeIndex) * 2 + 2).padStart(2, "0");
-      els.collectionCount.textContent = `${completed}/${total} בוצעו`;
+      els.collectionCount.textContent = `${acquired}/${total} נשלפו`;
       els.collectionPercent.textContent = `${completion}%`;
       els.progressBar.style.setProperty("--progress", `${completion}%`);
       els.headerDone.textContent = completed;
       els.headerPending.textContent = pending;
       els.headerMode.textContent = filterLabel();
+      updatePullButtons();
 
       if (!cards.length) {
-        els.rightGrid.innerHTML = `<div class="empty-state">לא נמצאו קלפים לחיפוש הזה</div>`;
+        els.rightGrid.innerHTML = `<div class="empty-state">אין עדיין קלפים בתצוגה הזו</div>`;
         els.leftGrid.innerHTML = "";
         return;
       }
@@ -1509,6 +1648,16 @@
 
         if (!card) {
           slot.textContent = "ריק";
+        } else if (!isAcquired(card)) {
+          slot.classList.add("is-unacquired");
+          slot.innerHTML = `
+            <span class="card-number">${String(card.index).padStart(2, "0")}</span>
+            <span class="quiz-badge">לא נשלף</span>
+            <div class="empty-card-button" aria-label="קלף שלא נשלף עדיין">
+              <b>מקום ריק</b>
+              <span>פתח חבילה כדי לגלות את הקלף</span>
+            </div>
+          `;
         } else {
           slot.classList.add(isQuizDone(card) ? "quiz-done" : "needs-quiz");
           slot.innerHTML = `
@@ -1518,7 +1667,7 @@
               <img src="${card.image}" alt="${card.title}" loading="lazy" decoding="async">
             </button>
           `;
-          slot.querySelector("button").addEventListener("click", () => openInspect(card));
+          slot.querySelector("button").addEventListener("click", () => openInspect(card, !isQuizDone(card)));
         }
 
         grid.append(slot);
@@ -1529,6 +1678,15 @@
       animate(direction);
       renderNav();
       renderBinder();
+    }
+
+    function updatePullButtons() {
+      const active = series[state.activeIndex];
+      const missing = missingCardsForSeries(active).length;
+      els.pullOne.disabled = missing === 0;
+      els.openPack.disabled = missing === 0;
+      els.pullOne.textContent = missing ? "שלוף קלף" : "החבילה מלאה";
+      els.openPack.textContent = missing ? "פתח חבילה" : "כל הקלפים נשלפו";
     }
 
     function animate(direction) {
@@ -1547,16 +1705,21 @@
       render(direction);
     }
 
-    function openInspect(card) {
+    function openInspect(card, openQuiz = false) {
+      if (!isAcquired(card)) return;
       state.activeCard = card;
       els.inspectImage.src = card.image;
       els.inspectImage.alt = card.title;
       els.inspectTitle.textContent = `${card.title} · ${card.seriesTitle}`;
       els.quizPanel.classList.remove("is-open");
+      els.inspector.classList.remove("has-quiz");
       els.quizResult.textContent = "";
       updateInspectStatus(card);
       els.inspector.classList.add("is-open");
       els.inspector.setAttribute("aria-hidden", "false");
+      if (openQuiz && quizFor(card)) {
+        window.requestAnimationFrame(renderQuiz);
+      }
     }
 
     function updateInspectStatus(card) {
@@ -1613,6 +1776,7 @@
         els.quizOptions.append(button);
       });
       els.quizPanel.classList.add("is-open");
+      els.inspector.classList.add("has-quiz");
     }
 
     function answerQuiz(selectedIndex, correctIndex) {
@@ -1634,6 +1798,7 @@
 
     function closeInspect() {
       els.inspector.classList.remove("is-open");
+      els.inspector.classList.remove("has-quiz");
       els.inspector.setAttribute("aria-hidden", "true");
       state.activeCard = null;
     }
@@ -1659,6 +1824,9 @@
       state.allPage = 0;
       render("forward");
     });
+    els.pullOne.addEventListener("click", () => pullFromActive(1));
+    els.openPack.addEventListener("click", () => pullFromActive(10));
+    els.resetCollection.addEventListener("click", resetCollection);
     els.search.addEventListener("input", event => {
       state.query = event.target.value;
       state.allPage = 0;
@@ -1673,7 +1841,10 @@
     });
     els.closeInspect.addEventListener("click", closeInspect);
     els.startQuiz.addEventListener("click", renderQuiz);
-    els.closeQuiz.addEventListener("click", () => els.quizPanel.classList.remove("is-open"));
+    els.closeQuiz.addEventListener("click", () => {
+      els.quizPanel.classList.remove("is-open");
+      els.inspector.classList.remove("has-quiz");
+    });
     els.resetQuiz.addEventListener("click", () => {
       if (state.activeCard) markQuizPending(state.activeCard);
     });

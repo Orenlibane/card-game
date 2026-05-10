@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build:data": "node scripts/build-mvp-data.mjs",
     "start": "node server.mjs"
   },
   "engines": {

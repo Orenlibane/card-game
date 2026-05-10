@@ -1,0 +1,1051 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>אוספים עובדות - ארכיטקטורת קליינט ובקאנד</title>
+  <style>
+    :root {
+      --ink: #192234;
+      --muted: #667386;
+      --paper: #f7f1e6;
+      --surface: #fffaf0;
+      --line: rgba(25, 34, 52, .14);
+      --teal: #159a91;
+      --gold: #e9af33;
+      --coral: #d95f58;
+      --blue: #356dc8;
+      --green: #43884e;
+      --dark: #172033;
+      --shadow: 0 20px 64px rgba(25, 34, 52, .14);
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Arial, "Noto Sans Hebrew", system-ui, sans-serif;
+      background:
+        linear-gradient(110deg, rgba(21,154,145,.12), transparent 34%),
+        linear-gradient(245deg, rgba(233,175,51,.18), transparent 32%),
+        var(--paper);
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      opacity: .45;
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, rgba(25,34,52,.04) 1px, transparent 1px) 0 0 / 34px 34px,
+        linear-gradient(0deg, rgba(25,34,52,.035) 1px, transparent 1px) 0 0 / 34px 34px;
+      mask-image: linear-gradient(180deg, #000 0%, transparent 78%);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    code {
+      direction: ltr;
+      unicode-bidi: plaintext;
+      display: inline-block;
+      padding: 1px 5px;
+      border: 1px solid rgba(25,34,52,.1);
+      border-radius: 5px;
+      background: rgba(255,255,255,.72);
+      color: #26334a;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: .92em;
+    }
+
+    .shell {
+      width: min(1340px, calc(100% - 28px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      margin-top: 14px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      border: 1px solid rgba(255,255,255,.7);
+      border-radius: var(--radius);
+      background: rgba(255,250,240,.84);
+      box-shadow: 0 14px 44px rgba(25,34,52,.1);
+      backdrop-filter: blur(16px);
+    }
+
+    .brand {
+      display: grid;
+      gap: 2px;
+      padding-inline: 8px;
+    }
+
+    .brand strong {
+      font-size: 1.16rem;
+      line-height: 1;
+    }
+
+    .brand span {
+      color: var(--muted);
+      font-size: .86rem;
+      font-weight: 800;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .nav a,
+    .button {
+      min-height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.74);
+      font-weight: 900;
+      transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+    }
+
+    .nav a:hover,
+    .button:hover {
+      transform: translateY(-2px);
+      border-color: rgba(21,154,145,.42);
+      background: #fff;
+    }
+
+    .primary {
+      border-color: transparent;
+      color: #fff;
+      background: linear-gradient(180deg, #1aa79b, #11756f);
+      box-shadow: 0 12px 30px rgba(17,117,111,.24);
+    }
+
+    .hero {
+      min-height: calc(100svh - 82px);
+      display: grid;
+      grid-template-columns: minmax(0, .9fr) minmax(320px, .72fr);
+      gap: 42px;
+      align-items: center;
+      padding: 40px 0 32px;
+    }
+
+    .hero-copy {
+      display: grid;
+      gap: 18px;
+      animation: rise .48s ease both;
+    }
+
+    .eyebrow {
+      width: fit-content;
+      margin: 0;
+      padding: 7px 10px;
+      border: 1px solid rgba(21,154,145,.26);
+      border-radius: var(--radius);
+      color: #0e6f69;
+      background: rgba(21,154,145,.1);
+      font-size: .92rem;
+      font-weight: 900;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      max-width: 900px;
+      font-size: clamp(3rem, 7.8vw, 7.3rem);
+      line-height: .9;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 760px;
+      color: #465264;
+      font-size: clamp(1.04rem, 2vw, 1.22rem);
+      font-weight: 750;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 4px;
+    }
+
+    .map {
+      min-height: 540px;
+      position: relative;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      border-radius: 18px;
+      animation: floatIn .62s ease both;
+    }
+
+    .map::before {
+      content: "";
+      position: absolute;
+      inset: 10% 0;
+      border-radius: 999px;
+      background:
+        radial-gradient(circle at 28% 30%, rgba(53,109,200,.18), transparent 12rem),
+        radial-gradient(circle at 72% 68%, rgba(233,175,51,.22), transparent 12rem),
+        #fff3d7;
+      box-shadow: inset 0 0 0 1px rgba(25,34,52,.08), var(--shadow);
+    }
+
+    .system-card {
+      position: absolute;
+      width: min(44%, 245px);
+      padding: 18px;
+      border: 1px solid rgba(25,34,52,.14);
+      border-radius: var(--radius);
+      background: rgba(255,250,240,.92);
+      box-shadow: 0 20px 44px rgba(25,34,52,.16);
+    }
+
+    .system-card b {
+      display: block;
+      font-size: clamp(1.2rem, 3vw, 1.7rem);
+    }
+
+    .system-card span {
+      display: block;
+      margin-top: 7px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .client-card {
+      right: 5%;
+      top: 14%;
+    }
+
+    .backend-card {
+      left: 6%;
+      bottom: 13%;
+      color: #fff8eb;
+      background: #172033;
+    }
+
+    .backend-card span {
+      color: #cfd7df;
+    }
+
+    .api-line {
+      position: absolute;
+      inset: 44% 20% auto;
+      height: 7px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+      box-shadow: 0 10px 28px rgba(21,154,145,.22);
+      transform: rotate(-18deg);
+    }
+
+    .api-pill {
+      position: absolute;
+      top: 39%;
+      left: 37%;
+      padding: 8px 11px;
+      border-radius: var(--radius);
+      color: #fff;
+      background: var(--teal);
+      font-weight: 900;
+      box-shadow: 0 14px 30px rgba(21,154,145,.26);
+      transform: rotate(-18deg);
+    }
+
+    main {
+      padding: 8px 0 70px;
+    }
+
+    .decision {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .decision div {
+      min-width: 0;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,250,240,.86);
+      box-shadow: 0 12px 38px rgba(25,34,52,.08);
+    }
+
+    .decision b {
+      display: block;
+      font-size: clamp(1.35rem, 3vw, 2rem);
+      line-height: 1.05;
+    }
+
+    .decision span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(310px, .55fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .stack {
+      min-width: 0;
+      display: grid;
+      gap: 18px;
+    }
+
+    section {
+      scroll-margin-top: 86px;
+    }
+
+    .panel {
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,250,240,.88);
+      box-shadow: 0 16px 46px rgba(25,34,52,.1);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: end;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(90deg, rgba(21,154,145,.08), transparent 66%);
+    }
+
+    .panel-head h2 {
+      font-size: clamp(1.45rem, 3vw, 2.2rem);
+      line-height: 1.05;
+    }
+
+    .panel-head p {
+      max-width: 720px;
+      margin-top: 5px;
+      color: var(--muted);
+      font-weight: 750;
+    }
+
+    .tag {
+      white-space: nowrap;
+      padding: 7px 10px;
+      border-radius: var(--radius);
+      color: #fff;
+      background: var(--dark);
+      font-size: .86rem;
+      font-weight: 900;
+    }
+
+    .tag.ok { background: var(--green); }
+    .tag.next { background: var(--gold); color: #503b00; }
+    .tag.no { background: var(--coral); }
+
+    .rows {
+      display: grid;
+      gap: 1px;
+      background: var(--line);
+    }
+
+    .row {
+      min-width: 0;
+      display: grid;
+      grid-template-columns: minmax(150px, .34fr) minmax(0, 1fr) auto;
+      gap: 14px;
+      align-items: center;
+      padding: 15px 18px;
+      background: rgba(255,250,240,.96);
+    }
+
+    .row b {
+      font-size: 1rem;
+    }
+
+    .row p {
+      color: var(--muted);
+      font-size: .95rem;
+      font-weight: 750;
+    }
+
+    .flow {
+      padding: 20px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .flow-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .node {
+      min-height: 150px;
+      padding: 16px;
+      border: 1px solid rgba(25,34,52,.14);
+      border-radius: var(--radius);
+      background: #fff;
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .node:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 34px rgba(25,34,52,.12);
+    }
+
+    .node small {
+      display: block;
+      color: var(--teal);
+      font-weight: 900;
+    }
+
+    .node b {
+      display: block;
+      margin-top: 8px;
+      font-size: 1.06rem;
+    }
+
+    .node p {
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: .9rem;
+      font-weight: 750;
+    }
+
+    .node.dark {
+      color: #fff8eb;
+      background: #172033;
+    }
+
+    .node.dark p {
+      color: #cfd7df;
+    }
+
+    .node.dark small {
+      color: #ffd15d;
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      background: rgba(255,250,240,.96);
+    }
+
+    .table th,
+    .table td {
+      padding: 13px 16px;
+      border-bottom: 1px solid var(--line);
+      text-align: right;
+      vertical-align: top;
+    }
+
+    .table th {
+      color: #3a4557;
+      background: rgba(255,255,255,.56);
+      font-size: .88rem;
+    }
+
+    .table td {
+      color: var(--muted);
+      font-size: .94rem;
+      font-weight: 750;
+    }
+
+    .table td:first-child {
+      color: var(--ink);
+      font-weight: 900;
+    }
+
+    .side {
+      position: sticky;
+      top: 88px;
+      display: grid;
+      gap: 18px;
+    }
+
+    .approve {
+      padding: 18px;
+      border: 1px solid rgba(25,34,52,.16);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(180deg, rgba(21,154,145,.1), transparent 45%),
+        rgba(255,250,240,.94);
+      box-shadow: var(--shadow);
+    }
+
+    .approve h2 {
+      font-size: clamp(1.6rem, 4vw, 2.6rem);
+      line-height: 1;
+    }
+
+    .approve p {
+      margin-top: 8px;
+      color: var(--muted);
+      font-weight: 750;
+    }
+
+    .checks {
+      display: grid;
+      gap: 9px;
+      margin-top: 16px;
+    }
+
+    .check {
+      display: grid;
+      grid-template-columns: 28px minmax(0, 1fr);
+      gap: 10px;
+      align-items: start;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+    }
+
+    .check i {
+      width: 28px;
+      height: 28px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      color: #fff;
+      background: var(--teal);
+      font-style: normal;
+      font-weight: 900;
+    }
+
+    .check b {
+      display: block;
+    }
+
+    .check span {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: .92rem;
+      font-weight: 750;
+    }
+
+    .scope {
+      padding: 18px;
+      display: grid;
+      gap: 11px;
+    }
+
+    .scope-item {
+      padding: 13px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+    }
+
+    .scope-item b,
+    .scope-item span {
+      display: block;
+    }
+
+    .scope-item span {
+      margin-top: 5px;
+      color: var(--muted);
+      font-weight: 750;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes floatIn {
+      from { opacity: 0; transform: translateY(24px) scale(.98); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @media (max-width: 1080px) {
+      .hero,
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: auto;
+      }
+
+      .map {
+        min-height: 430px;
+      }
+
+      .side {
+        position: static;
+      }
+
+      .flow-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 760px) {
+      .shell {
+        width: min(100% - 18px, 1340px);
+      }
+
+      .topbar {
+        position: static;
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .nav {
+        justify-content: stretch;
+      }
+
+      .nav a {
+        flex: 1 1 140px;
+      }
+
+      h1 {
+        font-size: clamp(2.7rem, 15vw, 4.2rem);
+      }
+
+      .map {
+        min-height: 380px;
+      }
+
+      .system-card {
+        width: min(58%, 230px);
+      }
+
+      .client-card {
+        right: 2%;
+        top: 8%;
+      }
+
+      .backend-card {
+        left: 2%;
+        bottom: 8%;
+      }
+
+      .decision,
+      .flow-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .row {
+        grid-template-columns: 1fr;
+        gap: 7px;
+      }
+
+      .row .tag {
+        width: fit-content;
+      }
+
+      .panel-head {
+        display: grid;
+        align-items: start;
+      }
+
+      .table {
+        display: block;
+        overflow-x: auto;
+        direction: rtl;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 1ms !important;
+        transition-duration: 1ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar shell">
+    <a class="brand" href="index.html" aria-label="חזרה למרכז המשחק">
+      <strong>אוספים עובדות</strong>
+      <span>מסמך אישור בקאנד</span>
+    </a>
+    <nav class="nav" aria-label="ניווט במסמך">
+      <a href="#split">חלוקת אחריות</a>
+      <a href="#flows">זרימות</a>
+      <a href="#api">API</a>
+      <a href="#data">דאטה</a>
+      <a href="#approval">אישור</a>
+    </nav>
+  </header>
+
+  <section class="hero shell" aria-labelledby="pageTitle">
+    <div class="hero-copy">
+      <p class="eyebrow">לפני בניית הבקאנד</p>
+      <h1 id="pageTitle">קליינט מציג. בקאנד מחליט.</h1>
+      <p class="lead">זהו מסמך החלטה לבניית בקאנד MVP: מה נשאר באפליקציה, מה עובר לשרת, אילו טבלאות ופעולות צריך, ומה לא בונים עדיין כדי לא להסתבך מוקדם מדי.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#approval">לבדיקת אישור</a>
+        <a class="button" href="architecture.html">ארכיטקטורת MVP כללית</a>
+      </div>
+    </div>
+
+    <div class="map" aria-label="דיאגרמת קליינט ובקאנד">
+      <div class="api-line" aria-hidden="true"></div>
+      <div class="api-pill">REST API</div>
+      <div class="system-card client-card">
+        <b>Client</b>
+        <span>UI, אנימציות, אלבום, בוחן מוצג, חוויית חנות</span>
+      </div>
+      <div class="system-card backend-card">
+        <b>Backend</b>
+        <span>מטבעות, פתיחת חבילה, RNG, בדיקת בוחן, בעלות</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="shell">
+    <section class="decision" aria-label="החלטות מרכזיות">
+      <div>
+        <b>Node API קודם</b>
+        <span>בונים שכבת API מקומית שניתן להעביר בהמשך ל-Railway.</span>
+      </div>
+      <div>
+        <b>שרת סמכותי</b>
+        <span>הקליינט לא מחליט RNG, ניקוד, בעלות או מטבעות.</span>
+      </div>
+      <div>
+        <b>דאטה קיים כ-seed</b>
+        <span>משתמשים ב-`game-data.json` כנקודת התחלה.</span>
+      </div>
+      <div>
+        <b>Supabase בהמשך</b>
+        <span>המודל נכתב כך שיהיה קל להעביר ל-PostgreSQL/Auth.</span>
+      </div>
+    </section>
+
+    <div class="layout">
+      <div class="stack">
+        <section class="panel" id="split" aria-labelledby="splitTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="splitTitle">חלוקת אחריות</h2>
+              <p>העיקרון המנחה: כל מה שמשפיע על כלכלה, בעלות והתקדמות נשמר ומאומת בצד שרת.</p>
+            </div>
+            <span class="tag ok">גבול ברור</span>
+          </div>
+          <div class="rows">
+            <div class="row">
+              <b>קליינט</b>
+              <p>מציג את האפליקציה, טוען נכסים, מנגן אנימציות, מציג שאלות ותשובות, ושולח פעולות לשרת.</p>
+              <span class="tag ok">Presentation</span>
+            </div>
+            <div class="row">
+              <b>Backend API</b>
+              <p>מבצע פעולות משחק: קניית חבילה, פתיחת חבילה, יצירת ניסיון בוחן, בדיקת תשובות, חלוקת פרסים וקירור ניסיון.</p>
+              <span class="tag ok">Authority</span>
+            </div>
+            <div class="row">
+              <b>Database</b>
+              <p>שומר משתמשים, פרופילים, יתרות, ledger, קלפים שנחשפו, קלפים שנאספו, ניסיונות בוחן ותוצאות.</p>
+              <span class="tag next">State</span>
+            </div>
+            <div class="row">
+              <b>Assets</b>
+              <p>תמונות קלפים וחבילות נשארות כקבצי WebP כרגע. בעתיד יעברו ל-Storage/CDN עם cache מסודר.</p>
+              <span class="tag next">Storage later</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="flows" aria-labelledby="flowsTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="flowsTitle">זרימות משחק מול שרת</h2>
+              <p>אלו הפעולות שה-MVP צריך כדי שהמשחק יפסיק להיות רק localStorage ויתחיל להתנהג כמו מוצר אמיתי.</p>
+            </div>
+            <span class="tag ok">MVP flows</span>
+          </div>
+          <div class="flow">
+            <div class="flow-grid">
+              <div class="node">
+                <small>1</small>
+                <b>טעינת משחק</b>
+                <p>הקליינט מבקש bootstrap: משתמש, יתרה, חנות, חבילות, אלבום ו-progress.</p>
+              </div>
+              <div class="node">
+                <small>2</small>
+                <b>קניית חבילה</b>
+                <p>השרת בודק יתרה, מוריד מטבעות, יוצר רשומת רכישה ומחזיר חבילה זמינה לפתיחה.</p>
+              </div>
+              <div class="node">
+                <small>3</small>
+                <b>פתיחת חבילה</b>
+                <p>השרת מחליט אילו 10 קלפים נחשפו ומסמן אותם כמועמדים, לא כקלפים שנאספו.</p>
+              </div>
+              <div class="node">
+                <small>4</small>
+                <b>בחירת קלף</b>
+                <p>הקליינט מציג את הקלף מהאלבום. השרת בודק שהוא נחשף וזמין לבוחן.</p>
+              </div>
+              <div class="node">
+                <small>5</small>
+                <b>ניסיון בוחן</b>
+                <p>השרת יוצר attempt, מחזיר 10 שאלות בלי לחשוף את `correct_index` לקליינט.</p>
+              </div>
+              <div class="node">
+                <small>6</small>
+                <b>הגשת תשובות</b>
+                <p>השרת בודק תשובות, מחשב ציון, פותח בעלות ב-80%, או קובע retry למחר.</p>
+              </div>
+              <div class="node dark">
+                <small>7</small>
+                <b>פרס ועדכון</b>
+                <p>השרת מעדכן collection, ledger, coins וסטטוס אלבום, ואז מחזיר state מעודכן.</p>
+              </div>
+              <div class="node dark">
+                <small>8</small>
+                <b>סנכרון</b>
+                <p>הקליינט מרנדר את התוצאה בלבד. רענון עמוד לא יכול לזייף התקדמות.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="api" aria-labelledby="apiTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="apiTitle">API מוצע לשלב ראשון</h2>
+              <p>השמות כאן הם חוזה עבודה. אפשר להתחיל מקומי, ואז למפות ל-Railway/Supabase בלי לשנות את הקליינט בצורה דרמטית.</p>
+            </div>
+            <span class="tag next">Contract</span>
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Endpoint</th>
+                <th>מי קורא</th>
+                <th>מה הוא עושה</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>GET /api/bootstrap</code></td>
+                <td>קליינט בטעינה</td>
+                <td>מחזיר פרופיל, יתרה, חבילות, חנות, קלפים שנחשפו ונאספו.</td>
+              </tr>
+              <tr>
+                <td><code>GET /api/shop</code></td>
+                <td>מסך חנות</td>
+                <td>מחזיר קטלוג חנות: חבילות, מחיר, זמינות, מגבלות ומבצעי עונה.</td>
+              </tr>
+              <tr>
+                <td><code>POST /api/shop/purchase-pack</code></td>
+                <td>חנות</td>
+                <td>בודק יתרה, מוריד מטבעות, יוצר רכישה ומחזיר pack token לפתיחה.</td>
+              </tr>
+              <tr>
+                <td><code>POST /api/packs/open</code></td>
+                <td>מסך חבילה</td>
+                <td>מבצע פתיחה סמכותית, מסמן 10 קלפים כמועמדים ומחזיר reveal.</td>
+              </tr>
+              <tr>
+                <td><code>POST /api/cards/:cardId/quiz-attempts</code></td>
+                <td>אלבום/בוחן</td>
+                <td>פותח ניסיון בוחן אם הקלף נחשף, לא נאסף, ולא בקירור.</td>
+              </tr>
+              <tr>
+                <td><code>POST /api/quiz-attempts/:id/submit</code></td>
+                <td>סיום בוחן</td>
+                <td>בודק תשובות בצד שרת, מחזיר score, unlock, cooldown ופרסים.</td>
+              </tr>
+              <tr>
+                <td><code>GET /api/collection</code></td>
+                <td>אלבום</td>
+                <td>מחזיר מצב אלבום לפי חבילה: locked, discovered, owned, cooldown.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="panel" id="data" aria-labelledby="dataTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="dataTitle">מודל נתונים ראשוני</h2>
+              <p>זו סכמת MVP מינימלית. היא מספיק ברורה ל-Node מקומי, ומספיק קרובה ל-Supabase/PostgreSQL בהמשך.</p>
+            </div>
+            <span class="tag next">Schema</span>
+          </div>
+          <div class="rows">
+            <div class="row">
+              <b>content</b>
+              <p><code>seasons</code>, <code>packs</code>, <code>cards</code>, <code>questions</code>, <code>shop_items</code>. רובו מגיע מ-`game-data.json` וקבצי questions.</p>
+              <span class="tag ok">Seed</span>
+            </div>
+            <div class="row">
+              <b>accounts</b>
+              <p><code>users</code>, <code>family_profiles</code>. ב-MVP אפשר להתחיל עם שחקן דמו אחד, אבל המבנה תומך בפרופילים.</p>
+              <span class="tag next">Phase 2</span>
+            </div>
+            <div class="row">
+              <b>economy</b>
+              <p><code>wallets</code>, <code>wallet_ledger</code>, <code>pack_purchases</code>. כל שינוי מטבעות נרשם כאירוע, לא רק מספר סופי.</p>
+              <span class="tag ok">Required</span>
+            </div>
+            <div class="row">
+              <b>collection</b>
+              <p><code>pack_openings</code>, <code>card_discoveries</code>, <code>collection_cards</code>. מפריד בין קלף שנחשף לבין קלף שנאסף.</p>
+              <span class="tag ok">Required</span>
+            </div>
+            <div class="row">
+              <b>quiz</b>
+              <p><code>quiz_attempts</code>, <code>quiz_attempt_answers</code>. שומר ניסיון, שאלות שנשלחו, תשובות, ציון, pass/fail וזמן ניסיון הבא.</p>
+              <span class="tag ok">Required</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="security" aria-labelledby="securityTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="securityTitle">כללי אבטחה וכלכלה</h2>
+              <p>גם ב-MVP מקומי כדאי לבנות כאילו המשתמש מנסה לערוך את הדפדפן. זה יחסוך שכתוב גדול אחר כך.</p>
+            </div>
+            <span class="tag ok">Server first</span>
+          </div>
+          <div class="rows">
+            <div class="row">
+              <b>לא שולחים תשובות נכונות</b>
+              <p>הקליינט מקבל אפשרויות להצגה בלבד. בדיקת נכונות נעשית בהגשה מול השרת.</p>
+              <span class="tag ok">חובה</span>
+            </div>
+            <div class="row">
+              <b>אין מטבעות ב-localStorage</b>
+              <p>localStorage יכול לשמש cache תצוגה בלבד. היתרה האמיתית מגיעה מהשרת.</p>
+              <span class="tag ok">חובה</span>
+            </div>
+            <div class="row">
+              <b>פתיחה אחת היא אירוע</b>
+              <p>כל קניית חבילה, פתיחת חבילה ובוחן נשמרים עם id כדי למנוע replay או כפילות.</p>
+              <span class="tag ok">חובה</span>
+            </div>
+            <div class="row">
+              <b>קירור ניסיון בצד שרת</b>
+              <p>אם נכשלת בבוחן, השרת קובע מתי מותר לנסות שוב. שינוי שעון במכשיר לא אמור לעקוף זאת.</p>
+              <span class="tag ok">חובה</span>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside class="side">
+        <section class="approve" id="approval" aria-labelledby="approvalTitle">
+          <span class="tag next">ממתין לאישור</span>
+          <h2 id="approvalTitle">מה אני מבקש לאשר</h2>
+          <p>אם זה הכיוון, השלב הבא הוא לבנות backend MVP קטן שמחליף את ההחלטות המקומיות ב-API מסודר.</p>
+          <div class="checks">
+            <div class="check">
+              <i>1</i>
+              <div>
+                <b>לבנות API מקומי קודם</b>
+                <span>Node server עם endpoints למעלה, עדיין בלי תשלומים ובלי Auth מלא.</span>
+              </div>
+            </div>
+            <div class="check">
+              <i>2</i>
+              <div>
+                <b>להשאיר קליינט קיים</b>
+                <span>נחבר את `mvp.html` ל-API בהדרגה, בלי לזרוק את מה שעובד.</span>
+              </div>
+            </div>
+            <div class="check">
+              <i>3</i>
+              <div>
+                <b>להשתמש בדאטה הקיים</b>
+                <span>`game-data.json` יהיה seed ראשון לשרת ולחנות.</span>
+              </div>
+            </div>
+            <div class="check">
+              <i>4</i>
+              <div>
+                <b>להכין מעבר ל-Supabase</b>
+                <span>נכתוב storage adapter כדי שבהמשך נעביר state ל-PostgreSQL.</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="phaseTitle">
+          <div class="panel-head">
+            <div>
+              <h2 id="phaseTitle">שלבי בנייה</h2>
+              <p>מה נכנס ומה לא נכנס לשלב הראשון.</p>
+            </div>
+          </div>
+          <div class="scope">
+            <div class="scope-item">
+              <b>Phase 1: Backend MVP</b>
+              <span>API, state, wallet, shop placeholder, pack open, quiz submit, collection sync.</span>
+            </div>
+            <div class="scope-item">
+              <b>Phase 2: Persistence אמיתי</b>
+              <span>SQLite או Supabase, migrations, seed scripts, בדיקות API.</span>
+            </div>
+            <div class="scope-item">
+              <b>Phase 3: Accounts</b>
+              <span>Auth, parent account, family profiles, sync בין מכשירים.</span>
+            </div>
+            <div class="scope-item">
+              <b>לא עכשיו</b>
+              <span>תשלומים אמיתיים, marketplace, admin מלא, Three.js production, PWA אופליין מלא.</span>
+            </div>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <p class="footer">מסמך זה נועד לאישור לפני בניית בקאנד. אחרי אישור, המימוש הראשון יהיה קטן, מדיד, ויחליף בהדרגה את הלוגיקה המקומית ב-`mvp.html`.</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,89 @@
+Original prompt: מעולה, תתחיל עם ה mvp והסדר
+
+## 2026-05-10
+
+- Started MVP consolidation work.
+- Goal: keep existing prototypes intact, add a single playable MVP flow and a single generated data source.
+- Visual thesis: a playful Hebrew toy-binder app where packs, candidate cards, album progress, and quiz ownership feel like one physical collectible loop.
+- Content plan: pack shelf, 10-card reveal, album carousel/grid, quiz, ownership result.
+- Interaction thesis: pack pop/reveal, card selection, quiz answer feedback, persistent collection state.
+- Added `scripts/build-mvp-data.mjs`.
+- Generated `assets/season-1/game-data.json` with 13 complete packs / 130 usable cards; 8 incomplete packs excluded because pack/card assets are missing.
+- Added `assets/season-1/game-data.js` for `file://` compatibility.
+- Added first unified MVP screen at `mvp.html`.
+- Added `npm run build:data` and linked `mvp.html` from `index.html`.
+- Started local server on port 8028 for MVP testing.
+- Verified MVP at 390, 768, and 1200px: no horizontal overflow, no console errors, pack opening works, quiz starts, answering works.
+- Found and fixed toast click-blocking issue by setting `pointer-events: none`.
+- Verified a full 10/10 quiz pass unlocks one card and updates coins from 100 after pack open to 125.
+- Verified `mvp.html` also loads under `file://` because it uses `game-data.js`.
+- Fixed MVP app navigation after user feedback:
+  - Bottom tabs are now fixed like a mobile app.
+  - Main area now behaves as true modes: `pack`, `album`, `quiz`.
+  - Album has a clear empty state before pack opening: "האלבום מחכה לחבילה".
+  - Album no longer appears broken behind the pack panel.
+- Verified at 390, 768, 1200px: album tab changes state, pack opening moves to album, quiz opens, no horizontal overflow, no console errors.
+- Created `CARD_QUESTIONS_LIST.md` with 13 complete MVP packs / 130 cards, grouped by pack and including `card_id` plus existing facts for question writing.
+- Imported 100 real quiz questions for the `animals` pack into `assets/season-1/card-questions/animals.json`.
+- Updated the data build so card-specific question files are merged into each card as `mvp_questions`.
+- Updated `mvp.html` so a card with 10 imported questions uses them in the quiz instead of generated placeholder questions.
+- Fixed local dev caching for `game-data.js/json` and added a cache-busting query on `mvp.html` so new questions appear immediately.
+- Verified in the in-app browser that the cat quiz starts with "כיצד שפמי החתול עוזרים לו?" and shows the imported answers.
+- Added `architecture.html`: a responsive architecture/status page showing current MVP pieces, missing items from the spec, current-vs-target architecture, live pack/card counts, and an empty Store area placeholder.
+- Linked `architecture.html` from `index.html`.
+- Verified `architecture.html` on 390px, 768px, and 1280px with no horizontal overflow and no console errors.
+- Added `backend-architecture.html`: a client/backend approval document covering responsibility boundaries, game flows, API contract, data model, economy/security rules, and phased backend scope.
+- Linked `backend-architecture.html` from `index.html` and `architecture.html`.
+- Verified `backend-architecture.html` in the in-app browser and at 390px, 768px, and 1280px with no horizontal overflow and no console errors.
+- Created separate Angular conversion project at `converstion to angular`.
+- Scaffolded Angular 21.2.10, installed Three.js 0.184.0, copied the full local `assets` tree into the Angular project's `public/assets`.
+- Rebuilt the current local MVP as an Angular app with separated `GameDataService`, `GameStateService`, typed models, a local shop placeholder, album/pack/quiz modes, and localStorage-only state.
+- Added `ThreePackSceneComponent` using Three.js to render the selected pack and selected card as textured animated planes.
+- Verified Angular build, launched Angular dev server on `http://localhost:4200/`, checked pack opening, quiz start, first correct answer and next-question flow, no console errors, no horizontal overflow at 390px/768px/1280px, and nonblank Three.js canvas screenshot.
+- Imported the next question batch into `assets/season-1/card-questions`: `crystals.json`, `security.json`, and `colors.json`, 10 cards / 100 questions each.
+- Rebuilt `assets/season-1/game-data.json/js`; the MVP now reports 40 cards with complete 10-question custom quizzes: animals, crystals, security, and colors.
+- Synced the updated question files and game data into `converstion to angular/public/assets/season-1`.
+- Verified Angular quiz flow for `crystals-01-quartz`; the first prompt is "עד כמה נפוץ הקוורץ בטבע?" and Angular build still passes.
+- Imported the next question batch into `assets/season-1/card-questions`: `shapes.json` and `vehicles.json`, 10 cards / 100 questions each.
+- Rebuilt `assets/season-1/game-data.json/js`; the MVP now reports 60 cards with complete 10-question custom quizzes: animals, crystals, security, colors, shapes, and vehicles.
+- Synced the updated question files and game data into `converstion to angular/public/assets/season-1`.
+- Verified Angular quiz flow for `shapes-01-circle` and `vehicles-01-bus`; first prompts are "האם לעיגול יש פינות?" and "מה היתרון של אוטובוס מבחינת כמות נוסעים?", with no console errors.
+- Angular build still passes after the sync.
+- Redesigned the Angular MVP toward the approved game-app concept: glossy game HUD, phone-like play surface, pack shelf/pouches, pack opening burst, album carousel with a large focused card, quiz game buttons, empty shop shelves, and responsive desktop side panels.
+- Added adjacent-card navigation in the album so the selected card can be browsed one-by-one.
+- Reduced the Three.js scene height on mobile so the pack action is visible earlier.
+- Raised the Angular component style budget to fit the richer prototype CSS.
+- Restarted the Angular dev server on `http://localhost:4200/` and verified mobile pack, album, quiz, shop, and desktop views.
+- Verified no console errors and no horizontal overflow at 390px, 768px, and 1280px.
+- Updated pack economy/collection rules: each pack opening now draws 3 random cards instead of revealing all 10, costs 20 coins, and duplicate cards grant 5 coins each.
+- Added `duplicate_reward_coins: 5` to `mvp_rules`, rebuilt `game-data.json/js`, and synced the updated data into the Angular public assets.
+- Bumped localStorage key to `factCollectorsAngularLocalStateV2` so old "all 10 revealed" prototype saves do not pollute the new flow.
+- Reworked the Album screen so it first exposes pack-type selection, then shows the selected pack's discovered cards and a larger selected card carousel.
+- Verified first pack open gives exactly 3 discovered cards and coins go from 120 to 100; repeated openings can produce duplicates and award +5 coins each.
+- Verified no console errors and no horizontal overflow at 390px, 768px, and 1280px after the economy/album update.
+- Added pack-opening ceremony in Angular: clicking open pack now enters `charging`, shakes/enlarges the selected pack with a tear flash, then enters `revealing` with burst rays, confetti, and three opened cards flying out with "חדש" or duplicate coin labels.
+- The animation runs as an overlay above the whole phone UI and then settles back to the album result state.
+- Verified animation phases at 390px, 768px, and 1280px: `charging` -> `revealing` -> `idle`, final state has exactly 3 opened/discovered cards, no console errors, and no horizontal overflow.
+- Fixed card presentation in the album/quiz/opening views so generated card assets are shown inside cropped frames and visually fill the card area instead of appearing as a small card image floating inside a large cream frame.
+- Verified the main album card frame at 508px viewport: image is cropped larger than the frame, no horizontal overflow, and Angular build passes.
+- Slowed the pack-opening ceremony: charging now lasts about 1.5s, reveal stays on screen longer, card fly-out/confetti animations run slower.
+- Made the three revealed cards clickable during the reveal overlay; tapping a card clears the animation and opens/selects that card in the album.
+- Verified clickable reveal behavior at 390px, 768px, and 1280px: reveal phase is active, tapping an opening card transitions to idle, overlay is removed, selected card updates, no console errors, no horizontal overflow.
+- Generated full MVP quiz banks for the 7 remaining packs: fruits-veggies, my-body, angular, codex, ai, minecraft, and bank-hapoalim.
+- Added 700 questions total, bringing the project to 13 packs / 130 cards / 1300 questions with 10 MVP questions per card.
+- Rebuilt `assets/season-1/game-data.json/js`; `custom_question_cards` now reports 130.
+- Synced all question files and rebuilt game data into `converstion to angular/public/assets/season-1`.
+- Verified Angular build passes and a previously missing pack (`פירות וירקות`) starts a 10-question quiz from the generated question bank.
+- Added `backend/` Node/Express service scaffold for the game backend.
+- Backend includes Supabase server client wiring, SQL schema, Railway config, env example, local in-memory fallback, deployable catalog copy, and endpoints for health, catalog, players, player state, pack opening, player cards, and quiz attempts.
+- Smoke-tested backend locally: health reports 13 packs / 130 cards / 130 full-question cards; creating a player works; opening a pack gives 3 cards and charges 20 coins; passing a quiz grants ownership and +25 coins.
+- Created separate Railway service `fact-collectors-backend` under project `card-game`, deployed with `railway up backend --path-as-root`, generated public Railway domain, and verified `/health` plus remote pack opening.
+- Current Railway backend URL: `https://fact-collectors-backend-production.up.railway.app`.
+- Supabase is scaffolded but not connected yet because no `SUPABASE_URL` or server-only `SUPABASE_SERVICE_ROLE_KEY`/secret key was available in the environment. Railway health currently reports `supabaseConfigured: false` and uses the backend's in-memory fallback.
+
+Next TODOs:
+- Run `backend/supabase/schema.sql` in a Supabase project, set `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` on Railway service `fact-collectors-backend`, then redeploy.
+- Replace prototype-only `index.html` flow with `mvp.html` as the main entry once the MVP direction is approved.
+- Add a visible pack-open reveal ceremony before jumping to album.
+- Add fail-path QA for cooldown display and retry tomorrow.
+- Decide which 8 incomplete packs should be hidden permanently from MVP or moved to backlog metadata.

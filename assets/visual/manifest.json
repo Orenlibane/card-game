@@ -29,12 +29,14 @@
     "assets/season-1/cards-generated-he/security/07-cyber-warfare.webp",
     "assets/season-1/cards-generated-he/security/08-logistics.webp",
     "assets/season-1/cards-generated-he/security/09-home-front-command.webp",
-    "assets/season-1/cards-generated-he/security/10-military-ethics.webp"
+    "assets/season-1/cards-generated-he/security/10-military-ethics.webp",
+    "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.webp"
   ],
   "packs": [
     "assets/season-1/packs-native-he/pack-native-animals.webp",
     "assets/season-1/packs-native-he/pack-native-crystals.webp",
-    "assets/season-1/packs-native-he/pack-native-rescue.webp"
+    "assets/season-1/packs-native-he/pack-native-rescue.webp",
+    "assets/season-1/packs-wave2-he/pack-bank-hapoalim.webp"
   ],
   "visuals": [
     "assets/season-1/cards-native-he/all-30-contact-sheet.webp",
@@ -42,10 +44,12 @@
     "assets/visual/season-1-card-back.webp",
     "assets/season-1/cards-generated-he/all-30-generated-contact-sheet.webp",
     "assets/visual/season-1-card-back.png",
-    "assets/visual/season-1-card-back.json"
+    "assets/visual/season-1-card-back.json",
+    "assets/season-1/cards-wave2-he/manifest-bank-hapoalim.json"
   ],
   "note_he": "קלפים הם קלפי עובדות בלבד. המבחן נפתח בלחיצה על קלף נעול ואינו מודפס על תמונת הקלף.",
   "final_asset_policy_he": "כל קלף וכל חבילה סופיים חייבים להיווצר כתמונה עצמאית בפרומפט עצמאי. אין להשתמש בגיליון שנחתך כמקור לנכסים סופיים.",
   "current_cards_note_he": "30 הקלפים המוצגים בדמו נוצרו כתמונות עצמאיות אחת־אחת דרך כלי image generation, ונשמרו גם כ-PNG מקורי וגם כ-WebP לדמו מהיר.",
-  "season_1_card_back_he": "גב קלף אחיד לכל הקלפים של עונה 1, כתמונת asset עצמאית."
+  "season_1_card_back_he": "גב קלף אחיד לכל הקלפים של עונה 1, כתמונת asset עצמאית.",
+  "bank_hapoalim_note_he": "חבילת בנק הפועלים וקלף פיקדון יומי נוספו לדמו עונה 1 כנכסי image generation עצמאיים."
 }

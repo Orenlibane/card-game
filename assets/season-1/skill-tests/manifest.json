@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "test_he": "בדיקת skill יצירת קלפים וחבילות",
+  "skill_path": "/Users/orentzezana/.codex/skills/fact-collectors-card-pack-assets",
+  "source_pack_json": "assets/season-1/quizzes/vehicles.json",
+  "prompt_path": "tmp/skill-test-bus-prompt.txt",
+  "source_image_path": "assets/season-1/skill-tests/vehicles-01-bus-skill-test.source.png",
+  "asset_path": "assets/season-1/skill-tests/vehicles-01-bus-skill-test.webp",
+  "card_id": "vehicles-01-bus",
+  "title_he": "אוטובוס",
+  "status_he": "בדיקת סגנון - נוצר עם skill"
+}

@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "fruits-veggies",
+  "pack_title_he": "פירות וירקות",
+  "domain_he": "אוכל בריא, צבעים וטבע",
+  "age_group_he": "ילדים קטנים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-fruits-veggies.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "fruits-veggies-01-apple",
+      "index": 1,
+      "title_he": "תפוח",
+      "asset_path": "assets/season-1/cards-wave2-he/fruits-veggies/01-apple.webp",
+      "facts_he": [
+        "פרי עסיסי עם קליפה",
+        "גדל על עץ",
+        "יש תפוחים בצבעים שונים"
+      ],
+      "tags_he": [
+        "פרי",
+        "עץ"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "תפוח",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי עסיסי עם קליפה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי תפוח?",
+          "options_he": [
+            "פרי עסיסי עם קליפה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי עסיסי עם קליפה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא תפוח?",
+          "options_he": [
+            "תפוח קשור לתג פרי ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גדל על עץ"
+        }
+      }
+    },
+    {
+      "card_id": "fruits-veggies-02-banana",
+      "index": 2,
+      "title_he": "בננה",
+      "asset_path": "assets/season-1/cards-wave2-he/fruits-veggies/02-banana.webp",
+      "facts_he": [
+        "פרי צהוב ורך",
+        "גדלה באשכולות",
+        "עשירה באנרגיה זמינה"
+      ],
+      "tags_he": [
+        "פרי",
+        "אנרגיה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "בננה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי צהוב ורך"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי בננה?",
+          "options_he": [
+            "פרי צהוב ורך",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי צהוב ורך"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא בננה?",
+          "options_he": [
+            "בננה קשור לתג פרי ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גדלה באשכולות"
+        }
+      }
+    },
+    {
+      "card_id": "fruits-veggies-03-strawberry",
+      "index": 3,
+      "title_he": "תות",
+      "asset_path": "assets/season-1/cards-wave2-he/fruits-veggies/03-strawberry.webp",
+      "facts_he": [
+        "פרי קטן ואדום",
+        "הזרעים נמצאים על הקליפה",
+        "טעמו מתוק וחמצמץ"
+      ],
+      "tags_he": [
+        "פרי",
+        "זרעים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "תות",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי קטן ואדום"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי תות?",
+          "options_he": [
+            "פרי קטן ואדום",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי קטן ואדום"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא תות?",
+          "options_he": [
+            "תות קשור לתג פרי ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הזרעים נמצאים על הקליפה"
+        }
+      }
+    },
+    {
+      "card_id": "fruits-veggies-04-watermelon",
+      "index": 4,
+      "title_he": "אבטיח",
+      "asset_path": "assets/season-1/cards-wave2-he/fruits-veggies/04-watermelon.webp",
+      "facts_he": [
+        "פרי גדול ומלא מים",
+        "קליפה ירוקה מגינה על הפנים",
+        "נפוץ בקיץ"
+      ],
+      "tags_he": [
+        "קיץ",
+        "מים"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אבטיח",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי גדול ומלא מים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אבטיח?",
+          "options_he": [
+            "פרי גדול ומלא מים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי גדול ומלא מים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אבטיח?",
+          "options_he": [
+            "אבטיח קשור לתג קיץ ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קליפה ירוקה מגינה על הפנים"
+        }
+      }
+    },
+    {
+      "card_id": "fruits-veggies-05-carrot",
+      "index": 5,
+      "title_he": "גזר",
+      "asset_path": "assets/season-1/cards-wave2-he/fruits-veggies/05-carrot.webp",
+      "facts_he": [
+        "שורש כתום שאוכלים",
+        "גדל בתוך האדמה",
+        "מכיל חומר שנותן צבע כתום"
+      ],
+      "tags_he": [
+        "ירק",
+        "שורש"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "גזר",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שורש כתום שאוכלים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי גזר?",
+          "options_he": [
+            "שורש כתום שאוכלים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שורש כתום שאוכלים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא גזר?",
+          "options_he": [
+            "גזר קשור לתג ירק ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גדל בתוך האדמה"
+        }
+      }
+    },
+    {
+      "card_id": "fruits-veggies-06-tomato",
+      "index": 6,
+      "title_he": "עגבנייה",
+      "asset_path": "assets/season-1/cards-wave2-he/fruits-veggies/06-tomato.webp",
+      "facts_he": [
+        "פרי אדום שמשמש במאכלים רבים",
+        "יש בה זרעים ורכים",
+        "גדלה על שיח"
+      ],
+      "tags_he": [
+        "צמחים",
+        "מטבח"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "עגבנייה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי אדום שמשמש במאכלים רבים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי עגבנייה?",
+          "options_he": [
+            "פרי אדום שמשמש במאכלים רבים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי אדום שמשמש במאכלים רבים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא עגבנייה?",
+          "options_he": [
+            "עגבנייה קשור לתג צמחים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יש בה זרעים ורכים"
+        }
+      }
+    },
+    {
+      "card_id": "fruits-veggies-07-cucumber",
+      "index": 7,
+      "title_he": "מלפפון",
+      "asset_path": "assets/season-1/cards-wave2-he/fruits-veggies/07-cucumber.webp",
+      "facts_he": [
+        "ירק ירוק ופריך",
+        "מכיל הרבה מים",
+        "נאכל טרי בסלטים"
+      ],
+      "tags_he": [
+        "ירק",
+        "מים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מלפפון",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ירק ירוק ופריך"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מלפפון?",
+          "options_he": [
+            "ירק ירוק ופריך",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ירק ירוק ופריך"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מלפפון?",
+          "options_he": [
+            "מלפפון קשור לתג ירק ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מכיל הרבה מים"
+        }
+      }
+    },
+    {
+      "card_id": "fruits-veggies-08-grapes",
+      "index": 8,
+      "title_he": "ענבים",
+      "asset_path": "assets/season-1/cards-wave2-he/fruits-veggies/08-grapes.webp",
+      "facts_he": [
+        "גדלים באשכולות",
+        "יכולים להיות ירוקים או סגולים",
+        "משמשים גם להכנת מיץ"
+      ],
+      "tags_he": [
+        "פרי",
+        "אשכול"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ענבים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גדלים באשכולות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ענבים?",
+          "options_he": [
+            "גדלים באשכולות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גדלים באשכולות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ענבים?",
+          "options_he": [
+            "ענבים קשור לתג פרי ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יכולים להיות ירוקים או סגולים"
+        }
+      }
+    },
+    {
+      "card_id": "fruits-veggies-09-orange",
+      "index": 9,
+      "title_he": "תפוז",
+      "asset_path": "assets/season-1/cards-wave2-he/fruits-veggies/09-orange.webp",
+      "facts_he": [
+        "פרי הדר כתום",
+        "עשיר במיץ",
+        "הקליפה מפיצה ריח חזק"
+      ],
+      "tags_he": [
+        "הדרים",
+        "ריח"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "תפוז",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי הדר כתום"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי תפוז?",
+          "options_he": [
+            "פרי הדר כתום",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרי הדר כתום"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא תפוז?",
+          "options_he": [
+            "תפוז קשור לתג הדרים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עשיר במיץ"
+        }
+      }
+    },
+    {
+      "card_id": "fruits-veggies-10-corn",
+      "index": 10,
+      "title_he": "תירס",
+      "asset_path": "assets/season-1/cards-wave2-he/fruits-veggies/10-corn.webp",
+      "facts_he": [
+        "גרגרים מסודרים בשורות",
+        "גדל על קלח",
+        "משמש למזון ולמוצרים רבים"
+      ],
+      "tags_he": [
+        "דגנים",
+        "חקלאות"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "תירס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גרגרים מסודרים בשורות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי תירס?",
+          "options_he": [
+            "גרגרים מסודרים בשורות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גרגרים מסודרים בשורות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא תירס?",
+          "options_he": [
+            "תירס קשור לתג דגנים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גדל על קלח"
+        }
+      }
+    }
+  ]
+}

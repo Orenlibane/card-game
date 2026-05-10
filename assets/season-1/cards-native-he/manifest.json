@@ -1,0 +1,164 @@
+{
+  "season": 1,
+  "brand_he": "אוספים עובדות",
+  "card_type_he": "קלפי עובדות בלבד",
+  "quiz_flow_he": "המבחן נפתח בלחיצה על קלף נעול ואינו מודפס על תמונת הקלף",
+  "packs": {
+    "animals": [
+      {
+        "index": 1,
+        "title_he": "חתול",
+        "path": "assets/season-1/cards-native-he/animals/01-cat.webp"
+      },
+      {
+        "index": 2,
+        "title_he": "כלב",
+        "path": "assets/season-1/cards-native-he/animals/02-dog.webp"
+      },
+      {
+        "index": 3,
+        "title_he": "ארנב",
+        "path": "assets/season-1/cards-native-he/animals/03-rabbit.webp"
+      },
+      {
+        "index": 4,
+        "title_he": "פיל",
+        "path": "assets/season-1/cards-native-he/animals/04-elephant.webp"
+      },
+      {
+        "index": 5,
+        "title_he": "ג׳ירפה",
+        "path": "assets/season-1/cards-native-he/animals/05-giraffe.webp"
+      },
+      {
+        "index": 6,
+        "title_he": "צב",
+        "path": "assets/season-1/cards-native-he/animals/06-turtle.webp"
+      },
+      {
+        "index": 7,
+        "title_he": "דולפין",
+        "path": "assets/season-1/cards-native-he/animals/07-dolphin.webp"
+      },
+      {
+        "index": 8,
+        "title_he": "פרפר",
+        "path": "assets/season-1/cards-native-he/animals/08-butterfly.webp"
+      },
+      {
+        "index": 9,
+        "title_he": "פינגווין",
+        "path": "assets/season-1/cards-native-he/animals/09-penguin.webp"
+      },
+      {
+        "index": 10,
+        "title_he": "כריש",
+        "path": "assets/season-1/cards-native-he/animals/10-shark.webp"
+      }
+    ],
+    "crystals": [
+      {
+        "index": 1,
+        "title_he": "קוורץ",
+        "path": "assets/season-1/cards-native-he/crystals/01-quartz.webp"
+      },
+      {
+        "index": 2,
+        "title_he": "אמטיסט",
+        "path": "assets/season-1/cards-native-he/crystals/02-amethyst.webp"
+      },
+      {
+        "index": 3,
+        "title_he": "טורמלין",
+        "path": "assets/season-1/cards-native-he/crystals/03-tourmaline.webp"
+      },
+      {
+        "index": 4,
+        "title_he": "פיריט",
+        "path": "assets/season-1/cards-native-he/crystals/04-pyrite.webp"
+      },
+      {
+        "index": 5,
+        "title_he": "אובסידיאן",
+        "path": "assets/season-1/cards-native-he/crystals/05-obsidian.webp"
+      },
+      {
+        "index": 6,
+        "title_he": "גרניט",
+        "path": "assets/season-1/cards-native-he/crystals/06-granite.webp"
+      },
+      {
+        "index": 7,
+        "title_he": "בזלת",
+        "path": "assets/season-1/cards-native-he/crystals/07-basalt.webp"
+      },
+      {
+        "index": 8,
+        "title_he": "יהלום",
+        "path": "assets/season-1/cards-native-he/crystals/08-diamond.webp"
+      },
+      {
+        "index": 9,
+        "title_he": "מלח סלעים",
+        "path": "assets/season-1/cards-native-he/crystals/09-rock-salt.webp"
+      },
+      {
+        "index": 10,
+        "title_he": "מאובן מינרלי",
+        "path": "assets/season-1/cards-native-he/crystals/10-mineral-fossil.webp"
+      }
+    ],
+    "security": [
+      {
+        "index": 1,
+        "title_he": "חילוץ והצלה",
+        "path": "assets/season-1/cards-native-he/security/01-rescue.webp"
+      },
+      {
+        "index": 2,
+        "title_he": "מודיעין",
+        "path": "assets/season-1/cards-native-he/security/02-intelligence.webp"
+      },
+      {
+        "index": 3,
+        "title_he": "חיל האוויר",
+        "path": "assets/season-1/cards-native-he/security/03-air-force.webp"
+      },
+      {
+        "index": 4,
+        "title_he": "חיל הים",
+        "path": "assets/season-1/cards-native-he/security/04-navy.webp"
+      },
+      {
+        "index": 5,
+        "title_he": "חיל הרפואה",
+        "path": "assets/season-1/cards-native-he/security/05-medical-corps.webp"
+      },
+      {
+        "index": 6,
+        "title_he": "כיפת ברזל",
+        "path": "assets/season-1/cards-native-he/security/06-iron-dome.webp"
+      },
+      {
+        "index": 7,
+        "title_he": "לוחמה בסייבר",
+        "path": "assets/season-1/cards-native-he/security/07-cyber-warfare.webp"
+      },
+      {
+        "index": 8,
+        "title_he": "לוגיסטיקה",
+        "path": "assets/season-1/cards-native-he/security/08-logistics.webp"
+      },
+      {
+        "index": 9,
+        "title_he": "פיקוד העורף",
+        "path": "assets/season-1/cards-native-he/security/09-home-front-command.webp"
+      },
+      {
+        "index": 10,
+        "title_he": "אתיקה צבאית",
+        "path": "assets/season-1/cards-native-he/security/10-military-ethics.webp"
+      }
+    ]
+  }
+}

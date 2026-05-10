@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "minecraft",
+  "pack_title_he": "עולם קוביות",
+  "domain_he": "בנייה, משאבים וחקר עולם קוביות",
+  "age_group_he": "ילדים בינוניים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-minecraft.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "note_he": "סט מקורי בהשראת למידה דרך בנייה בקוביות. הנכסים אינם משתמשים בלוגו, שם מותג או דמויות ממשחק קיים.",
+  "cards": [
+    {
+      "card_id": "minecraft-01-cube",
+      "index": 1,
+      "title_he": "קובייה",
+      "asset_path": "assets/season-1/cards-wave2-he/minecraft/01-cube.webp",
+      "facts_he": [
+        "קובייה בנויה משש פאות",
+        "קוביות עוזרות לבנות מרחב",
+        "חיבור קוביות יוצר צורות גדולות"
+      ],
+      "tags_he": [
+        "צורות",
+        "בנייה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "קובייה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קובייה בנויה משש פאות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי קובייה?",
+          "options_he": [
+            "קובייה בנויה משש פאות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קובייה בנויה משש פאות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא קובייה?",
+          "options_he": [
+            "קובייה קשור לתג צורות ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קוביות עוזרות לבנות מרחב"
+        }
+      }
+    },
+    {
+      "card_id": "minecraft-02-pickaxe",
+      "index": 2,
+      "title_he": "מכוש",
+      "asset_path": "assets/season-1/cards-wave2-he/minecraft/02-pickaxe.webp",
+      "facts_he": [
+        "כלי חפירה עוזר לשבור סלעים",
+        "כלים שונים מתאימים לחומרים שונים",
+        "בחירת כלי חוסכת זמן"
+      ],
+      "tags_he": [
+        "כלים",
+        "חומרים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מכוש",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כלי חפירה עוזר לשבור סלעים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מכוש?",
+          "options_he": [
+            "כלי חפירה עוזר לשבור סלעים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כלי חפירה עוזר לשבור סלעים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מכוש?",
+          "options_he": [
+            "מכוש קשור לתג כלים ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כלים שונים מתאימים לחומרים שונים"
+        }
+      }
+    },
+    {
+      "card_id": "minecraft-03-shelter",
+      "index": 3,
+      "title_he": "מחסה ראשון",
+      "asset_path": "assets/season-1/cards-wave2-he/minecraft/03-shelter.webp",
+      "facts_he": [
+        "קירות וגג מגנים מרוח וגשם",
+        "תכנון פתח עוזר להיכנס ולצאת",
+        "אור בתוך המחסה מקל להתמצא"
+      ],
+      "tags_he": [
+        "תכנון",
+        "בטיחות"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מחסה ראשון",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קירות וגג מגנים מרוח וגשם"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מחסה ראשון?",
+          "options_he": [
+            "קירות וגג מגנים מרוח וגשם",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קירות וגג מגנים מרוח וגשם"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מחסה ראשון?",
+          "options_he": [
+            "מחסה ראשון קשור לתג תכנון ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תכנון פתח עוזר להיכנס ולצאת"
+        }
+      }
+    },
+    {
+      "card_id": "minecraft-04-cave",
+      "index": 4,
+      "title_he": "מערה",
+      "asset_path": "assets/season-1/cards-wave2-he/minecraft/04-cave.webp",
+      "facts_he": [
+        "מערות נוצרות בתוך סלעים",
+        "חושך דורש מקור אור",
+        "שכבות סלע רומזות על חומרים"
+      ],
+      "tags_he": [
+        "גאולוגיה",
+        "חקר"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מערה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מערות נוצרות בתוך סלעים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מערה?",
+          "options_he": [
+            "מערות נוצרות בתוך סלעים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מערות נוצרות בתוך סלעים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מערה?",
+          "options_he": [
+            "מערה קשור לתג גאולוגיה ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חושך דורש מקור אור"
+        }
+      }
+    },
+    {
+      "card_id": "minecraft-05-resources",
+      "index": 5,
+      "title_he": "משאבים",
+      "asset_path": "assets/season-1/cards-wave2-he/minecraft/05-resources.webp",
+      "facts_he": [
+        "משאב הוא חומר שאפשר להשתמש בו",
+        "איסוף מסודר עוזר לבנות",
+        "לא כל חומר מתאים לכל מטרה"
+      ],
+      "tags_he": [
+        "חומרים",
+        "מיון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "משאבים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משאב הוא חומר שאפשר להשתמש בו"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי משאבים?",
+          "options_he": [
+            "משאב הוא חומר שאפשר להשתמש בו",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משאב הוא חומר שאפשר להשתמש בו"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא משאבים?",
+          "options_he": [
+            "משאבים קשור לתג חומרים ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "איסוף מסודר עוזר לבנות"
+        }
+      }
+    },
+    {
+      "card_id": "minecraft-06-crafting",
+      "index": 6,
+      "title_he": "יצירה",
+      "asset_path": "assets/season-1/cards-wave2-he/minecraft/06-crafting.webp",
+      "facts_he": [
+        "שילוב חומרים יוצר חפץ חדש",
+        "מתכון הוא סדר פעולות קבוע",
+        "ניסוי מלמד אילו שילובים עובדים"
+      ],
+      "tags_he": [
+        "מתכונים",
+        "ניסוי"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "יצירה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שילוב חומרים יוצר חפץ חדש"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי יצירה?",
+          "options_he": [
+            "שילוב חומרים יוצר חפץ חדש",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שילוב חומרים יוצר חפץ חדש"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא יצירה?",
+          "options_he": [
+            "יצירה קשור לתג מתכונים ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מתכון הוא סדר פעולות קבוע"
+        }
+      }
+    },
+    {
+      "card_id": "minecraft-07-farm",
+      "index": 7,
+      "title_he": "חווה",
+      "asset_path": "assets/season-1/cards-wave2-he/minecraft/07-farm.webp",
+      "facts_he": [
+        "צמחים צריכים מים ואור",
+        "חווה מסודרת נותנת מזון לאורך זמן",
+        "טיפול קבוע משפר יבול"
+      ],
+      "tags_he": [
+        "טבע",
+        "מזון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "חווה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צמחים צריכים מים ואור"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי חווה?",
+          "options_he": [
+            "צמחים צריכים מים ואור",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צמחים צריכים מים ואור"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא חווה?",
+          "options_he": [
+            "חווה קשור לתג טבע ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חווה מסודרת נותנת מזון לאורך זמן"
+        }
+      }
+    },
+    {
+      "card_id": "minecraft-08-biome",
+      "index": 8,
+      "title_he": "אזור טבע",
+      "asset_path": "assets/season-1/cards-wave2-he/minecraft/08-biome.webp",
+      "facts_he": [
+        "אזור טבע כולל אקלים וצמחים",
+        "מדבר ויער נראים ומתנהגים אחרת",
+        "סביבה משפיעה על החומרים שנמצא"
+      ],
+      "tags_he": [
+        "סביבה",
+        "אקלים"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אזור טבע",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אזור טבע כולל אקלים וצמחים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אזור טבע?",
+          "options_he": [
+            "אזור טבע כולל אקלים וצמחים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אזור טבע כולל אקלים וצמחים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אזור טבע?",
+          "options_he": [
+            "אזור טבע קשור לתג סביבה ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מדבר ויער נראים ומתנהגים אחרת"
+        }
+      }
+    },
+    {
+      "card_id": "minecraft-09-map",
+      "index": 9,
+      "title_he": "מפה",
+      "asset_path": "assets/season-1/cards-wave2-he/minecraft/09-map.webp",
+      "facts_he": [
+        "מפה עוזרת לזכור מיקום",
+        "סימנים פשוטים מקצרים דרך",
+        "כיוון ומרחק חשובים בניווט"
+      ],
+      "tags_he": [
+        "ניווט",
+        "סימנים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מפה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפה עוזרת לזכור מיקום"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מפה?",
+          "options_he": [
+            "מפה עוזרת לזכור מיקום",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפה עוזרת לזכור מיקום"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מפה?",
+          "options_he": [
+            "מפה קשור לתג ניווט ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סימנים פשוטים מקצרים דרך"
+        }
+      }
+    },
+    {
+      "card_id": "minecraft-10-circuits",
+      "index": 10,
+      "title_he": "מעגלי כוח",
+      "asset_path": "assets/season-1/cards-wave2-he/minecraft/10-circuits.webp",
+      "facts_he": [
+        "אות יכול להפעיל מנגנון",
+        "מתג משנה מצב פתוח או סגור",
+        "רצף אותות יוצר מכונה פשוטה"
+      ],
+      "tags_he": [
+        "הנדסה",
+        "מערכות"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מעגלי כוח",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אות יכול להפעיל מנגנון"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מעגלי כוח?",
+          "options_he": [
+            "אות יכול להפעיל מנגנון",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אות יכול להפעיל מנגנון"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מעגלי כוח?",
+          "options_he": [
+            "מעגלי כוח קשור לתג הנדסה ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מתג משנה מצב פתוח או סגור"
+        }
+      }
+    }
+  ]
+}

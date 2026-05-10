@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "generation_mode_he": "נכסי production נוצרים אחד־אחד בכלי image generation, עם בדיקה וייבוא אחרי כל תמונה.",
+  "status_he": "יובא לדמו עונה 1 מתמונות image generation.",
+  "source_pack_json": "assets/season-1/quizzes/bank-hapoalim.json",
+  "prompts_json": "tmp/bank-hapoalim-asset-prompts.json",
+  "packs": [
+    {
+      "pack_id": "bank-hapoalim",
+      "title_he": "בנק הפועלים",
+      "png": "assets/season-1/packs-wave2-he/pack-bank-hapoalim.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-bank-hapoalim.webp",
+      "prompt_file": "tmp/imagegen/bank-hapoalim-pack-prompt.txt",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a003ec425408191a17785d7da50157e.png",
+      "updated_at": "2026-05-10T08:19:59.702Z"
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "bank-hapoalim-01-daily-deposit",
+      "pack_id": "bank-hapoalim",
+      "title_he": "פיקדון יומי",
+      "png": "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.png",
+      "webp": "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.webp",
+      "prompt_file": "tmp/imagegen/bank-hapoalim-daily-deposit-card-prompt.txt",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a003f129d288191a2054acaa017a4c3.png",
+      "updated_at": "2026-05-10T08:19:59.702Z"
+    }
+  ]
+}

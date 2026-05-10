@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "vehicles",
+  "pack_title_he": "כלי תחבורה",
+  "domain_he": "תנועה, נסיעה ובטיחות",
+  "age_group_he": "ילדים קטנים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-vehicles.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "vehicles-01-bus",
+      "index": 1,
+      "title_he": "אוטובוס",
+      "asset_path": "assets/season-1/cards-wave2-he/vehicles/01-bus.webp",
+      "facts_he": [
+        "מסיע הרבה נוסעים יחד",
+        "נוסע במסלול עם תחנות",
+        "תחבורה ציבורית מפחיתה עומס"
+      ],
+      "tags_he": [
+        "עיר",
+        "נסיעה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אוטובוס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מסיע הרבה נוסעים יחד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אוטובוס?",
+          "options_he": [
+            "מסיע הרבה נוסעים יחד",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מסיע הרבה נוסעים יחד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אוטובוס?",
+          "options_he": [
+            "אוטובוס קשור לתג עיר ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נוסע במסלול עם תחנות"
+        }
+      }
+    },
+    {
+      "card_id": "vehicles-02-train",
+      "index": 2,
+      "title_he": "רכבת",
+      "asset_path": "assets/season-1/cards-wave2-he/vehicles/02-train.webp",
+      "facts_he": [
+        "נוסעת על מסילות",
+        "יכולה להסיע אנשים וסחורות",
+        "תחנות עוזרות לתכנן מסלול"
+      ],
+      "tags_he": [
+        "מסילות",
+        "תכנון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "רכבת",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נוסעת על מסילות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי רכבת?",
+          "options_he": [
+            "נוסעת על מסילות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נוסעת על מסילות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא רכבת?",
+          "options_he": [
+            "רכבת קשור לתג מסילות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יכולה להסיע אנשים וסחורות"
+        }
+      }
+    },
+    {
+      "card_id": "vehicles-03-airplane",
+      "index": 3,
+      "title_he": "מטוס",
+      "asset_path": "assets/season-1/cards-wave2-he/vehicles/03-airplane.webp",
+      "facts_he": [
+        "טס בעזרת כנפיים ומנועים",
+        "מחבר בין מקומות רחוקים",
+        "שדה תעופה מנהל המראות ונחיתות"
+      ],
+      "tags_he": [
+        "תעופה",
+        "מרחק"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מטוס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טס בעזרת כנפיים ומנועים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מטוס?",
+          "options_he": [
+            "טס בעזרת כנפיים ומנועים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טס בעזרת כנפיים ומנועים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מטוס?",
+          "options_he": [
+            "מטוס קשור לתג תעופה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מחבר בין מקומות רחוקים"
+        }
+      }
+    },
+    {
+      "card_id": "vehicles-04-boat",
+      "index": 4,
+      "title_he": "סירה",
+      "asset_path": "assets/season-1/cards-wave2-he/vehicles/04-boat.webp",
+      "facts_he": [
+        "שטה על מים",
+        "משוט או מנוע יכולים להזיז אותה",
+        "חגורת הצלה שומרת בטיחות"
+      ],
+      "tags_he": [
+        "ים",
+        "בטיחות"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "סירה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שטה על מים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי סירה?",
+          "options_he": [
+            "שטה על מים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שטה על מים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא סירה?",
+          "options_he": [
+            "סירה קשור לתג ים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משוט או מנוע יכולים להזיז אותה"
+        }
+      }
+    },
+    {
+      "card_id": "vehicles-05-bicycle",
+      "index": 5,
+      "title_he": "אופניים",
+      "asset_path": "assets/season-1/cards-wave2-he/vehicles/05-bicycle.webp",
+      "facts_he": [
+        "נעים בעזרת דיווש",
+        "קסדה מגינה על הראש",
+        "שיווי משקל חשוב לרכיבה"
+      ],
+      "tags_he": [
+        "בריאות",
+        "תנועה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אופניים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נעים בעזרת דיווש"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אופניים?",
+          "options_he": [
+            "נעים בעזרת דיווש",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נעים בעזרת דיווש"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אופניים?",
+          "options_he": [
+            "אופניים קשור לתג בריאות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קסדה מגינה על הראש"
+        }
+      }
+    },
+    {
+      "card_id": "vehicles-06-tractor",
+      "index": 6,
+      "title_he": "טרקטור",
+      "asset_path": "assets/season-1/cards-wave2-he/vehicles/06-tractor.webp",
+      "facts_he": [
+        "עוזר לעבוד בשדות",
+        "גלגלים גדולים עוברים על אדמה",
+        "חקלאים משתמשים בו לגרירה"
+      ],
+      "tags_he": [
+        "חקלאות",
+        "עבודה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "טרקטור",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזר לעבוד בשדות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי טרקטור?",
+          "options_he": [
+            "עוזר לעבוד בשדות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזר לעבוד בשדות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא טרקטור?",
+          "options_he": [
+            "טרקטור קשור לתג חקלאות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גלגלים גדולים עוברים על אדמה"
+        }
+      }
+    },
+    {
+      "card_id": "vehicles-07-firetruck",
+      "index": 7,
+      "title_he": "כבאית",
+      "asset_path": "assets/season-1/cards-wave2-he/vehicles/07-firetruck.webp",
+      "facts_he": [
+        "נושאת ציוד כיבוי",
+        "סולם עוזר להגיע גבוה",
+        "צפירה מזהירה לפנות דרך"
+      ],
+      "tags_he": [
+        "חירום",
+        "בטיחות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "כבאית",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נושאת ציוד כיבוי"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי כבאית?",
+          "options_he": [
+            "נושאת ציוד כיבוי",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נושאת ציוד כיבוי"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא כבאית?",
+          "options_he": [
+            "כבאית קשור לתג חירום ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סולם עוזר להגיע גבוה"
+        }
+      }
+    },
+    {
+      "card_id": "vehicles-08-ambulance",
+      "index": 8,
+      "title_he": "אמבולנס",
+      "asset_path": "assets/season-1/cards-wave2-he/vehicles/08-ambulance.webp",
+      "facts_he": [
+        "מסיע צוות רפואי במהירות",
+        "ציוד רפואי נמצא בתוכו",
+        "צפירה עוזרת להגיע בזמן"
+      ],
+      "tags_he": [
+        "רפואה",
+        "חירום"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אמבולנס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מסיע צוות רפואי במהירות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אמבולנס?",
+          "options_he": [
+            "מסיע צוות רפואי במהירות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מסיע צוות רפואי במהירות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אמבולנס?",
+          "options_he": [
+            "אמבולנס קשור לתג רפואה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ציוד רפואי נמצא בתוכו"
+        }
+      }
+    },
+    {
+      "card_id": "vehicles-09-spaceship",
+      "index": 9,
+      "title_he": "חללית",
+      "asset_path": "assets/season-1/cards-wave2-he/vehicles/09-spaceship.webp",
+      "facts_he": [
+        "נעה מחוץ לכדור הארץ",
+        "זקוקה למנועים חזקים",
+        "אסטרונאוטים משתמשים בה למחקר"
+      ],
+      "tags_he": [
+        "חלל",
+        "מחקר"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "חללית",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נעה מחוץ לכדור הארץ"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי חללית?",
+          "options_he": [
+            "נעה מחוץ לכדור הארץ",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נעה מחוץ לכדור הארץ"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא חללית?",
+          "options_he": [
+            "חללית קשור לתג חלל ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זקוקה למנועים חזקים"
+        }
+      }
+    },
+    {
+      "card_id": "vehicles-10-cable-car",
+      "index": 10,
+      "title_he": "רכבל",
+      "asset_path": "assets/season-1/cards-wave2-he/vehicles/10-cable-car.webp",
+      "facts_he": [
+        "נע על כבל מעל הקרקע",
+        "עוזר לטפס בהרים",
+        "קרון הרכבל תלוי ונע לאט"
+      ],
+      "tags_he": [
+        "גובה",
+        "תנועה"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "רכבל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נע על כבל מעל הקרקע"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי רכבל?",
+          "options_he": [
+            "נע על כבל מעל הקרקע",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נע על כבל מעל הקרקע"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא רכבל?",
+          "options_he": [
+            "רכבל קשור לתג גובה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזר לטפס בהרים"
+        }
+      }
+    }
+  ]
+}

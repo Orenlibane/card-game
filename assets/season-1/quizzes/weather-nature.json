@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "weather-nature",
+  "pack_title_he": "מזג אוויר וטבע",
+  "domain_he": "תופעות טבע סביבנו",
+  "age_group_he": "ילדים בינוניים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-weather-nature.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "weather-nature-01-rain",
+      "index": 1,
+      "title_he": "גשם",
+      "asset_path": "assets/season-1/cards-wave2-he/weather-nature/01-rain.webp",
+      "facts_he": [
+        "טיפות מים נופלות מעננים",
+        "חשוב לצמחים ולמאגרי מים",
+        "נוצר ממחזור המים"
+      ],
+      "tags_he": [
+        "מים",
+        "עננים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "גשם",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טיפות מים נופלות מעננים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי גשם?",
+          "options_he": [
+            "טיפות מים נופלות מעננים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טיפות מים נופלות מעננים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא גשם?",
+          "options_he": [
+            "גשם קשור לתג מים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חשוב לצמחים ולמאגרי מים"
+        }
+      }
+    },
+    {
+      "card_id": "weather-nature-02-snow",
+      "index": 2,
+      "title_he": "שלג",
+      "asset_path": "assets/season-1/cards-wave2-he/weather-nature/02-snow.webp",
+      "facts_he": [
+        "פתיתי קרח נופלים מהעננים",
+        "נוצר כשקר מאוד",
+        "כל פתית יכול להיות שונה"
+      ],
+      "tags_he": [
+        "קור",
+        "קרח"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "שלג",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פתיתי קרח נופלים מהעננים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שלג?",
+          "options_he": [
+            "פתיתי קרח נופלים מהעננים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פתיתי קרח נופלים מהעננים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא שלג?",
+          "options_he": [
+            "שלג קשור לתג קור ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נוצר כשקר מאוד"
+        }
+      }
+    },
+    {
+      "card_id": "weather-nature-03-lightning",
+      "index": 3,
+      "title_he": "ברק",
+      "asset_path": "assets/season-1/cards-wave2-he/weather-nature/03-lightning.webp",
+      "facts_he": [
+        "פריקת חשמל באטמוספירה",
+        "מופיע לפני רעם",
+        "חשוב להתרחק מסכנה בסופה"
+      ],
+      "tags_he": [
+        "חשמל",
+        "סופה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ברק",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פריקת חשמל באטמוספירה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ברק?",
+          "options_he": [
+            "פריקת חשמל באטמוספירה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פריקת חשמל באטמוספירה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ברק?",
+          "options_he": [
+            "ברק קשור לתג חשמל ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מופיע לפני רעם"
+        }
+      }
+    },
+    {
+      "card_id": "weather-nature-04-wind",
+      "index": 4,
+      "title_he": "רוח",
+      "asset_path": "assets/season-1/cards-wave2-he/weather-nature/04-wind.webp",
+      "facts_he": [
+        "אוויר בתנועה",
+        "יכולה להזיז עננים וזרעים",
+        "טורבינות רוח מפיקות אנרגיה"
+      ],
+      "tags_he": [
+        "אוויר",
+        "אנרגיה"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "רוח",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אוויר בתנועה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי רוח?",
+          "options_he": [
+            "אוויר בתנועה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אוויר בתנועה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא רוח?",
+          "options_he": [
+            "רוח קשור לתג אוויר ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יכולה להזיז עננים וזרעים"
+        }
+      }
+    },
+    {
+      "card_id": "weather-nature-05-cloud",
+      "index": 5,
+      "title_he": "ענן",
+      "asset_path": "assets/season-1/cards-wave2-he/weather-nature/05-cloud.webp",
+      "facts_he": [
+        "עשוי טיפות מים או קרח",
+        "נוצר כשהאוויר מתקרר",
+        "עננים שונים מביאים מזג שונה"
+      ],
+      "tags_he": [
+        "מים",
+        "שמיים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ענן",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עשוי טיפות מים או קרח"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ענן?",
+          "options_he": [
+            "עשוי טיפות מים או קרח",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עשוי טיפות מים או קרח"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ענן?",
+          "options_he": [
+            "ענן קשור לתג מים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נוצר כשהאוויר מתקרר"
+        }
+      }
+    },
+    {
+      "card_id": "weather-nature-06-rainbow",
+      "index": 6,
+      "title_he": "קשת בענן",
+      "asset_path": "assets/season-1/cards-wave2-he/weather-nature/06-rainbow.webp",
+      "facts_he": [
+        "אור נשבר בטיפות מים",
+        "מופיעה אחרי גשם עם שמש",
+        "מציגה צבעים לפי סדר"
+      ],
+      "tags_he": [
+        "אור",
+        "צבעים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "קשת בענן",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אור נשבר בטיפות מים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי קשת בענן?",
+          "options_he": [
+            "אור נשבר בטיפות מים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אור נשבר בטיפות מים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא קשת בענן?",
+          "options_he": [
+            "קשת בענן קשור לתג אור ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מופיעה אחרי גשם עם שמש"
+        }
+      }
+    },
+    {
+      "card_id": "weather-nature-07-volcano",
+      "index": 7,
+      "title_he": "הר געש",
+      "asset_path": "assets/season-1/cards-wave2-he/weather-nature/07-volcano.webp",
+      "facts_he": [
+        "לבה פורצת ממעמקי האדמה",
+        "יוצר סלעים חדשים",
+        "יכול לשנות נוף שלם"
+      ],
+      "tags_he": [
+        "לבה",
+        "אדמה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "הר געש",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לבה פורצת ממעמקי האדמה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי הר געש?",
+          "options_he": [
+            "לבה פורצת ממעמקי האדמה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לבה פורצת ממעמקי האדמה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא הר געש?",
+          "options_he": [
+            "הר געש קשור לתג לבה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יוצר סלעים חדשים"
+        }
+      }
+    },
+    {
+      "card_id": "weather-nature-08-earthquake",
+      "index": 8,
+      "title_he": "רעידת אדמה",
+      "asset_path": "assets/season-1/cards-wave2-he/weather-nature/08-earthquake.webp",
+      "facts_he": [
+        "קרקע רועדת בגלל תנועת לוחות",
+        "חשוב לדעת כללי בטיחות",
+        "מדענים מודדים עוצמה"
+      ],
+      "tags_he": [
+        "לוחות",
+        "בטיחות"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "רעידת אדמה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קרקע רועדת בגלל תנועת לוחות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי רעידת אדמה?",
+          "options_he": [
+            "קרקע רועדת בגלל תנועת לוחות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קרקע רועדת בגלל תנועת לוחות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא רעידת אדמה?",
+          "options_he": [
+            "רעידת אדמה קשור לתג לוחות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חשוב לדעת כללי בטיחות"
+        }
+      }
+    },
+    {
+      "card_id": "weather-nature-09-river",
+      "index": 9,
+      "title_he": "נהר",
+      "asset_path": "assets/season-1/cards-wave2-he/weather-nature/09-river.webp",
+      "facts_he": [
+        "מים זורמים ממקום גבוה לנמוך",
+        "מספק בית גידול לבעלי חיים",
+        "יכול לעצב עמקים"
+      ],
+      "tags_he": [
+        "מים",
+        "זרימה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "נהר",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מים זורמים ממקום גבוה לנמוך"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי נהר?",
+          "options_he": [
+            "מים זורמים ממקום גבוה לנמוך",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מים זורמים ממקום גבוה לנמוך"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא נהר?",
+          "options_he": [
+            "נהר קשור לתג מים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מספק בית גידול לבעלי חיים"
+        }
+      }
+    },
+    {
+      "card_id": "weather-nature-10-forest",
+      "index": 10,
+      "title_he": "יער",
+      "asset_path": "assets/season-1/cards-wave2-he/weather-nature/10-forest.webp",
+      "facts_he": [
+        "הרבה עצים וצמחים יחד",
+        "בית לבעלי חיים רבים",
+        "עצים עוזרים לנקות אוויר"
+      ],
+      "tags_he": [
+        "עצים",
+        "סביבה"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "יער",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הרבה עצים וצמחים יחד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי יער?",
+          "options_he": [
+            "הרבה עצים וצמחים יחד",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הרבה עצים וצמחים יחד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא יער?",
+          "options_he": [
+            "יער קשור לתג עצים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בית לבעלי חיים רבים"
+        }
+      }
+    }
+  ]
+}

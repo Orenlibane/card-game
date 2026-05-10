@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "colors",
+  "pack_title_he": "צבעים",
+  "domain_he": "זיהוי צבעים, גוונים ודוגמאות מהעולם",
+  "age_group_he": "ילדים קטנים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-colors.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "colors-01-red",
+      "index": 1,
+      "title_he": "אדום",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/01-red.webp",
+      "facts_he": [
+        "אדום הוא צבע בולט וחם",
+        "אפשר למצוא אדום בתות, עגבנייה ורמזור",
+        "צבע אדום מושך תשומת לב במהירות"
+      ],
+      "tags_he": [
+        "צבעים",
+        "זיהוי"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אדום",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אדום הוא צבע בולט וחם"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אדום?",
+          "options_he": [
+            "אדום הוא צבע בולט וחם",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אדום הוא צבע בולט וחם"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אדום?",
+          "options_he": [
+            "אדום קשור לתג צבעים וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אפשר למצוא אדום בתות, עגבנייה ורמזור"
+        }
+      }
+    },
+    {
+      "card_id": "colors-02-blue",
+      "index": 2,
+      "title_he": "כחול",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/02-blue.webp",
+      "facts_he": [
+        "כחול מזכיר שמיים וים",
+        "כחול יכול להרגיש רגוע וקריר",
+        "אפשר למצוא כחול בצעצועים, בגדים ושלטים"
+      ],
+      "tags_he": [
+        "צבעים",
+        "סביבה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "כחול",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כחול מזכיר שמיים וים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי כחול?",
+          "options_he": [
+            "כחול מזכיר שמיים וים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כחול מזכיר שמיים וים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא כחול?",
+          "options_he": [
+            "כחול קשור לתג צבעים וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כחול יכול להרגיש רגוע וקריר"
+        }
+      }
+    },
+    {
+      "card_id": "colors-03-yellow",
+      "index": 3,
+      "title_he": "צהוב",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/03-yellow.webp",
+      "facts_he": [
+        "צהוב הוא צבע בהיר ושמח",
+        "השמש מצוירת לעיתים בצהוב",
+        "צהוב עוזר לראות דברים גם מרחוק"
+      ],
+      "tags_he": [
+        "צבעים",
+        "אור"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "צהוב",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צהוב הוא צבע בהיר ושמח"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי צהוב?",
+          "options_he": [
+            "צהוב הוא צבע בהיר ושמח",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צהוב הוא צבע בהיר ושמח"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא צהוב?",
+          "options_he": [
+            "צהוב קשור לתג צבעים וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "השמש מצוירת לעיתים בצהוב"
+        }
+      }
+    },
+    {
+      "card_id": "colors-04-green",
+      "index": 4,
+      "title_he": "ירוק",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/04-green.webp",
+      "facts_he": [
+        "ירוק מזכיר עלים וצמחים",
+        "ירוק ברמזור אומר שאפשר להתקדם",
+        "בטבע יש הרבה גוונים של ירוק"
+      ],
+      "tags_he": [
+        "צבעים",
+        "טבע"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ירוק",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ירוק מזכיר עלים וצמחים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ירוק?",
+          "options_he": [
+            "ירוק מזכיר עלים וצמחים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ירוק מזכיר עלים וצמחים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ירוק?",
+          "options_he": [
+            "ירוק קשור לתג צבעים וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ירוק ברמזור אומר שאפשר להתקדם"
+        }
+      }
+    },
+    {
+      "card_id": "colors-05-orange",
+      "index": 5,
+      "title_he": "כתום",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/05-orange.webp",
+      "facts_he": [
+        "כתום נמצא בתפוז, גזר ודלעת",
+        "כתום הוא צבע חם ובולט",
+        "כתום נוצר מערבוב אדום וצהוב"
+      ],
+      "tags_he": [
+        "צבעים",
+        "ערבוב"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "כתום",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כתום נמצא בתפוז, גזר ודלעת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי כתום?",
+          "options_he": [
+            "כתום נמצא בתפוז, גזר ודלעת",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כתום נמצא בתפוז, גזר ודלעת"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא כתום?",
+          "options_he": [
+            "כתום קשור לתג צבעים וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כתום הוא צבע חם ובולט"
+        }
+      }
+    },
+    {
+      "card_id": "colors-06-purple",
+      "index": 6,
+      "title_he": "סגול",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/06-purple.webp",
+      "facts_he": [
+        "סגול הוא צבע מיוחד ובולט",
+        "אפשר לראות סגול בענבים ובפרחים",
+        "סגול נוצר מערבוב כחול ואדום"
+      ],
+      "tags_he": [
+        "צבעים",
+        "ערבוב"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "סגול",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סגול הוא צבע מיוחד ובולט"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי סגול?",
+          "options_he": [
+            "סגול הוא צבע מיוחד ובולט",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סגול הוא צבע מיוחד ובולט"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא סגול?",
+          "options_he": [
+            "סגול קשור לתג צבעים וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אפשר לראות סגול בענבים ובפרחים"
+        }
+      }
+    },
+    {
+      "card_id": "colors-07-pink",
+      "index": 7,
+      "title_he": "ורוד",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/07-pink.webp",
+      "facts_he": [
+        "ורוד הוא צבע רך ובהיר",
+        "אפשר לראות ורוד בפרחים ובצעצועים",
+        "ורוד הוא גוון בהיר של אדום"
+      ],
+      "tags_he": [
+        "צבעים",
+        "גוונים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ורוד",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ורוד הוא צבע רך ובהיר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ורוד?",
+          "options_he": [
+            "ורוד הוא צבע רך ובהיר",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ורוד הוא צבע רך ובהיר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ורוד?",
+          "options_he": [
+            "ורוד קשור לתג צבעים וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אפשר לראות ורוד בפרחים ובצעצועים"
+        }
+      }
+    },
+    {
+      "card_id": "colors-08-brown",
+      "index": 8,
+      "title_he": "חום",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/08-brown.webp",
+      "facts_he": [
+        "חום מזכיר אדמה, עץ ושוקולד",
+        "בטבע יש הרבה גווני חום",
+        "חום עוזר לזהות חומרים טבעיים"
+      ],
+      "tags_he": [
+        "צבעים",
+        "חומרים"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "חום",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חום מזכיר אדמה, עץ ושוקולד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי חום?",
+          "options_he": [
+            "חום מזכיר אדמה, עץ ושוקולד",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חום מזכיר אדמה, עץ ושוקולד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא חום?",
+          "options_he": [
+            "חום קשור לתג צבעים וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בטבע יש הרבה גווני חום"
+        }
+      }
+    },
+    {
+      "card_id": "colors-09-black-white",
+      "index": 9,
+      "title_he": "שחור ולבן",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/09-black-white.webp",
+      "facts_he": [
+        "שחור ולבן יוצרים ניגוד חזק",
+        "לבן מחזיר הרבה אור",
+        "שחור נראה כהה מאוד ליד צבעים בהירים"
+      ],
+      "tags_he": [
+        "צבעים",
+        "ניגוד"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "שחור ולבן",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שחור ולבן יוצרים ניגוד חזק"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שחור ולבן?",
+          "options_he": [
+            "שחור ולבן יוצרים ניגוד חזק",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שחור ולבן יוצרים ניגוד חזק"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא שחור ולבן?",
+          "options_he": [
+            "שחור ולבן קשור לתג צבעים וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לבן מחזיר הרבה אור"
+        }
+      }
+    },
+    {
+      "card_id": "colors-10-rainbow",
+      "index": 10,
+      "title_he": "קשת צבעים",
+      "asset_path": "assets/season-1/cards-wave2-he/colors/10-rainbow.webp",
+      "facts_he": [
+        "קשת מציגה כמה צבעים יחד",
+        "צבעים עוזרים למיין ולזכור",
+        "אור ומים יכולים ליצור קשת בשמיים"
+      ],
+      "tags_he": [
+        "צבעים",
+        "אור"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "קשת צבעים",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קשת מציגה כמה צבעים יחד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי קשת צבעים?",
+          "options_he": [
+            "קשת מציגה כמה צבעים יחד",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קשת מציגה כמה צבעים יחד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא קשת צבעים?",
+          "options_he": [
+            "קשת צבעים קשור לתג צבעים וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צבעים עוזרים למיין ולזכור"
+        }
+      }
+    }
+  ]
+}

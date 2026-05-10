@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "my-body",
+  "pack_title_he": "הגוף שלי",
+  "domain_he": "היכרות עם הגוף והחושים",
+  "age_group_he": "ילדים קטנים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-my-body.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "my-body-01-eyes",
+      "index": 1,
+      "title_he": "עיניים",
+      "asset_path": "assets/season-1/cards-wave2-he/my-body/01-eyes.webp",
+      "facts_he": [
+        "עוזרות לראות אור וצבע",
+        "מצמוץ שומר על לחות",
+        "אישון משתנה לפי אור"
+      ],
+      "tags_he": [
+        "ראייה",
+        "חושים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "עיניים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזרות לראות אור וצבע"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי עיניים?",
+          "options_he": [
+            "עוזרות לראות אור וצבע",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזרות לראות אור וצבע"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא עיניים?",
+          "options_he": [
+            "עיניים קשור לתג ראייה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מצמוץ שומר על לחות"
+        }
+      }
+    },
+    {
+      "card_id": "my-body-02-ears",
+      "index": 2,
+      "title_he": "אוזניים",
+      "asset_path": "assets/season-1/cards-wave2-he/my-body/02-ears.webp",
+      "facts_he": [
+        "עוזרות לשמוע קולות",
+        "גם שיווי משקל קשור לאוזן",
+        "צלילים יכולים להיות חזקים או חלשים"
+      ],
+      "tags_he": [
+        "שמיעה",
+        "איזון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אוזניים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזרות לשמוע קולות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אוזניים?",
+          "options_he": [
+            "עוזרות לשמוע קולות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזרות לשמוע קולות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אוזניים?",
+          "options_he": [
+            "אוזניים קשור לתג שמיעה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גם שיווי משקל קשור לאוזן"
+        }
+      }
+    },
+    {
+      "card_id": "my-body-03-nose",
+      "index": 3,
+      "title_he": "אף",
+      "asset_path": "assets/season-1/cards-wave2-he/my-body/03-nose.webp",
+      "facts_he": [
+        "עוזר להריח ולנשום",
+        "ריח מזהה אוכל וסביבה",
+        "נשימה מכניסה אוויר לגוף"
+      ],
+      "tags_he": [
+        "נשימה",
+        "ריח"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אף",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזר להריח ולנשום"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אף?",
+          "options_he": [
+            "עוזר להריח ולנשום",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזר להריח ולנשום"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אף?",
+          "options_he": [
+            "אף קשור לתג נשימה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ריח מזהה אוכל וסביבה"
+        }
+      }
+    },
+    {
+      "card_id": "my-body-04-mouth",
+      "index": 4,
+      "title_he": "פה",
+      "asset_path": "assets/season-1/cards-wave2-he/my-body/04-mouth.webp",
+      "facts_he": [
+        "עוזר לדבר ולאכול",
+        "הלשון מרגישה טעמים",
+        "שפתיים עוזרות ליצור מילים"
+      ],
+      "tags_he": [
+        "דיבור",
+        "טעם"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "פה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזר לדבר ולאכול"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פה?",
+          "options_he": [
+            "עוזר לדבר ולאכול",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזר לדבר ולאכול"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא פה?",
+          "options_he": [
+            "פה קשור לתג דיבור ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הלשון מרגישה טעמים"
+        }
+      }
+    },
+    {
+      "card_id": "my-body-05-hands",
+      "index": 5,
+      "title_he": "ידיים",
+      "asset_path": "assets/season-1/cards-wave2-he/my-body/05-hands.webp",
+      "facts_he": [
+        "עוזרות להחזיק וליצור",
+        "אצבעות מרגישות מרקמים",
+        "שטיפת ידיים שומרת בריאות"
+      ],
+      "tags_he": [
+        "מגע",
+        "בריאות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ידיים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזרות להחזיק וליצור"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ידיים?",
+          "options_he": [
+            "עוזרות להחזיק וליצור",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזרות להחזיק וליצור"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ידיים?",
+          "options_he": [
+            "ידיים קשור לתג מגע ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אצבעות מרגישות מרקמים"
+        }
+      }
+    },
+    {
+      "card_id": "my-body-06-legs",
+      "index": 6,
+      "title_he": "רגליים",
+      "asset_path": "assets/season-1/cards-wave2-he/my-body/06-legs.webp",
+      "facts_he": [
+        "עוזרות ללכת ולקפוץ",
+        "שרירים מזיזים את הרגליים",
+        "נעליים מגינות על כפות הרגליים"
+      ],
+      "tags_he": [
+        "תנועה",
+        "שרירים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "רגליים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזרות ללכת ולקפוץ"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי רגליים?",
+          "options_he": [
+            "עוזרות ללכת ולקפוץ",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזרות ללכת ולקפוץ"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא רגליים?",
+          "options_he": [
+            "רגליים קשור לתג תנועה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שרירים מזיזים את הרגליים"
+        }
+      }
+    },
+    {
+      "card_id": "my-body-07-heart",
+      "index": 7,
+      "title_he": "לב",
+      "asset_path": "assets/season-1/cards-wave2-he/my-body/07-heart.webp",
+      "facts_he": [
+        "מזרים דם בגוף",
+        "פועם מהר יותר במאמץ",
+        "פעילות גופנית מחזקת אותו"
+      ],
+      "tags_he": [
+        "בריאות",
+        "דם"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "לב",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מזרים דם בגוף"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי לב?",
+          "options_he": [
+            "מזרים דם בגוף",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מזרים דם בגוף"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא לב?",
+          "options_he": [
+            "לב קשור לתג בריאות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פועם מהר יותר במאמץ"
+        }
+      }
+    },
+    {
+      "card_id": "my-body-08-teeth",
+      "index": 8,
+      "title_he": "שיניים",
+      "asset_path": "assets/season-1/cards-wave2-he/my-body/08-teeth.webp",
+      "facts_he": [
+        "עוזרות ללעוס אוכל",
+        "צחצוח שומר עליהן",
+        "שיני חלב מתחלפות עם הזמן"
+      ],
+      "tags_he": [
+        "בריאות",
+        "אוכל"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "שיניים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזרות ללעוס אוכל"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שיניים?",
+          "options_he": [
+            "עוזרות ללעוס אוכל",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזרות ללעוס אוכל"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא שיניים?",
+          "options_he": [
+            "שיניים קשור לתג בריאות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צחצוח שומר עליהן"
+        }
+      }
+    },
+    {
+      "card_id": "my-body-09-hair",
+      "index": 9,
+      "title_he": "שיער",
+      "asset_path": "assets/season-1/cards-wave2-he/my-body/09-hair.webp",
+      "facts_he": [
+        "צומח מהעור",
+        "יכול להיות בצבעים שונים",
+        "מגן מעט משמש וקור"
+      ],
+      "tags_he": [
+        "גוף",
+        "צבע"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "שיער",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צומח מהעור"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שיער?",
+          "options_he": [
+            "צומח מהעור",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צומח מהעור"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא שיער?",
+          "options_he": [
+            "שיער קשור לתג גוף ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יכול להיות בצבעים שונים"
+        }
+      }
+    },
+    {
+      "card_id": "my-body-10-belly",
+      "index": 10,
+      "title_he": "בטן",
+      "asset_path": "assets/season-1/cards-wave2-he/my-body/10-belly.webp",
+      "facts_he": [
+        "בתוכה נמצאת מערכת העיכול",
+        "אוכל מתפרק לאנרגיה",
+        "תחושת רעב מתחילה בגוף"
+      ],
+      "tags_he": [
+        "עיכול",
+        "אנרגיה"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "בטן",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בתוכה נמצאת מערכת העיכול"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי בטן?",
+          "options_he": [
+            "בתוכה נמצאת מערכת העיכול",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בתוכה נמצאת מערכת העיכול"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא בטן?",
+          "options_he": [
+            "בטן קשור לתג עיכול ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אוכל מתפרק לאנרגיה"
+        }
+      }
+    }
+  ]
+}

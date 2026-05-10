@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>אוספים עובדות - הדגמת עונה 1</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #667085;
+      --paper: #f6f1e8;
+      --surface: #ffffff;
+      --line: rgba(23, 32, 51, 0.14);
+      --blue: #2478ff;
+      --gold: #f5c84c;
+      --green: #17b890;
+      --red: #df3b57;
+      --shadow: 0 20px 58px rgba(23, 32, 51, 0.14);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, "Noto Sans Hebrew", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 8%, rgba(36, 120, 255, 0.14), transparent 28rem),
+        radial-gradient(circle at 86% 14%, rgba(245, 200, 76, 0.22), transparent 24rem),
+        var(--paper);
+      line-height: 1.55;
+    }
+
+    main {
+      width: min(1480px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 56px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+      gap: 28px;
+      align-items: center;
+      min-height: 72svh;
+      padding: 16px 0 24px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(3rem, 8vw, 7.5rem);
+      line-height: 0.92;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      font-size: clamp(2rem, 4vw, 4rem);
+      line-height: 1;
+    }
+
+    h3 {
+      margin: 0 0 14px;
+      font-size: clamp(1.5rem, 3vw, 2.5rem);
+    }
+
+    p { margin: 0; color: var(--muted); }
+
+    .hero-copy {
+      display: grid;
+      gap: 18px;
+      align-content: center;
+    }
+
+    .hero-copy p {
+      max-width: 620px;
+      font-size: 1.18rem;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 0 13px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.78);
+      font-weight: 900;
+      color: #344054;
+    }
+
+    .hero-image,
+    .image-card,
+    .spec-card,
+    .set-block {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.78);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .hero-image img,
+    .image-card img {
+      width: 100%;
+    }
+
+    section {
+      padding: 42px 0;
+    }
+
+    .spec-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(180px, 1fr));
+      gap: 14px;
+    }
+
+    .status-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(180px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .status-card {
+      min-height: 150px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.82);
+      box-shadow: 0 12px 28px rgba(23, 32, 51, 0.08);
+    }
+
+    .status-card b {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.06rem;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      margin-bottom: 12px;
+      padding: 0 10px;
+      border-radius: 999px;
+      color: #fff;
+      font-size: .82rem;
+      font-weight: 900;
+    }
+
+    .status-done { background: var(--green); }
+    .status-wait { background: var(--gold); color: #503f08; }
+    .status-blocked { background: var(--red); }
+
+    .link-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .link-list a {
+      color: #195fd7;
+      font-weight: 900;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .spec-card {
+      min-height: 150px;
+      padding: 18px;
+      box-shadow: 0 12px 28px rgba(23, 32, 51, 0.08);
+    }
+
+    .spec-card b {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.05rem;
+    }
+
+    .visual-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .pack-approval-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(150px, 1fr));
+      gap: 18px;
+    }
+
+    .pack-approval-grid figure {
+      margin: 0;
+      display: grid;
+      gap: 8px;
+    }
+
+    .pack-approval-grid img {
+      width: 100%;
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0 16px 34px rgba(23, 32, 51, 0.14);
+    }
+
+    .pack-approval-grid figcaption {
+      font-weight: 900;
+      text-align: center;
+      color: #344054;
+    }
+
+    .native-card-section {
+      display: grid;
+      gap: 28px;
+    }
+
+    .native-card-group {
+      display: grid;
+      gap: 14px;
+    }
+
+    .native-card-grid {
+      display: grid;
+      grid-template-columns: repeat(10, minmax(90px, 1fr));
+      gap: 12px;
+      align-items: start;
+    }
+
+    .native-card-grid figure {
+      margin: 0;
+      display: grid;
+      gap: 7px;
+    }
+
+    .native-card-grid img {
+      width: 100%;
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 12px 26px rgba(23, 32, 51, 0.13);
+    }
+
+    .native-card-grid figcaption {
+      min-height: 2.2em;
+      color: #344054;
+      font-size: 0.86rem;
+      font-weight: 900;
+      line-height: 1.1;
+      text-align: center;
+    }
+
+    .set-list {
+      display: grid;
+      gap: 26px;
+    }
+
+    .set-block {
+      padding: 22px;
+      content-visibility: auto;
+      contain-intrinsic-size: 980px;
+    }
+
+    .set-stage {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(150px, 1fr));
+      gap: 16px;
+      align-items: start;
+      margin-bottom: 18px;
+    }
+
+    .asset-tile {
+      display: grid;
+      justify-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .asset-tile b {
+      color: #344054;
+      font-size: 0.9rem;
+      letter-spacing: 0.06em;
+    }
+
+    .asset-img {
+      width: 100%;
+      max-width: 230px;
+      aspect-ratio: 500 / 700;
+      object-fit: cover;
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0 16px 34px rgba(23, 32, 51, 0.16);
+    }
+
+    .flip-stage {
+      width: 100%;
+      max-width: 230px;
+      aspect-ratio: 500 / 700;
+      perspective: 1100px;
+    }
+
+    .flip-card {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      animation: flipCard 4.2s ease-in-out infinite;
+    }
+
+    .flip-face {
+      position: absolute;
+      inset: 0;
+      backface-visibility: hidden;
+    }
+
+    .flip-face img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 16px 34px rgba(23, 32, 51, 0.16);
+      background: #fff;
+    }
+
+    .flip-back { transform: rotateY(180deg); }
+
+    @keyframes flipCard {
+      0%, 28% { transform: rotateY(0); }
+      45%, 72% { transform: rotateY(180deg); }
+      90%, 100% { transform: rotateY(360deg); }
+    }
+
+    .open-stage {
+      position: relative;
+      display: grid;
+      place-items: center;
+      width: 100%;
+      max-width: 230px;
+      aspect-ratio: 500 / 700;
+      border-radius: 10px;
+      background: radial-gradient(circle at 50% 45%, rgba(255,255,255,.92), rgba(255,255,255,.46) 45%, transparent 70%);
+      overflow: hidden;
+    }
+
+    .open-pack {
+      position: absolute;
+      width: 72%;
+      animation: packTear 4s ease-in-out infinite;
+      filter: drop-shadow(0 16px 24px rgba(23,32,51,.22));
+      z-index: 2;
+    }
+
+    .rise-card {
+      position: absolute;
+      width: 44%;
+      bottom: 18%;
+      transform: translateY(80px) scale(.9);
+      opacity: 0;
+      animation: cardRise 4s ease-in-out infinite;
+      z-index: 1;
+      border-radius: 8px;
+      box-shadow: 0 16px 28px rgba(23,32,51,.18);
+    }
+
+    .sparkles {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 28% 30%, var(--gold) 0 5px, transparent 6px),
+        radial-gradient(circle at 70% 26%, #fff 0 5px, transparent 6px),
+        radial-gradient(circle at 74% 68%, var(--blue) 0 5px, transparent 6px),
+        radial-gradient(circle at 30% 68%, var(--green) 0 5px, transparent 6px);
+      opacity: 0;
+      animation: sparklePop 4s ease-in-out infinite;
+    }
+
+    @keyframes packTear {
+      0%, 30% { transform: translateY(0) scale(1) rotate(0deg); opacity: 1; }
+      48%, 72% { transform: translateY(-24px) scale(.9) rotate(-7deg); opacity: .42; }
+      100% { transform: translateY(0) scale(1) rotate(0deg); opacity: 1; }
+    }
+
+    @keyframes cardRise {
+      0%, 32% { transform: translateY(82px) scale(.9) rotate(-6deg); opacity: 0; }
+      54%, 76% { transform: translateY(-58px) scale(1) rotate(4deg); opacity: 1; }
+      100% { transform: translateY(82px) scale(.9) rotate(-6deg); opacity: 0; }
+    }
+
+    @keyframes sparklePop {
+      0%, 34% { opacity: 0; transform: scale(.82); }
+      48%, 76% { opacity: 1; transform: scale(1.08); }
+      100% { opacity: 0; transform: scale(1.2); }
+    }
+
+    .perf-note {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border: 1px solid rgba(23, 184, 144, .24);
+      border-radius: 10px;
+      background: rgba(23, 184, 144, .08);
+      color: #20564b;
+      font-weight: 800;
+    }
+
+    @media (max-width: 1050px) {
+      header,
+      .visual-grid,
+      .pack-approval-grid,
+      .set-stage {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .spec-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .status-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .native-card-grid {
+        grid-template-columns: repeat(5, minmax(90px, 1fr));
+      }
+
+    }
+
+    @media (max-width: 680px) {
+      main { width: min(100% - 20px, 1480px); padding-top: 12px; }
+      header,
+      .visual-grid,
+      .pack-approval-grid,
+      .spec-grid,
+      .status-grid,
+      .set-stage {
+        grid-template-columns: 1fr;
+      }
+
+      .native-card-grid {
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+      }
+
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="hero-copy">
+        <h1>אוספים עובדות</h1>
+        <p>דמו ויזואלי לעונה 1: חבילות לפי תחומי תוכן, קלפים כתמונות פרימיום נפרדות עם עובדות בלבד, עברית תמיד, וחבילות באותו גודל ויחס כמו קלפים.</p>
+        <div class="chips">
+          <span class="chip">עברית בלבד</span>
+          <span class="chip">עונות בלבד</span>
+          <span class="chip">10 קלפים לחבילה</span>
+          <span class="chip">חבילה בגודל קלף</span>
+          <span class="chip">תמונה עצמאית לכל נכס</span>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img decoding="async" src="assets/season-1/packs-native-he/pack-native-approval-sheet.webp" width="1680" height="788" alt="חבילות מאוירות לאישור" fetchpriority="high">
+      </div>
+    </header>
+
+    <section>
+      <h2>אפיון קצר</h2>
+      <div class="spec-grid">
+        <article class="spec-card"><b>חבילה</b><p>חבילה היא תחום תוכן בתוך עונה: חיות, קריסטלים, צה״ל ועוד. כל חבילה מכילה 10 קלפי נושא.</p></article>
+        <article class="spec-card"><b>קלף</b><p>כל קלף הוא נושא אחד: כריש, אמטיסט, חילוץ והצלה. הקלף כולל עובדות, גיל, רמה ופרס. מבחן נפתח רק בלחיצה על הקלף, מחוץ לתמונה.</p></article>
+        <article class="spec-card"><b>עונה</b><p>המוצר משתמש בעונות בלבד: עונה 1, עונה 2 וכן הלאה.</p></article>
+        <article class="spec-card"><b>נכסים</b><p>הנראות הסופית היא תמיד קבצי תמונה מרונדרים: קלף, גב וחבילה. HTML/CSS משמשים רק להצגה ואנימציה בדמו.</p></article>
+      </div>
+    </section>
+
+    <section id="project-status">
+      <h2>מצב הפרויקט עכשיו</h2>
+      <p>הדף הזה מתעדכן בכל שינוי כדי לשקף את המצב בפועל: מה יש כבר בקבצים, מה הוא פריוויו, ומה עדיין צריך יצירת תמונות אמיתית.</p>
+      <div class="status-grid">
+        <article class="status-card">
+          <span class="status-pill status-done">מוכן</span>
+          <b>אפיון</b>
+          <p>שם המשחק הוא אוספים עובדות. עברית תמיד, רק עונה ולא סשן, חבילות בגודל קלף, וגב קלף כתמונה עצמאית לכל עונה.</p>
+          <div class="link-list">
+            <a href="SPEC.md">SPEC.md</a>
+            <a href="assets/visual/season-1-card-back.json">Manifest גב עונה 1</a>
+          </div>
+        </article>
+        <article class="status-card">
+          <span class="status-pill status-done">מוכן</span>
+          <b>שאלונים</b>
+          <p>חבילת צבעים וצורות פוצלה לשתי חבילות נפרדות: צבעים וצורות. לכל חבילה יש 10 קלפים ו־JSON שאלונים עצמאי.</p>
+          <div class="link-list">
+            <a href="assets/season-1/quizzes/animals.json">חיות</a>
+            <a href="assets/season-1/quizzes/crystals.json">קריסטלים</a>
+            <a href="assets/season-1/quizzes/security.json">ביטחון והצלה</a>
+            <a href="assets/season-1/quizzes/colors.json">צבעים</a>
+            <a href="assets/season-1/quizzes/shapes.json">צורות</a>
+          </div>
+        </article>
+        <article class="status-card">
+          <span class="status-pill status-wait">מוכן לבדיקה</span>
+          <b>קלפים עצמאיים</b>
+          <p>נוצרו 30 קלפים כתמונות עצמאיות, אחד־אחד, לפי מדריך העיצוב של עונה 1. עכשיו אפשר לבדוק כתיב וסגנון לפני שממשיכים ל־17 החבילות הבאות.</p>
+          <div class="link-list">
+            <a href="assets/season-1/season-1-card-design.md">מדריך עיצוב עונה 1</a>
+            <a href="assets/season-1/cards-generated-he/manifest.json">Manifest של 30 הקלפים</a>
+          </div>
+        </article>
+        <article class="status-card">
+          <span class="status-pill status-done">סגור</span>
+          <b>צבעים וצורות</b>
+          <p>צבעים וצורות נסגרו כשתי חבילות נפרדות. 20 הקלפים הוחלפו לרינדור AI פרימיום אחד־אחד, באותו כיוון של קלפי עונה 1.</p>
+          <div class="link-list">
+            <a href="assets/season-1/finalized/colors-shapes-closed.json">סגירת חבילות</a>
+            <a href="assets/season-1/cards-wave2-he/manifest-split-colors-shapes.json">Manifest צבעים וצורות</a>
+            <a href="assets/season-1/cards-wave2-he/ai-sources/import-map-colors-shapes.json">מקורות AI</a>
+            <a href="assets/season-1/prompts/split-colors-shapes-prompts.json">קובץ פרומפטים</a>
+          </div>
+        </article>
+        <article class="status-card">
+          <span class="status-pill status-done">מוכן</span>
+          <b>Skill יצירת נכסים</b>
+          <p>נוצר skill קבוע ליצירת קלפים וחבילות בסגנון הפרימיום של עונה 1, לפי המבנה של קלף הכריש והחבילות המאושרות.</p>
+          <div class="link-list">
+            <a href="/Users/orentzezana/.codex/skills/fact-collectors-card-pack-assets/SKILL.md">SKILL.md</a>
+            <a href="/Users/orentzezana/.codex/skills/fact-collectors-card-pack-assets/references/season-1-style.md">Season 1 Style</a>
+            <a href="/Users/orentzezana/.codex/skills/fact-collectors-card-pack-assets/scripts/build_asset_prompts.py">Prompt Builder</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>כיוונים ויזואליים</h2>
+      <div class="visual-grid">
+        <article class="image-card"><img decoding="async" src="assets/season-1/cards-generated-he/animals/10-shark.webp" width="512" height="716" alt="קלף כריש" loading="lazy"></article>
+        <article class="image-card"><img decoding="async" src="assets/season-1/cards-generated-he/crystals/02-amethyst.webp" width="512" height="716" alt="קלף אמטיסט" loading="lazy"></article>
+        <article class="image-card"><img decoding="async" src="assets/season-1/cards-generated-he/security/01-rescue.webp" width="512" height="716" alt="קלף חילוץ והצלה" loading="lazy"></article>
+        <article class="image-card"><img decoding="async" src="assets/season-1/packs-native-he/pack-native-animals.webp" width="512" height="716" alt="חבילת חיות חמודות" loading="lazy"></article>
+        <article class="image-card"><img decoding="async" src="assets/season-1/packs-native-he/pack-native-crystals.webp" width="512" height="716" alt="חבילת קריסטלים וגאולוגיה" loading="lazy"></article>
+        <article class="image-card"><img decoding="async" src="assets/season-1/packs-native-he/pack-native-rescue.webp" width="512" height="716" alt="חבילת צה״ל וביטחון" loading="lazy"></article>
+      </div>
+    </section>
+
+    <section id="season-card-back">
+      <h2>גב קלף עונה 1</h2>
+      <p>זהו גב קלף אחיד לכל הקלפים של עונה 1. הוא asset תמונה אמיתי, לא CSS ולא HTML.</p>
+      <div class="visual-grid" style="margin-top: 18px;">
+        <article class="image-card"><img decoding="async" src="assets/visual/season-1-card-back.webp" width="512" height="716" alt="גב קלף עונה 1" loading="lazy"></article>
+        <article class="spec-card"><b>שימוש</b><p>מופיע בכל אנימציית סיבוב קלף ובכל קלף נעול/הפוך בעונה 1.</p></article>
+        <article class="spec-card"><b>כלל מוצרי</b><p>גב הקלף משתנה לפי עונה, לא לפי חבילה. קדמת הקלף היא לפי עולם התוכן.</p></article>
+      </div>
+    </section>
+
+    <section>
+      <h2>חבילות תמונה לאישור</h2>
+      <div class="pack-approval-grid">
+        <figure><img decoding="async" src="assets/season-1/packs-native-he/pack-native-animals.webp" width="512" height="716" alt="חבילת חיות חמודות מאוירת" loading="lazy"><figcaption>חיות חמודות</figcaption></figure>
+        <figure><img decoding="async" src="assets/season-1/packs-native-he/pack-native-crystals.webp" width="512" height="716" alt="חבילת קריסטלים וגאולוגיה מאוירת" loading="lazy"><figcaption>קריסטלים וגאולוגיה</figcaption></figure>
+        <figure><img decoding="async" src="assets/season-1/packs-native-he/pack-native-rescue.webp" width="512" height="716" alt="חבילת צה״ל וביטחון מאוירת" loading="lazy"><figcaption>צה״ל וביטחון</figcaption></figure>
+        <figure><img decoding="async" src="assets/season-1/packs-wave2-he/pack-colors.webp" width="512" height="716" alt="חבילת צבעים" loading="lazy"><figcaption>צבעים</figcaption></figure>
+        <figure><img decoding="async" src="assets/season-1/packs-wave2-he/pack-shapes.webp" width="512" height="716" alt="חבילת צורות" loading="lazy"><figcaption>צורות</figcaption></figure>
+        <figure><img decoding="async" src="assets/season-1/packs-wave2-he/pack-ai.webp" width="512" height="716" alt="חבילת בינה מלאכותית" loading="lazy"><figcaption>בינה מלאכותית</figcaption></figure>
+        <figure><img decoding="async" src="assets/season-1/packs-wave2-he/pack-minecraft.webp" width="512" height="716" alt="חבילת עולם קוביות" loading="lazy"><figcaption>עולם קוביות</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="split-colors-shapes">
+      <h2>צבעים וצורות - סגור</h2>
+      <p>החבילה המעורבת ירדה מהתצוגה הפעילה. צבעים וצורות סגורות עכשיו כשתי חבילות עצמאיות לעונה 1, עם 10 קלפי עובדות בכל חבילה. הקלפים כאן הם רינדור AI פרימיום כתמונות עצמאיות, לא HTML.</p>
+      <div class="status-grid">
+        <article class="status-card">
+          <span class="status-pill status-done">סגור</span>
+          <b>חבילת צבעים</b>
+          <p>10 קלפים, חבילת תמונה בגודל קלף, ושאלונים לפי גיל.</p>
+          <div class="link-list">
+            <a href="assets/season-1/quizzes/colors.json">colors.json</a>
+            <a href="assets/season-1/cards-wave2-he/colors-contact-sheet.webp">סקירת צבעים</a>
+          </div>
+        </article>
+        <article class="status-card">
+          <span class="status-pill status-done">סגור</span>
+          <b>חבילת צורות</b>
+          <p>10 קלפים, חבילת תמונה בגודל קלף, ושאלונים לפי גיל.</p>
+          <div class="link-list">
+            <a href="assets/season-1/quizzes/shapes.json">shapes.json</a>
+            <a href="assets/season-1/cards-wave2-he/shapes-contact-sheet.webp">סקירת צורות</a>
+          </div>
+        </article>
+        <article class="status-card">
+          <span class="status-pill status-done">סגור</span>
+          <b>כלל תמונות</b>
+          <p>הנכסים הסופיים הם PNG/WebP מרונדרים. הדף רק מציג אותם ומריץ אנימציה. קלפי צבעים וצורות תוקנו מגרסה שטוחה לגרסת AI premium.</p>
+          <div class="link-list">
+            <a href="assets/season-1/finalized/colors-shapes-closed.json">Manifest סגירה</a>
+          </div>
+        </article>
+        <article class="status-card">
+          <span class="status-pill status-done">סגור</span>
+          <b>גב קלף</b>
+          <p>שתי החבילות משתמשות בגב התמונה האחיד של עונה 1 בזמן סיבוב/נעילה.</p>
+          <div class="link-list">
+            <a href="assets/visual/season-1-card-back.webp">גב עונה 1</a>
+          </div>
+        </article>
+      </div>
+      <article class="image-card" style="margin: 22px 0;">
+        <img decoding="async" src="assets/season-1/cards-wave2-he/colors-shapes-split-20-contact-sheet.webp" width="1028" height="1122" alt="20 קלפים נפרדים לחבילות צבעים וצורות" loading="lazy">
+      </article>
+      <div class="native-card-section">
+        <article class="native-card-group">
+          <h3>חבילת צבעים</h3>
+          <div class="native-card-grid">
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/colors/01-red.webp" width="512" height="716" alt="קלף אדום" loading="lazy"><figcaption>אדום</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/colors/02-blue.webp" width="512" height="716" alt="קלף כחול" loading="lazy"><figcaption>כחול</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/colors/03-yellow.webp" width="512" height="716" alt="קלף צהוב" loading="lazy"><figcaption>צהוב</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/colors/04-green.webp" width="512" height="716" alt="קלף ירוק" loading="lazy"><figcaption>ירוק</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/colors/05-orange.webp" width="512" height="716" alt="קלף כתום" loading="lazy"><figcaption>כתום</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/colors/06-purple.webp" width="512" height="716" alt="קלף סגול" loading="lazy"><figcaption>סגול</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/colors/07-pink.webp" width="512" height="716" alt="קלף ורוד" loading="lazy"><figcaption>ורוד</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/colors/08-brown.webp" width="512" height="716" alt="קלף חום" loading="lazy"><figcaption>חום</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/colors/09-black-white.webp" width="512" height="716" alt="קלף שחור ולבן" loading="lazy"><figcaption>שחור ולבן</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/colors/10-rainbow.webp" width="512" height="716" alt="קלף קשת צבעים" loading="lazy"><figcaption>קשת צבעים</figcaption></figure>
+          </div>
+        </article>
+
+        <article class="native-card-group">
+          <h3>חבילת צורות</h3>
+          <div class="native-card-grid">
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/shapes/01-circle.webp" width="512" height="716" alt="קלף עיגול" loading="lazy"><figcaption>עיגול</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/shapes/02-square.webp" width="512" height="716" alt="קלף ריבוע" loading="lazy"><figcaption>ריבוע</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/shapes/03-triangle.webp" width="512" height="716" alt="קלף משולש" loading="lazy"><figcaption>משולש</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/shapes/04-rectangle.webp" width="512" height="716" alt="קלף מלבן" loading="lazy"><figcaption>מלבן</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/shapes/05-star.webp" width="512" height="716" alt="קלף כוכב" loading="lazy"><figcaption>כוכב</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/shapes/06-heart.webp" width="512" height="716" alt="קלף לב" loading="lazy"><figcaption>לב</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/shapes/07-diamond.webp" width="512" height="716" alt="קלף מעוין" loading="lazy"><figcaption>מעוין</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/shapes/08-oval.webp" width="512" height="716" alt="קלף אליפסה" loading="lazy"><figcaption>אליפסה</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/shapes/09-hexagon.webp" width="512" height="716" alt="קלף משושה" loading="lazy"><figcaption>משושה</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-wave2-he/shapes/10-spiral.webp" width="512" height="716" alt="קלף ספירלה" loading="lazy"><figcaption>ספירלה</figcaption></figure>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="ai-minecraft-sets">
+      <h2>בינה מלאכותית ועולם קוביות - סטים חדשים</h2>
+      <p>נוספו שני סטים עצמאיים לעונה 1: בינה מלאכותית ועולם קוביות. כל סט כולל 10 קלפי עובדות, חבילת WebP/PNG בגודל קלף, חידונים לפי גיל, פרומפטים ו־manifest. סט עולם קוביות משתמש בשפה מקורית ללא לוגו, שם מותג או דמויות ממשחק קיים.</p>
+      <div class="status-grid">
+        <article class="status-card">
+          <span class="status-pill status-done">נוצר</span>
+          <b>בינה מלאכותית</b>
+          <p>מושגים כמו אלגוריתם, נתונים, אימון מודל, רשת עצבית, פרטיות והטיה.</p>
+          <div class="link-list">
+            <a href="assets/season-1/quizzes/ai.json">ai.json</a>
+            <a href="assets/season-1/cards-wave2-he/ai-contact-sheet.webp">סקירת בינה מלאכותית</a>
+          </div>
+        </article>
+        <article class="status-card">
+          <span class="status-pill status-done">נוצר</span>
+          <b>עולם קוביות</b>
+          <p>למידה דרך בנייה, חומרים, מפות, חוות, אזורי טבע ומנגנונים פשוטים.</p>
+          <div class="link-list">
+            <a href="assets/season-1/quizzes/minecraft.json">minecraft.json</a>
+            <a href="assets/season-1/cards-wave2-he/minecraft-contact-sheet.webp">סקירת עולם קוביות</a>
+          </div>
+        </article>
+        <article class="status-card">
+          <span class="status-pill status-done">נוצר</span>
+          <b>Manifest ופרומפטים</b>
+          <p>הנכסים נוצרו אחד־אחד, כולל קובצי מקור PNG לצד WebP לדמו מהיר.</p>
+          <div class="link-list">
+            <a href="assets/season-1/cards-wave2-he/manifest-ai-minecraft.json">Manifest</a>
+            <a href="assets/season-1/prompts/ai-minecraft-prompts.json">פרומפטים</a>
+          </div>
+        </article>
+      </div>
+      <article class="image-card" style="margin: 22px 0;">
+        <img decoding="async" src="assets/season-1/cards-wave2-he/ai-minecraft-20-cards-contact-sheet.webp" width="1028" height="1122" alt="20 קלפים חדשים לסט בינה מלאכותית ועולם קוביות" loading="lazy">
+      </article>
+      <div class="set-list">
+        <article class="set-block">
+          <h3>בינה מלאכותית</h3>
+          <div class="set-stage">
+            <div class="asset-tile"><b>חבילה</b><img decoding="async" class="asset-img" src="assets/season-1/packs-wave2-he/pack-ai.webp" width="512" height="716" alt="חבילת בינה מלאכותית" loading="lazy"></div>
+            <div class="asset-tile"><b>קלף קדמי</b><img decoding="async" class="asset-img" src="assets/season-1/cards-wave2-he/ai/01-algorithm.webp" width="512" height="716" alt="קלף אלגוריתם" loading="lazy"></div>
+            <div class="asset-tile"><b>סיבוב קלף</b><div class="flip-stage"><div class="flip-card"><div class="flip-face"><img decoding="async" src="assets/season-1/cards-wave2-he/ai/01-algorithm.webp" alt="אלגוריתם קדימה" loading="lazy"></div><div class="flip-face flip-back"><img decoding="async" src="assets/visual/season-1-card-back.webp" alt="גב קלף עונה 1" loading="lazy"></div></div></div></div>
+            <div class="asset-tile"><b>פתיחה</b><div class="open-stage"><img decoding="async" class="open-pack" src="assets/season-1/packs-wave2-he/pack-ai.webp" alt="" loading="lazy"><img decoding="async" class="rise-card" src="assets/season-1/cards-wave2-he/ai/01-algorithm.webp" alt="" loading="lazy"><span class="sparkles"></span></div></div>
+          </div>
+        </article>
+
+        <article class="set-block">
+          <h3>עולם קוביות</h3>
+          <div class="set-stage">
+            <div class="asset-tile"><b>חבילה</b><img decoding="async" class="asset-img" src="assets/season-1/packs-wave2-he/pack-minecraft.webp" width="512" height="716" alt="חבילת עולם קוביות" loading="lazy"></div>
+            <div class="asset-tile"><b>קלף קדמי</b><img decoding="async" class="asset-img" src="assets/season-1/cards-wave2-he/minecraft/01-cube.webp" width="512" height="716" alt="קלף קובייה" loading="lazy"></div>
+            <div class="asset-tile"><b>סיבוב קלף</b><div class="flip-stage"><div class="flip-card"><div class="flip-face"><img decoding="async" src="assets/season-1/cards-wave2-he/minecraft/01-cube.webp" alt="קובייה קדימה" loading="lazy"></div><div class="flip-face flip-back"><img decoding="async" src="assets/visual/season-1-card-back.webp" alt="גב קלף עונה 1" loading="lazy"></div></div></div></div>
+            <div class="asset-tile"><b>פתיחה</b><div class="open-stage"><img decoding="async" class="open-pack" src="assets/season-1/packs-wave2-he/pack-minecraft.webp" alt="" loading="lazy"><img decoding="async" class="rise-card" src="assets/season-1/cards-wave2-he/minecraft/01-cube.webp" alt="" loading="lazy"><span class="sparkles"></span></div></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>סיבוב ופתיחת חבילה - צבעים וצורות</h2>
+      <div class="set-list">
+        <article class="set-block">
+          <h3>חבילת צבעים</h3>
+          <div class="set-stage">
+            <div class="asset-tile"><b>חבילה</b><img decoding="async" class="asset-img" src="assets/season-1/packs-wave2-he/pack-colors.webp" width="512" height="716" alt="חבילת צבעים" loading="lazy"></div>
+            <div class="asset-tile"><b>קלף קדמי</b><img decoding="async" class="asset-img" src="assets/season-1/cards-wave2-he/colors/01-red.webp" width="512" height="716" alt="קלף אדום" loading="lazy"></div>
+            <div class="asset-tile"><b>סיבוב קלף</b><div class="flip-stage"><div class="flip-card"><div class="flip-face"><img decoding="async" src="assets/season-1/cards-wave2-he/colors/01-red.webp" alt="אדום קדימה" loading="lazy"></div><div class="flip-face flip-back"><img decoding="async" src="assets/visual/season-1-card-back.webp" alt="גב קלף עונה 1" loading="lazy"></div></div></div></div>
+            <div class="asset-tile"><b>פתיחה</b><div class="open-stage"><img decoding="async" class="open-pack" src="assets/season-1/packs-wave2-he/pack-colors.webp" alt="" loading="lazy"><img decoding="async" class="rise-card" src="assets/season-1/cards-wave2-he/colors/01-red.webp" alt="" loading="lazy"><span class="sparkles"></span></div></div>
+          </div>
+        </article>
+
+        <article class="set-block">
+          <h3>חבילת צורות</h3>
+          <div class="set-stage">
+            <div class="asset-tile"><b>חבילה</b><img decoding="async" class="asset-img" src="assets/season-1/packs-wave2-he/pack-shapes.webp" width="512" height="716" alt="חבילת צורות" loading="lazy"></div>
+            <div class="asset-tile"><b>קלף קדמי</b><img decoding="async" class="asset-img" src="assets/season-1/cards-wave2-he/shapes/01-circle.webp" width="512" height="716" alt="קלף עיגול" loading="lazy"></div>
+            <div class="asset-tile"><b>סיבוב קלף</b><div class="flip-stage"><div class="flip-card"><div class="flip-face"><img decoding="async" src="assets/season-1/cards-wave2-he/shapes/01-circle.webp" alt="עיגול קדימה" loading="lazy"></div><div class="flip-face flip-back"><img decoding="async" src="assets/visual/season-1-card-back.webp" alt="גב קלף עונה 1" loading="lazy"></div></div></div></div>
+            <div class="asset-tile"><b>פתיחה</b><div class="open-stage"><img decoding="async" class="open-pack" src="assets/season-1/packs-wave2-he/pack-shapes.webp" alt="" loading="lazy"><img decoding="async" class="rise-card" src="assets/season-1/cards-wave2-he/shapes/01-circle.webp" alt="" loading="lazy"><span class="sparkles"></span></div></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>30 קלפי עובדות לעונה 1</h2>
+      <article class="image-card" style="margin-bottom: 22px;">
+        <img decoding="async" src="assets/season-1/cards-generated-he/all-30-generated-contact-sheet.webp" width="1640" height="690" alt="סקירת 30 קלפים שנוצרו אחד אחד" loading="lazy">
+      </article>
+      <div class="native-card-section">
+        <article class="native-card-group">
+          <h3>חבילת חיות חמודות</h3>
+          <div class="native-card-grid">
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/animals/01-cat.webp" width="512" height="716" alt="קלף חתול" loading="lazy"><figcaption>חתול</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/animals/02-dog.webp" width="512" height="716" alt="קלף כלב" loading="lazy"><figcaption>כלב</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/animals/03-rabbit.webp" width="512" height="716" alt="קלף ארנב" loading="lazy"><figcaption>ארנב</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/animals/04-elephant.webp" width="512" height="716" alt="קלף פיל" loading="lazy"><figcaption>פיל</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/animals/05-giraffe.webp" width="512" height="716" alt="קלף ג׳ירפה" loading="lazy"><figcaption>ג׳ירפה</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/animals/06-turtle.webp" width="512" height="716" alt="קלף צב" loading="lazy"><figcaption>צב</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/animals/07-dolphin.webp" width="512" height="716" alt="קלף דולפין" loading="lazy"><figcaption>דולפין</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/animals/08-butterfly.webp" width="512" height="716" alt="קלף פרפר" loading="lazy"><figcaption>פרפר</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/animals/09-penguin.webp" width="512" height="716" alt="קלף פינגווין" loading="lazy"><figcaption>פינגווין</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/animals/10-shark.webp" width="512" height="716" alt="קלף כריש" loading="lazy"><figcaption>כריש</figcaption></figure>
+          </div>
+        </article>
+
+        <article class="native-card-group">
+          <h3>חבילת קריסטלים וגאולוגיה</h3>
+          <div class="native-card-grid">
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/crystals/01-quartz.webp" width="512" height="716" alt="קלף קוורץ" loading="lazy"><figcaption>קוורץ</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/crystals/02-amethyst.webp" width="512" height="716" alt="קלף אמטיסט" loading="lazy"><figcaption>אמטיסט</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/crystals/03-tourmaline.webp" width="512" height="716" alt="קלף טורמלין" loading="lazy"><figcaption>טורמלין</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/crystals/04-pyrite.webp" width="512" height="716" alt="קלף פיריט" loading="lazy"><figcaption>פיריט</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/crystals/05-obsidian.webp" width="512" height="716" alt="קלף אובסידיאן" loading="lazy"><figcaption>אובסידיאן</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/crystals/06-granite.webp" width="512" height="716" alt="קלף גרניט" loading="lazy"><figcaption>גרניט</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/crystals/07-basalt.webp" width="512" height="716" alt="קלף בזלת" loading="lazy"><figcaption>בזלת</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/crystals/08-diamond.webp" width="512" height="716" alt="קלף יהלום" loading="lazy"><figcaption>יהלום</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/crystals/09-rock-salt.webp" width="512" height="716" alt="קלף מלח סלעים" loading="lazy"><figcaption>מלח סלעים</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/crystals/10-mineral-fossil.webp" width="512" height="716" alt="קלף מאובן מינרלי" loading="lazy"><figcaption>מאובן מינרלי</figcaption></figure>
+          </div>
+        </article>
+
+        <article class="native-card-group">
+          <h3>חבילת צה״ל וביטחון</h3>
+          <div class="native-card-grid">
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/security/01-rescue.webp" width="512" height="716" alt="קלף חילוץ והצלה" loading="lazy"><figcaption>חילוץ והצלה</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/security/02-intelligence.webp" width="512" height="716" alt="קלף מודיעין" loading="lazy"><figcaption>מודיעין</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/security/03-air-force.webp" width="512" height="716" alt="קלף חיל האוויר" loading="lazy"><figcaption>חיל האוויר</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/security/04-navy.webp" width="512" height="716" alt="קלף חיל הים" loading="lazy"><figcaption>חיל הים</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/security/05-medical-corps.webp" width="512" height="716" alt="קלף חיל הרפואה" loading="lazy"><figcaption>חיל הרפואה</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/security/06-iron-dome.webp" width="512" height="716" alt="קלף כיפת ברזל" loading="lazy"><figcaption>כיפת ברזל</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/security/07-cyber-warfare.webp" width="512" height="716" alt="קלף לוחמה בסייבר" loading="lazy"><figcaption>לוחמה בסייבר</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/security/08-logistics.webp" width="512" height="716" alt="קלף לוגיסטיקה" loading="lazy"><figcaption>לוגיסטיקה</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/security/09-home-front-command.webp" width="512" height="716" alt="קלף פיקוד העורף" loading="lazy"><figcaption>פיקוד העורף</figcaption></figure>
+            <figure><img decoding="async" src="assets/season-1/cards-generated-he/security/10-military-ethics.webp" width="512" height="716" alt="קלף אתיקה צבאית" loading="lazy"><figcaption>אתיקה צבאית</figcaption></figure>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>סיבוב ופתיחת חבילה</h2>
+      <div class="set-list">
+        <article class="set-block">
+          <h3>חבילת חיות</h3>
+          <div class="set-stage">
+            <div class="asset-tile"><b>חבילה</b><img decoding="async" class="asset-img" src="assets/season-1/packs-native-he/pack-native-animals.webp" width="512" height="716" alt="חבילת חיות חמודות" loading="lazy"></div>
+            <div class="asset-tile"><b>קלף קדמי</b><img decoding="async" class="asset-img" src="assets/season-1/cards-generated-he/animals/10-shark.webp" width="512" height="716" alt="קלף כריש" loading="lazy"></div>
+            <div class="asset-tile"><b>סיבוב קלף</b><div class="flip-stage"><div class="flip-card"><div class="flip-face"><img decoding="async" src="assets/season-1/cards-generated-he/animals/10-shark.webp" alt="כריש קדימה" loading="lazy"></div><div class="flip-face flip-back"><img decoding="async" src="assets/visual/season-1-card-back.webp" alt="גב קלף עונה 1" loading="lazy"></div></div></div></div>
+            <div class="asset-tile"><b>פתיחה</b><div class="open-stage"><img decoding="async" class="open-pack" src="assets/season-1/packs-native-he/pack-native-animals.webp" alt="" loading="lazy"><img decoding="async" class="rise-card" src="assets/season-1/cards-generated-he/animals/10-shark.webp" alt="" loading="lazy"><span class="sparkles"></span></div></div>
+          </div>
+        </article>
+
+        <article class="set-block">
+          <h3>חבילת קריסטלים</h3>
+          <div class="set-stage">
+            <div class="asset-tile"><b>חבילה</b><img decoding="async" class="asset-img" src="assets/season-1/packs-native-he/pack-native-crystals.webp" width="512" height="716" alt="חבילת קריסטלים וגאולוגיה" loading="lazy"></div>
+            <div class="asset-tile"><b>קלף קדמי</b><img decoding="async" class="asset-img" src="assets/season-1/cards-generated-he/crystals/02-amethyst.webp" width="512" height="716" alt="קלף אמטיסט" loading="lazy"></div>
+            <div class="asset-tile"><b>סיבוב קלף</b><div class="flip-stage"><div class="flip-card"><div class="flip-face"><img decoding="async" src="assets/season-1/cards-generated-he/crystals/02-amethyst.webp" alt="אמטיסט קדימה" loading="lazy"></div><div class="flip-face flip-back"><img decoding="async" src="assets/visual/season-1-card-back.webp" alt="גב קלף עונה 1" loading="lazy"></div></div></div></div>
+            <div class="asset-tile"><b>פתיחה</b><div class="open-stage"><img decoding="async" class="open-pack" src="assets/season-1/packs-native-he/pack-native-crystals.webp" alt="" loading="lazy"><img decoding="async" class="rise-card" src="assets/season-1/cards-generated-he/crystals/02-amethyst.webp" alt="" loading="lazy"><span class="sparkles"></span></div></div>
+          </div>
+        </article>
+
+        <article class="set-block">
+          <h3>חבילת צה״ל</h3>
+          <div class="set-stage">
+            <div class="asset-tile"><b>חבילה</b><img decoding="async" class="asset-img" src="assets/season-1/packs-native-he/pack-native-rescue.webp" width="512" height="716" alt="חבילת צה״ל וביטחון" loading="lazy"></div>
+            <div class="asset-tile"><b>קלף קדמי</b><img decoding="async" class="asset-img" src="assets/season-1/cards-generated-he/security/01-rescue.webp" width="512" height="716" alt="קלף חילוץ והצלה" loading="lazy"></div>
+            <div class="asset-tile"><b>סיבוב קלף</b><div class="flip-stage"><div class="flip-card"><div class="flip-face"><img decoding="async" src="assets/season-1/cards-generated-he/security/01-rescue.webp" alt="חילוץ והצלה קדימה" loading="lazy"></div><div class="flip-face flip-back"><img decoding="async" src="assets/visual/season-1-card-back.webp" alt="גב קלף עונה 1" loading="lazy"></div></div></div></div>
+            <div class="asset-tile"><b>פתיחה</b><div class="open-stage"><img decoding="async" class="open-pack" src="assets/season-1/packs-native-he/pack-native-rescue.webp" alt="" loading="lazy"><img decoding="async" class="rise-card" src="assets/season-1/cards-generated-he/security/01-rescue.webp" alt="" loading="lazy"><span class="sparkles"></span></div></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="perf-note">אופטימיזציה: הדף מציג רק נכסי WebP נפרדים ברמת קונספט, בלי רשת ה־SVG הישנה ובלי תיקיית הדמו.</div>
+    </section>
+  </main>
+</body>
+</html>

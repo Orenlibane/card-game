@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "inventions",
+  "pack_title_he": "המצאות חשובות",
+  "domain_he": "רעיונות ששינו את העולם",
+  "age_group_he": "ילדים בינוניים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-inventions.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "inventions-01-wheel",
+      "index": 1,
+      "title_he": "גלגל",
+      "asset_path": "assets/season-1/cards-wave2-he/inventions/01-wheel.webp",
+      "facts_he": [
+        "מאפשר תנועה קלה יותר",
+        "משמש בעגלות, מכוניות ומכונות",
+        "מפחית חיכוך בזמן נסיעה"
+      ],
+      "tags_he": [
+        "תנועה",
+        "מכונות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "גלגל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מאפשר תנועה קלה יותר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי גלגל?",
+          "options_he": [
+            "מאפשר תנועה קלה יותר",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מאפשר תנועה קלה יותר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא גלגל?",
+          "options_he": [
+            "גלגל קשור לתג תנועה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משמש בעגלות, מכוניות ומכונות"
+        }
+      }
+    },
+    {
+      "card_id": "inventions-02-light-bulb",
+      "index": 2,
+      "title_he": "נורה",
+      "asset_path": "assets/season-1/cards-wave2-he/inventions/02-light-bulb.webp",
+      "facts_he": [
+        "הופכת חשמל לאור",
+        "שינתה את חיי הלילה",
+        "נורות חדשות חוסכות אנרגיה"
+      ],
+      "tags_he": [
+        "חשמל",
+        "אור"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "נורה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הופכת חשמל לאור"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי נורה?",
+          "options_he": [
+            "הופכת חשמל לאור",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הופכת חשמל לאור"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא נורה?",
+          "options_he": [
+            "נורה קשור לתג חשמל ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שינתה את חיי הלילה"
+        }
+      }
+    },
+    {
+      "card_id": "inventions-03-telephone",
+      "index": 3,
+      "title_he": "טלפון",
+      "asset_path": "assets/season-1/cards-wave2-he/inventions/03-telephone.webp",
+      "facts_he": [
+        "מעביר קול למרחק",
+        "שינה תקשורת בין אנשים",
+        "הטלפון החכם הוא מחשב קטן"
+      ],
+      "tags_he": [
+        "תקשורת",
+        "קול"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "טלפון",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מעביר קול למרחק"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי טלפון?",
+          "options_he": [
+            "מעביר קול למרחק",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מעביר קול למרחק"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא טלפון?",
+          "options_he": [
+            "טלפון קשור לתג תקשורת ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שינה תקשורת בין אנשים"
+        }
+      }
+    },
+    {
+      "card_id": "inventions-04-camera",
+      "index": 4,
+      "title_he": "מצלמה",
+      "asset_path": "assets/season-1/cards-wave2-he/inventions/04-camera.webp",
+      "facts_he": [
+        "שומרת תמונה של רגע",
+        "אור נכנס דרך עדשה",
+        "צילום עוזר לתעד וללמוד"
+      ],
+      "tags_he": [
+        "אור",
+        "תיעוד"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מצלמה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שומרת תמונה של רגע"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מצלמה?",
+          "options_he": [
+            "שומרת תמונה של רגע",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שומרת תמונה של רגע"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מצלמה?",
+          "options_he": [
+            "מצלמה קשור לתג אור ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אור נכנס דרך עדשה"
+        }
+      }
+    },
+    {
+      "card_id": "inventions-05-computer",
+      "index": 5,
+      "title_he": "מחשב",
+      "asset_path": "assets/season-1/cards-wave2-he/inventions/05-computer.webp",
+      "facts_he": [
+        "מעבד מידע במהירות",
+        "מריץ תוכנות ומשחקים",
+        "משמש ללמידה, עבודה ויצירה"
+      ],
+      "tags_he": [
+        "מידע",
+        "תוכנה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מחשב",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מעבד מידע במהירות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מחשב?",
+          "options_he": [
+            "מעבד מידע במהירות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מעבד מידע במהירות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מחשב?",
+          "options_he": [
+            "מחשב קשור לתג מידע ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מריץ תוכנות ומשחקים"
+        }
+      }
+    },
+    {
+      "card_id": "inventions-06-internet",
+      "index": 6,
+      "title_he": "אינטרנט",
+      "asset_path": "assets/season-1/cards-wave2-he/inventions/06-internet.webp",
+      "facts_he": [
+        "מחבר מחשבים ברחבי העולם",
+        "מאפשר חיפוש ושיתוף מידע",
+        "בטיחות ברשת חשובה מאוד"
+      ],
+      "tags_he": [
+        "רשת",
+        "מידע"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אינטרנט",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מחבר מחשבים ברחבי העולם"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אינטרנט?",
+          "options_he": [
+            "מחבר מחשבים ברחבי העולם",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מחבר מחשבים ברחבי העולם"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אינטרנט?",
+          "options_he": [
+            "אינטרנט קשור לתג רשת ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מאפשר חיפוש ושיתוף מידע"
+        }
+      }
+    },
+    {
+      "card_id": "inventions-07-robot",
+      "index": 7,
+      "title_he": "רובוט",
+      "asset_path": "assets/season-1/cards-wave2-he/inventions/07-robot.webp",
+      "facts_he": [
+        "מבצע פעולות לפי הוראות",
+        "יכול לעבוד במפעל או בבית",
+        "חיישנים עוזרים לו להבין סביבה"
+      ],
+      "tags_he": [
+        "חיישנים",
+        "הוראות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "רובוט",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מבצע פעולות לפי הוראות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי רובוט?",
+          "options_he": [
+            "מבצע פעולות לפי הוראות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מבצע פעולות לפי הוראות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא רובוט?",
+          "options_he": [
+            "רובוט קשור לתג חיישנים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יכול לעבוד במפעל או בבית"
+        }
+      }
+    },
+    {
+      "card_id": "inventions-08-printing-press",
+      "index": 8,
+      "title_he": "דפוס",
+      "asset_path": "assets/season-1/cards-wave2-he/inventions/08-printing-press.webp",
+      "facts_he": [
+        "מאפשר להעתיק ספרים מהר",
+        "הפיץ ידע לאנשים רבים",
+        "שינה לימוד ותקשורת"
+      ],
+      "tags_he": [
+        "ידע",
+        "ספרים"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "דפוס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מאפשר להעתיק ספרים מהר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי דפוס?",
+          "options_he": [
+            "מאפשר להעתיק ספרים מהר",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מאפשר להעתיק ספרים מהר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא דפוס?",
+          "options_he": [
+            "דפוס קשור לתג ידע ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הפיץ ידע לאנשים רבים"
+        }
+      }
+    },
+    {
+      "card_id": "inventions-09-compass",
+      "index": 9,
+      "title_he": "מצפן",
+      "asset_path": "assets/season-1/cards-wave2-he/inventions/09-compass.webp",
+      "facts_he": [
+        "מראה כיוון בעזרת מגנט",
+        "עוזר לנווט בדרך",
+        "המחט מצביעה לצפון בקירוב"
+      ],
+      "tags_he": [
+        "ניווט",
+        "מגנטיות"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מצפן",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מראה כיוון בעזרת מגנט"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מצפן?",
+          "options_he": [
+            "מראה כיוון בעזרת מגנט",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מראה כיוון בעזרת מגנט"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מצפן?",
+          "options_he": [
+            "מצפן קשור לתג ניווט ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזר לנווט בדרך"
+        }
+      }
+    },
+    {
+      "card_id": "inventions-10-airplane-invention",
+      "index": 10,
+      "title_he": "מטוס",
+      "asset_path": "assets/season-1/cards-wave2-he/inventions/10-airplane-invention.webp",
+      "facts_he": [
+        "אפשר לטוס למרחקים גדולים",
+        "כנפיים יוצרות עילוי",
+        "שינה מסחר וטיולים"
+      ],
+      "tags_he": [
+        "תעופה",
+        "עילוי"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מטוס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אפשר לטוס למרחקים גדולים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מטוס?",
+          "options_he": [
+            "אפשר לטוס למרחקים גדולים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אפשר לטוס למרחקים גדולים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מטוס?",
+          "options_he": [
+            "מטוס קשור לתג תעופה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כנפיים יוצרות עילוי"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1632 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>אוספים עובדות - אלבום קלפים</title>
+  <style>
+    :root {
+      --bg: #1f252b;
+      --desk: #2a3035;
+      --ink: #172033;
+      --muted: #667085;
+      --paper: #f3eadc;
+      --paper-deep: #e3d2b6;
+      --sleeve: rgba(255, 255, 255, .54);
+      --line: rgba(23, 32, 51, .15);
+      --line-light: rgba(255, 255, 255, .2);
+      --teal: #17b8a6;
+      --gold: #e9bb43;
+      --red: #d94d61;
+      --blue: #477de7;
+      --shadow: 0 28px 80px rgba(0, 0, 0, .34);
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      min-height: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, "Noto Sans Hebrew", system-ui, sans-serif;
+      color: #f7f3e9;
+      background:
+        linear-gradient(115deg, rgba(23,184,166,.15), transparent 34%),
+        linear-gradient(245deg, rgba(233,187,67,.18), transparent 30%),
+        radial-gradient(circle at 50% 18%, #3a4148 0, var(--bg) 56%);
+      overflow-x: hidden;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    button {
+      color: inherit;
+      cursor: pointer;
+    }
+
+    .app {
+      width: min(1540px, calc(100% - 28px));
+      min-height: 100svh;
+      margin: 0 auto;
+      padding: 18px 0 28px;
+      display: grid;
+      grid-template-columns: 290px minmax(0, 1fr);
+      gap: 18px;
+    }
+
+    .side {
+      position: relative;
+      min-height: calc(100svh - 46px);
+      padding: 18px;
+      border: 1px solid var(--line-light);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.07), transparent 140px),
+        rgba(20, 25, 30, .78);
+      box-shadow: 0 18px 44px rgba(0, 0, 0, .26);
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 18px;
+      overflow: hidden;
+    }
+
+    .side::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(90deg, rgba(23,184,166,.22), transparent 34%, rgba(233,187,67,.16));
+      opacity: .28;
+      pointer-events: none;
+    }
+
+    .brand {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 8px;
+    }
+
+    .brand b {
+      font-size: 2.1rem;
+      line-height: .95;
+      color: #fff8e9;
+    }
+
+    .brand span {
+      color: #c6d0db;
+      font-weight: 800;
+    }
+
+    .filter-panel {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 10px;
+      padding: 10px;
+      border: 1px solid rgba(255,255,255,.13);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.06);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.08);
+    }
+
+    .search-shell {
+      position: relative;
+    }
+
+    .search-shell::before {
+      content: "⌕";
+      position: absolute;
+      top: 50%;
+      right: 12px;
+      transform: translateY(-50%);
+      color: rgba(255,255,255,.68);
+      font-size: 1.05rem;
+      pointer-events: none;
+    }
+
+    .search {
+      min-height: 44px;
+      width: 100%;
+      padding: 0 38px 0 14px;
+      border: 1px solid rgba(255, 255, 255, .18);
+      border-radius: var(--radius);
+      background: rgba(8, 12, 15, .34);
+      color: #fff;
+      outline: none;
+    }
+
+    .search:focus {
+      border-color: rgba(23,184,166,.75);
+      box-shadow: 0 0 0 3px rgba(23,184,166,.16);
+    }
+
+    .search::placeholder {
+      color: rgba(255, 255, 255, .62);
+    }
+
+    .filter-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 6px;
+    }
+
+    .filter-button {
+      min-height: 36px;
+      padding: 0 8px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.08);
+      color: #dce6ef;
+      font-weight: 900;
+      white-space: nowrap;
+      transition: transform .16s ease, background .16s ease, border-color .16s ease;
+    }
+
+    .filter-button:hover {
+      transform: translateY(-1px);
+      background: rgba(255,255,255,.13);
+    }
+
+    .filter-button.is-active {
+      color: #10201e;
+      border-color: transparent;
+      background: linear-gradient(180deg, #35d6c7, var(--teal));
+      box-shadow: 0 8px 18px rgba(23,184,166,.2);
+    }
+
+    .series-list {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 8px;
+      align-content: start;
+      overflow: auto;
+      padding-inline-end: 2px;
+    }
+
+    .series-button {
+      width: 100%;
+      min-height: 54px;
+      padding: 8px 10px;
+      border: 1px solid rgba(255, 255, 255, .1);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .06);
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 10px;
+      text-align: start;
+      transition: transform .18s ease, border-color .18s ease, background .18s ease;
+    }
+
+    .series-button::before {
+      content: "";
+      width: 3px;
+      align-self: stretch;
+      border-radius: 999px;
+      background: transparent;
+      grid-column: 1;
+      grid-row: 1;
+      display: none;
+    }
+
+    .series-button:hover {
+      transform: translateX(-3px);
+      border-color: rgba(255, 255, 255, .28);
+      background: rgba(255, 255, 255, .1);
+    }
+
+    .series-button.is-active {
+      border-color: rgba(23, 184, 166, .68);
+      background:
+        linear-gradient(90deg, rgba(23,184,166,.22), rgba(255,255,255,.08)),
+        rgba(23, 184, 166, .12);
+    }
+
+    .swatch {
+      width: 34px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,.6);
+      box-shadow: inset 0 0 0 5px rgba(255,255,255,.1);
+    }
+
+    .series-copy {
+      display: grid;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .series-copy b,
+    .series-copy span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .series-copy b {
+      font-size: .98rem;
+    }
+
+    .series-copy span,
+    .count {
+      color: #b8c3cf;
+      font-weight: 800;
+      font-size: .82rem;
+    }
+
+    .meter {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 9px;
+      padding: 12px;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.06);
+    }
+
+    .meter-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      color: #dce6ef;
+      font-weight: 900;
+    }
+
+    .bar {
+      height: 9px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .12);
+      overflow: hidden;
+    }
+
+    .bar i {
+      display: block;
+      width: var(--progress, 100%);
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+    }
+
+    .workspace {
+      min-width: 0;
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr) auto;
+      gap: 14px;
+    }
+
+    .topbar {
+      min-height: 72px;
+      padding: 14px;
+      border: 1px solid var(--line-light);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(90deg, rgba(23,184,166,.16), transparent 42%, rgba(233,187,67,.13)),
+        rgba(255, 255, 255, .08);
+      display: grid;
+      grid-template-columns: minmax(260px, 1fr) auto auto;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 12px 32px rgba(0,0,0,.18);
+      animation: enterTop .5s ease both;
+    }
+
+    .page-title {
+      display: grid;
+      gap: 3px;
+    }
+
+    .page-title h1 {
+      margin: 0;
+      font-size: clamp(1.75rem, 3vw, 3.3rem);
+      line-height: .96;
+      letter-spacing: 0;
+    }
+
+    .page-title p {
+      margin: 0;
+      color: #c9d3df;
+      font-weight: 800;
+    }
+
+    .header-stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(92px, auto));
+      gap: 8px;
+      align-items: center;
+    }
+
+    .stat-chip {
+      min-height: 48px;
+      padding: 7px 11px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: var(--radius);
+      background: rgba(8,12,15,.24);
+      display: grid;
+      gap: 2px;
+    }
+
+    .stat-chip b {
+      color: #fff8e9;
+      font-size: 1rem;
+      line-height: 1;
+    }
+
+    .stat-chip span {
+      color: #b9c5d0;
+      font-weight: 900;
+      font-size: .78rem;
+      white-space: nowrap;
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .icon-button,
+    .text-button {
+      min-height: 42px;
+      border: 1px solid rgba(255, 255, 255, .18);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, .1);
+      transition: transform .16s ease, background .16s ease, border-color .16s ease;
+    }
+
+    .icon-button {
+      width: 44px;
+      padding: 0;
+      display: inline-grid;
+      place-items: center;
+      font-size: 1.55rem;
+      line-height: 1;
+    }
+
+    .text-button {
+      padding: 0 14px;
+      font-weight: 900;
+    }
+
+    .icon-button:hover,
+    .text-button:hover {
+      transform: translateY(-2px);
+      background: rgba(255, 255, 255, .16);
+      border-color: rgba(255, 255, 255, .34);
+    }
+
+    .stage {
+      position: relative;
+      min-height: 0;
+      padding: clamp(12px, 2vw, 24px);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(90deg, rgba(255,255,255,.08), transparent 18%, transparent 82%, rgba(0,0,0,.16)),
+        repeating-linear-gradient(0deg, rgba(255,255,255,.018) 0 2px, transparent 2px 8px),
+        var(--desk);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.08), var(--shadow);
+      perspective: 1800px;
+      overflow: hidden;
+    }
+
+    .stage::before {
+      content: "";
+      position: absolute;
+      inset: 12px;
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius);
+      pointer-events: none;
+    }
+
+    .binder {
+      position: relative;
+      min-height: min(650px, calc(100svh - 170px));
+      height: 100%;
+      display: grid;
+      place-items: center;
+    }
+
+    .rings {
+      position: absolute;
+      inset-block: 8%;
+      left: calc(50% - 19px);
+      width: 38px;
+      z-index: 4;
+      display: grid;
+      grid-template-rows: repeat(5, 1fr);
+      pointer-events: none;
+    }
+
+    .rings i {
+      position: relative;
+      display: block;
+    }
+
+    .rings i::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 34px;
+      height: 15px;
+      border: 3px solid rgba(188, 202, 214, .9);
+      border-left-color: rgba(255,255,255,.42);
+      border-radius: 999px;
+      transform: translate(-50%, -50%);
+      background: rgba(30, 36, 42, .22);
+      box-shadow: 0 3px 8px rgba(0,0,0,.24);
+    }
+
+    .spread {
+      position: relative;
+      width: min(1080px, 100%);
+      min-height: 620px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      isolation: isolate;
+      transform-style: preserve-3d;
+      filter: drop-shadow(0 24px 40px rgba(0,0,0,.32));
+      animation: enterSpread .72s cubic-bezier(.2,.9,.2,1) both;
+    }
+
+    .spread.is-turning-forward {
+      animation: turnForward .62s cubic-bezier(.34,.02,.2,1) both;
+    }
+
+    .spread.is-turning-back {
+      animation: turnBack .62s cubic-bezier(.34,.02,.2,1) both;
+    }
+
+    .spread.is-turning-forward::after,
+    .spread.is-turning-back::after {
+      content: "";
+      position: absolute;
+      inset-block: 0;
+      width: 50%;
+      z-index: 5;
+      border-radius: var(--radius);
+      background:
+        linear-gradient(90deg, rgba(255,255,255,.62), rgba(243,234,220,.96) 44%, rgba(179,148,101,.24));
+      transform-origin: right center;
+      box-shadow: -20px 0 36px rgba(0,0,0,.22);
+      pointer-events: none;
+    }
+
+    .spread.is-turning-forward::after {
+      right: 50%;
+      animation: leafForward .62s cubic-bezier(.34,.02,.2,1) both;
+    }
+
+    .spread.is-turning-back::after {
+      left: 50%;
+      transform-origin: left center;
+      animation: leafBack .62s cubic-bezier(.34,.02,.2,1) both;
+    }
+
+    .page {
+      position: relative;
+      min-width: 0;
+      padding: clamp(14px, 1.5vw, 24px);
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(255,255,255,.36), transparent 18%),
+        linear-gradient(180deg, var(--paper), #f8f0e2);
+      border: 1px solid rgba(70, 49, 27, .16);
+      overflow: hidden;
+    }
+
+    .page:first-child {
+      border-radius: 0 var(--radius) var(--radius) 0;
+      box-shadow: inset -18px 0 26px rgba(92, 63, 30, .16);
+      padding-left: 34px;
+    }
+
+    .page:last-child {
+      border-radius: var(--radius) 0 0 var(--radius);
+      box-shadow: inset 18px 0 26px rgba(92, 63, 30, .16);
+      padding-right: 34px;
+    }
+
+    .page::before {
+      content: "";
+      position: absolute;
+      inset: 10px;
+      border: 1px solid rgba(92, 63, 30, .12);
+      border-radius: 6px;
+      pointer-events: none;
+    }
+
+    .page-head {
+      position: relative;
+      z-index: 1;
+      min-height: 54px;
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(92, 63, 30, .14);
+    }
+
+    .page-head b {
+      font-size: clamp(1.2rem, 2vw, 1.65rem);
+      line-height: 1;
+    }
+
+    .page-head span {
+      color: #7b6548;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .slot-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: clamp(10px, 1.2vw, 16px);
+    }
+
+    .slot {
+      position: relative;
+      min-width: 0;
+      aspect-ratio: 512 / 716;
+      padding: 4px;
+      border: 1px solid rgba(55, 67, 79, .2);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(135deg, rgba(255,255,255,.62), rgba(255,255,255,.22)),
+        var(--sleeve);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.82), 0 12px 20px rgba(55, 42, 24, .12);
+      overflow: hidden;
+      transform: translateY(12px);
+      opacity: 0;
+      animation: cardIn .48s cubic-bezier(.2,.9,.25,1) both;
+      animation-delay: calc(var(--i) * 38ms);
+    }
+
+    .slot::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(120deg, transparent 8%, rgba(255,255,255,.42) 22%, transparent 34%);
+      mix-blend-mode: screen;
+      pointer-events: none;
+    }
+
+    .slot.is-empty {
+      display: grid;
+      place-items: center;
+      border-style: dashed;
+      background:
+        repeating-linear-gradient(135deg, rgba(55,67,79,.05) 0 8px, transparent 8px 16px),
+        rgba(255,255,255,.32);
+      color: #987b52;
+      font-weight: 900;
+    }
+
+    .card-button {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      overflow: hidden;
+      display: block;
+      box-shadow: 0 5px 10px rgba(23,32,51,.18);
+      transition: transform .18s ease, filter .18s ease, box-shadow .18s ease;
+    }
+
+    .slot.needs-quiz .card-button {
+      opacity: .58;
+      filter: saturate(.7) contrast(.92);
+    }
+
+    .card-button:hover {
+      transform: translateY(-4px) rotate(-.6deg);
+      filter: saturate(1.08) contrast(1.03);
+      box-shadow: 0 14px 22px rgba(23,32,51,.22);
+    }
+
+    .card-button img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-number {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      min-width: 30px;
+      height: 24px;
+      padding: 0 7px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      background: rgba(23,32,51,.72);
+      font-weight: 900;
+      font-size: .78rem;
+      z-index: 2;
+    }
+
+    .quiz-badge {
+      position: absolute;
+      left: 12px;
+      top: 12px;
+      min-height: 24px;
+      padding: 0 8px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      background: rgba(217, 77, 97, .86);
+      font-weight: 900;
+      font-size: .75rem;
+      z-index: 2;
+    }
+
+    .slot.quiz-done .quiz-badge {
+      background: rgba(23, 184, 166, .92);
+    }
+
+    .tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 2px;
+    }
+
+    .tab {
+      min-height: 40px;
+      padding: 0 13px;
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.08);
+      white-space: nowrap;
+      font-weight: 900;
+      transition: background .16s ease, transform .16s ease;
+    }
+
+    .tab:hover {
+      transform: translateY(-2px);
+      background: rgba(255,255,255,.14);
+    }
+
+    .tab.is-active {
+      color: #13201f;
+      background: var(--teal);
+      border-color: transparent;
+    }
+
+    .inspector {
+      position: fixed;
+      inset: 0;
+      z-index: 20;
+      display: none;
+      place-items: center;
+      padding: 18px;
+      background: rgba(9, 12, 15, .74);
+      backdrop-filter: blur(8px);
+    }
+
+    .inspector.is-open {
+      display: grid;
+      animation: fadeIn .18s ease both;
+    }
+
+    .inspect-card {
+      width: min(430px, 92vw);
+      display: grid;
+      gap: 12px;
+      color: #fff8e9;
+    }
+
+    .inspect-card img {
+      width: 100%;
+      border-radius: var(--radius);
+      box-shadow: 0 30px 80px rgba(0,0,0,.46);
+    }
+
+    .inspect-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .inspect-meta b {
+      font-size: 1.45rem;
+    }
+
+    .inspect-actions,
+    .quiz-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .inspect-status {
+      color: #cbd6df;
+      font-weight: 900;
+    }
+
+    .text-button.primary {
+      border-color: transparent;
+      color: #12201e;
+      background: var(--teal);
+    }
+
+    .text-button.danger {
+      color: #fff6f7;
+      background: rgba(217, 77, 97, .22);
+      border-color: rgba(217, 77, 97, .42);
+    }
+
+    .quiz-panel {
+      display: none;
+      gap: 12px;
+      padding: 14px;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.08);
+      color: #fff8e9;
+    }
+
+    .quiz-panel.is-open {
+      display: grid;
+    }
+
+    .tier-row {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+    }
+
+    .tier-button {
+      min-height: 34px;
+      padding: 0 10px;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.08);
+      font-weight: 900;
+    }
+
+    .tier-button.is-active {
+      color: #12201e;
+      background: var(--gold);
+      border-color: transparent;
+    }
+
+    .quiz-question {
+      margin: 0;
+      font-weight: 900;
+      font-size: 1.08rem;
+      line-height: 1.35;
+    }
+
+    .quiz-options {
+      display: grid;
+      gap: 8px;
+    }
+
+    .quiz-option {
+      width: 100%;
+      min-height: 46px;
+      padding: 9px 12px;
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.1);
+      text-align: start;
+      font-weight: 900;
+    }
+
+    .quiz-option.is-correct {
+      color: #10201d;
+      background: var(--teal);
+      border-color: transparent;
+    }
+
+    .quiz-option.is-wrong {
+      color: #fff;
+      background: rgba(217,77,97,.72);
+      border-color: transparent;
+    }
+
+    .quiz-result {
+      min-height: 24px;
+      color: #dce6ef;
+      font-weight: 900;
+    }
+
+    .empty-state {
+      width: min(680px, 100%);
+      margin: auto;
+      padding: 28px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.08);
+      text-align: center;
+      color: #eaf1f7;
+      font-weight: 900;
+    }
+
+    @keyframes enterTop {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes enterSpread {
+      from { opacity: 0; transform: translateY(18px) rotateX(4deg); }
+      to { opacity: 1; transform: translateY(0) rotateX(0); }
+    }
+
+    @keyframes cardIn {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes turnForward {
+      0% { transform: rotateY(0) translateZ(0); }
+      46% { transform: rotateY(-3deg) translateZ(18px); }
+      100% { transform: rotateY(0) translateZ(0); }
+    }
+
+    @keyframes turnBack {
+      0% { transform: rotateY(0) translateZ(0); }
+      46% { transform: rotateY(3deg) translateZ(18px); }
+      100% { transform: rotateY(0) translateZ(0); }
+    }
+
+    @keyframes leafForward {
+      0% { opacity: 0; transform: rotateY(0deg); }
+      12% { opacity: 1; }
+      72% { opacity: 1; transform: rotateY(-154deg); }
+      100% { opacity: 0; transform: rotateY(-178deg); }
+    }
+
+    @keyframes leafBack {
+      0% { opacity: 0; transform: rotateY(0deg); }
+      12% { opacity: 1; }
+      72% { opacity: 1; transform: rotateY(154deg); }
+      100% { opacity: 0; transform: rotateY(178deg); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (max-width: 980px) {
+      .app {
+        grid-template-columns: 1fr;
+      }
+
+      .side {
+        min-height: auto;
+        grid-template-rows: auto;
+      }
+
+      .series-list {
+        display: flex;
+        overflow-x: auto;
+      }
+
+      .series-button {
+        min-width: 240px;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+      }
+
+      .header-stats {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .binder {
+        min-height: auto;
+      }
+
+      .spread {
+        min-height: auto;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .app {
+        width: calc(100% - 16px);
+        padding-top: 8px;
+      }
+
+      .series-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        overflow: visible;
+      }
+
+      .series-button {
+        min-width: 0;
+        grid-template-columns: 28px minmax(0, 1fr);
+        min-height: 50px;
+      }
+
+      .series-button .count {
+        display: none;
+      }
+
+      .swatch {
+        width: 28px;
+      }
+
+      .topbar {
+        align-items: stretch;
+      }
+
+      .filter-row {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .filter-button {
+        padding: 0 4px;
+        font-size: .86rem;
+      }
+
+      .header-stats {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .stat-chip {
+        min-height: 42px;
+        padding: 6px 8px;
+      }
+
+      .stat-chip b {
+        font-size: .94rem;
+      }
+
+      .controls {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      .stage {
+        padding: 8px;
+      }
+
+      .spread {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+
+      .page {
+        border-radius: var(--radius);
+        padding: 14px;
+      }
+
+      .page:first-child,
+      .page:last-child {
+        border-radius: var(--radius);
+        padding: 14px;
+        box-shadow: inset 0 0 22px rgba(92,63,30,.12);
+      }
+
+      .page:last-child {
+        margin-top: 8px;
+      }
+
+      .rings {
+        display: none;
+      }
+
+      .slot-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .page-title h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <aside class="side" aria-label="ניווט סדרות">
+      <div class="brand">
+        <b>אוספים עובדות</b>
+        <span>Binder עונה 1</span>
+      </div>
+
+      <div class="filter-panel" aria-label="פילטרים">
+        <div class="search-shell">
+          <input class="search" id="searchInput" type="search" placeholder="חיפוש קלף או סדרה" autocomplete="off">
+        </div>
+        <div class="filter-row" id="statusFilters">
+          <button class="filter-button is-active" type="button" data-filter="all">הכל</button>
+          <button class="filter-button" type="button" data-filter="pending">לבוחן</button>
+          <button class="filter-button" type="button" data-filter="done">בוצעו</button>
+        </div>
+      </div>
+
+      <nav class="series-list" id="seriesList"></nav>
+
+      <div class="meter">
+        <div class="meter-top">
+          <span id="collectionCount">0 קלפים</span>
+          <span id="collectionPercent">100%</span>
+        </div>
+        <div class="bar" aria-hidden="true"><i id="progressBar"></i></div>
+      </div>
+    </aside>
+
+    <section class="workspace">
+      <header class="topbar">
+        <div class="page-title">
+          <h1 id="activeTitle">אלבום הקלפים</h1>
+          <p id="activeSubtitle">כל הסדרות הקיימות במקום אחד</p>
+        </div>
+
+        <div class="header-stats" aria-label="מצב אלבום">
+          <div class="stat-chip"><b id="headerDone">0</b><span>בוצעו</span></div>
+          <div class="stat-chip"><b id="headerPending">0</b><span>לבוחן</span></div>
+          <div class="stat-chip"><b id="headerMode">הכל</b><span>תצוגה</span></div>
+        </div>
+
+        <div class="controls">
+          <button class="icon-button" id="nextButton" type="button" aria-label="העמוד הבא">‹</button>
+          <button class="text-button" id="allButton" type="button">כל הסדרות</button>
+          <button class="icon-button" id="prevButton" type="button" aria-label="העמוד הקודם">›</button>
+        </div>
+      </header>
+
+      <div class="stage">
+        <div class="binder" id="binder">
+          <div class="rings" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="spread" id="spread">
+            <article class="page">
+              <div class="page-head">
+                <b id="rightPageTitle">עמוד ימני</b>
+                <span id="rightPageIndex">01</span>
+              </div>
+              <div class="slot-grid" id="rightGrid"></div>
+            </article>
+
+            <article class="page">
+              <div class="page-head">
+                <b id="leftPageTitle">עמוד שמאלי</b>
+                <span id="leftPageIndex">02</span>
+              </div>
+              <div class="slot-grid" id="leftGrid"></div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabs" id="tabs"></div>
+    </section>
+  </main>
+
+  <div class="inspector" id="inspector" aria-hidden="true">
+    <div class="inspect-card">
+      <img id="inspectImage" src="" alt="">
+      <div class="inspect-meta">
+        <b id="inspectTitle"></b>
+        <button class="text-button" id="closeInspect" type="button">סגור</button>
+      </div>
+      <div class="inspect-actions">
+        <span class="inspect-status" id="inspectStatus"></span>
+        <button class="text-button primary" id="startQuizButton" type="button">עשה בוחן</button>
+      </div>
+      <section class="quiz-panel" id="quizPanel" aria-live="polite">
+        <div class="tier-row" id="tierRow"></div>
+        <p class="quiz-question" id="quizQuestion"></p>
+        <div class="quiz-options" id="quizOptions"></div>
+        <div class="quiz-result" id="quizResult"></div>
+        <div class="quiz-actions">
+          <button class="text-button" id="closeQuizButton" type="button">חזרה לקלף</button>
+          <button class="text-button danger" id="resetQuizButton" type="button">סמן כלא בוצע</button>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="assets/season-1/quizzes/binder-quiz-data.js"></script>
+  <script>
+    const series = [
+      {
+        id: "animals",
+        title: "חיות",
+        subtitle: "30 הראשונים",
+        color: "#17b8a6",
+        cards: makeCards("animals", "assets/season-1/cards-generated-he/animals/", [
+          ["חתול", "01-cat"], ["כלב", "02-dog"], ["ארנב", "03-rabbit"], ["פיל", "04-elephant"], ["ג׳ירפה", "05-giraffe"],
+          ["צב", "06-turtle"], ["דולפין", "07-dolphin"], ["פרפר", "08-butterfly"], ["פינגווין", "09-penguin"], ["כריש", "10-shark"]
+        ])
+      },
+      {
+        id: "crystals",
+        title: "גבישים ומינרלים",
+        subtitle: "30 הראשונים",
+        color: "#8c6ce8",
+        cards: makeCards("crystals", "assets/season-1/cards-generated-he/crystals/", [
+          ["קוורץ", "01-quartz"], ["אמטיסט", "02-amethyst"], ["טורמלין", "03-tourmaline"], ["פיריט", "04-pyrite"], ["אובסידיאן", "05-obsidian"],
+          ["גרניט", "06-granite"], ["בזלת", "07-basalt"], ["יהלום", "08-diamond"], ["מלח סלעים", "09-rock-salt"], ["מאובן מינרלי", "10-mineral-fossil"]
+        ])
+      },
+      {
+        id: "security",
+        title: "כוחות והצלה",
+        subtitle: "30 הראשונים",
+        color: "#d94d61",
+        cards: makeCards("security", "assets/season-1/cards-generated-he/security/", [
+          ["חילוץ והצלה", "01-rescue"], ["מודיעין", "02-intelligence"], ["חיל האוויר", "03-air-force"], ["חיל הים", "04-navy"], ["חיל הרפואה", "05-medical-corps"],
+          ["כיפת ברזל", "06-iron-dome"], ["לוחמה בסייבר", "07-cyber-warfare"], ["לוגיסטיקה", "08-logistics"], ["פיקוד העורף", "09-home-front-command"], ["אתיקה צבאית", "10-military-ethics"]
+        ])
+      },
+      {
+        id: "vehicles",
+        title: "כלי תחבורה",
+        subtitle: "Wave 2",
+        color: "#477de7",
+        cards: makeCards("vehicles", "assets/season-1/cards-wave2-he/vehicles/", [
+          ["אוטובוס", "01-bus"], ["רכבת", "02-train"], ["מטוס", "03-airplane"], ["סירה", "04-boat"], ["אופניים", "05-bicycle"],
+          ["טרקטור", "06-tractor"], ["כבאית", "07-firetruck"], ["אמבולנס", "08-ambulance"], ["חללית", "09-spaceship"], ["רכבל", "10-cable-car"]
+        ])
+      },
+      {
+        id: "fruits-veggies",
+        title: "פירות וירקות",
+        subtitle: "Wave 2",
+        color: "#f08b45",
+        cards: makeCards("fruits-veggies", "assets/season-1/cards-wave2-he/fruits-veggies/", [
+          ["תפוח", "01-apple"], ["בננה", "02-banana"], ["תות", "03-strawberry"], ["אבטיח", "04-watermelon"], ["גזר", "05-carrot"],
+          ["עגבנייה", "06-tomato"], ["מלפפון", "07-cucumber"], ["ענבים", "08-grapes"], ["תפוז", "09-orange"], ["תירס", "10-corn"]
+        ])
+      },
+      {
+        id: "my-body",
+        title: "הגוף שלי",
+        subtitle: "Wave 2",
+        color: "#f36a9f",
+        cards: makeCards("my-body", "assets/season-1/cards-wave2-he/my-body/", [
+          ["עיניים", "01-eyes"], ["אוזניים", "02-ears"], ["אף", "03-nose"], ["פה", "04-mouth"], ["ידיים", "05-hands"],
+          ["רגליים", "06-legs"], ["לב", "07-heart"], ["שיניים", "08-teeth"], ["שיער", "09-hair"], ["בטן", "10-belly"]
+        ])
+      },
+      {
+        id: "ai",
+        title: "בינה מלאכותית",
+        subtitle: "גל 3",
+        color: "#217aae",
+        cards: makeCards("ai", "assets/season-1/cards-wave2-he/ai/", [
+          ["אלגוריתם", "01-algorithm"], ["נתונים", "02-data"], ["אימון מודל", "03-model-training"], ["רשת עצבית", "04-neural-network"], ["ראייה ממוחשבת", "05-computer-vision"],
+          ["מודל שפה", "06-language-model"], ["רובוט לומד", "07-learning-robot"], ["הטיה", "08-bias"], ["פרטיות", "09-privacy"], ["יצירה חכמה", "10-creative-ai"]
+        ])
+      },
+      {
+        id: "minecraft",
+        title: "עולם קוביות",
+        subtitle: "גל 3",
+        color: "#54904c",
+        cards: makeCards("minecraft", "assets/season-1/cards-wave2-he/minecraft/", [
+          ["קובייה", "01-cube"], ["מכוש", "02-pickaxe"], ["מחסה ראשון", "03-shelter"], ["מערה", "04-cave"], ["משאבים", "05-resources"],
+          ["יצירה", "06-crafting"], ["חווה", "07-farm"], ["אזור טבע", "08-biome"], ["מפה", "09-map"], ["מעגלי כוח", "10-circuits"]
+        ])
+      },
+      {
+        id: "colors",
+        title: "צבעים",
+        subtitle: "סדרה נפרדת",
+        color: "#19a3d8",
+        cards: makeCards("colors", "assets/season-1/cards-wave2-he/colors/", [
+          ["אדום", "01-red"], ["כחול", "02-blue"], ["צהוב", "03-yellow"], ["ירוק", "04-green"], ["כתום", "05-orange"],
+          ["סגול", "06-purple"], ["ורוד", "07-pink"], ["חום", "08-brown"], ["שחור ולבן", "09-black-white"], ["קשת צבעים", "10-rainbow"]
+        ])
+      },
+      {
+        id: "shapes",
+        title: "צורות",
+        subtitle: "סדרה נפרדת",
+        color: "#69b84f",
+        cards: makeCards("shapes", "assets/season-1/cards-wave2-he/shapes/", [
+          ["עיגול", "01-circle"], ["ריבוע", "02-square"], ["משולש", "03-triangle"], ["מלבן", "04-rectangle"], ["כוכב", "05-star"],
+          ["לב", "06-heart"], ["מעוין", "07-diamond"], ["אליפסה", "08-oval"], ["משושה", "09-hexagon"], ["ספירלה", "10-spiral"]
+        ])
+      },
+      {
+        id: "bank-hapoalim",
+        title: "בנק הפועלים",
+        subtitle: "סדרת בדיקה",
+        color: "#e24b5a",
+        cards: makeCards("bank-hapoalim", "assets/season-1/cards-wave2-he/bank-hapoalim/", [
+          ["פיקדון יומי", "01-daily-deposit"]
+        ])
+      }
+    ];
+
+    const state = {
+      activeIndex: 0,
+      query: "",
+      allMode: false,
+      statusFilter: "all",
+      activeCard: null,
+      selectedTier: "child",
+      completedQuizIds: loadCompletedQuizIds()
+    };
+
+    const els = {
+      seriesList: document.querySelector("#seriesList"),
+      tabs: document.querySelector("#tabs"),
+      spread: document.querySelector("#spread"),
+      rightGrid: document.querySelector("#rightGrid"),
+      leftGrid: document.querySelector("#leftGrid"),
+      activeTitle: document.querySelector("#activeTitle"),
+      activeSubtitle: document.querySelector("#activeSubtitle"),
+      rightPageTitle: document.querySelector("#rightPageTitle"),
+      leftPageTitle: document.querySelector("#leftPageTitle"),
+      rightPageIndex: document.querySelector("#rightPageIndex"),
+      leftPageIndex: document.querySelector("#leftPageIndex"),
+      search: document.querySelector("#searchInput"),
+      statusFilters: document.querySelector("#statusFilters"),
+      prev: document.querySelector("#prevButton"),
+      next: document.querySelector("#nextButton"),
+      all: document.querySelector("#allButton"),
+      collectionCount: document.querySelector("#collectionCount"),
+      collectionPercent: document.querySelector("#collectionPercent"),
+      progressBar: document.querySelector("#progressBar"),
+      headerDone: document.querySelector("#headerDone"),
+      headerPending: document.querySelector("#headerPending"),
+      headerMode: document.querySelector("#headerMode"),
+      inspector: document.querySelector("#inspector"),
+      inspectImage: document.querySelector("#inspectImage"),
+      inspectTitle: document.querySelector("#inspectTitle"),
+      inspectStatus: document.querySelector("#inspectStatus"),
+      closeInspect: document.querySelector("#closeInspect"),
+      startQuiz: document.querySelector("#startQuizButton"),
+      quizPanel: document.querySelector("#quizPanel"),
+      tierRow: document.querySelector("#tierRow"),
+      quizQuestion: document.querySelector("#quizQuestion"),
+      quizOptions: document.querySelector("#quizOptions"),
+      quizResult: document.querySelector("#quizResult"),
+      closeQuiz: document.querySelector("#closeQuizButton"),
+      resetQuiz: document.querySelector("#resetQuizButton")
+    };
+
+    function makeCards(pack, base, items) {
+      return items.map(([title, slug], index) => ({
+        id: `${pack}-${slug}`,
+        title,
+        pack,
+        index: index + 1,
+        image: `${base}${slug}.webp`
+      }));
+    }
+
+    function loadCompletedQuizIds() {
+      try {
+        return new Set(JSON.parse(localStorage.getItem("binderCompletedQuizIds") || "[]"));
+      } catch {
+        return new Set();
+      }
+    }
+
+    function saveCompletedQuizIds() {
+      localStorage.setItem("binderCompletedQuizIds", JSON.stringify([...state.completedQuizIds]));
+    }
+
+    function quizFor(card) {
+      return window.BINDER_QUIZ_DATA?.[card.id] || null;
+    }
+
+    function isQuizDone(card) {
+      return state.completedQuizIds.has(card.id);
+    }
+
+    function statusMatches(card) {
+      if (state.statusFilter === "done") return isQuizDone(card);
+      if (state.statusFilter === "pending") return !isQuizDone(card);
+      return true;
+    }
+
+    function filterLabel() {
+      if (state.statusFilter === "done") return "בוצעו";
+      if (state.statusFilter === "pending") return "לבוחן";
+      return "הכל";
+    }
+
+    function markQuizDone(card) {
+      state.completedQuizIds.add(card.id);
+      saveCompletedQuizIds();
+      renderBinder();
+      renderNav();
+      updateInspectStatus(card);
+    }
+
+    function markQuizPending(card) {
+      state.completedQuizIds.delete(card.id);
+      saveCompletedQuizIds();
+      renderBinder();
+      renderNav();
+      updateInspectStatus(card);
+    }
+
+    function filteredSeries() {
+      const q = state.query.trim();
+      return series.filter(item => {
+        const cards = item.cards.filter(statusMatches);
+        if (!cards.length) return false;
+        if (!q) return true;
+        const inSeries = `${item.title} ${item.subtitle}`.includes(q);
+        const inCards = cards.some(card => card.title.includes(q));
+        return inSeries || inCards;
+      });
+    }
+
+    function cardsForActive() {
+      const q = state.query.trim();
+      const source = state.allMode || q
+        ? series.flatMap(item => item.cards.map(card => ({ ...card, seriesTitle: item.title })))
+        : series[state.activeIndex].cards.map(card => ({ ...card, seriesTitle: series[state.activeIndex].title }));
+
+      const matchingStatus = source.filter(statusMatches);
+      const filtered = q
+        ? matchingStatus.filter(card => card.title.includes(q) || card.seriesTitle.includes(q))
+        : matchingStatus;
+
+      return state.allMode || q ? filtered.slice(0, 12) : filtered;
+    }
+
+    function renderNav() {
+      const visible = filteredSeries();
+      els.seriesList.innerHTML = "";
+      els.tabs.innerHTML = "";
+      els.statusFilters.querySelectorAll("button").forEach(button => {
+        button.classList.toggle("is-active", button.dataset.filter === state.statusFilter);
+      });
+
+      visible.forEach(item => {
+        const index = series.findIndex(source => source.id === item.id);
+        const button = document.createElement("button");
+        button.className = `series-button${!state.allMode && index === state.activeIndex ? " is-active" : ""}`;
+        button.type = "button";
+        button.innerHTML = `
+          <i class="swatch" style="background:${item.color}"></i>
+          <span class="series-copy"><b>${item.title}</b><span>${item.subtitle}</span></span>
+          <span class="count">${item.cards.filter(isQuizDone).length}/${item.cards.length}</span>
+        `;
+        button.addEventListener("click", () => setActive(index, "forward"));
+        els.seriesList.append(button);
+
+        const tab = document.createElement("button");
+        tab.className = `tab${!state.allMode && index === state.activeIndex ? " is-active" : ""}`;
+        tab.type = "button";
+        tab.textContent = item.title;
+        tab.addEventListener("click", () => setActive(index, "forward"));
+        els.tabs.append(tab);
+      });
+    }
+
+    function renderBinder() {
+      const active = series[state.activeIndex];
+      const cards = cardsForActive();
+      const total = series.reduce((sum, item) => sum + item.cards.length, 0);
+      const completed = series.flatMap(item => item.cards).filter(isQuizDone).length;
+      const pending = total - completed;
+      const completion = total ? Math.round((completed / total) * 100) : 0;
+
+      const searching = Boolean(state.query.trim());
+      els.activeTitle.textContent = searching ? "תוצאות חיפוש" : state.allMode ? "כל הסדרות" : active.title;
+      els.activeSubtitle.textContent = searching ? `${cards.length} קלפים תואמים · ${filterLabel()}` : state.allMode ? `${total} קלפים קיימים באלבום · ${filterLabel()}` : `${cards.length}/${active.cards.length} קלפים בתצוגה · ${filterLabel()}`;
+      els.rightPageTitle.textContent = searching ? state.query.trim() : state.allMode ? "מבחר מהאוסף" : active.title;
+      els.leftPageTitle.textContent = searching ? "עוד תוצאות" : state.allMode ? "המשך אוסף" : "שרוולים נוספים";
+      els.rightPageIndex.textContent = String(state.activeIndex * 2 + 1).padStart(2, "0");
+      els.leftPageIndex.textContent = String(state.activeIndex * 2 + 2).padStart(2, "0");
+      els.collectionCount.textContent = `${completed}/${total} בוצעו`;
+      els.collectionPercent.textContent = `${completion}%`;
+      els.progressBar.style.setProperty("--progress", `${completion}%`);
+      els.headerDone.textContent = completed;
+      els.headerPending.textContent = pending;
+      els.headerMode.textContent = filterLabel();
+
+      if (!cards.length) {
+        els.rightGrid.innerHTML = `<div class="empty-state">לא נמצאו קלפים לחיפוש הזה</div>`;
+        els.leftGrid.innerHTML = "";
+        return;
+      }
+
+      const slots = [...cards.slice(0, 12)];
+      while (slots.length < 12) slots.push(null);
+      renderGrid(els.rightGrid, slots.slice(0, 6), 0);
+      renderGrid(els.leftGrid, slots.slice(6, 12), 6);
+    }
+
+    function renderGrid(grid, cards, offset) {
+      grid.innerHTML = "";
+      cards.forEach((card, index) => {
+        const slot = document.createElement("div");
+        slot.className = `slot${card ? "" : " is-empty"}`;
+        slot.style.setProperty("--i", index + offset);
+
+        if (!card) {
+          slot.textContent = "ריק";
+        } else {
+          slot.classList.add(isQuizDone(card) ? "quiz-done" : "needs-quiz");
+          slot.innerHTML = `
+            <span class="card-number">${String(card.index).padStart(2, "0")}</span>
+            <span class="quiz-badge">${isQuizDone(card) ? "בוצע" : "בוחן"}</span>
+            <button class="card-button" type="button" aria-label="${card.title}">
+              <img src="${card.image}" alt="${card.title}" loading="lazy" decoding="async">
+            </button>
+          `;
+          slot.querySelector("button").addEventListener("click", () => openInspect(card));
+        }
+
+        grid.append(slot);
+      });
+    }
+
+    function render(direction = "forward") {
+      animate(direction);
+      renderNav();
+      renderBinder();
+    }
+
+    function animate(direction) {
+      els.spread.classList.remove("is-turning-forward", "is-turning-back");
+      void els.spread.offsetWidth;
+      els.spread.classList.add(direction === "back" ? "is-turning-back" : "is-turning-forward");
+      window.setTimeout(() => {
+        els.spread.classList.remove("is-turning-forward", "is-turning-back");
+      }, 660);
+    }
+
+    function setActive(index, direction) {
+      state.activeIndex = (index + series.length) % series.length;
+      state.allMode = false;
+      render(direction);
+    }
+
+    function openInspect(card) {
+      state.activeCard = card;
+      els.inspectImage.src = card.image;
+      els.inspectImage.alt = card.title;
+      els.inspectTitle.textContent = `${card.title} · ${card.seriesTitle}`;
+      els.quizPanel.classList.remove("is-open");
+      els.quizResult.textContent = "";
+      updateInspectStatus(card);
+      els.inspector.classList.add("is-open");
+      els.inspector.setAttribute("aria-hidden", "false");
+    }
+
+    function updateInspectStatus(card) {
+      const quiz = quizFor(card);
+      const done = isQuizDone(card);
+      els.inspectStatus.textContent = done ? "הבוחן בוצע" : "עוד לא עשה בוחן";
+      els.startQuiz.textContent = done ? "עשה שוב" : "עשה בוחן";
+      els.startQuiz.disabled = !quiz;
+      els.startQuiz.style.opacity = quiz ? "1" : ".48";
+      els.resetQuiz.style.display = done ? "inline-flex" : "none";
+    }
+
+    function activeQuiz() {
+      const card = state.activeCard;
+      if (!card) return null;
+      const quizData = quizFor(card);
+      return quizData?.quizzes?.[state.selectedTier] || quizData?.quizzes?.child || quizData?.quizzes?.junior || null;
+    }
+
+    function renderQuiz() {
+      const card = state.activeCard;
+      const quizData = card ? quizFor(card) : null;
+      if (!card || !quizData) return;
+
+      const tiers = [
+        ["junior", "3-5"],
+        ["child", "6-12"],
+        ["advanced", "13+"]
+      ].filter(([tier]) => quizData.quizzes?.[tier]);
+
+      els.tierRow.innerHTML = "";
+      tiers.forEach(([tier, label]) => {
+        const button = document.createElement("button");
+        button.className = `tier-button${tier === state.selectedTier ? " is-active" : ""}`;
+        button.type = "button";
+        button.textContent = label;
+        button.addEventListener("click", () => {
+          state.selectedTier = tier;
+          renderQuiz();
+        });
+        els.tierRow.append(button);
+      });
+
+      const quiz = activeQuiz();
+      els.quizQuestion.textContent = quiz.question_he;
+      els.quizResult.textContent = "";
+      els.quizOptions.innerHTML = "";
+      quiz.options_he.forEach((option, index) => {
+        const button = document.createElement("button");
+        button.className = "quiz-option";
+        button.type = "button";
+        button.textContent = option;
+        button.addEventListener("click", () => answerQuiz(index, quiz.correct_answer_index));
+        els.quizOptions.append(button);
+      });
+      els.quizPanel.classList.add("is-open");
+    }
+
+    function answerQuiz(selectedIndex, correctIndex) {
+      const buttons = [...els.quizOptions.querySelectorAll("button")];
+      buttons.forEach((button, index) => {
+        button.disabled = true;
+        if (index === correctIndex) button.classList.add("is-correct");
+        if (index === selectedIndex && selectedIndex !== correctIndex) button.classList.add("is-wrong");
+      });
+
+      if (selectedIndex === correctIndex) {
+        els.quizResult.textContent = "נכון! הקלף סומן כבוצע.";
+        markQuizDone(state.activeCard);
+      } else {
+        els.quizResult.textContent = "כמעט. אפשר לנסות שוב.";
+        window.setTimeout(renderQuiz, 900);
+      }
+    }
+
+    function closeInspect() {
+      els.inspector.classList.remove("is-open");
+      els.inspector.setAttribute("aria-hidden", "true");
+      state.activeCard = null;
+    }
+
+    els.next.addEventListener("click", () => setActive(state.activeIndex + 1, "forward"));
+    els.prev.addEventListener("click", () => setActive(state.activeIndex - 1, "back"));
+    els.all.addEventListener("click", () => {
+      state.allMode = true;
+      render("forward");
+    });
+    els.search.addEventListener("input", event => {
+      state.query = event.target.value;
+      renderBinder();
+      renderNav();
+    });
+    els.statusFilters.addEventListener("click", event => {
+      const button = event.target.closest("button[data-filter]");
+      if (!button) return;
+      state.statusFilter = button.dataset.filter;
+      render("forward");
+    });
+    els.closeInspect.addEventListener("click", closeInspect);
+    els.startQuiz.addEventListener("click", renderQuiz);
+    els.closeQuiz.addEventListener("click", () => els.quizPanel.classList.remove("is-open"));
+    els.resetQuiz.addEventListener("click", () => {
+      if (state.activeCard) markQuizPending(state.activeCard);
+    });
+    els.inspector.addEventListener("click", event => {
+      if (event.target === els.inspector) closeInspect();
+    });
+    window.addEventListener("keydown", event => {
+      if (event.key === "Escape") closeInspect();
+      if (event.key === "ArrowLeft") setActive(state.activeIndex + 1, "forward");
+      if (event.key === "ArrowRight") setActive(state.activeIndex - 1, "back");
+    });
+
+    render();
+  </script>
+</body>
+</html>

@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "human-science",
+  "pack_title_he": "גוף האדם ומדע",
+  "domain_he": "מערכות הגוף והמדע שמאחוריהן",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-human-science.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "human-science-01-brain",
+      "index": 1,
+      "title_he": "מוח",
+      "asset_path": "assets/season-1/cards-wave2-he/human-science/01-brain.webp",
+      "facts_he": [
+        "מרכז הבקרה של הגוף",
+        "מעבד מידע מהחושים",
+        "למידה יוצרת קשרים חדשים"
+      ],
+      "tags_he": [
+        "עצבים",
+        "למידה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מוח",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מרכז הבקרה של הגוף"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מוח?",
+          "options_he": [
+            "מרכז הבקרה של הגוף",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מרכז הבקרה של הגוף"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מוח?",
+          "options_he": [
+            "מוח קשור לתג עצבים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מעבד מידע מהחושים"
+        }
+      }
+    },
+    {
+      "card_id": "human-science-02-heart",
+      "index": 2,
+      "title_he": "לב",
+      "asset_path": "assets/season-1/cards-wave2-he/human-science/02-heart.webp",
+      "facts_he": [
+        "משאבה שמזרימה דם",
+        "פועם ללא הפסקה",
+        "פעילות גופנית שומרת עליו"
+      ],
+      "tags_he": [
+        "דם",
+        "בריאות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "לב",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משאבה שמזרימה דם"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי לב?",
+          "options_he": [
+            "משאבה שמזרימה דם",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משאבה שמזרימה דם"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא לב?",
+          "options_he": [
+            "לב קשור לתג דם ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פועם ללא הפסקה"
+        }
+      }
+    },
+    {
+      "card_id": "human-science-03-lungs",
+      "index": 3,
+      "title_he": "ריאות",
+      "asset_path": "assets/season-1/cards-wave2-he/human-science/03-lungs.webp",
+      "facts_he": [
+        "מכניסות חמצן לגוף",
+        "מוציאות פחמן דו חמצני",
+        "נשימה עמוקה מרגיעה"
+      ],
+      "tags_he": [
+        "נשימה",
+        "חמצן"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ריאות",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מכניסות חמצן לגוף"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ריאות?",
+          "options_he": [
+            "מכניסות חמצן לגוף",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מכניסות חמצן לגוף"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ריאות?",
+          "options_he": [
+            "ריאות קשור לתג נשימה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מוציאות פחמן דו חמצני"
+        }
+      }
+    },
+    {
+      "card_id": "human-science-04-skeleton",
+      "index": 4,
+      "title_he": "שלד",
+      "asset_path": "assets/season-1/cards-wave2-he/human-science/04-skeleton.webp",
+      "facts_he": [
+        "תומך בגוף ומגן על איברים",
+        "עצמות מתחברות במפרקים",
+        "סידן חשוב לעצמות"
+      ],
+      "tags_he": [
+        "עצמות",
+        "תמיכה"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "שלד",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תומך בגוף ומגן על איברים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שלד?",
+          "options_he": [
+            "תומך בגוף ומגן על איברים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תומך בגוף ומגן על איברים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא שלד?",
+          "options_he": [
+            "שלד קשור לתג עצמות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עצמות מתחברות במפרקים"
+        }
+      }
+    },
+    {
+      "card_id": "human-science-05-muscles",
+      "index": 5,
+      "title_he": "שרירים",
+      "asset_path": "assets/season-1/cards-wave2-he/human-science/05-muscles.webp",
+      "facts_he": [
+        "מכווצים כדי ליצור תנועה",
+        "מתחזקים באימון",
+        "צריכים אנרגיה וחמצן"
+      ],
+      "tags_he": [
+        "תנועה",
+        "אימון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "שרירים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מכווצים כדי ליצור תנועה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שרירים?",
+          "options_he": [
+            "מכווצים כדי ליצור תנועה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מכווצים כדי ליצור תנועה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא שרירים?",
+          "options_he": [
+            "שרירים קשור לתג תנועה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מתחזקים באימון"
+        }
+      }
+    },
+    {
+      "card_id": "human-science-06-digestion",
+      "index": 6,
+      "title_he": "מערכת עיכול",
+      "asset_path": "assets/season-1/cards-wave2-he/human-science/06-digestion.webp",
+      "facts_he": [
+        "מפרקת אוכל לחומרים שימושיים",
+        "הקיבה מערבבת ומפרקת",
+        "המעיים סופגים מזון"
+      ],
+      "tags_he": [
+        "אוכל",
+        "אנרגיה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מערכת עיכול",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפרקת אוכל לחומרים שימושיים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מערכת עיכול?",
+          "options_he": [
+            "מפרקת אוכל לחומרים שימושיים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפרקת אוכל לחומרים שימושיים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מערכת עיכול?",
+          "options_he": [
+            "מערכת עיכול קשור לתג אוכל ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הקיבה מערבבת ומפרקת"
+        }
+      }
+    },
+    {
+      "card_id": "human-science-07-blood",
+      "index": 7,
+      "title_he": "דם",
+      "asset_path": "assets/season-1/cards-wave2-he/human-science/07-blood.webp",
+      "facts_he": [
+        "מוביל חמצן וחומרים בגוף",
+        "תאי דם לבנים עוזרים בהגנה",
+        "הלב מזרים אותו בכלי דם"
+      ],
+      "tags_he": [
+        "חמצן",
+        "הגנה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "דם",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מוביל חמצן וחומרים בגוף"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי דם?",
+          "options_he": [
+            "מוביל חמצן וחומרים בגוף",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מוביל חמצן וחומרים בגוף"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא דם?",
+          "options_he": [
+            "דם קשור לתג חמצן ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תאי דם לבנים עוזרים בהגנה"
+        }
+      }
+    },
+    {
+      "card_id": "human-science-08-bacteria",
+      "index": 8,
+      "title_he": "חיידקים",
+      "asset_path": "assets/season-1/cards-wave2-he/human-science/08-bacteria.webp",
+      "facts_he": [
+        "יצורים זעירים מאוד",
+        "חלקם מועילים וחלקם מזיקים",
+        "שטיפת ידיים מפחיתה הדבקה"
+      ],
+      "tags_he": [
+        "מיקרובים",
+        "בריאות"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "חיידקים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יצורים זעירים מאוד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי חיידקים?",
+          "options_he": [
+            "יצורים זעירים מאוד",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יצורים זעירים מאוד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא חיידקים?",
+          "options_he": [
+            "חיידקים קשור לתג מיקרובים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חלקם מועילים וחלקם מזיקים"
+        }
+      }
+    },
+    {
+      "card_id": "human-science-09-dna",
+      "index": 9,
+      "title_he": "DNA",
+      "asset_path": "assets/season-1/cards-wave2-he/human-science/09-dna.webp",
+      "facts_he": [
+        "מכיל הוראות לבניית הגוף",
+        "נמצא כמעט בכל תא",
+        "עובר בתורשה מההורים"
+      ],
+      "tags_he": [
+        "תאים",
+        "תורשה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "DNA",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מכיל הוראות לבניית הגוף"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי DNA?",
+          "options_he": [
+            "מכיל הוראות לבניית הגוף",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מכיל הוראות לבניית הגוף"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא DNA?",
+          "options_he": [
+            "DNA קשור לתג תאים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נמצא כמעט בכל תא"
+        }
+      }
+    },
+    {
+      "card_id": "human-science-10-vaccine",
+      "index": 10,
+      "title_he": "חיסון",
+      "asset_path": "assets/season-1/cards-wave2-he/human-science/10-vaccine.webp",
+      "facts_he": [
+        "מלמד את הגוף לזהות גורם מחלה",
+        "עוזר למנוע מחלות",
+        "מגן גם על הקהילה"
+      ],
+      "tags_he": [
+        "בריאות",
+        "מערכת חיסון"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "חיסון",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מלמד את הגוף לזהות גורם מחלה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי חיסון?",
+          "options_he": [
+            "מלמד את הגוף לזהות גורם מחלה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מלמד את הגוף לזהות גורם מחלה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא חיסון?",
+          "options_he": [
+            "חיסון קשור לתג בריאות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזר למנוע מחלות"
+        }
+      }
+    }
+  ]
+}

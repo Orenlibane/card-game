@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "colors-shapes",
+  "pack_title_he": "צבעים וצורות",
+  "domain_he": "צבעים, צורות וזיהוי חזותי",
+  "age_group_he": "ילדים קטנים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-colors-shapes.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "colors-shapes-01-red-circle",
+      "index": 1,
+      "title_he": "עיגול אדום",
+      "asset_path": "assets/season-1/cards-wave2-he/colors-shapes/01-red-circle.webp",
+      "facts_he": [
+        "צורה עגולה ללא פינות",
+        "אדום הוא צבע בולט",
+        "עיגול יכול להסתובב בקלות"
+      ],
+      "tags_he": [
+        "צורות",
+        "צבעים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "עיגול אדום",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צורה עגולה ללא פינות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי עיגול אדום?",
+          "options_he": [
+            "צורה עגולה ללא פינות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צורה עגולה ללא פינות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא עיגול אדום?",
+          "options_he": [
+            "עיגול אדום קשור לתג צורות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אדום הוא צבע בולט"
+        }
+      }
+    },
+    {
+      "card_id": "colors-shapes-02-blue-square",
+      "index": 2,
+      "title_he": "ריבוע כחול",
+      "asset_path": "assets/season-1/cards-wave2-he/colors-shapes/02-blue-square.webp",
+      "facts_he": [
+        "לריבוע ארבע צלעות שוות",
+        "כחול מזכיר שמיים וים",
+        "פינות עוזרות לזהות ריבוע"
+      ],
+      "tags_he": [
+        "צורות",
+        "צבעים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ריבוע כחול",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לריבוע ארבע צלעות שוות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ריבוע כחול?",
+          "options_he": [
+            "לריבוע ארבע צלעות שוות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לריבוע ארבע צלעות שוות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ריבוע כחול?",
+          "options_he": [
+            "ריבוע כחול קשור לתג צורות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כחול מזכיר שמיים וים"
+        }
+      }
+    },
+    {
+      "card_id": "colors-shapes-03-yellow-triangle",
+      "index": 3,
+      "title_he": "משולש צהוב",
+      "asset_path": "assets/season-1/cards-wave2-he/colors-shapes/03-yellow-triangle.webp",
+      "facts_he": [
+        "למשולש שלוש צלעות",
+        "צהוב הוא צבע בהיר ושמח",
+        "משולשים מופיעים בתמרורים"
+      ],
+      "tags_he": [
+        "צורות",
+        "זהירות"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "משולש צהוב",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "למשולש שלוש צלעות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי משולש צהוב?",
+          "options_he": [
+            "למשולש שלוש צלעות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "למשולש שלוש צלעות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא משולש צהוב?",
+          "options_he": [
+            "משולש צהוב קשור לתג צורות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צהוב הוא צבע בהיר ושמח"
+        }
+      }
+    },
+    {
+      "card_id": "colors-shapes-04-green-star",
+      "index": 4,
+      "title_he": "כוכב ירוק",
+      "asset_path": "assets/season-1/cards-wave2-he/colors-shapes/04-green-star.webp",
+      "facts_he": [
+        "כוכב מצויר עם קודקודים",
+        "ירוק מזכיר צמחים וטבע",
+        "כוכבים עוזרים למצוא דפוס"
+      ],
+      "tags_he": [
+        "דפוסים",
+        "טבע"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "כוכב ירוק",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכב מצויר עם קודקודים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי כוכב ירוק?",
+          "options_he": [
+            "כוכב מצויר עם קודקודים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכב מצויר עם קודקודים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא כוכב ירוק?",
+          "options_he": [
+            "כוכב ירוק קשור לתג דפוסים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ירוק מזכיר צמחים וטבע"
+        }
+      }
+    },
+    {
+      "card_id": "colors-shapes-05-pink-heart",
+      "index": 5,
+      "title_he": "לב ורוד",
+      "asset_path": "assets/season-1/cards-wave2-he/colors-shapes/05-pink-heart.webp",
+      "facts_he": [
+        "צורת לב מסמלת אהבה",
+        "ורוד הוא צבע רך וחם",
+        "סמל יכול להעביר רעיון"
+      ],
+      "tags_he": [
+        "סמלים",
+        "רגשות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "לב ורוד",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צורת לב מסמלת אהבה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי לב ורוד?",
+          "options_he": [
+            "צורת לב מסמלת אהבה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צורת לב מסמלת אהבה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא לב ורוד?",
+          "options_he": [
+            "לב ורוד קשור לתג סמלים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ורוד הוא צבע רך וחם"
+        }
+      }
+    },
+    {
+      "card_id": "colors-shapes-06-rainbow",
+      "index": 6,
+      "title_he": "קשת צבעים",
+      "asset_path": "assets/season-1/cards-wave2-he/colors-shapes/06-rainbow.webp",
+      "facts_he": [
+        "קשת נוצרת מאור ומים",
+        "יש בה רצף של צבעים",
+        "צבעים עוזרים למיין ולזכור"
+      ],
+      "tags_he": [
+        "אור",
+        "צבעים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "קשת צבעים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קשת נוצרת מאור ומים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי קשת צבעים?",
+          "options_he": [
+            "קשת נוצרת מאור ומים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קשת נוצרת מאור ומים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא קשת צבעים?",
+          "options_he": [
+            "קשת צבעים קשור לתג אור ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יש בה רצף של צבעים"
+        }
+      }
+    },
+    {
+      "card_id": "colors-shapes-07-orange-ball",
+      "index": 7,
+      "title_he": "כדור כתום",
+      "asset_path": "assets/season-1/cards-wave2-he/colors-shapes/07-orange-ball.webp",
+      "facts_he": [
+        "כדור הוא גוף עגול",
+        "כתום נמצא בפירות רבים",
+        "כדור יכול להתגלגל"
+      ],
+      "tags_he": [
+        "תנועה",
+        "צבעים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "כדור כתום",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כדור הוא גוף עגול"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי כדור כתום?",
+          "options_he": [
+            "כדור הוא גוף עגול",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כדור הוא גוף עגול"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא כדור כתום?",
+          "options_he": [
+            "כדור כתום קשור לתג תנועה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כתום נמצא בפירות רבים"
+        }
+      }
+    },
+    {
+      "card_id": "colors-shapes-08-silver-moon",
+      "index": 8,
+      "title_he": "ירח כסוף",
+      "asset_path": "assets/season-1/cards-wave2-he/colors-shapes/08-silver-moon.webp",
+      "facts_he": [
+        "הירח נראה בשמיים בלילה",
+        "אורו מגיע מהשמש",
+        "הצורה שלו משתנה במהלך החודש"
+      ],
+      "tags_he": [
+        "חלל",
+        "אור"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ירח כסוף",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הירח נראה בשמיים בלילה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ירח כסוף?",
+          "options_he": [
+            "הירח נראה בשמיים בלילה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הירח נראה בשמיים בלילה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ירח כסוף?",
+          "options_he": [
+            "ירח כסוף קשור לתג חלל ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אורו מגיע מהשמש"
+        }
+      }
+    },
+    {
+      "card_id": "colors-shapes-09-white-cloud",
+      "index": 9,
+      "title_he": "ענן לבן",
+      "asset_path": "assets/season-1/cards-wave2-he/colors-shapes/09-white-cloud.webp",
+      "facts_he": [
+        "ענן עשוי מטיפות מים זעירות",
+        "לבן נראה בהיר ורך",
+        "עננים יכולים להביא גשם"
+      ],
+      "tags_he": [
+        "מזג אוויר",
+        "מים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ענן לבן",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ענן עשוי מטיפות מים זעירות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ענן לבן?",
+          "options_he": [
+            "ענן עשוי מטיפות מים זעירות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ענן עשוי מטיפות מים זעירות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ענן לבן?",
+          "options_he": [
+            "ענן לבן קשור לתג מזג אוויר ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לבן נראה בהיר ורך"
+        }
+      }
+    },
+    {
+      "card_id": "colors-shapes-10-purple-diamond",
+      "index": 10,
+      "title_he": "יהלום סגול",
+      "asset_path": "assets/season-1/cards-wave2-he/colors-shapes/10-purple-diamond.webp",
+      "facts_he": [
+        "צורת יהלום היא מעוין",
+        "סגול הוא צבע חזק ובולט",
+        "צורות עוזרות לבנות דגמים"
+      ],
+      "tags_he": [
+        "צורות",
+        "דגמים"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "יהלום סגול",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צורת יהלום היא מעוין"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי יהלום סגול?",
+          "options_he": [
+            "צורת יהלום היא מעוין",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צורת יהלום היא מעוין"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא יהלום סגול?",
+          "options_he": [
+            "יהלום סגול קשור לתג צורות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סגול הוא צבע חזק ובולט"
+        }
+      }
+    }
+  ]
+}

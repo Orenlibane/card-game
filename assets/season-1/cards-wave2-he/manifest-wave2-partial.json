@@ -1,0 +1,274 @@
+{
+  "season": 1,
+  "brand_he": "אוספים עובדות",
+  "generation_mode_he": "כל חבילה וכל קלף נוצרו כתמונה עצמאית אחת",
+  "source": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624",
+  "packs": [
+    {
+      "pack_id": "colors-shapes",
+      "title_he": "צבעים וצורות",
+      "png": "assets/season-1/packs-wave2-he/pack-colors-shapes.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-colors-shapes.webp"
+    },
+    {
+      "pack_id": "vehicles",
+      "title_he": "כלי תחבורה",
+      "png": "assets/season-1/packs-wave2-he/pack-vehicles.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-vehicles.webp"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "title_he": "פירות וירקות",
+      "png": "assets/season-1/packs-wave2-he/pack-fruits-veggies.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-fruits-veggies.webp"
+    },
+    {
+      "pack_id": "my-body",
+      "title_he": "הגוף שלי",
+      "png": "assets/season-1/packs-wave2-he/pack-my-body.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-my-body.webp"
+    }
+  ],
+  "cards": [
+    {
+      "pack_id": "colors-shapes",
+      "title_he": "עיגול אדום",
+      "png": "assets/season-1/cards-wave2-he/colors-shapes/01-red-circle.png",
+      "webp": "assets/season-1/cards-wave2-he/colors-shapes/01-red-circle.webp"
+    },
+    {
+      "pack_id": "colors-shapes",
+      "title_he": "ריבוע כחול",
+      "png": "assets/season-1/cards-wave2-he/colors-shapes/02-blue-square.png",
+      "webp": "assets/season-1/cards-wave2-he/colors-shapes/02-blue-square.webp"
+    },
+    {
+      "pack_id": "colors-shapes",
+      "title_he": "משולש צהוב",
+      "png": "assets/season-1/cards-wave2-he/colors-shapes/03-yellow-triangle.png",
+      "webp": "assets/season-1/cards-wave2-he/colors-shapes/03-yellow-triangle.webp"
+    },
+    {
+      "pack_id": "colors-shapes",
+      "title_he": "כוכב ירוק",
+      "png": "assets/season-1/cards-wave2-he/colors-shapes/04-green-star.png",
+      "webp": "assets/season-1/cards-wave2-he/colors-shapes/04-green-star.webp"
+    },
+    {
+      "pack_id": "colors-shapes",
+      "title_he": "לב ורוד",
+      "png": "assets/season-1/cards-wave2-he/colors-shapes/05-pink-heart.png",
+      "webp": "assets/season-1/cards-wave2-he/colors-shapes/05-pink-heart.webp"
+    },
+    {
+      "pack_id": "colors-shapes",
+      "title_he": "קשת צבעים",
+      "png": "assets/season-1/cards-wave2-he/colors-shapes/06-rainbow.png",
+      "webp": "assets/season-1/cards-wave2-he/colors-shapes/06-rainbow.webp"
+    },
+    {
+      "pack_id": "colors-shapes",
+      "title_he": "כדור כתום",
+      "png": "assets/season-1/cards-wave2-he/colors-shapes/07-orange-ball.png",
+      "webp": "assets/season-1/cards-wave2-he/colors-shapes/07-orange-ball.webp"
+    },
+    {
+      "pack_id": "colors-shapes",
+      "title_he": "ירח כסוף",
+      "png": "assets/season-1/cards-wave2-he/colors-shapes/08-silver-moon.png",
+      "webp": "assets/season-1/cards-wave2-he/colors-shapes/08-silver-moon.webp"
+    },
+    {
+      "pack_id": "colors-shapes",
+      "title_he": "ענן לבן",
+      "png": "assets/season-1/cards-wave2-he/colors-shapes/09-white-cloud.png",
+      "webp": "assets/season-1/cards-wave2-he/colors-shapes/09-white-cloud.webp"
+    },
+    {
+      "pack_id": "colors-shapes",
+      "title_he": "יהלום סגול",
+      "png": "assets/season-1/cards-wave2-he/colors-shapes/10-purple-diamond.png",
+      "webp": "assets/season-1/cards-wave2-he/colors-shapes/10-purple-diamond.webp"
+    },
+    {
+      "pack_id": "vehicles",
+      "title_he": "אוטובוס",
+      "png": "assets/season-1/cards-wave2-he/vehicles/01-bus.png",
+      "webp": "assets/season-1/cards-wave2-he/vehicles/01-bus.webp"
+    },
+    {
+      "pack_id": "vehicles",
+      "title_he": "רכבת",
+      "png": "assets/season-1/cards-wave2-he/vehicles/02-train.png",
+      "webp": "assets/season-1/cards-wave2-he/vehicles/02-train.webp"
+    },
+    {
+      "pack_id": "vehicles",
+      "title_he": "מטוס",
+      "png": "assets/season-1/cards-wave2-he/vehicles/03-airplane.png",
+      "webp": "assets/season-1/cards-wave2-he/vehicles/03-airplane.webp"
+    },
+    {
+      "pack_id": "vehicles",
+      "title_he": "סירה",
+      "png": "assets/season-1/cards-wave2-he/vehicles/04-boat.png",
+      "webp": "assets/season-1/cards-wave2-he/vehicles/04-boat.webp"
+    },
+    {
+      "pack_id": "vehicles",
+      "title_he": "אופניים",
+      "png": "assets/season-1/cards-wave2-he/vehicles/05-bicycle.png",
+      "webp": "assets/season-1/cards-wave2-he/vehicles/05-bicycle.webp"
+    },
+    {
+      "pack_id": "vehicles",
+      "title_he": "טרקטור",
+      "png": "assets/season-1/cards-wave2-he/vehicles/06-tractor.png",
+      "webp": "assets/season-1/cards-wave2-he/vehicles/06-tractor.webp"
+    },
+    {
+      "pack_id": "vehicles",
+      "title_he": "כבאית",
+      "png": "assets/season-1/cards-wave2-he/vehicles/07-firetruck.png",
+      "webp": "assets/season-1/cards-wave2-he/vehicles/07-firetruck.webp"
+    },
+    {
+      "pack_id": "vehicles",
+      "title_he": "אמבולנס",
+      "png": "assets/season-1/cards-wave2-he/vehicles/08-ambulance.png",
+      "webp": "assets/season-1/cards-wave2-he/vehicles/08-ambulance.webp"
+    },
+    {
+      "pack_id": "vehicles",
+      "title_he": "חללית",
+      "png": "assets/season-1/cards-wave2-he/vehicles/09-spaceship.png",
+      "webp": "assets/season-1/cards-wave2-he/vehicles/09-spaceship.webp"
+    },
+    {
+      "pack_id": "vehicles",
+      "title_he": "רכבל",
+      "png": "assets/season-1/cards-wave2-he/vehicles/10-cable-car.png",
+      "webp": "assets/season-1/cards-wave2-he/vehicles/10-cable-car.webp"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "title_he": "תפוח",
+      "png": "assets/season-1/cards-wave2-he/fruits-veggies/01-apple.png",
+      "webp": "assets/season-1/cards-wave2-he/fruits-veggies/01-apple.webp"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "title_he": "בננה",
+      "png": "assets/season-1/cards-wave2-he/fruits-veggies/02-banana.png",
+      "webp": "assets/season-1/cards-wave2-he/fruits-veggies/02-banana.webp"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "title_he": "תות",
+      "png": "assets/season-1/cards-wave2-he/fruits-veggies/03-strawberry.png",
+      "webp": "assets/season-1/cards-wave2-he/fruits-veggies/03-strawberry.webp"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "title_he": "אבטיח",
+      "png": "assets/season-1/cards-wave2-he/fruits-veggies/04-watermelon.png",
+      "webp": "assets/season-1/cards-wave2-he/fruits-veggies/04-watermelon.webp"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "title_he": "גזר",
+      "png": "assets/season-1/cards-wave2-he/fruits-veggies/05-carrot.png",
+      "webp": "assets/season-1/cards-wave2-he/fruits-veggies/05-carrot.webp"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "title_he": "עגבנייה",
+      "png": "assets/season-1/cards-wave2-he/fruits-veggies/06-tomato.png",
+      "webp": "assets/season-1/cards-wave2-he/fruits-veggies/06-tomato.webp"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "title_he": "מלפפון",
+      "png": "assets/season-1/cards-wave2-he/fruits-veggies/07-cucumber.png",
+      "webp": "assets/season-1/cards-wave2-he/fruits-veggies/07-cucumber.webp"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "title_he": "ענבים",
+      "png": "assets/season-1/cards-wave2-he/fruits-veggies/08-grapes.png",
+      "webp": "assets/season-1/cards-wave2-he/fruits-veggies/08-grapes.webp"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "title_he": "תפוז",
+      "png": "assets/season-1/cards-wave2-he/fruits-veggies/09-orange.png",
+      "webp": "assets/season-1/cards-wave2-he/fruits-veggies/09-orange.webp"
+    },
+    {
+      "pack_id": "fruits-veggies",
+      "title_he": "תירס",
+      "png": "assets/season-1/cards-wave2-he/fruits-veggies/10-corn.png",
+      "webp": "assets/season-1/cards-wave2-he/fruits-veggies/10-corn.webp"
+    },
+    {
+      "pack_id": "my-body",
+      "title_he": "עיניים",
+      "png": "assets/season-1/cards-wave2-he/my-body/01-eyes.png",
+      "webp": "assets/season-1/cards-wave2-he/my-body/01-eyes.webp"
+    },
+    {
+      "pack_id": "my-body",
+      "title_he": "אוזניים",
+      "png": "assets/season-1/cards-wave2-he/my-body/02-ears.png",
+      "webp": "assets/season-1/cards-wave2-he/my-body/02-ears.webp"
+    },
+    {
+      "pack_id": "my-body",
+      "title_he": "אף",
+      "png": "assets/season-1/cards-wave2-he/my-body/03-nose.png",
+      "webp": "assets/season-1/cards-wave2-he/my-body/03-nose.webp"
+    },
+    {
+      "pack_id": "my-body",
+      "title_he": "פה",
+      "png": "assets/season-1/cards-wave2-he/my-body/04-mouth.png",
+      "webp": "assets/season-1/cards-wave2-he/my-body/04-mouth.webp"
+    },
+    {
+      "pack_id": "my-body",
+      "title_he": "ידיים",
+      "png": "assets/season-1/cards-wave2-he/my-body/05-hands.png",
+      "webp": "assets/season-1/cards-wave2-he/my-body/05-hands.webp"
+    },
+    {
+      "pack_id": "my-body",
+      "title_he": "רגליים",
+      "png": "assets/season-1/cards-wave2-he/my-body/06-legs.png",
+      "webp": "assets/season-1/cards-wave2-he/my-body/06-legs.webp"
+    },
+    {
+      "pack_id": "my-body",
+      "title_he": "לב",
+      "png": "assets/season-1/cards-wave2-he/my-body/07-heart.png",
+      "webp": "assets/season-1/cards-wave2-he/my-body/07-heart.webp"
+    },
+    {
+      "pack_id": "my-body",
+      "title_he": "שיניים",
+      "png": "assets/season-1/cards-wave2-he/my-body/08-teeth.png",
+      "webp": "assets/season-1/cards-wave2-he/my-body/08-teeth.webp"
+    },
+    {
+      "pack_id": "my-body",
+      "title_he": "שיער",
+      "png": "assets/season-1/cards-wave2-he/my-body/09-hair.png",
+      "webp": "assets/season-1/cards-wave2-he/my-body/09-hair.webp"
+    },
+    {
+      "pack_id": "my-body",
+      "title_he": "בטן",
+      "png": "assets/season-1/cards-wave2-he/my-body/10-belly.png",
+      "webp": "assets/season-1/cards-wave2-he/my-body/10-belly.webp"
+    }
+  ]
+}

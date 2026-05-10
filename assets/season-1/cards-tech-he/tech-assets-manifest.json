@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "season": 1,
+  "status_he": "בתהליך",
+  "note_he": "נכסי טכנולוגיה שנוצרו בעזרת skill fact-collectors-card-pack-assets. כל תמונה נוצרה בנפרד.",
+  "packs": [
+    {
+      "kind": "pack",
+      "pack_id": "angular",
+      "output_path": "assets/season-1/packs-tech-he/pack-angular.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a00295d3bec8191b1d4571490235f40.png"
+    },
+    {
+      "kind": "pack",
+      "pack_id": "codex",
+      "output_path": "assets/season-1/packs-tech-he/pack-codex.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a002a2bdd148191be43fb01f2cd6394.png"
+    },
+    {
+      "kind": "pack",
+      "pack_id": "kiro",
+      "output_path": "assets/season-1/packs-tech-he/pack-kiro.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a002a9624ec819191350456aaf900e7.png"
+    }
+  ],
+  "cards": [
+    {
+      "kind": "card",
+      "pack_id": "angular",
+      "output_path": "assets/season-1/cards-tech-he/angular/01-components.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a002af975f4819182763cd5d0e1d9b6.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "angular",
+      "output_path": "assets/season-1/cards-tech-he/angular/02-templates.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a002b6215bc8191918af2743136b387.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "angular",
+      "output_path": "assets/season-1/cards-tech-he/angular/03-signals.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a002bd7d7f88191a3b8ad87f70e466b.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "angular",
+      "output_path": "assets/season-1/cards-tech-he/angular/04-dependency-injection.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a002cdf435481919b86b736e8e8d62a.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "angular",
+      "output_path": "assets/season-1/cards-tech-he/angular/05-services.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a002d4a34c48191bd73ce519b4de738.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "angular",
+      "output_path": "assets/season-1/cards-tech-he/angular/06-routing.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a002db6382c8191a0a22ffceb46ab98.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "angular",
+      "output_path": "assets/season-1/cards-tech-he/angular/07-forms.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a002f47e0a481918e25c306f9e8d5bc.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "angular",
+      "output_path": "assets/season-1/cards-tech-he/angular/08-http-client.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a002faf04688191be24b4abb3ccb388.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "angular",
+      "output_path": "assets/season-1/cards-tech-he/angular/09-cli.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a003014a70c8191be96a5b3dcabb37d.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "angular",
+      "output_path": "assets/season-1/cards-tech-he/angular/10-hydration.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a0031a64e50819183ca89235bdc795f.png"
+    }
+  ]
+}

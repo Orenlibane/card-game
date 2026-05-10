@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "dinosaurs",
+  "pack_title_he": "דינוזאורים",
+  "domain_he": "יצורים קדומים ומאובנים",
+  "age_group_he": "ילדים בינוניים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-dinosaurs.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "dinosaurs-01-tyrannosaurus",
+      "index": 1,
+      "title_he": "טירנוזאורוס",
+      "asset_path": "assets/season-1/cards-wave2-he/dinosaurs/01-tyrannosaurus.webp",
+      "facts_he": [
+        "טורף גדול מתקופת הקרטיקון",
+        "שיניים חזקות עזרו לו לאכול",
+        "מאובנים מלמדים על גודלו"
+      ],
+      "tags_he": [
+        "מאובנים",
+        "טורפים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "טירנוזאורוס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טורף גדול מתקופת הקרטיקון"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי טירנוזאורוס?",
+          "options_he": [
+            "טורף גדול מתקופת הקרטיקון",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טורף גדול מתקופת הקרטיקון"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא טירנוזאורוס?",
+          "options_he": [
+            "טירנוזאורוס קשור לתג מאובנים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שיניים חזקות עזרו לו לאכול"
+        }
+      }
+    },
+    {
+      "card_id": "dinosaurs-02-triceratops",
+      "index": 2,
+      "title_he": "טריצרטופס",
+      "asset_path": "assets/season-1/cards-wave2-he/dinosaurs/02-triceratops.webp",
+      "facts_he": [
+        "בעל שלוש קרניים",
+        "אכל צמחים",
+        "מגן ראש גדול שמר עליו"
+      ],
+      "tags_he": [
+        "צמחונים",
+        "קרניים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "טריצרטופס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בעל שלוש קרניים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי טריצרטופס?",
+          "options_he": [
+            "בעל שלוש קרניים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בעל שלוש קרניים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא טריצרטופס?",
+          "options_he": [
+            "טריצרטופס קשור לתג צמחונים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אכל צמחים"
+        }
+      }
+    },
+    {
+      "card_id": "dinosaurs-03-stegosaurus",
+      "index": 3,
+      "title_he": "סטגוזאורוס",
+      "asset_path": "assets/season-1/cards-wave2-he/dinosaurs/03-stegosaurus.webp",
+      "facts_he": [
+        "לוחות גדולים היו על גבו",
+        "זנב עם קוצים שימש להגנה",
+        "אכל צמחים נמוכים"
+      ],
+      "tags_he": [
+        "הגנה",
+        "צמחונים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "סטגוזאורוס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לוחות גדולים היו על גבו"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי סטגוזאורוס?",
+          "options_he": [
+            "לוחות גדולים היו על גבו",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לוחות גדולים היו על גבו"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא סטגוזאורוס?",
+          "options_he": [
+            "סטגוזאורוס קשור לתג הגנה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זנב עם קוצים שימש להגנה"
+        }
+      }
+    },
+    {
+      "card_id": "dinosaurs-04-velociraptor",
+      "index": 4,
+      "title_he": "ולוצירפטור",
+      "asset_path": "assets/season-1/cards-wave2-he/dinosaurs/04-velociraptor.webp",
+      "facts_he": [
+        "דינוזאור קטן ומהיר",
+        "היו לו נוצות לפי מחקרים",
+        "ציפורניים חדות עזרו בתנועה"
+      ],
+      "tags_he": [
+        "מהירות",
+        "נוצות"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ולוצירפטור",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דינוזאור קטן ומהיר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ולוצירפטור?",
+          "options_he": [
+            "דינוזאור קטן ומהיר",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דינוזאור קטן ומהיר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ולוצירפטור?",
+          "options_he": [
+            "ולוצירפטור קשור לתג מהירות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "היו לו נוצות לפי מחקרים"
+        }
+      }
+    },
+    {
+      "card_id": "dinosaurs-05-brachiosaurus",
+      "index": 5,
+      "title_he": "ברכיוזאורוס",
+      "asset_path": "assets/season-1/cards-wave2-he/dinosaurs/05-brachiosaurus.webp",
+      "facts_he": [
+        "צוואר ארוך הגיע לעצים גבוהים",
+        "היה דינוזאור ענק",
+        "אכל עלים וצמחים"
+      ],
+      "tags_he": [
+        "גובה",
+        "צמחונים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ברכיוזאורוס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צוואר ארוך הגיע לעצים גבוהים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ברכיוזאורוס?",
+          "options_he": [
+            "צוואר ארוך הגיע לעצים גבוהים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צוואר ארוך הגיע לעצים גבוהים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ברכיוזאורוס?",
+          "options_he": [
+            "ברכיוזאורוס קשור לתג גובה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "היה דינוזאור ענק"
+        }
+      }
+    },
+    {
+      "card_id": "dinosaurs-06-pteranodon",
+      "index": 6,
+      "title_he": "פטרנודון",
+      "asset_path": "assets/season-1/cards-wave2-he/dinosaurs/06-pteranodon.webp",
+      "facts_he": [
+        "זוחל מעופף קדום",
+        "כנפיים רחבות עזרו לדאות",
+        "לא היה דינוזאור אמיתי"
+      ],
+      "tags_he": [
+        "תעופה",
+        "קדומים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "פטרנודון",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זוחל מעופף קדום"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פטרנודון?",
+          "options_he": [
+            "זוחל מעופף קדום",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זוחל מעופף קדום"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא פטרנודון?",
+          "options_he": [
+            "פטרנודון קשור לתג תעופה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כנפיים רחבות עזרו לדאות"
+        }
+      }
+    },
+    {
+      "card_id": "dinosaurs-07-ankylosaurus",
+      "index": 7,
+      "title_he": "אנקילוזאורוס",
+      "asset_path": "assets/season-1/cards-wave2-he/dinosaurs/07-ankylosaurus.webp",
+      "facts_he": [
+        "גוף משוריין הגן עליו",
+        "זנב כבד דמה לאלה",
+        "אכל צמחים"
+      ],
+      "tags_he": [
+        "שריון",
+        "הגנה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אנקילוזאורוס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גוף משוריין הגן עליו"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אנקילוזאורוס?",
+          "options_he": [
+            "גוף משוריין הגן עליו",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גוף משוריין הגן עליו"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אנקילוזאורוס?",
+          "options_he": [
+            "אנקילוזאורוס קשור לתג שריון ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זנב כבד דמה לאלה"
+        }
+      }
+    },
+    {
+      "card_id": "dinosaurs-08-diplodocus",
+      "index": 8,
+      "title_he": "דיפלודוקוס",
+      "asset_path": "assets/season-1/cards-wave2-he/dinosaurs/08-diplodocus.webp",
+      "facts_he": [
+        "צוואר וזנב ארוכים מאוד",
+        "נע על ארבע רגליים",
+        "אכל צמחים בכמויות גדולות"
+      ],
+      "tags_he": [
+        "ענקים",
+        "צמחונים"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "דיפלודוקוס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צוואר וזנב ארוכים מאוד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי דיפלודוקוס?",
+          "options_he": [
+            "צוואר וזנב ארוכים מאוד",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צוואר וזנב ארוכים מאוד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא דיפלודוקוס?",
+          "options_he": [
+            "דיפלודוקוס קשור לתג ענקים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נע על ארבע רגליים"
+        }
+      }
+    },
+    {
+      "card_id": "dinosaurs-09-parasaurolophus",
+      "index": 9,
+      "title_he": "פרזאורולופוס",
+      "asset_path": "assets/season-1/cards-wave2-he/dinosaurs/09-parasaurolophus.webp",
+      "facts_he": [
+        "כרבולת ארוכה על הראש",
+        "ייתכן שהשמיע דרכה קולות",
+        "חי בעדרים"
+      ],
+      "tags_he": [
+        "קול",
+        "עדר"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "פרזאורולופוס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כרבולת ארוכה על הראש"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פרזאורולופוס?",
+          "options_he": [
+            "כרבולת ארוכה על הראש",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כרבולת ארוכה על הראש"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא פרזאורולופוס?",
+          "options_he": [
+            "פרזאורולופוס קשור לתג קול ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ייתכן שהשמיע דרכה קולות"
+        }
+      }
+    },
+    {
+      "card_id": "dinosaurs-10-fossil",
+      "index": 10,
+      "title_he": "מאובן",
+      "asset_path": "assets/season-1/cards-wave2-he/dinosaurs/10-fossil.webp",
+      "facts_he": [
+        "שומר עדות לחיים קדומים",
+        "נוצר בתוך סלעים לאורך זמן",
+        "עוזר למדענים להבין עבר"
+      ],
+      "tags_he": [
+        "מדע",
+        "עבר"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מאובן",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שומר עדות לחיים קדומים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מאובן?",
+          "options_he": [
+            "שומר עדות לחיים קדומים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שומר עדות לחיים קדומים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מאובן?",
+          "options_he": [
+            "מאובן קשור לתג מדע ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נוצר בתוך סלעים לאורך זמן"
+        }
+      }
+    }
+  ]
+}

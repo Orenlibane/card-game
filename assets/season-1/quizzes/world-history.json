@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "world-history",
+  "pack_title_he": "היסטוריה עולמית",
+  "domain_he": "תרבויות, רעיונות ושינויים",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-world-history.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "world-history-01-ancient-egypt",
+      "index": 1,
+      "title_he": "מצרים העתיקה",
+      "asset_path": "assets/season-1/cards-wave2-he/world-history/01-ancient-egypt.webp",
+      "facts_he": [
+        "נבנו בה פירמידות גדולות",
+        "הנילוס היה מקור חיים",
+        "כתב חרטומים שימש לתיעוד"
+      ],
+      "tags_he": [
+        "תרבות",
+        "נהר"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מצרים העתיקה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נבנו בה פירמידות גדולות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מצרים העתיקה?",
+          "options_he": [
+            "נבנו בה פירמידות גדולות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נבנו בה פירמידות גדולות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מצרים העתיקה?",
+          "options_he": [
+            "מצרים העתיקה קשור לתג תרבות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הנילוס היה מקור חיים"
+        }
+      }
+    },
+    {
+      "card_id": "world-history-02-ancient-greece",
+      "index": 2,
+      "title_he": "יוון העתיקה",
+      "asset_path": "assets/season-1/cards-wave2-he/world-history/02-ancient-greece.webp",
+      "facts_he": [
+        "השפיעה על פילוסופיה ומדע",
+        "ערי מדינה ניהלו חיים שונים",
+        "האולימפיאדה החלה שם"
+      ],
+      "tags_he": [
+        "רעיונות",
+        "ספורט"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "יוון העתיקה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "השפיעה על פילוסופיה ומדע"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי יוון העתיקה?",
+          "options_he": [
+            "השפיעה על פילוסופיה ומדע",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "השפיעה על פילוסופיה ומדע"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא יוון העתיקה?",
+          "options_he": [
+            "יוון העתיקה קשור לתג רעיונות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ערי מדינה ניהלו חיים שונים"
+        }
+      }
+    },
+    {
+      "card_id": "world-history-03-rome",
+      "index": 3,
+      "title_he": "רומא",
+      "asset_path": "assets/season-1/cards-wave2-he/world-history/03-rome.webp",
+      "facts_he": [
+        "בנתה דרכים ואמות מים",
+        "החוק הרומי השפיע על העולם",
+        "האימפריה שלטה באזורים רבים"
+      ],
+      "tags_he": [
+        "אימפריה",
+        "חוק"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "רומא",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בנתה דרכים ואמות מים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי רומא?",
+          "options_he": [
+            "בנתה דרכים ואמות מים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בנתה דרכים ואמות מים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא רומא?",
+          "options_he": [
+            "רומא קשור לתג אימפריה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "החוק הרומי השפיע על העולם"
+        }
+      }
+    },
+    {
+      "card_id": "world-history-04-middle-ages",
+      "index": 4,
+      "title_he": "ימי הביניים",
+      "asset_path": "assets/season-1/cards-wave2-he/world-history/04-middle-ages.webp",
+      "facts_he": [
+        "תקופה ארוכה בין עתיק לחדש",
+        "טירות וערים התפתחו",
+        "ידע נשמר במנזרים ובספרים"
+      ],
+      "tags_he": [
+        "תקופה",
+        "חברה"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ימי הביניים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תקופה ארוכה בין עתיק לחדש"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ימי הביניים?",
+          "options_he": [
+            "תקופה ארוכה בין עתיק לחדש",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תקופה ארוכה בין עתיק לחדש"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ימי הביניים?",
+          "options_he": [
+            "ימי הביניים קשור לתג תקופה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טירות וערים התפתחו"
+        }
+      }
+    },
+    {
+      "card_id": "world-history-05-silk-road",
+      "index": 5,
+      "title_he": "דרך המשי",
+      "asset_path": "assets/season-1/cards-wave2-he/world-history/05-silk-road.webp",
+      "facts_he": [
+        "רשת דרכי מסחר עתיקה",
+        "חיברה בין אסיה לאירופה",
+        "העבירה סחורות ורעיונות"
+      ],
+      "tags_he": [
+        "מסחר",
+        "תרבויות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "דרך המשי",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "רשת דרכי מסחר עתיקה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי דרך המשי?",
+          "options_he": [
+            "רשת דרכי מסחר עתיקה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "רשת דרכי מסחר עתיקה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא דרך המשי?",
+          "options_he": [
+            "דרך המשי קשור לתג מסחר ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חיברה בין אסיה לאירופה"
+        }
+      }
+    },
+    {
+      "card_id": "world-history-06-printing-revolution",
+      "index": 6,
+      "title_he": "מהפכת הדפוס",
+      "asset_path": "assets/season-1/cards-wave2-he/world-history/06-printing-revolution.webp",
+      "facts_he": [
+        "ספרים הופקו מהר וזול יותר",
+        "ידע הגיע לקהל רחב",
+        "שינתה חינוך ודת"
+      ],
+      "tags_he": [
+        "ידע",
+        "טכנולוגיה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מהפכת הדפוס",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ספרים הופקו מהר וזול יותר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מהפכת הדפוס?",
+          "options_he": [
+            "ספרים הופקו מהר וזול יותר",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ספרים הופקו מהר וזול יותר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מהפכת הדפוס?",
+          "options_he": [
+            "מהפכת הדפוס קשור לתג ידע ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ידע הגיע לקהל רחב"
+        }
+      }
+    },
+    {
+      "card_id": "world-history-07-america-discovery",
+      "index": 7,
+      "title_he": "גילוי אמריקה",
+      "asset_path": "assets/season-1/cards-wave2-he/world-history/07-america-discovery.webp",
+      "facts_he": [
+        "מפגש בין עולמות שונים",
+        "שינה מסחר ותרבויות",
+        "היו לו השפעות מורכבות"
+      ],
+      "tags_he": [
+        "מסעות",
+        "תרבויות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "גילוי אמריקה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפגש בין עולמות שונים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי גילוי אמריקה?",
+          "options_he": [
+            "מפגש בין עולמות שונים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפגש בין עולמות שונים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא גילוי אמריקה?",
+          "options_he": [
+            "גילוי אמריקה קשור לתג מסעות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שינה מסחר ותרבויות"
+        }
+      }
+    },
+    {
+      "card_id": "world-history-08-industrial-revolution",
+      "index": 8,
+      "title_he": "המהפכה התעשייתית",
+      "asset_path": "assets/season-1/cards-wave2-he/world-history/08-industrial-revolution.webp",
+      "facts_he": [
+        "מכונות שינו ייצור ועבודה",
+        "ערים גדלו במהירות",
+        "אנרגיית קיטור הייתה חשובה"
+      ],
+      "tags_he": [
+        "מכונות",
+        "ערים"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "המהפכה התעשייתית",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מכונות שינו ייצור ועבודה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי המהפכה התעשייתית?",
+          "options_he": [
+            "מכונות שינו ייצור ועבודה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מכונות שינו ייצור ועבודה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא המהפכה התעשייתית?",
+          "options_he": [
+            "המהפכה התעשייתית קשור לתג מכונות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ערים גדלו במהירות"
+        }
+      }
+    },
+    {
+      "card_id": "world-history-09-human-rights",
+      "index": 9,
+      "title_he": "זכויות אדם",
+      "asset_path": "assets/season-1/cards-wave2-he/world-history/09-human-rights.webp",
+      "facts_he": [
+        "רעיון שכל אדם זכאי לכבוד",
+        "חוקים מגינים על חירות ושוויון",
+        "מאבקים רבים קידמו זכויות"
+      ],
+      "tags_he": [
+        "חברה",
+        "חוק"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "זכויות אדם",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "רעיון שכל אדם זכאי לכבוד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי זכויות אדם?",
+          "options_he": [
+            "רעיון שכל אדם זכאי לכבוד",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "רעיון שכל אדם זכאי לכבוד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא זכויות אדם?",
+          "options_he": [
+            "זכויות אדם קשור לתג חברה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חוקים מגינים על חירות ושוויון"
+        }
+      }
+    },
+    {
+      "card_id": "world-history-10-computer-age",
+      "index": 10,
+      "title_he": "עידן המחשב",
+      "asset_path": "assets/season-1/cards-wave2-he/world-history/10-computer-age.webp",
+      "facts_he": [
+        "מחשבים שינו עבודה ולמידה",
+        "מידע עובר במהירות",
+        "האינטרנט חיבר אנשים ומערכות"
+      ],
+      "tags_he": [
+        "טכנולוגיה",
+        "מידע"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "עידן המחשב",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מחשבים שינו עבודה ולמידה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי עידן המחשב?",
+          "options_he": [
+            "מחשבים שינו עבודה ולמידה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מחשבים שינו עבודה ולמידה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא עידן המחשב?",
+          "options_he": [
+            "עידן המחשב קשור לתג טכנולוגיה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מידע עובר במהירות"
+        }
+      }
+    }
+  ]
+}

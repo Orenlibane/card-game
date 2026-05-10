@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>מפת פרויקט | card-learn</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172026;
+      --muted: #66717a;
+      --line: #dfe5e9;
+      --paper: #f8faf9;
+      --surface: #ffffff;
+      --soft: #eef4f1;
+      --accent: #247b6d;
+      --accent-2: #c85f3f;
+      --code: #26333c;
+      --shadow: 0 18px 60px rgba(23, 32, 38, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, "Noto Sans Hebrew", sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent);
+    }
+
+    .shell {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 44px 0 24px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #ffffff 0%, #f8faf9 100%);
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 6vw, 5.4rem);
+      line-height: 0.95;
+      letter-spacing: 0;
+    }
+
+    .intro {
+      max-width: 760px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .quick-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .quick-links a {
+      min-height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--surface);
+      font-weight: 700;
+      transition: transform 160ms ease, border-color 160ms ease, color 160ms ease;
+    }
+
+    .quick-links a:hover {
+      transform: translateY(-1px);
+      border-color: var(--accent);
+    }
+
+    main {
+      padding: 30px 0 56px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 30px;
+    }
+
+    .stat {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 2rem;
+      line-height: 1;
+    }
+
+    .stat span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+      gap: 22px;
+      align-items: start;
+    }
+
+    .layout > *,
+    .panel,
+    .item,
+    details,
+    figure {
+      min-width: 0;
+    }
+
+    section {
+      margin-bottom: 24px;
+      padding-top: 4px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.45rem;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfc;
+    }
+
+    .panel-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .tree {
+      direction: ltr;
+      text-align: left;
+      max-width: 100%;
+      margin: 0;
+      padding: 20px;
+      overflow-x: auto;
+      background: #1f2a31;
+      color: #e7f0ec;
+      font: 0.94rem/1.72 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    .folder-grid,
+    .file-grid,
+    .pack-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .item,
+    details {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .item {
+      padding: 16px;
+    }
+
+    .item p,
+    details p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .path {
+      direction: ltr;
+      unicode-bidi: plaintext;
+      display: inline-block;
+      margin-top: 10px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      background: var(--soft);
+      color: var(--code);
+      font: 0.84rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    details {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 14px 16px;
+      font-weight: 800;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::before {
+      content: "+";
+      display: inline-grid;
+      place-items: center;
+      width: 22px;
+      height: 22px;
+      margin-left: 9px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      color: var(--accent);
+      font-weight: 800;
+    }
+
+    details[open] summary::before {
+      content: "-";
+    }
+
+    .detail-body {
+      padding: 0 16px 16px;
+    }
+
+    .flow {
+      display: grid;
+      gap: 10px;
+    }
+
+    .flow-row {
+      display: grid;
+      grid-template-columns: 150px minmax(0, 1fr);
+      gap: 12px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .flow-row:last-child {
+      border-bottom: 0;
+    }
+
+    .flow-row strong {
+      color: var(--accent);
+    }
+
+    .preview-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .mermaid-wrap {
+      direction: ltr;
+      padding: 18px;
+      overflow-x: auto;
+      background: #ffffff;
+    }
+
+    .mermaid {
+      min-width: 780px;
+    }
+
+    .finding-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .finding {
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .finding strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--accent);
+      font-size: 1.1rem;
+    }
+
+    .finding.warn strong {
+      color: var(--accent-2);
+    }
+
+    .finding p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .mini-list {
+      margin: 10px 0 0;
+      padding: 0;
+      list-style: none;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .mini-list li + li {
+      margin-top: 6px;
+    }
+
+    figure {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--surface);
+    }
+
+    figure img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      background: #edf2f0;
+    }
+
+    figcaption {
+      padding: 10px 12px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .note {
+      padding: 16px 18px;
+      border-inline-start: 4px solid var(--accent-2);
+      background: #fff9f6;
+      color: #6f4030;
+    }
+
+    .note p {
+      margin: 0;
+    }
+
+    @media (max-width: 860px) {
+      header {
+        padding-top: 30px;
+      }
+
+      .stats,
+      .layout,
+      .folder-grid,
+      .file-grid,
+      .pack-grid,
+      .finding-grid,
+      .preview-strip {
+        grid-template-columns: 1fr;
+      }
+
+      .flow-row {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="shell">
+      <p class="eyebrow">card-learn / מפת תיקיות</p>
+      <h1>איפה נמצא כל דבר בפרויקט</h1>
+      <p class="intro">
+        עמוד ניווט קצר לפרויקט "אוספים עובדות": קבצי תצוגה, נכסי קלפים, חידונים, סקריפטים, תוצרים זמניים ותיקיות עבודה.
+      </p>
+      <nav class="quick-links" aria-label="קישורים מהירים">
+        <a href="spec.html">spec.html</a>
+        <a href="binder-demo.html">binder-demo.html</a>
+        <a href="quiz-preview.html">quiz-preview.html</a>
+        <a href="assets/season-1/quizzes/index.json">quizzes/index.json</a>
+        <a href="assets/season-1/cards-native-he/manifest.json">cards manifest</a>
+        <a href="#mermaid-title">Mermaid</a>
+        <a href="#duplicates-title">כפילויות</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell">
+    <div class="stats" aria-label="סיכום מהיר">
+      <div class="stat">
+        <strong>392</strong>
+        <span>קבצי פרויקט בלי tmp</span>
+      </div>
+      <div class="stat">
+        <strong>316</strong>
+        <span>תמונות בתוך assets</span>
+      </div>
+      <div class="stat">
+        <strong>0</strong>
+        <span>כפילויות זהות לפי hash</span>
+      </div>
+      <div class="stat">
+        <strong>120</strong>
+        <span>זוגות PNG/WEBP מקבילים</span>
+      </div>
+    </div>
+
+    <div class="layout">
+      <div>
+        <section aria-labelledby="tree-title">
+          <div class="panel">
+            <div class="panel-head">
+              <div>
+                <h2 id="tree-title">עץ הפרויקט</h2>
+                <p>מבט מקוצר שמציג את הקבצים והתיקיות החשובים.</p>
+              </div>
+            </div>
+            <pre class="tree">card-learn/
+├─ SPEC.md                         project spec in Markdown
+├─ spec.html                       גרסת HTML של הספציפיקציה
+├─ binder-demo.html                דמו האלבום / הקלסר
+├─ quiz-preview.html               תצוגת חידונים וקלפים נעולים
+├─ project-structure.html          העמוד הזה
+├─ assets/
+│  ├─ concepts/                    תמונות קונספט ראשוניות
+│  ├─ visual/                      גב קלף, קונספט ויזואלי ומניפסט
+│  └─ season-1/
+│     ├─ content-plan.md           תוכנית תוכן לעונה 1
+│     ├─ season-1-card-design.md   הנחיות עיצוב קלפים
+│     ├─ quizzes/                  שאלוני JSON לפי חבילה
+│     ├─ prompts/                  פרומפטים ליצירת נכסים
+│     ├─ prompts-tech-he/          פרומפטים לחבילות טכנולוגיות
+│     ├─ cards-native-he/          קלפים סופיים בעברית
+│     ├─ cards-generated-he/       גרסאות קלפים שנוצרו קודם
+│     ├─ cards-wave2-he/           גל שני של קלפים וחבילות
+│     │  ├─ ai/                    קלפי AI
+│     │  ├─ minecraft/             קלפי Minecraft
+│     │  └─ ai-sources/            מקורות PNG לצבעים וצורות
+│     ├─ packs-native-he/          תמונות חבילה לגל המקורי
+│     ├─ packs-wave2-he/           תמונות חבילה לגל השני
+│     ├─ skill-tests/              בדיקות נכסים נקודתיות
+│     └─ finalized/                JSON סגור / מאושר
+├─ scripts/                        סקריפטים לנתונים ולרינדור תמונות
+├─ output/                         צילומי מסך ותוצרים לבדיקה
+└─ tmp/                            קבצי עבודה זמניים וסביבות עזר</pre>
+          </div>
+        </section>
+
+        <section aria-labelledby="mermaid-title">
+          <div class="panel">
+            <div class="panel-head">
+              <div>
+                <h2 id="mermaid-title">תרשים Mermaid</h2>
+                <p>קשר בין שכבות הפרויקט: תכנון, נתונים, נכסים, תצוגות ותוצרים.</p>
+              </div>
+            </div>
+            <div class="mermaid-wrap">
+              <pre class="mermaid">
+flowchart TD
+  root["card-learn"]
+  docs["אפיון ותכנון<br/>SPEC.md<br/>content-plan.md<br/>season-1-card-design.md"]
+  views["מסכי HTML<br/>spec.html<br/>binder-demo.html<br/>quiz-preview.html<br/>project-structure.html"]
+  assets["assets"]
+  season["season-1"]
+  visual["visual<br/>גב קלף וקונספט"]
+  concepts["concepts<br/>קונספטים ראשוניים"]
+  quizzes["quizzes<br/>22 קבצים, index לא כולל הכל"]
+  prompts["prompts<br/>פרומפטים לגלים קיימים"]
+  promptsTech["prompts-tech-he<br/>Angular / Codex / Kiro"]
+  native["cards-native-he<br/>30 קלפים סופיים"]
+  generated["cards-generated-he<br/>30 קלפים מוקדמים PNG+WEBP"]
+  wave2["cards-wave2-he<br/>גל שני והרחבות"]
+  ai["ai<br/>10 קלפים"]
+  minecraft["minecraft<br/>10 קלפים"]
+  aiSources["ai-sources<br/>מקורות PNG"]
+  packsNative["packs-native-he"]
+  packsWave2["packs-wave2-he"]
+  finalized["finalized"]
+  scripts["scripts<br/>יצירת JSON, רינדור ופיצול"]
+  output["output<br/>צילומי בדיקה"]
+  tmp["tmp<br/>זמני, לא חלק מהמבנה הנקי"]
+
+  root --> docs
+  root --> views
+  root --> assets
+  root --> scripts
+  root --> output
+  root -. לא למפה נקייה .-> tmp
+  assets --> concepts
+  assets --> visual
+  assets --> season
+  season --> quizzes
+  season --> prompts
+  season --> promptsTech
+  season --> native
+  season --> generated
+  season --> wave2
+  season --> packsNative
+  season --> packsWave2
+  season --> finalized
+  wave2 --> ai
+  wave2 --> minecraft
+  wave2 --> aiSources
+  scripts --> quizzes
+  scripts --> native
+  scripts --> wave2
+  quizzes --> views
+  native --> views
+  wave2 --> views
+              </pre>
+            </div>
+          </div>
+        </section>
+
+        <section aria-labelledby="folders-title">
+          <h2 id="folders-title">תיקיות מרכזיות</h2>
+          <div class="folder-grid">
+            <a class="item" href="assets/season-1/quizzes/index.json">
+              <h3>חידונים</h3>
+              <p>22 קבצי JSON/JS שמגדירים שאלות, תשובות ונתיבי חבילות. חלקם עדיין לא מחוברים ל־index.</p>
+              <span class="path">assets/season-1/quizzes/</span>
+            </a>
+            <a class="item" href="assets/season-1/cards-native-he/manifest.json">
+              <h3>קלפים סופיים</h3>
+              <p>קלפי עברית מוכנים, מחולקים לפי חבילות כמו חיות, קריסטלים וביטחון.</p>
+              <span class="path">assets/season-1/cards-native-he/</span>
+            </a>
+            <a class="item" href="assets/season-1/cards-wave2-he/manifest-wave2-partial.json">
+              <h3>גל שני</h3>
+              <p>קלפים וחבילות בנושאי צבעים, צורות, כלי תחבורה, פירות וירקות והגוף שלי.</p>
+              <span class="path">assets/season-1/cards-wave2-he/</span>
+            </a>
+            <a class="item" href="assets/season-1/prompts/native-hebrew-individual-prompts.json">
+              <h3>פרומפטים</h3>
+              <p>מקורות טקסטואליים ליצירת התמונות והקלפים.</p>
+              <span class="path">assets/season-1/prompts/</span>
+            </a>
+            <a class="item" href="assets/season-1/prompts-tech-he/codex-prompts.json">
+              <h3>פרומפטים טכנולוגיים</h3>
+              <p>חבילות Angular, Codex ו־Kiro. הנתיבים מצביעים ל־cards-tech-he שעדיין לא קיים בפועל.</p>
+              <span class="path">assets/season-1/prompts-tech-he/</span>
+            </a>
+            <a class="item" href="assets/visual/manifest.json">
+              <h3>שפה ויזואלית</h3>
+              <p>גב קלף, קונספט מלא ומניפסט ויזואלי.</p>
+              <span class="path">assets/visual/</span>
+            </a>
+            <div class="item">
+              <h3>תוצרים ובדיקות</h3>
+              <p>צילומי מסך מהדמו ומפלטים של יצירת תמונות.</p>
+              <span class="path">output/</span>
+            </div>
+          </div>
+        </section>
+
+        <section aria-labelledby="flow-title">
+          <h2 id="flow-title">זרימת העבודה</h2>
+          <div class="panel">
+            <div class="flow" role="list">
+              <div class="flow-row" role="listitem">
+                <strong>תכנון</strong>
+                <span><a href="SPEC.md">SPEC.md</a>, <a href="assets/season-1/content-plan.md">content-plan.md</a>, <a href="assets/season-1/season-1-card-design.md">season-1-card-design.md</a></span>
+              </div>
+              <div class="flow-row" role="listitem">
+                <strong>יצירה</strong>
+                <span><a href="assets/season-1/prompts/native-hebrew-individual-prompts.json">prompts/</a> ואז סקריפטים מתוך <span class="path">scripts/</span></span>
+              </div>
+              <div class="flow-row" role="listitem">
+                <strong>נכסים</strong>
+                <span><a href="assets/season-1/cards-native-he/manifest.json">cards-native-he</a>, <a href="assets/season-1/cards-wave2-he/manifest-wave2-partial.json">cards-wave2-he</a>, <a href="assets/season-1/packs-wave2-he/pack-colors.webp">packs-wave2-he</a></span>
+              </div>
+              <div class="flow-row" role="listitem">
+                <strong>תוכן משחקי</strong>
+                <span><a href="assets/season-1/quizzes/index.json">quizzes/index.json</a> הוא אינדקס החבילות הפעילות, אבל לא כולל כרגע את כל קבצי החידון שבתיקייה.</span>
+              </div>
+              <div class="flow-row" role="listitem">
+                <strong>תצוגה</strong>
+                <span><a href="binder-demo.html">binder-demo.html</a> לאלבום, <a href="quiz-preview.html">quiz-preview.html</a> לחידונים, <a href="spec.html">spec.html</a> למסמך המוצר.</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section aria-labelledby="duplicates-title">
+          <h2 id="duplicates-title">כפילויות ואי־סדר שמצאתי</h2>
+          <div class="finding-grid">
+            <div class="finding">
+              <strong>אין כפילות בינארית אמיתית</strong>
+              <p>סריקה לפי SHA-256 על כל הקבצים, בלי <span class="path">tmp/</span>, מצאה 0 קבוצות של קבצים זהים לחלוטין.</p>
+            </div>
+            <div class="finding warn">
+              <strong>120 זוגות PNG/WEBP</strong>
+              <p>אלו כנראה לא כפילות בעייתית אלא שני פורמטים לאותו נכס. אם הדפדפן משתמש רק ב־WEBP, אפשר לשקול לארכב PNG.</p>
+              <ul class="mini-list">
+                <li><span class="path">cards-generated-he</span> — 30 זוגות</li>
+                <li><span class="path">cards-wave2-he</span> — 80 זוגות</li>
+                <li><span class="path">packs-wave2-he</span> — 8 זוגות</li>
+                <li><span class="path">skill-tests</span> ו־<span class="path">visual</span> — זוג אחד בכל תיקייה</li>
+              </ul>
+            </div>
+            <div class="finding warn">
+              <strong>30 כפילויות לוגיות: generated מול native</strong>
+              <p>לכל קלף בחיות, קריסטלים וביטחון יש גרסת <span class="path">cards-generated-he</span> וגם גרסה סופית ב־<span class="path">cards-native-he</span>. זה שימושי אם generated הוא ארכיון, אבל מבלבל אם אין כלל ברור.</p>
+            </div>
+            <div class="finding warn">
+              <strong>תיקיות ריקות</strong>
+              <p>נמצאו <span class="path">assets/season-1/cards-individual-he</span>, <span class="path">assets/season-1/concepts</span>, וגם <span class="path">output/imagegen/premium-examples</span> בלי קבצים.</p>
+            </div>
+            <div class="finding warn">
+              <strong>חידונים שלא מופיעים ב־index</strong>
+              <p>בתיקיית החידונים יש גם <span class="path">ai.json</span>, <span class="path">angular.json</span>, <span class="path">codex.json</span>, <span class="path">kiro.json</span>, <span class="path">minecraft.json</span>, אבל <span class="path">quizzes/index.json</span> לא מפרט אותם.</p>
+            </div>
+            <div class="finding warn">
+              <strong>נתיבי tech עתידיים</strong>
+              <p>קבצי <span class="path">prompts-tech-he</span> מצביעים ל־<span class="path">assets/season-1/cards-tech-he/</span>, אבל התיקייה הזאת עדיין לא קיימת. זה כנראה backlog, לא כפילות.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <aside>
+        <section aria-labelledby="files-title">
+          <h2 id="files-title">קבצי HTML בשורש</h2>
+          <div class="file-grid">
+            <a class="item" href="spec.html">
+              <h3>spec.html</h3>
+              <p>מסמך אפיון מעוצב לצפייה בדפדפן.</p>
+            </a>
+            <a class="item" href="binder-demo.html">
+              <h3>binder-demo.html</h3>
+              <p>דמו אינטראקטיבי של אלבום קלפים.</p>
+            </a>
+            <a class="item" href="quiz-preview.html">
+              <h3>quiz-preview.html</h3>
+              <p>תצוגת חבילות וחידונים.</p>
+            </a>
+            <a class="item" href="SPEC.md">
+              <h3>SPEC.md</h3>
+              <p>מקור האפיון ב־Markdown.</p>
+            </a>
+          </div>
+        </section>
+
+        <section aria-labelledby="assets-title">
+          <h2 id="assets-title">פירוט נכסים</h2>
+          <div class="pack-grid">
+            <details open>
+              <summary>cards-native-he</summary>
+              <div class="detail-body">
+                <p>גל הקלפים המקורי בעברית: חיות, קריסטלים, ביטחון והצלה, כולל contact sheets ומניפסט.</p>
+                <span class="path">assets/season-1/cards-native-he/</span>
+              </div>
+            </details>
+            <details open>
+              <summary>cards-wave2-he</summary>
+              <div class="detail-body">
+                <p>גל שני והרחבות: צבעים, צורות, צבעים וצורות, כלי תחבורה, פירות וירקות, הגוף שלי, AI ו־Minecraft.</p>
+                <span class="path">assets/season-1/cards-wave2-he/</span>
+              </div>
+            </details>
+            <details>
+              <summary>prompts-tech-he</summary>
+              <div class="detail-body">
+                <p>פרומפטים לחבילות טכנולוגיות. כרגע הם מצביעים לנכסי <span class="path">cards-tech-he</span> שלא קיימים בתיקייה.</p>
+                <span class="path">assets/season-1/prompts-tech-he/</span>
+              </div>
+            </details>
+            <details>
+              <summary>skill-tests</summary>
+              <div class="detail-body">
+                <p>בדיקת נכס נקודתית ל־vehicles bus, כולל PNG מקור, PNG תוצר, WEBP ומניפסט.</p>
+                <span class="path">assets/season-1/skill-tests/</span>
+              </div>
+            </details>
+            <details>
+              <summary>packs-native-he</summary>
+              <div class="detail-body">
+                <p>תמונות חבילה לסטים המקוריים ותמונת אישור.</p>
+                <span class="path">assets/season-1/packs-native-he/</span>
+              </div>
+            </details>
+            <details>
+              <summary>packs-wave2-he</summary>
+              <div class="detail-body">
+                <p>תמונות חבילה לגל השני, כולל דף קשר של 4 חבילות.</p>
+                <span class="path">assets/season-1/packs-wave2-he/</span>
+              </div>
+            </details>
+            <details>
+              <summary>cards-generated-he</summary>
+              <div class="detail-body">
+                <p>גרסאות תמונה מוקדמות, לרוב PNG ו־WEBP יחד.</p>
+                <span class="path">assets/season-1/cards-generated-he/</span>
+              </div>
+            </details>
+            <details>
+              <summary>finalized</summary>
+              <div class="detail-body">
+                <p>נתונים שסומנו כסגורים, למשל <span class="path">colors-shapes-closed.json</span>.</p>
+                <span class="path">assets/season-1/finalized/</span>
+              </div>
+            </details>
+          </div>
+        </section>
+
+        <section aria-labelledby="preview-title">
+          <h2 id="preview-title">דוגמאות מהנכסים</h2>
+          <div class="preview-strip">
+            <figure>
+              <img src="assets/season-1/cards-native-he/all-30-contact-sheet.webp" alt="דף קשר של 30 קלפים מקוריים">
+              <figcaption>30 קלפים מקוריים</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/season-1/cards-wave2-he/wave2-40-cards-contact-sheet.webp" alt="דף קשר של גל שני">
+              <figcaption>40 קלפים בגל השני</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/visual/season-1-card-back.webp" alt="גב קלף עונה 1">
+              <figcaption>גב קלף</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section aria-labelledby="scripts-title">
+          <h2 id="scripts-title">סקריפטים</h2>
+          <div class="panel">
+            <div class="flow">
+              <div class="flow-row">
+                <strong>נתוני חידון</strong>
+                <span class="path">scripts/generate-season-1-quiz-data.mjs</span>
+              </div>
+              <div class="flow-row">
+                <strong>גל שני</strong>
+                <span class="path">scripts/generate-season-1-wave2-data.mjs</span>
+              </div>
+              <div class="flow-row">
+                <strong>רינדור נכסים</strong>
+                <span class="path">scripts/render-premium-colors-shapes-assets.py</span>
+              </div>
+              <div class="flow-row">
+                <strong>פיצול וסגירה</strong>
+                <span class="path">scripts/split-colors-shapes-pack.mjs</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="note">
+            <p><strong>הערה:</strong> תיקיית <span class="path">tmp/</span> כוללת סביבת עבודה זמנית וקבצי עזר. היא קיימת בפרויקט כרגע, אבל היא לא חלק ממבנה התוכן המרכזי.</p>
+          </div>
+        </section>
+      </aside>
+    </div>
+  </main>
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: "base",
+      themeVariables: {
+        fontFamily: "Arial, sans-serif",
+        primaryColor: "#eef4f1",
+        primaryTextColor: "#172026",
+        primaryBorderColor: "#247b6d",
+        lineColor: "#66717a",
+        secondaryColor: "#fff9f6",
+        tertiaryColor: "#ffffff"
+      }
+    });
+  </script>
+</body>
+</html>

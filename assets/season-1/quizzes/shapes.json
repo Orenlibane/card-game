@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "shapes",
+  "pack_title_he": "צורות",
+  "domain_he": "זיהוי צורות, פינות, קווים ודגמים",
+  "age_group_he": "ילדים קטנים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-shapes.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "shapes-01-circle",
+      "index": 1,
+      "title_he": "עיגול",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/01-circle.webp",
+      "facts_he": [
+        "לעיגול אין פינות",
+        "עיגול יכול להתגלגל בקלות",
+        "גלגל, כדור וצלחת דומים לעיגול"
+      ],
+      "tags_he": [
+        "צורות",
+        "עגול"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "עיגול",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לעיגול אין פינות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי עיגול?",
+          "options_he": [
+            "לעיגול אין פינות",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לעיגול אין פינות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא עיגול?",
+          "options_he": [
+            "עיגול קשור לתג צורות וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עיגול יכול להתגלגל בקלות"
+        }
+      }
+    },
+    {
+      "card_id": "shapes-02-square",
+      "index": 2,
+      "title_he": "ריבוע",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/02-square.webp",
+      "facts_he": [
+        "לריבוע ארבע צלעות שוות",
+        "לריבוע יש ארבע פינות",
+        "אריחים וחלונות יכולים להיות ריבועים"
+      ],
+      "tags_he": [
+        "צורות",
+        "פינות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ריבוע",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לריבוע ארבע צלעות שוות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ריבוע?",
+          "options_he": [
+            "לריבוע ארבע צלעות שוות",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לריבוע ארבע צלעות שוות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ריבוע?",
+          "options_he": [
+            "ריבוע קשור לתג צורות וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לריבוע יש ארבע פינות"
+        }
+      }
+    },
+    {
+      "card_id": "shapes-03-triangle",
+      "index": 3,
+      "title_he": "משולש",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/03-triangle.webp",
+      "facts_he": [
+        "למשולש שלוש צלעות",
+        "למשולש יש שלוש פינות",
+        "משולשים מופיעים בתמרורים ובגגות"
+      ],
+      "tags_he": [
+        "צורות",
+        "זיהוי"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "משולש",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "למשולש שלוש צלעות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי משולש?",
+          "options_he": [
+            "למשולש שלוש צלעות",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "למשולש שלוש צלעות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא משולש?",
+          "options_he": [
+            "משולש קשור לתג צורות וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "למשולש יש שלוש פינות"
+        }
+      }
+    },
+    {
+      "card_id": "shapes-04-rectangle",
+      "index": 4,
+      "title_he": "מלבן",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/04-rectangle.webp",
+      "facts_he": [
+        "למלבן ארבע צלעות",
+        "שתי צלעות ארוכות ושתי צלעות קצרות",
+        "דלת, ספר ומסך יכולים להיות מלבנים"
+      ],
+      "tags_he": [
+        "צורות",
+        "אורך"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מלבן",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "למלבן ארבע צלעות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מלבן?",
+          "options_he": [
+            "למלבן ארבע צלעות",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "למלבן ארבע צלעות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מלבן?",
+          "options_he": [
+            "מלבן קשור לתג צורות וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שתי צלעות ארוכות ושתי צלעות קצרות"
+        }
+      }
+    },
+    {
+      "card_id": "shapes-05-star",
+      "index": 5,
+      "title_he": "כוכב",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/05-star.webp",
+      "facts_he": [
+        "כוכב מצויר עם קודקודים",
+        "כוכב משמש כסמל להצלחה",
+        "דפוס כוכבים קל לזהות בתמונה"
+      ],
+      "tags_he": [
+        "צורות",
+        "סמלים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "כוכב",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכב מצויר עם קודקודים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי כוכב?",
+          "options_he": [
+            "כוכב מצויר עם קודקודים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכב מצויר עם קודקודים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא כוכב?",
+          "options_he": [
+            "כוכב קשור לתג צורות וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכב משמש כסמל להצלחה"
+        }
+      }
+    },
+    {
+      "card_id": "shapes-06-heart",
+      "index": 6,
+      "title_he": "לב",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/06-heart.webp",
+      "facts_he": [
+        "צורת לב מסמלת אהבה וחברות",
+        "לב מצויר אינו נראה כמו לב אמיתי",
+        "סמלים עוזרים להעביר רעיון"
+      ],
+      "tags_he": [
+        "צורות",
+        "סמלים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "לב",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צורת לב מסמלת אהבה וחברות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי לב?",
+          "options_he": [
+            "צורת לב מסמלת אהבה וחברות",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צורת לב מסמלת אהבה וחברות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא לב?",
+          "options_he": [
+            "לב קשור לתג צורות וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לב מצויר אינו נראה כמו לב אמיתי"
+        }
+      }
+    },
+    {
+      "card_id": "shapes-07-diamond",
+      "index": 7,
+      "title_he": "מעוין",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/07-diamond.webp",
+      "facts_he": [
+        "מעוין נראה כמו יהלום מצויר",
+        "למעוין ארבע צלעות",
+        "אפשר למצוא מעוין בדוגמאות וקישוטים"
+      ],
+      "tags_he": [
+        "צורות",
+        "דגמים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מעוין",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מעוין נראה כמו יהלום מצויר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מעוין?",
+          "options_he": [
+            "מעוין נראה כמו יהלום מצויר",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מעוין נראה כמו יהלום מצויר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מעוין?",
+          "options_he": [
+            "מעוין קשור לתג צורות וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "למעוין ארבע צלעות"
+        }
+      }
+    },
+    {
+      "card_id": "shapes-08-oval",
+      "index": 8,
+      "title_he": "אליפסה",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/08-oval.webp",
+      "facts_he": [
+        "אליפסה דומה לעיגול מתוח",
+        "ביצה ומראה יכולות להיראות כמו אליפסה",
+        "לאליפסה אין פינות"
+      ],
+      "tags_he": [
+        "צורות",
+        "עגול"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אליפסה",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אליפסה דומה לעיגול מתוח"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אליפסה?",
+          "options_he": [
+            "אליפסה דומה לעיגול מתוח",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אליפסה דומה לעיגול מתוח"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אליפסה?",
+          "options_he": [
+            "אליפסה קשור לתג צורות וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ביצה ומראה יכולות להיראות כמו אליפסה"
+        }
+      }
+    },
+    {
+      "card_id": "shapes-09-hexagon",
+      "index": 9,
+      "title_he": "משושה",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/09-hexagon.webp",
+      "facts_he": [
+        "למשושה שש צלעות",
+        "תאי כוורת נראים כמו משושים",
+        "משושים מתחברים יפה זה לזה"
+      ],
+      "tags_he": [
+        "צורות",
+        "דפוסים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "משושה",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "למשושה שש צלעות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי משושה?",
+          "options_he": [
+            "למשושה שש צלעות",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "למשושה שש צלעות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא משושה?",
+          "options_he": [
+            "משושה קשור לתג צורות וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תאי כוורת נראים כמו משושים"
+        }
+      }
+    },
+    {
+      "card_id": "shapes-10-spiral",
+      "index": 10,
+      "title_he": "ספירלה",
+      "asset_path": "assets/season-1/cards-wave2-he/shapes/10-spiral.webp",
+      "facts_he": [
+        "ספירלה מסתובבת סביב המרכז",
+        "אפשר לראות ספירלות בקונכיות ובציורים",
+        "ספירלה יוצרת תחושת תנועה"
+      ],
+      "tags_he": [
+        "צורות",
+        "תנועה"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ספירלה",
+            "כוכב",
+            "אוטובוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ספירלה מסתובבת סביב המרכז"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ספירלה?",
+          "options_he": [
+            "ספירלה מסתובבת סביב המרכז",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ספירלה מסתובבת סביב המרכז"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ספירלה?",
+          "options_he": [
+            "ספירלה קשור לתג צורות וללמידה חזותית.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אפשר לראות ספירלות בקונכיות ובציורים"
+        }
+      }
+    }
+  ]
+}

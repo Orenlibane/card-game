@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "angular",
+  "pack_title_he": "Angular",
+  "domain_he": "פיתוח ווב עם Angular",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-tech-he/pack-angular.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "angular-01-components",
+      "index": 1,
+      "title_he": "קומפוננטות",
+      "asset_path": "assets/season-1/cards-tech-he/angular/01-components.webp",
+      "facts_he": [
+        "קומפוננטה מחלקת מסך לחלק קטן וברור",
+        "לכל קומפוננטה יש תפקיד ותצוגה משלה",
+        "קומפוננטות עוזרות לבנות אפליקציה מסודרת"
+      ],
+      "tags_he": [
+        "ווב",
+        "מבנה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "קומפוננטות",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קומפוננטה מחלקת מסך לחלק קטן וברור"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי קומפוננטות?",
+          "options_he": [
+            "קומפוננטה מחלקת מסך לחלק קטן וברור",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קומפוננטה מחלקת מסך לחלק קטן וברור"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא קומפוננטות?",
+          "options_he": [
+            "קומפוננטות קשור לתג ווב ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לכל קומפוננטה יש תפקיד ותצוגה משלה"
+        }
+      }
+    },
+    {
+      "card_id": "angular-02-templates",
+      "index": 2,
+      "title_he": "תבניות",
+      "asset_path": "assets/season-1/cards-tech-he/angular/02-templates.webp",
+      "facts_he": [
+        "תבנית מתארת מה המשתמש רואה במסך",
+        "Angular מחבר נתונים לתבנית",
+        "תבנית טובה שומרת על קוד ברור"
+      ],
+      "tags_he": [
+        "ממשק",
+        "נתונים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "תבניות",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תבנית מתארת מה המשתמש רואה במסך"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי תבניות?",
+          "options_he": [
+            "תבנית מתארת מה המשתמש רואה במסך",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תבנית מתארת מה המשתמש רואה במסך"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא תבניות?",
+          "options_he": [
+            "תבניות קשור לתג ממשק ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Angular מחבר נתונים לתבנית"
+        }
+      }
+    },
+    {
+      "card_id": "angular-03-signals",
+      "index": 3,
+      "title_he": "Signals",
+      "asset_path": "assets/season-1/cards-tech-he/angular/03-signals.webp",
+      "facts_he": [
+        "Signal שומר ערך שהמסך יכול לעקוב אחריו",
+        "Signals עוזרים לעדכן רק מה שהשתנה",
+        "ניהול מצב ברור מקל על אפליקציות גדולות"
+      ],
+      "tags_he": [
+        "מצב",
+        "ריאקטיביות"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "Signals",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Signal שומר ערך שהמסך יכול לעקוב אחריו"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי Signals?",
+          "options_he": [
+            "Signal שומר ערך שהמסך יכול לעקוב אחריו",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Signal שומר ערך שהמסך יכול לעקוב אחריו"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא Signals?",
+          "options_he": [
+            "Signals קשור לתג מצב ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Signals עוזרים לעדכן רק מה שהשתנה"
+        }
+      }
+    },
+    {
+      "card_id": "angular-04-dependency-injection",
+      "index": 4,
+      "title_he": "הזרקת תלויות",
+      "asset_path": "assets/season-1/cards-tech-he/angular/04-dependency-injection.webp",
+      "facts_he": [
+        "Angular יודע לספק שירותים לקומפוננטות",
+        "הזרקת תלויות מפחיתה חיבור קשיח בין חלקים",
+        "בדיקות קלות יותר כששירותים מופרדים"
+      ],
+      "tags_he": [
+        "ארכיטקטורה",
+        "שירותים"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "הזרקת תלויות",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Angular יודע לספק שירותים לקומפוננטות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי הזרקת תלויות?",
+          "options_he": [
+            "Angular יודע לספק שירותים לקומפוננטות",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Angular יודע לספק שירותים לקומפוננטות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא הזרקת תלויות?",
+          "options_he": [
+            "הזרקת תלויות קשור לתג ארכיטקטורה ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הזרקת תלויות מפחיתה חיבור קשיח בין חלקים"
+        }
+      }
+    },
+    {
+      "card_id": "angular-05-services",
+      "index": 5,
+      "title_he": "שירותים",
+      "asset_path": "assets/season-1/cards-tech-he/angular/05-services.webp",
+      "facts_he": [
+        "Service מרכז לוגיקה שמשותפת לכמה מסכים",
+        "שירות יכול לשמור מידע או לדבר עם שרת",
+        "הפרדה לשירותים שומרת על קומפוננטות נקיות"
+      ],
+      "tags_he": [
+        "לוגיקה",
+        "שיתוף"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "שירותים",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Service מרכז לוגיקה שמשותפת לכמה מסכים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שירותים?",
+          "options_he": [
+            "Service מרכז לוגיקה שמשותפת לכמה מסכים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Service מרכז לוגיקה שמשותפת לכמה מסכים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא שירותים?",
+          "options_he": [
+            "שירותים קשור לתג לוגיקה ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שירות יכול לשמור מידע או לדבר עם שרת"
+        }
+      }
+    },
+    {
+      "card_id": "angular-06-routing",
+      "index": 6,
+      "title_he": "ניווט",
+      "asset_path": "assets/season-1/cards-tech-he/angular/06-routing.webp",
+      "facts_he": [
+        "Router מעביר בין מסכים בלי לרענן את כל האתר",
+        "כתובת URL יכולה להצביע למסך מסוים",
+        "ניווט ברור עוזר למשתמש להבין איפה הוא"
+      ],
+      "tags_he": [
+        "מסכים",
+        "URL"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ניווט",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Router מעביר בין מסכים בלי לרענן את כל האתר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ניווט?",
+          "options_he": [
+            "Router מעביר בין מסכים בלי לרענן את כל האתר",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Router מעביר בין מסכים בלי לרענן את כל האתר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ניווט?",
+          "options_he": [
+            "ניווט קשור לתג מסכים ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כתובת URL יכולה להצביע למסך מסוים"
+        }
+      }
+    },
+    {
+      "card_id": "angular-07-forms",
+      "index": 7,
+      "title_he": "טפסים",
+      "asset_path": "assets/season-1/cards-tech-he/angular/07-forms.webp",
+      "facts_he": [
+        "טופס אוסף מידע מהמשתמש",
+        "Angular עוזר לבדוק שדות לפני שליחה",
+        "טופס טוב מסביר מה חסר ומה תקין"
+      ],
+      "tags_he": [
+        "קלט",
+        "בדיקות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "טפסים",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טופס אוסף מידע מהמשתמש"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי טפסים?",
+          "options_he": [
+            "טופס אוסף מידע מהמשתמש",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טופס אוסף מידע מהמשתמש"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא טפסים?",
+          "options_he": [
+            "טפסים קשור לתג קלט ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Angular עוזר לבדוק שדות לפני שליחה"
+        }
+      }
+    },
+    {
+      "card_id": "angular-08-http-client",
+      "index": 8,
+      "title_he": "HttpClient",
+      "asset_path": "assets/season-1/cards-tech-he/angular/08-http-client.webp",
+      "facts_he": [
+        "HttpClient מבקש מידע משרתים",
+        "בקשות רשת מביאות נתונים חיים לאפליקציה",
+        "טיפול בשגיאות חשוב בכל תקשורת"
+      ],
+      "tags_he": [
+        "רשת",
+        "שרת"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "HttpClient",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "HttpClient מבקש מידע משרתים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי HttpClient?",
+          "options_he": [
+            "HttpClient מבקש מידע משרתים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "HttpClient מבקש מידע משרתים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא HttpClient?",
+          "options_he": [
+            "HttpClient קשור לתג רשת ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בקשות רשת מביאות נתונים חיים לאפליקציה"
+        }
+      }
+    },
+    {
+      "card_id": "angular-09-cli",
+      "index": 9,
+      "title_he": "Angular CLI",
+      "asset_path": "assets/season-1/cards-tech-he/angular/09-cli.webp",
+      "facts_he": [
+        "CLI יוצר פרויקטים וקבצים במהירות",
+        "פקודות עוזרות לבנות ולבדוק אפליקציה",
+        "כלי עבודה עקביים חוסכים טעויות"
+      ],
+      "tags_he": [
+        "כלים",
+        "פיתוח"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "Angular CLI",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "CLI יוצר פרויקטים וקבצים במהירות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי Angular CLI?",
+          "options_he": [
+            "CLI יוצר פרויקטים וקבצים במהירות",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "CLI יוצר פרויקטים וקבצים במהירות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא Angular CLI?",
+          "options_he": [
+            "Angular CLI קשור לתג כלים ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פקודות עוזרות לבנות ולבדוק אפליקציה"
+        }
+      }
+    },
+    {
+      "card_id": "angular-10-hydration",
+      "index": 10,
+      "title_he": "SSR ו-Hydration",
+      "asset_path": "assets/season-1/cards-tech-he/angular/10-hydration.webp",
+      "facts_he": [
+        "SSR יכול להכין HTML בצד השרת",
+        "Hydration מחבר את הדף לפעולה בדפדפן",
+        "טעינה מהירה משפרת חוויית משתמש"
+      ],
+      "tags_he": [
+        "ביצועים",
+        "שרת"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "SSR ו-Hydration",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "SSR יכול להכין HTML בצד השרת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי SSR ו-Hydration?",
+          "options_he": [
+            "SSR יכול להכין HTML בצד השרת",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "SSR יכול להכין HTML בצד השרת"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא SSR ו-Hydration?",
+          "options_he": [
+            "SSR ו-Hydration קשור לתג ביצועים ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Hydration מחבר את הדף לפעולה בדפדפן"
+        }
+      }
+    }
+  ]
+}

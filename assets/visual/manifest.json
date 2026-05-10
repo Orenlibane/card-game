@@ -1,0 +1,51 @@
+{
+  "cards": [
+    "assets/season-1/cards-generated-he/animals/01-cat.webp",
+    "assets/season-1/cards-generated-he/animals/02-dog.webp",
+    "assets/season-1/cards-generated-he/animals/03-rabbit.webp",
+    "assets/season-1/cards-generated-he/animals/04-elephant.webp",
+    "assets/season-1/cards-generated-he/animals/05-giraffe.webp",
+    "assets/season-1/cards-generated-he/animals/06-turtle.webp",
+    "assets/season-1/cards-generated-he/animals/07-dolphin.webp",
+    "assets/season-1/cards-generated-he/animals/08-butterfly.webp",
+    "assets/season-1/cards-generated-he/animals/09-penguin.webp",
+    "assets/season-1/cards-generated-he/animals/10-shark.webp",
+    "assets/season-1/cards-generated-he/crystals/01-quartz.webp",
+    "assets/season-1/cards-generated-he/crystals/02-amethyst.webp",
+    "assets/season-1/cards-generated-he/crystals/03-tourmaline.webp",
+    "assets/season-1/cards-generated-he/crystals/04-pyrite.webp",
+    "assets/season-1/cards-generated-he/crystals/05-obsidian.webp",
+    "assets/season-1/cards-generated-he/crystals/06-granite.webp",
+    "assets/season-1/cards-generated-he/crystals/07-basalt.webp",
+    "assets/season-1/cards-generated-he/crystals/08-diamond.webp",
+    "assets/season-1/cards-generated-he/crystals/09-rock-salt.webp",
+    "assets/season-1/cards-generated-he/crystals/10-mineral-fossil.webp",
+    "assets/season-1/cards-generated-he/security/01-rescue.webp",
+    "assets/season-1/cards-generated-he/security/02-intelligence.webp",
+    "assets/season-1/cards-generated-he/security/03-air-force.webp",
+    "assets/season-1/cards-generated-he/security/04-navy.webp",
+    "assets/season-1/cards-generated-he/security/05-medical-corps.webp",
+    "assets/season-1/cards-generated-he/security/06-iron-dome.webp",
+    "assets/season-1/cards-generated-he/security/07-cyber-warfare.webp",
+    "assets/season-1/cards-generated-he/security/08-logistics.webp",
+    "assets/season-1/cards-generated-he/security/09-home-front-command.webp",
+    "assets/season-1/cards-generated-he/security/10-military-ethics.webp"
+  ],
+  "packs": [
+    "assets/season-1/packs-native-he/pack-native-animals.webp",
+    "assets/season-1/packs-native-he/pack-native-crystals.webp",
+    "assets/season-1/packs-native-he/pack-native-rescue.webp"
+  ],
+  "visuals": [
+    "assets/season-1/cards-native-he/all-30-contact-sheet.webp",
+    "assets/season-1/packs-native-he/pack-native-approval-sheet.webp",
+    "assets/visual/season-1-card-back.webp",
+    "assets/season-1/cards-generated-he/all-30-generated-contact-sheet.webp",
+    "assets/visual/season-1-card-back.png",
+    "assets/visual/season-1-card-back.json"
+  ],
+  "note_he": "קלפים הם קלפי עובדות בלבד. המבחן נפתח בלחיצה על קלף נעול ואינו מודפס על תמונת הקלף.",
+  "final_asset_policy_he": "כל קלף וכל חבילה סופיים חייבים להיווצר כתמונה עצמאית בפרומפט עצמאי. אין להשתמש בגיליון שנחתך כמקור לנכסים סופיים.",
+  "current_cards_note_he": "30 הקלפים המוצגים בדמו נוצרו כתמונות עצמאיות אחת־אחת דרך כלי image generation, ונשמרו גם כ-PNG מקורי וגם כ-WebP לדמו מהיר.",
+  "season_1_card_back_he": "גב קלף אחיד לכל הקלפים של עונה 1, כתמונת asset עצמאית."
+}

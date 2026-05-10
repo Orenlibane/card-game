@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "source_pack_json": "assets/season-1/quizzes/kiro.json",
+  "pack_id": "kiro",
+  "pack_prompt": "Create ONE final premium Hebrew booster pack image for the educational TCG \"אוספים עובדות\".\nPortrait 512x716 card-pack ratio, one pack only, full wrapper visible, no sheet.\nNative Hebrew RTL text integrated into the printed wrapper itself, not overlay.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Kiro\", \"10 קלפי עובדות\".\nPremium foil wrapper with crimped top and bottom, warm gold trim, turquoise accents, glossy toy-like material, rich lighting, original collectible booster quality.\nCentral original pack art for the domain: פיתוח מונחה מפרט עם AI.\nNo English, no existing brands, no watermark.",
+  "card_prompts": [
+    {
+      "card_id": "kiro-01-spec-driven",
+      "title_he": "Spec Driven",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/01-spec-driven.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Kiro\", \"Spec Driven\", \"1/10\", \"Kiro מדגיש פיתוח שמתחיל ממפרט ברור\", \"מפרט טוב מחבר דרישות, עיצוב ומשימות\", \"כוונה כתובה מפחיתה ניחושים\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for Spec Driven, connected to פיתוח מונחה מפרט עם AI.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "kiro-02-requirements",
+      "title_he": "דרישות",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/02-requirements.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Kiro\", \"דרישות\", \"2/10\", \"דרישה מסבירה מה המערכת צריכה לעשות\", \"קבלה ברורה עוזרת לדעת אם הצלחנו\", \"דרישות טובות חוסכות בלבול בהמשך\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for דרישות, connected to פיתוח מונחה מפרט עם AI.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "kiro-03-ears",
+      "title_he": "EARS",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/03-ears.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Kiro\", \"EARS\", \"3/10\", \"EARS היא דרך לנסח דרישות בצורה עקבית\", \"מבנה קבוע מקל לקרוא תנאי קבלה\", \"דרישה מדויקת עוזרת גם לאדם וגם לסוכן\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for EARS, connected to פיתוח מונחה מפרט עם AI.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "kiro-04-design-docs",
+      "title_he": "מסמכי עיצוב",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/04-design-docs.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Kiro\", \"מסמכי עיצוב\", \"4/10\", \"מסמך עיצוב מסביר איך הפתרון בנוי\", \"החלטות טכניות כתובות קלות יותר לבדיקה\", \"עיצוב ברור עוזר לתחזק מערכת\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for מסמכי עיצוב, connected to פיתוח מונחה מפרט עם AI.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "kiro-05-task-plan",
+      "title_he": "תוכנית משימות",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/05-task-plan.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Kiro\", \"תוכנית משימות\", \"5/10\", \"משימות הופכות מפרט לצעדים קטנים\", \"צעד קטן קל יותר לבצע ולבדוק\", \"סדר משימות טוב מפחית סיכונים\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for תוכנית משימות, connected to פיתוח מונחה מפרט עם AI.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "kiro-06-steering",
+      "title_he": "Steering",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/06-steering.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Kiro\", \"Steering\", \"6/10\", \"Steering נותן לסוכן כללים והקשר קבועים\", \"כללים טובים שומרים על סגנון הפרויקט\", \"הקשר נכון מצמצם תיקונים חוזרים\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for Steering, connected to פיתוח מונחה מפרט עם AI.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "kiro-07-agent-hooks",
+      "title_he": "Hooks",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/07-agent-hooks.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Kiro\", \"Hooks\", \"7/10\", \"Hook מפעיל פעולה בזמן אירוע מסוים\", \"בדיקות או פורמט יכולים לרוץ אוטומטית\", \"Hooks מחברים workflow לקצב העבודה\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for Hooks, connected to פיתוח מונחה מפרט עם AI.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "kiro-08-custom-agents",
+      "title_he": "סוכנים מותאמים",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/08-custom-agents.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Kiro\", \"סוכנים מותאמים\", \"8/10\", \"סוכן מותאם יכול להתמחות בתפקיד מסוים\", \"חלוקת תפקידים עוזרת בפרויקטים מורכבים\", \"התמחות טובה משפרת עקביות\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for סוכנים מותאמים, connected to פיתוח מונחה מפרט עם AI.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "kiro-09-cli-ide-web",
+      "title_he": "IDE CLI Web",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/09-cli-ide-web.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Kiro\", \"IDE CLI Web\", \"9/10\", \"Kiro מציע סביבת IDE, CLI וממשק Web\", \"כל ממשק מתאים לסגנון עבודה אחר\", \"אותו רעיון יכול לעבור בין כלים שונים\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for IDE CLI Web, connected to פיתוח מונחה מפרט עם AI.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "kiro-10-validation",
+      "title_he": "אימות",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/10-validation.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Kiro\", \"אימות\", \"10/10\", \"אימות בודק שהקוד מתאים למפרט\", \"בדיקות מגלות פערים לפני משתמשים\", \"קשר בין מפרט לקוד מעלה אמון\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for אימות, connected to פיתוח מונחה מפרט עם AI.\nNo English, no existing brands, no watermark."
+    }
+  ]
+}

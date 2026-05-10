@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "codex",
+  "pack_title_he": "Codex",
+  "domain_he": "סוכן קידוד ועבודה עם קוד",
+  "age_group_he": "מבוגרים",
+  "pack_asset_path": "assets/season-1/packs-tech-he/pack-codex.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "codex-01-coding-agent",
+      "index": 1,
+      "title_he": "סוכן קידוד",
+      "asset_path": "assets/season-1/cards-tech-he/codex/01-coding-agent.webp",
+      "facts_he": [
+        "Codex יכול לקבל משימה ולעבוד על קבצים",
+        "סוכן טוב מתקדם דרך קריאה, שינוי ובדיקה",
+        "האדם עדיין מאשר כיוון ותוצאה"
+      ],
+      "tags_he": [
+        "AI",
+        "קוד"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "סוכן קידוד",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Codex יכול לקבל משימה ולעבוד על קבצים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי סוכן קידוד?",
+          "options_he": [
+            "Codex יכול לקבל משימה ולעבוד על קבצים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Codex יכול לקבל משימה ולעבוד על קבצים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא סוכן קידוד?",
+          "options_he": [
+            "סוכן קידוד קשור לתג AI ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סוכן טוב מתקדם דרך קריאה, שינוי ובדיקה"
+        }
+      }
+    },
+    {
+      "card_id": "codex-02-workspace",
+      "index": 2,
+      "title_he": "Workspace",
+      "asset_path": "assets/season-1/cards-tech-he/codex/02-workspace.webp",
+      "facts_he": [
+        "Workspace נותן לסוכן הקשר של הפרויקט",
+        "קבצים, בדיקות וכלים עוזרים להבין מערכת",
+        "שינויים נשמרים במקום שאפשר לבדוק"
+      ],
+      "tags_he": [
+        "פרויקט",
+        "קבצים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "Workspace",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Workspace נותן לסוכן הקשר של הפרויקט"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי Workspace?",
+          "options_he": [
+            "Workspace נותן לסוכן הקשר של הפרויקט",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Workspace נותן לסוכן הקשר של הפרויקט"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא Workspace?",
+          "options_he": [
+            "Workspace קשור לתג פרויקט ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קבצים, בדיקות וכלים עוזרים להבין מערכת"
+        }
+      }
+    },
+    {
+      "card_id": "codex-03-tasks",
+      "index": 3,
+      "title_he": "משימות",
+      "asset_path": "assets/season-1/cards-tech-he/codex/03-tasks.webp",
+      "facts_he": [
+        "משימה טובה מגדירה יעד ותוצאה רצויה",
+        "Codex מתאים לעבודות עם כמה צעדים",
+        "פירוק משימות מקל על בדיקה"
+      ],
+      "tags_he": [
+        "תכנון",
+        "ביצוע"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "משימות",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משימה טובה מגדירה יעד ותוצאה רצויה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי משימות?",
+          "options_he": [
+            "משימה טובה מגדירה יעד ותוצאה רצויה",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משימה טובה מגדירה יעד ותוצאה רצויה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא משימות?",
+          "options_he": [
+            "משימות קשור לתג תכנון ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Codex מתאים לעבודות עם כמה צעדים"
+        }
+      }
+    },
+    {
+      "card_id": "codex-04-skills",
+      "index": 4,
+      "title_he": "Skills",
+      "asset_path": "assets/season-1/cards-tech-he/codex/04-skills.webp",
+      "facts_he": [
+        "Skill שומר workflow חוזר לשימוש עתידי",
+        "Skill יכול לכלול הוראות, scripts ו-references",
+        "סטנדרט קבוע עוזר לשמור איכות"
+      ],
+      "tags_he": [
+        "תהליך",
+        "סטנדרט"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "Skills",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Skill שומר workflow חוזר לשימוש עתידי"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי Skills?",
+          "options_he": [
+            "Skill שומר workflow חוזר לשימוש עתידי",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Skill שומר workflow חוזר לשימוש עתידי"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא Skills?",
+          "options_he": [
+            "Skills קשור לתג תהליך ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Skill יכול לכלול הוראות, scripts ו-references"
+        }
+      }
+    },
+    {
+      "card_id": "codex-05-sandbox",
+      "index": 5,
+      "title_he": "סביבת הרצה",
+      "asset_path": "assets/season-1/cards-tech-he/codex/05-sandbox.webp",
+      "facts_he": [
+        "Sandbox מגביל ומבודד עבודה מסוכנת",
+        "הרצה מקומית עוזרת לבדוק שינויים",
+        "אבטחה חשובה כשסוכן משנה קוד"
+      ],
+      "tags_he": [
+        "אבטחה",
+        "בדיקה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "סביבת הרצה",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Sandbox מגביל ומבודד עבודה מסוכנת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי סביבת הרצה?",
+          "options_he": [
+            "Sandbox מגביל ומבודד עבודה מסוכנת",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Sandbox מגביל ומבודד עבודה מסוכנת"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא סביבת הרצה?",
+          "options_he": [
+            "סביבת הרצה קשור לתג אבטחה ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הרצה מקומית עוזרת לבדוק שינויים"
+        }
+      }
+    },
+    {
+      "card_id": "codex-06-code-review",
+      "index": 6,
+      "title_he": "Code Review",
+      "asset_path": "assets/season-1/cards-tech-he/codex/06-code-review.webp",
+      "facts_he": [
+        "סקירת קוד מחפשת באגים וסיכונים",
+        "ממצא טוב מצביע על קובץ ושורה",
+        "בדיקות חסרות הן חלק מהסיכון"
+      ],
+      "tags_he": [
+        "איכות",
+        "ביקורת"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "Code Review",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סקירת קוד מחפשת באגים וסיכונים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי Code Review?",
+          "options_he": [
+            "סקירת קוד מחפשת באגים וסיכונים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סקירת קוד מחפשת באגים וסיכונים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא Code Review?",
+          "options_he": [
+            "Code Review קשור לתג איכות ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ממצא טוב מצביע על קובץ ושורה"
+        }
+      }
+    },
+    {
+      "card_id": "codex-07-parallel-agents",
+      "index": 7,
+      "title_he": "עבודה במקביל",
+      "asset_path": "assets/season-1/cards-tech-he/codex/07-parallel-agents.webp",
+      "facts_he": [
+        "כמה סוכנים יכולים לטפל בחלקים שונים",
+        "פיצול טוב מונע התנגשויות בקבצים",
+        "שילוב תוצאות דורש בדיקה מרוכזת"
+      ],
+      "tags_he": [
+        "מקביליות",
+        "צוות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "עבודה במקביל",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כמה סוכנים יכולים לטפל בחלקים שונים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי עבודה במקביל?",
+          "options_he": [
+            "כמה סוכנים יכולים לטפל בחלקים שונים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כמה סוכנים יכולים לטפל בחלקים שונים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא עבודה במקביל?",
+          "options_he": [
+            "עבודה במקביל קשור לתג מקביליות ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פיצול טוב מונע התנגשויות בקבצים"
+        }
+      }
+    },
+    {
+      "card_id": "codex-08-cli",
+      "index": 8,
+      "title_he": "Codex CLI",
+      "asset_path": "assets/season-1/cards-tech-he/codex/08-cli.webp",
+      "facts_he": [
+        "CLI מאפשר לעבוד עם Codex מהטרמינל",
+        "פקודות יכולות לקרוא, לשנות ולהריץ בדיקות",
+        "אישורי פעולה שומרים על שליטה"
+      ],
+      "tags_he": [
+        "טרמינל",
+        "כלים"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "Codex CLI",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "CLI מאפשר לעבוד עם Codex מהטרמינל"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי Codex CLI?",
+          "options_he": [
+            "CLI מאפשר לעבוד עם Codex מהטרמינל",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "CLI מאפשר לעבוד עם Codex מהטרמינל"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא Codex CLI?",
+          "options_he": [
+            "Codex CLI קשור לתג טרמינל ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פקודות יכולות לקרוא, לשנות ולהריץ בדיקות"
+        }
+      }
+    },
+    {
+      "card_id": "codex-09-automations",
+      "index": 9,
+      "title_he": "Automations",
+      "asset_path": "assets/season-1/cards-tech-he/codex/09-automations.webp",
+      "facts_he": [
+        "Automation מפעילה עבודה חוזרת בזמן הנכון",
+        "מעקב אחרי בעיות יכול לקרות ברקע",
+        "אוטומציה טובה חוסכת עבודה ידנית"
+      ],
+      "tags_he": [
+        "אוטומציה",
+        "מעקב"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "Automations",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Automation מפעילה עבודה חוזרת בזמן הנכון"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי Automations?",
+          "options_he": [
+            "Automation מפעילה עבודה חוזרת בזמן הנכון",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Automation מפעילה עבודה חוזרת בזמן הנכון"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא Automations?",
+          "options_he": [
+            "Automations קשור לתג אוטומציה ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מעקב אחרי בעיות יכול לקרות ברקע"
+        }
+      }
+    },
+    {
+      "card_id": "codex-10-pull-requests",
+      "index": 10,
+      "title_he": "Pull Requests",
+      "asset_path": "assets/season-1/cards-tech-he/codex/10-pull-requests.webp",
+      "facts_he": [
+        "PR מציג שינוי לפני מיזוג",
+        "סוכן יכול להכין תיקון ולהסביר אותו",
+        "בדיקות וסקירה מגינות על הקוד הראשי"
+      ],
+      "tags_he": [
+        "Git",
+        "שיתוף"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "Pull Requests",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "PR מציג שינוי לפני מיזוג"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי Pull Requests?",
+          "options_he": [
+            "PR מציג שינוי לפני מיזוג",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "PR מציג שינוי לפני מיזוג"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא Pull Requests?",
+          "options_he": [
+            "Pull Requests קשור לתג Git ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סוכן יכול להכין תיקון ולהסביר אותו"
+        }
+      }
+    }
+  ]
+}

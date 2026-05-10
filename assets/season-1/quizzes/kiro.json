@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "kiro",
+  "pack_title_he": "Kiro",
+  "domain_he": "פיתוח מונחה מפרט עם AI",
+  "age_group_he": "מבוגרים",
+  "pack_asset_path": "assets/season-1/packs-tech-he/pack-kiro.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "kiro-01-spec-driven",
+      "index": 1,
+      "title_he": "Spec Driven",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/01-spec-driven.webp",
+      "facts_he": [
+        "Kiro מדגיש פיתוח שמתחיל ממפרט ברור",
+        "מפרט טוב מחבר דרישות, עיצוב ומשימות",
+        "כוונה כתובה מפחיתה ניחושים"
+      ],
+      "tags_he": [
+        "מפרט",
+        "תכנון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "Spec Driven",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Kiro מדגיש פיתוח שמתחיל ממפרט ברור"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי Spec Driven?",
+          "options_he": [
+            "Kiro מדגיש פיתוח שמתחיל ממפרט ברור",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Kiro מדגיש פיתוח שמתחיל ממפרט ברור"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא Spec Driven?",
+          "options_he": [
+            "Spec Driven קשור לתג מפרט ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפרט טוב מחבר דרישות, עיצוב ומשימות"
+        }
+      }
+    },
+    {
+      "card_id": "kiro-02-requirements",
+      "index": 2,
+      "title_he": "דרישות",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/02-requirements.webp",
+      "facts_he": [
+        "דרישה מסבירה מה המערכת צריכה לעשות",
+        "קבלה ברורה עוזרת לדעת אם הצלחנו",
+        "דרישות טובות חוסכות בלבול בהמשך"
+      ],
+      "tags_he": [
+        "מוצר",
+        "דיוק"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "דרישות",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דרישה מסבירה מה המערכת צריכה לעשות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי דרישות?",
+          "options_he": [
+            "דרישה מסבירה מה המערכת צריכה לעשות",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דרישה מסבירה מה המערכת צריכה לעשות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא דרישות?",
+          "options_he": [
+            "דרישות קשור לתג מוצר ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קבלה ברורה עוזרת לדעת אם הצלחנו"
+        }
+      }
+    },
+    {
+      "card_id": "kiro-03-ears",
+      "index": 3,
+      "title_he": "EARS",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/03-ears.webp",
+      "facts_he": [
+        "EARS היא דרך לנסח דרישות בצורה עקבית",
+        "מבנה קבוע מקל לקרוא תנאי קבלה",
+        "דרישה מדויקת עוזרת גם לאדם וגם לסוכן"
+      ],
+      "tags_he": [
+        "דרישות",
+        "שפה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "EARS",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "EARS היא דרך לנסח דרישות בצורה עקבית"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי EARS?",
+          "options_he": [
+            "EARS היא דרך לנסח דרישות בצורה עקבית",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "EARS היא דרך לנסח דרישות בצורה עקבית"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא EARS?",
+          "options_he": [
+            "EARS קשור לתג דרישות ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מבנה קבוע מקל לקרוא תנאי קבלה"
+        }
+      }
+    },
+    {
+      "card_id": "kiro-04-design-docs",
+      "index": 4,
+      "title_he": "מסמכי עיצוב",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/04-design-docs.webp",
+      "facts_he": [
+        "מסמך עיצוב מסביר איך הפתרון בנוי",
+        "החלטות טכניות כתובות קלות יותר לבדיקה",
+        "עיצוב ברור עוזר לתחזק מערכת"
+      ],
+      "tags_he": [
+        "ארכיטקטורה",
+        "תיעוד"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מסמכי עיצוב",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מסמך עיצוב מסביר איך הפתרון בנוי"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מסמכי עיצוב?",
+          "options_he": [
+            "מסמך עיצוב מסביר איך הפתרון בנוי",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מסמך עיצוב מסביר איך הפתרון בנוי"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מסמכי עיצוב?",
+          "options_he": [
+            "מסמכי עיצוב קשור לתג ארכיטקטורה ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "החלטות טכניות כתובות קלות יותר לבדיקה"
+        }
+      }
+    },
+    {
+      "card_id": "kiro-05-task-plan",
+      "index": 5,
+      "title_he": "תוכנית משימות",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/05-task-plan.webp",
+      "facts_he": [
+        "משימות הופכות מפרט לצעדים קטנים",
+        "צעד קטן קל יותר לבצע ולבדוק",
+        "סדר משימות טוב מפחית סיכונים"
+      ],
+      "tags_he": [
+        "ביצוע",
+        "סדר"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "תוכנית משימות",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משימות הופכות מפרט לצעדים קטנים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי תוכנית משימות?",
+          "options_he": [
+            "משימות הופכות מפרט לצעדים קטנים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משימות הופכות מפרט לצעדים קטנים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא תוכנית משימות?",
+          "options_he": [
+            "תוכנית משימות קשור לתג ביצוע ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צעד קטן קל יותר לבצע ולבדוק"
+        }
+      }
+    },
+    {
+      "card_id": "kiro-06-steering",
+      "index": 6,
+      "title_he": "Steering",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/06-steering.webp",
+      "facts_he": [
+        "Steering נותן לסוכן כללים והקשר קבועים",
+        "כללים טובים שומרים על סגנון הפרויקט",
+        "הקשר נכון מצמצם תיקונים חוזרים"
+      ],
+      "tags_he": [
+        "הנחיות",
+        "הקשר"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "Steering",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Steering נותן לסוכן כללים והקשר קבועים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי Steering?",
+          "options_he": [
+            "Steering נותן לסוכן כללים והקשר קבועים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Steering נותן לסוכן כללים והקשר קבועים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא Steering?",
+          "options_he": [
+            "Steering קשור לתג הנחיות ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כללים טובים שומרים על סגנון הפרויקט"
+        }
+      }
+    },
+    {
+      "card_id": "kiro-07-agent-hooks",
+      "index": 7,
+      "title_he": "Hooks",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/07-agent-hooks.webp",
+      "facts_he": [
+        "Hook מפעיל פעולה בזמן אירוע מסוים",
+        "בדיקות או פורמט יכולים לרוץ אוטומטית",
+        "Hooks מחברים workflow לקצב העבודה"
+      ],
+      "tags_he": [
+        "אוטומציה",
+        "אירועים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "Hooks",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Hook מפעיל פעולה בזמן אירוע מסוים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי Hooks?",
+          "options_he": [
+            "Hook מפעיל פעולה בזמן אירוע מסוים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Hook מפעיל פעולה בזמן אירוע מסוים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא Hooks?",
+          "options_he": [
+            "Hooks קשור לתג אוטומציה ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בדיקות או פורמט יכולים לרוץ אוטומטית"
+        }
+      }
+    },
+    {
+      "card_id": "kiro-08-custom-agents",
+      "index": 8,
+      "title_he": "סוכנים מותאמים",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/08-custom-agents.webp",
+      "facts_he": [
+        "סוכן מותאם יכול להתמחות בתפקיד מסוים",
+        "חלוקת תפקידים עוזרת בפרויקטים מורכבים",
+        "התמחות טובה משפרת עקביות"
+      ],
+      "tags_he": [
+        "AI",
+        "צוות"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "סוכנים מותאמים",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סוכן מותאם יכול להתמחות בתפקיד מסוים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי סוכנים מותאמים?",
+          "options_he": [
+            "סוכן מותאם יכול להתמחות בתפקיד מסוים",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סוכן מותאם יכול להתמחות בתפקיד מסוים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא סוכנים מותאמים?",
+          "options_he": [
+            "סוכנים מותאמים קשור לתג AI ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חלוקת תפקידים עוזרת בפרויקטים מורכבים"
+        }
+      }
+    },
+    {
+      "card_id": "kiro-09-cli-ide-web",
+      "index": 9,
+      "title_he": "IDE CLI Web",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/09-cli-ide-web.webp",
+      "facts_he": [
+        "Kiro מציע סביבת IDE, CLI וממשק Web",
+        "כל ממשק מתאים לסגנון עבודה אחר",
+        "אותו רעיון יכול לעבור בין כלים שונים"
+      ],
+      "tags_he": [
+        "כלים",
+        "ממשקים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "IDE CLI Web",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Kiro מציע סביבת IDE, CLI וממשק Web"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי IDE CLI Web?",
+          "options_he": [
+            "Kiro מציע סביבת IDE, CLI וממשק Web",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "Kiro מציע סביבת IDE, CLI וממשק Web"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא IDE CLI Web?",
+          "options_he": [
+            "IDE CLI Web קשור לתג כלים ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כל ממשק מתאים לסגנון עבודה אחר"
+        }
+      }
+    },
+    {
+      "card_id": "kiro-10-validation",
+      "index": 10,
+      "title_he": "אימות",
+      "asset_path": "assets/season-1/cards-tech-he/kiro/10-validation.webp",
+      "facts_he": [
+        "אימות בודק שהקוד מתאים למפרט",
+        "בדיקות מגלות פערים לפני משתמשים",
+        "קשר בין מפרט לקוד מעלה אמון"
+      ],
+      "tags_he": [
+        "בדיקות",
+        "אמון"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אימות",
+            "חתול",
+            "כוכב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אימות בודק שהקוד מתאים למפרט"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אימות?",
+          "options_he": [
+            "אימות בודק שהקוד מתאים למפרט",
+            "זהו נושא מחבילת חיות.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אימות בודק שהקוד מתאים למפרט"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אימות?",
+          "options_he": [
+            "אימות קשור לתג בדיקות ולעולם הפיתוח.",
+            "זה תמיד נושא של מזג אוויר.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בדיקות מגלות פערים לפני משתמשים"
+        }
+      }
+    }
+  ]
+}

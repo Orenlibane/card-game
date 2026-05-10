@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "space-stars",
+  "pack_title_he": "חלל וכוכבים",
+  "domain_he": "מערכת השמש וחקר החלל",
+  "age_group_he": "ילדים בינוניים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-space-stars.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "space-stars-01-sun",
+      "index": 1,
+      "title_he": "שמש",
+      "asset_path": "assets/season-1/cards-wave2-he/space-stars/01-sun.webp",
+      "facts_he": [
+        "כוכב שמאיר את כדור הארץ",
+        "נותנת חום ואור",
+        "במרכזה מתרחשת אנרגיה עצומה"
+      ],
+      "tags_he": [
+        "אור",
+        "אנרגיה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "שמש",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכב שמאיר את כדור הארץ"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שמש?",
+          "options_he": [
+            "כוכב שמאיר את כדור הארץ",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכב שמאיר את כדור הארץ"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא שמש?",
+          "options_he": [
+            "שמש קשור לתג אור ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נותנת חום ואור"
+        }
+      }
+    },
+    {
+      "card_id": "space-stars-02-moon",
+      "index": 2,
+      "title_he": "ירח",
+      "asset_path": "assets/season-1/cards-wave2-he/space-stars/02-moon.webp",
+      "facts_he": [
+        "מקיף את כדור הארץ",
+        "אורו מוחזר מהשמש",
+        "הצורה הנראית שלו משתנה"
+      ],
+      "tags_he": [
+        "מסלול",
+        "לילה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ירח",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מקיף את כדור הארץ"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ירח?",
+          "options_he": [
+            "מקיף את כדור הארץ",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מקיף את כדור הארץ"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ירח?",
+          "options_he": [
+            "ירח קשור לתג מסלול ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אורו מוחזר מהשמש"
+        }
+      }
+    },
+    {
+      "card_id": "space-stars-03-earth",
+      "index": 3,
+      "title_he": "כדור הארץ",
+      "asset_path": "assets/season-1/cards-wave2-he/space-stars/03-earth.webp",
+      "facts_he": [
+        "הבית של בני האדם",
+        "יש בו מים, אוויר וחיים",
+        "מסתובב סביב השמש"
+      ],
+      "tags_he": [
+        "חיים",
+        "מסלול"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "כדור הארץ",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הבית של בני האדם"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי כדור הארץ?",
+          "options_he": [
+            "הבית של בני האדם",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הבית של בני האדם"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא כדור הארץ?",
+          "options_he": [
+            "כדור הארץ קשור לתג חיים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יש בו מים, אוויר וחיים"
+        }
+      }
+    },
+    {
+      "card_id": "space-stars-04-mars",
+      "index": 4,
+      "title_he": "מאדים",
+      "asset_path": "assets/season-1/cards-wave2-he/space-stars/04-mars.webp",
+      "facts_he": [
+        "כוכב לכת אדמדם",
+        "יש עליו הרים ועמקים",
+        "רובוטים חוקרים אותו"
+      ],
+      "tags_he": [
+        "מחקר",
+        "כוכבי לכת"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מאדים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכב לכת אדמדם"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מאדים?",
+          "options_he": [
+            "כוכב לכת אדמדם",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכב לכת אדמדם"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מאדים?",
+          "options_he": [
+            "מאדים קשור לתג מחקר ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יש עליו הרים ועמקים"
+        }
+      }
+    },
+    {
+      "card_id": "space-stars-05-jupiter",
+      "index": 5,
+      "title_he": "צדק",
+      "asset_path": "assets/season-1/cards-wave2-he/space-stars/05-jupiter.webp",
+      "facts_he": [
+        "כוכב הלכת הגדול ביותר",
+        "עשוי בעיקר גזים",
+        "יש לו סערה אדומה גדולה"
+      ],
+      "tags_he": [
+        "ענקים",
+        "גזים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "צדק",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכב הלכת הגדול ביותר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי צדק?",
+          "options_he": [
+            "כוכב הלכת הגדול ביותר",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכב הלכת הגדול ביותר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא צדק?",
+          "options_he": [
+            "צדק קשור לתג ענקים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עשוי בעיקר גזים"
+        }
+      }
+    },
+    {
+      "card_id": "space-stars-06-saturn",
+      "index": 6,
+      "title_he": "שבתאי",
+      "asset_path": "assets/season-1/cards-wave2-he/space-stars/06-saturn.webp",
+      "facts_he": [
+        "מפורסם בטבעות שלו",
+        "הטבעות עשויות קרח ואבק",
+        "גם הוא כוכב לכת גזי"
+      ],
+      "tags_he": [
+        "טבעות",
+        "חלל"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "שבתאי",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפורסם בטבעות שלו"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שבתאי?",
+          "options_he": [
+            "מפורסם בטבעות שלו",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפורסם בטבעות שלו"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא שבתאי?",
+          "options_he": [
+            "שבתאי קשור לתג טבעות ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הטבעות עשויות קרח ואבק"
+        }
+      }
+    },
+    {
+      "card_id": "space-stars-07-astronaut",
+      "index": 7,
+      "title_he": "אסטרונאוט",
+      "asset_path": "assets/season-1/cards-wave2-he/space-stars/07-astronaut.webp",
+      "facts_he": [
+        "מתאמן כדי לעבוד בחלל",
+        "חליפת חלל מגינה עליו",
+        "מבצע ניסויים מחוץ לכדור הארץ"
+      ],
+      "tags_he": [
+        "מחקר",
+        "אדם"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אסטרונאוט",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מתאמן כדי לעבוד בחלל"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אסטרונאוט?",
+          "options_he": [
+            "מתאמן כדי לעבוד בחלל",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מתאמן כדי לעבוד בחלל"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אסטרונאוט?",
+          "options_he": [
+            "אסטרונאוט קשור לתג מחקר ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חליפת חלל מגינה עליו"
+        }
+      }
+    },
+    {
+      "card_id": "space-stars-08-rocket",
+      "index": 8,
+      "title_he": "טיל",
+      "asset_path": "assets/season-1/cards-wave2-he/space-stars/08-rocket.webp",
+      "facts_he": [
+        "מנוע חזק דוחף אותו למעלה",
+        "משמש לשיגור לחלל",
+        "צריך הרבה דלק ואנרגיה"
+      ],
+      "tags_he": [
+        "שיגור",
+        "אנרגיה"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "טיל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מנוע חזק דוחף אותו למעלה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי טיל?",
+          "options_he": [
+            "מנוע חזק דוחף אותו למעלה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מנוע חזק דוחף אותו למעלה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא טיל?",
+          "options_he": [
+            "טיל קשור לתג שיגור ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משמש לשיגור לחלל"
+        }
+      }
+    },
+    {
+      "card_id": "space-stars-09-comet",
+      "index": 9,
+      "title_he": "שביט",
+      "asset_path": "assets/season-1/cards-wave2-he/space-stars/09-comet.webp",
+      "facts_he": [
+        "גוף קפוא שמקיף את השמש",
+        "זנב נוצר כשהוא מתחמם",
+        "נראה לפעמים כפס אור"
+      ],
+      "tags_he": [
+        "קרח",
+        "מסלול"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "שביט",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גוף קפוא שמקיף את השמש"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שביט?",
+          "options_he": [
+            "גוף קפוא שמקיף את השמש",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גוף קפוא שמקיף את השמש"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא שביט?",
+          "options_he": [
+            "שביט קשור לתג קרח ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זנב נוצר כשהוא מתחמם"
+        }
+      }
+    },
+    {
+      "card_id": "space-stars-10-space-station",
+      "index": 10,
+      "title_he": "תחנת חלל",
+      "asset_path": "assets/season-1/cards-wave2-he/space-stars/10-space-station.webp",
+      "facts_he": [
+        "מעבדה שמקיפה את כדור הארץ",
+        "אסטרונאוטים חיים בה תקופות",
+        "ניסויים נעשים בתנאי חוסר משקל"
+      ],
+      "tags_he": [
+        "מעבדה",
+        "מסלול"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "תחנת חלל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מעבדה שמקיפה את כדור הארץ"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי תחנת חלל?",
+          "options_he": [
+            "מעבדה שמקיפה את כדור הארץ",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מעבדה שמקיפה את כדור הארץ"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא תחנת חלל?",
+          "options_he": [
+            "תחנת חלל קשור לתג מעבדה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אסטרונאוטים חיים בה תקופות"
+        }
+      }
+    }
+  ]
+}

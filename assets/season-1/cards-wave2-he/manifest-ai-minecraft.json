@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "generation_mode_he": "נכסי production נוצרים אחד־אחד בכלי image generation, עם בדיקה וייבוא אחרי כל תמונה.",
+  "note_he": "סט בינה מלאכותית וסט עולם קוביות נוספו כסטים עצמאיים לעונה 1.",
+  "packs": [
+    {
+      "pack_id": "ai",
+      "title_he": "בינה מלאכותית",
+      "png": "assets/season-1/packs-wave2-he/pack-ai.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-ai.webp"
+    },
+    {
+      "pack_id": "minecraft",
+      "title_he": "עולם קוביות",
+      "png": "assets/season-1/packs-wave2-he/pack-minecraft.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-minecraft.webp"
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "ai-01-algorithm",
+      "pack_id": "ai",
+      "title_he": "אלגוריתם",
+      "png": "assets/season-1/cards-wave2-he/ai/01-algorithm.png",
+      "webp": "assets/season-1/cards-wave2-he/ai/01-algorithm.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a002e763fc481918080a647d252503e.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T07:10:03.968526+00:00"
+    },
+    {
+      "card_id": "ai-02-data",
+      "pack_id": "ai",
+      "title_he": "נתונים",
+      "png": "assets/season-1/cards-wave2-he/ai/02-data.png",
+      "webp": "assets/season-1/cards-wave2-he/ai/02-data.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a002f9e147c8191b54269e337b521fa.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T07:12:49.743707+00:00"
+    },
+    {
+      "card_id": "ai-03-model-training",
+      "pack_id": "ai",
+      "title_he": "אימון מודל",
+      "png": "assets/season-1/cards-wave2-he/ai/03-model-training.png",
+      "webp": "assets/season-1/cards-wave2-he/ai/03-model-training.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a0030326fc08191bbc2f36791eca6a3.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T07:15:35.771015+00:00"
+    },
+    {
+      "card_id": "ai-04-neural-network",
+      "pack_id": "ai",
+      "title_he": "רשת עצבית",
+      "png": "assets/season-1/cards-wave2-he/ai/04-neural-network.png",
+      "webp": "assets/season-1/cards-wave2-he/ai/04-neural-network.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a00318ca9f88191bfa77cb9923a7568.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T07:21:16.157141+00:00"
+    },
+    {
+      "card_id": "ai-05-computer-vision",
+      "pack_id": "ai",
+      "title_he": "ראייה ממוחשבת",
+      "png": "assets/season-1/cards-wave2-he/ai/05-computer-vision.png",
+      "webp": "assets/season-1/cards-wave2-he/ai/05-computer-vision.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a0034be419c81919b2362e701bc9a88.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T07:36:02.973149+00:00"
+    },
+    {
+      "card_id": "ai-06-language-model",
+      "pack_id": "ai",
+      "title_he": "מודל שפה",
+      "png": "assets/season-1/cards-wave2-he/ai/06-language-model.png",
+      "webp": "assets/season-1/cards-wave2-he/ai/06-language-model.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a0035c7fdf881918d98bc7cc3046241.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T07:41:03.361707+00:00"
+    },
+    {
+      "card_id": "ai-07-learning-robot",
+      "pack_id": "ai",
+      "title_he": "רובוט לומד",
+      "png": "assets/season-1/cards-wave2-he/ai/07-learning-robot.png",
+      "webp": "assets/season-1/cards-wave2-he/ai/07-learning-robot.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a00369ff9d88191bfe423c599367ba7.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T07:42:58.967998+00:00"
+    },
+    {
+      "card_id": "ai-08-bias",
+      "pack_id": "ai",
+      "title_he": "הטיה",
+      "png": "assets/season-1/cards-wave2-he/ai/08-bias.png",
+      "webp": "assets/season-1/cards-wave2-he/ai/08-bias.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a00371b3d848191b7d41a58685d0dac.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T07:45:17.805850+00:00"
+    },
+    {
+      "card_id": "ai-09-privacy",
+      "pack_id": "ai",
+      "title_he": "פרטיות",
+      "png": "assets/season-1/cards-wave2-he/ai/09-privacy.png",
+      "webp": "assets/season-1/cards-wave2-he/ai/09-privacy.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a003955bd588191b196d5992fecf7c4.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T07:55:06.848790+00:00"
+    },
+    {
+      "card_id": "ai-10-creative-ai",
+      "pack_id": "ai",
+      "title_he": "יצירה חכמה",
+      "png": "assets/season-1/cards-wave2-he/ai/10-creative-ai.png",
+      "webp": "assets/season-1/cards-wave2-he/ai/10-creative-ai.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a003e3224e08191bf1e95e94cd76732.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T08:15:39.405334+00:00"
+    },
+    {
+      "card_id": "minecraft-01-cube",
+      "pack_id": "minecraft",
+      "title_he": "קובייה",
+      "png": "assets/season-1/cards-wave2-he/minecraft/01-cube.png",
+      "webp": "assets/season-1/cards-wave2-he/minecraft/01-cube.webp"
+    },
+    {
+      "card_id": "minecraft-02-pickaxe",
+      "pack_id": "minecraft",
+      "title_he": "מכוש",
+      "png": "assets/season-1/cards-wave2-he/minecraft/02-pickaxe.png",
+      "webp": "assets/season-1/cards-wave2-he/minecraft/02-pickaxe.webp"
+    },
+    {
+      "card_id": "minecraft-03-shelter",
+      "pack_id": "minecraft",
+      "title_he": "מחסה ראשון",
+      "png": "assets/season-1/cards-wave2-he/minecraft/03-shelter.png",
+      "webp": "assets/season-1/cards-wave2-he/minecraft/03-shelter.webp"
+    },
+    {
+      "card_id": "minecraft-04-cave",
+      "pack_id": "minecraft",
+      "title_he": "מערה",
+      "png": "assets/season-1/cards-wave2-he/minecraft/04-cave.png",
+      "webp": "assets/season-1/cards-wave2-he/minecraft/04-cave.webp"
+    },
+    {
+      "card_id": "minecraft-05-resources",
+      "pack_id": "minecraft",
+      "title_he": "משאבים",
+      "png": "assets/season-1/cards-wave2-he/minecraft/05-resources.png",
+      "webp": "assets/season-1/cards-wave2-he/minecraft/05-resources.webp"
+    },
+    {
+      "card_id": "minecraft-06-crafting",
+      "pack_id": "minecraft",
+      "title_he": "יצירה",
+      "png": "assets/season-1/cards-wave2-he/minecraft/06-crafting.png",
+      "webp": "assets/season-1/cards-wave2-he/minecraft/06-crafting.webp"
+    },
+    {
+      "card_id": "minecraft-07-farm",
+      "pack_id": "minecraft",
+      "title_he": "חווה",
+      "png": "assets/season-1/cards-wave2-he/minecraft/07-farm.png",
+      "webp": "assets/season-1/cards-wave2-he/minecraft/07-farm.webp"
+    },
+    {
+      "card_id": "minecraft-08-biome",
+      "pack_id": "minecraft",
+      "title_he": "אזור טבע",
+      "png": "assets/season-1/cards-wave2-he/minecraft/08-biome.png",
+      "webp": "assets/season-1/cards-wave2-he/minecraft/08-biome.webp"
+    },
+    {
+      "card_id": "minecraft-09-map",
+      "pack_id": "minecraft",
+      "title_he": "מפה",
+      "png": "assets/season-1/cards-wave2-he/minecraft/09-map.png",
+      "webp": "assets/season-1/cards-wave2-he/minecraft/09-map.webp"
+    },
+    {
+      "card_id": "minecraft-10-circuits",
+      "pack_id": "minecraft",
+      "title_he": "מעגלי כוח",
+      "png": "assets/season-1/cards-wave2-he/minecraft/10-circuits.png",
+      "webp": "assets/season-1/cards-wave2-he/minecraft/10-circuits.webp"
+    }
+  ],
+  "contact_sheets": [
+    {
+      "pack_id": "ai",
+      "webp": "assets/season-1/cards-wave2-he/ai-contact-sheet.webp"
+    },
+    {
+      "pack_id": "minecraft",
+      "webp": "assets/season-1/cards-wave2-he/minecraft-contact-sheet.webp"
+    },
+    {
+      "pack_id": "ai-minecraft",
+      "webp": "assets/season-1/cards-wave2-he/ai-minecraft-20-cards-contact-sheet.webp"
+    }
+  ],
+  "status_he": "סט בינה מלאכותית: 10 קלפים נוצרו מחדש אחד־אחד בכלי image generation ויובאו כ-PNG/WebP."
+}

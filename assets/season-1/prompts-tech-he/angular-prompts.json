@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "source_pack_json": "assets/season-1/quizzes/angular.json",
+  "pack_id": "angular",
+  "pack_prompt": "Create ONE final premium Hebrew booster pack image for the educational TCG \"אוספים עובדות\".\nPortrait 512x716 card-pack ratio, one pack only, full wrapper visible, no sheet.\nNative Hebrew RTL text integrated into the printed wrapper itself, not overlay.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Angular\", \"10 קלפי עובדות\".\nPremium foil wrapper with crimped top and bottom, warm gold trim, turquoise accents, glossy toy-like material, rich lighting, original collectible booster quality.\nCentral original pack art for the domain: פיתוח ווב עם Angular.\nNo English, no existing brands, no watermark.",
+  "card_prompts": [
+    {
+      "card_id": "angular-01-components",
+      "title_he": "קומפוננטות",
+      "asset_path": "assets/season-1/cards-tech-he/angular/01-components.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Angular\", \"קומפוננטות\", \"1/10\", \"קומפוננטה מחלקת מסך לחלק קטן וברור\", \"לכל קומפוננטה יש תפקיד ותצוגה משלה\", \"קומפוננטות עוזרות לבנות אפליקציה מסודרת\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for קומפוננטות, connected to פיתוח ווב עם Angular.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "angular-02-templates",
+      "title_he": "תבניות",
+      "asset_path": "assets/season-1/cards-tech-he/angular/02-templates.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Angular\", \"תבניות\", \"2/10\", \"תבנית מתארת מה המשתמש רואה במסך\", \"Angular מחבר נתונים לתבנית\", \"תבנית טובה שומרת על קוד ברור\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for תבניות, connected to פיתוח ווב עם Angular.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "angular-03-signals",
+      "title_he": "Signals",
+      "asset_path": "assets/season-1/cards-tech-he/angular/03-signals.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Angular\", \"Signals\", \"3/10\", \"Signal שומר ערך שהמסך יכול לעקוב אחריו\", \"Signals עוזרים לעדכן רק מה שהשתנה\", \"ניהול מצב ברור מקל על אפליקציות גדולות\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for Signals, connected to פיתוח ווב עם Angular.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "angular-04-dependency-injection",
+      "title_he": "הזרקת תלויות",
+      "asset_path": "assets/season-1/cards-tech-he/angular/04-dependency-injection.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Angular\", \"הזרקת תלויות\", \"4/10\", \"Angular יודע לספק שירותים לקומפוננטות\", \"הזרקת תלויות מפחיתה חיבור קשיח בין חלקים\", \"בדיקות קלות יותר כששירותים מופרדים\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for הזרקת תלויות, connected to פיתוח ווב עם Angular.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "angular-05-services",
+      "title_he": "שירותים",
+      "asset_path": "assets/season-1/cards-tech-he/angular/05-services.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Angular\", \"שירותים\", \"5/10\", \"Service מרכז לוגיקה שמשותפת לכמה מסכים\", \"שירות יכול לשמור מידע או לדבר עם שרת\", \"הפרדה לשירותים שומרת על קומפוננטות נקיות\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for שירותים, connected to פיתוח ווב עם Angular.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "angular-06-routing",
+      "title_he": "ניווט",
+      "asset_path": "assets/season-1/cards-tech-he/angular/06-routing.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Angular\", \"ניווט\", \"6/10\", \"Router מעביר בין מסכים בלי לרענן את כל האתר\", \"כתובת URL יכולה להצביע למסך מסוים\", \"ניווט ברור עוזר למשתמש להבין איפה הוא\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for ניווט, connected to פיתוח ווב עם Angular.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "angular-07-forms",
+      "title_he": "טפסים",
+      "asset_path": "assets/season-1/cards-tech-he/angular/07-forms.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Angular\", \"טפסים\", \"7/10\", \"טופס אוסף מידע מהמשתמש\", \"Angular עוזר לבדוק שדות לפני שליחה\", \"טופס טוב מסביר מה חסר ומה תקין\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for טפסים, connected to פיתוח ווב עם Angular.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "angular-08-http-client",
+      "title_he": "HttpClient",
+      "asset_path": "assets/season-1/cards-tech-he/angular/08-http-client.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Angular\", \"HttpClient\", \"8/10\", \"HttpClient מבקש מידע משרתים\", \"בקשות רשת מביאות נתונים חיים לאפליקציה\", \"טיפול בשגיאות חשוב בכל תקשורת\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for HttpClient, connected to פיתוח ווב עם Angular.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "angular-09-cli",
+      "title_he": "Angular CLI",
+      "asset_path": "assets/season-1/cards-tech-he/angular/09-cli.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Angular\", \"Angular CLI\", \"9/10\", \"CLI יוצר פרויקטים וקבצים במהירות\", \"פקודות עוזרות לבנות ולבדוק אפליקציה\", \"כלי עבודה עקביים חוסכים טעויות\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for Angular CLI, connected to פיתוח ווב עם Angular.\nNo English, no existing brands, no watermark."
+    },
+    {
+      "card_id": "angular-10-hydration",
+      "title_he": "SSR ו-Hydration",
+      "asset_path": "assets/season-1/cards-tech-he/angular/10-hydration.webp",
+      "prompt": "Create ONE final premium Hebrew educational TCG card image for the game \"אוספים עובדות\".\nPortrait 512x716 card ratio, one card only, no sheet.\nNative Hebrew RTL text integrated into the printed card artwork itself, not overlay.\nSeason 1 premium style: ornate gold frame, turquoise accents, cream parchment fact panels, glossy collectible CCG look, joyful toy-like rendering, rich lighting, dimensional central illustration.\nText exactly: \"אוספים עובדות\", \"עונה 1\", \"Angular\", \"SSR ו-Hydration\", \"10/10\", \"SSR יכול להכין HTML בצד השרת\", \"Hydration מחבר את הדף לפעולה בדפדפן\", \"טעינה מהירה משפרת חוויית משתמש\".\nFacts only, no quiz, no answers.\nCentral original art: איור מרכזי מקורי וברור של הנושא, עם תאורה עשירה וחומריות צעצוע מבריקה for SSR ו-Hydration, connected to פיתוח ווב עם Angular.\nNo English, no existing brands, no watermark."
+    }
+  ]
+}

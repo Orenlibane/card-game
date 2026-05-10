@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "animals",
+  "pack_title_he": "חיות",
+  "domain_he": "עולם החיות",
+  "age_group_he": "ילדים קטנים",
+  "pack_asset_path": "assets/season-1/packs-native-he/pack-native-animals.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "animals-01-cat",
+      "index": 1,
+      "title_he": "חתול",
+      "asset_path": "assets/season-1/cards-native-he/animals/01-cat.webp",
+      "facts_he": [
+        "לחתולים יש שפמים שעוזרים להם להרגיש מרחב.",
+        "חתול יכול לגרגר כשהוא רגוע או מבקש תשומת לב.",
+        "כפות רכות עוזרות לחתול ללכת בשקט."
+      ],
+      "tags_he": [
+        "חוש מישוש",
+        "יונקים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "חתול",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לחתולים יש שפמים שעוזרים להם להרגיש מרחב."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי חתול?",
+          "options_he": [
+            "לחתולים יש שפמים שעוזרים להם להרגיש מרחב.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לחתולים יש שפמים שעוזרים להם להרגיש מרחב."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על חתול?",
+          "options_he": [
+            "חתול יכול לגרגר כשהוא רגוע או מבקש תשומת לב.",
+            "המידע על חתול שייך לתג חוש מישוש בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חתול יכול לגרגר כשהוא רגוע או מבקש תשומת לב."
+        }
+      }
+    },
+    {
+      "card_id": "animals-02-dog",
+      "index": 2,
+      "title_he": "כלב",
+      "asset_path": "assets/season-1/cards-native-he/animals/02-dog.webp",
+      "facts_he": [
+        "לכלבים יש חוש ריח מפותח במיוחד.",
+        "זנב, אוזניים וקול עוזרים לכלב לתקשר.",
+        "כלבים לומדים פקודות בעזרת חזרה וחיזוק חיובי."
+      ],
+      "tags_he": [
+        "חוש ריח",
+        "תקשורת"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "כלב",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לכלבים יש חוש ריח מפותח במיוחד."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי כלב?",
+          "options_he": [
+            "לכלבים יש חוש ריח מפותח במיוחד.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לכלבים יש חוש ריח מפותח במיוחד."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על כלב?",
+          "options_he": [
+            "זנב, אוזניים וקול עוזרים לכלב לתקשר.",
+            "המידע על כלב שייך לתג חוש ריח בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זנב, אוזניים וקול עוזרים לכלב לתקשר."
+        }
+      }
+    },
+    {
+      "card_id": "animals-03-rabbit",
+      "index": 3,
+      "title_he": "ארנב",
+      "asset_path": "assets/season-1/cards-native-he/animals/03-rabbit.webp",
+      "facts_he": [
+        "אוזניים ארוכות עוזרות לארנב לשמוע סכנות.",
+        "ארנבים אוכלים בעיקר צמחים.",
+        "רגליים אחוריות חזקות מאפשרות קפיצות מהירות."
+      ],
+      "tags_he": [
+        "צמחונות",
+        "תנועה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ארנב",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אוזניים ארוכות עוזרות לארנב לשמוע סכנות."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ארנב?",
+          "options_he": [
+            "אוזניים ארוכות עוזרות לארנב לשמוע סכנות.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אוזניים ארוכות עוזרות לארנב לשמוע סכנות."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על ארנב?",
+          "options_he": [
+            "ארנבים אוכלים בעיקר צמחים.",
+            "המידע על ארנב שייך לתג צמחונות בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ארנבים אוכלים בעיקר צמחים."
+        }
+      }
+    },
+    {
+      "card_id": "animals-04-elephant",
+      "index": 4,
+      "title_he": "פיל",
+      "asset_path": "assets/season-1/cards-native-he/animals/04-elephant.webp",
+      "facts_he": [
+        "חדק הפיל משמש לנשימה, שתייה והרמה.",
+        "פילים חיים בקבוצות משפחתיות.",
+        "הפיל הוא בעל החיים היבשתי הגדול ביותר."
+      ],
+      "tags_he": [
+        "משפחה",
+        "חדק"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "פיל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חדק הפיל משמש לנשימה, שתייה והרמה."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פיל?",
+          "options_he": [
+            "חדק הפיל משמש לנשימה, שתייה והרמה.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חדק הפיל משמש לנשימה, שתייה והרמה."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על פיל?",
+          "options_he": [
+            "פילים חיים בקבוצות משפחתיות.",
+            "המידע על פיל שייך לתג משפחה בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פילים חיים בקבוצות משפחתיות."
+        }
+      }
+    },
+    {
+      "card_id": "animals-05-giraffe",
+      "index": 5,
+      "title_he": "ג׳ירפה",
+      "asset_path": "assets/season-1/cards-native-he/animals/05-giraffe.webp",
+      "facts_he": [
+        "צוואר ארוך עוזר לג׳ירפה להגיע לעלים גבוהים.",
+        "לכל ג׳ירפה דוגמת כתמים ייחודית.",
+        "ג׳ירפות הן יונקים צמחוניים."
+      ],
+      "tags_he": [
+        "צמחונות",
+        "דפוסים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ג׳ירפה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צוואר ארוך עוזר לג׳ירפה להגיע לעלים גבוהים."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ג׳ירפה?",
+          "options_he": [
+            "צוואר ארוך עוזר לג׳ירפה להגיע לעלים גבוהים.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צוואר ארוך עוזר לג׳ירפה להגיע לעלים גבוהים."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על ג׳ירפה?",
+          "options_he": [
+            "לכל ג׳ירפה דוגמת כתמים ייחודית.",
+            "המידע על ג׳ירפה שייך לתג צמחונות בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לכל ג׳ירפה דוגמת כתמים ייחודית."
+        }
+      }
+    },
+    {
+      "card_id": "animals-06-turtle",
+      "index": 6,
+      "title_he": "צב",
+      "asset_path": "assets/season-1/cards-native-he/animals/06-turtle.webp",
+      "facts_he": [
+        "שריון הצב מגן על גופו.",
+        "צבים נעים לאט אך יכולים להיות עקשניים מאוד.",
+        "חלק ממיני הצבים חיים שנים רבות."
+      ],
+      "tags_he": [
+        "שריון",
+        "זוחלים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "צב",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שריון הצב מגן על גופו."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי צב?",
+          "options_he": [
+            "שריון הצב מגן על גופו.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שריון הצב מגן על גופו."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על צב?",
+          "options_he": [
+            "צבים נעים לאט אך יכולים להיות עקשניים מאוד.",
+            "המידע על צב שייך לתג שריון בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צבים נעים לאט אך יכולים להיות עקשניים מאוד."
+        }
+      }
+    },
+    {
+      "card_id": "animals-07-dolphin",
+      "index": 7,
+      "title_he": "דולפין",
+      "asset_path": "assets/season-1/cards-native-he/animals/07-dolphin.webp",
+      "facts_he": [
+        "דולפינים הם יונקים שנושמים אוויר.",
+        "הם משתמשים בקולות כדי לתקשר ולנווט.",
+        "דולפינים חיים בקבוצות חברתיות."
+      ],
+      "tags_he": [
+        "ים",
+        "תקשורת"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "דולפין",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דולפינים הם יונקים שנושמים אוויר."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי דולפין?",
+          "options_he": [
+            "דולפינים הם יונקים שנושמים אוויר.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דולפינים הם יונקים שנושמים אוויר."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על דולפין?",
+          "options_he": [
+            "הם משתמשים בקולות כדי לתקשר ולנווט.",
+            "המידע על דולפין שייך לתג ים בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הם משתמשים בקולות כדי לתקשר ולנווט."
+        }
+      }
+    },
+    {
+      "card_id": "animals-08-butterfly",
+      "index": 8,
+      "title_he": "פרפר",
+      "asset_path": "assets/season-1/cards-native-he/animals/08-butterfly.webp",
+      "facts_he": [
+        "פרפר מתחיל את חייו כזחל.",
+        "כנפי הפרפר מכוסות קשקשים זעירים.",
+        "פרפרים עוזרים בהאבקת פרחים."
+      ],
+      "tags_he": [
+        "גלגול",
+        "האבקה"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "פרפר",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרפר מתחיל את חייו כזחל."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פרפר?",
+          "options_he": [
+            "פרפר מתחיל את חייו כזחל.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פרפר מתחיל את חייו כזחל."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על פרפר?",
+          "options_he": [
+            "כנפי הפרפר מכוסות קשקשים זעירים.",
+            "המידע על פרפר שייך לתג גלגול בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כנפי הפרפר מכוסות קשקשים זעירים."
+        }
+      }
+    },
+    {
+      "card_id": "animals-09-penguin",
+      "index": 9,
+      "title_he": "פינגווין",
+      "asset_path": "assets/season-1/cards-native-he/animals/09-penguin.webp",
+      "facts_he": [
+        "פינגווין הוא עוף שאינו עף.",
+        "פינגווינים שוחים היטב בעזרת כנפיים חזקות.",
+        "רבים מהם חיים באזורים קרים."
+      ],
+      "tags_he": [
+        "עופות",
+        "שחייה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "פינגווין",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פינגווין הוא עוף שאינו עף."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פינגווין?",
+          "options_he": [
+            "פינגווין הוא עוף שאינו עף.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פינגווין הוא עוף שאינו עף."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על פינגווין?",
+          "options_he": [
+            "פינגווינים שוחים היטב בעזרת כנפיים חזקות.",
+            "המידע על פינגווין שייך לתג עופות בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פינגווינים שוחים היטב בעזרת כנפיים חזקות."
+        }
+      }
+    },
+    {
+      "card_id": "animals-10-shark",
+      "index": 10,
+      "title_he": "כריש",
+      "asset_path": "assets/season-1/cards-native-he/animals/10-shark.webp",
+      "facts_he": [
+        "כרישים הם דגים עם חושים חדים.",
+        "לכרישים יש שיניים שמתחלפות במהלך החיים.",
+        "רוב הכרישים חשובים לאיזון החיים בים."
+      ],
+      "tags_he": [
+        "ים",
+        "מערכת אקולוגית"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "כריש",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כרישים הם דגים עם חושים חדים."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי כריש?",
+          "options_he": [
+            "כרישים הם דגים עם חושים חדים.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כרישים הם דגים עם חושים חדים."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על כריש?",
+          "options_he": [
+            "לכרישים יש שיניים שמתחלפות במהלך החיים.",
+            "המידע על כריש שייך לתג ים בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לכרישים יש שיניים שמתחלפות במהלך החיים."
+        }
+      }
+    }
+  ]
+}

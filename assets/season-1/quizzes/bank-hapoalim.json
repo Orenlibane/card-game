@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "bank-hapoalim",
+  "pack_title_he": "בנק הפועלים",
+  "domain_he": "בנקאות, חיסכון והתנהלות פיננסית",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-bank-hapoalim.webp",
+  "card_count": 1,
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "נוצר כתמונת image generation יחידה, נבדק ויובא לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a003ec425408191a17785d7da50157e.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-bank-hapoalim.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-bank-hapoalim.webp",
+    "prompt_file": "tmp/imagegen/bank-hapoalim-pack-prompt.txt",
+    "updated_at": "2026-05-10T08:19:59.702Z"
+  },
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "financial_note_he": "תוכן חינוכי בלבד, ללא ייעוץ פיננסי או הצגת תנאי מוצר עדכניים. תנאי פיקדון בפועל נקבעים לפי הבנק והמסמכים הרשמיים.",
+  "source_note_he": "מבוסס על מידע כללי מאתר בנק הפועלים על אפיקי חיסכון ופיקדונות, ללא שיעורי ריבית או תנאים משתנים.",
+  "cards": [
+    {
+      "card_id": "bank-hapoalim-01-daily-deposit",
+      "index": 1,
+      "title_he": "פיקדון יומי",
+      "asset_path": "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.webp",
+      "facts_he": [
+        "פיקדון שומר כסף לתקופה מוסכמת",
+        "ריבית יכולה להיות קבועה או משתנה",
+        "בודקים תנאים לפני שמפקידים"
+      ],
+      "tags_he": [
+        "חיסכון",
+        "פיקדון",
+        "בנקאות"
+      ],
+      "rarity": "common",
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה, נבדק ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a003f129d288191a2054acaa017a4c3.png",
+        "project_png": "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.png",
+        "project_webp": "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.webp",
+        "prompt_file": "tmp/imagegen/bank-hapoalim-daily-deposit-card-prompt.txt",
+        "updated_at": "2026-05-10T08:19:59.702Z"
+      },
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "פיקדון יומי",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פיקדון שומר כסף לתקופה מוסכמת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פיקדון יומי?",
+          "options_he": [
+            "פיקדון שומר כסף לתקופה מוסכמת",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פיקדון שומר כסף לתקופה מוסכמת"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא פיקדון יומי?",
+          "options_he": [
+            "פיקדון יומי קשור לחיסכון ולבדיקת תנאים.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בודקים תנאים לפני שמפקידים"
+        }
+      }
+    }
+  ]
+}

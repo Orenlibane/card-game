@@ -1,0 +1,22 @@
+.DS_Store
+
+# Local environment and secrets
+.env
+.env.*
+
+# Dependency directories and virtual environments
+node_modules/
+venv/
+.venv/
+tmp/imagegen-venv/
+
+# Build and cache output
+dist/
+build/
+coverage/
+.cache/
+__pycache__/
+*.pyc
+
+# Temporary working files
+tmp/

@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "security",
+  "pack_title_he": "ביטחון והצלה",
+  "domain_he": "חברה, אזרחות וביטחון",
+  "age_group_he": "גדולים ומבוגרים",
+  "pack_asset_path": "assets/season-1/packs-native-he/pack-native-rescue.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "security-01-rescue",
+      "index": 1,
+      "title_he": "חילוץ והצלה",
+      "asset_path": "assets/season-1/cards-native-he/security/01-rescue.webp",
+      "facts_he": [
+        "צוותי חילוץ עוזרים לאנשים במצבי חירום.",
+        "עבודה בצוות ותכנון מוקדם מצילים זמן.",
+        "ציוד נכון ואימון קבוע משפרים בטיחות."
+      ],
+      "tags_he": [
+        "חירום",
+        "עבודת צוות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "חילוץ והצלה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צוותי חילוץ עוזרים לאנשים במצבי חירום."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי חילוץ והצלה?",
+          "options_he": [
+            "צוותי חילוץ עוזרים לאנשים במצבי חירום.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צוותי חילוץ עוזרים לאנשים במצבי חירום."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על חילוץ והצלה?",
+          "options_he": [
+            "עבודה בצוות ותכנון מוקדם מצילים זמן.",
+            "המידע על חילוץ והצלה שייך לתג חירום בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עבודה בצוות ותכנון מוקדם מצילים זמן."
+        }
+      }
+    },
+    {
+      "card_id": "security-02-intelligence",
+      "index": 2,
+      "title_he": "מודיעין",
+      "asset_path": "assets/season-1/cards-native-he/security/02-intelligence.webp",
+      "facts_he": [
+        "מודיעין עוסק באיסוף מידע ובניתוחו.",
+        "מידע מדויק עוזר לקבל החלטות טובות יותר.",
+        "שמירה על סודיות היא חלק מרכזי בעבודה."
+      ],
+      "tags_he": [
+        "מידע",
+        "חשיבה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מודיעין",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מודיעין עוסק באיסוף מידע ובניתוחו."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מודיעין?",
+          "options_he": [
+            "מודיעין עוסק באיסוף מידע ובניתוחו.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מודיעין עוסק באיסוף מידע ובניתוחו."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על מודיעין?",
+          "options_he": [
+            "מידע מדויק עוזר לקבל החלטות טובות יותר.",
+            "המידע על מודיעין שייך לתג מידע בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מידע מדויק עוזר לקבל החלטות טובות יותר."
+        }
+      }
+    },
+    {
+      "card_id": "security-03-air-force",
+      "index": 3,
+      "title_he": "חיל האוויר",
+      "asset_path": "assets/season-1/cards-native-he/security/03-air-force.webp",
+      "facts_he": [
+        "חיל האוויר מפעיל מטוסים, מסוקים ומערכות בקרה.",
+        "טייסים וצוותים טכניים מתאמנים הרבה לפני משימה.",
+        "כלי טיס יכולים לסייע גם בחילוץ ובתצפית."
+      ],
+      "tags_he": [
+        "תעופה",
+        "טכנולוגיה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "חיל האוויר",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חיל האוויר מפעיל מטוסים, מסוקים ומערכות בקרה."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי חיל האוויר?",
+          "options_he": [
+            "חיל האוויר מפעיל מטוסים, מסוקים ומערכות בקרה.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חיל האוויר מפעיל מטוסים, מסוקים ומערכות בקרה."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על חיל האוויר?",
+          "options_he": [
+            "טייסים וצוותים טכניים מתאמנים הרבה לפני משימה.",
+            "המידע על חיל האוויר שייך לתג תעופה בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טייסים וצוותים טכניים מתאמנים הרבה לפני משימה."
+        }
+      }
+    },
+    {
+      "card_id": "security-04-navy",
+      "index": 4,
+      "title_he": "חיל הים",
+      "asset_path": "assets/season-1/cards-native-he/security/04-navy.webp",
+      "facts_he": [
+        "חיל הים פועל בים ושומר על נתיבי שיט.",
+        "ספינות וצוללות דורשות צוותים מיומנים.",
+        "הים מחייב ניווט, קשר ושמירה על בטיחות."
+      ],
+      "tags_he": [
+        "ים",
+        "ניווט"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "חיל הים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חיל הים פועל בים ושומר על נתיבי שיט."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי חיל הים?",
+          "options_he": [
+            "חיל הים פועל בים ושומר על נתיבי שיט.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חיל הים פועל בים ושומר על נתיבי שיט."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על חיל הים?",
+          "options_he": [
+            "ספינות וצוללות דורשות צוותים מיומנים.",
+            "המידע על חיל הים שייך לתג ים בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ספינות וצוללות דורשות צוותים מיומנים."
+        }
+      }
+    },
+    {
+      "card_id": "security-05-medical-corps",
+      "index": 5,
+      "title_he": "חיל הרפואה",
+      "asset_path": "assets/season-1/cards-native-he/security/05-medical-corps.webp",
+      "facts_he": [
+        "חיל הרפואה מעניק טיפול רפואי בשגרה ובחירום.",
+        "חובשים ורופאים מתרגלים טיפול מהיר ובטוח.",
+        "מניעה, חיסונים והדרכה עוזרים לשמור על בריאות."
+      ],
+      "tags_he": [
+        "בריאות",
+        "עזרה ראשונה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "חיל הרפואה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חיל הרפואה מעניק טיפול רפואי בשגרה ובחירום."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי חיל הרפואה?",
+          "options_he": [
+            "חיל הרפואה מעניק טיפול רפואי בשגרה ובחירום.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חיל הרפואה מעניק טיפול רפואי בשגרה ובחירום."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על חיל הרפואה?",
+          "options_he": [
+            "חובשים ורופאים מתרגלים טיפול מהיר ובטוח.",
+            "המידע על חיל הרפואה שייך לתג בריאות בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חובשים ורופאים מתרגלים טיפול מהיר ובטוח."
+        }
+      }
+    },
+    {
+      "card_id": "security-06-iron-dome",
+      "index": 6,
+      "title_he": "כיפת ברזל",
+      "asset_path": "assets/season-1/cards-native-he/security/06-iron-dome.webp",
+      "facts_he": [
+        "כיפת ברזל היא מערכת הגנה מפני רקטות.",
+        "המערכת מחשבת מסלול ומחליטה מתי ליירט.",
+        "המטרה המרכזית היא להגן על אזרחים."
+      ],
+      "tags_he": [
+        "הגנה",
+        "טכנולוגיה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "כיפת ברזל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כיפת ברזל היא מערכת הגנה מפני רקטות."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי כיפת ברזל?",
+          "options_he": [
+            "כיפת ברזל היא מערכת הגנה מפני רקטות.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כיפת ברזל היא מערכת הגנה מפני רקטות."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על כיפת ברזל?",
+          "options_he": [
+            "המערכת מחשבת מסלול ומחליטה מתי ליירט.",
+            "המידע על כיפת ברזל שייך לתג הגנה בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "המערכת מחשבת מסלול ומחליטה מתי ליירט."
+        }
+      }
+    },
+    {
+      "card_id": "security-07-cyber-warfare",
+      "index": 7,
+      "title_he": "לוחמה בסייבר",
+      "asset_path": "assets/season-1/cards-native-he/security/07-cyber-warfare.webp",
+      "facts_he": [
+        "סייבר עוסק בהגנה על מחשבים ורשתות.",
+        "סיסמאות חזקות ועדכונים משפרים אבטחה.",
+        "מומחי סייבר מחפשים חולשות לפני שתוקפים מוצאים אותן."
+      ],
+      "tags_he": [
+        "מחשבים",
+        "אבטחה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "לוחמה בסייבר",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סייבר עוסק בהגנה על מחשבים ורשתות."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי לוחמה בסייבר?",
+          "options_he": [
+            "סייבר עוסק בהגנה על מחשבים ורשתות.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סייבר עוסק בהגנה על מחשבים ורשתות."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על לוחמה בסייבר?",
+          "options_he": [
+            "סיסמאות חזקות ועדכונים משפרים אבטחה.",
+            "המידע על לוחמה בסייבר שייך לתג מחשבים בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סיסמאות חזקות ועדכונים משפרים אבטחה."
+        }
+      }
+    },
+    {
+      "card_id": "security-08-logistics",
+      "index": 8,
+      "title_he": "לוגיסטיקה",
+      "asset_path": "assets/season-1/cards-native-he/security/08-logistics.webp",
+      "facts_he": [
+        "לוגיסטיקה דואגת שציוד יגיע למקום הנכון בזמן.",
+        "תכנון אספקה כולל אוכל, מים, דלק וכלים.",
+        "מאחורי כל פעילות יש שרשרת ארגון מדויקת."
+      ],
+      "tags_he": [
+        "ארגון",
+        "אספקה"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "לוגיסטיקה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לוגיסטיקה דואגת שציוד יגיע למקום הנכון בזמן."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי לוגיסטיקה?",
+          "options_he": [
+            "לוגיסטיקה דואגת שציוד יגיע למקום הנכון בזמן.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לוגיסטיקה דואגת שציוד יגיע למקום הנכון בזמן."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על לוגיסטיקה?",
+          "options_he": [
+            "תכנון אספקה כולל אוכל, מים, דלק וכלים.",
+            "המידע על לוגיסטיקה שייך לתג ארגון בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תכנון אספקה כולל אוכל, מים, דלק וכלים."
+        }
+      }
+    },
+    {
+      "card_id": "security-09-home-front-command",
+      "index": 9,
+      "title_he": "פיקוד העורף",
+      "asset_path": "assets/season-1/cards-native-he/security/09-home-front-command.webp",
+      "facts_he": [
+        "פיקוד העורף מדריך אזרחים להתנהגות בטוחה בחירום.",
+        "הכרת מרחב מוגן עוזרת לפעול מהר.",
+        "תרגול מראש מפחית לחץ בזמן אמת."
+      ],
+      "tags_he": [
+        "אזרחות",
+        "בטיחות"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "פיקוד העורף",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פיקוד העורף מדריך אזרחים להתנהגות בטוחה בחירום."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פיקוד העורף?",
+          "options_he": [
+            "פיקוד העורף מדריך אזרחים להתנהגות בטוחה בחירום.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פיקוד העורף מדריך אזרחים להתנהגות בטוחה בחירום."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על פיקוד העורף?",
+          "options_he": [
+            "הכרת מרחב מוגן עוזרת לפעול מהר.",
+            "המידע על פיקוד העורף שייך לתג אזרחות בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הכרת מרחב מוגן עוזרת לפעול מהר."
+        }
+      }
+    },
+    {
+      "card_id": "security-10-military-ethics",
+      "index": 10,
+      "title_he": "אתיקה צבאית",
+      "asset_path": "assets/season-1/cards-native-he/security/10-military-ethics.webp",
+      "facts_he": [
+        "אתיקה צבאית עוסקת באחריות ובשמירה על כללים.",
+        "החלטות קשות דורשות שיקול דעת וכבוד לאדם.",
+        "מטרה חשובה היא להגן על אנשים ולפעול לפי חוק."
+      ],
+      "tags_he": [
+        "אחריות",
+        "ערכים"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אתיקה צבאית",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אתיקה צבאית עוסקת באחריות ובשמירה על כללים."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אתיקה צבאית?",
+          "options_he": [
+            "אתיקה צבאית עוסקת באחריות ובשמירה על כללים.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אתיקה צבאית עוסקת באחריות ובשמירה על כללים."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על אתיקה צבאית?",
+          "options_he": [
+            "החלטות קשות דורשות שיקול דעת וכבוד לאדם.",
+            "המידע על אתיקה צבאית שייך לתג אחריות בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "החלטות קשות דורשות שיקול דעת וכבוד לאדם."
+        }
+      }
+    }
+  ]
+}

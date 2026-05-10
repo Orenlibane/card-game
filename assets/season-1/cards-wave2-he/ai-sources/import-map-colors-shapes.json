@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "season": 1,
+  "note_he": "מקורות AI premium לקלפי צבעים וצורות. כל מקור נוצר כתמונה עצמאית ולא כגיליון.",
+  "mapping": [
+    {
+      "pack_id": "colors",
+      "output_path": "assets/season-1/cards-wave2-he/colors/01-red.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001374f91c8191844b5c8d06d9ea01.png"
+    },
+    {
+      "pack_id": "colors",
+      "output_path": "assets/season-1/cards-wave2-he/colors/02-blue.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a0018f5ebd481919ca6f7605876c9ce.png"
+    },
+    {
+      "pack_id": "colors",
+      "output_path": "assets/season-1/cards-wave2-he/colors/03-yellow.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a00193ec8688191b931cb4013907f76.png"
+    },
+    {
+      "pack_id": "colors",
+      "output_path": "assets/season-1/cards-wave2-he/colors/04-green.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a0019831b94819196355f981c0ecf64.png"
+    },
+    {
+      "pack_id": "colors",
+      "output_path": "assets/season-1/cards-wave2-he/colors/05-orange.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a0019ce56888191b376c591f33ff301.png"
+    },
+    {
+      "pack_id": "colors",
+      "output_path": "assets/season-1/cards-wave2-he/colors/06-purple.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001a2392348191898869a18dff20e4.png"
+    },
+    {
+      "pack_id": "colors",
+      "output_path": "assets/season-1/cards-wave2-he/colors/07-pink.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001a730b3c81919f5ae723c5bf74ae.png"
+    },
+    {
+      "pack_id": "colors",
+      "output_path": "assets/season-1/cards-wave2-he/colors/08-brown.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001ac1b2608191a8b79606cf673e0b.png"
+    },
+    {
+      "pack_id": "colors",
+      "output_path": "assets/season-1/cards-wave2-he/colors/09-black-white.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001b2140e081919041f94f70531397.png"
+    },
+    {
+      "pack_id": "colors",
+      "output_path": "assets/season-1/cards-wave2-he/colors/10-rainbow.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001b74384c8191af1e15065495ce6a.png"
+    },
+    {
+      "pack_id": "shapes",
+      "output_path": "assets/season-1/cards-wave2-he/shapes/01-circle.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001bc19e948191bbc6b34e1e40cdf2.png"
+    },
+    {
+      "pack_id": "shapes",
+      "output_path": "assets/season-1/cards-wave2-he/shapes/02-square.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001ccef0408191835e7547e378eccb.png"
+    },
+    {
+      "pack_id": "shapes",
+      "output_path": "assets/season-1/cards-wave2-he/shapes/03-triangle.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001d1f90a88191a4ec84fab2f248d9.png"
+    },
+    {
+      "pack_id": "shapes",
+      "output_path": "assets/season-1/cards-wave2-he/shapes/04-rectangle.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001d73d4f081918c2300b4bacdc33d.png"
+    },
+    {
+      "pack_id": "shapes",
+      "output_path": "assets/season-1/cards-wave2-he/shapes/05-star.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001e4368e0819189f2d18b9beb3fcf.png"
+    },
+    {
+      "pack_id": "shapes",
+      "output_path": "assets/season-1/cards-wave2-he/shapes/06-heart.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001e9a00588191a0bcf6bec858dd67.png"
+    },
+    {
+      "pack_id": "shapes",
+      "output_path": "assets/season-1/cards-wave2-he/shapes/07-diamond.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001eeef7e08191bae90a026f6f65b9.png"
+    },
+    {
+      "pack_id": "shapes",
+      "output_path": "assets/season-1/cards-wave2-he/shapes/08-oval.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001f453f2c81918809fa76da37e78c.png"
+    },
+    {
+      "pack_id": "shapes",
+      "output_path": "assets/season-1/cards-wave2-he/shapes/09-hexagon.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001fa04ecc81919f979039a327f104.png"
+    },
+    {
+      "pack_id": "shapes",
+      "output_path": "assets/season-1/cards-wave2-he/shapes/10-spiral.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a001ff5e3988191a41d9e6190ac8401.png"
+    }
+  ]
+}

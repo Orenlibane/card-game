@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "sea-oceans",
+  "pack_title_he": "ים ואוקיינוסים",
+  "domain_he": "חיים מתחת למים",
+  "age_group_he": "ילדים בינוניים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-sea-oceans.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "sea-oceans-01-whale",
+      "index": 1,
+      "title_he": "לווייתן",
+      "asset_path": "assets/season-1/cards-wave2-he/sea-oceans/01-whale.webp",
+      "facts_he": [
+        "יונק ענק שחי בים",
+        "נושם אוויר דרך פתח נשימה",
+        "משמיע קולות למרחקים"
+      ],
+      "tags_he": [
+        "יונקים",
+        "ים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "לווייתן",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יונק ענק שחי בים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי לווייתן?",
+          "options_he": [
+            "יונק ענק שחי בים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יונק ענק שחי בים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא לווייתן?",
+          "options_he": [
+            "לווייתן קשור לתג יונקים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נושם אוויר דרך פתח נשימה"
+        }
+      }
+    },
+    {
+      "card_id": "sea-oceans-02-shark",
+      "index": 2,
+      "title_he": "כריש",
+      "asset_path": "assets/season-1/cards-wave2-he/sea-oceans/02-shark.webp",
+      "facts_he": [
+        "דג עם חושים חדים",
+        "שיניים מתחלפות לאורך החיים",
+        "חשוב לאיזון הים"
+      ],
+      "tags_he": [
+        "דגים",
+        "מערכת ים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "כריש",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דג עם חושים חדים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי כריש?",
+          "options_he": [
+            "דג עם חושים חדים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דג עם חושים חדים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא כריש?",
+          "options_he": [
+            "כריש קשור לתג דגים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שיניים מתחלפות לאורך החיים"
+        }
+      }
+    },
+    {
+      "card_id": "sea-oceans-03-octopus",
+      "index": 3,
+      "title_he": "תמנון",
+      "asset_path": "assets/season-1/cards-wave2-he/sea-oceans/03-octopus.webp",
+      "facts_he": [
+        "בעל שמונה זרועות",
+        "יכול לשנות צבע ומרקם",
+        "חכם מאוד ביחס לחסרי חוליות"
+      ],
+      "tags_he": [
+        "הסוואה",
+        "חוכמה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "תמנון",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בעל שמונה זרועות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי תמנון?",
+          "options_he": [
+            "בעל שמונה זרועות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בעל שמונה זרועות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא תמנון?",
+          "options_he": [
+            "תמנון קשור לתג הסוואה ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יכול לשנות צבע ומרקם"
+        }
+      }
+    },
+    {
+      "card_id": "sea-oceans-04-jellyfish",
+      "index": 4,
+      "title_he": "מדוזה",
+      "asset_path": "assets/season-1/cards-wave2-he/sea-oceans/04-jellyfish.webp",
+      "facts_he": [
+        "גופה עשוי הרבה מים",
+        "זרועות יכולות לצרוב",
+        "נסחפת עם זרמים"
+      ],
+      "tags_he": [
+        "זרמים",
+        "ים"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מדוזה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גופה עשוי הרבה מים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מדוזה?",
+          "options_he": [
+            "גופה עשוי הרבה מים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גופה עשוי הרבה מים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מדוזה?",
+          "options_he": [
+            "מדוזה קשור לתג זרמים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זרועות יכולות לצרוב"
+        }
+      }
+    },
+    {
+      "card_id": "sea-oceans-05-coral-reef",
+      "index": 5,
+      "title_he": "שונית אלמוגים",
+      "asset_path": "assets/season-1/cards-wave2-he/sea-oceans/05-coral-reef.webp",
+      "facts_he": [
+        "בית גידול עשיר בים",
+        "אלמוגים הם בעלי חיים זעירים",
+        "שוניות מגינות על חופים"
+      ],
+      "tags_he": [
+        "בית גידול",
+        "אלמוגים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "שונית אלמוגים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בית גידול עשיר בים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שונית אלמוגים?",
+          "options_he": [
+            "בית גידול עשיר בים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בית גידול עשיר בים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא שונית אלמוגים?",
+          "options_he": [
+            "שונית אלמוגים קשור לתג בית גידול ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אלמוגים הם בעלי חיים זעירים"
+        }
+      }
+    },
+    {
+      "card_id": "sea-oceans-06-submarine",
+      "index": 6,
+      "title_he": "צוללת",
+      "asset_path": "assets/season-1/cards-wave2-he/sea-oceans/06-submarine.webp",
+      "facts_he": [
+        "כלי שיט שנע מתחת למים",
+        "לחץ המים גדל בעומק",
+        "משמשת למחקר ולמשימות"
+      ],
+      "tags_he": [
+        "עומק",
+        "טכנולוגיה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "צוללת",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כלי שיט שנע מתחת למים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי צוללת?",
+          "options_he": [
+            "כלי שיט שנע מתחת למים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כלי שיט שנע מתחת למים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא צוללת?",
+          "options_he": [
+            "צוללת קשור לתג עומק ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לחץ המים גדל בעומק"
+        }
+      }
+    },
+    {
+      "card_id": "sea-oceans-07-seahorse",
+      "index": 7,
+      "title_he": "סוסון ים",
+      "asset_path": "assets/season-1/cards-wave2-he/sea-oceans/07-seahorse.webp",
+      "facts_he": [
+        "דג קטן בצורת סוס",
+        "הזכר נושא את הביצים",
+        "נאחז בצמחים בעזרת זנב"
+      ],
+      "tags_he": [
+        "דגים",
+        "רבייה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "סוסון ים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דג קטן בצורת סוס"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי סוסון ים?",
+          "options_he": [
+            "דג קטן בצורת סוס",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דג קטן בצורת סוס"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא סוסון ים?",
+          "options_he": [
+            "סוסון ים קשור לתג דגים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הזכר נושא את הביצים"
+        }
+      }
+    },
+    {
+      "card_id": "sea-oceans-08-sea-turtle",
+      "index": 8,
+      "title_he": "צב ים",
+      "asset_path": "assets/season-1/cards-wave2-he/sea-oceans/08-sea-turtle.webp",
+      "facts_he": [
+        "זוחל שחי בים",
+        "נושם אוויר ועולה לפני המים",
+        "חוזר לחופים כדי להטיל ביצים"
+      ],
+      "tags_he": [
+        "זוחלים",
+        "חופים"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "צב ים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זוחל שחי בים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי צב ים?",
+          "options_he": [
+            "זוחל שחי בים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זוחל שחי בים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא צב ים?",
+          "options_he": [
+            "צב ים קשור לתג זוחלים ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נושם אוויר ועולה לפני המים"
+        }
+      }
+    },
+    {
+      "card_id": "sea-oceans-09-electric-fish",
+      "index": 9,
+      "title_he": "דג חשמל",
+      "asset_path": "assets/season-1/cards-wave2-he/sea-oceans/09-electric-fish.webp",
+      "facts_he": [
+        "יוצר אותות חשמליים",
+        "משתמש בהם לניווט והגנה",
+        "חי במים מתוקים או בים"
+      ],
+      "tags_he": [
+        "חשמל",
+        "ניווט"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "דג חשמל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יוצר אותות חשמליים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי דג חשמל?",
+          "options_he": [
+            "יוצר אותות חשמליים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יוצר אותות חשמליים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא דג חשמל?",
+          "options_he": [
+            "דג חשמל קשור לתג חשמל ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משתמש בהם לניווט והגנה"
+        }
+      }
+    },
+    {
+      "card_id": "sea-oceans-10-tides",
+      "index": 10,
+      "title_he": "גאות ושפל",
+      "asset_path": "assets/season-1/cards-wave2-he/sea-oceans/10-tides.webp",
+      "facts_he": [
+        "גובה הים משתנה במחזוריות",
+        "הירח משפיע על התופעה",
+        "חופים נראים אחרת לאורך היום"
+      ],
+      "tags_he": [
+        "ירח",
+        "מחזוריות"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "גאות ושפל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גובה הים משתנה במחזוריות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי גאות ושפל?",
+          "options_he": [
+            "גובה הים משתנה במחזוריות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גובה הים משתנה במחזוריות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא גאות ושפל?",
+          "options_he": [
+            "גאות ושפל קשור לתג ירח ולידע מהחבילה.",
+            "הנושא אינו ניתן ללמידה מתוך עובדות.",
+            "הנושא תמיד שייך רק לחלל."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הירח משפיע על התופעה"
+        }
+      }
+    }
+  ]
+}

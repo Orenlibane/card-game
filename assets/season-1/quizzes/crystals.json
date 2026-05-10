@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "crystals",
+  "pack_title_he": "קריסטלים ומינרלים",
+  "domain_he": "טבע וחומרים",
+  "age_group_he": "בינוניים",
+  "pack_asset_path": "assets/season-1/packs-native-he/pack-native-crystals.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "cards": [
+    {
+      "card_id": "crystals-01-quartz",
+      "index": 1,
+      "title_he": "קוורץ",
+      "asset_path": "assets/season-1/cards-native-he/crystals/01-quartz.webp",
+      "facts_he": [
+        "קוורץ הוא אחד המינרלים הנפוצים בעולם.",
+        "הוא נמצא בסלעים רבים וגם בחול.",
+        "קוורץ קשה יחסית ועמיד בפני שריטות."
+      ],
+      "tags_he": [
+        "מינרלים",
+        "קשיות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "קוורץ",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קוורץ הוא אחד המינרלים הנפוצים בעולם."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי קוורץ?",
+          "options_he": [
+            "קוורץ הוא אחד המינרלים הנפוצים בעולם.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קוורץ הוא אחד המינרלים הנפוצים בעולם."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על קוורץ?",
+          "options_he": [
+            "הוא נמצא בסלעים רבים וגם בחול.",
+            "המידע על קוורץ שייך לתג מינרלים בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הוא נמצא בסלעים רבים וגם בחול."
+        }
+      }
+    },
+    {
+      "card_id": "crystals-02-amethyst",
+      "index": 2,
+      "title_he": "אמטיסט",
+      "asset_path": "assets/season-1/cards-native-he/crystals/02-amethyst.webp",
+      "facts_he": [
+        "אמטיסט הוא סוג סגול של קוורץ.",
+        "הצבע הסגול נוצר בעקבות יסודות זעירים בתוך הגביש.",
+        "אמטיסט מופיע לעיתים בתוך חללים בסלע."
+      ],
+      "tags_he": [
+        "גבישים",
+        "צבע"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אמטיסט",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אמטיסט הוא סוג סגול של קוורץ."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אמטיסט?",
+          "options_he": [
+            "אמטיסט הוא סוג סגול של קוורץ.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אמטיסט הוא סוג סגול של קוורץ."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על אמטיסט?",
+          "options_he": [
+            "הצבע הסגול נוצר בעקבות יסודות זעירים בתוך הגביש.",
+            "המידע על אמטיסט שייך לתג גבישים בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הצבע הסגול נוצר בעקבות יסודות זעירים בתוך הגביש."
+        }
+      }
+    },
+    {
+      "card_id": "crystals-03-tourmaline",
+      "index": 3,
+      "title_he": "טורמלין",
+      "asset_path": "assets/season-1/cards-native-he/crystals/03-tourmaline.webp",
+      "facts_he": [
+        "טורמלין יכול להופיע במגוון צבעים.",
+        "הגבישים שלו ארוכים ולעיתים מפוספסים.",
+        "לחץ וחום יכולים ליצור בו מטען חשמלי קטן."
+      ],
+      "tags_he": [
+        "חשמל",
+        "צבעים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "טורמלין",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טורמלין יכול להופיע במגוון צבעים."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי טורמלין?",
+          "options_he": [
+            "טורמלין יכול להופיע במגוון צבעים.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טורמלין יכול להופיע במגוון צבעים."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על טורמלין?",
+          "options_he": [
+            "הגבישים שלו ארוכים ולעיתים מפוספסים.",
+            "המידע על טורמלין שייך לתג חשמל בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הגבישים שלו ארוכים ולעיתים מפוספסים."
+        }
+      }
+    },
+    {
+      "card_id": "crystals-04-pyrite",
+      "index": 4,
+      "title_he": "פיריט",
+      "asset_path": "assets/season-1/cards-native-he/crystals/04-pyrite.webp",
+      "facts_he": [
+        "פיריט נקרא לפעמים זהב השוטים בגלל הברק שלו.",
+        "הוא עשוי מברזל וגופרית.",
+        "לפיריט יש לעיתים צורת קובייה טבעית."
+      ],
+      "tags_he": [
+        "מתכות",
+        "צורות"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "פיריט",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פיריט נקרא לפעמים זהב השוטים בגלל הברק שלו."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פיריט?",
+          "options_he": [
+            "פיריט נקרא לפעמים זהב השוטים בגלל הברק שלו.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פיריט נקרא לפעמים זהב השוטים בגלל הברק שלו."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על פיריט?",
+          "options_he": [
+            "הוא עשוי מברזל וגופרית.",
+            "המידע על פיריט שייך לתג מתכות בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הוא עשוי מברזל וגופרית."
+        }
+      }
+    },
+    {
+      "card_id": "crystals-05-obsidian",
+      "index": 5,
+      "title_he": "אובסידיאן",
+      "asset_path": "assets/season-1/cards-native-he/crystals/05-obsidian.webp",
+      "facts_he": [
+        "אובסידיאן הוא זכוכית געשית טבעית.",
+        "הוא נוצר כאשר לבה מתקררת מהר מאוד.",
+        "שברים של אובסידיאן יכולים להיות חדים מאוד."
+      ],
+      "tags_he": [
+        "געשיות",
+        "זכוכית"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אובסידיאן",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אובסידיאן הוא זכוכית געשית טבעית."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אובסידיאן?",
+          "options_he": [
+            "אובסידיאן הוא זכוכית געשית טבעית.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אובסידיאן הוא זכוכית געשית טבעית."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על אובסידיאן?",
+          "options_he": [
+            "הוא נוצר כאשר לבה מתקררת מהר מאוד.",
+            "המידע על אובסידיאן שייך לתג געשיות בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הוא נוצר כאשר לבה מתקררת מהר מאוד."
+        }
+      }
+    },
+    {
+      "card_id": "crystals-06-granite",
+      "index": 6,
+      "title_he": "גרניט",
+      "asset_path": "assets/season-1/cards-native-he/crystals/06-granite.webp",
+      "facts_he": [
+        "גרניט הוא סלע שנוצר עמוק באדמה.",
+        "הוא מכיל מינרלים כמו קוורץ, פצלת השדה ונציץ.",
+        "משתמשים בגרניט לבנייה ולמשטחים חזקים."
+      ],
+      "tags_he": [
+        "סלעים",
+        "בנייה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "גרניט",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גרניט הוא סלע שנוצר עמוק באדמה."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי גרניט?",
+          "options_he": [
+            "גרניט הוא סלע שנוצר עמוק באדמה.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גרניט הוא סלע שנוצר עמוק באדמה."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על גרניט?",
+          "options_he": [
+            "הוא מכיל מינרלים כמו קוורץ, פצלת השדה ונציץ.",
+            "המידע על גרניט שייך לתג סלעים בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הוא מכיל מינרלים כמו קוורץ, פצלת השדה ונציץ."
+        }
+      }
+    },
+    {
+      "card_id": "crystals-07-basalt",
+      "index": 7,
+      "title_he": "בזלת",
+      "asset_path": "assets/season-1/cards-native-he/crystals/07-basalt.webp",
+      "facts_he": [
+        "בזלת היא סלע געשי כהה.",
+        "היא נוצרת מלבה שהתקררה על פני השטח.",
+        "בזלת נפוצה באזורים געשיים."
+      ],
+      "tags_he": [
+        "לבה",
+        "געשיות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "בזלת",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בזלת היא סלע געשי כהה."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי בזלת?",
+          "options_he": [
+            "בזלת היא סלע געשי כהה.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בזלת היא סלע געשי כהה."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על בזלת?",
+          "options_he": [
+            "היא נוצרת מלבה שהתקררה על פני השטח.",
+            "המידע על בזלת שייך לתג לבה בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "היא נוצרת מלבה שהתקררה על פני השטח."
+        }
+      }
+    },
+    {
+      "card_id": "crystals-08-diamond",
+      "index": 8,
+      "title_he": "יהלום",
+      "asset_path": "assets/season-1/cards-native-he/crystals/08-diamond.webp",
+      "facts_he": [
+        "יהלום עשוי מאטומי פחמן.",
+        "הוא אחד החומרים הקשים בטבע.",
+        "בגלל הקשיות שלו משתמשים בו גם בכלי חיתוך."
+      ],
+      "tags_he": [
+        "פחמן",
+        "קשיות"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "יהלום",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יהלום עשוי מאטומי פחמן."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי יהלום?",
+          "options_he": [
+            "יהלום עשוי מאטומי פחמן.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יהלום עשוי מאטומי פחמן."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על יהלום?",
+          "options_he": [
+            "הוא אחד החומרים הקשים בטבע.",
+            "המידע על יהלום שייך לתג פחמן בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הוא אחד החומרים הקשים בטבע."
+        }
+      }
+    },
+    {
+      "card_id": "crystals-09-rock-salt",
+      "index": 9,
+      "title_he": "מלח סלעים",
+      "asset_path": "assets/season-1/cards-native-he/crystals/09-rock-salt.webp",
+      "facts_he": [
+        "מלח סלעים נקרא גם הליט.",
+        "הגבישים שלו נוטים לצורת קובייה.",
+        "מלח סלעים נמס במים וטעמו מלוח."
+      ],
+      "tags_he": [
+        "מלח",
+        "גבישים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מלח סלעים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מלח סלעים נקרא גם הליט."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מלח סלעים?",
+          "options_he": [
+            "מלח סלעים נקרא גם הליט.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מלח סלעים נקרא גם הליט."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על מלח סלעים?",
+          "options_he": [
+            "הגבישים שלו נוטים לצורת קובייה.",
+            "המידע על מלח סלעים שייך לתג מלח בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הגבישים שלו נוטים לצורת קובייה."
+        }
+      }
+    },
+    {
+      "card_id": "crystals-10-mineral-fossil",
+      "index": 10,
+      "title_he": "מאובן מינרלי",
+      "asset_path": "assets/season-1/cards-native-he/crystals/10-mineral-fossil.webp",
+      "facts_he": [
+        "מאובן שומר עקבות של יצור או צמח מן העבר.",
+        "מינרלים יכולים להחליף חומר חי ולשמר צורה.",
+        "מאובנים עוזרים להבין איך נראה העולם לפני זמן רב."
+      ],
+      "tags_he": [
+        "עבר",
+        "מדע"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מאובן מינרלי",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מאובן שומר עקבות של יצור או צמח מן העבר."
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מאובן מינרלי?",
+          "options_he": [
+            "מאובן שומר עקבות של יצור או צמח מן העבר.",
+            "הנושא הזה חי תמיד מתחת לאדמה.",
+            "הנושא הזה אינו קשור לחבילה."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מאובן שומר עקבות של יצור או צמח מן העבר."
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו מסקנה אפשר להסיק מהעובדות על מאובן מינרלי?",
+          "options_he": [
+            "מינרלים יכולים להחליף חומר חי ולשמר צורה.",
+            "המידע על מאובן מינרלי שייך לתג עבר בלבד בלי הקשר נוסף.",
+            "אי אפשר ללמוד עליו מתוך הקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מינרלים יכולים להחליף חומר חי ולשמר צורה."
+        }
+      }
+    }
+  ]
+}

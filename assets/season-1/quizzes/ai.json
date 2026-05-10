@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "ai",
+  "pack_title_he": "בינה מלאכותית",
+  "domain_he": "מחשבים, נתונים וחשיבה",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-ai.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
+  "note_he": "סט חינוכי על בינה מלאכותית, עם דגש על מושגים בסיסיים ואחריות.",
+  "cards": [
+    {
+      "card_id": "ai-01-algorithm",
+      "index": 1,
+      "title_he": "אלגוריתם",
+      "asset_path": "assets/season-1/cards-wave2-he/ai/01-algorithm.webp",
+      "facts_he": [
+        "סדרת הוראות לפתרון בעיה",
+        "מחשב מבצע הוראות לפי סדר",
+        "אלגוריתם טוב ברור וניתן לבדיקה"
+      ],
+      "tags_he": [
+        "הוראות",
+        "חשיבה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אלגוריתם",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סדרת הוראות לפתרון בעיה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אלגוריתם?",
+          "options_he": [
+            "סדרת הוראות לפתרון בעיה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סדרת הוראות לפתרון בעיה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אלגוריתם?",
+          "options_he": [
+            "אלגוריתם קשור לתג הוראות ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מחשב מבצע הוראות לפי סדר"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונה יחידה ונבדק לפני מעבר לקלף הבא",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a002e763fc481918080a647d252503e.png",
+        "project_png": "assets/season-1/cards-wave2-he/ai/01-algorithm.png",
+        "project_webp": "assets/season-1/cards-wave2-he/ai/01-algorithm.webp",
+        "updated_at": "2026-05-10T07:10:03.967510+00:00"
+      }
+    },
+    {
+      "card_id": "ai-02-data",
+      "index": 2,
+      "title_he": "נתונים",
+      "asset_path": "assets/season-1/cards-wave2-he/ai/02-data.webp",
+      "facts_he": [
+        "מידע שאפשר לעבד",
+        "דוגמאות מלמדות דפוסים",
+        "חשוב לבדוק איכות נתונים"
+      ],
+      "tags_he": [
+        "מידע",
+        "דפוסים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "נתונים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מידע שאפשר לעבד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי נתונים?",
+          "options_he": [
+            "מידע שאפשר לעבד",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מידע שאפשר לעבד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא נתונים?",
+          "options_he": [
+            "נתונים קשור לתג מידע ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דוגמאות מלמדות דפוסים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונה יחידה ונבדק לפני מעבר לקלף הבא",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a002f9e147c8191b54269e337b521fa.png",
+        "project_png": "assets/season-1/cards-wave2-he/ai/02-data.png",
+        "project_webp": "assets/season-1/cards-wave2-he/ai/02-data.webp",
+        "updated_at": "2026-05-10T07:12:49.742862+00:00"
+      }
+    },
+    {
+      "card_id": "ai-03-model-training",
+      "index": 3,
+      "title_he": "אימון מודל",
+      "asset_path": "assets/season-1/cards-wave2-he/ai/03-model-training.webp",
+      "facts_he": [
+        "מודל לומד מדוגמאות",
+        "האימון משנה קשרים",
+        "בדיקה מגלה שיפור"
+      ],
+      "tags_he": [
+        "למידה",
+        "בדיקה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אימון מודל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מודל לומד מדוגמאות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אימון מודל?",
+          "options_he": [
+            "מודל לומד מדוגמאות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מודל לומד מדוגמאות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אימון מודל?",
+          "options_he": [
+            "אימון מודל קשור לתג למידה ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "האימון משנה קשרים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונה יחידה ונבדק לפני מעבר לקלף הבא",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a0030326fc08191bbc2f36791eca6a3.png",
+        "project_png": "assets/season-1/cards-wave2-he/ai/03-model-training.png",
+        "project_webp": "assets/season-1/cards-wave2-he/ai/03-model-training.webp",
+        "updated_at": "2026-05-10T07:15:35.769827+00:00"
+      }
+    },
+    {
+      "card_id": "ai-04-neural-network",
+      "index": 4,
+      "title_he": "רשת עצבית",
+      "asset_path": "assets/season-1/cards-wave2-he/ai/04-neural-network.webp",
+      "facts_he": [
+        "בנויה משכבות חישוב",
+        "קשרים משפיעים על התוצאה",
+        "השם שואב השראה מהמוח"
+      ],
+      "tags_he": [
+        "שכבות",
+        "חישוב"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "רשת עצבית",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בנויה משכבות של חישובים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי רשת עצבית?",
+          "options_he": [
+            "בנויה משכבות חישוב",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בנויה משכבות חישוב"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא רשת עצבית?",
+          "options_he": [
+            "רשת עצבית קשור לתג שכבות ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קשרים משפיעים על התוצאה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונה יחידה ונבדק לפני מעבר לקלף הבא",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a00318ca9f88191bfa77cb9923a7568.png",
+        "project_png": "assets/season-1/cards-wave2-he/ai/04-neural-network.png",
+        "project_webp": "assets/season-1/cards-wave2-he/ai/04-neural-network.webp",
+        "updated_at": "2026-05-10T07:21:16.155888+00:00"
+      }
+    },
+    {
+      "card_id": "ai-05-computer-vision",
+      "index": 5,
+      "title_he": "ראייה ממוחשבת",
+      "asset_path": "assets/season-1/cards-wave2-he/ai/05-computer-vision.webp",
+      "facts_he": [
+        "מחשב מזהה צורות",
+        "פיקסלים הופכים לרמזים",
+        "שימושית ברפואה ובבטיחות"
+      ],
+      "tags_he": [
+        "תמונות",
+        "זיהוי"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ראייה ממוחשבת",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מחשב מזהה צורות בתמונה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ראייה ממוחשבת?",
+          "options_he": [
+            "מחשב מזהה צורות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מחשב מזהה צורות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ראייה ממוחשבת?",
+          "options_he": [
+            "ראייה ממוחשבת קשור לתג תמונות ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פיקסלים הופכים לרמזים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונה יחידה ונבדק לפני מעבר לקלף הבא",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a0034be419c81919b2362e701bc9a88.png",
+        "project_png": "assets/season-1/cards-wave2-he/ai/05-computer-vision.png",
+        "project_webp": "assets/season-1/cards-wave2-he/ai/05-computer-vision.webp",
+        "updated_at": "2026-05-10T07:36:02.971108+00:00"
+      }
+    },
+    {
+      "card_id": "ai-06-language-model",
+      "index": 6,
+      "title_he": "מודל שפה",
+      "asset_path": "assets/season-1/cards-wave2-he/ai/06-language-model.webp",
+      "facts_he": [
+        "מזהה קשרים בין מילים",
+        "יכול להציע ניסוח",
+        "צריך לבדוק תשובות חשובות"
+      ],
+      "tags_he": [
+        "שפה",
+        "בדיקה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מודל שפה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מזהה קשרים בין מילים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מודל שפה?",
+          "options_he": [
+            "מזהה קשרים בין מילים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מזהה קשרים בין מילים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מודל שפה?",
+          "options_he": [
+            "מודל שפה קשור לתג שפה ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יכול להציע ניסוח"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונה יחידה ונבדק לפני מעבר לקלף הבא",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a0035c7fdf881918d98bc7cc3046241.png",
+        "project_png": "assets/season-1/cards-wave2-he/ai/06-language-model.png",
+        "project_webp": "assets/season-1/cards-wave2-he/ai/06-language-model.webp",
+        "updated_at": "2026-05-10T07:41:03.360783+00:00"
+      }
+    },
+    {
+      "card_id": "ai-07-learning-robot",
+      "index": 7,
+      "title_he": "רובוט לומד",
+      "asset_path": "assets/season-1/cards-wave2-he/ai/07-learning-robot.webp",
+      "facts_he": [
+        "חיישנים קולטים סביבה",
+        "הוראות עוזרות לבחור פעולה",
+        "תרגול משפר משימות"
+      ],
+      "tags_he": [
+        "חיישנים",
+        "פעולה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "רובוט לומד",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חיישנים קולטים מידע מהסביבה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי רובוט לומד?",
+          "options_he": [
+            "חיישנים קולטים סביבה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חיישנים קולטים סביבה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא רובוט לומד?",
+          "options_he": [
+            "רובוט לומד קשור לתג חיישנים ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הוראות עוזרות לבחור פעולה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונה יחידה ונבדק לפני מעבר לקלף הבא",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a00369ff9d88191bfe423c599367ba7.png",
+        "project_png": "assets/season-1/cards-wave2-he/ai/07-learning-robot.png",
+        "project_webp": "assets/season-1/cards-wave2-he/ai/07-learning-robot.webp",
+        "updated_at": "2026-05-10T07:42:58.967037+00:00"
+      }
+    },
+    {
+      "card_id": "ai-08-bias",
+      "index": 8,
+      "title_he": "הטיה",
+      "asset_path": "assets/season-1/cards-wave2-he/ai/08-bias.webp",
+      "facts_he": [
+        "נתונים לא מאוזנים יוצרים הטיה",
+        "בדיקות עוזרות למצוא טעויות",
+        "מגוון דוגמאות משפר הוגנות"
+      ],
+      "tags_he": [
+        "הוגנות",
+        "אחריות"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "הטיה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הטיה נוצרת מנתונים לא מאוזנים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי הטיה?",
+          "options_he": [
+            "נתונים לא מאוזנים יוצרים הטיה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נתונים לא מאוזנים יוצרים הטיה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא הטיה?",
+          "options_he": [
+            "הטיה קשור לתג הוגנות ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בדיקות עוזרות למצוא טעויות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונה יחידה ונבדק לפני מעבר לקלף הבא",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a00371b3d848191b7d41a58685d0dac.png",
+        "project_png": "assets/season-1/cards-wave2-he/ai/08-bias.png",
+        "project_webp": "assets/season-1/cards-wave2-he/ai/08-bias.webp",
+        "updated_at": "2026-05-10T07:45:17.804252+00:00"
+      }
+    },
+    {
+      "card_id": "ai-09-privacy",
+      "index": 9,
+      "title_he": "פרטיות",
+      "asset_path": "assets/season-1/cards-wave2-he/ai/09-privacy.webp",
+      "facts_he": [
+        "מידע אישי דורש שמירה",
+        "שיתוף דורש אישור",
+        "כללים מגנים על משתמשים"
+      ],
+      "tags_he": [
+        "בטיחות",
+        "מידע"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "פרטיות",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מידע אישי דורש שמירה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פרטיות?",
+          "options_he": [
+            "מידע אישי דורש שמירה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מידע אישי דורש שמירה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא פרטיות?",
+          "options_he": [
+            "פרטיות קשור לתג בטיחות ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שיתוף דורש אישור"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונה יחידה ונבדק לפני מעבר לקלף הבא",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a003955bd588191b196d5992fecf7c4.png",
+        "project_png": "assets/season-1/cards-wave2-he/ai/09-privacy.png",
+        "project_webp": "assets/season-1/cards-wave2-he/ai/09-privacy.webp",
+        "updated_at": "2026-05-10T07:55:06.847721+00:00"
+      }
+    },
+    {
+      "card_id": "ai-10-creative-ai",
+      "index": 10,
+      "title_he": "יצירה חכמה",
+      "asset_path": "assets/season-1/cards-wave2-he/ai/10-creative-ai.webp",
+      "facts_he": [
+        "בינה מציעה רעיונות",
+        "האדם בוחר כיוון",
+        "קרדיט חשוב ביצירה"
+      ],
+      "tags_he": [
+        "יצירה",
+        "אחריות"
+      ],
+      "rarity": "legendary",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "יצירה חכמה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בינה מלאכותית יכולה לעזור ברעיונות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי יצירה חכמה?",
+          "options_he": [
+            "בינה מציעה רעיונות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בינה מציעה רעיונות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא יצירה חכמה?",
+          "options_he": [
+            "יצירה חכמה קשור לתג יצירה ולידע מהחבילה.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "האדם בוחר כיוון"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונה יחידה ונבדק לפני מעבר לקלף הבא",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a003e3224e08191bf1e95e94cd76732.png",
+        "project_png": "assets/season-1/cards-wave2-he/ai/10-creative-ai.png",
+        "project_webp": "assets/season-1/cards-wave2-he/ai/10-creative-ai.webp",
+        "updated_at": "2026-05-10T08:15:39.403515+00:00"
+      }
+    }
+  ]
+}

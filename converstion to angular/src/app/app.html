@@ -383,6 +383,7 @@
                       type="button"
                       class="opening-card"
                       [class.duplicate]="opened.duplicate"
+                      [class.inspected]="openingInspectedCardId() === opened.cardId"
                       [style.--card-index]="i"
                       (click)="inspectOpenedCard(opened.cardId)">
                       <div class="card-art-frame opening-card-frame">
@@ -393,9 +394,25 @@
                   }
                 </div>
 
+                @if (inspectedOpenedCard(); as opened) {
+                  <div class="opening-card-inspector">
+                    <div class="opening-card-preview card-art-frame">
+                      <img [src]="assetUrl(opened.card!.asset_path)" [alt]="opened.card!.title_he">
+                    </div>
+                    <div class="opening-card-details">
+                      <span>{{ opened.duplicate ? 'כפול · +5★' : 'קלף חדש נחשף' }}</span>
+                      <b>{{ opened.card!.title_he }}</b>
+                      <button class="primary-game-button" type="button" (click)="moveOpenedCardToAlbum()">העבר לאלבום</button>
+                    </div>
+                  </div>
+                }
+
                 <div class="opening-copy result">
                   <b>נפתחו {{ lastOpenedCards().length }} קלפים</b>
-                  <span>לחץ על קלף כדי לראות אותו · {{ lastDuplicateCount() }} כפולים · +{{ game.state()?.lastPackOpen?.duplicateCoins || 0 }}★</span>
+                  <span>לחץ על קלף כדי לראות אותו · ואז העבר לאלבום · {{ lastDuplicateCount() }} כפולים · +{{ game.state()?.lastPackOpen?.duplicateCoins || 0 }}★</span>
+                  @if (!inspectedOpenedCard()) {
+                    <button class="primary-game-button" type="button" (click)="moveOpenedCardToAlbum()">העבר לאלבום</button>
+                  }
                 </div>
               }
             </div>

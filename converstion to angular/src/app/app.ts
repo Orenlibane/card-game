@@ -15,6 +15,7 @@ export class App implements OnInit, OnDestroy {
   protected readonly game = inject(GameStateService);
   protected readonly openingPhase = signal<'idle' | 'charging' | 'revealing'>('idle');
   protected readonly openingPackPath = signal('');
+  protected readonly openingInspectedCardId = signal<string | null>(null);
 
   protected readonly quiz = computed(() => this.game.state()?.quiz ?? null);
   protected readonly currentQuestion = computed(() => {
@@ -41,6 +42,11 @@ export class App implements OnInit, OnDestroy {
         card: pack.cards.find((card) => card.card_id === opened.cardId) ?? null,
       }))
       .filter((opened) => opened.card);
+  });
+  protected readonly inspectedOpenedCard = computed(() => {
+    const cardId = this.openingInspectedCardId();
+    if (!cardId) return null;
+    return this.lastOpenedCards().find((opened) => opened.cardId === cardId) ?? null;
   });
   protected readonly lastDuplicateCount = computed(() => this.lastOpenedCards().filter((opened) => opened.duplicate).length);
   protected readonly promoPack = computed(() => this.game.packs().find((pack) => pack.pack_id === 'world-wonders') ?? null);
@@ -114,6 +120,7 @@ export class App implements OnInit, OnDestroy {
     }
 
     this.clearOpeningTimers();
+    this.openingInspectedCardId.set(null);
     this.openingPackPath.set(pack.pack_asset_path);
     this.openingPhase.set('charging');
 
@@ -122,9 +129,6 @@ export class App implements OnInit, OnDestroy {
       this.openingPhase.set('revealing');
     }, 1500));
 
-    this.openingTimers.push(window.setTimeout(() => {
-      this.openingPhase.set('idle');
-    }, 6200));
   }
 
   protected buyPromoPack(): void {
@@ -138,8 +142,17 @@ export class App implements OnInit, OnDestroy {
   protected inspectOpenedCard(cardId: string): void {
     if (this.openingPhase() !== 'revealing') return;
     this.clearOpeningTimers();
+    this.openingInspectedCardId.set(cardId);
+  }
+
+  protected moveOpenedCardToAlbum(): void {
+    const opened = this.inspectedOpenedCard() ?? this.lastOpenedCards()[0];
+    if (!opened) return;
+
+    this.clearOpeningTimers();
+    this.openingInspectedCardId.set(null);
     this.openingPhase.set('idle');
-    this.game.selectCard(cardId);
+    this.game.selectCard(opened.cardId);
   }
 
   private clearOpeningTimers(): void {

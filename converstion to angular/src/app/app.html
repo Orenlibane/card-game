@@ -170,55 +170,85 @@
                   </div>
                 }
 
-                @if (game.discoveredCards().length === 0) {
+                @if (game.discoveredSet(state.selectedPackId).size === 0) {
                   <div class="empty-game-state">
                     <b>{{ game.selectedPack().pack_title_he }} מחכה לפתיחה</b>
                     <span>פתח חבילה כדי לחשוף {{ game.rules()?.pack_size }} קלפים מתוך 10.</span>
                     <button class="primary-game-button" type="button" (click)="game.setView('pack')">לפתוח חבילה</button>
                   </div>
-                } @else {
+                }
+
+                <div class="album-pack-head">
+                  <b>{{ game.selectedPack().pack_title_he }}</b>
+                  <span>{{ game.discoveredSet(state.selectedPackId).size }}/10 נחשפו · {{ game.ownedCount() }}/10 שלך</span>
+                </div>
+
+                <div class="collection-grid" aria-label="כל הקלפים בחבילה">
+                  @for (card of game.selectedPack().cards; track card.card_id; let i = $index) {
+                    <button
+                      type="button"
+                      class="collection-slot"
+                      [class.active]="card.card_id === state.selectedCardId"
+                      [class.owned]="game.isOwned(card.card_id)"
+                      [class.discovered]="isDiscovered(card) && !game.isOwned(card.card_id)"
+                      [class.locked]="!isDiscovered(card)"
+                      (click)="previewAlbumCard(card.card_id)">
+                      <span class="slot-number">{{ i + 1 }}</span>
+                      @if (isDiscovered(card)) {
+                        <img [src]="assetUrl(card.asset_path)" [alt]="card.title_he">
+                      } @else {
+                        <span class="mystery-card" aria-hidden="true">?</span>
+                      }
+                      <b>{{ game.isOwned(card.card_id) ? 'שלך' : isDiscovered(card) ? 'נחשף' : 'נעול' }}</b>
+                    </button>
+                  }
+                </div>
+
+                @if (game.selectedCard(); as selectedCard) {
                   <div class="album-pack-head">
-                    <b>{{ game.selectedPack().pack_title_he }}</b>
-                    <span>{{ game.discoveredSet(state.selectedPackId).size }}/10 נחשפו · {{ game.ownedCount() }}/10 שלך</span>
+                    <b>{{ selectedCard.title_he }}</b>
+                    <span>{{ game.statusFor(selectedCard).text === 'מועמד' ? 'נחשף, עדיין לא שלך' : game.statusFor(selectedCard).text }}</span>
                   </div>
 
                   <div class="album-stage">
                     <button class="carousel-arrow right" type="button" aria-label="קלף קודם" (click)="selectAdjacentCard(-1)">‹</button>
                     <div class="card-shadow-stack" aria-hidden="true"></div>
-                    <article class="hero-card">
+                    <article
+                      class="hero-card"
+                      [class.locked-preview]="!isSelectedCardDiscovered()"
+                      [class.owned-preview]="game.isOwned(selectedCard.card_id)">
                       <div class="card-art-frame hero-card-frame">
-                        <img [src]="assetUrl(game.selectedCard()?.asset_path)" [alt]="game.selectedCard()?.title_he || ''">
+                        @if (isSelectedCardDiscovered()) {
+                          <img [src]="assetUrl(selectedCard.asset_path)" [alt]="selectedCard.title_he">
+                        } @else {
+                          <div class="locked-card-face" aria-hidden="true">
+                            <span>?</span>
+                            <b>קלף לא התגלה</b>
+                          </div>
+                        }
                       </div>
-                      <span [class]="'status-ribbon ' + game.statusFor(game.selectedCard()!).className">
-                        {{ game.statusFor(game.selectedCard()!).text === 'מועמד' ? 'עדיין לא שלך' : game.statusFor(game.selectedCard()!).text }}
+                      <span [class]="'status-ribbon ' + game.statusFor(selectedCard).className">
+                        {{ game.statusFor(selectedCard).text === 'מועמד' ? 'עדיין לא שלך' : game.statusFor(selectedCard).text }}
                       </span>
                     </article>
                     <button class="carousel-arrow left" type="button" aria-label="קלף הבא" (click)="selectAdjacentCard(1)">›</button>
                   </div>
 
                   <div class="card-detail-panel">
-                    <b>{{ game.selectedCard()?.facts_he?.[0] }}</b>
-                    <span>ענה נכון על 8 מתוך 10 שאלות כדי שהקלף ייכנס לאוסף.</span>
+                    @if (isSelectedCardDiscovered()) {
+                      <b>{{ selectedCard.facts_he[0] }}</b>
+                      <span>ענה נכון על 8 מתוך 10 שאלות כדי שהקלף ייכנס לאוסף.</span>
+                    } @else {
+                      <b>הקלף עדיין מסתתר בחבילה</b>
+                      <span>פתח {{ game.selectedPack().pack_title_he }} כדי לחשוף 3 קלפים אקראיים. אחרי שהקלף נחשף אפשר לגשת לבוחן שלו.</span>
+                    }
                     <button
                       class="primary-game-button"
                       type="button"
                       (click)="game.startQuiz()"
-                      [disabled]="game.isOwned(game.selectedCard()!.card_id) || game.cooldownActive(game.selectedCard()!.card_id)">
+                      [disabled]="!isSelectedCardDiscovered() || game.isOwned(selectedCard.card_id) || game.cooldownActive(selectedCard.card_id)">
                       התחל בוחן
                     </button>
-                  </div>
-
-                  <div class="album-strip" aria-label="קלפים שנחשפו">
-                    @for (card of game.discoveredCards(); track card.card_id) {
-                      <button
-                        type="button"
-                        class="album-thumb"
-                        [class.active]="card.card_id === state.selectedCardId"
-                        [class.owned]="game.isOwned(card.card_id)"
-                        (click)="game.selectCard(card.card_id)">
-                        <img [src]="assetUrl(card.asset_path)" [alt]="card.title_he">
-                      </button>
-                    }
                   </div>
                 }
               </section>

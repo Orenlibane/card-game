@@ -80,6 +80,13 @@ export class GameStateService {
     this.patch({ selectedPackId: pack.pack_id, selectedCardId: cardId, view: 'album', quiz: null });
   }
 
+  previewCard(cardId: string): void {
+    const card = this.cardById(cardId);
+    const pack = this.packForCard(cardId);
+    if (!card || !pack) return;
+    this.patch({ selectedPackId: pack.pack_id, selectedCardId: cardId, view: 'album', quiz: null });
+  }
+
   openPack(): void {
     const state = this.state();
     const pack = this.selectedPack();
@@ -127,6 +134,10 @@ export class GameStateService {
     const card = this.selectedCard();
     const pack = this.selectedPack();
     if (!card || !pack) return;
+    if (!this.discoveredSet(pack.pack_id).has(card.card_id)) {
+      this.notify('הקלף הזה עוד לא התגלה. פתח חבילה כדי לחשוף אותו.');
+      return;
+    }
     if (this.isOwned(card.card_id)) {
       this.notify('הקלף כבר נמצא באוסף.');
       return;

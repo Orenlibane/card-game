@@ -72,17 +72,26 @@ export class App implements OnInit, OnDestroy {
     return Boolean(pack && this.game.discoveredSet(pack.pack_id).has(card.card_id));
   }
 
+  protected isSelectedCardDiscovered(): boolean {
+    const card = this.game.selectedCard();
+    return card ? this.isDiscovered(card) : false;
+  }
+
+  protected previewAlbumCard(cardId: string): void {
+    this.game.previewCard(cardId);
+  }
+
   protected answerLetter(index: number): string {
     return ['א', 'ב', 'ג', 'ד'][index] ?? String(index + 1);
   }
 
   protected selectAdjacentCard(direction: -1 | 1): void {
-    const cards = this.game.discoveredCards();
+    const cards = this.game.selectedPack()?.cards ?? [];
     const currentId = this.game.state()?.selectedCardId;
     if (!cards.length || !currentId) return;
     const currentIndex = Math.max(0, cards.findIndex((card) => card.card_id === currentId));
     const nextIndex = (currentIndex + direction + cards.length) % cards.length;
-    this.game.selectCard(cards[nextIndex].card_id);
+    this.previewAlbumCard(cards[nextIndex].card_id);
   }
 
   protected selectAlbumPack(packId: string): void {

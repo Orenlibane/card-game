@@ -9,7 +9,7 @@
   "domain_he": "בנקאות, חיסכון והתנהלות פיננסית",
   "age_group_he": "ילדים גדולים",
   "pack_asset_path": "assets/season-1/packs-wave2-he/pack-bank-hapoalim.webp",
-  "card_count": 1,
+  "card_count": 10,
   "asset_generation": {
     "mode": "single_image_tool_call",
     "status_he": "נוצר כתמונת image generation יחידה, נבדק ויובא לפרויקט.",
@@ -21,7 +21,7 @@
   },
   "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
   "security_note_he": "בפרודקשן correct_answer_index נשמר בבסיס הנתונים/Edge Function ואינו נשלח ללקוח לפני שליחת תשובה.",
-  "financial_note_he": "תוכן חינוכי בלבד, ללא ייעוץ פיננסי או הצגת תנאי מוצר עדכניים. תנאי פיקדון בפועל נקבעים לפי הבנק והמסמכים הרשמיים.",
+  "financial_note_he": "תוכן חינוכי בלבד, ללא ייעוץ פיננסי או הצגת תנאי מוצר עדכניים. תנאי פיקדון או משכנתא בפועל נקבעים לפי הבנק, מאפייני הלקוח והמסמכים הרשמיים.",
   "source_note_he": "מבוסס על מידע כללי מאתר בנק הפועלים על אפיקי חיסכון ופיקדונות, ללא שיעורי ריבית או תנאים משתנים.",
   "cards": [
     {
@@ -47,7 +47,10 @@
         "project_png": "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.png",
         "project_webp": "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit.webp",
         "prompt_file": "tmp/imagegen/bank-hapoalim-daily-deposit-card-prompt.txt",
-        "updated_at": "2026-05-10T08:19:59.702Z"
+        "updated_at": "2026-05-10T08:19:59.702Z",
+        "theme_adjustment_he": "גווני הטורקיז/כחול בקלף הוחלפו לאדום כדי להתאים לתמת בנק הפועלים.",
+        "theme_adjusted_at": "2026-05-10T08:23:29.913637+00:00",
+        "blue_original_png": "assets/season-1/cards-wave2-he/bank-hapoalim/01-daily-deposit-blue-original.png"
       },
       "quizzes": {
         "junior": {
@@ -87,6 +90,493 @@
           "source_fact_he": "בודקים תנאים לפני שמפקידים"
         }
       }
+    },
+    {
+      "card_id": "bank-hapoalim-02-mortgage",
+      "index": 2,
+      "title_he": "משכנתא",
+      "asset_path": "assets/season-1/cards-wave2-he/bank-hapoalim/02-mortgage.webp",
+      "facts_he": [
+        "הלוואה גדולה לרכישת דירה",
+        "ההחזר נפרס על פני שנים",
+        "בודקים יכולת החזר מראש"
+      ],
+      "tags_he": [
+        "דיור",
+        "הלוואה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "משכנתא",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הלוואה גדולה לרכישת דירה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי משכנתא?",
+          "options_he": [
+            "הלוואה גדולה לרכישת דירה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הלוואה גדולה לרכישת דירה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא משכנתא?",
+          "options_he": [
+            "משכנתא קשור לתג דיור ולידע פיננסי בסיסי.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ההחזר נפרס על פני שנים"
+        }
+      }
+    },
+    {
+      "card_id": "bank-hapoalim-03-pre-approval",
+      "index": 3,
+      "title_he": "אישור עקרוני",
+      "asset_path": "assets/season-1/cards-wave2-he/bank-hapoalim/03-pre-approval.webp",
+      "facts_he": [
+        "מסמך ראשוני לפני קבלת הלוואה",
+        "מבוסס על פרטים שמוסרים לבנק",
+        "האישור אינו חוזה סופי"
+      ],
+      "tags_he": [
+        "בדיקה",
+        "תהליך"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "אישור עקרוני",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מסמך ראשוני לפני קבלת הלוואה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי אישור עקרוני?",
+          "options_he": [
+            "מסמך ראשוני לפני קבלת הלוואה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מסמך ראשוני לפני קבלת הלוואה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא אישור עקרוני?",
+          "options_he": [
+            "אישור עקרוני קשור לתג בדיקה ולידע פיננסי בסיסי.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מבוסס על פרטים שמוסרים לבנק"
+        }
+      }
+    },
+    {
+      "card_id": "bank-hapoalim-04-mortgage-mix",
+      "index": 4,
+      "title_he": "תמהיל מסלולים",
+      "asset_path": "assets/season-1/cards-wave2-he/bank-hapoalim/04-mortgage-mix.webp",
+      "facts_he": [
+        "משכנתא יכולה לכלול כמה מסלולים",
+        "כל מסלול מתנהג אחרת לאורך זמן",
+        "משווים סיכון וגמישות"
+      ],
+      "tags_he": [
+        "מסלולים",
+        "תכנון"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "תמהיל מסלולים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משכנתא יכולה לכלול כמה מסלולים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי תמהיל מסלולים?",
+          "options_he": [
+            "משכנתא יכולה לכלול כמה מסלולים",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משכנתא יכולה לכלול כמה מסלולים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא תמהיל מסלולים?",
+          "options_he": [
+            "תמהיל מסלולים קשור לתג מסלולים ולידע פיננסי בסיסי.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כל מסלול מתנהג אחרת לאורך זמן"
+        }
+      }
+    },
+    {
+      "card_id": "bank-hapoalim-05-prime-track",
+      "index": 5,
+      "title_he": "מסלול פריים",
+      "asset_path": "assets/season-1/cards-wave2-he/bank-hapoalim/05-prime-track.webp",
+      "facts_he": [
+        "הריבית במסלול יכולה להשתנות",
+        "השינוי תלוי בריבית הפריים",
+        "חשוב להבין תנודתיות"
+      ],
+      "tags_he": [
+        "ריבית",
+        "שינוי"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מסלול פריים",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הריבית במסלול יכולה להשתנות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מסלול פריים?",
+          "options_he": [
+            "הריבית במסלול יכולה להשתנות",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הריבית במסלול יכולה להשתנות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מסלול פריים?",
+          "options_he": [
+            "מסלול פריים קשור לתג ריבית ולידע פיננסי בסיסי.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "השינוי תלוי בריבית הפריים"
+        }
+      }
+    },
+    {
+      "card_id": "bank-hapoalim-06-fixed-rate",
+      "index": 6,
+      "title_he": "ריבית קבועה",
+      "asset_path": "assets/season-1/cards-wave2-he/bank-hapoalim/06-fixed-rate.webp",
+      "facts_he": [
+        "הריבית נשארת קבועה במסלול",
+        "החזר צפוי עוזר לתכנון",
+        "בודקים עלות לאורך כל התקופה"
+      ],
+      "tags_he": [
+        "יציבות",
+        "תכנון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ריבית קבועה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הריבית נשארת קבועה במסלול"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ריבית קבועה?",
+          "options_he": [
+            "הריבית נשארת קבועה במסלול",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הריבית נשארת קבועה במסלול"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ריבית קבועה?",
+          "options_he": [
+            "ריבית קבועה קשור לתג יציבות ולידע פיננסי בסיסי.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "החזר צפוי עוזר לתכנון"
+        }
+      }
+    },
+    {
+      "card_id": "bank-hapoalim-07-variable-rate",
+      "index": 7,
+      "title_he": "ריבית משתנה",
+      "asset_path": "assets/season-1/cards-wave2-he/bank-hapoalim/07-variable-rate.webp",
+      "facts_he": [
+        "הריבית מתעדכנת בנקודות זמן",
+        "ההחזר יכול לעלות או לרדת",
+        "צריך להכיר את מועדי השינוי"
+      ],
+      "tags_he": [
+        "שינוי",
+        "מעקב"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ריבית משתנה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הריבית מתעדכנת בנקודות זמן"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ריבית משתנה?",
+          "options_he": [
+            "הריבית מתעדכנת בנקודות זמן",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הריבית מתעדכנת בנקודות זמן"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ריבית משתנה?",
+          "options_he": [
+            "ריבית משתנה קשור לתג שינוי ולידע פיננסי בסיסי.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ההחזר יכול לעלות או לרדת"
+        }
+      }
+    },
+    {
+      "card_id": "bank-hapoalim-08-index-linked",
+      "index": 8,
+      "title_he": "הצמדה למדד",
+      "asset_path": "assets/season-1/cards-wave2-he/bank-hapoalim/08-index-linked.webp",
+      "facts_he": [
+        "הקרן יכולה להשתנות עם המדד",
+        "מדד עולה משפיע על יתרה",
+        "בודקים השפעה על ההחזר"
+      ],
+      "tags_he": [
+        "מדד",
+        "אינפלציה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "הצמדה למדד",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הקרן יכולה להשתנות עם המדד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי הצמדה למדד?",
+          "options_he": [
+            "הקרן יכולה להשתנות עם המדד",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הקרן יכולה להשתנות עם המדד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא הצמדה למדד?",
+          "options_he": [
+            "הצמדה למדד קשור לתג מדד ולידע פיננסי בסיסי.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מדד עולה משפיע על יתרה"
+        }
+      }
+    },
+    {
+      "card_id": "bank-hapoalim-09-refinance",
+      "index": 9,
+      "title_he": "מחזור משכנתא",
+      "asset_path": "assets/season-1/cards-wave2-he/bank-hapoalim/09-refinance.webp",
+      "facts_he": [
+        "בודקים שינוי תנאי הלוואה קיימת",
+        "מטרת המחזור היא התאמה מחדש",
+        "משווים עלויות לפני החלטה"
+      ],
+      "tags_he": [
+        "בדיקה",
+        "התאמה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "מחזור משכנתא",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בודקים שינוי תנאי הלוואה קיימת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי מחזור משכנתא?",
+          "options_he": [
+            "בודקים שינוי תנאי הלוואה קיימת",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בודקים שינוי תנאי הלוואה קיימת"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא מחזור משכנתא?",
+          "options_he": [
+            "מחזור משכנתא קשור לתג בדיקה ולידע פיננסי בסיסי.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מטרת המחזור היא התאמה מחדש"
+        }
+      }
+    },
+    {
+      "card_id": "bank-hapoalim-10-collateral-appraisal",
+      "index": 10,
+      "title_he": "ביטחונות ושמאות",
+      "asset_path": "assets/season-1/cards-wave2-he/bank-hapoalim/10-collateral-appraisal.webp",
+      "facts_he": [
+        "הנכס משמש ביטחון להלוואה",
+        "שמאות מעריכה את שווי הדירה",
+        "מסמכים עוזרים לבנק לבדוק סיכון"
+      ],
+      "tags_he": [
+        "נכס",
+        "שמאות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזה קלף ראית עכשיו?",
+          "options_he": [
+            "ביטחונות ושמאות",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הנכס משמש ביטחון להלוואה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ביטחונות ושמאות?",
+          "options_he": [
+            "הנכס משמש ביטחון להלוואה",
+            "זהו נושא שאינו קשור לחבילה.",
+            "אין עליו מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "הנכס משמש ביטחון להלוואה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזה קשר מתאים לנושא ביטחונות ושמאות?",
+          "options_he": [
+            "ביטחונות ושמאות קשור לתג נכס ולידע פיננסי בסיסי.",
+            "הנושא תמיד שייך רק לחלל.",
+            "אי אפשר ללמוד עליו מתוך עובדות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שמאות מעריכה את שווי הדירה"
+        }
+      }
     }
-  ]
+  ],
+  "note_he": "חבילת לימוד כללית על בנקאות, פיקדונות ומשכנתאות. אין לראות בתוכן ייעוץ פיננסי."
 }

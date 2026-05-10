@@ -194,10 +194,10 @@
       "image_generation": {
         "mode": "single_image_tool_call",
         "status_he": "נוצר כתמונה יחידה ונבדק לפני מעבר לקלף הבא",
-        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a0030326fc08191bbc2f36791eca6a3.png",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a003fe7b050819183fac1b77e453342.png",
         "project_png": "assets/season-1/cards-wave2-he/ai/03-model-training.png",
         "project_webp": "assets/season-1/cards-wave2-he/ai/03-model-training.webp",
-        "updated_at": "2026-05-10T07:15:35.769827+00:00"
+        "updated_at": "2026-05-10T08:23:24.298332+00:00"
       }
     },
     {

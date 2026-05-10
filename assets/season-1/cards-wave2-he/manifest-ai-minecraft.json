@@ -47,9 +47,9 @@
       "title_he": "אימון מודל",
       "png": "assets/season-1/cards-wave2-he/ai/03-model-training.png",
       "webp": "assets/season-1/cards-wave2-he/ai/03-model-training.webp",
-      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a0030326fc08191bbc2f36791eca6a3.png",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e109f-62cb-7853-8526-06c16cf351bd/ig_02582b7e0df98e40016a003fe7b050819183fac1b77e453342.png",
       "generation_status_he": "נוצר ויובא מתמונה יחידה",
-      "updated_at": "2026-05-10T07:15:35.771015+00:00"
+      "updated_at": "2026-05-10T08:23:24.299520+00:00"
     },
     {
       "card_id": "ai-04-neural-network",
@@ -206,5 +206,5 @@
       "webp": "assets/season-1/cards-wave2-he/ai-minecraft-20-cards-contact-sheet.webp"
     }
   ],
-  "status_he": "סט בינה מלאכותית: 10 קלפים נוצרו מחדש אחד־אחד בכלי image generation ויובאו כ-PNG/WebP."
+  "status_he": "בתהליך החלפה לנכסי image generation אחד־אחד."
 }

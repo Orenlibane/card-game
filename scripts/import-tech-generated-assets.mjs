@@ -17,6 +17,16 @@ const mapping = [
   ["card", "angular", "08-http-client", `${generated}/ig_0693f615c95f808d016a002faf04688191be24b4abb3ccb388.png`],
   ["card", "angular", "09-cli", `${generated}/ig_0693f615c95f808d016a003014a70c8191be96a5b3dcabb37d.png`],
   ["card", "angular", "10-hydration", `${generated}/ig_0693f615c95f808d016a0031a64e50819183ca89235bdc795f.png`],
+  ["card", "codex", "01-coding-agent", `${generated}/ig_0693f615c95f808d016a0036dc88dc81919ae8e729d54d2cd9.png`],
+  ["card", "codex", "02-workspace", `${generated}/ig_0693f615c95f808d016a0037414bc88191a91b015ef1d0253a.png`],
+  ["card", "codex", "03-tasks", `${generated}/ig_0693f615c95f808d016a0037c564408191a8fa99cf34d2e9d3.png`],
+  ["card", "codex", "04-skills", `${generated}/ig_0693f615c95f808d016a0038346ea48191958982c13f92f61c.png`],
+  ["card", "codex", "05-sandbox", `${generated}/ig_0693f615c95f808d016a0039b43350819196ab89a5d297aa8a.png`],
+  ["card", "codex", "06-code-review", `${generated}/ig_0693f615c95f808d016a003bb55adc8191bf2a61b19a5e3ffb.png`],
+  ["card", "codex", "07-parallel-agents", `${generated}/ig_0693f615c95f808d016a003c1fab10819191d56cc5d6906765.png`],
+  ["card", "codex", "08-cli", `${generated}/ig_0693f615c95f808d016a003e747d188191828b9622a556ce34.png`],
+  ["card", "codex", "09-automations", `${generated}/ig_0693f615c95f808d016a003ee664c48191bf6667a5931948a4.png`],
+  ["card", "codex", "10-pull-requests", `${generated}/ig_0693f615c95f808d016a003f6004348191afb199b726757047.png`],
 ];
 
 const py = `
@@ -53,8 +63,10 @@ def contact(paths, out, cols=5):
     sheet.save(out, quality=90, method=6)
 
 angular = [Path("assets/season-1/cards-tech-he/angular") / f"{name}.webp" for kind, pack, name, src in mapping if kind == "card" and pack == "angular"]
+codex = [Path("assets/season-1/cards-tech-he/codex") / f"{name}.webp" for kind, pack, name, src in mapping if kind == "card" and pack == "codex"]
 packs = [Path("assets/season-1/packs-tech-he") / f"{name}.webp" for kind, pack, name, src in mapping if kind == "pack"]
 contact(angular, "assets/season-1/cards-tech-he/angular-contact-sheet.webp")
+contact(codex, "assets/season-1/cards-tech-he/codex-contact-sheet.webp")
 contact(packs, "assets/season-1/packs-tech-he/tech-packs-contact-sheet.webp", cols=3)
 `;
 

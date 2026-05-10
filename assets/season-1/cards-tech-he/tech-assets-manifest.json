@@ -84,6 +84,66 @@
       "pack_id": "angular",
       "output_path": "assets/season-1/cards-tech-he/angular/10-hydration.webp",
       "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a0031a64e50819183ca89235bdc795f.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "codex",
+      "output_path": "assets/season-1/cards-tech-he/codex/01-coding-agent.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a0036dc88dc81919ae8e729d54d2cd9.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "codex",
+      "output_path": "assets/season-1/cards-tech-he/codex/02-workspace.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a0037414bc88191a91b015ef1d0253a.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "codex",
+      "output_path": "assets/season-1/cards-tech-he/codex/03-tasks.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a0037c564408191a8fa99cf34d2e9d3.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "codex",
+      "output_path": "assets/season-1/cards-tech-he/codex/04-skills.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a0038346ea48191958982c13f92f61c.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "codex",
+      "output_path": "assets/season-1/cards-tech-he/codex/05-sandbox.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a0039b43350819196ab89a5d297aa8a.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "codex",
+      "output_path": "assets/season-1/cards-tech-he/codex/06-code-review.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a003bb55adc8191bf2a61b19a5e3ffb.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "codex",
+      "output_path": "assets/season-1/cards-tech-he/codex/07-parallel-agents.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a003c1fab10819191d56cc5d6906765.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "codex",
+      "output_path": "assets/season-1/cards-tech-he/codex/08-cli.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a003e747d188191828b9622a556ce34.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "codex",
+      "output_path": "assets/season-1/cards-tech-he/codex/09-automations.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a003ee664c48191bf6667a5931948a4.png"
+    },
+    {
+      "kind": "card",
+      "pack_id": "codex",
+      "output_path": "assets/season-1/cards-tech-he/codex/10-pull-requests.webp",
+      "source_path": "/Users/orentzezana/.codex/generated_images/019e0cc2-2e6e-7a30-ae21-954032721624/ig_0693f615c95f808d016a003f6004348191afb199b726757047.png"
     }
   ]
 }

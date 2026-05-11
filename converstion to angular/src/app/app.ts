@@ -1,4 +1,5 @@
 import { Component, OnDestroy, OnInit, computed, inject, signal } from '@angular/core';
+import { GameApiService } from './game-api.service';
 import { GameDataService } from './game-data.service';
 import { GameStateService } from './game-state.service';
 import { CardData } from './models';
@@ -13,9 +14,12 @@ import { ThreePackSceneComponent } from './three-pack-scene.component';
 export class App implements OnInit, OnDestroy {
   protected readonly dataService = inject(GameDataService);
   protected readonly game = inject(GameStateService);
+  private readonly api = inject(GameApiService);
   protected readonly openingPhase = signal<'idle' | 'charging' | 'revealing'>('idle');
   protected readonly openingPackPath = signal('');
   protected readonly openingInspectedCardId = signal<string | null>(null);
+  protected readonly introActive = signal(true);
+  protected readonly introExiting = signal(false);
 
   protected readonly quiz = computed(() => this.game.state()?.quiz ?? null);
   protected readonly currentQuestion = computed(() => {
@@ -49,13 +53,23 @@ export class App implements OnInit, OnDestroy {
     return this.lastOpenedCards().find((opened) => opened.cardId === cardId) ?? null;
   });
   protected readonly lastDuplicateCount = computed(() => this.lastOpenedCards().filter((opened) => opened.duplicate).length);
-  protected readonly promoPack = computed(() => this.game.packs().find((pack) => pack.pack_id === 'world-wonders') ?? null);
+  protected readonly dailyDeal = computed(() => this.game.dailyDeal());
   private readonly openingTimers: Array<ReturnType<typeof window.setTimeout>> = [];
+  private readonly introTimers: Array<ReturnType<typeof window.setTimeout>> = [];
 
   async ngOnInit(): Promise<void> {
     await this.dataService.load();
     const data = this.dataService.data();
-    if (data) this.game.init(data);
+    if (data) {
+      let serverState = null;
+      try {
+        serverState = await this.api.loadPlayerState();
+      } catch {
+        this.api.markUnavailable();
+      }
+      this.game.init(data, serverState);
+      this.startIntro();
+    }
 
     window.setInterval(() => {
       const current = this.game.state();
@@ -68,6 +82,7 @@ export class App implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.clearOpeningTimers();
+    this.clearIntroTimers();
   }
 
   protected assetUrl(path?: string): string {
@@ -114,7 +129,7 @@ export class App implements OnInit, OnDestroy {
     const pack = this.game.selectedPack();
     if (!state || !rules || !pack) return;
 
-    if (state.coins < rules.pack_cost) {
+    if (state.coins < this.game.selectedPackCost()) {
       this.game.openPack();
       return;
     }
@@ -124,15 +139,16 @@ export class App implements OnInit, OnDestroy {
     this.openingPackPath.set(pack.pack_asset_path);
     this.openingPhase.set('charging');
 
-    this.openingTimers.push(window.setTimeout(() => {
-      this.game.openPack();
-      this.openingPhase.set('revealing');
+    this.openingTimers.push(window.setTimeout(async () => {
+      await this.game.openPack();
+      this.openingPhase.set(this.lastOpenedCards().length ? 'revealing' : 'idle');
     }, 1500));
 
   }
 
-  protected buyPromoPack(): void {
-    const pack = this.promoPack();
+  protected buyDailyDeal(): void {
+    const deal = this.dailyDeal();
+    const pack = deal?.pack ?? null;
     if (!pack || this.openingPhase() !== 'idle') return;
 
     this.game.selectPack(pack.pack_id);
@@ -155,9 +171,39 @@ export class App implements OnInit, OnDestroy {
     this.game.selectCard(opened.cardId);
   }
 
+  protected dismissIntro(): void {
+    this.clearIntroTimers();
+    this.introExiting.set(true);
+    this.introTimers.push(window.setTimeout(() => {
+      this.introActive.set(false);
+      this.introExiting.set(false);
+    }, 420));
+  }
+
   private clearOpeningTimers(): void {
     this.openingTimers.forEach((timer) => window.clearTimeout(timer));
     this.openingTimers.length = 0;
+  }
+
+  private startIntro(): void {
+    const prefersReducedMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) {
+      this.introTimers.push(window.setTimeout(() => this.dismissIntro(), 700));
+      return;
+    }
+
+    this.introTimers.push(window.setTimeout(() => {
+      this.introExiting.set(true);
+    }, 2850));
+    this.introTimers.push(window.setTimeout(() => {
+      this.introActive.set(false);
+      this.introExiting.set(false);
+    }, 3350));
+  }
+
+  private clearIntroTimers(): void {
+    this.introTimers.forEach((timer) => window.clearTimeout(timer));
+    this.introTimers.length = 0;
   }
 
   private renderGameToText(): string {
@@ -170,6 +216,7 @@ export class App implements OnInit, OnDestroy {
       coins: state?.coins ?? 0,
       selectedPack: pack?.pack_title_he ?? null,
       selectedCard: card?.title_he ?? null,
+      introActive: this.introActive(),
       discoveredInPack: pack ? this.game.discoveredSet(pack.pack_id).size : 0,
       ownedInPack: this.game.ownedCount(),
       openingPhase: this.openingPhase(),
@@ -179,6 +226,7 @@ export class App implements OnInit, OnDestroy {
             cards: state.lastPackOpen.cards.length,
             duplicates: state.lastPackOpen.cards.filter((card) => card.duplicate).length,
             duplicateCoins: state.lastPackOpen.duplicateCoins,
+            duplicateInventory: this.game.duplicateTotalCount(),
           }
         : null,
       quiz: quiz

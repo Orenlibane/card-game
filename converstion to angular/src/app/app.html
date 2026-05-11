@@ -17,6 +17,48 @@
     [class.view-shop]="state.view === 'shop'">
     <div class="spark-field" aria-hidden="true"></div>
 
+    @if (introActive()) {
+      <section
+        class="startup-intro"
+        [class.exit]="introExiting()"
+        aria-label="פתיחת המשחק">
+        <div class="intro-streaks" aria-hidden="true"></div>
+        <div class="intro-table" aria-hidden="true">
+          @for (pack of game.packs().slice(0, 6); track pack.pack_id; let i = $index) {
+            <img
+              class="intro-mini-pack"
+              [src]="assetUrl(pack.pack_asset_path)"
+              [alt]="''">
+          }
+        </div>
+
+        <div class="intro-centerpiece">
+          <div class="intro-ring" aria-hidden="true"></div>
+          <div class="intro-logo-mark" aria-hidden="true">ע</div>
+          <h1>אוספים עובדות</h1>
+          <p>פותחים עונה חדשה</p>
+
+          <div class="intro-pack-burst" aria-hidden="true">
+            @if (game.selectedPack(); as introPack) {
+              <img class="intro-main-pack" [src]="assetUrl(introPack.pack_asset_path)" [alt]="''">
+            }
+            @for (card of game.selectedPack().cards.slice(0, 4); track card.card_id; let i = $index) {
+              <img
+                class="intro-flying-card"
+                [src]="assetUrl(card.asset_path)"
+                [alt]="''">
+            }
+          </div>
+        </div>
+
+        <div class="intro-progress" aria-hidden="true">
+          <i></i>
+        </div>
+
+        <button class="intro-skip" type="button" (click)="dismissIntro()">דלג</button>
+      </section>
+    }
+
     <header class="game-header">
       <button class="round-button reset-button" type="button" aria-label="איפוס משחק" (click)="game.reset()">↺</button>
 
@@ -58,7 +100,7 @@
               (click)="game.selectPack(pack.pack_id)">
               <img [src]="assetUrl(pack.pack_asset_path)" [alt]="pack.pack_title_he">
               <span>{{ pack.pack_title_he }}</span>
-              <small>{{ game.discoveredSet(pack.pack_id).size }}/{{ pack.cards.length }}</small>
+              <small>{{ game.isDailyDeal(pack.pack_id) ? '10★' : game.discoveredSet(pack.pack_id).size + '/' + pack.cards.length }}</small>
             </button>
           }
         </div>
@@ -86,7 +128,7 @@
                 <div class="screen-title">
                   <span>1. בית / מדף חבילות</span>
                   <h2>{{ game.selectedPack().pack_title_he }}</h2>
-                  <p>{{ game.selectedPack().domain_he }} · כל פתיחה נותנת {{ game.rules()?.pack_size }} קלפים</p>
+                  <p>{{ game.selectedPack().domain_he }} · כל פתיחה נותנת {{ game.rules()?.pack_size }} קלפים · {{ game.selectedPackCost() }}★</p>
                 </div>
 
                 <div class="pack-theater">
@@ -109,7 +151,7 @@
                       (click)="game.selectPack(pack.pack_id)">
                       <img [src]="assetUrl(pack.pack_asset_path)" [alt]="pack.pack_title_he">
                       <span>{{ pack.pack_title_he }}</span>
-                      <small>{{ game.discoveredSet(pack.pack_id).size }}/{{ pack.cards.length }}</small>
+                      <small>{{ game.isDailyDeal(pack.pack_id) ? 'מבצע 10★' : game.discoveredSet(pack.pack_id).size + '/' + pack.cards.length }}</small>
                     </button>
                   }
                 </div>
@@ -117,7 +159,7 @@
                 @if (lastOpenedCards().length) {
                   <div class="reveal-result">
                     <b>פתחת {{ lastOpenedCards().length }} קלפים</b>
-                    <span>כפולים נותנים {{ game.rules()?.duplicate_reward_coins }}★ כל אחד</span>
+                    <span>כפולים נשמרים למכירה בחנות · {{ game.rules()?.duplicate_reward_coins }}★ לכל עותק</span>
                   </div>
                   <div class="revealed-strip" aria-label="קלפים שנפתחו">
                     @for (opened of lastOpenedCards(); track opened.cardId) {
@@ -127,7 +169,7 @@
                       [class.duplicate]="opened.duplicate"
                       (click)="game.selectCard(opened.cardId)">
                         <img [src]="assetUrl(opened.card!.asset_path)" [alt]="opened.card!.title_he">
-                        <span>{{ opened.duplicate ? '+5★' : 'חדש' }}</span>
+                        <span>{{ opened.duplicate ? 'כפול' : 'חדש' }}</span>
                       </button>
                     }
                   </div>
@@ -135,7 +177,7 @@
 
                 <div class="screen-actions">
                   <button class="primary-game-button" type="button" (click)="playPackOpening()" [disabled]="openingPhase() !== 'idle'">
-                    פתח חבילה · {{ game.rules()?.pack_cost || 0 }}★
+                    פתח חבילה · {{ game.selectedPackCost() }}★
                   </button>
                   <button class="secondary-game-button" type="button" (click)="game.setView('album')">לאלבום</button>
                 </div>
@@ -166,7 +208,7 @@
                 @if (lastOpenedCards().length) {
                   <div class="last-open-panel">
                     <b>הפתיחה האחרונה: {{ lastOpenedCards().length }} קלפים</b>
-                    <span>כפולים: {{ lastDuplicateCount() }} · בונוס: {{ state.lastPackOpen?.duplicateCoins || 0 }}★</span>
+                    <span>כפולים: {{ lastDuplicateCount() }} · שווי מכירה: {{ state.lastPackOpen?.duplicateCoins || 0 }}★</span>
                   </div>
                 }
 
@@ -325,31 +367,86 @@
                 <div class="screen-title compact">
                   <span>5. חנות</span>
                   <h2>חנות</h2>
-                  <p>{{ state.coins }} מטבעות זמינים</p>
+                  <p>{{ state.coins }} מטבעות זמינים · {{ game.duplicateTotalCount() }} כפולים למכירה</p>
                 </div>
 
                 <div class="shop-shelves">
                   <div class="awning" aria-hidden="true"></div>
-                  @if (promoPack(); as pack) {
+                  @if (dailyDeal(); as deal) {
                     <article class="promo-shop-card">
                       <div class="promo-pack-art">
-                        <img [src]="assetUrl(pack.pack_asset_path)" [alt]="pack.pack_title_he">
-                        <span>חדש</span>
+                        <img [src]="assetUrl(deal.pack.pack_asset_path)" [alt]="deal.pack.pack_title_he">
+                        <span>10★</span>
                       </div>
                       <div class="promo-shop-copy">
-                        <b>חבילת פרומו</b>
-                        <h3>{{ pack.pack_title_he }}</h3>
-                        <p>10 קלפי פלאי עולם. כל פתיחה שולפת {{ game.rules()?.pack_size }} קלפים בלבד.</p>
-                        <button class="primary-game-button" type="button" (click)="buyPromoPack()" [disabled]="openingPhase() !== 'idle'">
-                          קנה ופתח · {{ game.rules()?.pack_cost || 0 }}★
+                        <b>{{ deal.available ? 'מבצע יומי' : 'המבצע היומי נוצל' }}</b>
+                        <h3>{{ deal.pack.pack_title_he }}</h3>
+                        <p>{{ deal.available ? 'חבילה אחת במחיר מוזל.' : 'אפשר לקנות שוב במחיר רגיל מהבית.' }} כל פתיחה שולפת {{ game.rules()?.pack_size }} קלפים מתוך {{ deal.pack.cards.length }}.</p>
+                        <div class="price-row">
+                          <del>{{ deal.regularPrice }}★</del>
+                          <strong>{{ deal.price }}★</strong>
+                        </div>
+                        <button class="primary-game-button" type="button" (click)="buyDailyDeal()" [disabled]="openingPhase() !== 'idle' || !deal.available || state.coins < deal.price">
+                          {{ deal.available ? 'קנה ופתח · ' + deal.price + '★' : 'נוצל היום' }}
                         </button>
                       </div>
                     </article>
                   }
+
+                  <section class="shop-panel odds-panel" aria-label="סיכויי קבלה">
+                    <div class="shop-panel-title">
+                      <b>סיכויי קבלה</b>
+                      <span>{{ game.selectedPack().pack_title_he }}</span>
+                    </div>
+                    <div class="odds-table">
+                      <div class="odds-row odds-head">
+                        <span>נדירות</span>
+                        <span>קלפים</span>
+                        <span>לשליפה</span>
+                        <span>בחבילה</span>
+                      </div>
+                      @for (row of game.dropRatesFor(game.selectedPack()); track row.rarity) {
+                        <div class="odds-row">
+                          <span>{{ row.label }}</span>
+                          <span>{{ row.count }}/{{ game.selectedPack().cards.length }}</span>
+                          <span>{{ row.singleChance }}%</span>
+                          <span>{{ row.packChance }}%</span>
+                        </div>
+                      }
+                    </div>
+                  </section>
+
+                  <section class="shop-panel duplicate-panel" aria-label="מכירת כפולים">
+                    <div class="shop-panel-title">
+                      <b>החלפת כפולים</b>
+                      <span>שווי כולל {{ game.duplicateTotalValue() }}★</span>
+                    </div>
+                    @if (game.duplicateRows().length) {
+                      <div class="duplicate-list">
+                        @for (row of game.duplicateRows(); track row.card.card_id) {
+                          <div class="duplicate-row">
+                            <img [src]="assetUrl(row.card.asset_path)" [alt]="row.card.title_he">
+                            <div>
+                              <b>{{ row.card.title_he }}</b>
+                              <span>{{ row.pack.pack_title_he }} · {{ row.count }} עותקים · {{ row.value }}★</span>
+                            </div>
+                            <button type="button" class="sell-button" (click)="game.sellDuplicate(row.card.card_id)">מכור</button>
+                          </div>
+                        }
+                      </div>
+                      <button class="secondary-game-button wide" type="button" (click)="game.sellAllDuplicates()">מכור הכל · {{ game.duplicateTotalValue() }}★</button>
+                    } @else {
+                      <div class="shop-empty-note compact-note">
+                        <b>אין כפולים</b>
+                        <span>כשתפתח קלף שכבר נחשף, הוא יופיע כאן למכירה.</span>
+                      </div>
+                    }
+                  </section>
+
                   <div class="wood-shelf" aria-hidden="true"></div>
-                  <div class="shop-empty-note">
+                  <div class="shop-empty-note compact-note">
                     <b>בקרוב</b>
-                    <span>בונוסים ושדרוגים ייכנסו למדפים הבאים.</span>
+                    <span>עוד מבצעים ושדרוגים ייכנסו למדפים הבאים.</span>
                   </div>
                 </div>
               </section>
@@ -389,7 +486,7 @@
                       <div class="card-art-frame opening-card-frame">
                         <img [src]="assetUrl(opened.card!.asset_path)" [alt]="opened.card!.title_he">
                       </div>
-                      <span>{{ opened.duplicate ? '+5★ כפול' : 'חדש!' }}</span>
+                      <span>{{ opened.duplicate ? 'כפול למכירה' : 'חדש!' }}</span>
                     </button>
                   }
                 </div>
@@ -400,7 +497,7 @@
                       <img [src]="assetUrl(opened.card!.asset_path)" [alt]="opened.card!.title_he">
                     </div>
                     <div class="opening-card-details">
-                      <span>{{ opened.duplicate ? 'כפול · +5★' : 'קלף חדש נחשף' }}</span>
+                      <span>{{ opened.duplicate ? 'כפול נשמר בחנות' : 'קלף חדש נחשף' }}</span>
                       <b>{{ opened.card!.title_he }}</b>
                       <button class="primary-game-button" type="button" (click)="moveOpenedCardToAlbum()">העבר לאלבום</button>
                     </div>
@@ -409,7 +506,7 @@
 
                 <div class="opening-copy result">
                   <b>נפתחו {{ lastOpenedCards().length }} קלפים</b>
-                  <span>לחץ על קלף כדי לראות אותו · ואז העבר לאלבום · {{ lastDuplicateCount() }} כפולים · +{{ game.state()?.lastPackOpen?.duplicateCoins || 0 }}★</span>
+                  <span>לחץ על קלף כדי לראות אותו · {{ lastDuplicateCount() }} כפולים נשמרו למכירה</span>
                   @if (!inspectedOpenedCard()) {
                     <button class="primary-game-button" type="button" (click)="moveOpenedCardToAlbum()">העבר לאלבום</button>
                   }

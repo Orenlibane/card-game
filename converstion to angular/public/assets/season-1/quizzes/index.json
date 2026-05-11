@@ -151,6 +151,83 @@
       "domain_he": "בנקאות, חיסכון והתנהלות פיננסית",
       "card_count": 1,
       "quiz_path": "assets/season-1/quizzes/bank-hapoalim.json"
+    },
+    {
+      "pack_id": "brawlstars",
+      "pack_title_he": "ברולסטארס",
+      "domain_he": "דמויות קרב מקוריות, עבודת צוות ואסטרטגיה",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/brawlstars.json"
+    },
+    {
+      "pack_id": "cube-adventures",
+      "pack_title_he": "עולם קוביות",
+      "domain_he": "בנייה, כרייה והרפתקאות קוביות",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/cube-adventures.json"
+    },
+    {
+      "pack_id": "breakfast",
+      "pack_title_he": "ארוחות בוקר",
+      "domain_he": "תזונה, אנרגיה והרגלי בוקר",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/breakfast.json"
+    },
+    {
+      "pack_id": "lunch",
+      "pack_title_he": "ארוחות צהריים",
+      "domain_he": "אוכל מבושל, תכנון צלחת וטעמים",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/lunch.json"
+    },
+    {
+      "pack_id": "computer-games",
+      "pack_title_he": "משחקי מחשב",
+      "domain_he": "סוגי משחקים, מיומנויות ועיצוב משחק",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/computer-games.json"
+    },
+    {
+      "pack_id": "board-games",
+      "pack_title_he": "משחקי קופסה",
+      "domain_he": "חוקים, תורות, קוביות ואסטרטגיה",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/board-games.json"
+    },
+    {
+      "pack_id": "sports",
+      "pack_title_he": "ספורט",
+      "domain_he": "ענפי ספורט, תנועה וכללים",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/sports.json"
+    },
+    {
+      "pack_id": "music",
+      "pack_title_he": "מוזיקה",
+      "domain_he": "כלי נגינה, קצב וצלילים",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/music.json"
+    },
+    {
+      "pack_id": "desserts",
+      "pack_title_he": "קינוחים",
+      "domain_he": "אפייה, מתוקים וטעמים",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/desserts.json"
+    },
+    {
+      "pack_id": "robots",
+      "pack_title_he": "רובוטים",
+      "domain_he": "חיישנים, תנועה ותכנות",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/robots.json"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "pack_title_he": "גיבורי על מקוריים",
+      "domain_he": "דמויות מקוריות, כוחות ודילמות",
+      "card_count": 10,
+      "quiz_path": "assets/season-1/quizzes/superheroes-original.json"
     }
   ]
 }

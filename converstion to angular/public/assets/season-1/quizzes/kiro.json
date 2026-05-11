@@ -32,39 +32,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי Spec Driven?",
+          "question_he": "מה נכון לפי הקלף על Spec Driven?",
           "options_he": [
-            "Kiro מדגיש פיתוח שמתחיל ממפרט ברור",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על Spec Driven: לא נכון שמפרט טוב מחבר דרישות, עיצוב ומשימות.",
+            "על Spec Driven: Kiro מדגיש פיתוח שמתחיל ממפרט ברור.",
+            "על Spec Driven: לא נכון שכוונה כתובה מפחיתה ניחושים."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "Kiro מדגיש פיתוח שמתחיל ממפרט ברור"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי Spec Driven?",
+          "question_he": "איזו מסקנה מדויקת על Spec Driven עולה מהקלף?",
           "options_he": [
-            "Kiro מדגיש פיתוח שמתחיל ממפרט ברור",
-            "זהו נושא מחבילת חיות.",
-            "אין עליו מידע בקלף."
+            "על Spec Driven: לא נכון שכוונה כתובה מפחיתה ניחושים.",
+            "על Spec Driven: לא נכון שKiro מדגיש פיתוח שמתחיל ממפרט ברור.",
+            "על Spec Driven: מפרט טוב מחבר דרישות, עיצוב ומשימות."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "Kiro מדגיש פיתוח שמתחיל ממפרט ברור"
+          "correct_answer_index": 2,
+          "source_fact_he": "מפרט טוב מחבר דרישות, עיצוב ומשימות"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא Spec Driven?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את Spec Driven?",
           "options_he": [
-            "Spec Driven קשור לתג מפרט ולעולם הפיתוח.",
-            "זה תמיד נושא של מזג אוויר.",
-            "אי אפשר ללמוד עליו מתוך עובדות."
+            "על Spec Driven: כוונה כתובה מפחיתה ניחושים.",
+            "על Spec Driven: לא נכון שKiro מדגיש פיתוח שמתחיל ממפרט ברור.",
+            "על Spec Driven: לא נכון שמפרט טוב מחבר דרישות, עיצוב ומשימות."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "מפרט טוב מחבר דרישות, עיצוב ומשימות"
+          "source_fact_he": "כוונה כתובה מפחיתה ניחושים"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-tech-he/kiro/01-spec-driven.png",
+        "project_webp": "assets/season-1/cards-tech-he/kiro/01-spec-driven.webp",
+        "updated_at": "2026-05-11T06:45:22.206762+00:00"
       }
     },
     {
@@ -86,39 +93,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי דרישות?",
+          "question_he": "מה נכון לפי הקלף על דרישות?",
           "options_he": [
-            "דרישה מסבירה מה המערכת צריכה לעשות",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על דרישות: קבלה ברורה לא עוזרת לדעת אם הצלחנו.",
+            "על דרישות: לא נכון שדרישות טובות חוסכות בלבול בהמשך.",
+            "על דרישות: דרישה מסבירה מה המערכת צריכה לעשות."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 2,
           "source_fact_he": "דרישה מסבירה מה המערכת צריכה לעשות"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי דרישות?",
+          "question_he": "איזו מסקנה מדויקת על דרישות עולה מהקלף?",
           "options_he": [
-            "דרישה מסבירה מה המערכת צריכה לעשות",
-            "זהו נושא מחבילת חיות.",
-            "אין עליו מידע בקלף."
+            "על דרישות: קבלה ברורה עוזרת לדעת אם הצלחנו.",
+            "על דרישות: לא נכון שדרישות טובות חוסכות בלבול בהמשך.",
+            "על דרישות: לא נכון שדרישה מסבירה מה המערכת צריכה לעשות."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "דרישה מסבירה מה המערכת צריכה לעשות"
+          "source_fact_he": "קבלה ברורה עוזרת לדעת אם הצלחנו"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא דרישות?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את דרישות?",
           "options_he": [
-            "דרישות קשור לתג מוצר ולעולם הפיתוח.",
-            "זה תמיד נושא של מזג אוויר.",
-            "אי אפשר ללמוד עליו מתוך עובדות."
+            "על דרישות: לא נכון שדרישה מסבירה מה המערכת צריכה לעשות.",
+            "על דרישות: דרישות טובות חוסכות בלבול בהמשך.",
+            "על דרישות: קבלה ברורה לא עוזרת לדעת אם הצלחנו."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "קבלה ברורה עוזרת לדעת אם הצלחנו"
+          "correct_answer_index": 1,
+          "source_fact_he": "דרישות טובות חוסכות בלבול בהמשך"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-tech-he/kiro/02-requirements.png",
+        "project_webp": "assets/season-1/cards-tech-he/kiro/02-requirements.webp",
+        "updated_at": "2026-05-11T06:45:22.206762+00:00"
       }
     },
     {
@@ -140,11 +154,11 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי EARS?",
+          "question_he": "מה נכון לפי הקלף על EARS?",
           "options_he": [
-            "EARS היא דרך לנסח דרישות בצורה עקבית",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על EARS: EARS היא דרך לנסח דרישות בצורה עקבית.",
+            "על EARS: לא נכון שמבנה קבוע מקל לקרוא תנאי קבלה.",
+            "על EARS: דרישה מדויקת לא עוזרת גם לאדם וגם לסוכן."
           ],
           "correct_answer_index": 0,
           "source_fact_he": "EARS היא דרך לנסח דרישות בצורה עקבית"
@@ -152,27 +166,34 @@
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי EARS?",
+          "question_he": "איזו מסקנה מדויקת על EARS עולה מהקלף?",
           "options_he": [
-            "EARS היא דרך לנסח דרישות בצורה עקבית",
-            "זהו נושא מחבילת חיות.",
-            "אין עליו מידע בקלף."
+            "על EARS: דרישה מדויקת לא עוזרת גם לאדם וגם לסוכן.",
+            "על EARS: מבנה קבוע מקל לקרוא תנאי קבלה.",
+            "על EARS: לא נכון שEARS היא דרך לנסח דרישות בצורה עקבית."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "EARS היא דרך לנסח דרישות בצורה עקבית"
+          "correct_answer_index": 1,
+          "source_fact_he": "מבנה קבוע מקל לקרוא תנאי קבלה"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא EARS?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את EARS?",
           "options_he": [
-            "EARS קשור לתג דרישות ולעולם הפיתוח.",
-            "זה תמיד נושא של מזג אוויר.",
-            "אי אפשר ללמוד עליו מתוך עובדות."
+            "על EARS: לא נכון שEARS היא דרך לנסח דרישות בצורה עקבית.",
+            "על EARS: לא נכון שמבנה קבוע מקל לקרוא תנאי קבלה.",
+            "על EARS: דרישה מדויקת עוזרת גם לאדם וגם לסוכן."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "מבנה קבוע מקל לקרוא תנאי קבלה"
+          "correct_answer_index": 2,
+          "source_fact_he": "דרישה מדויקת עוזרת גם לאדם וגם לסוכן"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-tech-he/kiro/03-ears.png",
+        "project_webp": "assets/season-1/cards-tech-he/kiro/03-ears.webp",
+        "updated_at": "2026-05-11T06:45:22.206762+00:00"
       }
     },
     {
@@ -194,39 +215,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי מסמכי עיצוב?",
+          "question_he": "מה נכון לפי הקלף על מסמכי עיצוב?",
           "options_he": [
-            "מסמך עיצוב מסביר איך הפתרון בנוי",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על מסמכי עיצוב: לא נכון שהחלטות טכניות כתובות קלות יותר לבדיקה.",
+            "על מסמכי עיצוב: מסמך עיצוב מסביר איך הפתרון בנוי.",
+            "על מסמכי עיצוב: עיצוב ברור לא עוזר לתחזק מערכת."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "מסמך עיצוב מסביר איך הפתרון בנוי"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי מסמכי עיצוב?",
+          "question_he": "איזו מסקנה מדויקת על מסמכי עיצוב עולה מהקלף?",
           "options_he": [
-            "מסמך עיצוב מסביר איך הפתרון בנוי",
-            "זהו נושא מחבילת חיות.",
-            "אין עליו מידע בקלף."
+            "על מסמכי עיצוב: עיצוב ברור לא עוזר לתחזק מערכת.",
+            "על מסמכי עיצוב: לא נכון שמסמך עיצוב מסביר איך הפתרון בנוי.",
+            "על מסמכי עיצוב: החלטות טכניות כתובות קלות יותר לבדיקה."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "מסמך עיצוב מסביר איך הפתרון בנוי"
+          "correct_answer_index": 2,
+          "source_fact_he": "החלטות טכניות כתובות קלות יותר לבדיקה"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא מסמכי עיצוב?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את מסמכי עיצוב?",
           "options_he": [
-            "מסמכי עיצוב קשור לתג ארכיטקטורה ולעולם הפיתוח.",
-            "זה תמיד נושא של מזג אוויר.",
-            "אי אפשר ללמוד עליו מתוך עובדות."
+            "על מסמכי עיצוב: עיצוב ברור עוזר לתחזק מערכת.",
+            "על מסמכי עיצוב: לא נכון שמסמך עיצוב מסביר איך הפתרון בנוי.",
+            "על מסמכי עיצוב: לא נכון שהחלטות טכניות כתובות קלות יותר לבדיקה."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "החלטות טכניות כתובות קלות יותר לבדיקה"
+          "source_fact_he": "עיצוב ברור עוזר לתחזק מערכת"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-tech-he/kiro/04-design-docs.png",
+        "project_webp": "assets/season-1/cards-tech-he/kiro/04-design-docs.webp",
+        "updated_at": "2026-05-11T06:45:22.206762+00:00"
       }
     },
     {
@@ -248,39 +276,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי תוכנית משימות?",
+          "question_he": "מה נכון לפי הקלף על תוכנית משימות?",
           "options_he": [
-            "משימות הופכות מפרט לצעדים קטנים",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על תוכנית משימות: לא נכון שצעד קטן קל יותר לבצע ולבדוק.",
+            "על תוכנית משימות: לא נכון שסדר משימות טוב מפחית סיכונים.",
+            "על תוכנית משימות: משימות הופכות מפרט לצעדים קטנים."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 2,
           "source_fact_he": "משימות הופכות מפרט לצעדים קטנים"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי תוכנית משימות?",
+          "question_he": "איזו מסקנה מדויקת על תוכנית משימות עולה מהקלף?",
           "options_he": [
-            "משימות הופכות מפרט לצעדים קטנים",
-            "זהו נושא מחבילת חיות.",
-            "אין עליו מידע בקלף."
+            "על תוכנית משימות: צעד קטן קל יותר לבצע ולבדוק.",
+            "על תוכנית משימות: לא נכון שסדר משימות טוב מפחית סיכונים.",
+            "על תוכנית משימות: לא נכון שמשימות הופכות מפרט לצעדים קטנים."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "משימות הופכות מפרט לצעדים קטנים"
+          "source_fact_he": "צעד קטן קל יותר לבצע ולבדוק"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא תוכנית משימות?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את תוכנית משימות?",
           "options_he": [
-            "תוכנית משימות קשור לתג ביצוע ולעולם הפיתוח.",
-            "זה תמיד נושא של מזג אוויר.",
-            "אי אפשר ללמוד עליו מתוך עובדות."
+            "על תוכנית משימות: לא נכון שמשימות הופכות מפרט לצעדים קטנים.",
+            "על תוכנית משימות: סדר משימות טוב מפחית סיכונים.",
+            "על תוכנית משימות: לא נכון שצעד קטן קל יותר לבצע ולבדוק."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "צעד קטן קל יותר לבצע ולבדוק"
+          "correct_answer_index": 1,
+          "source_fact_he": "סדר משימות טוב מפחית סיכונים"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-tech-he/kiro/05-task-plan.png",
+        "project_webp": "assets/season-1/cards-tech-he/kiro/05-task-plan.webp",
+        "updated_at": "2026-05-11T06:45:22.206762+00:00"
       }
     },
     {
@@ -302,11 +337,11 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי Steering?",
+          "question_he": "מה נכון לפי הקלף על Steering?",
           "options_he": [
-            "Steering נותן לסוכן כללים והקשר קבועים",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על Steering: Steering נותן לסוכן כללים והקשר קבועים.",
+            "על Steering: לא נכון שכללים טובים שומרים על סגנון הפרויקט.",
+            "על Steering: לא נכון שהקשר נכון מצמצם תיקונים חוזרים."
           ],
           "correct_answer_index": 0,
           "source_fact_he": "Steering נותן לסוכן כללים והקשר קבועים"
@@ -314,27 +349,34 @@
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי Steering?",
+          "question_he": "איזו מסקנה מדויקת על Steering עולה מהקלף?",
           "options_he": [
-            "Steering נותן לסוכן כללים והקשר קבועים",
-            "זהו נושא מחבילת חיות.",
-            "אין עליו מידע בקלף."
+            "על Steering: לא נכון שהקשר נכון מצמצם תיקונים חוזרים.",
+            "על Steering: כללים טובים שומרים על סגנון הפרויקט.",
+            "על Steering: לא נכון שSteering נותן לסוכן כללים והקשר קבועים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "Steering נותן לסוכן כללים והקשר קבועים"
+          "correct_answer_index": 1,
+          "source_fact_he": "כללים טובים שומרים על סגנון הפרויקט"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא Steering?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את Steering?",
           "options_he": [
-            "Steering קשור לתג הנחיות ולעולם הפיתוח.",
-            "זה תמיד נושא של מזג אוויר.",
-            "אי אפשר ללמוד עליו מתוך עובדות."
+            "על Steering: לא נכון שSteering נותן לסוכן כללים והקשר קבועים.",
+            "על Steering: לא נכון שכללים טובים שומרים על סגנון הפרויקט.",
+            "על Steering: הקשר נכון מצמצם תיקונים חוזרים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "כללים טובים שומרים על סגנון הפרויקט"
+          "correct_answer_index": 2,
+          "source_fact_he": "הקשר נכון מצמצם תיקונים חוזרים"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-tech-he/kiro/06-steering.png",
+        "project_webp": "assets/season-1/cards-tech-he/kiro/06-steering.webp",
+        "updated_at": "2026-05-11T06:45:22.206762+00:00"
       }
     },
     {
@@ -356,39 +398,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי Hooks?",
+          "question_he": "מה נכון לפי הקלף על Hooks?",
           "options_he": [
-            "Hook מפעיל פעולה בזמן אירוע מסוים",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על Hooks: בדיקות או פורמט לא יכולים לרוץ אוטומטית.",
+            "על Hooks: Hook מפעיל פעולה בזמן אירוע מסוים.",
+            "על Hooks: לא נכון שHooks מחברים workflow לקצב העבודה."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "Hook מפעיל פעולה בזמן אירוע מסוים"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי Hooks?",
+          "question_he": "איזו מסקנה מדויקת על Hooks עולה מהקלף?",
           "options_he": [
-            "Hook מפעיל פעולה בזמן אירוע מסוים",
-            "זהו נושא מחבילת חיות.",
-            "אין עליו מידע בקלף."
+            "על Hooks: לא נכון שHooks מחברים workflow לקצב העבודה.",
+            "על Hooks: לא נכון שHook מפעיל פעולה בזמן אירוע מסוים.",
+            "על Hooks: בדיקות או פורמט יכולים לרוץ אוטומטית."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "Hook מפעיל פעולה בזמן אירוע מסוים"
+          "correct_answer_index": 2,
+          "source_fact_he": "בדיקות או פורמט יכולים לרוץ אוטומטית"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא Hooks?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את Hooks?",
           "options_he": [
-            "Hooks קשור לתג אוטומציה ולעולם הפיתוח.",
-            "זה תמיד נושא של מזג אוויר.",
-            "אי אפשר ללמוד עליו מתוך עובדות."
+            "על Hooks: Hooks מחברים workflow לקצב העבודה.",
+            "על Hooks: לא נכון שHook מפעיל פעולה בזמן אירוע מסוים.",
+            "על Hooks: בדיקות או פורמט לא יכולים לרוץ אוטומטית."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "בדיקות או פורמט יכולים לרוץ אוטומטית"
+          "source_fact_he": "Hooks מחברים workflow לקצב העבודה"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-tech-he/kiro/07-agent-hooks.png",
+        "project_webp": "assets/season-1/cards-tech-he/kiro/07-agent-hooks.webp",
+        "updated_at": "2026-05-11T06:45:22.206762+00:00"
       }
     },
     {
@@ -410,39 +459,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי סוכנים מותאמים?",
+          "question_he": "מה נכון לפי הקלף על סוכנים מותאמים?",
           "options_he": [
-            "סוכן מותאם יכול להתמחות בתפקיד מסוים",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על סוכנים מותאמים: חלוקת תפקידים לא עוזרת בפרויקטים מורכבים.",
+            "על סוכנים מותאמים: לא נכון שהתמחות טובה משפרת עקביות.",
+            "על סוכנים מותאמים: סוכן מותאם יכול להתמחות בתפקיד מסוים."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 2,
           "source_fact_he": "סוכן מותאם יכול להתמחות בתפקיד מסוים"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי סוכנים מותאמים?",
+          "question_he": "איזו מסקנה מדויקת על סוכנים מותאמים עולה מהקלף?",
           "options_he": [
-            "סוכן מותאם יכול להתמחות בתפקיד מסוים",
-            "זהו נושא מחבילת חיות.",
-            "אין עליו מידע בקלף."
+            "על סוכנים מותאמים: חלוקת תפקידים עוזרת בפרויקטים מורכבים.",
+            "על סוכנים מותאמים: לא נכון שהתמחות טובה משפרת עקביות.",
+            "על סוכנים מותאמים: סוכן מותאם לא יכול להתמחות בתפקיד מסוים."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "סוכן מותאם יכול להתמחות בתפקיד מסוים"
+          "source_fact_he": "חלוקת תפקידים עוזרת בפרויקטים מורכבים"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא סוכנים מותאמים?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את סוכנים מותאמים?",
           "options_he": [
-            "סוכנים מותאמים קשור לתג AI ולעולם הפיתוח.",
-            "זה תמיד נושא של מזג אוויר.",
-            "אי אפשר ללמוד עליו מתוך עובדות."
+            "על סוכנים מותאמים: סוכן מותאם לא יכול להתמחות בתפקיד מסוים.",
+            "על סוכנים מותאמים: התמחות טובה משפרת עקביות.",
+            "על סוכנים מותאמים: חלוקת תפקידים לא עוזרת בפרויקטים מורכבים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "חלוקת תפקידים עוזרת בפרויקטים מורכבים"
+          "correct_answer_index": 1,
+          "source_fact_he": "התמחות טובה משפרת עקביות"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-tech-he/kiro/08-custom-agents.png",
+        "project_webp": "assets/season-1/cards-tech-he/kiro/08-custom-agents.webp",
+        "updated_at": "2026-05-11T06:45:22.206762+00:00"
       }
     },
     {
@@ -464,11 +520,11 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי IDE CLI Web?",
+          "question_he": "מה נכון לפי הקלף על IDE CLI Web?",
           "options_he": [
-            "Kiro מציע סביבת IDE, CLI וממשק Web",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על IDE CLI Web: Kiro מציע סביבת IDE, CLI וממשק Web.",
+            "על IDE CLI Web: כל ממשק אינו מתאים לסגנון עבודה אחר.",
+            "על IDE CLI Web: אותו רעיון לא יכול לעבור בין כלים שונים."
           ],
           "correct_answer_index": 0,
           "source_fact_he": "Kiro מציע סביבת IDE, CLI וממשק Web"
@@ -476,27 +532,34 @@
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי IDE CLI Web?",
+          "question_he": "איזו מסקנה מדויקת על IDE CLI Web עולה מהקלף?",
           "options_he": [
-            "Kiro מציע סביבת IDE, CLI וממשק Web",
-            "זהו נושא מחבילת חיות.",
-            "אין עליו מידע בקלף."
+            "על IDE CLI Web: אותו רעיון לא יכול לעבור בין כלים שונים.",
+            "על IDE CLI Web: כל ממשק מתאים לסגנון עבודה אחר.",
+            "על IDE CLI Web: לא נכון שKiro מציע סביבת IDE, CLI וממשק Web."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "Kiro מציע סביבת IDE, CLI וממשק Web"
+          "correct_answer_index": 1,
+          "source_fact_he": "כל ממשק מתאים לסגנון עבודה אחר"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא IDE CLI Web?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את IDE CLI Web?",
           "options_he": [
-            "IDE CLI Web קשור לתג כלים ולעולם הפיתוח.",
-            "זה תמיד נושא של מזג אוויר.",
-            "אי אפשר ללמוד עליו מתוך עובדות."
+            "על IDE CLI Web: לא נכון שKiro מציע סביבת IDE, CLI וממשק Web.",
+            "על IDE CLI Web: כל ממשק אינו מתאים לסגנון עבודה אחר.",
+            "על IDE CLI Web: אותו רעיון יכול לעבור בין כלים שונים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "כל ממשק מתאים לסגנון עבודה אחר"
+          "correct_answer_index": 2,
+          "source_fact_he": "אותו רעיון יכול לעבור בין כלים שונים"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-tech-he/kiro/09-cli-ide-web.png",
+        "project_webp": "assets/season-1/cards-tech-he/kiro/09-cli-ide-web.webp",
+        "updated_at": "2026-05-11T06:45:22.206762+00:00"
       }
     },
     {
@@ -518,40 +581,54 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי אימות?",
+          "question_he": "מה נכון לפי הקלף על אימות?",
           "options_he": [
-            "אימות בודק שהקוד מתאים למפרט",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על אימות: לא נכון שבדיקות מגלות פערים לפני משתמשים.",
+            "על אימות: אימות בודק שהקוד מתאים למפרט.",
+            "על אימות: לא נכון שקשר בין מפרט לקוד מעלה אמון."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "אימות בודק שהקוד מתאים למפרט"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי אימות?",
+          "question_he": "איזו מסקנה מדויקת על אימות עולה מהקלף?",
           "options_he": [
-            "אימות בודק שהקוד מתאים למפרט",
-            "זהו נושא מחבילת חיות.",
-            "אין עליו מידע בקלף."
+            "על אימות: לא נכון שקשר בין מפרט לקוד מעלה אמון.",
+            "על אימות: אימות בודק שהקוד אינו מתאים למפרט.",
+            "על אימות: בדיקות מגלות פערים לפני משתמשים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "אימות בודק שהקוד מתאים למפרט"
+          "correct_answer_index": 2,
+          "source_fact_he": "בדיקות מגלות פערים לפני משתמשים"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא אימות?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את אימות?",
           "options_he": [
-            "אימות קשור לתג בדיקות ולעולם הפיתוח.",
-            "זה תמיד נושא של מזג אוויר.",
-            "אי אפשר ללמוד עליו מתוך עובדות."
+            "על אימות: קשר בין מפרט לקוד מעלה אמון.",
+            "על אימות: אימות בודק שהקוד אינו מתאים למפרט.",
+            "על אימות: לא נכון שבדיקות מגלות פערים לפני משתמשים."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "בדיקות מגלות פערים לפני משתמשים"
+          "source_fact_he": "קשר בין מפרט לקוד מעלה אמון"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-tech-he/kiro/10-validation.png",
+        "project_webp": "assets/season-1/cards-tech-he/kiro/10-validation.webp",
+        "updated_at": "2026-05-11T06:45:22.206762+00:00"
       }
     }
-  ]
+  ],
+  "image_generation": {
+    "mode": "local_pillow_render",
+    "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+    "project_png": "assets/season-1/packs-tech-he/pack-kiro.png",
+    "project_webp": "assets/season-1/packs-tech-he/pack-kiro.webp",
+    "updated_at": "2026-05-11T06:45:22.206762+00:00"
+  }
 }

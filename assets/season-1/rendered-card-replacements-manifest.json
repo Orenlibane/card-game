@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "cards": [
+    {
+      "card_id": "dinosaurs-01-tyrannosaurus",
+      "pack_id": "dinosaurs",
+      "title_he": "טירנוזאורוס",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01af9517988191ab2bf4350a32eb19.png",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/01-tyrannosaurus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/01-tyrannosaurus.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 61157,
+      "alpha_bbox": [
+        11,
+        5,
+        501,
+        710
+      ]
+    },
+    {
+      "card_id": "dinosaurs-02-triceratops",
+      "pack_id": "dinosaurs",
+      "title_he": "טריצרטופס",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b061f59081918b9a24a2f4a49351.png",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/02-triceratops.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/02-triceratops.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 48151,
+      "alpha_bbox": [
+        12,
+        5,
+        499,
+        710
+      ]
+    },
+    {
+      "card_id": "dinosaurs-03-stegosaurus",
+      "pack_id": "dinosaurs",
+      "title_he": "סטגוזאורוס",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b16c10348191b339b810e66d5ea8.png",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/03-stegosaurus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/03-stegosaurus.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 49699,
+      "alpha_bbox": [
+        12,
+        5,
+        500,
+        710
+      ]
+    },
+    {
+      "card_id": "dinosaurs-04-velociraptor",
+      "pack_id": "dinosaurs",
+      "title_he": "ולוצירפטור",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b209f0b48191bea25fe3a146b2e8.png",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/04-velociraptor.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/04-velociraptor.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 41120,
+      "alpha_bbox": [
+        11,
+        5,
+        500,
+        710
+      ]
+    },
+    {
+      "card_id": "dinosaurs-05-brachiosaurus",
+      "pack_id": "dinosaurs",
+      "title_he": "ברכיוזאורוס",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b28b9db881919be3e2c6c8df2d4c.png",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/05-brachiosaurus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/05-brachiosaurus.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 39932,
+      "alpha_bbox": [
+        11,
+        5,
+        500,
+        710
+      ]
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-06-pteranodon",
+      "title_he": "פטרנודון",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b3e21e488191b66637e765a4b2f8.png",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/06-pteranodon.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/06-pteranodon.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 16356,
+      "alpha_bbox": [
+        9,
+        5,
+        503,
+        710
+      ]
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-07-ankylosaurus",
+      "title_he": "אנקילוזאורוס",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b4e04f5881919c4d2f9e737eb7c6.png",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/07-ankylosaurus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/07-ankylosaurus.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 11000,
+      "alpha_bbox": [
+        10,
+        5,
+        502,
+        710
+      ]
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-08-diplodocus",
+      "title_he": "דיפלודוקוס",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b585395481918a681a69337b47c1.png",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/08-diplodocus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/08-diplodocus.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 39571,
+      "alpha_bbox": [
+        11,
+        5,
+        501,
+        710
+      ]
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-09-parasaurolophus",
+      "title_he": "פרזאורולופוס",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b61263d88191991c195c036dadf8.png",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/09-parasaurolophus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/09-parasaurolophus.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 37262,
+      "alpha_bbox": [
+        9,
+        5,
+        503,
+        710
+      ]
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-10-fossil",
+      "title_he": "מאובן",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b7084ee88191b70d0f384037b25a.png",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/10-fossil.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/10-fossil.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 32531,
+      "alpha_bbox": [
+        10,
+        5,
+        501,
+        710
+      ]
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-01-ancient-egypt",
+      "title_he": "מצרים העתיקה",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b86da13481918c2c1847e114e120.png",
+      "png": "assets/season-1/cards-wave2-he/world-history/01-ancient-egypt.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/01-ancient-egypt.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 46707,
+      "alpha_bbox": [
+        12,
+        5,
+        500,
+        710
+      ]
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-02-ancient-greece",
+      "title_he": "יוון העתיקה",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b8fe8ffc819187171232296841db.png",
+      "png": "assets/season-1/cards-wave2-he/world-history/02-ancient-greece.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/02-ancient-greece.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 25459,
+      "alpha_bbox": [
+        9,
+        5,
+        502,
+        710
+      ]
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-03-rome",
+      "title_he": "רומא",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01ba2af8e08191906ad0e3178d7ff3.png",
+      "png": "assets/season-1/cards-wave2-he/world-history/03-rome.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/03-rome.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 13141,
+      "alpha_bbox": [
+        9,
+        5,
+        502,
+        710
+      ]
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-04-middle-ages",
+      "title_he": "ימי הביניים",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01bc65f6b0819182f7777c8fe46dbe.png",
+      "png": "assets/season-1/cards-wave2-he/world-history/04-middle-ages.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/04-middle-ages.webp",
+      "generation_mode_he": "תמונה אחת בכלי image generation המובנה, רקע קצה הוסר לשקיפות",
+      "removed_edge_pixels": 12214,
+      "alpha_bbox": [
+        9,
+        5,
+        503,
+        710
+      ]
+    }
+  ],
+  "updated_at": "2026-05-11T11:26:19.994741+00:00"
+}

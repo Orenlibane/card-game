@@ -20,6 +20,16 @@ create table if not exists public.player_cards (
   primary key (profile_id, card_id)
 );
 
+create table if not exists public.player_duplicate_cards (
+  profile_id uuid not null references public.player_profiles(id) on delete cascade,
+  card_id text not null,
+  pack_id text not null,
+  quantity integer not null default 0 check (quantity >= 0),
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  primary key (profile_id, card_id)
+);
+
 create table if not exists public.pack_openings (
   id uuid primary key default gen_random_uuid(),
   profile_id uuid not null references public.player_profiles(id) on delete cascade,
@@ -28,6 +38,16 @@ create table if not exists public.pack_openings (
   duplicate_count integer not null default 0,
   duplicate_coins integer not null default 0,
   created_at timestamptz not null default now()
+);
+
+create table if not exists public.daily_deal_purchases (
+  profile_id uuid not null references public.player_profiles(id) on delete cascade,
+  day_key text not null,
+  pack_id text not null,
+  price integer not null check (price >= 0),
+  opening_id uuid references public.pack_openings(id) on delete set null,
+  created_at timestamptz not null default now(),
+  primary key (profile_id, day_key)
 );
 
 create table if not exists public.quiz_attempts (
@@ -61,9 +81,16 @@ create trigger set_player_cards_updated_at
 before update on public.player_cards
 for each row execute function public.set_updated_at();
 
+drop trigger if exists set_player_duplicate_cards_updated_at on public.player_duplicate_cards;
+create trigger set_player_duplicate_cards_updated_at
+before update on public.player_duplicate_cards
+for each row execute function public.set_updated_at();
+
 alter table public.player_profiles enable row level security;
 alter table public.player_cards enable row level security;
+alter table public.player_duplicate_cards enable row level security;
 alter table public.pack_openings enable row level security;
+alter table public.daily_deal_purchases enable row level security;
 alter table public.quiz_attempts enable row level security;
 
 -- The MVP backend uses a Supabase service role key, which bypasses RLS.

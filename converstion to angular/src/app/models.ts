@@ -76,7 +76,9 @@ export interface GameStoreState {
   coins: number;
   discovered: Record<string, string[]>;
   owned: Record<string, boolean>;
+  duplicateInventory: Record<string, number>;
   cooldownUntil: Record<string, number>;
+  dailyDeal: DailyDealState | null;
   lastPackOpen: PackOpenResult | null;
   quiz: QuizState | null;
 }
@@ -89,9 +91,19 @@ export interface CardStatus {
 export interface PackOpenResult {
   packId: string;
   openedAt: number;
+  cost: number;
   cards: Array<{
     cardId: string;
     duplicate: boolean;
   }>;
   duplicateCoins: number;
+}
+
+export interface DailyDealState {
+  packId: string;
+  price: number;
+  regularPrice: number;
+  dayKey: string;
+  used?: boolean;
+  available?: boolean;
 }

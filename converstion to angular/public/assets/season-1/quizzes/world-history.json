@@ -32,39 +32,47 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי מצרים העתיקה?",
+          "question_he": "מה נכון לפי הקלף על מצרים העתיקה?",
           "options_he": [
-            "נבנו בה פירמידות גדולות",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על מצרים העתיקה: לא נכון שהנילוס היה מקור חיים.",
+            "על מצרים העתיקה: נבנו בה פירמידות גדולות.",
+            "על מצרים העתיקה: לא נכון שכתב חרטומים שימש לתיעוד."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "נבנו בה פירמידות גדולות"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי מצרים העתיקה?",
+          "question_he": "איזו מסקנה מדויקת על מצרים העתיקה עולה מהקלף?",
           "options_he": [
-            "נבנו בה פירמידות גדולות",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על מצרים העתיקה: לא נכון שכתב חרטומים שימש לתיעוד.",
+            "על מצרים העתיקה: נבנו בה פירמידות קטנות.",
+            "על מצרים העתיקה: הנילוס היה מקור חיים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "נבנו בה פירמידות גדולות"
+          "correct_answer_index": 2,
+          "source_fact_he": "הנילוס היה מקור חיים"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא מצרים העתיקה?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את מצרים העתיקה?",
           "options_he": [
-            "מצרים העתיקה קשור לתג תרבות ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על מצרים העתיקה: כתב חרטומים שימש לתיעוד.",
+            "על מצרים העתיקה: נבנו בה פירמידות קטנות.",
+            "על מצרים העתיקה: לא נכון שהנילוס היה מקור חיים."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "הנילוס היה מקור חיים"
+          "source_fact_he": "כתב חרטומים שימש לתיעוד"
         }
+      },
+      "image_generation": {
+        "mode": "built_in_single_image_render",
+        "status_he": "נוצר כרינדור תמונה יחיד, יובא כ-PNG/WebP עם שקיפות.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b86da13481918c2c1847e114e120.png",
+        "project_png": "assets/season-1/cards-wave2-he/world-history/01-ancient-egypt.png",
+        "project_webp": "assets/season-1/cards-wave2-he/world-history/01-ancient-egypt.webp",
+        "updated_at": "2026-05-11T11:09:19.573812+00:00"
       }
     },
     {
@@ -86,39 +94,47 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי יוון העתיקה?",
+          "question_he": "מה נכון לפי הקלף על יוון העתיקה?",
           "options_he": [
-            "השפיעה על פילוסופיה ומדע",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על יוון העתיקה: לא נכון שערי מדינה ניהלו חיים שונים.",
+            "על יוון העתיקה: לא נכון שהאולימפיאדה החלה שם.",
+            "על יוון העתיקה: השפיעה על פילוסופיה ומדע."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 2,
           "source_fact_he": "השפיעה על פילוסופיה ומדע"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי יוון העתיקה?",
+          "question_he": "איזו מסקנה מדויקת על יוון העתיקה עולה מהקלף?",
           "options_he": [
-            "השפיעה על פילוסופיה ומדע",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על יוון העתיקה: ערי מדינה ניהלו חיים שונים.",
+            "על יוון העתיקה: לא נכון שהאולימפיאדה החלה שם.",
+            "על יוון העתיקה: לא נכון שהשפיעה על פילוסופיה ומדע."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "השפיעה על פילוסופיה ומדע"
+          "source_fact_he": "ערי מדינה ניהלו חיים שונים"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא יוון העתיקה?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את יוון העתיקה?",
           "options_he": [
-            "יוון העתיקה קשור לתג רעיונות ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על יוון העתיקה: לא נכון שהשפיעה על פילוסופיה ומדע.",
+            "על יוון העתיקה: האולימפיאדה החלה שם.",
+            "על יוון העתיקה: לא נכון שערי מדינה ניהלו חיים שונים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "ערי מדינה ניהלו חיים שונים"
+          "correct_answer_index": 1,
+          "source_fact_he": "האולימפיאדה החלה שם"
         }
+      },
+      "image_generation": {
+        "mode": "built_in_single_image_render",
+        "status_he": "נוצר כרינדור תמונה יחיד, יובא כ-PNG/WebP עם שקיפות.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b8fe8ffc819187171232296841db.png",
+        "project_png": "assets/season-1/cards-wave2-he/world-history/02-ancient-greece.png",
+        "project_webp": "assets/season-1/cards-wave2-he/world-history/02-ancient-greece.webp",
+        "updated_at": "2026-05-11T11:11:46.966103+00:00"
       }
     },
     {
@@ -140,11 +156,11 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי רומא?",
+          "question_he": "מה נכון לפי הקלף על רומא?",
           "options_he": [
-            "בנתה דרכים ואמות מים",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על רומא: בנתה דרכים ואמות מים.",
+            "על רומא: לא נכון שהחוק הרומי השפיע על העולם.",
+            "על רומא: לא נכון שהאימפריה שלטה באזורים רבים."
           ],
           "correct_answer_index": 0,
           "source_fact_he": "בנתה דרכים ואמות מים"
@@ -152,27 +168,35 @@
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי רומא?",
+          "question_he": "איזו מסקנה מדויקת על רומא עולה מהקלף?",
           "options_he": [
-            "בנתה דרכים ואמות מים",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על רומא: לא נכון שהאימפריה שלטה באזורים רבים.",
+            "על רומא: החוק הרומי השפיע על העולם.",
+            "על רומא: לא נכון שבנתה דרכים ואמות מים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "בנתה דרכים ואמות מים"
+          "correct_answer_index": 1,
+          "source_fact_he": "החוק הרומי השפיע על העולם"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא רומא?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את רומא?",
           "options_he": [
-            "רומא קשור לתג אימפריה ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על רומא: לא נכון שבנתה דרכים ואמות מים.",
+            "על רומא: לא נכון שהחוק הרומי השפיע על העולם.",
+            "על רומא: האימפריה שלטה באזורים רבים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "החוק הרומי השפיע על העולם"
+          "correct_answer_index": 2,
+          "source_fact_he": "האימפריה שלטה באזורים רבים"
         }
+      },
+      "image_generation": {
+        "mode": "built_in_single_image_render",
+        "status_he": "נוצר כרינדור תמונה יחיד, יובא כ-PNG/WebP עם שקיפות.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01ba2af8e08191906ad0e3178d7ff3.png",
+        "project_png": "assets/season-1/cards-wave2-he/world-history/03-rome.png",
+        "project_webp": "assets/season-1/cards-wave2-he/world-history/03-rome.webp",
+        "updated_at": "2026-05-11T11:16:39.188947+00:00"
       }
     },
     {
@@ -194,39 +218,47 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי ימי הביניים?",
+          "question_he": "מה נכון לפי הקלף על ימי הביניים?",
           "options_he": [
-            "תקופה ארוכה בין עתיק לחדש",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על ימי הביניים: לא נכון שטירות וערים התפתחו.",
+            "על ימי הביניים: תקופה ארוכה בין עתיק לחדש.",
+            "על ימי הביניים: לא נכון שידע נשמר במנזרים ובספרים."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "תקופה ארוכה בין עתיק לחדש"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי ימי הביניים?",
+          "question_he": "איזו מסקנה מדויקת על ימי הביניים עולה מהקלף?",
           "options_he": [
-            "תקופה ארוכה בין עתיק לחדש",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על ימי הביניים: לא נכון שידע נשמר במנזרים ובספרים.",
+            "על ימי הביניים: תקופה קצרה בין עתיק לחדש.",
+            "על ימי הביניים: טירות וערים התפתחו."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "תקופה ארוכה בין עתיק לחדש"
+          "correct_answer_index": 2,
+          "source_fact_he": "טירות וערים התפתחו"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא ימי הביניים?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את ימי הביניים?",
           "options_he": [
-            "ימי הביניים קשור לתג תקופה ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על ימי הביניים: ידע נשמר במנזרים ובספרים.",
+            "על ימי הביניים: תקופה קצרה בין עתיק לחדש.",
+            "על ימי הביניים: לא נכון שטירות וערים התפתחו."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "טירות וערים התפתחו"
+          "source_fact_he": "ידע נשמר במנזרים ובספרים"
         }
+      },
+      "image_generation": {
+        "mode": "built_in_single_image_render",
+        "status_he": "נוצר כרינדור תמונה יחיד, יובא כ-PNG/WebP עם שקיפות.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01bc65f6b0819182f7777c8fe46dbe.png",
+        "project_png": "assets/season-1/cards-wave2-he/world-history/04-middle-ages.png",
+        "project_webp": "assets/season-1/cards-wave2-he/world-history/04-middle-ages.webp",
+        "updated_at": "2026-05-11T11:26:19.993003+00:00"
       }
     },
     {
@@ -248,39 +280,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי דרך המשי?",
+          "question_he": "מה נכון לפי הקלף על דרך המשי?",
           "options_he": [
-            "רשת דרכי מסחר עתיקה",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על דרך המשי: לא נכון שחיברה בין אסיה לאירופה.",
+            "על דרך המשי: לא נכון שהעבירה סחורות ורעיונות.",
+            "על דרך המשי: רשת דרכי מסחר עתיקה."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 2,
           "source_fact_he": "רשת דרכי מסחר עתיקה"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי דרך המשי?",
+          "question_he": "איזו מסקנה מדויקת על דרך המשי עולה מהקלף?",
           "options_he": [
-            "רשת דרכי מסחר עתיקה",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על דרך המשי: חיברה בין אסיה לאירופה.",
+            "על דרך המשי: לא נכון שהעבירה סחורות ורעיונות.",
+            "על דרך המשי: לא נכון שרשת דרכי מסחר עתיקה."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "רשת דרכי מסחר עתיקה"
+          "source_fact_he": "חיברה בין אסיה לאירופה"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא דרך המשי?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את דרך המשי?",
           "options_he": [
-            "דרך המשי קשור לתג מסחר ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על דרך המשי: לא נכון שרשת דרכי מסחר עתיקה.",
+            "על דרך המשי: העבירה סחורות ורעיונות.",
+            "על דרך המשי: לא נכון שחיברה בין אסיה לאירופה."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "חיברה בין אסיה לאירופה"
+          "correct_answer_index": 1,
+          "source_fact_he": "העבירה סחורות ורעיונות"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-wave2-he/world-history/05-silk-road.png",
+        "project_webp": "assets/season-1/cards-wave2-he/world-history/05-silk-road.webp",
+        "updated_at": "2026-05-11T06:45:20.672317+00:00"
       }
     },
     {
@@ -302,11 +341,11 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי מהפכת הדפוס?",
+          "question_he": "מה נכון לפי הקלף על מהפכת הדפוס?",
           "options_he": [
-            "ספרים הופקו מהר וזול יותר",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על מהפכת הדפוס: ספרים הופקו מהר וזול יותר.",
+            "על מהפכת הדפוס: לא נכון שידע הגיע לקהל רחב.",
+            "על מהפכת הדפוס: לא נכון ששינתה חינוך ודת."
           ],
           "correct_answer_index": 0,
           "source_fact_he": "ספרים הופקו מהר וזול יותר"
@@ -314,27 +353,34 @@
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי מהפכת הדפוס?",
+          "question_he": "איזו מסקנה מדויקת על מהפכת הדפוס עולה מהקלף?",
           "options_he": [
-            "ספרים הופקו מהר וזול יותר",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על מהפכת הדפוס: לא נכון ששינתה חינוך ודת.",
+            "על מהפכת הדפוס: ידע הגיע לקהל רחב.",
+            "על מהפכת הדפוס: לא נכון שספרים הופקו מהר וזול יותר."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "ספרים הופקו מהר וזול יותר"
+          "correct_answer_index": 1,
+          "source_fact_he": "ידע הגיע לקהל רחב"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא מהפכת הדפוס?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את מהפכת הדפוס?",
           "options_he": [
-            "מהפכת הדפוס קשור לתג ידע ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על מהפכת הדפוס: לא נכון שספרים הופקו מהר וזול יותר.",
+            "על מהפכת הדפוס: לא נכון שידע הגיע לקהל רחב.",
+            "על מהפכת הדפוס: שינתה חינוך ודת."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "ידע הגיע לקהל רחב"
+          "correct_answer_index": 2,
+          "source_fact_he": "שינתה חינוך ודת"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-wave2-he/world-history/06-printing-revolution.png",
+        "project_webp": "assets/season-1/cards-wave2-he/world-history/06-printing-revolution.webp",
+        "updated_at": "2026-05-11T06:45:20.672317+00:00"
       }
     },
     {
@@ -356,39 +402,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי גילוי אמריקה?",
+          "question_he": "מה נכון לפי הקלף על גילוי אמריקה?",
           "options_he": [
-            "מפגש בין עולמות שונים",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על גילוי אמריקה: לא נכון ששינה מסחר ותרבויות.",
+            "על גילוי אמריקה: מפגש בין עולמות שונים.",
+            "על גילוי אמריקה: לא נכון שהיו לו השפעות מורכבות."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "מפגש בין עולמות שונים"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי גילוי אמריקה?",
+          "question_he": "איזו מסקנה מדויקת על גילוי אמריקה עולה מהקלף?",
           "options_he": [
-            "מפגש בין עולמות שונים",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על גילוי אמריקה: לא נכון שהיו לו השפעות מורכבות.",
+            "על גילוי אמריקה: לא נכון שמפגש בין עולמות שונים.",
+            "על גילוי אמריקה: שינה מסחר ותרבויות."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "מפגש בין עולמות שונים"
+          "correct_answer_index": 2,
+          "source_fact_he": "שינה מסחר ותרבויות"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא גילוי אמריקה?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את גילוי אמריקה?",
           "options_he": [
-            "גילוי אמריקה קשור לתג מסעות ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על גילוי אמריקה: היו לו השפעות מורכבות.",
+            "על גילוי אמריקה: לא נכון שמפגש בין עולמות שונים.",
+            "על גילוי אמריקה: לא נכון ששינה מסחר ותרבויות."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "שינה מסחר ותרבויות"
+          "source_fact_he": "היו לו השפעות מורכבות"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-wave2-he/world-history/07-america-discovery.png",
+        "project_webp": "assets/season-1/cards-wave2-he/world-history/07-america-discovery.webp",
+        "updated_at": "2026-05-11T06:45:20.672317+00:00"
       }
     },
     {
@@ -410,39 +463,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי המהפכה התעשייתית?",
+          "question_he": "מה נכון לפי הקלף על המהפכה התעשייתית?",
           "options_he": [
-            "מכונות שינו ייצור ועבודה",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על המהפכה התעשייתית: ערים גדלו באיטיות.",
+            "על המהפכה התעשייתית: אנרגיית קיטור הייתה אינה חשובה.",
+            "על המהפכה התעשייתית: מכונות שינו ייצור ועבודה."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 2,
           "source_fact_he": "מכונות שינו ייצור ועבודה"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי המהפכה התעשייתית?",
+          "question_he": "איזו מסקנה מדויקת על המהפכה התעשייתית עולה מהקלף?",
           "options_he": [
-            "מכונות שינו ייצור ועבודה",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על המהפכה התעשייתית: ערים גדלו במהירות.",
+            "על המהפכה התעשייתית: אנרגיית קיטור הייתה אינה חשובה.",
+            "על המהפכה התעשייתית: לא נכון שמכונות שינו ייצור ועבודה."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "מכונות שינו ייצור ועבודה"
+          "source_fact_he": "ערים גדלו במהירות"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא המהפכה התעשייתית?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את המהפכה התעשייתית?",
           "options_he": [
-            "המהפכה התעשייתית קשור לתג מכונות ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על המהפכה התעשייתית: לא נכון שמכונות שינו ייצור ועבודה.",
+            "על המהפכה התעשייתית: אנרגיית קיטור הייתה חשובה.",
+            "על המהפכה התעשייתית: ערים גדלו באיטיות."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "ערים גדלו במהירות"
+          "correct_answer_index": 1,
+          "source_fact_he": "אנרגיית קיטור הייתה חשובה"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-wave2-he/world-history/08-industrial-revolution.png",
+        "project_webp": "assets/season-1/cards-wave2-he/world-history/08-industrial-revolution.webp",
+        "updated_at": "2026-05-11T06:45:20.672317+00:00"
       }
     },
     {
@@ -464,11 +524,11 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי זכויות אדם?",
+          "question_he": "מה נכון לפי הקלף על זכויות אדם?",
           "options_he": [
-            "רעיון שכל אדם זכאי לכבוד",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על זכויות אדם: רעיון שכל אדם זכאי לכבוד.",
+            "על זכויות אדם: לא נכון שחוקים מגינים על חירות ושוויון.",
+            "על זכויות אדם: לא נכון שמאבקים רבים קידמו זכויות."
           ],
           "correct_answer_index": 0,
           "source_fact_he": "רעיון שכל אדם זכאי לכבוד"
@@ -476,27 +536,34 @@
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי זכויות אדם?",
+          "question_he": "איזו מסקנה מדויקת על זכויות אדם עולה מהקלף?",
           "options_he": [
-            "רעיון שכל אדם זכאי לכבוד",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על זכויות אדם: לא נכון שמאבקים רבים קידמו זכויות.",
+            "על זכויות אדם: חוקים מגינים על חירות ושוויון.",
+            "על זכויות אדם: לא נכון שרעיון שכל אדם זכאי לכבוד."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "רעיון שכל אדם זכאי לכבוד"
+          "correct_answer_index": 1,
+          "source_fact_he": "חוקים מגינים על חירות ושוויון"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא זכויות אדם?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את זכויות אדם?",
           "options_he": [
-            "זכויות אדם קשור לתג חברה ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על זכויות אדם: לא נכון שרעיון שכל אדם זכאי לכבוד.",
+            "על זכויות אדם: לא נכון שחוקים מגינים על חירות ושוויון.",
+            "על זכויות אדם: מאבקים רבים קידמו זכויות."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "חוקים מגינים על חירות ושוויון"
+          "correct_answer_index": 2,
+          "source_fact_he": "מאבקים רבים קידמו זכויות"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-wave2-he/world-history/09-human-rights.png",
+        "project_webp": "assets/season-1/cards-wave2-he/world-history/09-human-rights.webp",
+        "updated_at": "2026-05-11T06:45:20.672317+00:00"
       }
     },
     {
@@ -518,40 +585,54 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי עידן המחשב?",
+          "question_he": "מה נכון לפי הקלף על עידן המחשב?",
           "options_he": [
-            "מחשבים שינו עבודה ולמידה",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על עידן המחשב: מידע עובר באיטיות.",
+            "על עידן המחשב: מחשבים שינו עבודה ולמידה.",
+            "על עידן המחשב: לא נכון שהאינטרנט חיבר אנשים ומערכות."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "מחשבים שינו עבודה ולמידה"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי עידן המחשב?",
+          "question_he": "איזו מסקנה מדויקת על עידן המחשב עולה מהקלף?",
           "options_he": [
-            "מחשבים שינו עבודה ולמידה",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על עידן המחשב: לא נכון שהאינטרנט חיבר אנשים ומערכות.",
+            "על עידן המחשב: לא נכון שמחשבים שינו עבודה ולמידה.",
+            "על עידן המחשב: מידע עובר במהירות."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "מחשבים שינו עבודה ולמידה"
+          "correct_answer_index": 2,
+          "source_fact_he": "מידע עובר במהירות"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא עידן המחשב?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את עידן המחשב?",
           "options_he": [
-            "עידן המחשב קשור לתג טכנולוגיה ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על עידן המחשב: האינטרנט חיבר אנשים ומערכות.",
+            "על עידן המחשב: לא נכון שמחשבים שינו עבודה ולמידה.",
+            "על עידן המחשב: מידע עובר באיטיות."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "מידע עובר במהירות"
+          "source_fact_he": "האינטרנט חיבר אנשים ומערכות"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-wave2-he/world-history/10-computer-age.png",
+        "project_webp": "assets/season-1/cards-wave2-he/world-history/10-computer-age.webp",
+        "updated_at": "2026-05-11T06:45:20.672317+00:00"
       }
     }
-  ]
+  ],
+  "image_generation": {
+    "mode": "local_pillow_render",
+    "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+    "project_png": "assets/season-1/packs-wave2-he/pack-world-history.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-world-history.webp",
+    "updated_at": "2026-05-11T06:45:20.672317+00:00"
+  }
 }

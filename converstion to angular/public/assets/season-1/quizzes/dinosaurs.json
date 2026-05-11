@@ -32,39 +32,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי טירנוזאורוס?",
+          "question_he": "מה נכון לפי הקלף על טירנוזאורוס?",
           "options_he": [
-            "טורף גדול מתקופת הקרטיקון",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על טירנוזאורוס: שיניים חלשות עזרו לו לאכול.",
+            "על טירנוזאורוס: טורף גדול מתקופת הקרטיקון.",
+            "על טירנוזאורוס: לא נכון שמאובנים מלמדים על גודלו."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "טורף גדול מתקופת הקרטיקון"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי טירנוזאורוס?",
+          "question_he": "איזו מסקנה מדויקת על טירנוזאורוס עולה מהקלף?",
           "options_he": [
-            "טורף גדול מתקופת הקרטיקון",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על טירנוזאורוס: לא נכון שמאובנים מלמדים על גודלו.",
+            "על טירנוזאורוס: טורף קטן מתקופת הקרטיקון.",
+            "על טירנוזאורוס: שיניים חזקות עזרו לו לאכול."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "טורף גדול מתקופת הקרטיקון"
+          "correct_answer_index": 2,
+          "source_fact_he": "שיניים חזקות עזרו לו לאכול"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא טירנוזאורוס?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את טירנוזאורוס?",
           "options_he": [
-            "טירנוזאורוס קשור לתג מאובנים ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על טירנוזאורוס: מאובנים מלמדים על גודלו.",
+            "על טירנוזאורוס: טורף קטן מתקופת הקרטיקון.",
+            "על טירנוזאורוס: שיניים חלשות עזרו לו לאכול."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "שיניים חזקות עזרו לו לאכול"
+          "source_fact_he": "מאובנים מלמדים על גודלו"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-wave2-he/dinosaurs/01-tyrannosaurus.png",
+        "project_webp": "assets/season-1/cards-wave2-he/dinosaurs/01-tyrannosaurus.webp",
+        "updated_at": "2026-05-11T06:45:19.180354+00:00"
       }
     },
     {
@@ -86,39 +93,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי טריצרטופס?",
+          "question_he": "מה נכון לפי הקלף על טריצרטופס?",
           "options_he": [
-            "בעל שלוש קרניים",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על טריצרטופס: לא נכון שאכל צמחים.",
+            "על טריצרטופס: מגן ראש קטן שמר עליו.",
+            "על טריצרטופס: בעל שלוש קרניים."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 2,
           "source_fact_he": "בעל שלוש קרניים"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי טריצרטופס?",
+          "question_he": "איזו מסקנה מדויקת על טריצרטופס עולה מהקלף?",
           "options_he": [
-            "בעל שלוש קרניים",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על טריצרטופס: אכל צמחים.",
+            "על טריצרטופס: מגן ראש קטן שמר עליו.",
+            "על טריצרטופס: לא נכון שבעל שלוש קרניים."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "בעל שלוש קרניים"
+          "source_fact_he": "אכל צמחים"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא טריצרטופס?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את טריצרטופס?",
           "options_he": [
-            "טריצרטופס קשור לתג צמחונים ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על טריצרטופס: לא נכון שבעל שלוש קרניים.",
+            "על טריצרטופס: מגן ראש גדול שמר עליו.",
+            "על טריצרטופס: לא נכון שאכל צמחים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "אכל צמחים"
+          "correct_answer_index": 1,
+          "source_fact_he": "מגן ראש גדול שמר עליו"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-wave2-he/dinosaurs/02-triceratops.png",
+        "project_webp": "assets/season-1/cards-wave2-he/dinosaurs/02-triceratops.webp",
+        "updated_at": "2026-05-11T06:45:19.180354+00:00"
       }
     },
     {
@@ -140,11 +154,11 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי סטגוזאורוס?",
+          "question_he": "מה נכון לפי הקלף על סטגוזאורוס?",
           "options_he": [
-            "לוחות גדולים היו על גבו",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על סטגוזאורוס: לוחות גדולים היו על גבו.",
+            "על סטגוזאורוס: לא נכון שזנב עם קוצים שימש להגנה.",
+            "על סטגוזאורוס: לא נכון שאכל צמחים נמוכים."
           ],
           "correct_answer_index": 0,
           "source_fact_he": "לוחות גדולים היו על גבו"
@@ -152,27 +166,34 @@
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי סטגוזאורוס?",
+          "question_he": "איזו מסקנה מדויקת על סטגוזאורוס עולה מהקלף?",
           "options_he": [
-            "לוחות גדולים היו על גבו",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על סטגוזאורוס: לא נכון שאכל צמחים נמוכים.",
+            "על סטגוזאורוס: זנב עם קוצים שימש להגנה.",
+            "על סטגוזאורוס: לוחות קטנים היו על גבו."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "לוחות גדולים היו על גבו"
+          "correct_answer_index": 1,
+          "source_fact_he": "זנב עם קוצים שימש להגנה"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא סטגוזאורוס?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את סטגוזאורוס?",
           "options_he": [
-            "סטגוזאורוס קשור לתג הגנה ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על סטגוזאורוס: לוחות קטנים היו על גבו.",
+            "על סטגוזאורוס: לא נכון שזנב עם קוצים שימש להגנה.",
+            "על סטגוזאורוס: אכל צמחים נמוכים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "זנב עם קוצים שימש להגנה"
+          "correct_answer_index": 2,
+          "source_fact_he": "אכל צמחים נמוכים"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-wave2-he/dinosaurs/03-stegosaurus.png",
+        "project_webp": "assets/season-1/cards-wave2-he/dinosaurs/03-stegosaurus.webp",
+        "updated_at": "2026-05-11T06:45:19.180354+00:00"
       }
     },
     {
@@ -194,39 +215,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי ולוצירפטור?",
+          "question_he": "מה נכון לפי הקלף על ולוצירפטור?",
           "options_he": [
-            "דינוזאור קטן ומהיר",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על ולוצירפטור: לא נכון שהיו לו נוצות לפי מחקרים.",
+            "על ולוצירפטור: דינוזאור קטן ומהיר.",
+            "על ולוצירפטור: לא נכון שציפורניים חדות עזרו בתנועה."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "דינוזאור קטן ומהיר"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי ולוצירפטור?",
+          "question_he": "איזו מסקנה מדויקת על ולוצירפטור עולה מהקלף?",
           "options_he": [
-            "דינוזאור קטן ומהיר",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על ולוצירפטור: לא נכון שציפורניים חדות עזרו בתנועה.",
+            "על ולוצירפטור: דינוזאור קטן ואיטי.",
+            "על ולוצירפטור: היו לו נוצות לפי מחקרים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "דינוזאור קטן ומהיר"
+          "correct_answer_index": 2,
+          "source_fact_he": "היו לו נוצות לפי מחקרים"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא ולוצירפטור?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את ולוצירפטור?",
           "options_he": [
-            "ולוצירפטור קשור לתג מהירות ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על ולוצירפטור: ציפורניים חדות עזרו בתנועה.",
+            "על ולוצירפטור: דינוזאור קטן ואיטי.",
+            "על ולוצירפטור: לא נכון שהיו לו נוצות לפי מחקרים."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "היו לו נוצות לפי מחקרים"
+          "source_fact_he": "ציפורניים חדות עזרו בתנועה"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-wave2-he/dinosaurs/04-velociraptor.png",
+        "project_webp": "assets/season-1/cards-wave2-he/dinosaurs/04-velociraptor.webp",
+        "updated_at": "2026-05-11T06:45:19.180354+00:00"
       }
     },
     {
@@ -248,39 +276,46 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי ברכיוזאורוס?",
+          "question_he": "מה נכון לפי הקלף על ברכיוזאורוס?",
           "options_he": [
-            "צוואר ארוך הגיע לעצים גבוהים",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על ברכיוזאורוס: לא נכון שהיה דינוזאור ענק.",
+            "על ברכיוזאורוס: לא נכון שאכל עלים וצמחים.",
+            "על ברכיוזאורוס: צוואר ארוך הגיע לעצים גבוהים."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 2,
           "source_fact_he": "צוואר ארוך הגיע לעצים גבוהים"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי ברכיוזאורוס?",
+          "question_he": "איזו מסקנה מדויקת על ברכיוזאורוס עולה מהקלף?",
           "options_he": [
-            "צוואר ארוך הגיע לעצים גבוהים",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על ברכיוזאורוס: היה דינוזאור ענק.",
+            "על ברכיוזאורוס: לא נכון שאכל עלים וצמחים.",
+            "על ברכיוזאורוס: צוואר קצר הגיע לעצים גבוהים."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "צוואר ארוך הגיע לעצים גבוהים"
+          "source_fact_he": "היה דינוזאור ענק"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא ברכיוזאורוס?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את ברכיוזאורוס?",
           "options_he": [
-            "ברכיוזאורוס קשור לתג גובה ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על ברכיוזאורוס: צוואר קצר הגיע לעצים גבוהים.",
+            "על ברכיוזאורוס: אכל עלים וצמחים.",
+            "על ברכיוזאורוס: לא נכון שהיה דינוזאור ענק."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "היה דינוזאור ענק"
+          "correct_answer_index": 1,
+          "source_fact_he": "אכל עלים וצמחים"
         }
+      },
+      "image_generation": {
+        "mode": "local_pillow_render",
+        "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+        "project_png": "assets/season-1/cards-wave2-he/dinosaurs/05-brachiosaurus.png",
+        "project_webp": "assets/season-1/cards-wave2-he/dinosaurs/05-brachiosaurus.webp",
+        "updated_at": "2026-05-11T06:45:19.180354+00:00"
       }
     },
     {
@@ -302,11 +337,11 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי פטרנודון?",
+          "question_he": "מה נכון לפי הקלף על פטרנודון?",
           "options_he": [
-            "זוחל מעופף קדום",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על פטרנודון: זוחל מעופף קדום.",
+            "על פטרנודון: לא נכון שכנפיים רחבות עזרו לדאות.",
+            "על פטרנודון: לא נכון שלא היה דינוזאור אמיתי."
           ],
           "correct_answer_index": 0,
           "source_fact_he": "זוחל מעופף קדום"
@@ -314,27 +349,35 @@
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי פטרנודון?",
+          "question_he": "איזו מסקנה מדויקת על פטרנודון עולה מהקלף?",
           "options_he": [
-            "זוחל מעופף קדום",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על פטרנודון: לא נכון שלא היה דינוזאור אמיתי.",
+            "על פטרנודון: כנפיים רחבות עזרו לדאות.",
+            "על פטרנודון: לא נכון שזוחל מעופף קדום."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "זוחל מעופף קדום"
+          "correct_answer_index": 1,
+          "source_fact_he": "כנפיים רחבות עזרו לדאות"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא פטרנודון?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את פטרנודון?",
           "options_he": [
-            "פטרנודון קשור לתג תעופה ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על פטרנודון: לא נכון שזוחל מעופף קדום.",
+            "על פטרנודון: לא נכון שכנפיים רחבות עזרו לדאות.",
+            "על פטרנודון: לא היה דינוזאור אמיתי."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "כנפיים רחבות עזרו לדאות"
+          "correct_answer_index": 2,
+          "source_fact_he": "לא היה דינוזאור אמיתי"
         }
+      },
+      "image_generation": {
+        "mode": "built_in_single_image_render",
+        "status_he": "נוצר כרינדור תמונה יחיד, יובא כ-PNG/WebP עם שקיפות.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b3e21e488191b66637e765a4b2f8.png",
+        "project_png": "assets/season-1/cards-wave2-he/dinosaurs/06-pteranodon.png",
+        "project_webp": "assets/season-1/cards-wave2-he/dinosaurs/06-pteranodon.webp",
+        "updated_at": "2026-05-11T10:51:33.651191+00:00"
       }
     },
     {
@@ -356,39 +399,47 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי אנקילוזאורוס?",
+          "question_he": "מה נכון לפי הקלף על אנקילוזאורוס?",
           "options_he": [
-            "גוף משוריין הגן עליו",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על אנקילוזאורוס: לא נכון שזנב כבד דמה לאלה.",
+            "על אנקילוזאורוס: גוף משוריין הגן עליו.",
+            "על אנקילוזאורוס: לא נכון שאכל צמחים."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "גוף משוריין הגן עליו"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי אנקילוזאורוס?",
+          "question_he": "איזו מסקנה מדויקת על אנקילוזאורוס עולה מהקלף?",
           "options_he": [
-            "גוף משוריין הגן עליו",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על אנקילוזאורוס: לא נכון שאכל צמחים.",
+            "על אנקילוזאורוס: לא נכון שגוף משוריין הגן עליו.",
+            "על אנקילוזאורוס: זנב כבד דמה לאלה."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "גוף משוריין הגן עליו"
+          "correct_answer_index": 2,
+          "source_fact_he": "זנב כבד דמה לאלה"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא אנקילוזאורוס?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את אנקילוזאורוס?",
           "options_he": [
-            "אנקילוזאורוס קשור לתג שריון ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על אנקילוזאורוס: אכל צמחים.",
+            "על אנקילוזאורוס: לא נכון שגוף משוריין הגן עליו.",
+            "על אנקילוזאורוס: לא נכון שזנב כבד דמה לאלה."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "זנב כבד דמה לאלה"
+          "source_fact_he": "אכל צמחים"
         }
+      },
+      "image_generation": {
+        "mode": "built_in_single_image_render",
+        "status_he": "נוצר כרינדור תמונה יחיד, יובא כ-PNG/WebP עם שקיפות.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b4e04f5881919c4d2f9e737eb7c6.png",
+        "project_png": "assets/season-1/cards-wave2-he/dinosaurs/07-ankylosaurus.png",
+        "project_webp": "assets/season-1/cards-wave2-he/dinosaurs/07-ankylosaurus.webp",
+        "updated_at": "2026-05-11T10:54:11.088858+00:00"
       }
     },
     {
@@ -410,39 +461,47 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי דיפלודוקוס?",
+          "question_he": "מה נכון לפי הקלף על דיפלודוקוס?",
           "options_he": [
-            "צוואר וזנב ארוכים מאוד",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על דיפלודוקוס: לא נכון שנע על ארבע רגליים.",
+            "על דיפלודוקוס: אכל צמחים בכמויות קטנות.",
+            "על דיפלודוקוס: צוואר וזנב ארוכים מאוד."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 2,
           "source_fact_he": "צוואר וזנב ארוכים מאוד"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי דיפלודוקוס?",
+          "question_he": "איזו מסקנה מדויקת על דיפלודוקוס עולה מהקלף?",
           "options_he": [
-            "צוואר וזנב ארוכים מאוד",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על דיפלודוקוס: נע על ארבע רגליים.",
+            "על דיפלודוקוס: אכל צמחים בכמויות קטנות.",
+            "על דיפלודוקוס: צוואר וזנב קצרים מאוד."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "צוואר וזנב ארוכים מאוד"
+          "source_fact_he": "נע על ארבע רגליים"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא דיפלודוקוס?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את דיפלודוקוס?",
           "options_he": [
-            "דיפלודוקוס קשור לתג ענקים ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על דיפלודוקוס: צוואר וזנב קצרים מאוד.",
+            "על דיפלודוקוס: אכל צמחים בכמויות גדולות.",
+            "על דיפלודוקוס: לא נכון שנע על ארבע רגליים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "נע על ארבע רגליים"
+          "correct_answer_index": 1,
+          "source_fact_he": "אכל צמחים בכמויות גדולות"
         }
+      },
+      "image_generation": {
+        "mode": "built_in_single_image_render",
+        "status_he": "נוצר כרינדור תמונה יחיד, יובא כ-PNG/WebP עם שקיפות.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b585395481918a681a69337b47c1.png",
+        "project_png": "assets/season-1/cards-wave2-he/dinosaurs/08-diplodocus.png",
+        "project_webp": "assets/season-1/cards-wave2-he/dinosaurs/08-diplodocus.webp",
+        "updated_at": "2026-05-11T10:56:48.641769+00:00"
       }
     },
     {
@@ -464,11 +523,11 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי פרזאורולופוס?",
+          "question_he": "מה נכון לפי הקלף על פרזאורולופוס?",
           "options_he": [
-            "כרבולת ארוכה על הראש",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על פרזאורולופוס: כרבולת ארוכה על הראש.",
+            "על פרזאורולופוס: לא נכון שייתכן שהשמיע דרכה קולות.",
+            "על פרזאורולופוס: לא נכון שחי בעדרים."
           ],
           "correct_answer_index": 0,
           "source_fact_he": "כרבולת ארוכה על הראש"
@@ -476,27 +535,35 @@
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי פרזאורולופוס?",
+          "question_he": "איזו מסקנה מדויקת על פרזאורולופוס עולה מהקלף?",
           "options_he": [
-            "כרבולת ארוכה על הראש",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על פרזאורולופוס: לא נכון שחי בעדרים.",
+            "על פרזאורולופוס: ייתכן שהשמיע דרכה קולות.",
+            "על פרזאורולופוס: כרבולת קצרה על הראש."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "כרבולת ארוכה על הראש"
+          "correct_answer_index": 1,
+          "source_fact_he": "ייתכן שהשמיע דרכה קולות"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא פרזאורולופוס?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את פרזאורולופוס?",
           "options_he": [
-            "פרזאורולופוס קשור לתג קול ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על פרזאורולופוס: כרבולת קצרה על הראש.",
+            "על פרזאורולופוס: לא נכון שייתכן שהשמיע דרכה קולות.",
+            "על פרזאורולופוס: חי בעדרים."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "ייתכן שהשמיע דרכה קולות"
+          "correct_answer_index": 2,
+          "source_fact_he": "חי בעדרים"
         }
+      },
+      "image_generation": {
+        "mode": "built_in_single_image_render",
+        "status_he": "נוצר כרינדור תמונה יחיד, יובא כ-PNG/WebP עם שקיפות.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b61263d88191991c195c036dadf8.png",
+        "project_png": "assets/season-1/cards-wave2-he/dinosaurs/09-parasaurolophus.png",
+        "project_webp": "assets/season-1/cards-wave2-he/dinosaurs/09-parasaurolophus.webp",
+        "updated_at": "2026-05-11T11:00:58.497613+00:00"
       }
     },
     {
@@ -518,40 +585,55 @@
         "junior": {
           "age_band_he": "3-5",
           "reward_brain_coins": 8,
-          "question_he": "מה נכון לגבי מאובן?",
+          "question_he": "מה נכון לפי הקלף על מאובן?",
           "options_he": [
-            "שומר עדות לחיים קדומים",
-            "זהו נושא שאינו קשור לעובדות בקלף.",
-            "אי אפשר ללמוד עליו מתוך הקלף."
+            "על מאובן: אינו נוצר בתוך סלעים לאורך זמן.",
+            "על מאובן: שומר עדות לחיים קדומים.",
+            "על מאובן: לא עוזר למדענים להבין עבר."
           ],
-          "correct_answer_index": 0,
+          "correct_answer_index": 1,
           "source_fact_he": "שומר עדות לחיים קדומים"
         },
         "child": {
           "age_band_he": "6-12",
           "reward_brain_coins": 15,
-          "question_he": "מה נכון לגבי מאובן?",
+          "question_he": "איזו מסקנה מדויקת על מאובן עולה מהקלף?",
           "options_he": [
-            "שומר עדות לחיים קדומים",
-            "זהו נושא שאינו קשור לחבילה.",
-            "אין עליו מידע בקלף."
+            "על מאובן: לא עוזר למדענים להבין עבר.",
+            "על מאובן: לא נכון ששומר עדות לחיים קדומים.",
+            "על מאובן: נוצר בתוך סלעים לאורך זמן."
           ],
-          "correct_answer_index": 0,
-          "source_fact_he": "שומר עדות לחיים קדומים"
+          "correct_answer_index": 2,
+          "source_fact_he": "נוצר בתוך סלעים לאורך זמן"
         },
         "advanced": {
           "age_band_he": "13+",
           "reward_brain_coins": 25,
-          "question_he": "איזה קשר מתאים לנושא מאובן?",
+          "question_he": "איזה נימוק חזק במיוחד כשמסבירים את מאובן?",
           "options_he": [
-            "מאובן קשור לתג מדע ולידע מהחבילה.",
-            "הנושא אינו ניתן ללמידה מתוך עובדות.",
-            "הנושא תמיד שייך רק לחלל."
+            "על מאובן: עוזר למדענים להבין עבר.",
+            "על מאובן: לא נכון ששומר עדות לחיים קדומים.",
+            "על מאובן: אינו נוצר בתוך סלעים לאורך זמן."
           ],
           "correct_answer_index": 0,
-          "source_fact_he": "נוצר בתוך סלעים לאורך זמן"
+          "source_fact_he": "עוזר למדענים להבין עבר"
         }
+      },
+      "image_generation": {
+        "mode": "built_in_single_image_render",
+        "status_he": "נוצר כרינדור תמונה יחיד, יובא כ-PNG/WebP עם שקיפות.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0a91ae047869a717016a01b7084ee88191b70d0f384037b25a.png",
+        "project_png": "assets/season-1/cards-wave2-he/dinosaurs/10-fossil.png",
+        "project_webp": "assets/season-1/cards-wave2-he/dinosaurs/10-fossil.webp",
+        "updated_at": "2026-05-11T11:03:17.195667+00:00"
       }
     }
-  ]
+  ],
+  "image_generation": {
+    "mode": "local_pillow_render",
+    "status_he": "נוצר מקומית כנכס PNG/WebP ביחס קלף, עקב מפתח Image API לא תקין",
+    "project_png": "assets/season-1/packs-wave2-he/pack-dinosaurs.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-dinosaurs.webp",
+    "updated_at": "2026-05-11T06:45:19.180354+00:00"
+  }
 }

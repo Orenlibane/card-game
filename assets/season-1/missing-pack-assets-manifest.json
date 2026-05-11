@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "status_he": "נכסים חסרים שנוצרו מקומית לאחר כשל אימות מול Image API",
+  "updated_at": "2026-05-11T06:45:17.797088+00:00",
+  "packs": [
+    {
+      "pack_id": "dinosaurs",
+      "title_he": "דינוזאורים",
+      "png": "assets/season-1/packs-wave2-he/pack-dinosaurs.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-dinosaurs.webp"
+    },
+    {
+      "pack_id": "world-history",
+      "title_he": "היסטוריה עולמית",
+      "png": "assets/season-1/packs-wave2-he/pack-world-history.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-world-history.webp"
+    },
+    {
+      "pack_id": "kiro",
+      "title_he": "קירו",
+      "png": "assets/season-1/packs-tech-he/pack-kiro.png",
+      "webp": "assets/season-1/packs-tech-he/pack-kiro.webp"
+    }
+  ],
+  "cards": [
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-01-tyrannosaurus",
+      "title_he": "טירנוזאורוס",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/01-tyrannosaurus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/01-tyrannosaurus.webp"
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-02-triceratops",
+      "title_he": "טריצרטופס",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/02-triceratops.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/02-triceratops.webp"
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-03-stegosaurus",
+      "title_he": "סטגוזאורוס",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/03-stegosaurus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/03-stegosaurus.webp"
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-04-velociraptor",
+      "title_he": "ולוצירפטור",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/04-velociraptor.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/04-velociraptor.webp"
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-05-brachiosaurus",
+      "title_he": "ברכיוזאורוס",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/05-brachiosaurus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/05-brachiosaurus.webp"
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-06-pteranodon",
+      "title_he": "פטרנודון",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/06-pteranodon.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/06-pteranodon.webp"
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-07-ankylosaurus",
+      "title_he": "אנקילוזאורוס",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/07-ankylosaurus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/07-ankylosaurus.webp"
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-08-diplodocus",
+      "title_he": "דיפלודוקוס",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/08-diplodocus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/08-diplodocus.webp"
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-09-parasaurolophus",
+      "title_he": "פרזאורולופוס",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/09-parasaurolophus.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/09-parasaurolophus.webp"
+    },
+    {
+      "pack_id": "dinosaurs",
+      "card_id": "dinosaurs-10-fossil",
+      "title_he": "מאובן",
+      "png": "assets/season-1/cards-wave2-he/dinosaurs/10-fossil.png",
+      "webp": "assets/season-1/cards-wave2-he/dinosaurs/10-fossil.webp"
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-01-ancient-egypt",
+      "title_he": "מצרים העתיקה",
+      "png": "assets/season-1/cards-wave2-he/world-history/01-ancient-egypt.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/01-ancient-egypt.webp"
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-02-ancient-greece",
+      "title_he": "יוון העתיקה",
+      "png": "assets/season-1/cards-wave2-he/world-history/02-ancient-greece.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/02-ancient-greece.webp"
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-03-rome",
+      "title_he": "רומא",
+      "png": "assets/season-1/cards-wave2-he/world-history/03-rome.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/03-rome.webp"
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-04-middle-ages",
+      "title_he": "ימי הביניים",
+      "png": "assets/season-1/cards-wave2-he/world-history/04-middle-ages.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/04-middle-ages.webp"
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-05-silk-road",
+      "title_he": "דרך המשי",
+      "png": "assets/season-1/cards-wave2-he/world-history/05-silk-road.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/05-silk-road.webp"
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-06-printing-revolution",
+      "title_he": "מהפכת הדפוס",
+      "png": "assets/season-1/cards-wave2-he/world-history/06-printing-revolution.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/06-printing-revolution.webp"
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-07-america-discovery",
+      "title_he": "גילוי אמריקה",
+      "png": "assets/season-1/cards-wave2-he/world-history/07-america-discovery.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/07-america-discovery.webp"
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-08-industrial-revolution",
+      "title_he": "המהפכה התעשייתית",
+      "png": "assets/season-1/cards-wave2-he/world-history/08-industrial-revolution.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/08-industrial-revolution.webp"
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-09-human-rights",
+      "title_he": "זכויות אדם",
+      "png": "assets/season-1/cards-wave2-he/world-history/09-human-rights.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/09-human-rights.webp"
+    },
+    {
+      "pack_id": "world-history",
+      "card_id": "world-history-10-computer-age",
+      "title_he": "עידן המחשב",
+      "png": "assets/season-1/cards-wave2-he/world-history/10-computer-age.png",
+      "webp": "assets/season-1/cards-wave2-he/world-history/10-computer-age.webp"
+    },
+    {
+      "pack_id": "kiro",
+      "card_id": "kiro-01-spec-driven",
+      "title_he": "Spec Driven",
+      "png": "assets/season-1/cards-tech-he/kiro/01-spec-driven.png",
+      "webp": "assets/season-1/cards-tech-he/kiro/01-spec-driven.webp"
+    },
+    {
+      "pack_id": "kiro",
+      "card_id": "kiro-02-requirements",
+      "title_he": "דרישות",
+      "png": "assets/season-1/cards-tech-he/kiro/02-requirements.png",
+      "webp": "assets/season-1/cards-tech-he/kiro/02-requirements.webp"
+    },
+    {
+      "pack_id": "kiro",
+      "card_id": "kiro-03-ears",
+      "title_he": "EARS",
+      "png": "assets/season-1/cards-tech-he/kiro/03-ears.png",
+      "webp": "assets/season-1/cards-tech-he/kiro/03-ears.webp"
+    },
+    {
+      "pack_id": "kiro",
+      "card_id": "kiro-04-design-docs",
+      "title_he": "מסמכי עיצוב",
+      "png": "assets/season-1/cards-tech-he/kiro/04-design-docs.png",
+      "webp": "assets/season-1/cards-tech-he/kiro/04-design-docs.webp"
+    },
+    {
+      "pack_id": "kiro",
+      "card_id": "kiro-05-task-plan",
+      "title_he": "תוכנית משימות",
+      "png": "assets/season-1/cards-tech-he/kiro/05-task-plan.png",
+      "webp": "assets/season-1/cards-tech-he/kiro/05-task-plan.webp"
+    },
+    {
+      "pack_id": "kiro",
+      "card_id": "kiro-06-steering",
+      "title_he": "Steering",
+      "png": "assets/season-1/cards-tech-he/kiro/06-steering.png",
+      "webp": "assets/season-1/cards-tech-he/kiro/06-steering.webp"
+    },
+    {
+      "pack_id": "kiro",
+      "card_id": "kiro-07-agent-hooks",
+      "title_he": "Hooks",
+      "png": "assets/season-1/cards-tech-he/kiro/07-agent-hooks.png",
+      "webp": "assets/season-1/cards-tech-he/kiro/07-agent-hooks.webp"
+    },
+    {
+      "pack_id": "kiro",
+      "card_id": "kiro-08-custom-agents",
+      "title_he": "סוכנים מותאמים",
+      "png": "assets/season-1/cards-tech-he/kiro/08-custom-agents.png",
+      "webp": "assets/season-1/cards-tech-he/kiro/08-custom-agents.webp"
+    },
+    {
+      "pack_id": "kiro",
+      "card_id": "kiro-09-cli-ide-web",
+      "title_he": "IDE CLI Web",
+      "png": "assets/season-1/cards-tech-he/kiro/09-cli-ide-web.png",
+      "webp": "assets/season-1/cards-tech-he/kiro/09-cli-ide-web.webp"
+    },
+    {
+      "pack_id": "kiro",
+      "card_id": "kiro-10-validation",
+      "title_he": "אימות",
+      "png": "assets/season-1/cards-tech-he/kiro/10-validation.png",
+      "webp": "assets/season-1/cards-tech-he/kiro/10-validation.webp"
+    }
+  ]
+}

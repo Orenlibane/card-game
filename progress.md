@@ -87,3 +87,17 @@ Next TODOs:
 - Add a visible pack-open reveal ceremony before jumping to album.
 - Add fail-path QA for cooldown display and retry tomorrow.
 - Decide which 8 incomplete packs should be hidden permanently from MVP or moved to backlog metadata.
+
+## 2026-05-11
+
+- Continued backend-authoritative migration after Railway Volume persistence was added.
+- Implemented daily deal purchase tracking so the 10-coin deal is only available once per player per day, then falls back to the regular pack cost.
+- Added durable `dailyDealPurchases` persistence in file mode and `daily_deal_purchases` to the Supabase schema for the future DB path.
+- Added basic write rate limiting on player creation, pack opening, duplicate selling, and quiz attempts.
+- Reduced quiz reward economy from 25 to 8 coins so a quiz pays less than a pack.
+- Connected Angular duplicate selling to the backend `sell-duplicates` endpoint.
+- Connected Angular quiz completion to the backend `quiz-attempts` endpoint.
+- Updated shop UI so a used daily deal is shown as already used and cannot be bought again that day.
+- Changed the mobile bottom navigation from fixed overlay to an in-shell bottom row after QA showed it covering the shop odds table.
+- Added a startup intro animation with a full-screen branded reveal, fanned packs, a central pack burst, flying cards, progress sweep, skip button, and reduced-motion fallback.
+- Raised the Angular component style production budget to fit the richer intro animation CSS.

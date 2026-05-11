@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "generation_mode_he": "נכסי production נוצרים אחד־אחד בכלי image generation, עם בדיקה וייבוא אחרי כל תמונה.",
+  "status_he": "חבילת ברולסטארס כוללת 10 דמויות מקוריות בדמו עונה 1.",
+  "source_pack_json": "assets/season-1/quizzes/brawlstars.json",
+  "packs": [
+    {
+      "pack_id": "brawlstars",
+      "title_he": "ברולסטארס",
+      "png": "assets/season-1/packs-wave2-he/pack-brawlstars.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-brawlstars.webp",
+      "prompt_file": "tmp/imagegen/brawlstars-pack-prompt.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00cd420f9881918f6518f1792ef61e.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T18:52:17.229915+00:00"
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "brawlstars-01-nova",
+      "pack_id": "brawlstars",
+      "title_he": "נובה",
+      "png": "assets/season-1/cards-wave2-he/brawlstars/01-nova.png",
+      "webp": "assets/season-1/cards-wave2-he/brawlstars/01-nova.webp",
+      "prompt_file": "tmp/imagegen/brawlstars-cards/01-brawlstars-01-nova.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00cd9dcfb0819180ec03a4a87e7932.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T18:52:17.229915+00:00"
+    },
+    {
+      "card_id": "brawlstars-02-blitz",
+      "pack_id": "brawlstars",
+      "title_he": "בזק",
+      "png": "assets/season-1/cards-wave2-he/brawlstars/02-blitz.png",
+      "webp": "assets/season-1/cards-wave2-he/brawlstars/02-blitz.webp",
+      "prompt_file": "tmp/imagegen/brawlstars-cards/02-brawlstars-02-blitz.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00cdfff9d88191be4cb6ea83606d49.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T18:52:17.229915+00:00"
+    },
+    {
+      "card_id": "brawlstars-03-luna",
+      "pack_id": "brawlstars",
+      "title_he": "לונה",
+      "png": "assets/season-1/cards-wave2-he/brawlstars/03-luna.png",
+      "webp": "assets/season-1/cards-wave2-he/brawlstars/03-luna.webp",
+      "prompt_file": "tmp/imagegen/brawlstars-cards/03-brawlstars-03-luna.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ce5e8ca481919ed1641fd24427de.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T18:52:17.229915+00:00"
+    },
+    {
+      "card_id": "brawlstars-04-boulder",
+      "pack_id": "brawlstars",
+      "title_he": "בולדר",
+      "png": "assets/season-1/cards-wave2-he/brawlstars/04-boulder.png",
+      "webp": "assets/season-1/cards-wave2-he/brawlstars/04-boulder.webp",
+      "prompt_file": "tmp/imagegen/brawlstars-cards/04-brawlstars-04-boulder.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ceba67c081919bddcfdf16a07c56.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T18:52:17.229915+00:00"
+    },
+    {
+      "card_id": "brawlstars-05-flora",
+      "pack_id": "brawlstars",
+      "title_he": "פלורה",
+      "png": "assets/season-1/cards-wave2-he/brawlstars/05-flora.png",
+      "webp": "assets/season-1/cards-wave2-he/brawlstars/05-flora.webp",
+      "prompt_file": "tmp/imagegen/brawlstars-cards/05-brawlstars-05-flora.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00cf1be3dc8191a857cc496dbf2fa3.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T18:52:17.229915+00:00"
+    },
+    {
+      "card_id": "brawlstars-06-shadow",
+      "pack_id": "brawlstars",
+      "title_he": "צל",
+      "png": "assets/season-1/cards-wave2-he/brawlstars/06-shadow.png",
+      "webp": "assets/season-1/cards-wave2-he/brawlstars/06-shadow.webp",
+      "prompt_file": "tmp/imagegen/brawlstars-cards/06-brawlstars-06-shadow.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00cf7c3420819196eaa9e22aaec173.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T18:52:17.229915+00:00"
+    },
+    {
+      "card_id": "brawlstars-07-pixel",
+      "pack_id": "brawlstars",
+      "title_he": "פיקסל",
+      "png": "assets/season-1/cards-wave2-he/brawlstars/07-pixel.png",
+      "webp": "assets/season-1/cards-wave2-he/brawlstars/07-pixel.webp",
+      "prompt_file": "tmp/imagegen/brawlstars-cards/07-brawlstars-07-pixel.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00d0d64bac81918fb915b69e728bae.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T18:52:17.229915+00:00"
+    },
+    {
+      "card_id": "brawlstars-08-wave",
+      "pack_id": "brawlstars",
+      "title_he": "גל",
+      "png": "assets/season-1/cards-wave2-he/brawlstars/08-wave.png",
+      "webp": "assets/season-1/cards-wave2-he/brawlstars/08-wave.webp",
+      "prompt_file": "tmp/imagegen/brawlstars-cards/08-brawlstars-08-wave.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00d19988c88191ab86e7b835a305d0.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T18:52:17.229915+00:00"
+    },
+    {
+      "card_id": "brawlstars-09-spark",
+      "pack_id": "brawlstars",
+      "title_he": "ניצוץ",
+      "png": "assets/season-1/cards-wave2-he/brawlstars/09-spark.png",
+      "webp": "assets/season-1/cards-wave2-he/brawlstars/09-spark.webp",
+      "prompt_file": "tmp/imagegen/brawlstars-cards/09-brawlstars-09-spark.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00d1fd85988191bbe82edb66b31d6e.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T18:52:17.229915+00:00"
+    },
+    {
+      "card_id": "brawlstars-10-shielda",
+      "pack_id": "brawlstars",
+      "title_he": "שילדה",
+      "png": "assets/season-1/cards-wave2-he/brawlstars/10-shielda.png",
+      "webp": "assets/season-1/cards-wave2-he/brawlstars/10-shielda.webp",
+      "prompt_file": "tmp/imagegen/brawlstars-cards/10-brawlstars-10-shielda.txt",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00d25eaac08191bbfb101d50ce1028.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T18:52:17.229915+00:00"
+    }
+  ]
+}

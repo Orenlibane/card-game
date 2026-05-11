@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "board-games",
+  "pack_title_he": "משחקי קופסה",
+  "domain_he": "חוקים, תורות, קוביות ואסטרטגיה",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-board-games.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "note_he": "סט תוכן מלא עם שאלות. נכסי התמונה יופקו בהמשך לפי פרומפטים של ה-skill.",
+  "cards": [
+    {
+      "card_id": "board-games-01-dice",
+      "index": 1,
+      "title_he": "קובייה",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/01-dice.webp",
+      "facts_he": [
+        "קובייה מוסיפה מזל למשחק",
+        "כל פאה מציגה מספר אחר",
+        "תוצאה אקראית משנה תור"
+      ],
+      "tags_he": [
+        "מזל",
+        "מספרים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף קובייה?",
+          "options_he": [
+            "תור נותן לכל שחקן זמן פעולה",
+            "קובייה מוסיפה מזל למשחק",
+            "חייל מייצג שחקן בלוח"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "קובייה מוסיפה מזל למשחק"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף קובייה?",
+          "options_he": [
+            "כל פאה מציגה מספר אחר",
+            "סיום קורה לפי תנאי ברור",
+            "לפעמים מנצחים בכמה דרכים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כל פאה מציגה מספר אחר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף קובייה הכי חשוב לזכור?",
+          "options_he": [
+            "תוצאה אקראית משנה תור",
+            "נקודות מודדות התקדמות",
+            "קלף פעולה משנה מצב במשחק"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תוצאה אקראית משנה תור"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fcf65648819bbd26228fa6fbfce1.png",
+        "project_png": "assets/season-1/cards-wave2-he/board-games/01-dice.png",
+        "project_webp": "assets/season-1/cards-wave2-he/board-games/01-dice.webp",
+        "updated_at": "2026-05-10T22:01:09.815227+00:00"
+      }
+    },
+    {
+      "card_id": "board-games-02-game-board",
+      "index": 2,
+      "title_he": "לוח משחק",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/02-game-board.webp",
+      "facts_he": [
+        "לוח מציג דרך וחוקים",
+        "משבצות עוזרות למדוד תנועה",
+        "עיצוב הלוח מכוון את המשחק"
+      ],
+      "tags_he": [
+        "לוח",
+        "דרך"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף לוח משחק?",
+          "options_he": [
+            "ממתינים ומקשיבים לאחרים",
+            "לוח מציג דרך וחוקים",
+            "לפעמים מנצחים בכמה דרכים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "לוח מציג דרך וחוקים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף לוח משחק?",
+          "options_he": [
+            "הצעה טובה עוזרת לשני צדדים",
+            "סופרים בסוף לפי החוקים",
+            "משבצות עוזרות למדוד תנועה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "משבצות עוזרות למדוד תנועה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף לוח משחק הכי חשוב לזכור?",
+          "options_he": [
+            "סדר תורות שומר על הוגנות",
+            "עיצוב הלוח מכוון את המשחק",
+            "מסחר מחליף משאבים בין שחקנים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "עיצוב הלוח מכוון את המשחק"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fd3500ec819bbaa2ef2ec90653f6.png",
+        "project_png": "assets/season-1/cards-wave2-he/board-games/02-game-board.png",
+        "project_webp": "assets/season-1/cards-wave2-he/board-games/02-game-board.webp",
+        "updated_at": "2026-05-10T22:01:09.815227+00:00"
+      }
+    },
+    {
+      "card_id": "board-games-03-action-cards",
+      "index": 3,
+      "title_he": "קלפי פעולה",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/03-action-cards.webp",
+      "facts_he": [
+        "קלף פעולה משנה מצב במשחק",
+        "קוראים הוראות לפני שימוש",
+        "תזמון קלף יכול להפתיע"
+      ],
+      "tags_he": [
+        "קלפים",
+        "תזמון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף קלפי פעולה?",
+          "options_he": [
+            "סופרים בסוף לפי החוקים",
+            "קלף פעולה משנה מצב במשחק",
+            "ממתינים ומקשיבים לאחרים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "קלף פעולה משנה מצב במשחק"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף קלפי פעולה?",
+          "options_he": [
+            "קוראים הוראות לפני שימוש",
+            "בודקים ניקוד אחרי הפעולה האחרונה",
+            "ממתינים ומקשיבים לאחרים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קוראים הוראות לפני שימוש"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף קלפי פעולה הכי חשוב לזכור?",
+          "options_he": [
+            "מדברים כדי לבחור פעולה",
+            "כל פאה מציגה מספר אחר",
+            "תזמון קלף יכול להפתיע"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "תזמון קלף יכול להפתיע"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fd75b594819b96649d102fb8c37a.png",
+        "project_png": "assets/season-1/cards-wave2-he/board-games/03-action-cards.png",
+        "project_webp": "assets/season-1/cards-wave2-he/board-games/03-action-cards.webp",
+        "updated_at": "2026-05-10T22:01:09.815227+00:00"
+      }
+    },
+    {
+      "card_id": "board-games-04-game-piece",
+      "index": 4,
+      "title_he": "חייל משחק",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/04-game-piece.webp",
+      "facts_he": [
+        "חייל מייצג שחקן בלוח",
+        "צבעים עוזרים להבדיל שחקנים",
+        "מיקום החייל חשוב לתכנון"
+      ],
+      "tags_he": [
+        "חייל",
+        "מיקום"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף חייל משחק?",
+          "options_he": [
+            "מחלקים תפקידים לפי חוזקות",
+            "חייל מייצג שחקן בלוח",
+            "תזמון קלף יכול להפתיע"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "חייל מייצג שחקן בלוח"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף חייל משחק?",
+          "options_he": [
+            "צבעים עוזרים להבדיל שחקנים",
+            "סדר תורות שומר על הוגנות",
+            "קוראים הוראות לפני שימוש"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צבעים עוזרים להבדיל שחקנים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף חייל משחק הכי חשוב לזכור?",
+          "options_he": [
+            "סיום קורה לפי תנאי ברור",
+            "לחיצת יד שומרת על רוח טובה",
+            "מיקום החייל חשוב לתכנון"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מיקום החייל חשוב לתכנון"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fdebad40819baeafe245fe039ca6.png",
+        "project_png": "assets/season-1/cards-wave2-he/board-games/04-game-piece.png",
+        "project_webp": "assets/season-1/cards-wave2-he/board-games/04-game-piece.webp",
+        "updated_at": "2026-05-10T22:01:09.815227+00:00"
+      }
+    },
+    {
+      "card_id": "board-games-05-turn",
+      "index": 5,
+      "title_he": "תור משחק",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/05-turn.webp",
+      "facts_he": [
+        "תור נותן לכל שחקן זמן פעולה",
+        "סדר תורות שומר על הוגנות",
+        "ממתינים ומקשיבים לאחרים"
+      ],
+      "tags_he": [
+        "תור",
+        "הוגנות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף תור משחק?",
+          "options_he": [
+            "תור נותן לכל שחקן זמן פעולה",
+            "סופרים בסוף לפי החוקים",
+            "חייל מייצג שחקן בלוח"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תור נותן לכל שחקן זמן פעולה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף תור משחק?",
+          "options_he": [
+            "עיצוב הלוח מכוון את המשחק",
+            "סדר תורות שומר על הוגנות",
+            "משבצות עוזרות למדוד תנועה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "סדר תורות שומר על הוגנות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף תור משחק הכי חשוב לזכור?",
+          "options_he": [
+            "ממתינים ומקשיבים לאחרים",
+            "הצעה טובה עוזרת לשני צדדים",
+            "קוראים הוראות לפני שימוש"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ממתינים ומקשיבים לאחרים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fe2929bc819bb15625406a233a0e.png",
+        "project_png": "assets/season-1/cards-wave2-he/board-games/05-turn.png",
+        "project_webp": "assets/season-1/cards-wave2-he/board-games/05-turn.webp",
+        "updated_at": "2026-05-10T22:01:09.815227+00:00"
+      }
+    },
+    {
+      "card_id": "board-games-06-victory-points",
+      "index": 6,
+      "title_he": "נקודות ניצחון",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/06-victory-points.webp",
+      "facts_he": [
+        "נקודות מודדות התקדמות",
+        "לפעמים מנצחים בכמה דרכים",
+        "סופרים בסוף לפי החוקים"
+      ],
+      "tags_he": [
+        "ניקוד",
+        "ניצחון"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף נקודות ניצחון?",
+          "options_he": [
+            "נקודות מודדות התקדמות",
+            "תזמון קלף יכול להפתיע",
+            "ממתינים ומקשיבים לאחרים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "נקודות מודדות התקדמות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף נקודות ניצחון?",
+          "options_he": [
+            "לפעמים מנצחים בכמה דרכים",
+            "מיקום החייל חשוב לתכנון",
+            "משבצות עוזרות למדוד תנועה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לפעמים מנצחים בכמה דרכים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף נקודות ניצחון הכי חשוב לזכור?",
+          "options_he": [
+            "סופרים בסוף לפי החוקים",
+            "מיקום החייל חשוב לתכנון",
+            "כולם מנסים לנצח יחד"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סופרים בסוף לפי החוקים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fe6a1264819b80ce3fb48501acd7.png",
+        "project_png": "assets/season-1/cards-wave2-he/board-games/06-victory-points.png",
+        "project_webp": "assets/season-1/cards-wave2-he/board-games/06-victory-points.webp",
+        "updated_at": "2026-05-10T22:01:09.815227+00:00"
+      }
+    },
+    {
+      "card_id": "board-games-07-secret-mission",
+      "index": 7,
+      "title_he": "משימה סודית",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/07-secret-mission.webp",
+      "facts_he": [
+        "משימה סודית מוסיפה מתח",
+        "לא תמיד מגלים את המטרה",
+        "מתכננים בלי לחשוף הכל"
+      ],
+      "tags_he": [
+        "סוד",
+        "תכנון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף משימה סודית?",
+          "options_he": [
+            "משבצות עוזרות למדוד תנועה",
+            "סדר תורות שומר על הוגנות",
+            "משימה סודית מוסיפה מתח"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "משימה סודית מוסיפה מתח"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף משימה סודית?",
+          "options_he": [
+            "לא תמיד מגלים את המטרה",
+            "בודקים ניקוד אחרי הפעולה האחרונה",
+            "סדר תורות שומר על הוגנות"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לא תמיד מגלים את המטרה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף משימה סודית הכי חשוב לזכור?",
+          "options_he": [
+            "מתכננים בלי לחשוף הכל",
+            "קובייה מוסיפה מזל למשחק",
+            "מסחר מחליף משאבים בין שחקנים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מתכננים בלי לחשוף הכל"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00feae31fc819bb40f83fa6a1b97af.png",
+        "project_png": "assets/season-1/cards-wave2-he/board-games/07-secret-mission.png",
+        "project_webp": "assets/season-1/cards-wave2-he/board-games/07-secret-mission.webp",
+        "updated_at": "2026-05-10T22:01:09.815227+00:00"
+      }
+    },
+    {
+      "card_id": "board-games-08-cooperation",
+      "index": 8,
+      "title_he": "שיתוף פעולה",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/08-cooperation.webp",
+      "facts_he": [
+        "כולם מנסים לנצח יחד",
+        "מחלקים תפקידים לפי חוזקות",
+        "מדברים כדי לבחור פעולה"
+      ],
+      "tags_he": [
+        "שיתוף",
+        "צוות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף שיתוף פעולה?",
+          "options_he": [
+            "קובייה מוסיפה מזל למשחק",
+            "כולם מנסים לנצח יחד",
+            "סופרים בסוף לפי החוקים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "כולם מנסים לנצח יחד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף שיתוף פעולה?",
+          "options_he": [
+            "לא תמיד מגלים את המטרה",
+            "מחלקים תפקידים לפי חוזקות",
+            "ממתינים ומקשיבים לאחרים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מחלקים תפקידים לפי חוזקות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף שיתוף פעולה הכי חשוב לזכור?",
+          "options_he": [
+            "מדברים כדי לבחור פעולה",
+            "כל פאה מציגה מספר אחר",
+            "מתכננים בלי לחשוף הכל"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מדברים כדי לבחור פעולה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00ff0724f0819bba40f067fe1c2910.png",
+        "project_png": "assets/season-1/cards-wave2-he/board-games/08-cooperation.png",
+        "project_webp": "assets/season-1/cards-wave2-he/board-games/08-cooperation.webp",
+        "updated_at": "2026-05-10T22:01:09.815227+00:00"
+      }
+    },
+    {
+      "card_id": "board-games-09-trading",
+      "index": 9,
+      "title_he": "מסחר",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/09-trading.webp",
+      "facts_he": [
+        "מסחר מחליף משאבים בין שחקנים",
+        "הצעה טובה עוזרת לשני צדדים",
+        "צריך להסכים לפני החלפה"
+      ],
+      "tags_he": [
+        "מסחר",
+        "משאבים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מסחר?",
+          "options_he": [
+            "בודקים ניקוד אחרי הפעולה האחרונה",
+            "מדברים כדי לבחור פעולה",
+            "מסחר מחליף משאבים בין שחקנים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מסחר מחליף משאבים בין שחקנים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מסחר?",
+          "options_he": [
+            "לחיצת יד שומרת על רוח טובה",
+            "הצעה טובה עוזרת לשני צדדים",
+            "מתכננים בלי לחשוף הכל"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "הצעה טובה עוזרת לשני צדדים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף מסחר הכי חשוב לזכור?",
+          "options_he": [
+            "משימה סודית מוסיפה מתח",
+            "תוצאה אקראית משנה תור",
+            "צריך להסכים לפני החלפה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "צריך להסכים לפני החלפה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00ff49df54819ba0de13677b66a7b1.png",
+        "project_png": "assets/season-1/cards-wave2-he/board-games/09-trading.png",
+        "project_webp": "assets/season-1/cards-wave2-he/board-games/09-trading.webp",
+        "updated_at": "2026-05-10T22:01:09.815227+00:00"
+      }
+    },
+    {
+      "card_id": "board-games-10-endgame",
+      "index": 10,
+      "title_he": "סיום משחק",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/10-endgame.webp",
+      "facts_he": [
+        "סיום קורה לפי תנאי ברור",
+        "בודקים ניקוד אחרי הפעולה האחרונה",
+        "לחיצת יד שומרת על רוח טובה"
+      ],
+      "tags_he": [
+        "סיום",
+        "ספורטיביות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף סיום משחק?",
+          "options_he": [
+            "הצעה טובה עוזרת לשני צדדים",
+            "לא תמיד מגלים את המטרה",
+            "סיום קורה לפי תנאי ברור"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "סיום קורה לפי תנאי ברור"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף סיום משחק?",
+          "options_he": [
+            "מיקום החייל חשוב לתכנון",
+            "תור נותן לכל שחקן זמן פעולה",
+            "בודקים ניקוד אחרי הפעולה האחרונה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "בודקים ניקוד אחרי הפעולה האחרונה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף סיום משחק הכי חשוב לזכור?",
+          "options_he": [
+            "תוצאה אקראית משנה תור",
+            "לחיצת יד שומרת על רוח טובה",
+            "עיצוב הלוח מכוון את המשחק"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "לחיצת יד שומרת על רוח טובה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00ff92f8dc819b9aa23fafe16b1992.png",
+        "project_png": "assets/season-1/cards-wave2-he/board-games/10-endgame.png",
+        "project_webp": "assets/season-1/cards-wave2-he/board-games/10-endgame.webp",
+        "updated_at": "2026-05-10T22:01:09.815227+00:00"
+      }
+    }
+  ],
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "עטיפת החבילה נוצרה כתמונת image generation יחידה ויובאה לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e07406148191a2a1208f57743371.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-board-games.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-board-games.webp",
+    "updated_at": "2026-05-10T20:01:27.434861+00:00"
+  }
+}

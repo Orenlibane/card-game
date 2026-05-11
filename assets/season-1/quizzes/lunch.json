@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "lunch",
+  "pack_title_he": "ארוחות צהריים",
+  "domain_he": "אוכל מבושל, תכנון צלחת וטעמים",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-lunch.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "note_he": "סט תוכן מלא עם שאלות. נכסי התמונה יופקו בהמשך לפי פרומפטים של ה-skill.",
+  "cards": [
+    {
+      "card_id": "lunch-01-rice",
+      "index": 1,
+      "title_he": "אורז",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/01-rice.webp",
+      "facts_he": [
+        "אורז סופג מים בזמן בישול",
+        "גרגרים מתרככים בחום",
+        "אורז מתאים להרבה תבשילים"
+      ],
+      "tags_he": [
+        "דגן",
+        "בישול"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף אורז?",
+          "options_he": [
+            "אורז סופג מים בזמן בישול",
+            "שניצל מצופה בפירורים",
+            "גודל אחיד עוזר לבישול שווה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אורז סופג מים בזמן בישול"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף אורז?",
+          "options_he": [
+            "גרגרים מתרככים בחום",
+            "תפוח אדמה נאפה או מתבשל",
+            "צלחת צבעונית מזמינה לאכול"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גרגרים מתרככים בחום"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף אורז הכי חשוב לזכור?",
+          "options_he": [
+            "רוטב קל מחבר טעמים",
+            "אורז מתאים להרבה תבשילים",
+            "ציפוי יוצר מרקם פריך"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אורז מתאים להרבה תבשילים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f624655c819b9af910fb4cee90ae.png",
+        "project_png": "assets/season-1/cards-wave2-he/lunch/01-rice.png",
+        "project_webp": "assets/season-1/cards-wave2-he/lunch/01-rice.webp",
+        "updated_at": "2026-05-10T21:31:35.903871+00:00"
+      }
+    },
+    {
+      "card_id": "lunch-02-pasta",
+      "index": 2,
+      "title_he": "פסטה",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/02-pasta.webp",
+      "facts_he": [
+        "פסטה מתבשלת במים חמים",
+        "רוטב מוסיף טעם וצבע",
+        "צורות פסטה מחזיקות רוטב אחרת"
+      ],
+      "tags_he": [
+        "פחמימה",
+        "רוטב"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף פסטה?",
+          "options_he": [
+            "ערבוב שומר על חום אחיד",
+            "פסטה מתבשלת במים חמים",
+            "פיתה מחזיקה מילוי מגוון"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "פסטה מתבשלת במים חמים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף פסטה?",
+          "options_he": [
+            "רוטב מוסיף טעם וצבע",
+            "אפשר להכין גם מירקות או קטניות",
+            "מים ותיבול יוצרים ציר"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "רוטב מוסיף טעם וצבע"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף פסטה הכי חשוב לזכור?",
+          "options_he": [
+            "צורות פסטה מחזיקות רוטב אחרת",
+            "גודל אחיד עוזר לבישול שווה",
+            "קליפה שומרת על צורה באפייה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צורות פסטה מחזיקות רוטב אחרת"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f6c1035c819baff357eb2fa4c9ea.png",
+        "project_png": "assets/season-1/cards-wave2-he/lunch/02-pasta.png",
+        "project_webp": "assets/season-1/cards-wave2-he/lunch/02-pasta.webp",
+        "updated_at": "2026-05-10T21:31:35.903871+00:00"
+      }
+    },
+    {
+      "card_id": "lunch-03-patties",
+      "index": 3,
+      "title_he": "קציצות",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/03-patties.webp",
+      "facts_he": [
+        "קציצות עשויות מתערובת מתובלת",
+        "אפשר להכין גם מירקות או קטניות",
+        "גודל אחיד עוזר לבישול שווה"
+      ],
+      "tags_he": [
+        "חלבון",
+        "תיבול"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף קציצות?",
+          "options_he": [
+            "קציצות עשויות מתערובת מתובלת",
+            "פיתה מחזיקה מילוי מגוון",
+            "טחינה וירקות מוסיפים טעם"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קציצות עשויות מתערובת מתובלת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף קציצות?",
+          "options_he": [
+            "פיתה מחזיקה מילוי מגוון",
+            "אופים או מטגנים בזהירות",
+            "אפשר להכין גם מירקות או קטניות"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "אפשר להכין גם מירקות או קטניות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף קציצות הכי חשוב לזכור?",
+          "options_he": [
+            "ציפוי יוצר מרקם פריך",
+            "צורות פסטה מחזיקות רוטב אחרת",
+            "גודל אחיד עוזר לבישול שווה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "גודל אחיד עוזר לבישול שווה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f6fc906c819b8dac9d4e6acde4cf.png",
+        "project_png": "assets/season-1/cards-wave2-he/lunch/03-patties.png",
+        "project_webp": "assets/season-1/cards-wave2-he/lunch/03-patties.webp",
+        "updated_at": "2026-05-10T21:31:35.903871+00:00"
+      }
+    },
+    {
+      "card_id": "lunch-04-vegetable-soup",
+      "index": 4,
+      "title_he": "מרק ירקות",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/04-vegetable-soup.webp",
+      "facts_he": [
+        "מרק מחמם ומשלב ירקות",
+        "מים ותיבול יוצרים ציר",
+        "בישול איטי מרכך ירקות"
+      ],
+      "tags_he": [
+        "מרק",
+        "ירקות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מרק ירקות?",
+          "options_he": [
+            "מרק מחמם ומשלב ירקות",
+            "צורות פסטה מחזיקות רוטב אחרת",
+            "פיתה מחזיקה מילוי מגוון"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מרק מחמם ומשלב ירקות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מרק ירקות?",
+          "options_he": [
+            "מים ותיבול יוצרים ציר",
+            "רוטב מוסיף טעם וצבע",
+            "צורות פסטה מחזיקות רוטב אחרת"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מים ותיבול יוצרים ציר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף מרק ירקות הכי חשוב לזכור?",
+          "options_he": [
+            "בישול איטי מרכך ירקות",
+            "גודל אחיד עוזר לבישול שווה",
+            "ציפוי יוצר מרקם פריך"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בישול איטי מרכך ירקות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f73aa004819bb47cb1fcf2d75cb9.png",
+        "project_png": "assets/season-1/cards-wave2-he/lunch/04-vegetable-soup.png",
+        "project_webp": "assets/season-1/cards-wave2-he/lunch/04-vegetable-soup.webp",
+        "updated_at": "2026-05-10T21:31:35.903871+00:00"
+      }
+    },
+    {
+      "card_id": "lunch-05-schnitzel",
+      "index": 5,
+      "title_he": "שניצל",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/05-schnitzel.webp",
+      "facts_he": [
+        "שניצל מצופה בפירורים",
+        "ציפוי יוצר מרקם פריך",
+        "אופים או מטגנים בזהירות"
+      ],
+      "tags_he": [
+        "פריכות",
+        "חום"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף שניצל?",
+          "options_he": [
+            "רוטב מוסיף טעם וצבע",
+            "שניצל מצופה בפירורים",
+            "ערבוב שומר על חום אחיד"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "שניצל מצופה בפירורים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף שניצל?",
+          "options_he": [
+            "פיתה מחזיקה מילוי מגוון",
+            "ציפוי יוצר מרקם פריך",
+            "פסטה מתבשלת במים חמים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "ציפוי יוצר מרקם פריך"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף שניצל הכי חשוב לזכור?",
+          "options_he": [
+            "רוטב ירקות משתלב איתו",
+            "אופים או מטגנים בזהירות",
+            "רוטב מוסיף טעם וצבע"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אופים או מטגנים בזהירות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f7773b90819bb24996c77edc4588.png",
+        "project_png": "assets/season-1/cards-wave2-he/lunch/05-schnitzel.png",
+        "project_webp": "assets/season-1/cards-wave2-he/lunch/05-schnitzel.webp",
+        "updated_at": "2026-05-10T21:31:35.903871+00:00"
+      }
+    },
+    {
+      "card_id": "lunch-06-couscous",
+      "index": 6,
+      "title_he": "קוסקוס",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/06-couscous.webp",
+      "facts_he": [
+        "קוסקוס עשוי גרגירים קטנים",
+        "רוטב ירקות משתלב איתו",
+        "אידוי עוזר למרקם אוורירי"
+      ],
+      "tags_he": [
+        "גרגירים",
+        "אידוי"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף קוסקוס?",
+          "options_he": [
+            "קוסקוס עשוי גרגירים קטנים",
+            "מים ותיבול יוצרים ציר",
+            "פלאפל עשוי מחומוס ותבלינים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קוסקוס עשוי גרגירים קטנים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף קוסקוס?",
+          "options_he": [
+            "ערבוב שומר על חום אחיד",
+            "אורז מתאים להרבה תבשילים",
+            "רוטב ירקות משתלב איתו"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "רוטב ירקות משתלב איתו"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף קוסקוס הכי חשוב לזכור?",
+          "options_he": [
+            "אידוי עוזר למרקם אוורירי",
+            "פלאפל עשוי מחומוס ותבלינים",
+            "מרק מחמם ומשלב ירקות"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אידוי עוזר למרקם אוורירי"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f7bcce40819bbbaea9b24980cbb7.png",
+        "project_png": "assets/season-1/cards-wave2-he/lunch/06-couscous.png",
+        "project_webp": "assets/season-1/cards-wave2-he/lunch/06-couscous.webp",
+        "updated_at": "2026-05-10T21:31:35.903871+00:00"
+      }
+    },
+    {
+      "card_id": "lunch-07-chicken-salad",
+      "index": 7,
+      "title_he": "סלט עוף",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/07-chicken-salad.webp",
+      "facts_he": [
+        "סלט עוף משלב חלבון וירקות",
+        "רוטב קל מחבר טעמים",
+        "צלחת צבעונית מזמינה לאכול"
+      ],
+      "tags_he": [
+        "חלבון",
+        "ירקות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף סלט עוף?",
+          "options_he": [
+            "פלאפל עשוי מחומוס ותבלינים",
+            "בישול איטי מרכך ירקות",
+            "סלט עוף משלב חלבון וירקות"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "סלט עוף משלב חלבון וירקות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף סלט עוף?",
+          "options_he": [
+            "מים ותיבול יוצרים ציר",
+            "רוטב קל מחבר טעמים",
+            "אופים או מטגנים בזהירות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "רוטב קל מחבר טעמים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף סלט עוף הכי חשוב לזכור?",
+          "options_he": [
+            "אופים או מטגנים בזהירות",
+            "ירקות חתוכים דק נשארים פריכים",
+            "צלחת צבעונית מזמינה לאכול"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "צלחת צבעונית מזמינה לאכול"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f7fbe5c0819ba10454f38e1b8228.png",
+        "project_png": "assets/season-1/cards-wave2-he/lunch/07-chicken-salad.png",
+        "project_webp": "assets/season-1/cards-wave2-he/lunch/07-chicken-salad.webp",
+        "updated_at": "2026-05-10T21:31:35.903871+00:00"
+      }
+    },
+    {
+      "card_id": "lunch-08-stir-fry",
+      "index": 8,
+      "title_he": "מוקפץ",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/08-stir-fry.webp",
+      "facts_he": [
+        "מוקפץ מתבשל במהירות במחבת",
+        "ירקות חתוכים דק נשארים פריכים",
+        "ערבוב שומר על חום אחיד"
+      ],
+      "tags_he": [
+        "מחבת",
+        "מהירות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מוקפץ?",
+          "options_he": [
+            "פסטה מתבשלת במים חמים",
+            "מוקפץ מתבשל במהירות במחבת",
+            "מים ותיבול יוצרים ציר"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מוקפץ מתבשל במהירות במחבת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מוקפץ?",
+          "options_he": [
+            "בישול איטי מרכך ירקות",
+            "פיתה מחזיקה מילוי מגוון",
+            "ירקות חתוכים דק נשארים פריכים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "ירקות חתוכים דק נשארים פריכים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף מוקפץ הכי חשוב לזכור?",
+          "options_he": [
+            "אידוי עוזר למרקם אוורירי",
+            "ערבוב שומר על חום אחיד",
+            "בישול איטי מרכך ירקות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "ערבוב שומר על חום אחיד"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f83ec9ec819bb602815ca2084df3.png",
+        "project_png": "assets/season-1/cards-wave2-he/lunch/08-stir-fry.png",
+        "project_webp": "assets/season-1/cards-wave2-he/lunch/08-stir-fry.webp",
+        "updated_at": "2026-05-10T21:31:35.903871+00:00"
+      }
+    },
+    {
+      "card_id": "lunch-09-falafel-pita",
+      "index": 9,
+      "title_he": "פיתה פלאפל",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/09-falafel-pita.webp",
+      "facts_he": [
+        "פלאפל עשוי מחומוס ותבלינים",
+        "פיתה מחזיקה מילוי מגוון",
+        "טחינה וירקות מוסיפים טעם"
+      ],
+      "tags_he": [
+        "קטניות",
+        "פיתה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף פיתה פלאפל?",
+          "options_he": [
+            "סלט עוף משלב חלבון וירקות",
+            "פלאפל עשוי מחומוס ותבלינים",
+            "קליפה שומרת על צורה באפייה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "פלאפל עשוי מחומוס ותבלינים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף פיתה פלאפל?",
+          "options_he": [
+            "פיתה מחזיקה מילוי מגוון",
+            "צורות פסטה מחזיקות רוטב אחרת",
+            "אורז סופג מים בזמן בישול"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פיתה מחזיקה מילוי מגוון"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף פיתה פלאפל הכי חשוב לזכור?",
+          "options_he": [
+            "בישול איטי מרכך ירקות",
+            "אידוי עוזר למרקם אוורירי",
+            "טחינה וירקות מוסיפים טעם"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "טחינה וירקות מוסיפים טעם"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f8821afc819b8a448c6fb515bfc7.png",
+        "project_png": "assets/season-1/cards-wave2-he/lunch/09-falafel-pita.png",
+        "project_webp": "assets/season-1/cards-wave2-he/lunch/09-falafel-pita.webp",
+        "updated_at": "2026-05-10T21:31:35.903871+00:00"
+      }
+    },
+    {
+      "card_id": "lunch-10-potato",
+      "index": 10,
+      "title_he": "תפוח אדמה",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/10-potato.webp",
+      "facts_he": [
+        "תפוח אדמה נאפה או מתבשל",
+        "קליפה שומרת על צורה באפייה",
+        "תיבול משנה את הטעם"
+      ],
+      "tags_he": [
+        "שורש",
+        "אפייה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף תפוח אדמה?",
+          "options_he": [
+            "גודל אחיד עוזר לבישול שווה",
+            "תפוח אדמה נאפה או מתבשל",
+            "ערבוב שומר על חום אחיד"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "תפוח אדמה נאפה או מתבשל"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף תפוח אדמה?",
+          "options_he": [
+            "קליפה שומרת על צורה באפייה",
+            "גודל אחיד עוזר לבישול שווה",
+            "קוסקוס עשוי גרגירים קטנים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קליפה שומרת על צורה באפייה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף תפוח אדמה הכי חשוב לזכור?",
+          "options_he": [
+            "תיבול משנה את הטעם",
+            "צורות פסטה מחזיקות רוטב אחרת",
+            "פסטה מתבשלת במים חמים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תיבול משנה את הטעם"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f8c8333c819bb568cd47de8dc01e.png",
+        "project_png": "assets/season-1/cards-wave2-he/lunch/10-potato.png",
+        "project_webp": "assets/season-1/cards-wave2-he/lunch/10-potato.webp",
+        "updated_at": "2026-05-10T21:31:35.903871+00:00"
+      }
+    }
+  ],
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "עטיפת החבילה נוצרה כתמונת image generation יחידה ויובאה לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00df2580ec8191b7224d2cf68bc778.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-lunch.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-lunch.webp",
+    "updated_at": "2026-05-10T20:01:27.434861+00:00"
+  }
+}

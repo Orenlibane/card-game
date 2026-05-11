@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "sports",
+  "pack_title_he": "ספורט",
+  "domain_he": "ענפי ספורט, תנועה וכללים",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-sports.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "note_he": "סט תוכן מלא עם שאלות. נכסי התמונה יופקו בהמשך לפי פרומפטים של ה-skill.",
+  "cards": [
+    {
+      "card_id": "sports-01-soccer",
+      "index": 1,
+      "title_he": "כדורגל",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/01-soccer.webp",
+      "facts_he": [
+        "כדורגל משוחק עם שערים וכדור",
+        "מסירות עוזרות לקבוצה להתקדם",
+        "שוער מגן על השער"
+      ],
+      "tags_he": [
+        "כדור",
+        "קבוצה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף כדורגל?",
+          "options_he": [
+            "אופניים מתקדמים בעזרת דיווש",
+            "ריצה משפרת סיבולת",
+            "כדורגל משוחק עם שערים וכדור"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "כדורגל משוחק עם שערים וכדור"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף כדורגל?",
+          "options_he": [
+            "תנועה מהירה עוזרת להגיע לכדור",
+            "מסירות עוזרות לקבוצה להתקדם",
+            "קצב נכון עוזר להתמיד"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מסירות עוזרות לקבוצה להתקדם"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף כדורגל הכי חשוב לזכור?",
+          "options_he": [
+            "שוער מגן על השער",
+            "מחבט פוגע בכדור מעל רשת",
+            "מסירה מהירה יוצרת הזדמנות"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שוער מגן על השער"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01008d9ef8819b96db5edd15845e72.png",
+        "project_png": "assets/season-1/cards-wave2-he/sports/01-soccer.png",
+        "project_webp": "assets/season-1/cards-wave2-he/sports/01-soccer.webp",
+        "updated_at": "2026-05-10T22:15:56.320856+00:00"
+      }
+    },
+    {
+      "card_id": "sports-02-basketball",
+      "index": 2,
+      "title_he": "כדורסל",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/02-basketball.webp",
+      "facts_he": [
+        "קולעים כדור לסל גבוה",
+        "כדרור עוזר לנוע עם הכדור",
+        "מסירה מהירה יוצרת הזדמנות"
+      ],
+      "tags_he": [
+        "סל",
+        "כדרור"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף כדורסל?",
+          "options_he": [
+            "קולעים כדור לסל גבוה",
+            "כדורגל משוחק עם שערים וכדור",
+            "שחייה מחזקת את כל הגוף"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קולעים כדור לסל גבוה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף כדורסל?",
+          "options_he": [
+            "התעמלות דורשת גמישות וכוח",
+            "כדרור עוזר לנוע עם הכדור",
+            "ריצה משפרת סיבולת"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "כדרור עוזר לנוע עם הכדור"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף כדורסל הכי חשוב לזכור?",
+          "options_he": [
+            "מסירות עוזרות לקבוצה להתקדם",
+            "מסירה מהירה יוצרת הזדמנות",
+            "ריצה משפרת סיבולת"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מסירה מהירה יוצרת הזדמנות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0100ce265c819b8d3730aa7cd9907f.png",
+        "project_png": "assets/season-1/cards-wave2-he/sports/02-basketball.png",
+        "project_webp": "assets/season-1/cards-wave2-he/sports/02-basketball.webp",
+        "updated_at": "2026-05-10T22:15:56.320856+00:00"
+      }
+    },
+    {
+      "card_id": "sports-03-swimming",
+      "index": 3,
+      "title_he": "שחייה",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/03-swimming.webp",
+      "facts_he": [
+        "שחייה מחזקת את כל הגוף",
+        "מים דורשים נשימה מסודרת",
+        "שוחים רק במקום בטוח"
+      ],
+      "tags_he": [
+        "מים",
+        "נשימה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף שחייה?",
+          "options_he": [
+            "התעמלות דורשת גמישות וכוח",
+            "שחייה מחזקת את כל הגוף",
+            "תיאום עוזר להגנה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "שחייה מחזקת את כל הגוף"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף שחייה?",
+          "options_he": [
+            "תרגול חוזר משפר תנועה",
+            "מים דורשים נשימה מסודרת",
+            "רצים בין בסיסים לפי התקדמות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מים דורשים נשימה מסודרת"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף שחייה הכי חשוב לזכור?",
+          "options_he": [
+            "שוחים רק במקום בטוח",
+            "חימום מכין את השרירים",
+            "דיוק חשוב בכיוון המכה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שוחים רק במקום בטוח"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010162ca60819babdbe50809facfb9.png",
+        "project_png": "assets/season-1/cards-wave2-he/sports/03-swimming.png",
+        "project_webp": "assets/season-1/cards-wave2-he/sports/03-swimming.webp",
+        "updated_at": "2026-05-10T22:15:56.320856+00:00"
+      }
+    },
+    {
+      "card_id": "sports-04-running",
+      "index": 4,
+      "title_he": "ריצה",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/04-running.webp",
+      "facts_he": [
+        "ריצה משפרת סיבולת",
+        "קצב נכון עוזר להתמיד",
+        "חימום מכין את השרירים"
+      ],
+      "tags_he": [
+        "קצב",
+        "סיבולת"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף ריצה?",
+          "options_he": [
+            "ריצה משפרת סיבולת",
+            "קסדה שומרת על הראש",
+            "בוחרים נקודת אחיזה הבאה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "ריצה משפרת סיבולת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף ריצה?",
+          "options_he": [
+            "תיאום עוזר להגנה",
+            "קסדה שומרת על הראש",
+            "קצב נכון עוזר להתמיד"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "קצב נכון עוזר להתמיד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף ריצה הכי חשוב לזכור?",
+          "options_he": [
+            "חימום מכין את השרירים",
+            "התעמלות דורשת גמישות וכוח",
+            "קולעים כדור לסל גבוה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חימום מכין את השרירים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0101a1c630819b8dad239ca0a7841d.png",
+        "project_png": "assets/season-1/cards-wave2-he/sports/04-running.png",
+        "project_webp": "assets/season-1/cards-wave2-he/sports/04-running.webp",
+        "updated_at": "2026-05-10T22:15:56.320856+00:00"
+      }
+    },
+    {
+      "card_id": "sports-05-tennis",
+      "index": 5,
+      "title_he": "טניס",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/05-tennis.webp",
+      "facts_he": [
+        "מחבט פוגע בכדור מעל רשת",
+        "דיוק חשוב בכיוון המכה",
+        "תנועה מהירה עוזרת להגיע לכדור"
+      ],
+      "tags_he": [
+        "מחבט",
+        "דיוק"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף טניס?",
+          "options_he": [
+            "חימום מכין את השרירים",
+            "קצב נכון עוזר להתמיד",
+            "מחבט פוגע בכדור מעל רשת"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מחבט פוגע בכדור מעל רשת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף טניס?",
+          "options_he": [
+            "אופניים מתקדמים בעזרת דיווש",
+            "תרגול חוזר משפר תנועה",
+            "דיוק חשוב בכיוון המכה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "דיוק חשוב בכיוון המכה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף טניס הכי חשוב לזכור?",
+          "options_he": [
+            "אופניים מתקדמים בעזרת דיווש",
+            "תנועה מהירה עוזרת להגיע לכדור",
+            "כדרור עוזר לנוע עם הכדור"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "תנועה מהירה עוזרת להגיע לכדור"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0101e39fd4819bbeebcd8e5acb6fe8.png",
+        "project_png": "assets/season-1/cards-wave2-he/sports/05-tennis.png",
+        "project_webp": "assets/season-1/cards-wave2-he/sports/05-tennis.webp",
+        "updated_at": "2026-05-10T22:15:56.320856+00:00"
+      }
+    },
+    {
+      "card_id": "sports-06-judo",
+      "index": 6,
+      "title_he": "ג׳ודו",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/06-judo.webp",
+      "facts_he": [
+        "ג׳ודו מלמד שליטה וכבוד",
+        "נופלים נכון כדי להישמר",
+        "טכניקה חשובה מכוח בלבד"
+      ],
+      "tags_he": [
+        "כבוד",
+        "טכניקה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף ג׳ודו?",
+          "options_he": [
+            "קסדה שומרת על הראש",
+            "אופניים מתקדמים בעזרת דיווש",
+            "ג׳ודו מלמד שליטה וכבוד"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "ג׳ודו מלמד שליטה וכבוד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף ג׳ודו?",
+          "options_he": [
+            "שוער מגן על השער",
+            "בוחרים נקודת אחיזה הבאה",
+            "נופלים נכון כדי להישמר"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "נופלים נכון כדי להישמר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף ג׳ודו הכי חשוב לזכור?",
+          "options_he": [
+            "שחייה מחזקת את כל הגוף",
+            "טכניקה חשובה מכוח בלבד",
+            "תנועה מהירה עוזרת להגיע לכדור"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "טכניקה חשובה מכוח בלבד"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0102262cfc819baeb92799e6b55ad4.png",
+        "project_png": "assets/season-1/cards-wave2-he/sports/06-judo.png",
+        "project_webp": "assets/season-1/cards-wave2-he/sports/06-judo.webp",
+        "updated_at": "2026-05-10T22:15:56.320856+00:00"
+      }
+    },
+    {
+      "card_id": "sports-07-cycling",
+      "index": 7,
+      "title_he": "רכיבה",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/07-cycling.webp",
+      "facts_he": [
+        "אופניים מתקדמים בעזרת דיווש",
+        "קסדה שומרת על הראש",
+        "איזון עוזר בפניות"
+      ],
+      "tags_he": [
+        "אופניים",
+        "איזון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף רכיבה?",
+          "options_he": [
+            "חימום מכין את השרירים",
+            "אופניים מתקדמים בעזרת דיווש",
+            "נופלים נכון כדי להישמר"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אופניים מתקדמים בעזרת דיווש"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף רכיבה?",
+          "options_he": [
+            "טיפוס דורש אחיזה וריכוז",
+            "כדורגל משוחק עם שערים וכדור",
+            "קסדה שומרת על הראש"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "קסדה שומרת על הראש"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף רכיבה הכי חשוב לזכור?",
+          "options_he": [
+            "איזון עוזר בפניות",
+            "שחייה מחזקת את כל הגוף",
+            "כדורגל משוחק עם שערים וכדור"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "איזון עוזר בפניות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01026b9c6c819bae33345b28cb8991.png",
+        "project_png": "assets/season-1/cards-wave2-he/sports/07-cycling.png",
+        "project_webp": "assets/season-1/cards-wave2-he/sports/07-cycling.webp",
+        "updated_at": "2026-05-10T22:15:56.320856+00:00"
+      }
+    },
+    {
+      "card_id": "sports-08-gymnastics",
+      "index": 8,
+      "title_he": "התעמלות",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/08-gymnastics.webp",
+      "facts_he": [
+        "התעמלות דורשת גמישות וכוח",
+        "תרגול חוזר משפר תנועה",
+        "מזרן עוזר לנחיתה בטוחה"
+      ],
+      "tags_he": [
+        "גמישות",
+        "כוח"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף התעמלות?",
+          "options_he": [
+            "התעמלות דורשת גמישות וכוח",
+            "קולעים כדור לסל גבוה",
+            "איזון עוזר בפניות"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "התעמלות דורשת גמישות וכוח"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף התעמלות?",
+          "options_he": [
+            "כדורגל משוחק עם שערים וכדור",
+            "ג׳ודו מלמד שליטה וכבוד",
+            "תרגול חוזר משפר תנועה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "תרגול חוזר משפר תנועה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף התעמלות הכי חשוב לזכור?",
+          "options_he": [
+            "מזרן עוזר לנחיתה בטוחה",
+            "כדורגל משוחק עם שערים וכדור",
+            "נופלים נכון כדי להישמר"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מזרן עוזר לנחיתה בטוחה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0102ae414c819bb458800bcba7f2eb.png",
+        "project_png": "assets/season-1/cards-wave2-he/sports/08-gymnastics.png",
+        "project_webp": "assets/season-1/cards-wave2-he/sports/08-gymnastics.webp",
+        "updated_at": "2026-05-10T22:15:56.320856+00:00"
+      }
+    },
+    {
+      "card_id": "sports-09-baseball",
+      "index": 9,
+      "title_he": "בייסבול",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/09-baseball.webp",
+      "facts_he": [
+        "מחבט פוגע בכדור נזרק",
+        "רצים בין בסיסים לפי התקדמות",
+        "תיאום עוזר להגנה"
+      ],
+      "tags_he": [
+        "מחבט",
+        "בסיסים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף בייסבול?",
+          "options_he": [
+            "מחבט פוגע בכדור נזרק",
+            "כדרור עוזר לנוע עם הכדור",
+            "טיפוס דורש אחיזה וריכוז"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מחבט פוגע בכדור נזרק"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף בייסבול?",
+          "options_he": [
+            "מסירות עוזרות לקבוצה להתקדם",
+            "שוחים רק במקום בטוח",
+            "רצים בין בסיסים לפי התקדמות"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "רצים בין בסיסים לפי התקדמות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף בייסבול הכי חשוב לזכור?",
+          "options_he": [
+            "תרגול חוזר משפר תנועה",
+            "כדורגל משוחק עם שערים וכדור",
+            "תיאום עוזר להגנה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "תיאום עוזר להגנה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0102f0be30819b9b1163d3fc3d3547.png",
+        "project_png": "assets/season-1/cards-wave2-he/sports/09-baseball.png",
+        "project_webp": "assets/season-1/cards-wave2-he/sports/09-baseball.webp",
+        "updated_at": "2026-05-10T22:15:56.320856+00:00"
+      }
+    },
+    {
+      "card_id": "sports-10-climbing",
+      "index": 10,
+      "title_he": "טיפוס",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/10-climbing.webp",
+      "facts_he": [
+        "טיפוס דורש אחיזה וריכוז",
+        "בוחרים נקודת אחיזה הבאה",
+        "ציוד בטיחות חשוב מאוד"
+      ],
+      "tags_he": [
+        "אחיזה",
+        "בטיחות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף טיפוס?",
+          "options_he": [
+            "טיפוס דורש אחיזה וריכוז",
+            "מסירות עוזרות לקבוצה להתקדם",
+            "מחבט פוגע בכדור מעל רשת"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "טיפוס דורש אחיזה וריכוז"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף טיפוס?",
+          "options_he": [
+            "בוחרים נקודת אחיזה הבאה",
+            "כדרור עוזר לנוע עם הכדור",
+            "נופלים נכון כדי להישמר"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בוחרים נקודת אחיזה הבאה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף טיפוס הכי חשוב לזכור?",
+          "options_he": [
+            "כדורגל משוחק עם שערים וכדור",
+            "איזון עוזר בפניות",
+            "ציוד בטיחות חשוב מאוד"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "ציוד בטיחות חשוב מאוד"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01033be424819b92d0849df57bd5d6.png",
+        "project_png": "assets/season-1/cards-wave2-he/sports/10-climbing.png",
+        "project_webp": "assets/season-1/cards-wave2-he/sports/10-climbing.webp",
+        "updated_at": "2026-05-10T22:15:56.320856+00:00"
+      }
+    }
+  ],
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "עטיפת החבילה נוצרה כתמונת image generation יחידה ויובאה לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e1179ad48191910f03513f749e8b.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-sports.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-sports.webp",
+    "updated_at": "2026-05-10T20:01:27.434861+00:00"
+  }
+}

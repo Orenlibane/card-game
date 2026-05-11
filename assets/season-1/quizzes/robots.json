@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "robots",
+  "pack_title_he": "רובוטים",
+  "domain_he": "חיישנים, תנועה ותכנות",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-robots.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "note_he": "סט תוכן מלא עם שאלות. נכסי התמונה יופקו בהמשך לפי פרומפטים של ה-skill.",
+  "cards": [
+    {
+      "card_id": "robots-01-light-sensor",
+      "index": 1,
+      "title_he": "חיישן אור",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/01-light-sensor.webp",
+      "facts_he": [
+        "חיישן אור מודד בהירות",
+        "רובוט יכול להגיב לאור",
+        "מדידה עוזרת לקבל החלטה"
+      ],
+      "tags_he": [
+        "חיישן",
+        "אור"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף חיישן אור?",
+          "options_he": [
+            "חיישן אור מודד בהירות",
+            "כל רובוט מקבל תפקיד אחר",
+            "גלגלים עוזרים לרובוט לנוע"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חיישן אור מודד בהירות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף חיישן אור?",
+          "options_he": [
+            "זרוע רובוטית מרימה חפצים",
+            "רובוט יכול להגיב לאור",
+            "קו על הרצפה יכול להנחות רובוט"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "רובוט יכול להגיב לאור"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף חיישן אור הכי חשוב לזכור?",
+          "options_he": [
+            "מהירות תלויה בכוח ובתכנון",
+            "מדידה עוזרת לקבל החלטה",
+            "מפרקים מאפשרים תנועה מדויקת"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מדידה עוזרת לקבל החלטה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010dbda74c819ba1e5dce640782dc1.png",
+        "project_png": "assets/season-1/cards-wave2-he/robots/01-light-sensor.png",
+        "project_webp": "assets/season-1/cards-wave2-he/robots/01-light-sensor.webp",
+        "updated_at": "2026-05-10T23:12:15.181218+00:00"
+      }
+    },
+    {
+      "card_id": "robots-02-small-motor",
+      "index": 2,
+      "title_he": "מנוע קטן",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/02-small-motor.webp",
+      "facts_he": [
+        "מנוע הופך חשמל לתנועה",
+        "גלגלים צריכים מנוע להסתובב",
+        "מהירות תלויה בכוח ובתכנון"
+      ],
+      "tags_he": [
+        "מנוע",
+        "תנועה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מנוע קטן?",
+          "options_he": [
+            "פקודות לפי סדר יוצרות פעולה",
+            "מנוע הופך חשמל לתנועה",
+            "גודל גלגל משנה יציבות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מנוע הופך חשמל לתנועה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מנוע קטן?",
+          "options_he": [
+            "חוסכים חשמל בתכנון נכון",
+            "מפרקים מאפשרים תנועה מדויקת",
+            "גלגלים צריכים מנוע להסתובב"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "גלגלים צריכים מנוע להסתובב"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף מנוע קטן הכי חשוב לזכור?",
+          "options_he": [
+            "גלגלים עוזרים לרובוט לנוע",
+            "חיישן אור מודד בהירות",
+            "מהירות תלויה בכוח ובתכנון"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מהירות תלויה בכוח ובתכנון"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010e028d80819b983274f0168c11dc.png",
+        "project_png": "assets/season-1/cards-wave2-he/robots/02-small-motor.png",
+        "project_webp": "assets/season-1/cards-wave2-he/robots/02-small-motor.webp",
+        "updated_at": "2026-05-10T23:12:15.181218+00:00"
+      }
+    },
+    {
+      "card_id": "robots-03-robot-arm",
+      "index": 3,
+      "title_he": "זרוע רובוטית",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/03-robot-arm.webp",
+      "facts_he": [
+        "זרוע רובוטית מרימה חפצים",
+        "מפרקים מאפשרים תנועה מדויקת",
+        "תכנון טוב מונע נפילות"
+      ],
+      "tags_he": [
+        "זרוע",
+        "דיוק"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף זרוע רובוטית?",
+          "options_he": [
+            "זרוע רובוטית מרימה חפצים",
+            "סוללה מספקת אנרגיה לרובוט",
+            "כמה רובוטים יכולים לשתף פעולה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זרוע רובוטית מרימה חפצים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף זרוע רובוטית?",
+          "options_he": [
+            "מפרקים מאפשרים תנועה מדויקת",
+            "מדידה עוזרת לקבל החלטה",
+            "חיישן אור מודד בהירות"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפרקים מאפשרים תנועה מדויקת"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף זרוע רובוטית הכי חשוב לזכור?",
+          "options_he": [
+            "תקשורת מונעת התנגשות",
+            "תכנון טוב מונע נפילות",
+            "מדידה עוזרת לקבל החלטה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "תכנון טוב מונע נפילות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010e4c1e70819b97f4debefda14082.png",
+        "project_png": "assets/season-1/cards-wave2-he/robots/03-robot-arm.png",
+        "project_webp": "assets/season-1/cards-wave2-he/robots/03-robot-arm.webp",
+        "updated_at": "2026-05-10T23:12:15.181218+00:00"
+      }
+    },
+    {
+      "card_id": "robots-04-command-code",
+      "index": 4,
+      "title_he": "קוד פקודות",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/04-command-code.webp",
+      "facts_he": [
+        "קוד אומר לרובוט מה לעשות",
+        "פקודות לפי סדר יוצרות פעולה",
+        "בדיקה מגלה שגיאות"
+      ],
+      "tags_he": [
+        "קוד",
+        "סדר"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף קוד פקודות?",
+          "options_he": [
+            "קוד אומר לרובוט מה לעשות",
+            "תקשורת מונעת התנגשות",
+            "בקר מחבר חיישנים ומנועים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קוד אומר לרובוט מה לעשות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף קוד פקודות?",
+          "options_he": [
+            "פקודות לפי סדר יוצרות פעולה",
+            "מנוע הופך חשמל לתנועה",
+            "רובוט שירות עוזר במשימה חוזרת"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פקודות לפי סדר יוצרות פעולה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף קוד פקודות הכי חשוב לזכור?",
+          "options_he": [
+            "תפקיד ברור מקל על תכנון",
+            "בדיקה מגלה שגיאות",
+            "זרוע רובוטית מרימה חפצים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "בדיקה מגלה שגיאות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010e91ec1c819bbfe6dfb0cffeb036.png",
+        "project_png": "assets/season-1/cards-wave2-he/robots/04-command-code.png",
+        "project_webp": "assets/season-1/cards-wave2-he/robots/04-command-code.webp",
+        "updated_at": "2026-05-10T23:12:15.181218+00:00"
+      }
+    },
+    {
+      "card_id": "robots-05-wheels",
+      "index": 5,
+      "title_he": "גלגלים",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/05-wheels.webp",
+      "facts_he": [
+        "גלגלים עוזרים לרובוט לנוע",
+        "גודל גלגל משנה יציבות",
+        "משטח חלק מקל על נסיעה"
+      ],
+      "tags_he": [
+        "גלגל",
+        "יציבות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף גלגלים?",
+          "options_he": [
+            "תכנון טוב מונע נפילות",
+            "מסלול עוזר לבדוק ניווט",
+            "גלגלים עוזרים לרובוט לנוע"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "גלגלים עוזרים לרובוט לנוע"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף גלגלים?",
+          "options_he": [
+            "גודל גלגל משנה יציבות",
+            "בקר מחבר חיישנים ומנועים",
+            "תקשורת מונעת התנגשות"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גודל גלגל משנה יציבות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף גלגלים הכי חשוב לזכור?",
+          "options_he": [
+            "פקודות לפי סדר יוצרות פעולה",
+            "משטח חלק מקל על נסיעה",
+            "גלגלים צריכים מנוע להסתובב"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "משטח חלק מקל על נסיעה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010edb3854819bb258bba3af8a8ee1.png",
+        "project_png": "assets/season-1/cards-wave2-he/robots/05-wheels.png",
+        "project_webp": "assets/season-1/cards-wave2-he/robots/05-wheels.webp",
+        "updated_at": "2026-05-10T23:12:15.181218+00:00"
+      }
+    },
+    {
+      "card_id": "robots-06-controller",
+      "index": 6,
+      "title_he": "בקר ראשי",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/06-controller.webp",
+      "facts_he": [
+        "בקר מחבר חיישנים ומנועים",
+        "הוא מקבל מידע ושולח הוראות",
+        "בלי בקר קשה לתאם פעולה"
+      ],
+      "tags_he": [
+        "בקר",
+        "תיאום"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף בקר ראשי?",
+          "options_he": [
+            "משטח חלק מקל על נסיעה",
+            "בקר מחבר חיישנים ומנועים",
+            "בטיחות חשובה ליד אנשים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "בקר מחבר חיישנים ומנועים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף בקר ראשי?",
+          "options_he": [
+            "כל רובוט מקבל תפקיד אחר",
+            "הוא מקבל מידע ושולח הוראות",
+            "גודל גלגל משנה יציבות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "הוא מקבל מידע ושולח הוראות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף בקר ראשי הכי חשוב לזכור?",
+          "options_he": [
+            "גודל גלגל משנה יציבות",
+            "בלי בקר קשה לתאם פעולה",
+            "תכנון טוב מונע נפילות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "בלי בקר קשה לתאם פעולה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010f2292cc819b83326a70d8b8d7d4.png",
+        "project_png": "assets/season-1/cards-wave2-he/robots/06-controller.png",
+        "project_webp": "assets/season-1/cards-wave2-he/robots/06-controller.webp",
+        "updated_at": "2026-05-10T23:12:15.181218+00:00"
+      }
+    },
+    {
+      "card_id": "robots-07-battery",
+      "index": 7,
+      "title_he": "סוללה",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/07-battery.webp",
+      "facts_he": [
+        "סוללה מספקת אנרגיה לרובוט",
+        "טעינה שומרת על פעילות",
+        "חוסכים חשמל בתכנון נכון"
+      ],
+      "tags_he": [
+        "אנרגיה",
+        "טעינה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף סוללה?",
+          "options_he": [
+            "מנוע הופך חשמל לתנועה",
+            "תכנון טוב מונע נפילות",
+            "סוללה מספקת אנרגיה לרובוט"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "סוללה מספקת אנרגיה לרובוט"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף סוללה?",
+          "options_he": [
+            "בדיקה מגלה שגיאות",
+            "טעינה שומרת על פעילות",
+            "גלגלים עוזרים לרובוט לנוע"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "טעינה שומרת על פעילות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף סוללה הכי חשוב לזכור?",
+          "options_he": [
+            "פקודות לפי סדר יוצרות פעולה",
+            "חוסכים חשמל בתכנון נכון",
+            "חיישן אור מודד בהירות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "חוסכים חשמל בתכנון נכון"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010f7348d8819b84bbce157eaed6c7.png",
+        "project_png": "assets/season-1/cards-wave2-he/robots/07-battery.png",
+        "project_webp": "assets/season-1/cards-wave2-he/robots/07-battery.webp",
+        "updated_at": "2026-05-10T23:12:15.181218+00:00"
+      }
+    },
+    {
+      "card_id": "robots-08-robot-track",
+      "index": 8,
+      "title_he": "מסלול רובוט",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/08-robot-track.webp",
+      "facts_he": [
+        "מסלול עוזר לבדוק ניווט",
+        "קו על הרצפה יכול להנחות רובוט",
+        "חזרה משפרת דיוק"
+      ],
+      "tags_he": [
+        "ניווט",
+        "מסלול"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מסלול רובוט?",
+          "options_he": [
+            "סוללה מספקת אנרגיה לרובוט",
+            "מהירות תלויה בכוח ובתכנון",
+            "מסלול עוזר לבדוק ניווט"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מסלול עוזר לבדוק ניווט"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מסלול רובוט?",
+          "options_he": [
+            "גלגלים עוזרים לרובוט לנוע",
+            "קו על הרצפה יכול להנחות רובוט",
+            "תפקיד ברור מקל על תכנון"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "קו על הרצפה יכול להנחות רובוט"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף מסלול רובוט הכי חשוב לזכור?",
+          "options_he": [
+            "גלגלים עוזרים לרובוט לנוע",
+            "חזרה משפרת דיוק",
+            "תקשורת מונעת התנגשות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "חזרה משפרת דיוק"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010fc24e14819babe389960ee3cfad.png",
+        "project_png": "assets/season-1/cards-wave2-he/robots/08-robot-track.png",
+        "project_webp": "assets/season-1/cards-wave2-he/robots/08-robot-track.webp",
+        "updated_at": "2026-05-10T23:12:15.181218+00:00"
+      }
+    },
+    {
+      "card_id": "robots-09-service-robot",
+      "index": 9,
+      "title_he": "רובוט שירות",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/09-service-robot.webp",
+      "facts_he": [
+        "רובוט שירות עוזר במשימה חוזרת",
+        "תפקיד ברור מקל על תכנון",
+        "בטיחות חשובה ליד אנשים"
+      ],
+      "tags_he": [
+        "שירות",
+        "בטיחות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף רובוט שירות?",
+          "options_he": [
+            "כל רובוט מקבל תפקיד אחר",
+            "רובוט שירות עוזר במשימה חוזרת",
+            "זרוע רובוטית מרימה חפצים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "רובוט שירות עוזר במשימה חוזרת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף רובוט שירות?",
+          "options_he": [
+            "תכנון טוב מונע נפילות",
+            "בלי בקר קשה לתאם פעולה",
+            "תפקיד ברור מקל על תכנון"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "תפקיד ברור מקל על תכנון"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף רובוט שירות הכי חשוב לזכור?",
+          "options_he": [
+            "חזרה משפרת דיוק",
+            "בטיחות חשובה ליד אנשים",
+            "חוסכים חשמל בתכנון נכון"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "בטיחות חשובה ליד אנשים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01101136b0819ba4e29b738713f167.png",
+        "project_png": "assets/season-1/cards-wave2-he/robots/09-service-robot.png",
+        "project_webp": "assets/season-1/cards-wave2-he/robots/09-service-robot.webp",
+        "updated_at": "2026-05-10T23:12:15.181218+00:00"
+      }
+    },
+    {
+      "card_id": "robots-10-robot-team",
+      "index": 10,
+      "title_he": "צוות רובוטים",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/10-robot-team.webp",
+      "facts_he": [
+        "כמה רובוטים יכולים לשתף פעולה",
+        "כל רובוט מקבל תפקיד אחר",
+        "תקשורת מונעת התנגשות"
+      ],
+      "tags_he": [
+        "צוות",
+        "תקשורת"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף צוות רובוטים?",
+          "options_he": [
+            "חוסכים חשמל בתכנון נכון",
+            "כמה רובוטים יכולים לשתף פעולה",
+            "מנוע הופך חשמל לתנועה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "כמה רובוטים יכולים לשתף פעולה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף צוות רובוטים?",
+          "options_he": [
+            "חוסכים חשמל בתכנון נכון",
+            "תפקיד ברור מקל על תכנון",
+            "כל רובוט מקבל תפקיד אחר"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "כל רובוט מקבל תפקיד אחר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף צוות רובוטים הכי חשוב לזכור?",
+          "options_he": [
+            "טעינה שומרת על פעילות",
+            "הוא מקבל מידע ושולח הוראות",
+            "תקשורת מונעת התנגשות"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "תקשורת מונעת התנגשות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a011062df7c819b913000d8e946865e.png",
+        "project_png": "assets/season-1/cards-wave2-he/robots/10-robot-team.png",
+        "project_webp": "assets/season-1/cards-wave2-he/robots/10-robot-team.webp",
+        "updated_at": "2026-05-10T23:12:15.181218+00:00"
+      }
+    }
+  ],
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "עטיפת החבילה נוצרה כתמונת image generation יחידה ויובאה לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e2ce65c88191aa466e6757f0684d.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-robots.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-robots.webp",
+    "updated_at": "2026-05-10T20:01:27.434861+00:00"
+  }
+}

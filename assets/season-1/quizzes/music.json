@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "music",
+  "pack_title_he": "מוזיקה",
+  "domain_he": "כלי נגינה, קצב וצלילים",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-music.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "note_he": "סט תוכן מלא עם שאלות. נכסי התמונה יופקו בהמשך לפי פרומפטים של ה-skill.",
+  "cards": [
+    {
+      "card_id": "music-01-guitar",
+      "index": 1,
+      "title_he": "גיטרה",
+      "asset_path": "assets/season-1/cards-wave2-he/music/01-guitar.webp",
+      "facts_he": [
+        "מיתרים רוטטים ויוצרים צליל",
+        "אקורדים מחברים כמה צלילים",
+        "פריטה משנה את האופי"
+      ],
+      "tags_he": [
+        "מיתרים",
+        "אקורד"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף גיטרה?",
+          "options_he": [
+            "מנצח מוביל תזמורת בתנועות יד",
+            "מיתרים רוטטים ויוצרים צליל",
+            "מקצב הוא דפוס של פעימות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מיתרים רוטטים ויוצרים צליל"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף גיטרה?",
+          "options_he": [
+            "אקורדים מחברים כמה צלילים",
+            "מקצב הוא דפוס של פעימות",
+            "לחץ האצבע משנה גובה צליל"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אקורדים מחברים כמה צלילים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמנגנים יחד, איזה פרט מהקלף גיטרה הכי חשוב לזכור?",
+          "options_he": [
+            "מלודיה היא רצף צלילים זכיר",
+            "פריטה משנה את האופי",
+            "חצוצרה היא כלי נשיפה ממתכת"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "פריטה משנה את האופי"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010475357c819ba6322f5e6449ce07.png",
+        "project_png": "assets/season-1/cards-wave2-he/music/01-guitar.png",
+        "project_webp": "assets/season-1/cards-wave2-he/music/01-guitar.webp",
+        "updated_at": "2026-05-10T22:33:15.089261+00:00"
+      }
+    },
+    {
+      "card_id": "music-02-piano",
+      "index": 2,
+      "title_he": "פסנתר",
+      "asset_path": "assets/season-1/cards-wave2-he/music/02-piano.webp",
+      "facts_he": [
+        "קלידים מפעילים פטישים קטנים",
+        "יד ימין ושמאל מנגנות יחד",
+        "צלילים נמוכים וגבוהים מסודרים בשורה"
+      ],
+      "tags_he": [
+        "קלידים",
+        "צלילים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף פסנתר?",
+          "options_he": [
+            "קצב עוזר לנגן יחד",
+            "קלידים מפעילים פטישים קטנים",
+            "לחץ האצבע משנה גובה צליל"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "קלידים מפעילים פטישים קטנים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף פסנתר?",
+          "options_he": [
+            "אפשר למחוא כפיים לפי קצב",
+            "צלילים עולים ויורדים יוצרים תנועה",
+            "יד ימין ושמאל מנגנות יחד"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "יד ימין ושמאל מנגנות יחד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמנגנים יחד, איזה פרט מהקלף פסנתר הכי חשוב לזכור?",
+          "options_he": [
+            "צלילים נמוכים וגבוהים מסודרים בשורה",
+            "קצב עוזר לנגן יחד",
+            "קצב חוזר עוזר לשיר לזוז"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צלילים נמוכים וגבוהים מסודרים בשורה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0104b3fc90819bbe945d8e45abac36.png",
+        "project_png": "assets/season-1/cards-wave2-he/music/02-piano.png",
+        "project_webp": "assets/season-1/cards-wave2-he/music/02-piano.webp",
+        "updated_at": "2026-05-10T22:33:15.089261+00:00"
+      }
+    },
+    {
+      "card_id": "music-03-drums",
+      "index": 3,
+      "title_he": "תופים",
+      "asset_path": "assets/season-1/cards-wave2-he/music/03-drums.webp",
+      "facts_he": [
+        "תופים שומרים על קצב",
+        "מקלות יוצרים מכות שונות",
+        "קצב חוזר עוזר לשיר לזוז"
+      ],
+      "tags_he": [
+        "קצב",
+        "תופים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף תופים?",
+          "options_he": [
+            "צלילים עולים ויורדים יוצרים תנועה",
+            "תופים שומרים על קצב",
+            "הקשבה שומרת על הרמוניה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "תופים שומרים על קצב"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף תופים?",
+          "options_he": [
+            "קלידים מפעילים פטישים קטנים",
+            "מקצב הוא דפוס של פעימות",
+            "מקלות יוצרים מכות שונות"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מקלות יוצרים מכות שונות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמנגנים יחד, איזה פרט מהקלף תופים הכי חשוב לזכור?",
+          "options_he": [
+            "כינור נפוץ בתזמורת",
+            "אפשר למחוא כפיים לפי קצב",
+            "קצב חוזר עוזר לשיר לזוז"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "קצב חוזר עוזר לשיר לזוז"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0104fac25c819b8f08622d52d1ee22.png",
+        "project_png": "assets/season-1/cards-wave2-he/music/03-drums.png",
+        "project_webp": "assets/season-1/cards-wave2-he/music/03-drums.webp",
+        "updated_at": "2026-05-10T22:33:15.089261+00:00"
+      }
+    },
+    {
+      "card_id": "music-04-flute",
+      "index": 4,
+      "title_he": "חליל",
+      "asset_path": "assets/season-1/cards-wave2-he/music/04-flute.webp",
+      "facts_he": [
+        "נשיפה מפיקה צליל בחליל",
+        "אצבעות פותחות וסוגרות חורים",
+        "צליל חליל יכול להיות עדין"
+      ],
+      "tags_he": [
+        "נשיפה",
+        "עדינות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף חליל?",
+          "options_he": [
+            "שפתיים רוטטות בתוך הפיה",
+            "קצב עוזר לנגן יחד",
+            "נשיפה מפיקה צליל בחליל"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "נשיפה מפיקה צליל בחליל"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף חליל?",
+          "options_he": [
+            "לחץ האצבע משנה גובה צליל",
+            "אצבעות פותחות וסוגרות חורים",
+            "מקהלה שרה בקולות רבים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אצבעות פותחות וסוגרות חורים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמנגנים יחד, איזה פרט מהקלף חליל הכי חשוב לזכור?",
+          "options_he": [
+            "קשת מחליקה על מיתרים",
+            "צליל חליל יכול להיות עדין",
+            "מלודיה היא רצף צלילים זכיר"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "צליל חליל יכול להיות עדין"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0105401764819ba9d3fef4df756a05.png",
+        "project_png": "assets/season-1/cards-wave2-he/music/04-flute.png",
+        "project_webp": "assets/season-1/cards-wave2-he/music/04-flute.webp",
+        "updated_at": "2026-05-10T22:33:15.089261+00:00"
+      }
+    },
+    {
+      "card_id": "music-05-violin",
+      "index": 5,
+      "title_he": "כינור",
+      "asset_path": "assets/season-1/cards-wave2-he/music/05-violin.webp",
+      "facts_he": [
+        "קשת מחליקה על מיתרים",
+        "לחץ האצבע משנה גובה צליל",
+        "כינור נפוץ בתזמורת"
+      ],
+      "tags_he": [
+        "קשת",
+        "מיתרים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף כינור?",
+          "options_he": [
+            "יד ימין ושמאל מנגנות יחד",
+            "צלילים עולים ויורדים יוצרים תנועה",
+            "קשת מחליקה על מיתרים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "קשת מחליקה על מיתרים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף כינור?",
+          "options_he": [
+            "קלידים מפעילים פטישים קטנים",
+            "לחץ האצבע משנה גובה צליל",
+            "צלילים נמוכים וגבוהים מסודרים בשורה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "לחץ האצבע משנה גובה צליל"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמנגנים יחד, איזה פרט מהקלף כינור הכי חשוב לזכור?",
+          "options_he": [
+            "סימנים עוזרים לשמור על קצב",
+            "אקורדים מחברים כמה צלילים",
+            "כינור נפוץ בתזמורת"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "כינור נפוץ בתזמורת"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010583232c819b9d8d80aa0775d0ad.png",
+        "project_png": "assets/season-1/cards-wave2-he/music/05-violin.png",
+        "project_webp": "assets/season-1/cards-wave2-he/music/05-violin.webp",
+        "updated_at": "2026-05-10T22:33:15.089261+00:00"
+      }
+    },
+    {
+      "card_id": "music-06-trumpet",
+      "index": 6,
+      "title_he": "חצוצרה",
+      "asset_path": "assets/season-1/cards-wave2-he/music/06-trumpet.webp",
+      "facts_he": [
+        "חצוצרה היא כלי נשיפה ממתכת",
+        "שפתיים רוטטות בתוך הפיה",
+        "כפתורים משנים את הצליל"
+      ],
+      "tags_he": [
+        "נשיפה",
+        "מתכת"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף חצוצרה?",
+          "options_he": [
+            "קצב עוזר לנגן יחד",
+            "חצוצרה היא כלי נשיפה ממתכת",
+            "קלידים מפעילים פטישים קטנים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "חצוצרה היא כלי נשיפה ממתכת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף חצוצרה?",
+          "options_he": [
+            "שפתיים רוטטות בתוך הפיה",
+            "סימנים עוזרים לשמור על קצב",
+            "פריטה משנה את האופי"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שפתיים רוטטות בתוך הפיה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמנגנים יחד, איזה פרט מהקלף חצוצרה הכי חשוב לזכור?",
+          "options_he": [
+            "קצב חוזר עוזר לשיר לזוז",
+            "מנצח מוביל תזמורת בתנועות יד",
+            "כפתורים משנים את הצליל"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "כפתורים משנים את הצליל"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0105cc108c819bb415f055e7ebca7f.png",
+        "project_png": "assets/season-1/cards-wave2-he/music/06-trumpet.png",
+        "project_webp": "assets/season-1/cards-wave2-he/music/06-trumpet.webp",
+        "updated_at": "2026-05-10T22:33:15.089261+00:00"
+      }
+    },
+    {
+      "card_id": "music-07-rhythm",
+      "index": 7,
+      "title_he": "מקצב",
+      "asset_path": "assets/season-1/cards-wave2-he/music/07-rhythm.webp",
+      "facts_he": [
+        "מקצב הוא דפוס של פעימות",
+        "אפשר למחוא כפיים לפי קצב",
+        "קצב עוזר לנגן יחד"
+      ],
+      "tags_he": [
+        "פעימות",
+        "דפוס"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מקצב?",
+          "options_he": [
+            "שיר יכול להכיל כמה מלודיות",
+            "מקצב הוא דפוס של פעימות",
+            "צליל חליל יכול להיות עדין"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מקצב הוא דפוס של פעימות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מקצב?",
+          "options_he": [
+            "קשת מחליקה על מיתרים",
+            "אפשר למחוא כפיים לפי קצב",
+            "קצב חוזר עוזר לשיר לזוז"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אפשר למחוא כפיים לפי קצב"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמנגנים יחד, איזה פרט מהקלף מקצב הכי חשוב לזכור?",
+          "options_he": [
+            "קצב עוזר לנגן יחד",
+            "קלידים מפעילים פטישים קטנים",
+            "קולות שונים יוצרים עומק"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קצב עוזר לנגן יחד"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01061ac104819b90194a2dc2222624.png",
+        "project_png": "assets/season-1/cards-wave2-he/music/07-rhythm.png",
+        "project_webp": "assets/season-1/cards-wave2-he/music/07-rhythm.webp",
+        "updated_at": "2026-05-10T22:33:15.089261+00:00"
+      }
+    },
+    {
+      "card_id": "music-08-melody",
+      "index": 8,
+      "title_he": "מלודיה",
+      "asset_path": "assets/season-1/cards-wave2-he/music/08-melody.webp",
+      "facts_he": [
+        "מלודיה היא רצף צלילים זכיר",
+        "שיר יכול להכיל כמה מלודיות",
+        "צלילים עולים ויורדים יוצרים תנועה"
+      ],
+      "tags_he": [
+        "צלילים",
+        "שיר"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מלודיה?",
+          "options_he": [
+            "מלודיה היא רצף צלילים זכיר",
+            "נשיפה מפיקה צליל בחליל",
+            "קלידים מפעילים פטישים קטנים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מלודיה היא רצף צלילים זכיר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מלודיה?",
+          "options_he": [
+            "שיר יכול להכיל כמה מלודיות",
+            "אקורדים מחברים כמה צלילים",
+            "סימנים עוזרים לשמור על קצב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שיר יכול להכיל כמה מלודיות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמנגנים יחד, איזה פרט מהקלף מלודיה הכי חשוב לזכור?",
+          "options_he": [
+            "סימנים עוזרים לשמור על קצב",
+            "צלילים עולים ויורדים יוצרים תנועה",
+            "הקשבה שומרת על הרמוניה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "צלילים עולים ויורדים יוצרים תנועה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01066b5168819ba34840d504c34f15.png",
+        "project_png": "assets/season-1/cards-wave2-he/music/08-melody.png",
+        "project_webp": "assets/season-1/cards-wave2-he/music/08-melody.webp",
+        "updated_at": "2026-05-10T22:33:15.089261+00:00"
+      }
+    },
+    {
+      "card_id": "music-09-choir",
+      "index": 9,
+      "title_he": "מקהלה",
+      "asset_path": "assets/season-1/cards-wave2-he/music/09-choir.webp",
+      "facts_he": [
+        "מקהלה שרה בקולות רבים",
+        "הקשבה שומרת על הרמוניה",
+        "קולות שונים יוצרים עומק"
+      ],
+      "tags_he": [
+        "שירה",
+        "הרמוניה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מקהלה?",
+          "options_he": [
+            "מקהלה שרה בקולות רבים",
+            "מנצח מוביל תזמורת בתנועות יד",
+            "סימנים עוזרים לשמור על קצב"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מקהלה שרה בקולות רבים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מקהלה?",
+          "options_he": [
+            "אקורדים מחברים כמה צלילים",
+            "הקשבה שומרת על הרמוניה",
+            "אצבעות פותחות וסוגרות חורים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "הקשבה שומרת על הרמוניה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמנגנים יחד, איזה פרט מהקלף מקהלה הכי חשוב לזכור?",
+          "options_he": [
+            "מלודיה היא רצף צלילים זכיר",
+            "קולות שונים יוצרים עומק",
+            "כל הנגנים עוקבים יחד"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "קולות שונים יוצרים עומק"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0106b389a4819bb2c9f23612875d08.png",
+        "project_png": "assets/season-1/cards-wave2-he/music/09-choir.png",
+        "project_webp": "assets/season-1/cards-wave2-he/music/09-choir.webp",
+        "updated_at": "2026-05-10T22:33:15.089261+00:00"
+      }
+    },
+    {
+      "card_id": "music-10-conductor",
+      "index": 10,
+      "title_he": "מנצח",
+      "asset_path": "assets/season-1/cards-wave2-he/music/10-conductor.webp",
+      "facts_he": [
+        "מנצח מוביל תזמורת בתנועות יד",
+        "סימנים עוזרים לשמור על קצב",
+        "כל הנגנים עוקבים יחד"
+      ],
+      "tags_he": [
+        "תזמורת",
+        "הובלה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מנצח?",
+          "options_he": [
+            "שפתיים רוטטות בתוך הפיה",
+            "אצבעות פותחות וסוגרות חורים",
+            "מנצח מוביל תזמורת בתנועות יד"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מנצח מוביל תזמורת בתנועות יד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מנצח?",
+          "options_he": [
+            "צלילים נמוכים וגבוהים מסודרים בשורה",
+            "סימנים עוזרים לשמור על קצב",
+            "יד ימין ושמאל מנגנות יחד"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "סימנים עוזרים לשמור על קצב"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמנגנים יחד, איזה פרט מהקלף מנצח הכי חשוב לזכור?",
+          "options_he": [
+            "יד ימין ושמאל מנגנות יחד",
+            "כל הנגנים עוקבים יחד",
+            "פריטה משנה את האופי"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "כל הנגנים עוקבים יחד"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010755c978819ba4ab54fab7c65990.png",
+        "project_png": "assets/season-1/cards-wave2-he/music/10-conductor.png",
+        "project_webp": "assets/season-1/cards-wave2-he/music/10-conductor.webp",
+        "updated_at": "2026-05-10T22:33:15.089261+00:00"
+      }
+    }
+  ],
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "עטיפת החבילה נוצרה כתמונת image generation יחידה ויובאה לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e17d78f88191aa85a77204f0679c.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-music.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-music.webp",
+    "updated_at": "2026-05-10T20:01:27.434861+00:00"
+  }
+}

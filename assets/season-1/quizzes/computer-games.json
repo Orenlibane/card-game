@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "computer-games",
+  "pack_title_he": "משחקי מחשב",
+  "domain_he": "סוגי משחקים, מיומנויות ועיצוב משחק",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-computer-games.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "note_he": "סט תוכן מלא עם שאלות. נכסי התמונה יופקו בהמשך לפי פרומפטים של ה-skill.",
+  "cards": [
+    {
+      "card_id": "computer-games-01-platformer",
+      "index": 1,
+      "title_he": "משחק פלטפורמה",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/01-platformer.webp",
+      "facts_he": [
+        "קופצים בין משטחים ומכשולים",
+        "תזמון טוב עוזר לעבור שלב",
+        "שלבים מלמדים קושי בהדרגה"
+      ],
+      "tags_he": [
+        "קפיצה",
+        "שלבים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף משחק פלטפורמה?",
+          "options_he": [
+            "ציוד חדש פותח אפשרויות",
+            "לחיצה בזמן יוצרת רצף מוצלח",
+            "קופצים בין משטחים ומכשולים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "קופצים בין משטחים ומכשולים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף משחק פלטפורמה?",
+          "options_he": [
+            "אימון משפר שליטה",
+            "תזמון טוב עוזר לעבור שלב",
+            "משאבים מגבילים בחירות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "תזמון טוב עוזר לעבור שלב"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק פלטפורמה הכי חשוב לזכור?",
+          "options_he": [
+            "שלבים מלמדים קושי בהדרגה",
+            "סבלנות עוזרת להתקדם",
+            "שיפור רכב משנה ביצועים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שלבים מלמדים קושי בהדרגה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f961df74819bb012ccf4aca5fc11.png",
+        "project_png": "assets/season-1/cards-wave2-he/computer-games/01-platformer.png",
+        "project_webp": "assets/season-1/cards-wave2-he/computer-games/01-platformer.webp",
+        "updated_at": "2026-05-10T21:45:20.148489+00:00"
+      }
+    },
+    {
+      "card_id": "computer-games-02-racing-game",
+      "index": 2,
+      "title_he": "משחק מרוצים",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/02-racing-game.webp",
+      "facts_he": [
+        "מסלול מירוץ דורש שליטה במהירות",
+        "פניות חדות דורשות תזמון",
+        "שיפור רכב משנה ביצועים"
+      ],
+      "tags_he": [
+        "מהירות",
+        "מסלול"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף משחק מרוצים?",
+          "options_he": [
+            "תזמון טוב עוזר לעבור שלב",
+            "עולם פתוח נותן חופש בחירה",
+            "מסלול מירוץ דורש שליטה במהירות"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מסלול מירוץ דורש שליטה במהירות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף משחק מרוצים?",
+          "options_he": [
+            "פניות חדות דורשות תזמון",
+            "בנייה מתחילה מרעיון קטן",
+            "אימון משפר שליטה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "פניות חדות דורשות תזמון"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק מרוצים הכי חשוב לזכור?",
+          "options_he": [
+            "שיפור רכב משנה ביצועים",
+            "משימות צד מוסיפות סיפורים",
+            "קופצים בין משטחים ומכשולים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שיפור רכב משנה ביצועים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f9c5c840819b8efbbd45b6d1f415.png",
+        "project_png": "assets/season-1/cards-wave2-he/computer-games/02-racing-game.png",
+        "project_webp": "assets/season-1/cards-wave2-he/computer-games/02-racing-game.webp",
+        "updated_at": "2026-05-10T21:45:20.148489+00:00"
+      }
+    },
+    {
+      "card_id": "computer-games-03-puzzle-game",
+      "index": 3,
+      "title_he": "משחק חידה",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/03-puzzle-game.webp",
+      "facts_he": [
+        "חידה דורשת חשיבה וניסוי",
+        "רמז קטן יכול לפתוח פתרון",
+        "סבלנות עוזרת להתקדם"
+      ],
+      "tags_he": [
+        "חשיבה",
+        "פתרון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף משחק חידה?",
+          "options_he": [
+            "משימות צד מוסיפות סיפורים",
+            "חידה דורשת חשיבה וניסוי",
+            "שלבים מלמדים קושי בהדרגה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "חידה דורשת חשיבה וניסוי"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף משחק חידה?",
+          "options_he": [
+            "שלבים מלמדים קושי בהדרגה",
+            "רמז קטן יכול לפתוח פתרון",
+            "דמות משתפרת לאורך הסיפור"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "רמז קטן יכול לפתוח פתרון"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק חידה הכי חשוב לזכור?",
+          "options_he": [
+            "בחירות משפיעות על הדרך",
+            "לחיצה בזמן יוצרת רצף מוצלח",
+            "סבלנות עוזרת להתקדם"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "סבלנות עוזרת להתקדם"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fa063b3c819bb2613709ef25f78c.png",
+        "project_png": "assets/season-1/cards-wave2-he/computer-games/03-puzzle-game.png",
+        "project_webp": "assets/season-1/cards-wave2-he/computer-games/03-puzzle-game.webp",
+        "updated_at": "2026-05-10T21:45:20.148489+00:00"
+      }
+    },
+    {
+      "card_id": "computer-games-04-building-game",
+      "index": 4,
+      "title_he": "משחק בנייה",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/04-building-game.webp",
+      "facts_he": [
+        "בנייה מתחילה מרעיון קטן",
+        "משאבים מגבילים בחירות",
+        "תכנון יפה יוצר עולם מעניין"
+      ],
+      "tags_he": [
+        "יצירה",
+        "משאבים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף משחק בנייה?",
+          "options_he": [
+            "בנייה מתחילה מרעיון קטן",
+            "שיתוף פעולה מחלק משימות",
+            "רמז קטן יכול לפתוח פתרון"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בנייה מתחילה מרעיון קטן"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף משחק בנייה?",
+          "options_he": [
+            "משאבים מחולקים לפי עדיפות",
+            "חידה דורשת חשיבה וניסוי",
+            "משאבים מגבילים בחירות"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "משאבים מגבילים בחירות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק בנייה הכי חשוב לזכור?",
+          "options_he": [
+            "תכנון יפה יוצר עולם מעניין",
+            "חוקים מדמים ענף ספורט",
+            "רמז קטן יכול לפתוח פתרון"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תכנון יפה יוצר עולם מעניין"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fa47a8c8819b845ff19f1fc9e903.png",
+        "project_png": "assets/season-1/cards-wave2-he/computer-games/04-building-game.png",
+        "project_webp": "assets/season-1/cards-wave2-he/computer-games/04-building-game.webp",
+        "updated_at": "2026-05-10T21:45:20.148489+00:00"
+      }
+    },
+    {
+      "card_id": "computer-games-05-rhythm-game",
+      "index": 5,
+      "title_he": "משחק קצב",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/05-rhythm-game.webp",
+      "facts_he": [
+        "לחיצה בזמן יוצרת רצף מוצלח",
+        "מוזיקה עוזרת לזכור דפוס",
+        "אימון משפר דיוק"
+      ],
+      "tags_he": [
+        "קצב",
+        "דיוק"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף משחק קצב?",
+          "options_he": [
+            "משאבים מחולקים לפי עדיפות",
+            "לחיצה בזמן יוצרת רצף מוצלח",
+            "מפה גדולה מזמינה חקר"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "לחיצה בזמן יוצרת רצף מוצלח"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף משחק קצב?",
+          "options_he": [
+            "מוזיקה עוזרת לזכור דפוס",
+            "תזמון טוב עוזר לעבור שלב",
+            "תקשורת עוזרת לנצח יחד"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מוזיקה עוזרת לזכור דפוס"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק קצב הכי חשוב לזכור?",
+          "options_he": [
+            "תזמון טוב עוזר לעבור שלב",
+            "אימון משפר שליטה",
+            "אימון משפר דיוק"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "אימון משפר דיוק"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fa8c17e4819b942cd2106a7be8a2.png",
+        "project_png": "assets/season-1/cards-wave2-he/computer-games/05-rhythm-game.png",
+        "project_webp": "assets/season-1/cards-wave2-he/computer-games/05-rhythm-game.webp",
+        "updated_at": "2026-05-10T21:45:20.148489+00:00"
+      }
+    },
+    {
+      "card_id": "computer-games-06-strategy-game",
+      "index": 6,
+      "title_he": "משחק אסטרטגיה",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/06-strategy-game.webp",
+      "facts_he": [
+        "אסטרטגיה דורשת החלטות קדימה",
+        "משאבים מחולקים לפי עדיפות",
+        "טעות יכולה ללמד מה לשפר"
+      ],
+      "tags_he": [
+        "תכנון",
+        "משאבים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף משחק אסטרטגיה?",
+          "options_he": [
+            "מסלול מירוץ דורש שליטה במהירות",
+            "אסטרטגיה דורשת החלטות קדימה",
+            "שיתוף פעולה מחלק משימות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אסטרטגיה דורשת החלטות קדימה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף משחק אסטרטגיה?",
+          "options_he": [
+            "משאבים מחולקים לפי עדיפות",
+            "מוזיקה עוזרת לזכור דפוס",
+            "חידה דורשת חשיבה וניסוי"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משאבים מחולקים לפי עדיפות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק אסטרטגיה הכי חשוב לזכור?",
+          "options_he": [
+            "משימות צד מוסיפות סיפורים",
+            "טעות יכולה ללמד מה לשפר",
+            "תזמון טוב עוזר לעבור שלב"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "טעות יכולה ללמד מה לשפר"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fac9ce60819b8692667e651a8d58.png",
+        "project_png": "assets/season-1/cards-wave2-he/computer-games/06-strategy-game.png",
+        "project_webp": "assets/season-1/cards-wave2-he/computer-games/06-strategy-game.webp",
+        "updated_at": "2026-05-10T21:45:20.148489+00:00"
+      }
+    },
+    {
+      "card_id": "computer-games-07-sports-game",
+      "index": 7,
+      "title_he": "משחק ספורט",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/07-sports-game.webp",
+      "facts_he": [
+        "חוקים מדמים ענף ספורט",
+        "עבודת צוות משנה תוצאה",
+        "אימון משפר שליטה"
+      ],
+      "tags_he": [
+        "ספורט",
+        "צוות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף משחק ספורט?",
+          "options_he": [
+            "בחירות משפיעות על הדרך",
+            "חוקים מדמים ענף ספורט",
+            "כל שחקן מביא יכולת אחרת"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "חוקים מדמים ענף ספורט"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף משחק ספורט?",
+          "options_he": [
+            "מוזיקה עוזרת לזכור דפוס",
+            "תקשורת עוזרת לנצח יחד",
+            "עבודת צוות משנה תוצאה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "עבודת צוות משנה תוצאה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק ספורט הכי חשוב לזכור?",
+          "options_he": [
+            "טעות יכולה ללמד מה לשפר",
+            "אימון משפר שליטה",
+            "שלבים מלמדים קושי בהדרגה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אימון משפר שליטה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fb182540819ba91568136720cc43.png",
+        "project_png": "assets/season-1/cards-wave2-he/computer-games/07-sports-game.png",
+        "project_webp": "assets/season-1/cards-wave2-he/computer-games/07-sports-game.webp",
+        "updated_at": "2026-05-10T21:45:20.148489+00:00"
+      }
+    },
+    {
+      "card_id": "computer-games-08-role-play",
+      "index": 8,
+      "title_he": "משחק תפקידים",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/08-role-play.webp",
+      "facts_he": [
+        "דמות משתפרת לאורך הסיפור",
+        "בחירות משפיעות על הדרך",
+        "ציוד חדש פותח אפשרויות"
+      ],
+      "tags_he": [
+        "סיפור",
+        "דמות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף משחק תפקידים?",
+          "options_he": [
+            "סבלנות עוזרת להתקדם",
+            "דמות משתפרת לאורך הסיפור",
+            "משאבים מגבילים בחירות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "דמות משתפרת לאורך הסיפור"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף משחק תפקידים?",
+          "options_he": [
+            "בחירות משפיעות על הדרך",
+            "משאבים מחולקים לפי עדיפות",
+            "רמז קטן יכול לפתוח פתרון"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בחירות משפיעות על הדרך"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק תפקידים הכי חשוב לזכור?",
+          "options_he": [
+            "אסטרטגיה דורשת החלטות קדימה",
+            "ציוד חדש פותח אפשרויות",
+            "מסלול מירוץ דורש שליטה במהירות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "ציוד חדש פותח אפשרויות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fb5bfc04819b9d84aebec4ab2818.png",
+        "project_png": "assets/season-1/cards-wave2-he/computer-games/08-role-play.png",
+        "project_webp": "assets/season-1/cards-wave2-he/computer-games/08-role-play.webp",
+        "updated_at": "2026-05-10T21:45:20.148489+00:00"
+      }
+    },
+    {
+      "card_id": "computer-games-09-coop-game",
+      "index": 9,
+      "title_he": "משחק שיתוף",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/09-coop-game.webp",
+      "facts_he": [
+        "שיתוף פעולה מחלק משימות",
+        "תקשורת עוזרת לנצח יחד",
+        "כל שחקן מביא יכולת אחרת"
+      ],
+      "tags_he": [
+        "שיתוף",
+        "צוות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף משחק שיתוף?",
+          "options_he": [
+            "שיתוף פעולה מחלק משימות",
+            "בחירות משפיעות על הדרך",
+            "שלבים מלמדים קושי בהדרגה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שיתוף פעולה מחלק משימות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף משחק שיתוף?",
+          "options_he": [
+            "תקשורת עוזרת לנצח יחד",
+            "אימון משפר דיוק",
+            "אסטרטגיה דורשת החלטות קדימה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תקשורת עוזרת לנצח יחד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק שיתוף הכי חשוב לזכור?",
+          "options_he": [
+            "משימות צד מוסיפות סיפורים",
+            "כל שחקן מביא יכולת אחרת",
+            "קופצים בין משטחים ומכשולים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "כל שחקן מביא יכולת אחרת"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fba77e5c819b8935ae34b9673386.png",
+        "project_png": "assets/season-1/cards-wave2-he/computer-games/09-coop-game.png",
+        "project_webp": "assets/season-1/cards-wave2-he/computer-games/09-coop-game.webp",
+        "updated_at": "2026-05-10T21:45:20.148489+00:00"
+      }
+    },
+    {
+      "card_id": "computer-games-10-open-world",
+      "index": 10,
+      "title_he": "משחק עולם פתוח",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/10-open-world.webp",
+      "facts_he": [
+        "עולם פתוח נותן חופש בחירה",
+        "מפה גדולה מזמינה חקר",
+        "משימות צד מוסיפות סיפורים"
+      ],
+      "tags_he": [
+        "חקר",
+        "מפה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף משחק עולם פתוח?",
+          "options_he": [
+            "עולם פתוח נותן חופש בחירה",
+            "ציוד חדש פותח אפשרויות",
+            "מוזיקה עוזרת לזכור דפוס"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עולם פתוח נותן חופש בחירה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף משחק עולם פתוח?",
+          "options_he": [
+            "מפה גדולה מזמינה חקר",
+            "חידה דורשת חשיבה וניסוי",
+            "בנייה מתחילה מרעיון קטן"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפה גדולה מזמינה חקר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק עולם פתוח הכי חשוב לזכור?",
+          "options_he": [
+            "משימות צד מוסיפות סיפורים",
+            "משאבים מגבילים בחירות",
+            "משאבים מחולקים לפי עדיפות"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "משימות צד מוסיפות סיפורים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fc013a1c819b802a1694af9e897a.png",
+        "project_png": "assets/season-1/cards-wave2-he/computer-games/10-open-world.png",
+        "project_webp": "assets/season-1/cards-wave2-he/computer-games/10-open-world.webp",
+        "updated_at": "2026-05-10T21:45:20.148489+00:00"
+      }
+    }
+  ],
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "עטיפת החבילה נוצרה כתמונת image generation יחידה ויובאה לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00df9385508191b8ecc362378b1079.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-computer-games.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-computer-games.webp",
+    "updated_at": "2026-05-10T20:01:27.434861+00:00"
+  }
+}

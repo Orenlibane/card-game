@@ -1,0 +1,944 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "generation_mode_he": "עטיפות החבילה וקלפי הקדמה נוצרו אחת־אחת בכלי image generation ויובאו לפרויקט כ-PNG/WebP.",
+  "updated_at": "2026-05-10T23:33:59.509921+00:00",
+  "packs": [
+    {
+      "pack_id": "cube-adventures",
+      "title_he": "עולם קוביות",
+      "png": "assets/season-1/packs-wave2-he/pack-cube-adventures.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-cube-adventures.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00de5253a481919215d9d367536770.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T20:01:27.434861+00:00"
+    },
+    {
+      "pack_id": "breakfast",
+      "title_he": "ארוחות בוקר",
+      "png": "assets/season-1/packs-wave2-he/pack-breakfast.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-breakfast.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00deb9a6008191a34a40f8b7b53760.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T20:01:27.434861+00:00"
+    },
+    {
+      "pack_id": "lunch",
+      "title_he": "ארוחות צהריים",
+      "png": "assets/season-1/packs-wave2-he/pack-lunch.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-lunch.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00df2580ec8191b7224d2cf68bc778.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T20:01:27.434861+00:00"
+    },
+    {
+      "pack_id": "computer-games",
+      "title_he": "משחקי מחשב",
+      "png": "assets/season-1/packs-wave2-he/pack-computer-games.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-computer-games.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00df9385508191b8ecc362378b1079.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T20:01:27.434861+00:00"
+    },
+    {
+      "pack_id": "board-games",
+      "title_he": "משחקי קופסה",
+      "png": "assets/season-1/packs-wave2-he/pack-board-games.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-board-games.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e07406148191a2a1208f57743371.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T20:01:27.434861+00:00"
+    },
+    {
+      "pack_id": "sports",
+      "title_he": "ספורט",
+      "png": "assets/season-1/packs-wave2-he/pack-sports.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-sports.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e1179ad48191910f03513f749e8b.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T20:01:27.434861+00:00"
+    },
+    {
+      "pack_id": "music",
+      "title_he": "מוזיקה",
+      "png": "assets/season-1/packs-wave2-he/pack-music.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-music.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e17d78f88191aa85a77204f0679c.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T20:01:27.434861+00:00"
+    },
+    {
+      "pack_id": "desserts",
+      "title_he": "קינוחים",
+      "png": "assets/season-1/packs-wave2-he/pack-desserts.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-desserts.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e1defd1c8191b75be443a7d2d204.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T20:01:27.434861+00:00"
+    },
+    {
+      "pack_id": "robots",
+      "title_he": "רובוטים",
+      "png": "assets/season-1/packs-wave2-he/pack-robots.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-robots.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e2ce65c88191aa466e6757f0684d.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T20:01:27.434861+00:00"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "title_he": "גיבורי על מקוריים",
+      "png": "assets/season-1/packs-wave2-he/pack-superheroes-original.png",
+      "webp": "assets/season-1/packs-wave2-he/pack-superheroes-original.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e33281bc8191890be3b48db15c01.png",
+      "generation_status_he": "נוצר ויובא מתמונה יחידה",
+      "updated_at": "2026-05-10T20:01:27.434861+00:00"
+    }
+  ],
+  "cards_pending": [],
+  "cards_done": [
+    {
+      "card_id": "cube-adventures-01-wood-block",
+      "pack_id": "cube-adventures",
+      "title_he": "קוביית עץ",
+      "png": "assets/season-1/cards-wave2-he/cube-adventures/01-wood-block.png",
+      "webp": "assets/season-1/cards-wave2-he/cube-adventures/01-wood-block.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e9beeddc8191b3d99f289ea87209.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T20:45:55.473280+00:00"
+    },
+    {
+      "card_id": "cube-adventures-02-stone-pickaxe",
+      "pack_id": "cube-adventures",
+      "title_he": "מכוש אבן",
+      "png": "assets/season-1/cards-wave2-he/cube-adventures/02-stone-pickaxe.png",
+      "webp": "assets/season-1/cards-wave2-he/cube-adventures/02-stone-pickaxe.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ea27a0a08191ad8909461cc10117.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T20:45:55.473280+00:00"
+    },
+    {
+      "card_id": "cube-adventures-03-night-shelter",
+      "pack_id": "cube-adventures",
+      "title_he": "מחסה לילה",
+      "png": "assets/season-1/cards-wave2-he/cube-adventures/03-night-shelter.png",
+      "webp": "assets/season-1/cards-wave2-he/cube-adventures/03-night-shelter.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ea7ec44c8191996ac8bd51ad72fe.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T20:45:55.473280+00:00"
+    },
+    {
+      "card_id": "cube-adventures-04-crystal-cave",
+      "pack_id": "cube-adventures",
+      "title_he": "מערת גבישים",
+      "png": "assets/season-1/cards-wave2-he/cube-adventures/04-crystal-cave.png",
+      "webp": "assets/season-1/cards-wave2-he/cube-adventures/04-crystal-cave.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ead608d88191a30a94197578753f.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T20:45:55.473280+00:00"
+    },
+    {
+      "card_id": "cube-adventures-05-wheat-field",
+      "pack_id": "cube-adventures",
+      "title_he": "שדה חיטה",
+      "png": "assets/season-1/cards-wave2-he/cube-adventures/05-wheat-field.png",
+      "webp": "assets/season-1/cards-wave2-he/cube-adventures/05-wheat-field.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00eb2e721c819190385713a01ed501.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T20:45:55.473280+00:00"
+    },
+    {
+      "card_id": "cube-adventures-06-lava-bridge",
+      "pack_id": "cube-adventures",
+      "title_he": "גשר לבה",
+      "png": "assets/season-1/cards-wave2-he/cube-adventures/06-lava-bridge.png",
+      "webp": "assets/season-1/cards-wave2-he/cube-adventures/06-lava-bridge.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00eb8bd7b481918aad00fb4f82b5ad.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T20:45:55.473280+00:00"
+    },
+    {
+      "card_id": "cube-adventures-07-world-map",
+      "pack_id": "cube-adventures",
+      "title_he": "מפת עולם",
+      "png": "assets/season-1/cards-wave2-he/cube-adventures/07-world-map.png",
+      "webp": "assets/season-1/cards-wave2-he/cube-adventures/07-world-map.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ebed81ac8191b8672bc7806a8743.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T20:45:55.473280+00:00"
+    },
+    {
+      "card_id": "cube-adventures-08-treasure-chest",
+      "pack_id": "cube-adventures",
+      "title_he": "תיבת אוצר",
+      "png": "assets/season-1/cards-wave2-he/cube-adventures/08-treasure-chest.png",
+      "webp": "assets/season-1/cards-wave2-he/cube-adventures/08-treasure-chest.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ec4c166c8191a9442b1ebe35c163.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T20:45:55.473280+00:00"
+    },
+    {
+      "card_id": "cube-adventures-09-rail-track",
+      "pack_id": "cube-adventures",
+      "title_he": "מסילת רכבת",
+      "png": "assets/season-1/cards-wave2-he/cube-adventures/09-rail-track.png",
+      "webp": "assets/season-1/cards-wave2-he/cube-adventures/09-rail-track.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ed5a10f48191ba68ad6e39ddaa76.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T20:45:55.473280+00:00"
+    },
+    {
+      "card_id": "cube-adventures-10-light-gate",
+      "pack_id": "cube-adventures",
+      "title_he": "שער אור",
+      "png": "assets/season-1/cards-wave2-he/cube-adventures/10-light-gate.png",
+      "webp": "assets/season-1/cards-wave2-he/cube-adventures/10-light-gate.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ede6bda48191bc301dee38c25938.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T20:45:55.473280+00:00"
+    },
+    {
+      "card_id": "breakfast-01-omelet",
+      "pack_id": "breakfast",
+      "title_he": "חביתה",
+      "png": "assets/season-1/cards-wave2-he/breakfast/01-omelet.png",
+      "webp": "assets/season-1/cards-wave2-he/breakfast/01-omelet.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f007b66881919a94f5b1520d1427.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T21:14:17.104139+00:00"
+    },
+    {
+      "card_id": "breakfast-02-yogurt",
+      "pack_id": "breakfast",
+      "title_he": "יוגורט",
+      "png": "assets/season-1/cards-wave2-he/breakfast/02-yogurt.png",
+      "webp": "assets/season-1/cards-wave2-he/breakfast/02-yogurt.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f06e6d50819194a6509898b2af53.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T21:14:17.104139+00:00"
+    },
+    {
+      "card_id": "breakfast-03-granola",
+      "pack_id": "breakfast",
+      "title_he": "גרנולה",
+      "png": "assets/season-1/cards-wave2-he/breakfast/03-granola.png",
+      "webp": "assets/season-1/cards-wave2-he/breakfast/03-granola.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f0cb5da88191834dfcb570e2cacb.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T21:14:17.104139+00:00"
+    },
+    {
+      "card_id": "breakfast-04-toast",
+      "pack_id": "breakfast",
+      "title_he": "טוסט",
+      "png": "assets/season-1/cards-wave2-he/breakfast/04-toast.png",
+      "webp": "assets/season-1/cards-wave2-he/breakfast/04-toast.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f1355e0881918c290cff22af565a.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T21:14:17.104139+00:00"
+    },
+    {
+      "card_id": "breakfast-05-oatmeal",
+      "pack_id": "breakfast",
+      "title_he": "דייסת שיבולת",
+      "png": "assets/season-1/cards-wave2-he/breakfast/05-oatmeal.png",
+      "webp": "assets/season-1/cards-wave2-he/breakfast/05-oatmeal.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f1b0dd6481918adefd044f5f103f.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T21:14:17.104139+00:00"
+    },
+    {
+      "card_id": "breakfast-06-morning-salad",
+      "pack_id": "breakfast",
+      "title_he": "סלט בוקר",
+      "png": "assets/season-1/cards-wave2-he/breakfast/06-morning-salad.png",
+      "webp": "assets/season-1/cards-wave2-he/breakfast/06-morning-salad.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f21e3fd08191aaa059dcfc6bef08.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T21:14:17.104139+00:00"
+    },
+    {
+      "card_id": "breakfast-07-pancake",
+      "pack_id": "breakfast",
+      "title_he": "פנקייק",
+      "png": "assets/season-1/cards-wave2-he/breakfast/07-pancake.png",
+      "webp": "assets/season-1/cards-wave2-he/breakfast/07-pancake.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f340899c8191af06fb2ca431f79e.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T21:14:17.104139+00:00"
+    },
+    {
+      "card_id": "breakfast-08-cheese-sandwich",
+      "pack_id": "breakfast",
+      "title_he": "כריך גבינה",
+      "png": "assets/season-1/cards-wave2-he/breakfast/08-cheese-sandwich.png",
+      "webp": "assets/season-1/cards-wave2-he/breakfast/08-cheese-sandwich.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f3bacb0481918ea59c74017e2c43.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T21:14:17.104139+00:00"
+    },
+    {
+      "card_id": "breakfast-09-fruit-shake",
+      "pack_id": "breakfast",
+      "title_he": "שייק פירות",
+      "png": "assets/season-1/cards-wave2-he/breakfast/09-fruit-shake.png",
+      "webp": "assets/season-1/cards-wave2-he/breakfast/09-fruit-shake.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f42ce2a88191abaaa8f29e144e50.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T21:14:17.104139+00:00"
+    },
+    {
+      "card_id": "breakfast-10-cereal",
+      "pack_id": "breakfast",
+      "title_he": "דגני בוקר",
+      "png": "assets/season-1/cards-wave2-he/breakfast/10-cereal.png",
+      "webp": "assets/season-1/cards-wave2-he/breakfast/10-cereal.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f497971481918edb7a6a71044ede.png",
+      "generation_status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+      "updated_at": "2026-05-10T21:14:17.104139+00:00"
+    },
+    {
+      "pack_id": "lunch",
+      "card_id": "lunch-01-rice",
+      "title_he": "אורז",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/01-rice.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f624655c819b9af910fb4cee90ae.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "lunch",
+      "card_id": "lunch-02-pasta",
+      "title_he": "פסטה",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/02-pasta.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f6c1035c819baff357eb2fa4c9ea.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "lunch",
+      "card_id": "lunch-03-patties",
+      "title_he": "קציצות",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/03-patties.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f6fc906c819b8dac9d4e6acde4cf.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "lunch",
+      "card_id": "lunch-04-vegetable-soup",
+      "title_he": "מרק ירקות",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/04-vegetable-soup.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f73aa004819bb47cb1fcf2d75cb9.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "lunch",
+      "card_id": "lunch-05-schnitzel",
+      "title_he": "שניצל",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/05-schnitzel.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f7773b90819bb24996c77edc4588.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "lunch",
+      "card_id": "lunch-06-couscous",
+      "title_he": "קוסקוס",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/06-couscous.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f7bcce40819bbbaea9b24980cbb7.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "lunch",
+      "card_id": "lunch-07-chicken-salad",
+      "title_he": "סלט עוף",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/07-chicken-salad.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f7fbe5c0819ba10454f38e1b8228.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "lunch",
+      "card_id": "lunch-08-stir-fry",
+      "title_he": "מוקפץ",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/08-stir-fry.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f83ec9ec819bb602815ca2084df3.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "lunch",
+      "card_id": "lunch-09-falafel-pita",
+      "title_he": "פיתה פלאפל",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/09-falafel-pita.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f8821afc819b8a448c6fb515bfc7.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "lunch",
+      "card_id": "lunch-10-potato",
+      "title_he": "תפוח אדמה",
+      "asset_path": "assets/season-1/cards-wave2-he/lunch/10-potato.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f8c8333c819bb568cd47de8dc01e.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "computer-games",
+      "card_id": "computer-games-01-platformer",
+      "title_he": "משחק פלטפורמה",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/01-platformer.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f961df74819bb012ccf4aca5fc11.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "computer-games",
+      "card_id": "computer-games-02-racing-game",
+      "title_he": "משחק מרוצים",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/02-racing-game.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00f9c5c840819b8efbbd45b6d1f415.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "computer-games",
+      "card_id": "computer-games-03-puzzle-game",
+      "title_he": "משחק חידה",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/03-puzzle-game.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fa063b3c819bb2613709ef25f78c.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "computer-games",
+      "card_id": "computer-games-04-building-game",
+      "title_he": "משחק בנייה",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/04-building-game.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fa47a8c8819b845ff19f1fc9e903.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "computer-games",
+      "card_id": "computer-games-05-rhythm-game",
+      "title_he": "משחק קצב",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/05-rhythm-game.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fa8c17e4819b942cd2106a7be8a2.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "computer-games",
+      "card_id": "computer-games-06-strategy-game",
+      "title_he": "משחק אסטרטגיה",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/06-strategy-game.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fac9ce60819b8692667e651a8d58.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "computer-games",
+      "card_id": "computer-games-07-sports-game",
+      "title_he": "משחק ספורט",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/07-sports-game.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fb182540819ba91568136720cc43.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "computer-games",
+      "card_id": "computer-games-08-role-play",
+      "title_he": "משחק תפקידים",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/08-role-play.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fb5bfc04819b9d84aebec4ab2818.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "computer-games",
+      "card_id": "computer-games-09-coop-game",
+      "title_he": "משחק שיתוף",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/09-coop-game.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fba77e5c819b8935ae34b9673386.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "computer-games",
+      "card_id": "computer-games-10-open-world",
+      "title_he": "משחק עולם פתוח",
+      "asset_path": "assets/season-1/cards-wave2-he/computer-games/10-open-world.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fc013a1c819b802a1694af9e897a.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "board-games",
+      "card_id": "board-games-01-dice",
+      "title_he": "קובייה",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/01-dice.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fcf65648819bbd26228fa6fbfce1.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "board-games",
+      "card_id": "board-games-02-game-board",
+      "title_he": "לוח משחק",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/02-game-board.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fd3500ec819bbaa2ef2ec90653f6.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "board-games",
+      "card_id": "board-games-03-action-cards",
+      "title_he": "קלפי פעולה",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/03-action-cards.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fd75b594819b96649d102fb8c37a.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "board-games",
+      "card_id": "board-games-04-game-piece",
+      "title_he": "חייל משחק",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/04-game-piece.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fdebad40819baeafe245fe039ca6.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "board-games",
+      "card_id": "board-games-05-turn",
+      "title_he": "תור משחק",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/05-turn.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fe2929bc819bb15625406a233a0e.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "board-games",
+      "card_id": "board-games-06-victory-points",
+      "title_he": "נקודות ניצחון",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/06-victory-points.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00fe6a1264819b80ce3fb48501acd7.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "board-games",
+      "card_id": "board-games-07-secret-mission",
+      "title_he": "משימה סודית",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/07-secret-mission.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00feae31fc819bb40f83fa6a1b97af.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "board-games",
+      "card_id": "board-games-08-cooperation",
+      "title_he": "שיתוף פעולה",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/08-cooperation.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00ff0724f0819bba40f067fe1c2910.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "board-games",
+      "card_id": "board-games-09-trading",
+      "title_he": "מסחר",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/09-trading.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00ff49df54819ba0de13677b66a7b1.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "board-games",
+      "card_id": "board-games-10-endgame",
+      "title_he": "סיום משחק",
+      "asset_path": "assets/season-1/cards-wave2-he/board-games/10-endgame.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a00ff92f8dc819b9aa23fafe16b1992.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "sports",
+      "card_id": "sports-01-soccer",
+      "title_he": "כדורגל",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/01-soccer.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01008d9ef8819b96db5edd15845e72.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "sports",
+      "card_id": "sports-02-basketball",
+      "title_he": "כדורסל",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/02-basketball.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0100ce265c819b8d3730aa7cd9907f.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "sports",
+      "card_id": "sports-03-swimming",
+      "title_he": "שחייה",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/03-swimming.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010162ca60819babdbe50809facfb9.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "sports",
+      "card_id": "sports-04-running",
+      "title_he": "ריצה",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/04-running.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0101a1c630819b8dad239ca0a7841d.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "sports",
+      "card_id": "sports-05-tennis",
+      "title_he": "טניס",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/05-tennis.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0101e39fd4819bbeebcd8e5acb6fe8.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "sports",
+      "card_id": "sports-06-judo",
+      "title_he": "ג׳ודו",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/06-judo.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0102262cfc819baeb92799e6b55ad4.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "sports",
+      "card_id": "sports-07-cycling",
+      "title_he": "רכיבה",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/07-cycling.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01026b9c6c819bae33345b28cb8991.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "sports",
+      "card_id": "sports-08-gymnastics",
+      "title_he": "התעמלות",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/08-gymnastics.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0102ae414c819bb458800bcba7f2eb.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "sports",
+      "card_id": "sports-09-baseball",
+      "title_he": "בייסבול",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/09-baseball.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0102f0be30819b9b1163d3fc3d3547.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "sports",
+      "card_id": "sports-10-climbing",
+      "title_he": "טיפוס",
+      "asset_path": "assets/season-1/cards-wave2-he/sports/10-climbing.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01033be424819b92d0849df57bd5d6.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "music",
+      "card_id": "music-01-guitar",
+      "title_he": "גיטרה",
+      "asset_path": "assets/season-1/cards-wave2-he/music/01-guitar.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010475357c819ba6322f5e6449ce07.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "music",
+      "card_id": "music-02-piano",
+      "title_he": "פסנתר",
+      "asset_path": "assets/season-1/cards-wave2-he/music/02-piano.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0104b3fc90819bbe945d8e45abac36.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "music",
+      "card_id": "music-03-drums",
+      "title_he": "תופים",
+      "asset_path": "assets/season-1/cards-wave2-he/music/03-drums.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0104fac25c819b8f08622d52d1ee22.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "music",
+      "card_id": "music-04-flute",
+      "title_he": "חליל",
+      "asset_path": "assets/season-1/cards-wave2-he/music/04-flute.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0105401764819ba9d3fef4df756a05.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "music",
+      "card_id": "music-05-violin",
+      "title_he": "כינור",
+      "asset_path": "assets/season-1/cards-wave2-he/music/05-violin.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010583232c819b9d8d80aa0775d0ad.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "music",
+      "card_id": "music-06-trumpet",
+      "title_he": "חצוצרה",
+      "asset_path": "assets/season-1/cards-wave2-he/music/06-trumpet.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0105cc108c819bb415f055e7ebca7f.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "music",
+      "card_id": "music-07-rhythm",
+      "title_he": "מקצב",
+      "asset_path": "assets/season-1/cards-wave2-he/music/07-rhythm.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01061ac104819b90194a2dc2222624.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "music",
+      "card_id": "music-08-melody",
+      "title_he": "מלודיה",
+      "asset_path": "assets/season-1/cards-wave2-he/music/08-melody.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01066b5168819ba34840d504c34f15.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "music",
+      "card_id": "music-09-choir",
+      "title_he": "מקהלה",
+      "asset_path": "assets/season-1/cards-wave2-he/music/09-choir.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0106b389a4819bb2c9f23612875d08.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "music",
+      "card_id": "music-10-conductor",
+      "title_he": "מנצח",
+      "asset_path": "assets/season-1/cards-wave2-he/music/10-conductor.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010755c978819ba4ab54fab7c65990.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "desserts",
+      "card_id": "desserts-01-chocolate-cake",
+      "title_he": "עוגת שוקולד",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/01-chocolate-cake.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0108ca059c819bb7a94311c69bc2b1.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "desserts",
+      "card_id": "desserts-02-ice-cream",
+      "title_he": "גלידה",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/02-ice-cream.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0109004a3c819b9452402df03521d0.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "desserts",
+      "card_id": "desserts-03-cookie",
+      "title_he": "עוגייה",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/03-cookie.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010942d614819b9c0931d778795d70.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "desserts",
+      "card_id": "desserts-04-apple-pie",
+      "title_he": "פאי תפוחים",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/04-apple-pie.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0109850178819b8c12b760dc744de7.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "desserts",
+      "card_id": "desserts-05-pudding",
+      "title_he": "פודינג",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/05-pudding.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0109cb8d9c819ba7d0998ef27bb6c8.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "desserts",
+      "card_id": "desserts-06-cupcake",
+      "title_he": "קאפקייק",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/06-cupcake.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0109fef094819b8ea6629520adca4c.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "desserts",
+      "card_id": "desserts-07-crepe",
+      "title_he": "קרפ",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/07-crepe.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010a48c718819b8e873d39248f66e4.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "desserts",
+      "card_id": "desserts-08-souffle",
+      "title_he": "סופלה",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/08-souffle.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010a8fba5c819bb0bb877a37492c3a.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "desserts",
+      "card_id": "desserts-09-fruit-salad",
+      "title_he": "סלט פירות",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/09-fruit-salad.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010b66a7d0819bb6071601c6108b0d.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "desserts",
+      "card_id": "desserts-10-waffle",
+      "title_he": "וופל",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/10-waffle.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010ba70d18819b8885be10423bda04.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "robots",
+      "card_id": "robots-01-light-sensor",
+      "title_he": "חיישן אור",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/01-light-sensor.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010dbda74c819ba1e5dce640782dc1.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "robots",
+      "card_id": "robots-02-small-motor",
+      "title_he": "מנוע קטן",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/02-small-motor.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010e028d80819b983274f0168c11dc.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "robots",
+      "card_id": "robots-03-robot-arm",
+      "title_he": "זרוע רובוטית",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/03-robot-arm.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010e4c1e70819b97f4debefda14082.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "robots",
+      "card_id": "robots-04-command-code",
+      "title_he": "קוד פקודות",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/04-command-code.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010e91ec1c819bbfe6dfb0cffeb036.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "robots",
+      "card_id": "robots-05-wheels",
+      "title_he": "גלגלים",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/05-wheels.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010edb3854819bb258bba3af8a8ee1.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "robots",
+      "card_id": "robots-06-controller",
+      "title_he": "בקר ראשי",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/06-controller.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010f2292cc819b83326a70d8b8d7d4.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "robots",
+      "card_id": "robots-07-battery",
+      "title_he": "סוללה",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/07-battery.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010f7348d8819b84bbce157eaed6c7.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "robots",
+      "card_id": "robots-08-robot-track",
+      "title_he": "מסלול רובוט",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/08-robot-track.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010fc24e14819babe389960ee3cfad.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "robots",
+      "card_id": "robots-09-service-robot",
+      "title_he": "רובוט שירות",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/09-service-robot.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01101136b0819ba4e29b738713f167.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "robots",
+      "card_id": "robots-10-robot-team",
+      "title_he": "צוות רובוטים",
+      "asset_path": "assets/season-1/cards-wave2-he/robots/10-robot-team.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a011062df7c819b913000d8e946865e.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "card_id": "superheroes-original-01-oron",
+      "title_he": "אורון",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/01-oron.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01125e7af8819b863bf2a8886f6cd7.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "card_id": "superheroes-original-02-ruhit",
+      "title_he": "רוחית",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/02-ruhit.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0112a52a10819b804fd2ea2c21129c.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "card_id": "superheroes-original-03-red-shield",
+      "title_he": "מגן אדום",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/03-red-shield.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0112ec0194819b88914c1578a3c7fe.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "card_id": "superheroes-original-04-jumper",
+      "title_he": "קפיצון",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/04-jumper.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0113b2ad94819b9e9cf2eea7453261.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "card_id": "superheroes-original-05-sounda",
+      "title_he": "צלילית",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/05-sounda.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0113fae38c819bb61fcabd2b6ef6eb.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "card_id": "superheroes-original-06-leafor",
+      "title_he": "עלעל",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/06-leafor.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a011447e980819bafbc3f5477fc0e82.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "card_id": "superheroes-original-07-sparko",
+      "title_he": "ברקון",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/07-sparko.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0114927538819b852a7583a233b5c5.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "card_id": "superheroes-original-08-timelet",
+      "title_he": "זמן קטן",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/08-timelet.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0114dd4e98819bb364ce5eff8e7f05.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "card_id": "superheroes-original-09-bubblea",
+      "title_he": "בועית",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/09-bubblea.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01152f28d0819b93d558c18e991061.png",
+      "status": "imported"
+    },
+    {
+      "pack_id": "superheroes-original",
+      "card_id": "superheroes-original-10-starlet",
+      "title_he": "כוכבית",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/10-starlet.webp",
+      "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01157b36b8819ba69cf77831456449.png",
+      "status": "imported"
+    }
+  ]
+}

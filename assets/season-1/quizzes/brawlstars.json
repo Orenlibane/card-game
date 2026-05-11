@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "brawlstars",
+  "pack_title_he": "ברולסטארס",
+  "domain_he": "דמויות קרב מקוריות, עבודת צוות ואסטרטגיה",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-brawlstars.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "ip_note_he": "חבילת fan-style עם דמויות מקוריות בלבד. אין שימוש בדמויות, לוגו או נכסים רשמיים של Brawl Stars או Supercell.",
+  "cards": [
+    {
+      "card_id": "brawlstars-01-nova",
+      "index": 1,
+      "title_he": "נובה",
+      "asset_path": "assets/season-1/cards-wave2-he/brawlstars/01-nova.webp",
+      "facts_he": [
+        "לוחמת מהירה לטווח בינוני",
+        "כדור אור מסמן אזור בטוח",
+        "טובה בפתיחת קרב זריזה"
+      ],
+      "tags_he": [
+        "מהירות",
+        "אור"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזו דמות ראית עכשיו?",
+          "options_he": [
+            "נובה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לוחמת מהירה לטווח בינוני"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי נובה?",
+          "options_he": [
+            "לוחמת מהירה לטווח בינוני",
+            "זו דמות שלא קשורה לחבילה.",
+            "אין עליה מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "לוחמת מהירה לטווח בינוני"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו אסטרטגיה מתאימה לנובה?",
+          "options_he": [
+            "להשתמש בתג מהירות לפי המצב במפה.",
+            "תמיד לעמוד בלי לזוז.",
+            "להתעלם מעבודת צוות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כדור אור מסמן אזור בטוח"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00cd9dcfb0819180ec03a4a87e7932.png",
+        "project_png": "assets/season-1/cards-wave2-he/brawlstars/01-nova.png",
+        "project_webp": "assets/season-1/cards-wave2-he/brawlstars/01-nova.webp",
+        "prompt_file": "tmp/imagegen/brawlstars-cards/01-brawlstars-01-nova.txt",
+        "updated_at": "2026-05-10T18:52:17.229915+00:00"
+      }
+    },
+    {
+      "card_id": "brawlstars-02-blitz",
+      "index": 2,
+      "title_he": "בזק",
+      "asset_path": "assets/season-1/cards-wave2-he/brawlstars/02-blitz.webp",
+      "facts_he": [
+        "רץ קדימה בפרץ קצר",
+        "מתאים לאיסוף כוכבים מהר",
+        "צריך להיזהר ממלכודות"
+      ],
+      "tags_he": [
+        "מהירות",
+        "תנועה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזו דמות ראית עכשיו?",
+          "options_he": [
+            "בזק",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "רץ קדימה בפרץ קצר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי בזק?",
+          "options_he": [
+            "רץ קדימה בפרץ קצר",
+            "זו דמות שלא קשורה לחבילה.",
+            "אין עליה מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "רץ קדימה בפרץ קצר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו אסטרטגיה מתאימה לבזק?",
+          "options_he": [
+            "להשתמש בתג מהירות לפי המצב במפה.",
+            "תמיד לעמוד בלי לזוז.",
+            "להתעלם מעבודת צוות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מתאים לאיסוף כוכבים מהר"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00cdfff9d88191be4cb6ea83606d49.png",
+        "project_png": "assets/season-1/cards-wave2-he/brawlstars/02-blitz.png",
+        "project_webp": "assets/season-1/cards-wave2-he/brawlstars/02-blitz.webp",
+        "prompt_file": "tmp/imagegen/brawlstars-cards/02-brawlstars-02-blitz.txt",
+        "updated_at": "2026-05-10T18:52:17.229915+00:00"
+      }
+    },
+    {
+      "card_id": "brawlstars-03-luna",
+      "index": 3,
+      "title_he": "לונה",
+      "asset_path": "assets/season-1/cards-wave2-he/brawlstars/03-luna.webp",
+      "facts_he": [
+        "זורקת ירחי אנרגיה בקשת",
+        "יכולה לפגוע מעבר למכשול",
+        "חזקה כשהיא שומרת מרחק"
+      ],
+      "tags_he": [
+        "דיוק",
+        "מרחק"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזו דמות ראית עכשיו?",
+          "options_he": [
+            "לונה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זורקת ירחי אנרגיה בקשת"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי לונה?",
+          "options_he": [
+            "זורקת ירחי אנרגיה בקשת",
+            "זו דמות שלא קשורה לחבילה.",
+            "אין עליה מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זורקת ירחי אנרגיה בקשת"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו אסטרטגיה מתאימה ללונה?",
+          "options_he": [
+            "להשתמש בתג דיוק לפי המצב במפה.",
+            "תמיד לעמוד בלי לזוז.",
+            "להתעלם מעבודת צוות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יכולה לפגוע מעבר למכשול"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ce5e8ca481919ed1641fd24427de.png",
+        "project_png": "assets/season-1/cards-wave2-he/brawlstars/03-luna.png",
+        "project_webp": "assets/season-1/cards-wave2-he/brawlstars/03-luna.webp",
+        "prompt_file": "tmp/imagegen/brawlstars-cards/03-brawlstars-03-luna.txt",
+        "updated_at": "2026-05-10T18:52:17.229915+00:00"
+      }
+    },
+    {
+      "card_id": "brawlstars-04-boulder",
+      "index": 4,
+      "title_he": "בולדר",
+      "asset_path": "assets/season-1/cards-wave2-he/brawlstars/04-boulder.webp",
+      "facts_he": [
+        "מגן כבד עם שריון אבן",
+        "סופג נזק בשביל הקבוצה",
+        "איטי אבל קשה להזזה"
+      ],
+      "tags_he": [
+        "הגנה",
+        "שריון"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזו דמות ראית עכשיו?",
+          "options_he": [
+            "בולדר",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מגן כבד עם שריון אבן"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי בולדר?",
+          "options_he": [
+            "מגן כבד עם שריון אבן",
+            "זו דמות שלא קשורה לחבילה.",
+            "אין עליה מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מגן כבד עם שריון אבן"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו אסטרטגיה מתאימה לבולדר?",
+          "options_he": [
+            "להשתמש בתג הגנה לפי המצב במפה.",
+            "תמיד לעמוד בלי לזוז.",
+            "להתעלם מעבודת צוות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סופג נזק בשביל הקבוצה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ceba67c081919bddcfdf16a07c56.png",
+        "project_png": "assets/season-1/cards-wave2-he/brawlstars/04-boulder.png",
+        "project_webp": "assets/season-1/cards-wave2-he/brawlstars/04-boulder.webp",
+        "prompt_file": "tmp/imagegen/brawlstars-cards/04-brawlstars-04-boulder.txt",
+        "updated_at": "2026-05-10T18:52:17.229915+00:00"
+      }
+    },
+    {
+      "card_id": "brawlstars-05-flora",
+      "index": 5,
+      "title_he": "פלורה",
+      "asset_path": "assets/season-1/cards-wave2-he/brawlstars/05-flora.webp",
+      "facts_he": [
+        "מגדלת שיחים שמאטים יריבים",
+        "עוזרת לקבוצה לשלוט במפה",
+        "טובה ליד אזורי כיסוי"
+      ],
+      "tags_he": [
+        "שליטה",
+        "טבע"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזו דמות ראית עכשיו?",
+          "options_he": [
+            "פלורה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מגדלת שיחים שמאטים יריבים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פלורה?",
+          "options_he": [
+            "מגדלת שיחים שמאטים יריבים",
+            "זו דמות שלא קשורה לחבילה.",
+            "אין עליה מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מגדלת שיחים שמאטים יריבים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו אסטרטגיה מתאימה לפלורה?",
+          "options_he": [
+            "להשתמש בתג שליטה לפי המצב במפה.",
+            "תמיד לעמוד בלי לזוז.",
+            "להתעלם מעבודת צוות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוזרת לקבוצה לשלוט במפה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00cf1be3dc8191a857cc496dbf2fa3.png",
+        "project_png": "assets/season-1/cards-wave2-he/brawlstars/05-flora.png",
+        "project_webp": "assets/season-1/cards-wave2-he/brawlstars/05-flora.webp",
+        "prompt_file": "tmp/imagegen/brawlstars-cards/05-brawlstars-05-flora.txt",
+        "updated_at": "2026-05-10T18:52:17.229915+00:00"
+      }
+    },
+    {
+      "card_id": "brawlstars-06-shadow",
+      "index": 6,
+      "title_he": "צל",
+      "asset_path": "assets/season-1/cards-wave2-he/brawlstars/06-shadow.webp",
+      "facts_he": [
+        "מתגנב דרך אזורי חושך",
+        "תוקף טוב כשהיריב מופתע",
+        "צריך לבחור רגע נכון"
+      ],
+      "tags_he": [
+        "התגנבות",
+        "תזמון"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזו דמות ראית עכשיו?",
+          "options_he": [
+            "צל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מתגנב דרך אזורי חושך"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי צל?",
+          "options_he": [
+            "מתגנב דרך אזורי חושך",
+            "זו דמות שלא קשורה לחבילה.",
+            "אין עליה מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מתגנב דרך אזורי חושך"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו אסטרטגיה מתאימה לצל?",
+          "options_he": [
+            "להשתמש בתג התגנבות לפי המצב במפה.",
+            "תמיד לעמוד בלי לזוז.",
+            "להתעלם מעבודת צוות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תוקף טוב כשהיריב מופתע"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00cf7c3420819196eaa9e22aaec173.png",
+        "project_png": "assets/season-1/cards-wave2-he/brawlstars/06-shadow.png",
+        "project_webp": "assets/season-1/cards-wave2-he/brawlstars/06-shadow.webp",
+        "prompt_file": "tmp/imagegen/brawlstars-cards/06-brawlstars-06-shadow.txt",
+        "updated_at": "2026-05-10T18:52:17.229915+00:00"
+      }
+    },
+    {
+      "card_id": "brawlstars-07-pixel",
+      "index": 7,
+      "title_he": "פיקסל",
+      "asset_path": "assets/season-1/cards-wave2-he/brawlstars/07-pixel.webp",
+      "facts_he": [
+        "בונה רובוט קטן שעוזר בקרב",
+        "מסמן מטרות על המסך",
+        "חזק בתכנון עם חברים"
+      ],
+      "tags_he": [
+        "טכנולוגיה",
+        "תכנון"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזו דמות ראית עכשיו?",
+          "options_he": [
+            "פיקסל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בונה רובוט קטן שעוזר בקרב"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי פיקסל?",
+          "options_he": [
+            "בונה רובוט קטן שעוזר בקרב",
+            "זו דמות שלא קשורה לחבילה.",
+            "אין עליה מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בונה רובוט קטן שעוזר בקרב"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו אסטרטגיה מתאימה לפיקסל?",
+          "options_he": [
+            "להשתמש בתג טכנולוגיה לפי המצב במפה.",
+            "תמיד לעמוד בלי לזוז.",
+            "להתעלם מעבודת צוות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מסמן מטרות על המסך"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00d0d64bac81918fb915b69e728bae.png",
+        "project_png": "assets/season-1/cards-wave2-he/brawlstars/07-pixel.png",
+        "project_webp": "assets/season-1/cards-wave2-he/brawlstars/07-pixel.webp",
+        "prompt_file": "tmp/imagegen/brawlstars-cards/07-brawlstars-07-pixel.txt",
+        "updated_at": "2026-05-10T18:52:17.229915+00:00"
+      }
+    },
+    {
+      "card_id": "brawlstars-08-wave",
+      "index": 8,
+      "title_he": "גל",
+      "asset_path": "assets/season-1/cards-wave2-he/brawlstars/08-wave.webp",
+      "facts_he": [
+        "יורה סילון מים רחב",
+        "דוחף יריבים לאחור",
+        "שולט טוב במעברים צרים"
+      ],
+      "tags_he": [
+        "מים",
+        "דחיפה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזו דמות ראית עכשיו?",
+          "options_he": [
+            "גל",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יורה סילון מים רחב"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי גל?",
+          "options_he": [
+            "יורה סילון מים רחב",
+            "זו דמות שלא קשורה לחבילה.",
+            "אין עליה מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יורה סילון מים רחב"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו אסטרטגיה מתאימה לגל?",
+          "options_he": [
+            "להשתמש בתג מים לפי המצב במפה.",
+            "תמיד לעמוד בלי לזוז.",
+            "להתעלם מעבודת צוות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דוחף יריבים לאחור"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00d19988c88191ab86e7b835a305d0.png",
+        "project_png": "assets/season-1/cards-wave2-he/brawlstars/08-wave.png",
+        "project_webp": "assets/season-1/cards-wave2-he/brawlstars/08-wave.webp",
+        "prompt_file": "tmp/imagegen/brawlstars-cards/08-brawlstars-08-wave.txt",
+        "updated_at": "2026-05-10T18:52:17.229915+00:00"
+      }
+    },
+    {
+      "card_id": "brawlstars-09-spark",
+      "index": 9,
+      "title_he": "ניצוץ",
+      "asset_path": "assets/season-1/cards-wave2-he/brawlstars/09-spark.webp",
+      "facts_he": [
+        "מפזר מטעני חשמל קטנים",
+        "יכול לעצור יריב לרגע קצר",
+        "מצטיין בקרבות צפופים"
+      ],
+      "tags_he": [
+        "חשמל",
+        "עצירה"
+      ],
+      "rarity": "epic",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזו דמות ראית עכשיו?",
+          "options_he": [
+            "ניצוץ",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפזר מטעני חשמל קטנים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי ניצוץ?",
+          "options_he": [
+            "מפזר מטעני חשמל קטנים",
+            "זו דמות שלא קשורה לחבילה.",
+            "אין עליה מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מפזר מטעני חשמל קטנים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו אסטרטגיה מתאימה לניצוץ?",
+          "options_he": [
+            "להשתמש בתג חשמל לפי המצב במפה.",
+            "תמיד לעמוד בלי לזוז.",
+            "להתעלם מעבודת צוות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "יכול לעצור יריב לרגע קצר"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00d1fd85988191bbe82edb66b31d6e.png",
+        "project_png": "assets/season-1/cards-wave2-he/brawlstars/09-spark.png",
+        "project_webp": "assets/season-1/cards-wave2-he/brawlstars/09-spark.webp",
+        "prompt_file": "tmp/imagegen/brawlstars-cards/09-brawlstars-09-spark.txt",
+        "updated_at": "2026-05-10T18:52:17.229915+00:00"
+      }
+    },
+    {
+      "card_id": "brawlstars-10-shielda",
+      "index": 10,
+      "title_he": "שילדה",
+      "asset_path": "assets/season-1/cards-wave2-he/brawlstars/10-shielda.webp",
+      "facts_he": [
+        "מרימה מגן אנרגיה לקבוצה",
+        "שומרת על חברים בזמן נסיגה",
+        "טובה כשצריך להחזיק אזור"
+      ],
+      "tags_he": [
+        "הגנה",
+        "צוות"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "איזו דמות ראית עכשיו?",
+          "options_he": [
+            "שילדה",
+            "כוכב",
+            "עץ"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מרימה מגן אנרגיה לקבוצה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "מה נכון לגבי שילדה?",
+          "options_he": [
+            "מרימה מגן אנרגיה לקבוצה",
+            "זו דמות שלא קשורה לחבילה.",
+            "אין עליה מידע בקלף."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מרימה מגן אנרגיה לקבוצה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "איזו אסטרטגיה מתאימה לשילדה?",
+          "options_he": [
+            "להשתמש בתג הגנה לפי המצב במפה.",
+            "תמיד לעמוד בלי לזוז.",
+            "להתעלם מעבודת צוות."
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שומרת על חברים בזמן נסיגה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00d25eaac08191bbfb101d50ce1028.png",
+        "project_png": "assets/season-1/cards-wave2-he/brawlstars/10-shielda.png",
+        "project_webp": "assets/season-1/cards-wave2-he/brawlstars/10-shielda.webp",
+        "prompt_file": "tmp/imagegen/brawlstars-cards/10-brawlstars-10-shielda.txt",
+        "updated_at": "2026-05-10T18:52:17.229915+00:00"
+      }
+    }
+  ],
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00cd420f9881918f6518f1792ef61e.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-brawlstars.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-brawlstars.webp",
+    "prompt_file": "tmp/imagegen/brawlstars-pack-prompt.txt",
+    "updated_at": "2026-05-10T18:52:17.229915+00:00"
+  }
+}

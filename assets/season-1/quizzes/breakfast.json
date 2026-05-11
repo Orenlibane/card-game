@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "breakfast",
+  "pack_title_he": "ארוחות בוקר",
+  "domain_he": "תזונה, אנרגיה והרגלי בוקר",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-breakfast.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "note_he": "סט תוכן מלא עם שאלות. נכסי התמונה יופקו בהמשך לפי פרומפטים של ה-skill.",
+  "cards": [
+    {
+      "card_id": "breakfast-01-omelet",
+      "index": 1,
+      "title_he": "חביתה",
+      "asset_path": "assets/season-1/cards-wave2-he/breakfast/01-omelet.webp",
+      "facts_he": [
+        "חביתה עשויה מביצים",
+        "חלבון עוזר לבנות את הגוף",
+        "אפשר להוסיף ירקות לטעם"
+      ],
+      "tags_he": [
+        "חלבון",
+        "בוקר"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף חביתה?",
+          "options_he": [
+            "אפשר לשלב עם פרי",
+            "טוסט הוא לחם קלוי",
+            "חביתה עשויה מביצים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "חביתה עשויה מביצים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף חביתה?",
+          "options_he": [
+            "סלט מתאים ליד חלבון",
+            "שייק מערבב פירות ונוזל",
+            "חלבון עוזר לבנות את הגוף"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "חלבון עוזר לבנות את הגוף"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף חביתה הכי חשוב לזכור?",
+          "options_he": [
+            "אפשר להוסיף ירקות לטעם",
+            "כריך קל לקחת לדרך",
+            "חיתוך קטן נוח לאכילה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אפשר להוסיף ירקות לטעם"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f007b66881919a94f5b1520d1427.png",
+        "project_png": "assets/season-1/cards-wave2-he/breakfast/01-omelet.png",
+        "project_webp": "assets/season-1/cards-wave2-he/breakfast/01-omelet.webp",
+        "updated_at": "2026-05-10T21:14:17.104139+00:00"
+      }
+    },
+    {
+      "card_id": "breakfast-02-yogurt",
+      "index": 2,
+      "title_he": "יוגורט",
+      "asset_path": "assets/season-1/cards-wave2-he/breakfast/02-yogurt.webp",
+      "facts_he": [
+        "יוגורט מגיע מחלב מותסס",
+        "אפשר לשלב עם פרי",
+        "מנה קרה מתאימה לבוקר מהיר"
+      ],
+      "tags_he": [
+        "חלב",
+        "פרי"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף יוגורט?",
+          "options_he": [
+            "חום משנה את המרקם",
+            "יוגורט מגיע מחלב מותסס",
+            "בלילה הופכת לעיגול רך"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "יוגורט מגיע מחלב מותסס"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף יוגורט?",
+          "options_he": [
+            "סלט מתאים ליד חלבון",
+            "אפשר לשלב עם פרי",
+            "אפשר לקשט בפירות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אפשר לשלב עם פרי"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף יוגורט הכי חשוב לזכור?",
+          "options_he": [
+            "גרנולה כוללת דגנים ואגוזים",
+            "אפשר להכין עם גבינה או ירק",
+            "מנה קרה מתאימה לבוקר מהיר"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מנה קרה מתאימה לבוקר מהיר"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f06e6d50819194a6509898b2af53.png",
+        "project_png": "assets/season-1/cards-wave2-he/breakfast/02-yogurt.png",
+        "project_webp": "assets/season-1/cards-wave2-he/breakfast/02-yogurt.webp",
+        "updated_at": "2026-05-10T21:14:17.104139+00:00"
+      }
+    },
+    {
+      "card_id": "breakfast-03-granola",
+      "index": 3,
+      "title_he": "גרנולה",
+      "asset_path": "assets/season-1/cards-wave2-he/breakfast/03-granola.webp",
+      "facts_he": [
+        "גרנולה כוללת דגנים ואגוזים",
+        "מרקם פריך מוסיף עניין",
+        "בודקים סוכר ברשימת רכיבים"
+      ],
+      "tags_he": [
+        "דגנים",
+        "פריכות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף גרנולה?",
+          "options_he": [
+            "גרנולה כוללת דגנים ואגוזים",
+            "ירק מוסיף רעננות",
+            "פנקייק נאפה על מחבת חמה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "גרנולה כוללת דגנים ואגוזים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף גרנולה?",
+          "options_he": [
+            "שייק מערבב פירות ונוזל",
+            "מרקם פריך מוסיף עניין",
+            "בלילה הופכת לעיגול רך"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מרקם פריך מוסיף עניין"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף גרנולה הכי חשוב לזכור?",
+          "options_he": [
+            "בודקים סוכר ברשימת רכיבים",
+            "כדאי להשוות רכיבים",
+            "בלילה הופכת לעיגול רך"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בודקים סוכר ברשימת רכיבים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f0cb5da88191834dfcb570e2cacb.png",
+        "project_png": "assets/season-1/cards-wave2-he/breakfast/03-granola.png",
+        "project_webp": "assets/season-1/cards-wave2-he/breakfast/03-granola.webp",
+        "updated_at": "2026-05-10T21:14:17.104139+00:00"
+      }
+    },
+    {
+      "card_id": "breakfast-04-toast",
+      "index": 4,
+      "title_he": "טוסט",
+      "asset_path": "assets/season-1/cards-wave2-he/breakfast/04-toast.webp",
+      "facts_he": [
+        "טוסט הוא לחם קלוי",
+        "חום משנה את המרקם",
+        "אפשר להכין עם גבינה או ירק"
+      ],
+      "tags_he": [
+        "לחם",
+        "חום"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף טוסט?",
+          "options_he": [
+            "כריך קל לקחת לדרך",
+            "אפשר לקשט בפירות",
+            "טוסט הוא לחם קלוי"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "טוסט הוא לחם קלוי"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף טוסט?",
+          "options_he": [
+            "פנקייק נאפה על מחבת חמה",
+            "חום משנה את המרקם",
+            "מנה קרה מתאימה לבוקר מהיר"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "חום משנה את המרקם"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף טוסט הכי חשוב לזכור?",
+          "options_he": [
+            "דגנים נאכלים לעיתים עם חלב",
+            "אפשר להכין עם גבינה או ירק",
+            "חביתה עשויה מביצים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אפשר להכין עם גבינה או ירק"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f1355e0881918c290cff22af565a.png",
+        "project_png": "assets/season-1/cards-wave2-he/breakfast/04-toast.png",
+        "project_webp": "assets/season-1/cards-wave2-he/breakfast/04-toast.webp",
+        "updated_at": "2026-05-10T21:14:17.104139+00:00"
+      }
+    },
+    {
+      "card_id": "breakfast-05-oatmeal",
+      "index": 5,
+      "title_he": "דייסת שיבולת",
+      "asset_path": "assets/season-1/cards-wave2-he/breakfast/05-oatmeal.webp",
+      "facts_he": [
+        "שיבולת שועל משביעה לאורך זמן",
+        "דייסה יכולה להיות חמה ורכה",
+        "פירות מוסיפים צבע וטעם"
+      ],
+      "tags_he": [
+        "שיבולת",
+        "שובע"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף דייסת שיבולת?",
+          "options_he": [
+            "שיבולת שועל משביעה לאורך זמן",
+            "אפשר לקשט בפירות",
+            "גרנולה כוללת דגנים ואגוזים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שיבולת שועל משביעה לאורך זמן"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף דייסת שיבולת?",
+          "options_he": [
+            "דייסה יכולה להיות חמה ורכה",
+            "אפשר להוסיף ירקות לטעם",
+            "בלילה הופכת לעיגול רך"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דייסה יכולה להיות חמה ורכה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף דייסת שיבולת הכי חשוב לזכור?",
+          "options_he": [
+            "שייק מערבב פירות ונוזל",
+            "בלילה הופכת לעיגול רך",
+            "פירות מוסיפים צבע וטעם"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "פירות מוסיפים צבע וטעם"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f1b0dd6481918adefd044f5f103f.png",
+        "project_png": "assets/season-1/cards-wave2-he/breakfast/05-oatmeal.png",
+        "project_webp": "assets/season-1/cards-wave2-he/breakfast/05-oatmeal.webp",
+        "updated_at": "2026-05-10T21:14:17.104139+00:00"
+      }
+    },
+    {
+      "card_id": "breakfast-06-morning-salad",
+      "index": 6,
+      "title_he": "סלט בוקר",
+      "asset_path": "assets/season-1/cards-wave2-he/breakfast/06-morning-salad.webp",
+      "facts_he": [
+        "ירקות מוסיפים ויטמינים וצבע",
+        "חיתוך קטן נוח לאכילה",
+        "סלט מתאים ליד חלבון"
+      ],
+      "tags_he": [
+        "ירקות",
+        "צבעים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף סלט בוקר?",
+          "options_he": [
+            "אפשר לשלב עם פרי",
+            "קערה עוזרת למדוד מנה",
+            "ירקות מוסיפים ויטמינים וצבע"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "ירקות מוסיפים ויטמינים וצבע"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף סלט בוקר?",
+          "options_he": [
+            "חיתוך קטן נוח לאכילה",
+            "אפשר להוסיף ירקות לטעם",
+            "כריך קל לקחת לדרך"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חיתוך קטן נוח לאכילה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף סלט בוקר הכי חשוב לזכור?",
+          "options_he": [
+            "אפשר לקשט בפירות",
+            "סלט מתאים ליד חלבון",
+            "בלילה הופכת לעיגול רך"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "סלט מתאים ליד חלבון"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f21e3fd08191aaa059dcfc6bef08.png",
+        "project_png": "assets/season-1/cards-wave2-he/breakfast/06-morning-salad.png",
+        "project_webp": "assets/season-1/cards-wave2-he/breakfast/06-morning-salad.webp",
+        "updated_at": "2026-05-10T21:14:17.104139+00:00"
+      }
+    },
+    {
+      "card_id": "breakfast-07-pancake",
+      "index": 7,
+      "title_he": "פנקייק",
+      "asset_path": "assets/season-1/cards-wave2-he/breakfast/07-pancake.webp",
+      "facts_he": [
+        "פנקייק נאפה על מחבת חמה",
+        "בלילה הופכת לעיגול רך",
+        "אפשר לקשט בפירות"
+      ],
+      "tags_he": [
+        "מחבת",
+        "קינוח"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף פנקייק?",
+          "options_he": [
+            "צבע השייק משתנה לפי הפרי",
+            "פנקייק נאפה על מחבת חמה",
+            "חביתה עשויה מביצים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "פנקייק נאפה על מחבת חמה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף פנקייק?",
+          "options_he": [
+            "בלילה הופכת לעיגול רך",
+            "שיבולת שועל משביעה לאורך זמן",
+            "שייק מערבב פירות ונוזל"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בלילה הופכת לעיגול רך"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף פנקייק הכי חשוב לזכור?",
+          "options_he": [
+            "גרנולה כוללת דגנים ואגוזים",
+            "גבינה מוסיפה חלבון וסידן",
+            "אפשר לקשט בפירות"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "אפשר לקשט בפירות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f340899c8191af06fb2ca431f79e.png",
+        "project_png": "assets/season-1/cards-wave2-he/breakfast/07-pancake.png",
+        "project_webp": "assets/season-1/cards-wave2-he/breakfast/07-pancake.webp",
+        "updated_at": "2026-05-10T21:14:17.104139+00:00"
+      }
+    },
+    {
+      "card_id": "breakfast-08-cheese-sandwich",
+      "index": 8,
+      "title_he": "כריך גבינה",
+      "asset_path": "assets/season-1/cards-wave2-he/breakfast/08-cheese-sandwich.webp",
+      "facts_he": [
+        "כריך קל לקחת לדרך",
+        "גבינה מוסיפה חלבון וסידן",
+        "ירק מוסיף רעננות"
+      ],
+      "tags_he": [
+        "כריך",
+        "סידן"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף כריך גבינה?",
+          "options_he": [
+            "אפשר לקשט בפירות",
+            "כריך קל לקחת לדרך",
+            "בודקים סוכר ברשימת רכיבים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "כריך קל לקחת לדרך"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף כריך גבינה?",
+          "options_he": [
+            "שייק מערבב פירות ונוזל",
+            "בודקים סוכר ברשימת רכיבים",
+            "גבינה מוסיפה חלבון וסידן"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "גבינה מוסיפה חלבון וסידן"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף כריך גבינה הכי חשוב לזכור?",
+          "options_he": [
+            "אפשר להכין עם גבינה או ירק",
+            "קערה עוזרת למדוד מנה",
+            "ירק מוסיף רעננות"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "ירק מוסיף רעננות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f3bacb0481918ea59c74017e2c43.png",
+        "project_png": "assets/season-1/cards-wave2-he/breakfast/08-cheese-sandwich.png",
+        "project_webp": "assets/season-1/cards-wave2-he/breakfast/08-cheese-sandwich.webp",
+        "updated_at": "2026-05-10T21:14:17.104139+00:00"
+      }
+    },
+    {
+      "card_id": "breakfast-09-fruit-shake",
+      "index": 9,
+      "title_he": "שייק פירות",
+      "asset_path": "assets/season-1/cards-wave2-he/breakfast/09-fruit-shake.webp",
+      "facts_he": [
+        "שייק מערבב פירות ונוזל",
+        "צבע השייק משתנה לפי הפרי",
+        "שתייה סמיכה יכולה להשביע"
+      ],
+      "tags_he": [
+        "פירות",
+        "שתייה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף שייק פירות?",
+          "options_he": [
+            "טוסט הוא לחם קלוי",
+            "שייק מערבב פירות ונוזל",
+            "סלט מתאים ליד חלבון"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "שייק מערבב פירות ונוזל"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף שייק פירות?",
+          "options_he": [
+            "אפשר לקשט בפירות",
+            "צבע השייק משתנה לפי הפרי",
+            "גבינה מוסיפה חלבון וסידן"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "צבע השייק משתנה לפי הפרי"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף שייק פירות הכי חשוב לזכור?",
+          "options_he": [
+            "בלילה הופכת לעיגול רך",
+            "אפשר להכין עם גבינה או ירק",
+            "שתייה סמיכה יכולה להשביע"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "שתייה סמיכה יכולה להשביע"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f42ce2a88191abaaa8f29e144e50.png",
+        "project_png": "assets/season-1/cards-wave2-he/breakfast/09-fruit-shake.png",
+        "project_webp": "assets/season-1/cards-wave2-he/breakfast/09-fruit-shake.webp",
+        "updated_at": "2026-05-10T21:14:17.104139+00:00"
+      }
+    },
+    {
+      "card_id": "breakfast-10-cereal",
+      "index": 10,
+      "title_he": "דגני בוקר",
+      "asset_path": "assets/season-1/cards-wave2-he/breakfast/10-cereal.webp",
+      "facts_he": [
+        "דגנים נאכלים לעיתים עם חלב",
+        "קערה עוזרת למדוד מנה",
+        "כדאי להשוות רכיבים"
+      ],
+      "tags_he": [
+        "קערה",
+        "דגנים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף דגני בוקר?",
+          "options_he": [
+            "דגנים נאכלים לעיתים עם חלב",
+            "שיבולת שועל משביעה לאורך זמן",
+            "שתייה סמיכה יכולה להשביע"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "דגנים נאכלים לעיתים עם חלב"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף דגני בוקר?",
+          "options_he": [
+            "קערה עוזרת למדוד מנה",
+            "גבינה מוסיפה חלבון וסידן",
+            "שיבולת שועל משביעה לאורך זמן"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קערה עוזרת למדוד מנה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף דגני בוקר הכי חשוב לזכור?",
+          "options_he": [
+            "כדאי להשוות רכיבים",
+            "דייסה יכולה להיות חמה ורכה",
+            "גבינה מוסיפה חלבון וסידן"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כדאי להשוות רכיבים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00f497971481918edb7a6a71044ede.png",
+        "project_png": "assets/season-1/cards-wave2-he/breakfast/10-cereal.png",
+        "project_webp": "assets/season-1/cards-wave2-he/breakfast/10-cereal.webp",
+        "updated_at": "2026-05-10T21:14:17.104139+00:00"
+      }
+    }
+  ],
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "עטיפת החבילה נוצרה כתמונת image generation יחידה ויובאה לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00deb9a6008191a34a40f8b7b53760.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-breakfast.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-breakfast.webp",
+    "updated_at": "2026-05-10T20:01:27.434861+00:00"
+  }
+}

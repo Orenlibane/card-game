@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "desserts",
+  "pack_title_he": "קינוחים",
+  "domain_he": "אפייה, מתוקים וטעמים",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-desserts.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "note_he": "סט תוכן מלא עם שאלות. נכסי התמונה יופקו בהמשך לפי פרומפטים של ה-skill.",
+  "cards": [
+    {
+      "card_id": "desserts-01-chocolate-cake",
+      "index": 1,
+      "title_he": "עוגת שוקולד",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/01-chocolate-cake.webp",
+      "facts_he": [
+        "קקאו נותן טעם שוקולדי",
+        "אפייה מחממת את הבלילה",
+        "ציפוי מוסיף מראה חגיגי"
+      ],
+      "tags_he": [
+        "שוקולד",
+        "אפייה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף עוגת שוקולד?",
+          "options_he": [
+            "סופלה עולה בזמן אפייה",
+            "קישוט צבעוני מוסיף שמחה",
+            "קקאו נותן טעם שוקולדי"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "קקאו נותן טעם שוקולדי"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף עוגת שוקולד?",
+          "options_he": [
+            "אפייה מחממת את הבלילה",
+            "סופלה עולה בזמן אפייה",
+            "מחבת רחבה עוזרת לפרוס אותו"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אפייה מחממת את הבלילה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים קינוח, איזה פרט מהקלף עוגת שוקולד הכי חשוב לזכור?",
+          "options_he": [
+            "שקעים מחזיקים רוטב או פרי",
+            "ציפוי מוסיף מראה חגיגי",
+            "פודינג הוא קינוח רך בכוס"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "ציפוי מוסיף מראה חגיגי"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0108ca059c819bb7a94311c69bc2b1.png",
+        "project_png": "assets/season-1/cards-wave2-he/desserts/01-chocolate-cake.png",
+        "project_webp": "assets/season-1/cards-wave2-he/desserts/01-chocolate-cake.webp",
+        "updated_at": "2026-05-10T22:51:47.477172+00:00"
+      }
+    },
+    {
+      "card_id": "desserts-02-ice-cream",
+      "index": 2,
+      "title_he": "גלידה",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/02-ice-cream.webp",
+      "facts_he": [
+        "גלידה נשמרת קפואה",
+        "ערבוב יוצר מרקם חלק",
+        "טעמים שונים מגיעים מפירות או קקאו"
+      ],
+      "tags_he": [
+        "קור",
+        "טעם"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף גלידה?",
+          "options_he": [
+            "מחבת רחבה עוזרת לפרוס אותו",
+            "אוויר בבלילה יוצר גובה",
+            "גלידה נשמרת קפואה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "גלידה נשמרת קפואה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף גלידה?",
+          "options_he": [
+            "אפייה מחממת את הבלילה",
+            "שוליים פריכים ומרכז רך נפוצים",
+            "ערבוב יוצר מרקם חלק"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "ערבוב יוצר מרקם חלק"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים קינוח, איזה פרט מהקלף גלידה הכי חשוב לזכור?",
+          "options_he": [
+            "אפשר להוסיף שוקולד או אגוזים",
+            "קינמון מוסיף ריח מיוחד",
+            "טעמים שונים מגיעים מפירות או קקאו"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "טעמים שונים מגיעים מפירות או קקאו"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0109004a3c819b9452402df03521d0.png",
+        "project_png": "assets/season-1/cards-wave2-he/desserts/02-ice-cream.png",
+        "project_webp": "assets/season-1/cards-wave2-he/desserts/02-ice-cream.webp",
+        "updated_at": "2026-05-10T22:51:47.477172+00:00"
+      }
+    },
+    {
+      "card_id": "desserts-03-cookie",
+      "index": 3,
+      "title_he": "עוגייה",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/03-cookie.webp",
+      "facts_he": [
+        "עוגייה נאפית מהר יחסית",
+        "שוליים פריכים ומרכז רך נפוצים",
+        "אפשר להוסיף שוקולד או אגוזים"
+      ],
+      "tags_he": [
+        "אפייה",
+        "פריכות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף עוגייה?",
+          "options_he": [
+            "עוגייה נאפית מהר יחסית",
+            "קישוט צבעוני מוסיף שמחה",
+            "מגישים אותו בעדינות"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "עוגייה נאפית מהר יחסית"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף עוגייה?",
+          "options_he": [
+            "שוליים פריכים ומרכז רך נפוצים",
+            "וופל מקבל צורת ריבועים",
+            "גלידה נשמרת קפואה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "שוליים פריכים ומרכז רך נפוצים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים קינוח, איזה פרט מהקלף עוגייה הכי חשוב לזכור?",
+          "options_he": [
+            "קינוח קל מתאים לקיץ",
+            "אפשר להוסיף שוקולד או אגוזים",
+            "אפייה מחממת את הבלילה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אפשר להוסיף שוקולד או אגוזים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010942d614819b9c0931d778795d70.png",
+        "project_png": "assets/season-1/cards-wave2-he/desserts/03-cookie.png",
+        "project_webp": "assets/season-1/cards-wave2-he/desserts/03-cookie.webp",
+        "updated_at": "2026-05-10T22:51:47.477172+00:00"
+      }
+    },
+    {
+      "card_id": "desserts-04-apple-pie",
+      "index": 4,
+      "title_he": "פאי תפוחים",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/04-apple-pie.webp",
+      "facts_he": [
+        "פאי משלב בצק ומילוי",
+        "תפוחים מתרככים בחום",
+        "קינמון מוסיף ריח מיוחד"
+      ],
+      "tags_he": [
+        "תפוח",
+        "בצק"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף פאי תפוחים?",
+          "options_he": [
+            "מחבת רחבה עוזרת לפרוס אותו",
+            "פאי משלב בצק ומילוי",
+            "אפשר להוסיף שוקולד או אגוזים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "פאי משלב בצק ומילוי"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף פאי תפוחים?",
+          "options_he": [
+            "תפוחים מתרככים בחום",
+            "מכשיר חם אופה את הבלילה",
+            "אוויר בבלילה יוצר גובה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תפוחים מתרככים בחום"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים קינוח, איזה פרט מהקלף פאי תפוחים הכי חשוב לזכור?",
+          "options_he": [
+            "קקאו נותן טעם שוקולדי",
+            "קינמון מוסיף ריח מיוחד",
+            "קינוח קל מתאים לקיץ"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "קינמון מוסיף ריח מיוחד"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0109850178819b8c12b760dc744de7.png",
+        "project_png": "assets/season-1/cards-wave2-he/desserts/04-apple-pie.png",
+        "project_webp": "assets/season-1/cards-wave2-he/desserts/04-apple-pie.webp",
+        "updated_at": "2026-05-10T22:51:47.477172+00:00"
+      }
+    },
+    {
+      "card_id": "desserts-05-pudding",
+      "index": 5,
+      "title_he": "פודינג",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/05-pudding.webp",
+      "facts_he": [
+        "פודינג הוא קינוח רך בכוס",
+        "קירור עוזר לו להתייצב",
+        "אפשר לקשט בפירות"
+      ],
+      "tags_he": [
+        "קירור",
+        "כוס"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף פודינג?",
+          "options_he": [
+            "ציפוי מוסיף מראה חגיגי",
+            "פודינג הוא קינוח רך בכוס",
+            "מילוי מתוק משנה טעם"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "פודינג הוא קינוח רך בכוס"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף פודינג?",
+          "options_he": [
+            "קינמון מוסיף ריח מיוחד",
+            "מילוי מתוק משנה טעם",
+            "קירור עוזר לו להתייצב"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "קירור עוזר לו להתייצב"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים קינוח, איזה פרט מהקלף פודינג הכי חשוב לזכור?",
+          "options_he": [
+            "אפשר לקשט בפירות",
+            "קאפקייק הוא עוגה קטנה",
+            "מכשיר חם אופה את הבלילה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אפשר לקשט בפירות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0109cb8d9c819ba7d0998ef27bb6c8.png",
+        "project_png": "assets/season-1/cards-wave2-he/desserts/05-pudding.png",
+        "project_webp": "assets/season-1/cards-wave2-he/desserts/05-pudding.webp",
+        "updated_at": "2026-05-10T22:51:47.477172+00:00"
+      }
+    },
+    {
+      "card_id": "desserts-06-cupcake",
+      "index": 6,
+      "title_he": "קאפקייק",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/06-cupcake.webp",
+      "facts_he": [
+        "קאפקייק הוא עוגה קטנה",
+        "תבנית אישית שומרת על צורה",
+        "קישוט צבעוני מוסיף שמחה"
+      ],
+      "tags_he": [
+        "עוגה",
+        "קישוט"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף קאפקייק?",
+          "options_he": [
+            "גלידה נשמרת קפואה",
+            "מיץ טבעי מחבר טעמים",
+            "קאפקייק הוא עוגה קטנה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "קאפקייק הוא עוגה קטנה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף קאפקייק?",
+          "options_he": [
+            "תבנית אישית שומרת על צורה",
+            "אפשר לקשט בפירות",
+            "סופלה עולה בזמן אפייה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תבנית אישית שומרת על צורה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים קינוח, איזה פרט מהקלף קאפקייק הכי חשוב לזכור?",
+          "options_he": [
+            "קרפ הוא עלה בצק דק",
+            "קישוט צבעוני מוסיף שמחה",
+            "קינוח קל מתאים לקיץ"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "קישוט צבעוני מוסיף שמחה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0109fef094819b8ea6629520adca4c.png",
+        "project_png": "assets/season-1/cards-wave2-he/desserts/06-cupcake.png",
+        "project_webp": "assets/season-1/cards-wave2-he/desserts/06-cupcake.webp",
+        "updated_at": "2026-05-10T22:51:47.477172+00:00"
+      }
+    },
+    {
+      "card_id": "desserts-07-crepe",
+      "index": 7,
+      "title_he": "קרפ",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/07-crepe.webp",
+      "facts_he": [
+        "קרפ הוא עלה בצק דק",
+        "מחבת רחבה עוזרת לפרוס אותו",
+        "מילוי מתוק משנה טעם"
+      ],
+      "tags_he": [
+        "מחבת",
+        "מילוי"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף קרפ?",
+          "options_he": [
+            "קרפ הוא עלה בצק דק",
+            "קירור עוזר לו להתייצב",
+            "שוליים פריכים ומרכז רך נפוצים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "קרפ הוא עלה בצק דק"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף קרפ?",
+          "options_he": [
+            "מיץ טבעי מחבר טעמים",
+            "מחבת רחבה עוזרת לפרוס אותו",
+            "עוגייה נאפית מהר יחסית"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מחבת רחבה עוזרת לפרוס אותו"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים קינוח, איזה פרט מהקלף קרפ הכי חשוב לזכור?",
+          "options_he": [
+            "פירות חתוכים יוצרים צבעים רבים",
+            "מילוי מתוק משנה טעם",
+            "מיץ טבעי מחבר טעמים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מילוי מתוק משנה טעם"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010a48c718819b8e873d39248f66e4.png",
+        "project_png": "assets/season-1/cards-wave2-he/desserts/07-crepe.png",
+        "project_webp": "assets/season-1/cards-wave2-he/desserts/07-crepe.webp",
+        "updated_at": "2026-05-10T22:51:47.477172+00:00"
+      }
+    },
+    {
+      "card_id": "desserts-08-souffle",
+      "index": 8,
+      "title_he": "סופלה",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/08-souffle.webp",
+      "facts_he": [
+        "סופלה עולה בזמן אפייה",
+        "אוויר בבלילה יוצר גובה",
+        "מגישים אותו בעדינות"
+      ],
+      "tags_he": [
+        "אוויר",
+        "גובה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף סופלה?",
+          "options_he": [
+            "מילוי מתוק משנה טעם",
+            "סופלה עולה בזמן אפייה",
+            "קישוט צבעוני מוסיף שמחה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "סופלה עולה בזמן אפייה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף סופלה?",
+          "options_he": [
+            "ציפוי מוסיף מראה חגיגי",
+            "אוויר בבלילה יוצר גובה",
+            "אפשר להוסיף שוקולד או אגוזים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אוויר בבלילה יוצר גובה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים קינוח, איזה פרט מהקלף סופלה הכי חשוב לזכור?",
+          "options_he": [
+            "קקאו נותן טעם שוקולדי",
+            "מגישים אותו בעדינות",
+            "אפשר להוסיף שוקולד או אגוזים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מגישים אותו בעדינות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010a8fba5c819bb0bb877a37492c3a.png",
+        "project_png": "assets/season-1/cards-wave2-he/desserts/08-souffle.png",
+        "project_webp": "assets/season-1/cards-wave2-he/desserts/08-souffle.webp",
+        "updated_at": "2026-05-10T22:51:47.477172+00:00"
+      }
+    },
+    {
+      "card_id": "desserts-09-fruit-salad",
+      "index": 9,
+      "title_he": "סלט פירות",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/09-fruit-salad.webp",
+      "facts_he": [
+        "פירות חתוכים יוצרים צבעים רבים",
+        "מיץ טבעי מחבר טעמים",
+        "קינוח קל מתאים לקיץ"
+      ],
+      "tags_he": [
+        "פירות",
+        "צבעים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף סלט פירות?",
+          "options_he": [
+            "שוליים פריכים ומרכז רך נפוצים",
+            "תבנית אישית שומרת על צורה",
+            "פירות חתוכים יוצרים צבעים רבים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "פירות חתוכים יוצרים צבעים רבים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף סלט פירות?",
+          "options_he": [
+            "מילוי מתוק משנה טעם",
+            "אפייה מחממת את הבלילה",
+            "מיץ טבעי מחבר טעמים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מיץ טבעי מחבר טעמים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים קינוח, איזה פרט מהקלף סלט פירות הכי חשוב לזכור?",
+          "options_he": [
+            "אפייה מחממת את הבלילה",
+            "אפשר להוסיף שוקולד או אגוזים",
+            "קינוח קל מתאים לקיץ"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "קינוח קל מתאים לקיץ"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010b66a7d0819bb6071601c6108b0d.png",
+        "project_png": "assets/season-1/cards-wave2-he/desserts/09-fruit-salad.png",
+        "project_webp": "assets/season-1/cards-wave2-he/desserts/09-fruit-salad.webp",
+        "updated_at": "2026-05-10T22:51:47.477172+00:00"
+      }
+    },
+    {
+      "card_id": "desserts-10-waffle",
+      "index": 10,
+      "title_he": "וופל",
+      "asset_path": "assets/season-1/cards-wave2-he/desserts/10-waffle.webp",
+      "facts_he": [
+        "וופל מקבל צורת ריבועים",
+        "מכשיר חם אופה את הבלילה",
+        "שקעים מחזיקים רוטב או פרי"
+      ],
+      "tags_he": [
+        "ריבועים",
+        "בלילה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף וופל?",
+          "options_he": [
+            "וופל מקבל צורת ריבועים",
+            "פירות חתוכים יוצרים צבעים רבים",
+            "אפייה מחממת את הבלילה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "וופל מקבל צורת ריבועים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף וופל?",
+          "options_he": [
+            "אוויר בבלילה יוצר גובה",
+            "פודינג הוא קינוח רך בכוס",
+            "מכשיר חם אופה את הבלילה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מכשיר חם אופה את הבלילה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמכינים קינוח, איזה פרט מהקלף וופל הכי חשוב לזכור?",
+          "options_he": [
+            "ציפוי מוסיף מראה חגיגי",
+            "שקעים מחזיקים רוטב או פרי",
+            "טעמים שונים מגיעים מפירות או קקאו"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "שקעים מחזיקים רוטב או פרי"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a010ba70d18819b8885be10423bda04.png",
+        "project_png": "assets/season-1/cards-wave2-he/desserts/10-waffle.png",
+        "project_webp": "assets/season-1/cards-wave2-he/desserts/10-waffle.webp",
+        "updated_at": "2026-05-10T22:51:47.477172+00:00"
+      }
+    }
+  ],
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "עטיפת החבילה נוצרה כתמונת image generation יחידה ויובאה לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e1defd1c8191b75be443a7d2d204.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-desserts.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-desserts.webp",
+    "updated_at": "2026-05-10T20:01:27.434861+00:00"
+  }
+}

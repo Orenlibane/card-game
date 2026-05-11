@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "cube-adventures",
+  "pack_title_he": "עולם קוביות",
+  "domain_he": "בנייה, כרייה והרפתקאות קוביות",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-cube-adventures.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "note_he": "סט תוכן מלא עם שאלות. נכסי התמונה יופקו בהמשך לפי פרומפטים של ה-skill.",
+  "cards": [
+    {
+      "card_id": "cube-adventures-01-wood-block",
+      "index": 1,
+      "title_he": "קוביית עץ",
+      "asset_path": "assets/season-1/cards-wave2-he/cube-adventures/01-wood-block.webp",
+      "facts_he": [
+        "קוביית עץ טובה לבנייה ראשונה",
+        "אפשר לאסוף עץ מכלים פשוטים",
+        "עץ עוזר להכין כלים בסיסיים"
+      ],
+      "tags_he": [
+        "בנייה",
+        "משאבים"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף קוביית עץ?",
+          "options_he": [
+            "שדה מספק אוכל להרפתקה",
+            "קוביית עץ טובה לבנייה ראשונה",
+            "מסילה מעבירה שחקן מהר"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "קוביית עץ טובה לבנייה ראשונה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף קוביית עץ?",
+          "options_he": [
+            "אפשר לאסוף עץ מכלים פשוטים",
+            "במערות מסתתרים חומרים נדירים",
+            "זרעים גדלים עם זמן וסבלנות"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אפשר לאסוף עץ מכלים פשוטים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף קוביית עץ הכי חשוב לזכור?",
+          "options_he": [
+            "חקלאות עוזרת לשרוד",
+            "מסילה מעבירה שחקן מהר",
+            "עץ עוזר להכין כלים בסיסיים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "עץ עוזר להכין כלים בסיסיים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e9beeddc8191b3d99f289ea87209.png",
+        "project_png": "assets/season-1/cards-wave2-he/cube-adventures/01-wood-block.png",
+        "project_webp": "assets/season-1/cards-wave2-he/cube-adventures/01-wood-block.webp",
+        "updated_at": "2026-05-10T20:45:55.473280+00:00"
+      }
+    },
+    {
+      "card_id": "cube-adventures-02-stone-pickaxe",
+      "index": 2,
+      "title_he": "מכוש אבן",
+      "asset_path": "assets/season-1/cards-wave2-he/cube-adventures/02-stone-pickaxe.webp",
+      "facts_he": [
+        "מכוש עוזר לחצוב סלעים",
+        "כלי חזק חוסך זמן עבודה",
+        "צריך לבחור כלי מתאים לחומר"
+      ],
+      "tags_he": [
+        "כלים",
+        "כרייה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מכוש אבן?",
+          "options_he": [
+            "אור עוזר להתמצא במערה",
+            "מכוש עוזר לחצוב סלעים",
+            "מחסה מגן בזמן חושך"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מכוש עוזר לחצוב סלעים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מכוש אבן?",
+          "options_he": [
+            "כלי חזק חוסך זמן עבודה",
+            "חוקרים בזהירות ובשלבים",
+            "סימנים מקצרים ניווט"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כלי חזק חוסך זמן עבודה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף מכוש אבן הכי חשוב לזכור?",
+          "options_he": [
+            "במערות מסתתרים חומרים נדירים",
+            "צריך לבחור כלי מתאים לחומר",
+            "מפה עוזרת לזכור מקומות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "צריך לבחור כלי מתאים לחומר"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ea27a0a08191ad8909461cc10117.png",
+        "project_png": "assets/season-1/cards-wave2-he/cube-adventures/02-stone-pickaxe.png",
+        "project_webp": "assets/season-1/cards-wave2-he/cube-adventures/02-stone-pickaxe.webp",
+        "updated_at": "2026-05-10T20:45:55.473280+00:00"
+      }
+    },
+    {
+      "card_id": "cube-adventures-03-night-shelter",
+      "index": 3,
+      "title_he": "מחסה לילה",
+      "asset_path": "assets/season-1/cards-wave2-he/cube-adventures/03-night-shelter.webp",
+      "facts_he": [
+        "מחסה מגן בזמן חושך",
+        "אור עוזר לראות סביב",
+        "תכנון מראש מונע הפתעות"
+      ],
+      "tags_he": [
+        "בטיחות",
+        "תכנון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מחסה לילה?",
+          "options_he": [
+            "מסלול טוב מחבר אזורים",
+            "אור עוזר להתמצא במערה",
+            "מחסה מגן בזמן חושך"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מחסה מגן בזמן חושך"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מחסה לילה?",
+          "options_he": [
+            "חוקרים בזהירות ובשלבים",
+            "מפה עוזרת לזכור מקומות",
+            "אור עוזר לראות סביב"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "אור עוזר לראות סביב"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף מחסה לילה הכי חשוב לזכור?",
+          "options_he": [
+            "תכנון מראש מונע הפתעות",
+            "שער מסמן מעבר מיוחד",
+            "עץ עוזר להכין כלים בסיסיים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "תכנון מראש מונע הפתעות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ea7ec44c8191996ac8bd51ad72fe.png",
+        "project_png": "assets/season-1/cards-wave2-he/cube-adventures/03-night-shelter.png",
+        "project_webp": "assets/season-1/cards-wave2-he/cube-adventures/03-night-shelter.webp",
+        "updated_at": "2026-05-10T20:45:55.473280+00:00"
+      }
+    },
+    {
+      "card_id": "cube-adventures-04-crystal-cave",
+      "index": 4,
+      "title_he": "מערת גבישים",
+      "asset_path": "assets/season-1/cards-wave2-he/cube-adventures/04-crystal-cave.webp",
+      "facts_he": [
+        "במערות מסתתרים חומרים נדירים",
+        "אור עוזר להתמצא במערה",
+        "חוקרים בזהירות ובשלבים"
+      ],
+      "tags_he": [
+        "חקר",
+        "גבישים"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מערת גבישים?",
+          "options_he": [
+            "גשר עוזר לעבור אזור מסוכן",
+            "תיבה שומרת חפצים חשובים",
+            "במערות מסתתרים חומרים נדירים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "במערות מסתתרים חומרים נדירים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מערת גבישים?",
+          "options_he": [
+            "סדר עוזר למצוא ציוד מהר",
+            "אור עוזר להתמצא במערה",
+            "צריך לבחור כלי מתאים לחומר"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "אור עוזר להתמצא במערה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף מערת גבישים הכי חשוב לזכור?",
+          "options_he": [
+            "תכנון מראש מונע הפתעות",
+            "כלי חזק חוסך זמן עבודה",
+            "חוקרים בזהירות ובשלבים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "חוקרים בזהירות ובשלבים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ead608d88191a30a94197578753f.png",
+        "project_png": "assets/season-1/cards-wave2-he/cube-adventures/04-crystal-cave.png",
+        "project_webp": "assets/season-1/cards-wave2-he/cube-adventures/04-crystal-cave.webp",
+        "updated_at": "2026-05-10T20:45:55.473280+00:00"
+      }
+    },
+    {
+      "card_id": "cube-adventures-05-wheat-field",
+      "index": 5,
+      "title_he": "שדה חיטה",
+      "asset_path": "assets/season-1/cards-wave2-he/cube-adventures/05-wheat-field.webp",
+      "facts_he": [
+        "שדה מספק אוכל להרפתקה",
+        "זרעים גדלים עם זמן וסבלנות",
+        "חקלאות עוזרת לשרוד"
+      ],
+      "tags_he": [
+        "חקלאות",
+        "אוכל"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף שדה חיטה?",
+          "options_he": [
+            "צריך לבחור כלי מתאים לחומר",
+            "שדה מספק אוכל להרפתקה",
+            "אור עוזר לראות סביב"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "שדה מספק אוכל להרפתקה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף שדה חיטה?",
+          "options_he": [
+            "זרעים גדלים עם זמן וסבלנות",
+            "חוקרים בזהירות ובשלבים",
+            "מחסה מגן בזמן חושך"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "זרעים גדלים עם זמן וסבלנות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף שדה חיטה הכי חשוב לזכור?",
+          "options_he": [
+            "קוביית עץ טובה לבנייה ראשונה",
+            "חקלאות עוזרת לשרוד",
+            "שער מסמן מעבר מיוחד"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "חקלאות עוזרת לשרוד"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00eb2e721c819190385713a01ed501.png",
+        "project_png": "assets/season-1/cards-wave2-he/cube-adventures/05-wheat-field.png",
+        "project_webp": "assets/season-1/cards-wave2-he/cube-adventures/05-wheat-field.webp",
+        "updated_at": "2026-05-10T20:45:55.473280+00:00"
+      }
+    },
+    {
+      "card_id": "cube-adventures-06-lava-bridge",
+      "index": 6,
+      "title_he": "גשר לבה",
+      "asset_path": "assets/season-1/cards-wave2-he/cube-adventures/06-lava-bridge.webp",
+      "facts_he": [
+        "גשר עוזר לעבור אזור מסוכן",
+        "חומרים חזקים חשובים ליד חום",
+        "בודקים דרך לפני שמתקדמים"
+      ],
+      "tags_he": [
+        "סכנה",
+        "בנייה"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף גשר לבה?",
+          "options_he": [
+            "תחנות עוזרות לעצור במקום הנכון",
+            "זרעים גדלים עם זמן וסבלנות",
+            "גשר עוזר לעבור אזור מסוכן"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "גשר עוזר לעבור אזור מסוכן"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף גשר לבה?",
+          "options_he": [
+            "שער מסמן מעבר מיוחד",
+            "כלי חזק חוסך זמן עבודה",
+            "חומרים חזקים חשובים ליד חום"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "חומרים חזקים חשובים ליד חום"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף גשר לבה הכי חשוב לזכור?",
+          "options_he": [
+            "תיבה שומרת חפצים חשובים",
+            "בודקים דרך לפני שמתקדמים",
+            "שער מסמן מעבר מיוחד"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "בודקים דרך לפני שמתקדמים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00eb8bd7b481918aad00fb4f82b5ad.png",
+        "project_png": "assets/season-1/cards-wave2-he/cube-adventures/06-lava-bridge.png",
+        "project_webp": "assets/season-1/cards-wave2-he/cube-adventures/06-lava-bridge.webp",
+        "updated_at": "2026-05-10T20:45:55.473280+00:00"
+      }
+    },
+    {
+      "card_id": "cube-adventures-07-world-map",
+      "index": 7,
+      "title_he": "מפת עולם",
+      "asset_path": "assets/season-1/cards-wave2-he/cube-adventures/07-world-map.webp",
+      "facts_he": [
+        "מפה עוזרת לזכור מקומות",
+        "סימנים מקצרים ניווט",
+        "חקר עולם דורש תכנון"
+      ],
+      "tags_he": [
+        "ניווט",
+        "מפה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מפת עולם?",
+          "options_he": [
+            "מכוש עוזר לחצוב סלעים",
+            "מפה עוזרת לזכור מקומות",
+            "שער מסמן מעבר מיוחד"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מפה עוזרת לזכור מקומות"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מפת עולם?",
+          "options_he": [
+            "סימנים מקצרים ניווט",
+            "עץ עוזר להכין כלים בסיסיים",
+            "סדר עוזר למצוא ציוד מהר"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סימנים מקצרים ניווט"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף מפת עולם הכי חשוב לזכור?",
+          "options_he": [
+            "חקר עולם דורש תכנון",
+            "מחסה מגן בזמן חושך",
+            "סדר עוזר למצוא ציוד מהר"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "חקר עולם דורש תכנון"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ebed81ac8191b8672bc7806a8743.png",
+        "project_png": "assets/season-1/cards-wave2-he/cube-adventures/07-world-map.png",
+        "project_webp": "assets/season-1/cards-wave2-he/cube-adventures/07-world-map.webp",
+        "updated_at": "2026-05-10T20:45:55.473280+00:00"
+      }
+    },
+    {
+      "card_id": "cube-adventures-08-treasure-chest",
+      "index": 8,
+      "title_he": "תיבת אוצר",
+      "asset_path": "assets/season-1/cards-wave2-he/cube-adventures/08-treasure-chest.webp",
+      "facts_he": [
+        "תיבה שומרת חפצים חשובים",
+        "סדר עוזר למצוא ציוד מהר",
+        "אוצר יכול להיות כלי או חומר"
+      ],
+      "tags_he": [
+        "אחסון",
+        "אוצר"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף תיבת אוצר?",
+          "options_he": [
+            "שער מסמן מעבר מיוחד",
+            "תכנון מראש מונע הפתעות",
+            "תיבה שומרת חפצים חשובים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "תיבה שומרת חפצים חשובים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף תיבת אוצר?",
+          "options_he": [
+            "סדר עוזר למצוא ציוד מהר",
+            "בודקים דרך לפני שמתקדמים",
+            "במערות מסתתרים חומרים נדירים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "סדר עוזר למצוא ציוד מהר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף תיבת אוצר הכי חשוב לזכור?",
+          "options_he": [
+            "אוצר יכול להיות כלי או חומר",
+            "צריך לבחור כלי מתאים לחומר",
+            "תחנות עוזרות לעצור במקום הנכון"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אוצר יכול להיות כלי או חומר"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ec4c166c8191a9442b1ebe35c163.png",
+        "project_png": "assets/season-1/cards-wave2-he/cube-adventures/08-treasure-chest.png",
+        "project_webp": "assets/season-1/cards-wave2-he/cube-adventures/08-treasure-chest.webp",
+        "updated_at": "2026-05-10T20:45:55.473280+00:00"
+      }
+    },
+    {
+      "card_id": "cube-adventures-09-rail-track",
+      "index": 9,
+      "title_he": "מסילת רכבת",
+      "asset_path": "assets/season-1/cards-wave2-he/cube-adventures/09-rail-track.webp",
+      "facts_he": [
+        "מסילה מעבירה שחקן מהר",
+        "מסלול טוב מחבר אזורים",
+        "תחנות עוזרות לעצור במקום הנכון"
+      ],
+      "tags_he": [
+        "תחבורה",
+        "מסילה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מסילת רכבת?",
+          "options_he": [
+            "אור וצבע עוזרים לזהות יעד",
+            "סדר עוזר למצוא ציוד מהר",
+            "מסילה מעבירה שחקן מהר"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מסילה מעבירה שחקן מהר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מסילת רכבת?",
+          "options_he": [
+            "אוצר יכול להיות כלי או חומר",
+            "אור עוזר לראות סביב",
+            "מסלול טוב מחבר אזורים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "מסלול טוב מחבר אזורים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף מסילת רכבת הכי חשוב לזכור?",
+          "options_he": [
+            "אפשר לאסוף עץ מכלים פשוטים",
+            "תחנות עוזרות לעצור במקום הנכון",
+            "צריך לבחור כלי מתאים לחומר"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "תחנות עוזרות לעצור במקום הנכון"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ed5a10f48191ba68ad6e39ddaa76.png",
+        "project_png": "assets/season-1/cards-wave2-he/cube-adventures/09-rail-track.png",
+        "project_webp": "assets/season-1/cards-wave2-he/cube-adventures/09-rail-track.webp",
+        "updated_at": "2026-05-10T20:45:55.473280+00:00"
+      }
+    },
+    {
+      "card_id": "cube-adventures-10-light-gate",
+      "index": 10,
+      "title_he": "שער אור",
+      "asset_path": "assets/season-1/cards-wave2-he/cube-adventures/10-light-gate.webp",
+      "facts_he": [
+        "שער מסמן מעבר מיוחד",
+        "אור וצבע עוזרים לזהות יעד",
+        "מעבר חדש פותח הרפתקה"
+      ],
+      "tags_he": [
+        "מעבר",
+        "אור"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף שער אור?",
+          "options_he": [
+            "מחסה מגן בזמן חושך",
+            "גשר עוזר לעבור אזור מסוכן",
+            "שער מסמן מעבר מיוחד"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "שער מסמן מעבר מיוחד"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף שער אור?",
+          "options_he": [
+            "אור וצבע עוזרים לזהות יעד",
+            "אור עוזר להתמצא במערה",
+            "סדר עוזר למצוא ציוד מהר"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אור וצבע עוזרים לזהות יעד"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף שער אור הכי חשוב לזכור?",
+          "options_he": [
+            "סימנים מקצרים ניווט",
+            "מעבר חדש פותח הרפתקה",
+            "מכוש עוזר לחצוב סלעים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "מעבר חדש פותח הרפתקה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00ede6bda48191bc301dee38c25938.png",
+        "project_png": "assets/season-1/cards-wave2-he/cube-adventures/10-light-gate.png",
+        "project_webp": "assets/season-1/cards-wave2-he/cube-adventures/10-light-gate.webp",
+        "updated_at": "2026-05-10T20:45:55.473280+00:00"
+      }
+    }
+  ],
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "עטיפת החבילה נוצרה כתמונת image generation יחידה ויובאה לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00de5253a481919215d9d367536770.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-cube-adventures.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-cube-adventures.webp",
+    "updated_at": "2026-05-10T20:01:27.434861+00:00"
+  }
+}

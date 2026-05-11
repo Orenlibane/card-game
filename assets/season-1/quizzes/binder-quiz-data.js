@@ -10288,5 +10288,5395 @@ window.BINDER_QUIZ_DATA = {
         "source_fact_he": "שמאות מעריכה את שווי הדירה"
       }
     }
+  },
+  "brawlstars-01-nova": {
+    "card_id": "brawlstars-01-nova",
+    "pack_id": "brawlstars",
+    "pack_title_he": "ברולסטארס",
+    "title_he": "נובה",
+    "facts_he": [
+      "לוחמת מהירה לטווח בינוני",
+      "כדור אור מסמן אזור בטוח",
+      "טובה בפתיחת קרב זריזה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "איזו דמות ראית עכשיו?",
+        "options_he": [
+          "נובה",
+          "כוכב",
+          "עץ"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "לוחמת מהירה לטווח בינוני"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "מה נכון לגבי נובה?",
+        "options_he": [
+          "לוחמת מהירה לטווח בינוני",
+          "זו דמות שלא קשורה לחבילה.",
+          "אין עליה מידע בקלף."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "לוחמת מהירה לטווח בינוני"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "איזו אסטרטגיה מתאימה לנובה?",
+        "options_he": [
+          "להשתמש בתג מהירות לפי המצב במפה.",
+          "תמיד לעמוד בלי לזוז.",
+          "להתעלם מעבודת צוות."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "כדור אור מסמן אזור בטוח"
+      }
+    }
+  },
+  "brawlstars-02-blitz": {
+    "card_id": "brawlstars-02-blitz",
+    "pack_id": "brawlstars",
+    "pack_title_he": "ברולסטארס",
+    "title_he": "בזק",
+    "facts_he": [
+      "רץ קדימה בפרץ קצר",
+      "מתאים לאיסוף כוכבים מהר",
+      "צריך להיזהר ממלכודות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "איזו דמות ראית עכשיו?",
+        "options_he": [
+          "בזק",
+          "כוכב",
+          "עץ"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "רץ קדימה בפרץ קצר"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "מה נכון לגבי בזק?",
+        "options_he": [
+          "רץ קדימה בפרץ קצר",
+          "זו דמות שלא קשורה לחבילה.",
+          "אין עליה מידע בקלף."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "רץ קדימה בפרץ קצר"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "איזו אסטרטגיה מתאימה לבזק?",
+        "options_he": [
+          "להשתמש בתג מהירות לפי המצב במפה.",
+          "תמיד לעמוד בלי לזוז.",
+          "להתעלם מעבודת צוות."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מתאים לאיסוף כוכבים מהר"
+      }
+    }
+  },
+  "brawlstars-03-luna": {
+    "card_id": "brawlstars-03-luna",
+    "pack_id": "brawlstars",
+    "pack_title_he": "ברולסטארס",
+    "title_he": "לונה",
+    "facts_he": [
+      "זורקת ירחי אנרגיה בקשת",
+      "יכולה לפגוע מעבר למכשול",
+      "חזקה כשהיא שומרת מרחק"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "איזו דמות ראית עכשיו?",
+        "options_he": [
+          "לונה",
+          "כוכב",
+          "עץ"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "זורקת ירחי אנרגיה בקשת"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "מה נכון לגבי לונה?",
+        "options_he": [
+          "זורקת ירחי אנרגיה בקשת",
+          "זו דמות שלא קשורה לחבילה.",
+          "אין עליה מידע בקלף."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "זורקת ירחי אנרגיה בקשת"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "איזו אסטרטגיה מתאימה ללונה?",
+        "options_he": [
+          "להשתמש בתג דיוק לפי המצב במפה.",
+          "תמיד לעמוד בלי לזוז.",
+          "להתעלם מעבודת צוות."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "יכולה לפגוע מעבר למכשול"
+      }
+    }
+  },
+  "brawlstars-04-boulder": {
+    "card_id": "brawlstars-04-boulder",
+    "pack_id": "brawlstars",
+    "pack_title_he": "ברולסטארס",
+    "title_he": "בולדר",
+    "facts_he": [
+      "מגן כבד עם שריון אבן",
+      "סופג נזק בשביל הקבוצה",
+      "איטי אבל קשה להזזה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "איזו דמות ראית עכשיו?",
+        "options_he": [
+          "בולדר",
+          "כוכב",
+          "עץ"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מגן כבד עם שריון אבן"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "מה נכון לגבי בולדר?",
+        "options_he": [
+          "מגן כבד עם שריון אבן",
+          "זו דמות שלא קשורה לחבילה.",
+          "אין עליה מידע בקלף."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מגן כבד עם שריון אבן"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "איזו אסטרטגיה מתאימה לבולדר?",
+        "options_he": [
+          "להשתמש בתג הגנה לפי המצב במפה.",
+          "תמיד לעמוד בלי לזוז.",
+          "להתעלם מעבודת צוות."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "סופג נזק בשביל הקבוצה"
+      }
+    }
+  },
+  "brawlstars-05-flora": {
+    "card_id": "brawlstars-05-flora",
+    "pack_id": "brawlstars",
+    "pack_title_he": "ברולסטארס",
+    "title_he": "פלורה",
+    "facts_he": [
+      "מגדלת שיחים שמאטים יריבים",
+      "עוזרת לקבוצה לשלוט במפה",
+      "טובה ליד אזורי כיסוי"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "איזו דמות ראית עכשיו?",
+        "options_he": [
+          "פלורה",
+          "כוכב",
+          "עץ"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מגדלת שיחים שמאטים יריבים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "מה נכון לגבי פלורה?",
+        "options_he": [
+          "מגדלת שיחים שמאטים יריבים",
+          "זו דמות שלא קשורה לחבילה.",
+          "אין עליה מידע בקלף."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מגדלת שיחים שמאטים יריבים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "איזו אסטרטגיה מתאימה לפלורה?",
+        "options_he": [
+          "להשתמש בתג שליטה לפי המצב במפה.",
+          "תמיד לעמוד בלי לזוז.",
+          "להתעלם מעבודת צוות."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "עוזרת לקבוצה לשלוט במפה"
+      }
+    }
+  },
+  "brawlstars-06-shadow": {
+    "card_id": "brawlstars-06-shadow",
+    "pack_id": "brawlstars",
+    "pack_title_he": "ברולסטארס",
+    "title_he": "צל",
+    "facts_he": [
+      "מתגנב דרך אזורי חושך",
+      "תוקף טוב כשהיריב מופתע",
+      "צריך לבחור רגע נכון"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "איזו דמות ראית עכשיו?",
+        "options_he": [
+          "צל",
+          "כוכב",
+          "עץ"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מתגנב דרך אזורי חושך"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "מה נכון לגבי צל?",
+        "options_he": [
+          "מתגנב דרך אזורי חושך",
+          "זו דמות שלא קשורה לחבילה.",
+          "אין עליה מידע בקלף."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מתגנב דרך אזורי חושך"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "איזו אסטרטגיה מתאימה לצל?",
+        "options_he": [
+          "להשתמש בתג התגנבות לפי המצב במפה.",
+          "תמיד לעמוד בלי לזוז.",
+          "להתעלם מעבודת צוות."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "תוקף טוב כשהיריב מופתע"
+      }
+    }
+  },
+  "brawlstars-07-pixel": {
+    "card_id": "brawlstars-07-pixel",
+    "pack_id": "brawlstars",
+    "pack_title_he": "ברולסטארס",
+    "title_he": "פיקסל",
+    "facts_he": [
+      "בונה רובוט קטן שעוזר בקרב",
+      "מסמן מטרות על המסך",
+      "חזק בתכנון עם חברים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "איזו דמות ראית עכשיו?",
+        "options_he": [
+          "פיקסל",
+          "כוכב",
+          "עץ"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "בונה רובוט קטן שעוזר בקרב"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "מה נכון לגבי פיקסל?",
+        "options_he": [
+          "בונה רובוט קטן שעוזר בקרב",
+          "זו דמות שלא קשורה לחבילה.",
+          "אין עליה מידע בקלף."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "בונה רובוט קטן שעוזר בקרב"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "איזו אסטרטגיה מתאימה לפיקסל?",
+        "options_he": [
+          "להשתמש בתג טכנולוגיה לפי המצב במפה.",
+          "תמיד לעמוד בלי לזוז.",
+          "להתעלם מעבודת צוות."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מסמן מטרות על המסך"
+      }
+    }
+  },
+  "brawlstars-08-wave": {
+    "card_id": "brawlstars-08-wave",
+    "pack_id": "brawlstars",
+    "pack_title_he": "ברולסטארס",
+    "title_he": "גל",
+    "facts_he": [
+      "יורה סילון מים רחב",
+      "דוחף יריבים לאחור",
+      "שולט טוב במעברים צרים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "איזו דמות ראית עכשיו?",
+        "options_he": [
+          "גל",
+          "כוכב",
+          "עץ"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "יורה סילון מים רחב"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "מה נכון לגבי גל?",
+        "options_he": [
+          "יורה סילון מים רחב",
+          "זו דמות שלא קשורה לחבילה.",
+          "אין עליה מידע בקלף."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "יורה סילון מים רחב"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "איזו אסטרטגיה מתאימה לגל?",
+        "options_he": [
+          "להשתמש בתג מים לפי המצב במפה.",
+          "תמיד לעמוד בלי לזוז.",
+          "להתעלם מעבודת צוות."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "דוחף יריבים לאחור"
+      }
+    }
+  },
+  "brawlstars-09-spark": {
+    "card_id": "brawlstars-09-spark",
+    "pack_id": "brawlstars",
+    "pack_title_he": "ברולסטארס",
+    "title_he": "ניצוץ",
+    "facts_he": [
+      "מפזר מטעני חשמל קטנים",
+      "יכול לעצור יריב לרגע קצר",
+      "מצטיין בקרבות צפופים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "איזו דמות ראית עכשיו?",
+        "options_he": [
+          "ניצוץ",
+          "כוכב",
+          "עץ"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מפזר מטעני חשמל קטנים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "מה נכון לגבי ניצוץ?",
+        "options_he": [
+          "מפזר מטעני חשמל קטנים",
+          "זו דמות שלא קשורה לחבילה.",
+          "אין עליה מידע בקלף."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מפזר מטעני חשמל קטנים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "איזו אסטרטגיה מתאימה לניצוץ?",
+        "options_he": [
+          "להשתמש בתג חשמל לפי המצב במפה.",
+          "תמיד לעמוד בלי לזוז.",
+          "להתעלם מעבודת צוות."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "יכול לעצור יריב לרגע קצר"
+      }
+    }
+  },
+  "brawlstars-10-shielda": {
+    "card_id": "brawlstars-10-shielda",
+    "pack_id": "brawlstars",
+    "pack_title_he": "ברולסטארס",
+    "title_he": "שילדה",
+    "facts_he": [
+      "מרימה מגן אנרגיה לקבוצה",
+      "שומרת על חברים בזמן נסיגה",
+      "טובה כשצריך להחזיק אזור"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "איזו דמות ראית עכשיו?",
+        "options_he": [
+          "שילדה",
+          "כוכב",
+          "עץ"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מרימה מגן אנרגיה לקבוצה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "מה נכון לגבי שילדה?",
+        "options_he": [
+          "מרימה מגן אנרגיה לקבוצה",
+          "זו דמות שלא קשורה לחבילה.",
+          "אין עליה מידע בקלף."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מרימה מגן אנרגיה לקבוצה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "איזו אסטרטגיה מתאימה לשילדה?",
+        "options_he": [
+          "להשתמש בתג הגנה לפי המצב במפה.",
+          "תמיד לעמוד בלי לזוז.",
+          "להתעלם מעבודת צוות."
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "שומרת על חברים בזמן נסיגה"
+      }
+    }
+  },
+  "cube-adventures-01-wood-block": {
+    "card_id": "cube-adventures-01-wood-block",
+    "pack_id": "cube-adventures",
+    "pack_title_he": "עולם קוביות",
+    "title_he": "קוביית עץ",
+    "facts_he": [
+      "קוביית עץ טובה לבנייה ראשונה",
+      "אפשר לאסוף עץ מכלים פשוטים",
+      "עץ עוזר להכין כלים בסיסיים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף קוביית עץ?",
+        "options_he": [
+          "שדה מספק אוכל להרפתקה",
+          "קוביית עץ טובה לבנייה ראשונה",
+          "מסילה מעבירה שחקן מהר"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "קוביית עץ טובה לבנייה ראשונה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף קוביית עץ?",
+        "options_he": [
+          "אפשר לאסוף עץ מכלים פשוטים",
+          "במערות מסתתרים חומרים נדירים",
+          "זרעים גדלים עם זמן וסבלנות"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אפשר לאסוף עץ מכלים פשוטים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף קוביית עץ הכי חשוב לזכור?",
+        "options_he": [
+          "חקלאות עוזרת לשרוד",
+          "מסילה מעבירה שחקן מהר",
+          "עץ עוזר להכין כלים בסיסיים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "עץ עוזר להכין כלים בסיסיים"
+      }
+    }
+  },
+  "cube-adventures-02-stone-pickaxe": {
+    "card_id": "cube-adventures-02-stone-pickaxe",
+    "pack_id": "cube-adventures",
+    "pack_title_he": "עולם קוביות",
+    "title_he": "מכוש אבן",
+    "facts_he": [
+      "מכוש עוזר לחצוב סלעים",
+      "כלי חזק חוסך זמן עבודה",
+      "צריך לבחור כלי מתאים לחומר"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מכוש אבן?",
+        "options_he": [
+          "אור עוזר להתמצא במערה",
+          "מכוש עוזר לחצוב סלעים",
+          "מחסה מגן בזמן חושך"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מכוש עוזר לחצוב סלעים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מכוש אבן?",
+        "options_he": [
+          "כלי חזק חוסך זמן עבודה",
+          "חוקרים בזהירות ובשלבים",
+          "סימנים מקצרים ניווט"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "כלי חזק חוסך זמן עבודה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף מכוש אבן הכי חשוב לזכור?",
+        "options_he": [
+          "במערות מסתתרים חומרים נדירים",
+          "צריך לבחור כלי מתאים לחומר",
+          "מפה עוזרת לזכור מקומות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "צריך לבחור כלי מתאים לחומר"
+      }
+    }
+  },
+  "cube-adventures-03-night-shelter": {
+    "card_id": "cube-adventures-03-night-shelter",
+    "pack_id": "cube-adventures",
+    "pack_title_he": "עולם קוביות",
+    "title_he": "מחסה לילה",
+    "facts_he": [
+      "מחסה מגן בזמן חושך",
+      "אור עוזר לראות סביב",
+      "תכנון מראש מונע הפתעות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מחסה לילה?",
+        "options_he": [
+          "מסלול טוב מחבר אזורים",
+          "אור עוזר להתמצא במערה",
+          "מחסה מגן בזמן חושך"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מחסה מגן בזמן חושך"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מחסה לילה?",
+        "options_he": [
+          "חוקרים בזהירות ובשלבים",
+          "מפה עוזרת לזכור מקומות",
+          "אור עוזר לראות סביב"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "אור עוזר לראות סביב"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף מחסה לילה הכי חשוב לזכור?",
+        "options_he": [
+          "תכנון מראש מונע הפתעות",
+          "שער מסמן מעבר מיוחד",
+          "עץ עוזר להכין כלים בסיסיים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "תכנון מראש מונע הפתעות"
+      }
+    }
+  },
+  "cube-adventures-04-crystal-cave": {
+    "card_id": "cube-adventures-04-crystal-cave",
+    "pack_id": "cube-adventures",
+    "pack_title_he": "עולם קוביות",
+    "title_he": "מערת גבישים",
+    "facts_he": [
+      "במערות מסתתרים חומרים נדירים",
+      "אור עוזר להתמצא במערה",
+      "חוקרים בזהירות ובשלבים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מערת גבישים?",
+        "options_he": [
+          "גשר עוזר לעבור אזור מסוכן",
+          "תיבה שומרת חפצים חשובים",
+          "במערות מסתתרים חומרים נדירים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "במערות מסתתרים חומרים נדירים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מערת גבישים?",
+        "options_he": [
+          "סדר עוזר למצוא ציוד מהר",
+          "אור עוזר להתמצא במערה",
+          "צריך לבחור כלי מתאים לחומר"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אור עוזר להתמצא במערה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף מערת גבישים הכי חשוב לזכור?",
+        "options_he": [
+          "תכנון מראש מונע הפתעות",
+          "כלי חזק חוסך זמן עבודה",
+          "חוקרים בזהירות ובשלבים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "חוקרים בזהירות ובשלבים"
+      }
+    }
+  },
+  "cube-adventures-05-wheat-field": {
+    "card_id": "cube-adventures-05-wheat-field",
+    "pack_id": "cube-adventures",
+    "pack_title_he": "עולם קוביות",
+    "title_he": "שדה חיטה",
+    "facts_he": [
+      "שדה מספק אוכל להרפתקה",
+      "זרעים גדלים עם זמן וסבלנות",
+      "חקלאות עוזרת לשרוד"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף שדה חיטה?",
+        "options_he": [
+          "צריך לבחור כלי מתאים לחומר",
+          "שדה מספק אוכל להרפתקה",
+          "אור עוזר לראות סביב"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "שדה מספק אוכל להרפתקה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף שדה חיטה?",
+        "options_he": [
+          "זרעים גדלים עם זמן וסבלנות",
+          "חוקרים בזהירות ובשלבים",
+          "מחסה מגן בזמן חושך"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "זרעים גדלים עם זמן וסבלנות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף שדה חיטה הכי חשוב לזכור?",
+        "options_he": [
+          "קוביית עץ טובה לבנייה ראשונה",
+          "חקלאות עוזרת לשרוד",
+          "שער מסמן מעבר מיוחד"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "חקלאות עוזרת לשרוד"
+      }
+    }
+  },
+  "cube-adventures-06-lava-bridge": {
+    "card_id": "cube-adventures-06-lava-bridge",
+    "pack_id": "cube-adventures",
+    "pack_title_he": "עולם קוביות",
+    "title_he": "גשר לבה",
+    "facts_he": [
+      "גשר עוזר לעבור אזור מסוכן",
+      "חומרים חזקים חשובים ליד חום",
+      "בודקים דרך לפני שמתקדמים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף גשר לבה?",
+        "options_he": [
+          "תחנות עוזרות לעצור במקום הנכון",
+          "זרעים גדלים עם זמן וסבלנות",
+          "גשר עוזר לעבור אזור מסוכן"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "גשר עוזר לעבור אזור מסוכן"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף גשר לבה?",
+        "options_he": [
+          "שער מסמן מעבר מיוחד",
+          "כלי חזק חוסך זמן עבודה",
+          "חומרים חזקים חשובים ליד חום"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "חומרים חזקים חשובים ליד חום"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף גשר לבה הכי חשוב לזכור?",
+        "options_he": [
+          "תיבה שומרת חפצים חשובים",
+          "בודקים דרך לפני שמתקדמים",
+          "שער מסמן מעבר מיוחד"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "בודקים דרך לפני שמתקדמים"
+      }
+    }
+  },
+  "cube-adventures-07-world-map": {
+    "card_id": "cube-adventures-07-world-map",
+    "pack_id": "cube-adventures",
+    "pack_title_he": "עולם קוביות",
+    "title_he": "מפת עולם",
+    "facts_he": [
+      "מפה עוזרת לזכור מקומות",
+      "סימנים מקצרים ניווט",
+      "חקר עולם דורש תכנון"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מפת עולם?",
+        "options_he": [
+          "מכוש עוזר לחצוב סלעים",
+          "מפה עוזרת לזכור מקומות",
+          "שער מסמן מעבר מיוחד"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מפה עוזרת לזכור מקומות"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מפת עולם?",
+        "options_he": [
+          "סימנים מקצרים ניווט",
+          "עץ עוזר להכין כלים בסיסיים",
+          "סדר עוזר למצוא ציוד מהר"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "סימנים מקצרים ניווט"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף מפת עולם הכי חשוב לזכור?",
+        "options_he": [
+          "חקר עולם דורש תכנון",
+          "מחסה מגן בזמן חושך",
+          "סדר עוזר למצוא ציוד מהר"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "חקר עולם דורש תכנון"
+      }
+    }
+  },
+  "cube-adventures-08-treasure-chest": {
+    "card_id": "cube-adventures-08-treasure-chest",
+    "pack_id": "cube-adventures",
+    "pack_title_he": "עולם קוביות",
+    "title_he": "תיבת אוצר",
+    "facts_he": [
+      "תיבה שומרת חפצים חשובים",
+      "סדר עוזר למצוא ציוד מהר",
+      "אוצר יכול להיות כלי או חומר"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף תיבת אוצר?",
+        "options_he": [
+          "שער מסמן מעבר מיוחד",
+          "תכנון מראש מונע הפתעות",
+          "תיבה שומרת חפצים חשובים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "תיבה שומרת חפצים חשובים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף תיבת אוצר?",
+        "options_he": [
+          "סדר עוזר למצוא ציוד מהר",
+          "בודקים דרך לפני שמתקדמים",
+          "במערות מסתתרים חומרים נדירים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "סדר עוזר למצוא ציוד מהר"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף תיבת אוצר הכי חשוב לזכור?",
+        "options_he": [
+          "אוצר יכול להיות כלי או חומר",
+          "צריך לבחור כלי מתאים לחומר",
+          "תחנות עוזרות לעצור במקום הנכון"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אוצר יכול להיות כלי או חומר"
+      }
+    }
+  },
+  "cube-adventures-09-rail-track": {
+    "card_id": "cube-adventures-09-rail-track",
+    "pack_id": "cube-adventures",
+    "pack_title_he": "עולם קוביות",
+    "title_he": "מסילת רכבת",
+    "facts_he": [
+      "מסילה מעבירה שחקן מהר",
+      "מסלול טוב מחבר אזורים",
+      "תחנות עוזרות לעצור במקום הנכון"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מסילת רכבת?",
+        "options_he": [
+          "אור וצבע עוזרים לזהות יעד",
+          "סדר עוזר למצוא ציוד מהר",
+          "מסילה מעבירה שחקן מהר"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מסילה מעבירה שחקן מהר"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מסילת רכבת?",
+        "options_he": [
+          "אוצר יכול להיות כלי או חומר",
+          "אור עוזר לראות סביב",
+          "מסלול טוב מחבר אזורים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מסלול טוב מחבר אזורים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף מסילת רכבת הכי חשוב לזכור?",
+        "options_he": [
+          "אפשר לאסוף עץ מכלים פשוטים",
+          "תחנות עוזרות לעצור במקום הנכון",
+          "צריך לבחור כלי מתאים לחומר"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "תחנות עוזרות לעצור במקום הנכון"
+      }
+    }
+  },
+  "cube-adventures-10-light-gate": {
+    "card_id": "cube-adventures-10-light-gate",
+    "pack_id": "cube-adventures",
+    "pack_title_he": "עולם קוביות",
+    "title_he": "שער אור",
+    "facts_he": [
+      "שער מסמן מעבר מיוחד",
+      "אור וצבע עוזרים לזהות יעד",
+      "מעבר חדש פותח הרפתקה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף שער אור?",
+        "options_he": [
+          "מחסה מגן בזמן חושך",
+          "גשר עוזר לעבור אזור מסוכן",
+          "שער מסמן מעבר מיוחד"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "שער מסמן מעבר מיוחד"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף שער אור?",
+        "options_he": [
+          "אור וצבע עוזרים לזהות יעד",
+          "אור עוזר להתמצא במערה",
+          "סדר עוזר למצוא ציוד מהר"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אור וצבע עוזרים לזהות יעד"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתכננים הרפתקה בעולם קוביות, איזה פרט מהקלף שער אור הכי חשוב לזכור?",
+        "options_he": [
+          "סימנים מקצרים ניווט",
+          "מעבר חדש פותח הרפתקה",
+          "מכוש עוזר לחצוב סלעים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מעבר חדש פותח הרפתקה"
+      }
+    }
+  },
+  "breakfast-01-omelet": {
+    "card_id": "breakfast-01-omelet",
+    "pack_id": "breakfast",
+    "pack_title_he": "ארוחות בוקר",
+    "title_he": "חביתה",
+    "facts_he": [
+      "חביתה עשויה מביצים",
+      "חלבון עוזר לבנות את הגוף",
+      "אפשר להוסיף ירקות לטעם"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף חביתה?",
+        "options_he": [
+          "אפשר לשלב עם פרי",
+          "טוסט הוא לחם קלוי",
+          "חביתה עשויה מביצים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "חביתה עשויה מביצים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף חביתה?",
+        "options_he": [
+          "סלט מתאים ליד חלבון",
+          "שייק מערבב פירות ונוזל",
+          "חלבון עוזר לבנות את הגוף"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "חלבון עוזר לבנות את הגוף"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף חביתה הכי חשוב לזכור?",
+        "options_he": [
+          "אפשר להוסיף ירקות לטעם",
+          "כריך קל לקחת לדרך",
+          "חיתוך קטן נוח לאכילה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אפשר להוסיף ירקות לטעם"
+      }
+    }
+  },
+  "breakfast-02-yogurt": {
+    "card_id": "breakfast-02-yogurt",
+    "pack_id": "breakfast",
+    "pack_title_he": "ארוחות בוקר",
+    "title_he": "יוגורט",
+    "facts_he": [
+      "יוגורט מגיע מחלב מותסס",
+      "אפשר לשלב עם פרי",
+      "מנה קרה מתאימה לבוקר מהיר"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף יוגורט?",
+        "options_he": [
+          "חום משנה את המרקם",
+          "יוגורט מגיע מחלב מותסס",
+          "בלילה הופכת לעיגול רך"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "יוגורט מגיע מחלב מותסס"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף יוגורט?",
+        "options_he": [
+          "סלט מתאים ליד חלבון",
+          "אפשר לשלב עם פרי",
+          "אפשר לקשט בפירות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אפשר לשלב עם פרי"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף יוגורט הכי חשוב לזכור?",
+        "options_he": [
+          "גרנולה כוללת דגנים ואגוזים",
+          "אפשר להכין עם גבינה או ירק",
+          "מנה קרה מתאימה לבוקר מהיר"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מנה קרה מתאימה לבוקר מהיר"
+      }
+    }
+  },
+  "breakfast-03-granola": {
+    "card_id": "breakfast-03-granola",
+    "pack_id": "breakfast",
+    "pack_title_he": "ארוחות בוקר",
+    "title_he": "גרנולה",
+    "facts_he": [
+      "גרנולה כוללת דגנים ואגוזים",
+      "מרקם פריך מוסיף עניין",
+      "בודקים סוכר ברשימת רכיבים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף גרנולה?",
+        "options_he": [
+          "גרנולה כוללת דגנים ואגוזים",
+          "ירק מוסיף רעננות",
+          "פנקייק נאפה על מחבת חמה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "גרנולה כוללת דגנים ואגוזים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף גרנולה?",
+        "options_he": [
+          "שייק מערבב פירות ונוזל",
+          "מרקם פריך מוסיף עניין",
+          "בלילה הופכת לעיגול רך"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מרקם פריך מוסיף עניין"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף גרנולה הכי חשוב לזכור?",
+        "options_he": [
+          "בודקים סוכר ברשימת רכיבים",
+          "כדאי להשוות רכיבים",
+          "בלילה הופכת לעיגול רך"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "בודקים סוכר ברשימת רכיבים"
+      }
+    }
+  },
+  "breakfast-04-toast": {
+    "card_id": "breakfast-04-toast",
+    "pack_id": "breakfast",
+    "pack_title_he": "ארוחות בוקר",
+    "title_he": "טוסט",
+    "facts_he": [
+      "טוסט הוא לחם קלוי",
+      "חום משנה את המרקם",
+      "אפשר להכין עם גבינה או ירק"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף טוסט?",
+        "options_he": [
+          "כריך קל לקחת לדרך",
+          "אפשר לקשט בפירות",
+          "טוסט הוא לחם קלוי"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "טוסט הוא לחם קלוי"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף טוסט?",
+        "options_he": [
+          "פנקייק נאפה על מחבת חמה",
+          "חום משנה את המרקם",
+          "מנה קרה מתאימה לבוקר מהיר"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "חום משנה את המרקם"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף טוסט הכי חשוב לזכור?",
+        "options_he": [
+          "דגנים נאכלים לעיתים עם חלב",
+          "אפשר להכין עם גבינה או ירק",
+          "חביתה עשויה מביצים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אפשר להכין עם גבינה או ירק"
+      }
+    }
+  },
+  "breakfast-05-oatmeal": {
+    "card_id": "breakfast-05-oatmeal",
+    "pack_id": "breakfast",
+    "pack_title_he": "ארוחות בוקר",
+    "title_he": "דייסת שיבולת",
+    "facts_he": [
+      "שיבולת שועל משביעה לאורך זמן",
+      "דייסה יכולה להיות חמה ורכה",
+      "פירות מוסיפים צבע וטעם"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף דייסת שיבולת?",
+        "options_he": [
+          "שיבולת שועל משביעה לאורך זמן",
+          "אפשר לקשט בפירות",
+          "גרנולה כוללת דגנים ואגוזים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "שיבולת שועל משביעה לאורך זמן"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף דייסת שיבולת?",
+        "options_he": [
+          "דייסה יכולה להיות חמה ורכה",
+          "אפשר להוסיף ירקות לטעם",
+          "בלילה הופכת לעיגול רך"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "דייסה יכולה להיות חמה ורכה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף דייסת שיבולת הכי חשוב לזכור?",
+        "options_he": [
+          "שייק מערבב פירות ונוזל",
+          "בלילה הופכת לעיגול רך",
+          "פירות מוסיפים צבע וטעם"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "פירות מוסיפים צבע וטעם"
+      }
+    }
+  },
+  "breakfast-06-morning-salad": {
+    "card_id": "breakfast-06-morning-salad",
+    "pack_id": "breakfast",
+    "pack_title_he": "ארוחות בוקר",
+    "title_he": "סלט בוקר",
+    "facts_he": [
+      "ירקות מוסיפים ויטמינים וצבע",
+      "חיתוך קטן נוח לאכילה",
+      "סלט מתאים ליד חלבון"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף סלט בוקר?",
+        "options_he": [
+          "אפשר לשלב עם פרי",
+          "קערה עוזרת למדוד מנה",
+          "ירקות מוסיפים ויטמינים וצבע"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "ירקות מוסיפים ויטמינים וצבע"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף סלט בוקר?",
+        "options_he": [
+          "חיתוך קטן נוח לאכילה",
+          "אפשר להוסיף ירקות לטעם",
+          "כריך קל לקחת לדרך"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "חיתוך קטן נוח לאכילה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף סלט בוקר הכי חשוב לזכור?",
+        "options_he": [
+          "אפשר לקשט בפירות",
+          "סלט מתאים ליד חלבון",
+          "בלילה הופכת לעיגול רך"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "סלט מתאים ליד חלבון"
+      }
+    }
+  },
+  "breakfast-07-pancake": {
+    "card_id": "breakfast-07-pancake",
+    "pack_id": "breakfast",
+    "pack_title_he": "ארוחות בוקר",
+    "title_he": "פנקייק",
+    "facts_he": [
+      "פנקייק נאפה על מחבת חמה",
+      "בלילה הופכת לעיגול רך",
+      "אפשר לקשט בפירות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף פנקייק?",
+        "options_he": [
+          "צבע השייק משתנה לפי הפרי",
+          "פנקייק נאפה על מחבת חמה",
+          "חביתה עשויה מביצים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "פנקייק נאפה על מחבת חמה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף פנקייק?",
+        "options_he": [
+          "בלילה הופכת לעיגול רך",
+          "שיבולת שועל משביעה לאורך זמן",
+          "שייק מערבב פירות ונוזל"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "בלילה הופכת לעיגול רך"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף פנקייק הכי חשוב לזכור?",
+        "options_he": [
+          "גרנולה כוללת דגנים ואגוזים",
+          "גבינה מוסיפה חלבון וסידן",
+          "אפשר לקשט בפירות"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "אפשר לקשט בפירות"
+      }
+    }
+  },
+  "breakfast-08-cheese-sandwich": {
+    "card_id": "breakfast-08-cheese-sandwich",
+    "pack_id": "breakfast",
+    "pack_title_he": "ארוחות בוקר",
+    "title_he": "כריך גבינה",
+    "facts_he": [
+      "כריך קל לקחת לדרך",
+      "גבינה מוסיפה חלבון וסידן",
+      "ירק מוסיף רעננות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף כריך גבינה?",
+        "options_he": [
+          "אפשר לקשט בפירות",
+          "כריך קל לקחת לדרך",
+          "בודקים סוכר ברשימת רכיבים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "כריך קל לקחת לדרך"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף כריך גבינה?",
+        "options_he": [
+          "שייק מערבב פירות ונוזל",
+          "בודקים סוכר ברשימת רכיבים",
+          "גבינה מוסיפה חלבון וסידן"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "גבינה מוסיפה חלבון וסידן"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף כריך גבינה הכי חשוב לזכור?",
+        "options_he": [
+          "אפשר להכין עם גבינה או ירק",
+          "קערה עוזרת למדוד מנה",
+          "ירק מוסיף רעננות"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "ירק מוסיף רעננות"
+      }
+    }
+  },
+  "breakfast-09-fruit-shake": {
+    "card_id": "breakfast-09-fruit-shake",
+    "pack_id": "breakfast",
+    "pack_title_he": "ארוחות בוקר",
+    "title_he": "שייק פירות",
+    "facts_he": [
+      "שייק מערבב פירות ונוזל",
+      "צבע השייק משתנה לפי הפרי",
+      "שתייה סמיכה יכולה להשביע"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף שייק פירות?",
+        "options_he": [
+          "טוסט הוא לחם קלוי",
+          "שייק מערבב פירות ונוזל",
+          "סלט מתאים ליד חלבון"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "שייק מערבב פירות ונוזל"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף שייק פירות?",
+        "options_he": [
+          "אפשר לקשט בפירות",
+          "צבע השייק משתנה לפי הפרי",
+          "גבינה מוסיפה חלבון וסידן"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "צבע השייק משתנה לפי הפרי"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף שייק פירות הכי חשוב לזכור?",
+        "options_he": [
+          "בלילה הופכת לעיגול רך",
+          "אפשר להכין עם גבינה או ירק",
+          "שתייה סמיכה יכולה להשביע"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "שתייה סמיכה יכולה להשביע"
+      }
+    }
+  },
+  "breakfast-10-cereal": {
+    "card_id": "breakfast-10-cereal",
+    "pack_id": "breakfast",
+    "pack_title_he": "ארוחות בוקר",
+    "title_he": "דגני בוקר",
+    "facts_he": [
+      "דגנים נאכלים לעיתים עם חלב",
+      "קערה עוזרת למדוד מנה",
+      "כדאי להשוות רכיבים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף דגני בוקר?",
+        "options_he": [
+          "דגנים נאכלים לעיתים עם חלב",
+          "שיבולת שועל משביעה לאורך זמן",
+          "שתייה סמיכה יכולה להשביע"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "דגנים נאכלים לעיתים עם חלב"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף דגני בוקר?",
+        "options_he": [
+          "קערה עוזרת למדוד מנה",
+          "גבינה מוסיפה חלבון וסידן",
+          "שיבולת שועל משביעה לאורך זמן"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "קערה עוזרת למדוד מנה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים ארוחת בוקר מאוזנת, איזה פרט מהקלף דגני בוקר הכי חשוב לזכור?",
+        "options_he": [
+          "כדאי להשוות רכיבים",
+          "דייסה יכולה להיות חמה ורכה",
+          "גבינה מוסיפה חלבון וסידן"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "כדאי להשוות רכיבים"
+      }
+    }
+  },
+  "lunch-01-rice": {
+    "card_id": "lunch-01-rice",
+    "pack_id": "lunch",
+    "pack_title_he": "ארוחות צהריים",
+    "title_he": "אורז",
+    "facts_he": [
+      "אורז סופג מים בזמן בישול",
+      "גרגרים מתרככים בחום",
+      "אורז מתאים להרבה תבשילים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף אורז?",
+        "options_he": [
+          "אורז סופג מים בזמן בישול",
+          "שניצל מצופה בפירורים",
+          "גודל אחיד עוזר לבישול שווה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אורז סופג מים בזמן בישול"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף אורז?",
+        "options_he": [
+          "גרגרים מתרככים בחום",
+          "תפוח אדמה נאפה או מתבשל",
+          "צלחת צבעונית מזמינה לאכול"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "גרגרים מתרככים בחום"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף אורז הכי חשוב לזכור?",
+        "options_he": [
+          "רוטב קל מחבר טעמים",
+          "אורז מתאים להרבה תבשילים",
+          "ציפוי יוצר מרקם פריך"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אורז מתאים להרבה תבשילים"
+      }
+    }
+  },
+  "lunch-02-pasta": {
+    "card_id": "lunch-02-pasta",
+    "pack_id": "lunch",
+    "pack_title_he": "ארוחות צהריים",
+    "title_he": "פסטה",
+    "facts_he": [
+      "פסטה מתבשלת במים חמים",
+      "רוטב מוסיף טעם וצבע",
+      "צורות פסטה מחזיקות רוטב אחרת"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף פסטה?",
+        "options_he": [
+          "ערבוב שומר על חום אחיד",
+          "פסטה מתבשלת במים חמים",
+          "פיתה מחזיקה מילוי מגוון"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "פסטה מתבשלת במים חמים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף פסטה?",
+        "options_he": [
+          "רוטב מוסיף טעם וצבע",
+          "אפשר להכין גם מירקות או קטניות",
+          "מים ותיבול יוצרים ציר"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "רוטב מוסיף טעם וצבע"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף פסטה הכי חשוב לזכור?",
+        "options_he": [
+          "צורות פסטה מחזיקות רוטב אחרת",
+          "גודל אחיד עוזר לבישול שווה",
+          "קליפה שומרת על צורה באפייה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "צורות פסטה מחזיקות רוטב אחרת"
+      }
+    }
+  },
+  "lunch-03-patties": {
+    "card_id": "lunch-03-patties",
+    "pack_id": "lunch",
+    "pack_title_he": "ארוחות צהריים",
+    "title_he": "קציצות",
+    "facts_he": [
+      "קציצות עשויות מתערובת מתובלת",
+      "אפשר להכין גם מירקות או קטניות",
+      "גודל אחיד עוזר לבישול שווה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף קציצות?",
+        "options_he": [
+          "קציצות עשויות מתערובת מתובלת",
+          "פיתה מחזיקה מילוי מגוון",
+          "טחינה וירקות מוסיפים טעם"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "קציצות עשויות מתערובת מתובלת"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף קציצות?",
+        "options_he": [
+          "פיתה מחזיקה מילוי מגוון",
+          "אופים או מטגנים בזהירות",
+          "אפשר להכין גם מירקות או קטניות"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "אפשר להכין גם מירקות או קטניות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף קציצות הכי חשוב לזכור?",
+        "options_he": [
+          "ציפוי יוצר מרקם פריך",
+          "צורות פסטה מחזיקות רוטב אחרת",
+          "גודל אחיד עוזר לבישול שווה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "גודל אחיד עוזר לבישול שווה"
+      }
+    }
+  },
+  "lunch-04-vegetable-soup": {
+    "card_id": "lunch-04-vegetable-soup",
+    "pack_id": "lunch",
+    "pack_title_he": "ארוחות צהריים",
+    "title_he": "מרק ירקות",
+    "facts_he": [
+      "מרק מחמם ומשלב ירקות",
+      "מים ותיבול יוצרים ציר",
+      "בישול איטי מרכך ירקות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מרק ירקות?",
+        "options_he": [
+          "מרק מחמם ומשלב ירקות",
+          "צורות פסטה מחזיקות רוטב אחרת",
+          "פיתה מחזיקה מילוי מגוון"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מרק מחמם ומשלב ירקות"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מרק ירקות?",
+        "options_he": [
+          "מים ותיבול יוצרים ציר",
+          "רוטב מוסיף טעם וצבע",
+          "צורות פסטה מחזיקות רוטב אחרת"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מים ותיבול יוצרים ציר"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף מרק ירקות הכי חשוב לזכור?",
+        "options_he": [
+          "בישול איטי מרכך ירקות",
+          "גודל אחיד עוזר לבישול שווה",
+          "ציפוי יוצר מרקם פריך"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "בישול איטי מרכך ירקות"
+      }
+    }
+  },
+  "lunch-05-schnitzel": {
+    "card_id": "lunch-05-schnitzel",
+    "pack_id": "lunch",
+    "pack_title_he": "ארוחות צהריים",
+    "title_he": "שניצל",
+    "facts_he": [
+      "שניצל מצופה בפירורים",
+      "ציפוי יוצר מרקם פריך",
+      "אופים או מטגנים בזהירות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף שניצל?",
+        "options_he": [
+          "רוטב מוסיף טעם וצבע",
+          "שניצל מצופה בפירורים",
+          "ערבוב שומר על חום אחיד"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "שניצל מצופה בפירורים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף שניצל?",
+        "options_he": [
+          "פיתה מחזיקה מילוי מגוון",
+          "ציפוי יוצר מרקם פריך",
+          "פסטה מתבשלת במים חמים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "ציפוי יוצר מרקם פריך"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף שניצל הכי חשוב לזכור?",
+        "options_he": [
+          "רוטב ירקות משתלב איתו",
+          "אופים או מטגנים בזהירות",
+          "רוטב מוסיף טעם וצבע"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אופים או מטגנים בזהירות"
+      }
+    }
+  },
+  "lunch-06-couscous": {
+    "card_id": "lunch-06-couscous",
+    "pack_id": "lunch",
+    "pack_title_he": "ארוחות צהריים",
+    "title_he": "קוסקוס",
+    "facts_he": [
+      "קוסקוס עשוי גרגירים קטנים",
+      "רוטב ירקות משתלב איתו",
+      "אידוי עוזר למרקם אוורירי"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף קוסקוס?",
+        "options_he": [
+          "קוסקוס עשוי גרגירים קטנים",
+          "מים ותיבול יוצרים ציר",
+          "פלאפל עשוי מחומוס ותבלינים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "קוסקוס עשוי גרגירים קטנים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף קוסקוס?",
+        "options_he": [
+          "ערבוב שומר על חום אחיד",
+          "אורז מתאים להרבה תבשילים",
+          "רוטב ירקות משתלב איתו"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "רוטב ירקות משתלב איתו"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף קוסקוס הכי חשוב לזכור?",
+        "options_he": [
+          "אידוי עוזר למרקם אוורירי",
+          "פלאפל עשוי מחומוס ותבלינים",
+          "מרק מחמם ומשלב ירקות"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אידוי עוזר למרקם אוורירי"
+      }
+    }
+  },
+  "lunch-07-chicken-salad": {
+    "card_id": "lunch-07-chicken-salad",
+    "pack_id": "lunch",
+    "pack_title_he": "ארוחות צהריים",
+    "title_he": "סלט עוף",
+    "facts_he": [
+      "סלט עוף משלב חלבון וירקות",
+      "רוטב קל מחבר טעמים",
+      "צלחת צבעונית מזמינה לאכול"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף סלט עוף?",
+        "options_he": [
+          "פלאפל עשוי מחומוס ותבלינים",
+          "בישול איטי מרכך ירקות",
+          "סלט עוף משלב חלבון וירקות"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "סלט עוף משלב חלבון וירקות"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף סלט עוף?",
+        "options_he": [
+          "מים ותיבול יוצרים ציר",
+          "רוטב קל מחבר טעמים",
+          "אופים או מטגנים בזהירות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "רוטב קל מחבר טעמים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף סלט עוף הכי חשוב לזכור?",
+        "options_he": [
+          "אופים או מטגנים בזהירות",
+          "ירקות חתוכים דק נשארים פריכים",
+          "צלחת צבעונית מזמינה לאכול"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "צלחת צבעונית מזמינה לאכול"
+      }
+    }
+  },
+  "lunch-08-stir-fry": {
+    "card_id": "lunch-08-stir-fry",
+    "pack_id": "lunch",
+    "pack_title_he": "ארוחות צהריים",
+    "title_he": "מוקפץ",
+    "facts_he": [
+      "מוקפץ מתבשל במהירות במחבת",
+      "ירקות חתוכים דק נשארים פריכים",
+      "ערבוב שומר על חום אחיד"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מוקפץ?",
+        "options_he": [
+          "פסטה מתבשלת במים חמים",
+          "מוקפץ מתבשל במהירות במחבת",
+          "מים ותיבול יוצרים ציר"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מוקפץ מתבשל במהירות במחבת"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מוקפץ?",
+        "options_he": [
+          "בישול איטי מרכך ירקות",
+          "פיתה מחזיקה מילוי מגוון",
+          "ירקות חתוכים דק נשארים פריכים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "ירקות חתוכים דק נשארים פריכים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף מוקפץ הכי חשוב לזכור?",
+        "options_he": [
+          "אידוי עוזר למרקם אוורירי",
+          "ערבוב שומר על חום אחיד",
+          "בישול איטי מרכך ירקות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "ערבוב שומר על חום אחיד"
+      }
+    }
+  },
+  "lunch-09-falafel-pita": {
+    "card_id": "lunch-09-falafel-pita",
+    "pack_id": "lunch",
+    "pack_title_he": "ארוחות צהריים",
+    "title_he": "פיתה פלאפל",
+    "facts_he": [
+      "פלאפל עשוי מחומוס ותבלינים",
+      "פיתה מחזיקה מילוי מגוון",
+      "טחינה וירקות מוסיפים טעם"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף פיתה פלאפל?",
+        "options_he": [
+          "סלט עוף משלב חלבון וירקות",
+          "פלאפל עשוי מחומוס ותבלינים",
+          "קליפה שומרת על צורה באפייה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "פלאפל עשוי מחומוס ותבלינים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף פיתה פלאפל?",
+        "options_he": [
+          "פיתה מחזיקה מילוי מגוון",
+          "צורות פסטה מחזיקות רוטב אחרת",
+          "אורז סופג מים בזמן בישול"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "פיתה מחזיקה מילוי מגוון"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף פיתה פלאפל הכי חשוב לזכור?",
+        "options_he": [
+          "בישול איטי מרכך ירקות",
+          "אידוי עוזר למרקם אוורירי",
+          "טחינה וירקות מוסיפים טעם"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "טחינה וירקות מוסיפים טעם"
+      }
+    }
+  },
+  "lunch-10-potato": {
+    "card_id": "lunch-10-potato",
+    "pack_id": "lunch",
+    "pack_title_he": "ארוחות צהריים",
+    "title_he": "תפוח אדמה",
+    "facts_he": [
+      "תפוח אדמה נאפה או מתבשל",
+      "קליפה שומרת על צורה באפייה",
+      "תיבול משנה את הטעם"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף תפוח אדמה?",
+        "options_he": [
+          "גודל אחיד עוזר לבישול שווה",
+          "תפוח אדמה נאפה או מתבשל",
+          "ערבוב שומר על חום אחיד"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "תפוח אדמה נאפה או מתבשל"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף תפוח אדמה?",
+        "options_he": [
+          "קליפה שומרת על צורה באפייה",
+          "גודל אחיד עוזר לבישול שווה",
+          "קוסקוס עשוי גרגירים קטנים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "קליפה שומרת על צורה באפייה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים ארוחת צהריים, איזה פרט מהקלף תפוח אדמה הכי חשוב לזכור?",
+        "options_he": [
+          "תיבול משנה את הטעם",
+          "צורות פסטה מחזיקות רוטב אחרת",
+          "פסטה מתבשלת במים חמים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "תיבול משנה את הטעם"
+      }
+    }
+  },
+  "computer-games-01-platformer": {
+    "card_id": "computer-games-01-platformer",
+    "pack_id": "computer-games",
+    "pack_title_he": "משחקי מחשב",
+    "title_he": "משחק פלטפורמה",
+    "facts_he": [
+      "קופצים בין משטחים ומכשולים",
+      "תזמון טוב עוזר לעבור שלב",
+      "שלבים מלמדים קושי בהדרגה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף משחק פלטפורמה?",
+        "options_he": [
+          "ציוד חדש פותח אפשרויות",
+          "לחיצה בזמן יוצרת רצף מוצלח",
+          "קופצים בין משטחים ומכשולים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "קופצים בין משטחים ומכשולים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף משחק פלטפורמה?",
+        "options_he": [
+          "אימון משפר שליטה",
+          "תזמון טוב עוזר לעבור שלב",
+          "משאבים מגבילים בחירות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "תזמון טוב עוזר לעבור שלב"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק פלטפורמה הכי חשוב לזכור?",
+        "options_he": [
+          "שלבים מלמדים קושי בהדרגה",
+          "סבלנות עוזרת להתקדם",
+          "שיפור רכב משנה ביצועים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "שלבים מלמדים קושי בהדרגה"
+      }
+    }
+  },
+  "computer-games-02-racing-game": {
+    "card_id": "computer-games-02-racing-game",
+    "pack_id": "computer-games",
+    "pack_title_he": "משחקי מחשב",
+    "title_he": "משחק מרוצים",
+    "facts_he": [
+      "מסלול מירוץ דורש שליטה במהירות",
+      "פניות חדות דורשות תזמון",
+      "שיפור רכב משנה ביצועים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף משחק מרוצים?",
+        "options_he": [
+          "תזמון טוב עוזר לעבור שלב",
+          "עולם פתוח נותן חופש בחירה",
+          "מסלול מירוץ דורש שליטה במהירות"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מסלול מירוץ דורש שליטה במהירות"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף משחק מרוצים?",
+        "options_he": [
+          "פניות חדות דורשות תזמון",
+          "בנייה מתחילה מרעיון קטן",
+          "אימון משפר שליטה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "פניות חדות דורשות תזמון"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק מרוצים הכי חשוב לזכור?",
+        "options_he": [
+          "שיפור רכב משנה ביצועים",
+          "משימות צד מוסיפות סיפורים",
+          "קופצים בין משטחים ומכשולים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "שיפור רכב משנה ביצועים"
+      }
+    }
+  },
+  "computer-games-03-puzzle-game": {
+    "card_id": "computer-games-03-puzzle-game",
+    "pack_id": "computer-games",
+    "pack_title_he": "משחקי מחשב",
+    "title_he": "משחק חידה",
+    "facts_he": [
+      "חידה דורשת חשיבה וניסוי",
+      "רמז קטן יכול לפתוח פתרון",
+      "סבלנות עוזרת להתקדם"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף משחק חידה?",
+        "options_he": [
+          "משימות צד מוסיפות סיפורים",
+          "חידה דורשת חשיבה וניסוי",
+          "שלבים מלמדים קושי בהדרגה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "חידה דורשת חשיבה וניסוי"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף משחק חידה?",
+        "options_he": [
+          "שלבים מלמדים קושי בהדרגה",
+          "רמז קטן יכול לפתוח פתרון",
+          "דמות משתפרת לאורך הסיפור"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "רמז קטן יכול לפתוח פתרון"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק חידה הכי חשוב לזכור?",
+        "options_he": [
+          "בחירות משפיעות על הדרך",
+          "לחיצה בזמן יוצרת רצף מוצלח",
+          "סבלנות עוזרת להתקדם"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "סבלנות עוזרת להתקדם"
+      }
+    }
+  },
+  "computer-games-04-building-game": {
+    "card_id": "computer-games-04-building-game",
+    "pack_id": "computer-games",
+    "pack_title_he": "משחקי מחשב",
+    "title_he": "משחק בנייה",
+    "facts_he": [
+      "בנייה מתחילה מרעיון קטן",
+      "משאבים מגבילים בחירות",
+      "תכנון יפה יוצר עולם מעניין"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף משחק בנייה?",
+        "options_he": [
+          "בנייה מתחילה מרעיון קטן",
+          "שיתוף פעולה מחלק משימות",
+          "רמז קטן יכול לפתוח פתרון"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "בנייה מתחילה מרעיון קטן"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף משחק בנייה?",
+        "options_he": [
+          "משאבים מחולקים לפי עדיפות",
+          "חידה דורשת חשיבה וניסוי",
+          "משאבים מגבילים בחירות"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "משאבים מגבילים בחירות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק בנייה הכי חשוב לזכור?",
+        "options_he": [
+          "תכנון יפה יוצר עולם מעניין",
+          "חוקים מדמים ענף ספורט",
+          "רמז קטן יכול לפתוח פתרון"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "תכנון יפה יוצר עולם מעניין"
+      }
+    }
+  },
+  "computer-games-05-rhythm-game": {
+    "card_id": "computer-games-05-rhythm-game",
+    "pack_id": "computer-games",
+    "pack_title_he": "משחקי מחשב",
+    "title_he": "משחק קצב",
+    "facts_he": [
+      "לחיצה בזמן יוצרת רצף מוצלח",
+      "מוזיקה עוזרת לזכור דפוס",
+      "אימון משפר דיוק"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף משחק קצב?",
+        "options_he": [
+          "משאבים מחולקים לפי עדיפות",
+          "לחיצה בזמן יוצרת רצף מוצלח",
+          "מפה גדולה מזמינה חקר"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "לחיצה בזמן יוצרת רצף מוצלח"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף משחק קצב?",
+        "options_he": [
+          "מוזיקה עוזרת לזכור דפוס",
+          "תזמון טוב עוזר לעבור שלב",
+          "תקשורת עוזרת לנצח יחד"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מוזיקה עוזרת לזכור דפוס"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק קצב הכי חשוב לזכור?",
+        "options_he": [
+          "תזמון טוב עוזר לעבור שלב",
+          "אימון משפר שליטה",
+          "אימון משפר דיוק"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "אימון משפר דיוק"
+      }
+    }
+  },
+  "computer-games-06-strategy-game": {
+    "card_id": "computer-games-06-strategy-game",
+    "pack_id": "computer-games",
+    "pack_title_he": "משחקי מחשב",
+    "title_he": "משחק אסטרטגיה",
+    "facts_he": [
+      "אסטרטגיה דורשת החלטות קדימה",
+      "משאבים מחולקים לפי עדיפות",
+      "טעות יכולה ללמד מה לשפר"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף משחק אסטרטגיה?",
+        "options_he": [
+          "מסלול מירוץ דורש שליטה במהירות",
+          "אסטרטגיה דורשת החלטות קדימה",
+          "שיתוף פעולה מחלק משימות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אסטרטגיה דורשת החלטות קדימה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף משחק אסטרטגיה?",
+        "options_he": [
+          "משאבים מחולקים לפי עדיפות",
+          "מוזיקה עוזרת לזכור דפוס",
+          "חידה דורשת חשיבה וניסוי"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "משאבים מחולקים לפי עדיפות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק אסטרטגיה הכי חשוב לזכור?",
+        "options_he": [
+          "משימות צד מוסיפות סיפורים",
+          "טעות יכולה ללמד מה לשפר",
+          "תזמון טוב עוזר לעבור שלב"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "טעות יכולה ללמד מה לשפר"
+      }
+    }
+  },
+  "computer-games-07-sports-game": {
+    "card_id": "computer-games-07-sports-game",
+    "pack_id": "computer-games",
+    "pack_title_he": "משחקי מחשב",
+    "title_he": "משחק ספורט",
+    "facts_he": [
+      "חוקים מדמים ענף ספורט",
+      "עבודת צוות משנה תוצאה",
+      "אימון משפר שליטה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף משחק ספורט?",
+        "options_he": [
+          "בחירות משפיעות על הדרך",
+          "חוקים מדמים ענף ספורט",
+          "כל שחקן מביא יכולת אחרת"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "חוקים מדמים ענף ספורט"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף משחק ספורט?",
+        "options_he": [
+          "מוזיקה עוזרת לזכור דפוס",
+          "תקשורת עוזרת לנצח יחד",
+          "עבודת צוות משנה תוצאה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "עבודת צוות משנה תוצאה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק ספורט הכי חשוב לזכור?",
+        "options_he": [
+          "טעות יכולה ללמד מה לשפר",
+          "אימון משפר שליטה",
+          "שלבים מלמדים קושי בהדרגה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אימון משפר שליטה"
+      }
+    }
+  },
+  "computer-games-08-role-play": {
+    "card_id": "computer-games-08-role-play",
+    "pack_id": "computer-games",
+    "pack_title_he": "משחקי מחשב",
+    "title_he": "משחק תפקידים",
+    "facts_he": [
+      "דמות משתפרת לאורך הסיפור",
+      "בחירות משפיעות על הדרך",
+      "ציוד חדש פותח אפשרויות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף משחק תפקידים?",
+        "options_he": [
+          "סבלנות עוזרת להתקדם",
+          "דמות משתפרת לאורך הסיפור",
+          "משאבים מגבילים בחירות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "דמות משתפרת לאורך הסיפור"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף משחק תפקידים?",
+        "options_he": [
+          "בחירות משפיעות על הדרך",
+          "משאבים מחולקים לפי עדיפות",
+          "רמז קטן יכול לפתוח פתרון"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "בחירות משפיעות על הדרך"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק תפקידים הכי חשוב לזכור?",
+        "options_he": [
+          "אסטרטגיה דורשת החלטות קדימה",
+          "ציוד חדש פותח אפשרויות",
+          "מסלול מירוץ דורש שליטה במהירות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "ציוד חדש פותח אפשרויות"
+      }
+    }
+  },
+  "computer-games-09-coop-game": {
+    "card_id": "computer-games-09-coop-game",
+    "pack_id": "computer-games",
+    "pack_title_he": "משחקי מחשב",
+    "title_he": "משחק שיתוף",
+    "facts_he": [
+      "שיתוף פעולה מחלק משימות",
+      "תקשורת עוזרת לנצח יחד",
+      "כל שחקן מביא יכולת אחרת"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף משחק שיתוף?",
+        "options_he": [
+          "שיתוף פעולה מחלק משימות",
+          "בחירות משפיעות על הדרך",
+          "שלבים מלמדים קושי בהדרגה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "שיתוף פעולה מחלק משימות"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף משחק שיתוף?",
+        "options_he": [
+          "תקשורת עוזרת לנצח יחד",
+          "אימון משפר דיוק",
+          "אסטרטגיה דורשת החלטות קדימה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "תקשורת עוזרת לנצח יחד"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק שיתוף הכי חשוב לזכור?",
+        "options_he": [
+          "משימות צד מוסיפות סיפורים",
+          "כל שחקן מביא יכולת אחרת",
+          "קופצים בין משטחים ומכשולים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "כל שחקן מביא יכולת אחרת"
+      }
+    }
+  },
+  "computer-games-10-open-world": {
+    "card_id": "computer-games-10-open-world",
+    "pack_id": "computer-games",
+    "pack_title_he": "משחקי מחשב",
+    "title_he": "משחק עולם פתוח",
+    "facts_he": [
+      "עולם פתוח נותן חופש בחירה",
+      "מפה גדולה מזמינה חקר",
+      "משימות צד מוסיפות סיפורים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף משחק עולם פתוח?",
+        "options_he": [
+          "עולם פתוח נותן חופש בחירה",
+          "ציוד חדש פותח אפשרויות",
+          "מוזיקה עוזרת לזכור דפוס"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "עולם פתוח נותן חופש בחירה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף משחק עולם פתוח?",
+        "options_he": [
+          "מפה גדולה מזמינה חקר",
+          "חידה דורשת חשיבה וניסוי",
+          "בנייה מתחילה מרעיון קטן"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מפה גדולה מזמינה חקר"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמעצבים או משחקים שלב חדש, איזה פרט מהקלף משחק עולם פתוח הכי חשוב לזכור?",
+        "options_he": [
+          "משימות צד מוסיפות סיפורים",
+          "משאבים מגבילים בחירות",
+          "משאבים מחולקים לפי עדיפות"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "משימות צד מוסיפות סיפורים"
+      }
+    }
+  },
+  "board-games-01-dice": {
+    "card_id": "board-games-01-dice",
+    "pack_id": "board-games",
+    "pack_title_he": "משחקי קופסה",
+    "title_he": "קובייה",
+    "facts_he": [
+      "קובייה מוסיפה מזל למשחק",
+      "כל פאה מציגה מספר אחר",
+      "תוצאה אקראית משנה תור"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף קובייה?",
+        "options_he": [
+          "תור נותן לכל שחקן זמן פעולה",
+          "קובייה מוסיפה מזל למשחק",
+          "חייל מייצג שחקן בלוח"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "קובייה מוסיפה מזל למשחק"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף קובייה?",
+        "options_he": [
+          "כל פאה מציגה מספר אחר",
+          "סיום קורה לפי תנאי ברור",
+          "לפעמים מנצחים בכמה דרכים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "כל פאה מציגה מספר אחר"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף קובייה הכי חשוב לזכור?",
+        "options_he": [
+          "תוצאה אקראית משנה תור",
+          "נקודות מודדות התקדמות",
+          "קלף פעולה משנה מצב במשחק"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "תוצאה אקראית משנה תור"
+      }
+    }
+  },
+  "board-games-02-game-board": {
+    "card_id": "board-games-02-game-board",
+    "pack_id": "board-games",
+    "pack_title_he": "משחקי קופסה",
+    "title_he": "לוח משחק",
+    "facts_he": [
+      "לוח מציג דרך וחוקים",
+      "משבצות עוזרות למדוד תנועה",
+      "עיצוב הלוח מכוון את המשחק"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף לוח משחק?",
+        "options_he": [
+          "ממתינים ומקשיבים לאחרים",
+          "לוח מציג דרך וחוקים",
+          "לפעמים מנצחים בכמה דרכים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "לוח מציג דרך וחוקים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף לוח משחק?",
+        "options_he": [
+          "הצעה טובה עוזרת לשני צדדים",
+          "סופרים בסוף לפי החוקים",
+          "משבצות עוזרות למדוד תנועה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "משבצות עוזרות למדוד תנועה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף לוח משחק הכי חשוב לזכור?",
+        "options_he": [
+          "סדר תורות שומר על הוגנות",
+          "עיצוב הלוח מכוון את המשחק",
+          "מסחר מחליף משאבים בין שחקנים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "עיצוב הלוח מכוון את המשחק"
+      }
+    }
+  },
+  "board-games-03-action-cards": {
+    "card_id": "board-games-03-action-cards",
+    "pack_id": "board-games",
+    "pack_title_he": "משחקי קופסה",
+    "title_he": "קלפי פעולה",
+    "facts_he": [
+      "קלף פעולה משנה מצב במשחק",
+      "קוראים הוראות לפני שימוש",
+      "תזמון קלף יכול להפתיע"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף קלפי פעולה?",
+        "options_he": [
+          "סופרים בסוף לפי החוקים",
+          "קלף פעולה משנה מצב במשחק",
+          "ממתינים ומקשיבים לאחרים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "קלף פעולה משנה מצב במשחק"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף קלפי פעולה?",
+        "options_he": [
+          "קוראים הוראות לפני שימוש",
+          "בודקים ניקוד אחרי הפעולה האחרונה",
+          "ממתינים ומקשיבים לאחרים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "קוראים הוראות לפני שימוש"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף קלפי פעולה הכי חשוב לזכור?",
+        "options_he": [
+          "מדברים כדי לבחור פעולה",
+          "כל פאה מציגה מספר אחר",
+          "תזמון קלף יכול להפתיע"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "תזמון קלף יכול להפתיע"
+      }
+    }
+  },
+  "board-games-04-game-piece": {
+    "card_id": "board-games-04-game-piece",
+    "pack_id": "board-games",
+    "pack_title_he": "משחקי קופסה",
+    "title_he": "חייל משחק",
+    "facts_he": [
+      "חייל מייצג שחקן בלוח",
+      "צבעים עוזרים להבדיל שחקנים",
+      "מיקום החייל חשוב לתכנון"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף חייל משחק?",
+        "options_he": [
+          "מחלקים תפקידים לפי חוזקות",
+          "חייל מייצג שחקן בלוח",
+          "תזמון קלף יכול להפתיע"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "חייל מייצג שחקן בלוח"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף חייל משחק?",
+        "options_he": [
+          "צבעים עוזרים להבדיל שחקנים",
+          "סדר תורות שומר על הוגנות",
+          "קוראים הוראות לפני שימוש"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "צבעים עוזרים להבדיל שחקנים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף חייל משחק הכי חשוב לזכור?",
+        "options_he": [
+          "סיום קורה לפי תנאי ברור",
+          "לחיצת יד שומרת על רוח טובה",
+          "מיקום החייל חשוב לתכנון"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מיקום החייל חשוב לתכנון"
+      }
+    }
+  },
+  "board-games-05-turn": {
+    "card_id": "board-games-05-turn",
+    "pack_id": "board-games",
+    "pack_title_he": "משחקי קופסה",
+    "title_he": "תור משחק",
+    "facts_he": [
+      "תור נותן לכל שחקן זמן פעולה",
+      "סדר תורות שומר על הוגנות",
+      "ממתינים ומקשיבים לאחרים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף תור משחק?",
+        "options_he": [
+          "תור נותן לכל שחקן זמן פעולה",
+          "סופרים בסוף לפי החוקים",
+          "חייל מייצג שחקן בלוח"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "תור נותן לכל שחקן זמן פעולה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף תור משחק?",
+        "options_he": [
+          "עיצוב הלוח מכוון את המשחק",
+          "סדר תורות שומר על הוגנות",
+          "משבצות עוזרות למדוד תנועה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "סדר תורות שומר על הוגנות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף תור משחק הכי חשוב לזכור?",
+        "options_he": [
+          "ממתינים ומקשיבים לאחרים",
+          "הצעה טובה עוזרת לשני צדדים",
+          "קוראים הוראות לפני שימוש"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "ממתינים ומקשיבים לאחרים"
+      }
+    }
+  },
+  "board-games-06-victory-points": {
+    "card_id": "board-games-06-victory-points",
+    "pack_id": "board-games",
+    "pack_title_he": "משחקי קופסה",
+    "title_he": "נקודות ניצחון",
+    "facts_he": [
+      "נקודות מודדות התקדמות",
+      "לפעמים מנצחים בכמה דרכים",
+      "סופרים בסוף לפי החוקים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף נקודות ניצחון?",
+        "options_he": [
+          "נקודות מודדות התקדמות",
+          "תזמון קלף יכול להפתיע",
+          "ממתינים ומקשיבים לאחרים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "נקודות מודדות התקדמות"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף נקודות ניצחון?",
+        "options_he": [
+          "לפעמים מנצחים בכמה דרכים",
+          "מיקום החייל חשוב לתכנון",
+          "משבצות עוזרות למדוד תנועה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "לפעמים מנצחים בכמה דרכים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף נקודות ניצחון הכי חשוב לזכור?",
+        "options_he": [
+          "סופרים בסוף לפי החוקים",
+          "מיקום החייל חשוב לתכנון",
+          "כולם מנסים לנצח יחד"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "סופרים בסוף לפי החוקים"
+      }
+    }
+  },
+  "board-games-07-secret-mission": {
+    "card_id": "board-games-07-secret-mission",
+    "pack_id": "board-games",
+    "pack_title_he": "משחקי קופסה",
+    "title_he": "משימה סודית",
+    "facts_he": [
+      "משימה סודית מוסיפה מתח",
+      "לא תמיד מגלים את המטרה",
+      "מתכננים בלי לחשוף הכל"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף משימה סודית?",
+        "options_he": [
+          "משבצות עוזרות למדוד תנועה",
+          "סדר תורות שומר על הוגנות",
+          "משימה סודית מוסיפה מתח"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "משימה סודית מוסיפה מתח"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף משימה סודית?",
+        "options_he": [
+          "לא תמיד מגלים את המטרה",
+          "בודקים ניקוד אחרי הפעולה האחרונה",
+          "סדר תורות שומר על הוגנות"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "לא תמיד מגלים את המטרה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף משימה סודית הכי חשוב לזכור?",
+        "options_he": [
+          "מתכננים בלי לחשוף הכל",
+          "קובייה מוסיפה מזל למשחק",
+          "מסחר מחליף משאבים בין שחקנים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מתכננים בלי לחשוף הכל"
+      }
+    }
+  },
+  "board-games-08-cooperation": {
+    "card_id": "board-games-08-cooperation",
+    "pack_id": "board-games",
+    "pack_title_he": "משחקי קופסה",
+    "title_he": "שיתוף פעולה",
+    "facts_he": [
+      "כולם מנסים לנצח יחד",
+      "מחלקים תפקידים לפי חוזקות",
+      "מדברים כדי לבחור פעולה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף שיתוף פעולה?",
+        "options_he": [
+          "קובייה מוסיפה מזל למשחק",
+          "כולם מנסים לנצח יחד",
+          "סופרים בסוף לפי החוקים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "כולם מנסים לנצח יחד"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף שיתוף פעולה?",
+        "options_he": [
+          "לא תמיד מגלים את המטרה",
+          "מחלקים תפקידים לפי חוזקות",
+          "ממתינים ומקשיבים לאחרים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מחלקים תפקידים לפי חוזקות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף שיתוף פעולה הכי חשוב לזכור?",
+        "options_he": [
+          "מדברים כדי לבחור פעולה",
+          "כל פאה מציגה מספר אחר",
+          "מתכננים בלי לחשוף הכל"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מדברים כדי לבחור פעולה"
+      }
+    }
+  },
+  "board-games-09-trading": {
+    "card_id": "board-games-09-trading",
+    "pack_id": "board-games",
+    "pack_title_he": "משחקי קופסה",
+    "title_he": "מסחר",
+    "facts_he": [
+      "מסחר מחליף משאבים בין שחקנים",
+      "הצעה טובה עוזרת לשני צדדים",
+      "צריך להסכים לפני החלפה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מסחר?",
+        "options_he": [
+          "בודקים ניקוד אחרי הפעולה האחרונה",
+          "מדברים כדי לבחור פעולה",
+          "מסחר מחליף משאבים בין שחקנים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מסחר מחליף משאבים בין שחקנים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מסחר?",
+        "options_he": [
+          "לחיצת יד שומרת על רוח טובה",
+          "הצעה טובה עוזרת לשני צדדים",
+          "מתכננים בלי לחשוף הכל"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "הצעה טובה עוזרת לשני צדדים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף מסחר הכי חשוב לזכור?",
+        "options_he": [
+          "משימה סודית מוסיפה מתח",
+          "תוצאה אקראית משנה תור",
+          "צריך להסכים לפני החלפה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "צריך להסכים לפני החלפה"
+      }
+    }
+  },
+  "board-games-10-endgame": {
+    "card_id": "board-games-10-endgame",
+    "pack_id": "board-games",
+    "pack_title_he": "משחקי קופסה",
+    "title_he": "סיום משחק",
+    "facts_he": [
+      "סיום קורה לפי תנאי ברור",
+      "בודקים ניקוד אחרי הפעולה האחרונה",
+      "לחיצת יד שומרת על רוח טובה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף סיום משחק?",
+        "options_he": [
+          "הצעה טובה עוזרת לשני צדדים",
+          "לא תמיד מגלים את המטרה",
+          "סיום קורה לפי תנאי ברור"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "סיום קורה לפי תנאי ברור"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף סיום משחק?",
+        "options_he": [
+          "מיקום החייל חשוב לתכנון",
+          "תור נותן לכל שחקן זמן פעולה",
+          "בודקים ניקוד אחרי הפעולה האחרונה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "בודקים ניקוד אחרי הפעולה האחרונה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשיושבים למשחק קופסה עם חברים, איזה פרט מהקלף סיום משחק הכי חשוב לזכור?",
+        "options_he": [
+          "תוצאה אקראית משנה תור",
+          "לחיצת יד שומרת על רוח טובה",
+          "עיצוב הלוח מכוון את המשחק"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "לחיצת יד שומרת על רוח טובה"
+      }
+    }
+  },
+  "sports-01-soccer": {
+    "card_id": "sports-01-soccer",
+    "pack_id": "sports",
+    "pack_title_he": "ספורט",
+    "title_he": "כדורגל",
+    "facts_he": [
+      "כדורגל משוחק עם שערים וכדור",
+      "מסירות עוזרות לקבוצה להתקדם",
+      "שוער מגן על השער"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף כדורגל?",
+        "options_he": [
+          "אופניים מתקדמים בעזרת דיווש",
+          "ריצה משפרת סיבולת",
+          "כדורגל משוחק עם שערים וכדור"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "כדורגל משוחק עם שערים וכדור"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף כדורגל?",
+        "options_he": [
+          "תנועה מהירה עוזרת להגיע לכדור",
+          "מסירות עוזרות לקבוצה להתקדם",
+          "קצב נכון עוזר להתמיד"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מסירות עוזרות לקבוצה להתקדם"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף כדורגל הכי חשוב לזכור?",
+        "options_he": [
+          "שוער מגן על השער",
+          "מחבט פוגע בכדור מעל רשת",
+          "מסירה מהירה יוצרת הזדמנות"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "שוער מגן על השער"
+      }
+    }
+  },
+  "sports-02-basketball": {
+    "card_id": "sports-02-basketball",
+    "pack_id": "sports",
+    "pack_title_he": "ספורט",
+    "title_he": "כדורסל",
+    "facts_he": [
+      "קולעים כדור לסל גבוה",
+      "כדרור עוזר לנוע עם הכדור",
+      "מסירה מהירה יוצרת הזדמנות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף כדורסל?",
+        "options_he": [
+          "קולעים כדור לסל גבוה",
+          "כדורגל משוחק עם שערים וכדור",
+          "שחייה מחזקת את כל הגוף"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "קולעים כדור לסל גבוה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף כדורסל?",
+        "options_he": [
+          "התעמלות דורשת גמישות וכוח",
+          "כדרור עוזר לנוע עם הכדור",
+          "ריצה משפרת סיבולת"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "כדרור עוזר לנוע עם הכדור"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף כדורסל הכי חשוב לזכור?",
+        "options_he": [
+          "מסירות עוזרות לקבוצה להתקדם",
+          "מסירה מהירה יוצרת הזדמנות",
+          "ריצה משפרת סיבולת"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מסירה מהירה יוצרת הזדמנות"
+      }
+    }
+  },
+  "sports-03-swimming": {
+    "card_id": "sports-03-swimming",
+    "pack_id": "sports",
+    "pack_title_he": "ספורט",
+    "title_he": "שחייה",
+    "facts_he": [
+      "שחייה מחזקת את כל הגוף",
+      "מים דורשים נשימה מסודרת",
+      "שוחים רק במקום בטוח"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף שחייה?",
+        "options_he": [
+          "התעמלות דורשת גמישות וכוח",
+          "שחייה מחזקת את כל הגוף",
+          "תיאום עוזר להגנה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "שחייה מחזקת את כל הגוף"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף שחייה?",
+        "options_he": [
+          "תרגול חוזר משפר תנועה",
+          "מים דורשים נשימה מסודרת",
+          "רצים בין בסיסים לפי התקדמות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מים דורשים נשימה מסודרת"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף שחייה הכי חשוב לזכור?",
+        "options_he": [
+          "שוחים רק במקום בטוח",
+          "חימום מכין את השרירים",
+          "דיוק חשוב בכיוון המכה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "שוחים רק במקום בטוח"
+      }
+    }
+  },
+  "sports-04-running": {
+    "card_id": "sports-04-running",
+    "pack_id": "sports",
+    "pack_title_he": "ספורט",
+    "title_he": "ריצה",
+    "facts_he": [
+      "ריצה משפרת סיבולת",
+      "קצב נכון עוזר להתמיד",
+      "חימום מכין את השרירים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף ריצה?",
+        "options_he": [
+          "ריצה משפרת סיבולת",
+          "קסדה שומרת על הראש",
+          "בוחרים נקודת אחיזה הבאה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "ריצה משפרת סיבולת"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף ריצה?",
+        "options_he": [
+          "תיאום עוזר להגנה",
+          "קסדה שומרת על הראש",
+          "קצב נכון עוזר להתמיד"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "קצב נכון עוזר להתמיד"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף ריצה הכי חשוב לזכור?",
+        "options_he": [
+          "חימום מכין את השרירים",
+          "התעמלות דורשת גמישות וכוח",
+          "קולעים כדור לסל גבוה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "חימום מכין את השרירים"
+      }
+    }
+  },
+  "sports-05-tennis": {
+    "card_id": "sports-05-tennis",
+    "pack_id": "sports",
+    "pack_title_he": "ספורט",
+    "title_he": "טניס",
+    "facts_he": [
+      "מחבט פוגע בכדור מעל רשת",
+      "דיוק חשוב בכיוון המכה",
+      "תנועה מהירה עוזרת להגיע לכדור"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף טניס?",
+        "options_he": [
+          "חימום מכין את השרירים",
+          "קצב נכון עוזר להתמיד",
+          "מחבט פוגע בכדור מעל רשת"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מחבט פוגע בכדור מעל רשת"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף טניס?",
+        "options_he": [
+          "אופניים מתקדמים בעזרת דיווש",
+          "תרגול חוזר משפר תנועה",
+          "דיוק חשוב בכיוון המכה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "דיוק חשוב בכיוון המכה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף טניס הכי חשוב לזכור?",
+        "options_he": [
+          "אופניים מתקדמים בעזרת דיווש",
+          "תנועה מהירה עוזרת להגיע לכדור",
+          "כדרור עוזר לנוע עם הכדור"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "תנועה מהירה עוזרת להגיע לכדור"
+      }
+    }
+  },
+  "sports-06-judo": {
+    "card_id": "sports-06-judo",
+    "pack_id": "sports",
+    "pack_title_he": "ספורט",
+    "title_he": "ג׳ודו",
+    "facts_he": [
+      "ג׳ודו מלמד שליטה וכבוד",
+      "נופלים נכון כדי להישמר",
+      "טכניקה חשובה מכוח בלבד"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף ג׳ודו?",
+        "options_he": [
+          "קסדה שומרת על הראש",
+          "אופניים מתקדמים בעזרת דיווש",
+          "ג׳ודו מלמד שליטה וכבוד"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "ג׳ודו מלמד שליטה וכבוד"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף ג׳ודו?",
+        "options_he": [
+          "שוער מגן על השער",
+          "בוחרים נקודת אחיזה הבאה",
+          "נופלים נכון כדי להישמר"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "נופלים נכון כדי להישמר"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף ג׳ודו הכי חשוב לזכור?",
+        "options_he": [
+          "שחייה מחזקת את כל הגוף",
+          "טכניקה חשובה מכוח בלבד",
+          "תנועה מהירה עוזרת להגיע לכדור"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "טכניקה חשובה מכוח בלבד"
+      }
+    }
+  },
+  "sports-07-cycling": {
+    "card_id": "sports-07-cycling",
+    "pack_id": "sports",
+    "pack_title_he": "ספורט",
+    "title_he": "רכיבה",
+    "facts_he": [
+      "אופניים מתקדמים בעזרת דיווש",
+      "קסדה שומרת על הראש",
+      "איזון עוזר בפניות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף רכיבה?",
+        "options_he": [
+          "חימום מכין את השרירים",
+          "אופניים מתקדמים בעזרת דיווש",
+          "נופלים נכון כדי להישמר"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אופניים מתקדמים בעזרת דיווש"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף רכיבה?",
+        "options_he": [
+          "טיפוס דורש אחיזה וריכוז",
+          "כדורגל משוחק עם שערים וכדור",
+          "קסדה שומרת על הראש"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "קסדה שומרת על הראש"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף רכיבה הכי חשוב לזכור?",
+        "options_he": [
+          "איזון עוזר בפניות",
+          "שחייה מחזקת את כל הגוף",
+          "כדורגל משוחק עם שערים וכדור"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "איזון עוזר בפניות"
+      }
+    }
+  },
+  "sports-08-gymnastics": {
+    "card_id": "sports-08-gymnastics",
+    "pack_id": "sports",
+    "pack_title_he": "ספורט",
+    "title_he": "התעמלות",
+    "facts_he": [
+      "התעמלות דורשת גמישות וכוח",
+      "תרגול חוזר משפר תנועה",
+      "מזרן עוזר לנחיתה בטוחה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף התעמלות?",
+        "options_he": [
+          "התעמלות דורשת גמישות וכוח",
+          "קולעים כדור לסל גבוה",
+          "איזון עוזר בפניות"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "התעמלות דורשת גמישות וכוח"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף התעמלות?",
+        "options_he": [
+          "כדורגל משוחק עם שערים וכדור",
+          "ג׳ודו מלמד שליטה וכבוד",
+          "תרגול חוזר משפר תנועה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "תרגול חוזר משפר תנועה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף התעמלות הכי חשוב לזכור?",
+        "options_he": [
+          "מזרן עוזר לנחיתה בטוחה",
+          "כדורגל משוחק עם שערים וכדור",
+          "נופלים נכון כדי להישמר"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מזרן עוזר לנחיתה בטוחה"
+      }
+    }
+  },
+  "sports-09-baseball": {
+    "card_id": "sports-09-baseball",
+    "pack_id": "sports",
+    "pack_title_he": "ספורט",
+    "title_he": "בייסבול",
+    "facts_he": [
+      "מחבט פוגע בכדור נזרק",
+      "רצים בין בסיסים לפי התקדמות",
+      "תיאום עוזר להגנה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף בייסבול?",
+        "options_he": [
+          "מחבט פוגע בכדור נזרק",
+          "כדרור עוזר לנוע עם הכדור",
+          "טיפוס דורש אחיזה וריכוז"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מחבט פוגע בכדור נזרק"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף בייסבול?",
+        "options_he": [
+          "מסירות עוזרות לקבוצה להתקדם",
+          "שוחים רק במקום בטוח",
+          "רצים בין בסיסים לפי התקדמות"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "רצים בין בסיסים לפי התקדמות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף בייסבול הכי חשוב לזכור?",
+        "options_he": [
+          "תרגול חוזר משפר תנועה",
+          "כדורגל משוחק עם שערים וכדור",
+          "תיאום עוזר להגנה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "תיאום עוזר להגנה"
+      }
+    }
+  },
+  "sports-10-climbing": {
+    "card_id": "sports-10-climbing",
+    "pack_id": "sports",
+    "pack_title_he": "ספורט",
+    "title_he": "טיפוס",
+    "facts_he": [
+      "טיפוס דורש אחיזה וריכוז",
+      "בוחרים נקודת אחיזה הבאה",
+      "ציוד בטיחות חשוב מאוד"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף טיפוס?",
+        "options_he": [
+          "טיפוס דורש אחיזה וריכוז",
+          "מסירות עוזרות לקבוצה להתקדם",
+          "מחבט פוגע בכדור מעל רשת"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "טיפוס דורש אחיזה וריכוז"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף טיפוס?",
+        "options_he": [
+          "בוחרים נקודת אחיזה הבאה",
+          "כדרור עוזר לנוע עם הכדור",
+          "נופלים נכון כדי להישמר"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "בוחרים נקודת אחיזה הבאה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמתאמנים בצורה בטוחה, איזה פרט מהקלף טיפוס הכי חשוב לזכור?",
+        "options_he": [
+          "כדורגל משוחק עם שערים וכדור",
+          "איזון עוזר בפניות",
+          "ציוד בטיחות חשוב מאוד"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "ציוד בטיחות חשוב מאוד"
+      }
+    }
+  },
+  "music-01-guitar": {
+    "card_id": "music-01-guitar",
+    "pack_id": "music",
+    "pack_title_he": "מוזיקה",
+    "title_he": "גיטרה",
+    "facts_he": [
+      "מיתרים רוטטים ויוצרים צליל",
+      "אקורדים מחברים כמה צלילים",
+      "פריטה משנה את האופי"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף גיטרה?",
+        "options_he": [
+          "מנצח מוביל תזמורת בתנועות יד",
+          "מיתרים רוטטים ויוצרים צליל",
+          "מקצב הוא דפוס של פעימות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מיתרים רוטטים ויוצרים צליל"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף גיטרה?",
+        "options_he": [
+          "אקורדים מחברים כמה צלילים",
+          "מקצב הוא דפוס של פעימות",
+          "לחץ האצבע משנה גובה צליל"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אקורדים מחברים כמה צלילים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמנגנים יחד, איזה פרט מהקלף גיטרה הכי חשוב לזכור?",
+        "options_he": [
+          "מלודיה היא רצף צלילים זכיר",
+          "פריטה משנה את האופי",
+          "חצוצרה היא כלי נשיפה ממתכת"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "פריטה משנה את האופי"
+      }
+    }
+  },
+  "music-02-piano": {
+    "card_id": "music-02-piano",
+    "pack_id": "music",
+    "pack_title_he": "מוזיקה",
+    "title_he": "פסנתר",
+    "facts_he": [
+      "קלידים מפעילים פטישים קטנים",
+      "יד ימין ושמאל מנגנות יחד",
+      "צלילים נמוכים וגבוהים מסודרים בשורה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף פסנתר?",
+        "options_he": [
+          "קצב עוזר לנגן יחד",
+          "קלידים מפעילים פטישים קטנים",
+          "לחץ האצבע משנה גובה צליל"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "קלידים מפעילים פטישים קטנים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף פסנתר?",
+        "options_he": [
+          "אפשר למחוא כפיים לפי קצב",
+          "צלילים עולים ויורדים יוצרים תנועה",
+          "יד ימין ושמאל מנגנות יחד"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "יד ימין ושמאל מנגנות יחד"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמנגנים יחד, איזה פרט מהקלף פסנתר הכי חשוב לזכור?",
+        "options_he": [
+          "צלילים נמוכים וגבוהים מסודרים בשורה",
+          "קצב עוזר לנגן יחד",
+          "קצב חוזר עוזר לשיר לזוז"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "צלילים נמוכים וגבוהים מסודרים בשורה"
+      }
+    }
+  },
+  "music-03-drums": {
+    "card_id": "music-03-drums",
+    "pack_id": "music",
+    "pack_title_he": "מוזיקה",
+    "title_he": "תופים",
+    "facts_he": [
+      "תופים שומרים על קצב",
+      "מקלות יוצרים מכות שונות",
+      "קצב חוזר עוזר לשיר לזוז"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף תופים?",
+        "options_he": [
+          "צלילים עולים ויורדים יוצרים תנועה",
+          "תופים שומרים על קצב",
+          "הקשבה שומרת על הרמוניה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "תופים שומרים על קצב"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף תופים?",
+        "options_he": [
+          "קלידים מפעילים פטישים קטנים",
+          "מקצב הוא דפוס של פעימות",
+          "מקלות יוצרים מכות שונות"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מקלות יוצרים מכות שונות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמנגנים יחד, איזה פרט מהקלף תופים הכי חשוב לזכור?",
+        "options_he": [
+          "כינור נפוץ בתזמורת",
+          "אפשר למחוא כפיים לפי קצב",
+          "קצב חוזר עוזר לשיר לזוז"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "קצב חוזר עוזר לשיר לזוז"
+      }
+    }
+  },
+  "music-04-flute": {
+    "card_id": "music-04-flute",
+    "pack_id": "music",
+    "pack_title_he": "מוזיקה",
+    "title_he": "חליל",
+    "facts_he": [
+      "נשיפה מפיקה צליל בחליל",
+      "אצבעות פותחות וסוגרות חורים",
+      "צליל חליל יכול להיות עדין"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף חליל?",
+        "options_he": [
+          "שפתיים רוטטות בתוך הפיה",
+          "קצב עוזר לנגן יחד",
+          "נשיפה מפיקה צליל בחליל"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "נשיפה מפיקה צליל בחליל"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף חליל?",
+        "options_he": [
+          "לחץ האצבע משנה גובה צליל",
+          "אצבעות פותחות וסוגרות חורים",
+          "מקהלה שרה בקולות רבים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אצבעות פותחות וסוגרות חורים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמנגנים יחד, איזה פרט מהקלף חליל הכי חשוב לזכור?",
+        "options_he": [
+          "קשת מחליקה על מיתרים",
+          "צליל חליל יכול להיות עדין",
+          "מלודיה היא רצף צלילים זכיר"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "צליל חליל יכול להיות עדין"
+      }
+    }
+  },
+  "music-05-violin": {
+    "card_id": "music-05-violin",
+    "pack_id": "music",
+    "pack_title_he": "מוזיקה",
+    "title_he": "כינור",
+    "facts_he": [
+      "קשת מחליקה על מיתרים",
+      "לחץ האצבע משנה גובה צליל",
+      "כינור נפוץ בתזמורת"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף כינור?",
+        "options_he": [
+          "יד ימין ושמאל מנגנות יחד",
+          "צלילים עולים ויורדים יוצרים תנועה",
+          "קשת מחליקה על מיתרים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "קשת מחליקה על מיתרים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף כינור?",
+        "options_he": [
+          "קלידים מפעילים פטישים קטנים",
+          "לחץ האצבע משנה גובה צליל",
+          "צלילים נמוכים וגבוהים מסודרים בשורה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "לחץ האצבע משנה גובה צליל"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמנגנים יחד, איזה פרט מהקלף כינור הכי חשוב לזכור?",
+        "options_he": [
+          "סימנים עוזרים לשמור על קצב",
+          "אקורדים מחברים כמה צלילים",
+          "כינור נפוץ בתזמורת"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "כינור נפוץ בתזמורת"
+      }
+    }
+  },
+  "music-06-trumpet": {
+    "card_id": "music-06-trumpet",
+    "pack_id": "music",
+    "pack_title_he": "מוזיקה",
+    "title_he": "חצוצרה",
+    "facts_he": [
+      "חצוצרה היא כלי נשיפה ממתכת",
+      "שפתיים רוטטות בתוך הפיה",
+      "כפתורים משנים את הצליל"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף חצוצרה?",
+        "options_he": [
+          "קצב עוזר לנגן יחד",
+          "חצוצרה היא כלי נשיפה ממתכת",
+          "קלידים מפעילים פטישים קטנים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "חצוצרה היא כלי נשיפה ממתכת"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף חצוצרה?",
+        "options_he": [
+          "שפתיים רוטטות בתוך הפיה",
+          "סימנים עוזרים לשמור על קצב",
+          "פריטה משנה את האופי"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "שפתיים רוטטות בתוך הפיה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמנגנים יחד, איזה פרט מהקלף חצוצרה הכי חשוב לזכור?",
+        "options_he": [
+          "קצב חוזר עוזר לשיר לזוז",
+          "מנצח מוביל תזמורת בתנועות יד",
+          "כפתורים משנים את הצליל"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "כפתורים משנים את הצליל"
+      }
+    }
+  },
+  "music-07-rhythm": {
+    "card_id": "music-07-rhythm",
+    "pack_id": "music",
+    "pack_title_he": "מוזיקה",
+    "title_he": "מקצב",
+    "facts_he": [
+      "מקצב הוא דפוס של פעימות",
+      "אפשר למחוא כפיים לפי קצב",
+      "קצב עוזר לנגן יחד"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מקצב?",
+        "options_he": [
+          "שיר יכול להכיל כמה מלודיות",
+          "מקצב הוא דפוס של פעימות",
+          "צליל חליל יכול להיות עדין"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מקצב הוא דפוס של פעימות"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מקצב?",
+        "options_he": [
+          "קשת מחליקה על מיתרים",
+          "אפשר למחוא כפיים לפי קצב",
+          "קצב חוזר עוזר לשיר לזוז"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אפשר למחוא כפיים לפי קצב"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמנגנים יחד, איזה פרט מהקלף מקצב הכי חשוב לזכור?",
+        "options_he": [
+          "קצב עוזר לנגן יחד",
+          "קלידים מפעילים פטישים קטנים",
+          "קולות שונים יוצרים עומק"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "קצב עוזר לנגן יחד"
+      }
+    }
+  },
+  "music-08-melody": {
+    "card_id": "music-08-melody",
+    "pack_id": "music",
+    "pack_title_he": "מוזיקה",
+    "title_he": "מלודיה",
+    "facts_he": [
+      "מלודיה היא רצף צלילים זכיר",
+      "שיר יכול להכיל כמה מלודיות",
+      "צלילים עולים ויורדים יוצרים תנועה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מלודיה?",
+        "options_he": [
+          "מלודיה היא רצף צלילים זכיר",
+          "נשיפה מפיקה צליל בחליל",
+          "קלידים מפעילים פטישים קטנים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מלודיה היא רצף צלילים זכיר"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מלודיה?",
+        "options_he": [
+          "שיר יכול להכיל כמה מלודיות",
+          "אקורדים מחברים כמה צלילים",
+          "סימנים עוזרים לשמור על קצב"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "שיר יכול להכיל כמה מלודיות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמנגנים יחד, איזה פרט מהקלף מלודיה הכי חשוב לזכור?",
+        "options_he": [
+          "סימנים עוזרים לשמור על קצב",
+          "צלילים עולים ויורדים יוצרים תנועה",
+          "הקשבה שומרת על הרמוניה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "צלילים עולים ויורדים יוצרים תנועה"
+      }
+    }
+  },
+  "music-09-choir": {
+    "card_id": "music-09-choir",
+    "pack_id": "music",
+    "pack_title_he": "מוזיקה",
+    "title_he": "מקהלה",
+    "facts_he": [
+      "מקהלה שרה בקולות רבים",
+      "הקשבה שומרת על הרמוניה",
+      "קולות שונים יוצרים עומק"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מקהלה?",
+        "options_he": [
+          "מקהלה שרה בקולות רבים",
+          "מנצח מוביל תזמורת בתנועות יד",
+          "סימנים עוזרים לשמור על קצב"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מקהלה שרה בקולות רבים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מקהלה?",
+        "options_he": [
+          "אקורדים מחברים כמה צלילים",
+          "הקשבה שומרת על הרמוניה",
+          "אצבעות פותחות וסוגרות חורים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "הקשבה שומרת על הרמוניה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמנגנים יחד, איזה פרט מהקלף מקהלה הכי חשוב לזכור?",
+        "options_he": [
+          "מלודיה היא רצף צלילים זכיר",
+          "קולות שונים יוצרים עומק",
+          "כל הנגנים עוקבים יחד"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "קולות שונים יוצרים עומק"
+      }
+    }
+  },
+  "music-10-conductor": {
+    "card_id": "music-10-conductor",
+    "pack_id": "music",
+    "pack_title_he": "מוזיקה",
+    "title_he": "מנצח",
+    "facts_he": [
+      "מנצח מוביל תזמורת בתנועות יד",
+      "סימנים עוזרים לשמור על קצב",
+      "כל הנגנים עוקבים יחד"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מנצח?",
+        "options_he": [
+          "שפתיים רוטטות בתוך הפיה",
+          "אצבעות פותחות וסוגרות חורים",
+          "מנצח מוביל תזמורת בתנועות יד"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מנצח מוביל תזמורת בתנועות יד"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מנצח?",
+        "options_he": [
+          "צלילים נמוכים וגבוהים מסודרים בשורה",
+          "סימנים עוזרים לשמור על קצב",
+          "יד ימין ושמאל מנגנות יחד"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "סימנים עוזרים לשמור על קצב"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמנגנים יחד, איזה פרט מהקלף מנצח הכי חשוב לזכור?",
+        "options_he": [
+          "יד ימין ושמאל מנגנות יחד",
+          "כל הנגנים עוקבים יחד",
+          "פריטה משנה את האופי"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "כל הנגנים עוקבים יחד"
+      }
+    }
+  },
+  "desserts-01-chocolate-cake": {
+    "card_id": "desserts-01-chocolate-cake",
+    "pack_id": "desserts",
+    "pack_title_he": "קינוחים",
+    "title_he": "עוגת שוקולד",
+    "facts_he": [
+      "קקאו נותן טעם שוקולדי",
+      "אפייה מחממת את הבלילה",
+      "ציפוי מוסיף מראה חגיגי"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף עוגת שוקולד?",
+        "options_he": [
+          "סופלה עולה בזמן אפייה",
+          "קישוט צבעוני מוסיף שמחה",
+          "קקאו נותן טעם שוקולדי"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "קקאו נותן טעם שוקולדי"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף עוגת שוקולד?",
+        "options_he": [
+          "אפייה מחממת את הבלילה",
+          "סופלה עולה בזמן אפייה",
+          "מחבת רחבה עוזרת לפרוס אותו"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אפייה מחממת את הבלילה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים קינוח, איזה פרט מהקלף עוגת שוקולד הכי חשוב לזכור?",
+        "options_he": [
+          "שקעים מחזיקים רוטב או פרי",
+          "ציפוי מוסיף מראה חגיגי",
+          "פודינג הוא קינוח רך בכוס"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "ציפוי מוסיף מראה חגיגי"
+      }
+    }
+  },
+  "desserts-02-ice-cream": {
+    "card_id": "desserts-02-ice-cream",
+    "pack_id": "desserts",
+    "pack_title_he": "קינוחים",
+    "title_he": "גלידה",
+    "facts_he": [
+      "גלידה נשמרת קפואה",
+      "ערבוב יוצר מרקם חלק",
+      "טעמים שונים מגיעים מפירות או קקאו"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף גלידה?",
+        "options_he": [
+          "מחבת רחבה עוזרת לפרוס אותו",
+          "אוויר בבלילה יוצר גובה",
+          "גלידה נשמרת קפואה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "גלידה נשמרת קפואה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף גלידה?",
+        "options_he": [
+          "אפייה מחממת את הבלילה",
+          "שוליים פריכים ומרכז רך נפוצים",
+          "ערבוב יוצר מרקם חלק"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "ערבוב יוצר מרקם חלק"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים קינוח, איזה פרט מהקלף גלידה הכי חשוב לזכור?",
+        "options_he": [
+          "אפשר להוסיף שוקולד או אגוזים",
+          "קינמון מוסיף ריח מיוחד",
+          "טעמים שונים מגיעים מפירות או קקאו"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "טעמים שונים מגיעים מפירות או קקאו"
+      }
+    }
+  },
+  "desserts-03-cookie": {
+    "card_id": "desserts-03-cookie",
+    "pack_id": "desserts",
+    "pack_title_he": "קינוחים",
+    "title_he": "עוגייה",
+    "facts_he": [
+      "עוגייה נאפית מהר יחסית",
+      "שוליים פריכים ומרכז רך נפוצים",
+      "אפשר להוסיף שוקולד או אגוזים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף עוגייה?",
+        "options_he": [
+          "עוגייה נאפית מהר יחסית",
+          "קישוט צבעוני מוסיף שמחה",
+          "מגישים אותו בעדינות"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "עוגייה נאפית מהר יחסית"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף עוגייה?",
+        "options_he": [
+          "שוליים פריכים ומרכז רך נפוצים",
+          "וופל מקבל צורת ריבועים",
+          "גלידה נשמרת קפואה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "שוליים פריכים ומרכז רך נפוצים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים קינוח, איזה פרט מהקלף עוגייה הכי חשוב לזכור?",
+        "options_he": [
+          "קינוח קל מתאים לקיץ",
+          "אפשר להוסיף שוקולד או אגוזים",
+          "אפייה מחממת את הבלילה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אפשר להוסיף שוקולד או אגוזים"
+      }
+    }
+  },
+  "desserts-04-apple-pie": {
+    "card_id": "desserts-04-apple-pie",
+    "pack_id": "desserts",
+    "pack_title_he": "קינוחים",
+    "title_he": "פאי תפוחים",
+    "facts_he": [
+      "פאי משלב בצק ומילוי",
+      "תפוחים מתרככים בחום",
+      "קינמון מוסיף ריח מיוחד"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף פאי תפוחים?",
+        "options_he": [
+          "מחבת רחבה עוזרת לפרוס אותו",
+          "פאי משלב בצק ומילוי",
+          "אפשר להוסיף שוקולד או אגוזים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "פאי משלב בצק ומילוי"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף פאי תפוחים?",
+        "options_he": [
+          "תפוחים מתרככים בחום",
+          "מכשיר חם אופה את הבלילה",
+          "אוויר בבלילה יוצר גובה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "תפוחים מתרככים בחום"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים קינוח, איזה פרט מהקלף פאי תפוחים הכי חשוב לזכור?",
+        "options_he": [
+          "קקאו נותן טעם שוקולדי",
+          "קינמון מוסיף ריח מיוחד",
+          "קינוח קל מתאים לקיץ"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "קינמון מוסיף ריח מיוחד"
+      }
+    }
+  },
+  "desserts-05-pudding": {
+    "card_id": "desserts-05-pudding",
+    "pack_id": "desserts",
+    "pack_title_he": "קינוחים",
+    "title_he": "פודינג",
+    "facts_he": [
+      "פודינג הוא קינוח רך בכוס",
+      "קירור עוזר לו להתייצב",
+      "אפשר לקשט בפירות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף פודינג?",
+        "options_he": [
+          "ציפוי מוסיף מראה חגיגי",
+          "פודינג הוא קינוח רך בכוס",
+          "מילוי מתוק משנה טעם"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "פודינג הוא קינוח רך בכוס"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף פודינג?",
+        "options_he": [
+          "קינמון מוסיף ריח מיוחד",
+          "מילוי מתוק משנה טעם",
+          "קירור עוזר לו להתייצב"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "קירור עוזר לו להתייצב"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים קינוח, איזה פרט מהקלף פודינג הכי חשוב לזכור?",
+        "options_he": [
+          "אפשר לקשט בפירות",
+          "קאפקייק הוא עוגה קטנה",
+          "מכשיר חם אופה את הבלילה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אפשר לקשט בפירות"
+      }
+    }
+  },
+  "desserts-06-cupcake": {
+    "card_id": "desserts-06-cupcake",
+    "pack_id": "desserts",
+    "pack_title_he": "קינוחים",
+    "title_he": "קאפקייק",
+    "facts_he": [
+      "קאפקייק הוא עוגה קטנה",
+      "תבנית אישית שומרת על צורה",
+      "קישוט צבעוני מוסיף שמחה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף קאפקייק?",
+        "options_he": [
+          "גלידה נשמרת קפואה",
+          "מיץ טבעי מחבר טעמים",
+          "קאפקייק הוא עוגה קטנה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "קאפקייק הוא עוגה קטנה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף קאפקייק?",
+        "options_he": [
+          "תבנית אישית שומרת על צורה",
+          "אפשר לקשט בפירות",
+          "סופלה עולה בזמן אפייה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "תבנית אישית שומרת על צורה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים קינוח, איזה פרט מהקלף קאפקייק הכי חשוב לזכור?",
+        "options_he": [
+          "קרפ הוא עלה בצק דק",
+          "קישוט צבעוני מוסיף שמחה",
+          "קינוח קל מתאים לקיץ"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "קישוט צבעוני מוסיף שמחה"
+      }
+    }
+  },
+  "desserts-07-crepe": {
+    "card_id": "desserts-07-crepe",
+    "pack_id": "desserts",
+    "pack_title_he": "קינוחים",
+    "title_he": "קרפ",
+    "facts_he": [
+      "קרפ הוא עלה בצק דק",
+      "מחבת רחבה עוזרת לפרוס אותו",
+      "מילוי מתוק משנה טעם"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף קרפ?",
+        "options_he": [
+          "קרפ הוא עלה בצק דק",
+          "קירור עוזר לו להתייצב",
+          "שוליים פריכים ומרכז רך נפוצים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "קרפ הוא עלה בצק דק"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף קרפ?",
+        "options_he": [
+          "מיץ טבעי מחבר טעמים",
+          "מחבת רחבה עוזרת לפרוס אותו",
+          "עוגייה נאפית מהר יחסית"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מחבת רחבה עוזרת לפרוס אותו"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים קינוח, איזה פרט מהקלף קרפ הכי חשוב לזכור?",
+        "options_he": [
+          "פירות חתוכים יוצרים צבעים רבים",
+          "מילוי מתוק משנה טעם",
+          "מיץ טבעי מחבר טעמים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מילוי מתוק משנה טעם"
+      }
+    }
+  },
+  "desserts-08-souffle": {
+    "card_id": "desserts-08-souffle",
+    "pack_id": "desserts",
+    "pack_title_he": "קינוחים",
+    "title_he": "סופלה",
+    "facts_he": [
+      "סופלה עולה בזמן אפייה",
+      "אוויר בבלילה יוצר גובה",
+      "מגישים אותו בעדינות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף סופלה?",
+        "options_he": [
+          "מילוי מתוק משנה טעם",
+          "סופלה עולה בזמן אפייה",
+          "קישוט צבעוני מוסיף שמחה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "סופלה עולה בזמן אפייה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף סופלה?",
+        "options_he": [
+          "ציפוי מוסיף מראה חגיגי",
+          "אוויר בבלילה יוצר גובה",
+          "אפשר להוסיף שוקולד או אגוזים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "אוויר בבלילה יוצר גובה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים קינוח, איזה פרט מהקלף סופלה הכי חשוב לזכור?",
+        "options_he": [
+          "קקאו נותן טעם שוקולדי",
+          "מגישים אותו בעדינות",
+          "אפשר להוסיף שוקולד או אגוזים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מגישים אותו בעדינות"
+      }
+    }
+  },
+  "desserts-09-fruit-salad": {
+    "card_id": "desserts-09-fruit-salad",
+    "pack_id": "desserts",
+    "pack_title_he": "קינוחים",
+    "title_he": "סלט פירות",
+    "facts_he": [
+      "פירות חתוכים יוצרים צבעים רבים",
+      "מיץ טבעי מחבר טעמים",
+      "קינוח קל מתאים לקיץ"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף סלט פירות?",
+        "options_he": [
+          "שוליים פריכים ומרכז רך נפוצים",
+          "תבנית אישית שומרת על צורה",
+          "פירות חתוכים יוצרים צבעים רבים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "פירות חתוכים יוצרים צבעים רבים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף סלט פירות?",
+        "options_he": [
+          "מילוי מתוק משנה טעם",
+          "אפייה מחממת את הבלילה",
+          "מיץ טבעי מחבר טעמים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מיץ טבעי מחבר טעמים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים קינוח, איזה פרט מהקלף סלט פירות הכי חשוב לזכור?",
+        "options_he": [
+          "אפייה מחממת את הבלילה",
+          "אפשר להוסיף שוקולד או אגוזים",
+          "קינוח קל מתאים לקיץ"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "קינוח קל מתאים לקיץ"
+      }
+    }
+  },
+  "desserts-10-waffle": {
+    "card_id": "desserts-10-waffle",
+    "pack_id": "desserts",
+    "pack_title_he": "קינוחים",
+    "title_he": "וופל",
+    "facts_he": [
+      "וופל מקבל צורת ריבועים",
+      "מכשיר חם אופה את הבלילה",
+      "שקעים מחזיקים רוטב או פרי"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף וופל?",
+        "options_he": [
+          "וופל מקבל צורת ריבועים",
+          "פירות חתוכים יוצרים צבעים רבים",
+          "אפייה מחממת את הבלילה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "וופל מקבל צורת ריבועים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף וופל?",
+        "options_he": [
+          "אוויר בבלילה יוצר גובה",
+          "פודינג הוא קינוח רך בכוס",
+          "מכשיר חם אופה את הבלילה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מכשיר חם אופה את הבלילה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשמכינים קינוח, איזה פרט מהקלף וופל הכי חשוב לזכור?",
+        "options_he": [
+          "ציפוי מוסיף מראה חגיגי",
+          "שקעים מחזיקים רוטב או פרי",
+          "טעמים שונים מגיעים מפירות או קקאו"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "שקעים מחזיקים רוטב או פרי"
+      }
+    }
+  },
+  "robots-01-light-sensor": {
+    "card_id": "robots-01-light-sensor",
+    "pack_id": "robots",
+    "pack_title_he": "רובוטים",
+    "title_he": "חיישן אור",
+    "facts_he": [
+      "חיישן אור מודד בהירות",
+      "רובוט יכול להגיב לאור",
+      "מדידה עוזרת לקבל החלטה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף חיישן אור?",
+        "options_he": [
+          "חיישן אור מודד בהירות",
+          "כל רובוט מקבל תפקיד אחר",
+          "גלגלים עוזרים לרובוט לנוע"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "חיישן אור מודד בהירות"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף חיישן אור?",
+        "options_he": [
+          "זרוע רובוטית מרימה חפצים",
+          "רובוט יכול להגיב לאור",
+          "קו על הרצפה יכול להנחות רובוט"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "רובוט יכול להגיב לאור"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף חיישן אור הכי חשוב לזכור?",
+        "options_he": [
+          "מהירות תלויה בכוח ובתכנון",
+          "מדידה עוזרת לקבל החלטה",
+          "מפרקים מאפשרים תנועה מדויקת"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מדידה עוזרת לקבל החלטה"
+      }
+    }
+  },
+  "robots-02-small-motor": {
+    "card_id": "robots-02-small-motor",
+    "pack_id": "robots",
+    "pack_title_he": "רובוטים",
+    "title_he": "מנוע קטן",
+    "facts_he": [
+      "מנוע הופך חשמל לתנועה",
+      "גלגלים צריכים מנוע להסתובב",
+      "מהירות תלויה בכוח ובתכנון"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מנוע קטן?",
+        "options_he": [
+          "פקודות לפי סדר יוצרות פעולה",
+          "מנוע הופך חשמל לתנועה",
+          "גודל גלגל משנה יציבות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "מנוע הופך חשמל לתנועה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מנוע קטן?",
+        "options_he": [
+          "חוסכים חשמל בתכנון נכון",
+          "מפרקים מאפשרים תנועה מדויקת",
+          "גלגלים צריכים מנוע להסתובב"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "גלגלים צריכים מנוע להסתובב"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף מנוע קטן הכי חשוב לזכור?",
+        "options_he": [
+          "גלגלים עוזרים לרובוט לנוע",
+          "חיישן אור מודד בהירות",
+          "מהירות תלויה בכוח ובתכנון"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מהירות תלויה בכוח ובתכנון"
+      }
+    }
+  },
+  "robots-03-robot-arm": {
+    "card_id": "robots-03-robot-arm",
+    "pack_id": "robots",
+    "pack_title_he": "רובוטים",
+    "title_he": "זרוע רובוטית",
+    "facts_he": [
+      "זרוע רובוטית מרימה חפצים",
+      "מפרקים מאפשרים תנועה מדויקת",
+      "תכנון טוב מונע נפילות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף זרוע רובוטית?",
+        "options_he": [
+          "זרוע רובוטית מרימה חפצים",
+          "סוללה מספקת אנרגיה לרובוט",
+          "כמה רובוטים יכולים לשתף פעולה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "זרוע רובוטית מרימה חפצים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף זרוע רובוטית?",
+        "options_he": [
+          "מפרקים מאפשרים תנועה מדויקת",
+          "מדידה עוזרת לקבל החלטה",
+          "חיישן אור מודד בהירות"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מפרקים מאפשרים תנועה מדויקת"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף זרוע רובוטית הכי חשוב לזכור?",
+        "options_he": [
+          "תקשורת מונעת התנגשות",
+          "תכנון טוב מונע נפילות",
+          "מדידה עוזרת לקבל החלטה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "תכנון טוב מונע נפילות"
+      }
+    }
+  },
+  "robots-04-command-code": {
+    "card_id": "robots-04-command-code",
+    "pack_id": "robots",
+    "pack_title_he": "רובוטים",
+    "title_he": "קוד פקודות",
+    "facts_he": [
+      "קוד אומר לרובוט מה לעשות",
+      "פקודות לפי סדר יוצרות פעולה",
+      "בדיקה מגלה שגיאות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף קוד פקודות?",
+        "options_he": [
+          "קוד אומר לרובוט מה לעשות",
+          "תקשורת מונעת התנגשות",
+          "בקר מחבר חיישנים ומנועים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "קוד אומר לרובוט מה לעשות"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף קוד פקודות?",
+        "options_he": [
+          "פקודות לפי סדר יוצרות פעולה",
+          "מנוע הופך חשמל לתנועה",
+          "רובוט שירות עוזר במשימה חוזרת"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "פקודות לפי סדר יוצרות פעולה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף קוד פקודות הכי חשוב לזכור?",
+        "options_he": [
+          "תפקיד ברור מקל על תכנון",
+          "בדיקה מגלה שגיאות",
+          "זרוע רובוטית מרימה חפצים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "בדיקה מגלה שגיאות"
+      }
+    }
+  },
+  "robots-05-wheels": {
+    "card_id": "robots-05-wheels",
+    "pack_id": "robots",
+    "pack_title_he": "רובוטים",
+    "title_he": "גלגלים",
+    "facts_he": [
+      "גלגלים עוזרים לרובוט לנוע",
+      "גודל גלגל משנה יציבות",
+      "משטח חלק מקל על נסיעה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף גלגלים?",
+        "options_he": [
+          "תכנון טוב מונע נפילות",
+          "מסלול עוזר לבדוק ניווט",
+          "גלגלים עוזרים לרובוט לנוע"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "גלגלים עוזרים לרובוט לנוע"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף גלגלים?",
+        "options_he": [
+          "גודל גלגל משנה יציבות",
+          "בקר מחבר חיישנים ומנועים",
+          "תקשורת מונעת התנגשות"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "גודל גלגל משנה יציבות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף גלגלים הכי חשוב לזכור?",
+        "options_he": [
+          "פקודות לפי סדר יוצרות פעולה",
+          "משטח חלק מקל על נסיעה",
+          "גלגלים צריכים מנוע להסתובב"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "משטח חלק מקל על נסיעה"
+      }
+    }
+  },
+  "robots-06-controller": {
+    "card_id": "robots-06-controller",
+    "pack_id": "robots",
+    "pack_title_he": "רובוטים",
+    "title_he": "בקר ראשי",
+    "facts_he": [
+      "בקר מחבר חיישנים ומנועים",
+      "הוא מקבל מידע ושולח הוראות",
+      "בלי בקר קשה לתאם פעולה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף בקר ראשי?",
+        "options_he": [
+          "משטח חלק מקל על נסיעה",
+          "בקר מחבר חיישנים ומנועים",
+          "בטיחות חשובה ליד אנשים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "בקר מחבר חיישנים ומנועים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף בקר ראשי?",
+        "options_he": [
+          "כל רובוט מקבל תפקיד אחר",
+          "הוא מקבל מידע ושולח הוראות",
+          "גודל גלגל משנה יציבות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "הוא מקבל מידע ושולח הוראות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף בקר ראשי הכי חשוב לזכור?",
+        "options_he": [
+          "גודל גלגל משנה יציבות",
+          "בלי בקר קשה לתאם פעולה",
+          "תכנון טוב מונע נפילות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "בלי בקר קשה לתאם פעולה"
+      }
+    }
+  },
+  "robots-07-battery": {
+    "card_id": "robots-07-battery",
+    "pack_id": "robots",
+    "pack_title_he": "רובוטים",
+    "title_he": "סוללה",
+    "facts_he": [
+      "סוללה מספקת אנרגיה לרובוט",
+      "טעינה שומרת על פעילות",
+      "חוסכים חשמל בתכנון נכון"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף סוללה?",
+        "options_he": [
+          "מנוע הופך חשמל לתנועה",
+          "תכנון טוב מונע נפילות",
+          "סוללה מספקת אנרגיה לרובוט"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "סוללה מספקת אנרגיה לרובוט"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף סוללה?",
+        "options_he": [
+          "בדיקה מגלה שגיאות",
+          "טעינה שומרת על פעילות",
+          "גלגלים עוזרים לרובוט לנוע"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "טעינה שומרת על פעילות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף סוללה הכי חשוב לזכור?",
+        "options_he": [
+          "פקודות לפי סדר יוצרות פעולה",
+          "חוסכים חשמל בתכנון נכון",
+          "חיישן אור מודד בהירות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "חוסכים חשמל בתכנון נכון"
+      }
+    }
+  },
+  "robots-08-robot-track": {
+    "card_id": "robots-08-robot-track",
+    "pack_id": "robots",
+    "pack_title_he": "רובוטים",
+    "title_he": "מסלול רובוט",
+    "facts_he": [
+      "מסלול עוזר לבדוק ניווט",
+      "קו על הרצפה יכול להנחות רובוט",
+      "חזרה משפרת דיוק"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מסלול רובוט?",
+        "options_he": [
+          "סוללה מספקת אנרגיה לרובוט",
+          "מהירות תלויה בכוח ובתכנון",
+          "מסלול עוזר לבדוק ניווט"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "מסלול עוזר לבדוק ניווט"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מסלול רובוט?",
+        "options_he": [
+          "גלגלים עוזרים לרובוט לנוע",
+          "קו על הרצפה יכול להנחות רובוט",
+          "תפקיד ברור מקל על תכנון"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "קו על הרצפה יכול להנחות רובוט"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף מסלול רובוט הכי חשוב לזכור?",
+        "options_he": [
+          "גלגלים עוזרים לרובוט לנוע",
+          "חזרה משפרת דיוק",
+          "תקשורת מונעת התנגשות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "חזרה משפרת דיוק"
+      }
+    }
+  },
+  "robots-09-service-robot": {
+    "card_id": "robots-09-service-robot",
+    "pack_id": "robots",
+    "pack_title_he": "רובוטים",
+    "title_he": "רובוט שירות",
+    "facts_he": [
+      "רובוט שירות עוזר במשימה חוזרת",
+      "תפקיד ברור מקל על תכנון",
+      "בטיחות חשובה ליד אנשים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף רובוט שירות?",
+        "options_he": [
+          "כל רובוט מקבל תפקיד אחר",
+          "רובוט שירות עוזר במשימה חוזרת",
+          "זרוע רובוטית מרימה חפצים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "רובוט שירות עוזר במשימה חוזרת"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף רובוט שירות?",
+        "options_he": [
+          "תכנון טוב מונע נפילות",
+          "בלי בקר קשה לתאם פעולה",
+          "תפקיד ברור מקל על תכנון"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "תפקיד ברור מקל על תכנון"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף רובוט שירות הכי חשוב לזכור?",
+        "options_he": [
+          "חזרה משפרת דיוק",
+          "בטיחות חשובה ליד אנשים",
+          "חוסכים חשמל בתכנון נכון"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "בטיחות חשובה ליד אנשים"
+      }
+    }
+  },
+  "robots-10-robot-team": {
+    "card_id": "robots-10-robot-team",
+    "pack_id": "robots",
+    "pack_title_he": "רובוטים",
+    "title_he": "צוות רובוטים",
+    "facts_he": [
+      "כמה רובוטים יכולים לשתף פעולה",
+      "כל רובוט מקבל תפקיד אחר",
+      "תקשורת מונעת התנגשות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף צוות רובוטים?",
+        "options_he": [
+          "חוסכים חשמל בתכנון נכון",
+          "כמה רובוטים יכולים לשתף פעולה",
+          "מנוע הופך חשמל לתנועה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "כמה רובוטים יכולים לשתף פעולה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף צוות רובוטים?",
+        "options_he": [
+          "חוסכים חשמל בתכנון נכון",
+          "תפקיד ברור מקל על תכנון",
+          "כל רובוט מקבל תפקיד אחר"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "כל רובוט מקבל תפקיד אחר"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשבונים רובוט קטן, איזה פרט מהקלף צוות רובוטים הכי חשוב לזכור?",
+        "options_he": [
+          "טעינה שומרת על פעילות",
+          "הוא מקבל מידע ושולח הוראות",
+          "תקשורת מונעת התנגשות"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "תקשורת מונעת התנגשות"
+      }
+    }
+  },
+  "superheroes-original-01-oron": {
+    "card_id": "superheroes-original-01-oron",
+    "pack_id": "superheroes-original",
+    "pack_title_he": "גיבורי על מקוריים",
+    "title_he": "אורון",
+    "facts_he": [
+      "אורון מאיר מקומות חשוכים",
+      "אור עוזר למצוא דרך בטוחה",
+      "כוח טוב דורש אחריות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף אורון?",
+        "options_he": [
+          "אורון מאיר מקומות חשוכים",
+          "הקשבה חשובה כמו פעולה",
+          "נחיתה נכונה חשובה לבטיחות"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אורון מאיר מקומות חשוכים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף אורון?",
+        "options_he": [
+          "אור עוזר למצוא דרך בטוחה",
+          "קול יכול להזהיר מרחוק",
+          "תנועה מהירה דורשת שליטה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אור עוזר למצוא דרך בטוחה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף אורון הכי חשוב לזכור?",
+        "options_he": [
+          "חשמל דורש זהירות רבה",
+          "כוח טוב דורש אחריות",
+          "צלילית משתמשת בגלי קול"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "כוח טוב דורש אחריות"
+      }
+    }
+  },
+  "superheroes-original-02-ruhit": {
+    "card_id": "superheroes-original-02-ruhit",
+    "pack_id": "superheroes-original",
+    "pack_title_he": "גיבורי על מקוריים",
+    "title_he": "רוחית",
+    "facts_he": [
+      "רוחית נעה בזריזות באוויר",
+      "תנועה מהירה דורשת שליטה",
+      "היא עוזרת להעביר מסרים"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף רוחית?",
+        "options_he": [
+          "אורון מאיר מקומות חשוכים",
+          "רוחית נעה בזריזות באוויר",
+          "הגנה טובה שומרת על חברים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "רוחית נעה בזריזות באוויר"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף רוחית?",
+        "options_he": [
+          "הקשבה חשובה כמו פעולה",
+          "תנועה מהירה דורשת שליטה",
+          "סימן ברור עוזר לצוות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "תנועה מהירה דורשת שליטה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף רוחית הכי חשוב לזכור?",
+        "options_he": [
+          "היא עוזרת להעביר מסרים",
+          "רגע לחשוב משנה החלטה",
+          "הגנה טובה שומרת על חברים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "היא עוזרת להעביר מסרים"
+      }
+    }
+  },
+  "superheroes-original-03-red-shield": {
+    "card_id": "superheroes-original-03-red-shield",
+    "pack_id": "superheroes-original",
+    "pack_title_he": "גיבורי על מקוריים",
+    "title_he": "מגן אדום",
+    "facts_he": [
+      "מגן אדום חוסם סכנה",
+      "הגנה טובה שומרת על חברים",
+      "אומץ כולל גם זהירות"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף מגן אדום?",
+        "options_he": [
+          "מגן אדום חוסם סכנה",
+          "נחיתה נכונה חשובה לבטיחות",
+          "תזמון טוב עוזר להצלה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מגן אדום חוסם סכנה"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף מגן אדום?",
+        "options_he": [
+          "כוח טוב דורש אחריות",
+          "הקשבה חשובה כמו פעולה",
+          "הגנה טובה שומרת על חברים"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "הגנה טובה שומרת על חברים"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף מגן אדום הכי חשוב לזכור?",
+        "options_he": [
+          "אומץ כולל גם זהירות",
+          "טבע יכול לעזור בעיר",
+          "בועה יכולה לרכך נפילה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "אומץ כולל גם זהירות"
+      }
+    }
+  },
+  "superheroes-original-04-jumper": {
+    "card_id": "superheroes-original-04-jumper",
+    "pack_id": "superheroes-original",
+    "pack_title_he": "גיבורי על מקוריים",
+    "title_he": "קפיצון",
+    "facts_he": [
+      "קפיצון מדלג מעל מכשולים",
+      "נחיתה נכונה חשובה לבטיחות",
+      "תזמון טוב עוזר להצלה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף קפיצון?",
+        "options_he": [
+          "אור עוזר למצוא דרך בטוחה",
+          "קפיצון מדלג מעל מכשולים",
+          "אומץ כולל גם זהירות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "קפיצון מדלג מעל מכשולים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף קפיצון?",
+        "options_he": [
+          "כוח מדויק עדיף מכוח גדול",
+          "הקשבה חשובה כמו פעולה",
+          "נחיתה נכונה חשובה לבטיחות"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "נחיתה נכונה חשובה לבטיחות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף קפיצון הכי חשוב לזכור?",
+        "options_he": [
+          "רוחית נעה בזריזות באוויר",
+          "כוח טוב דורש אחריות",
+          "תזמון טוב עוזר להצלה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "תזמון טוב עוזר להצלה"
+      }
+    }
+  },
+  "superheroes-original-05-sounda": {
+    "card_id": "superheroes-original-05-sounda",
+    "pack_id": "superheroes-original",
+    "pack_title_he": "גיבורי על מקוריים",
+    "title_he": "צלילית",
+    "facts_he": [
+      "צלילית משתמשת בגלי קול",
+      "קול יכול להזהיר מרחוק",
+      "הקשבה חשובה כמו פעולה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף צלילית?",
+        "options_he": [
+          "צלילית משתמשת בגלי קול",
+          "כוח טוב דורש אחריות",
+          "היא עוזרת להעביר מסרים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "צלילית משתמשת בגלי קול"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף צלילית?",
+        "options_he": [
+          "תזמון טוב עוזר להצלה",
+          "נחיתה נכונה חשובה לבטיחות",
+          "קול יכול להזהיר מרחוק"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "קול יכול להזהיר מרחוק"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף צלילית הכי חשוב לזכור?",
+        "options_he": [
+          "רגע לחשוב משנה החלטה",
+          "הקשבה חשובה כמו פעולה",
+          "בועה יכולה לרכך נפילה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "הקשבה חשובה כמו פעולה"
+      }
+    }
+  },
+  "superheroes-original-06-leafor": {
+    "card_id": "superheroes-original-06-leafor",
+    "pack_id": "superheroes-original",
+    "pack_title_he": "גיבורי על מקוריים",
+    "title_he": "עלעל",
+    "facts_he": [
+      "עלעל מצמיח גשרים ירוקים",
+      "טבע יכול לעזור בעיר",
+      "צריך לשמור על איזון סביבתי"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף עלעל?",
+        "options_he": [
+          "הקשבה חשובה כמו פעולה",
+          "עלעל מצמיח גשרים ירוקים",
+          "סימן ברור עוזר לצוות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "עלעל מצמיח גשרים ירוקים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף עלעל?",
+        "options_he": [
+          "מגן אדום חוסם סכנה",
+          "טבע יכול לעזור בעיר",
+          "אומץ כולל גם זהירות"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "טבע יכול לעזור בעיר"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף עלעל הכי חשוב לזכור?",
+        "options_he": [
+          "סימן ברור עוזר לצוות",
+          "צריך לשמור על איזון סביבתי",
+          "רגע לחשוב משנה החלטה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "צריך לשמור על איזון סביבתי"
+      }
+    }
+  },
+  "superheroes-original-07-sparko": {
+    "card_id": "superheroes-original-07-sparko",
+    "pack_id": "superheroes-original",
+    "pack_title_he": "גיבורי על מקוריים",
+    "title_he": "ברקון",
+    "facts_he": [
+      "ברקון יוצר ניצוצות קטנים",
+      "חשמל דורש זהירות רבה",
+      "כוח מדויק עדיף מכוח גדול"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף ברקון?",
+        "options_he": [
+          "קפיצון מדלג מעל מכשולים",
+          "ברקון יוצר ניצוצות קטנים",
+          "טבע יכול לעזור בעיר"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "ברקון יוצר ניצוצות קטנים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף ברקון?",
+        "options_he": [
+          "קפיצון מדלג מעל מכשולים",
+          "חשמל דורש זהירות רבה",
+          "היא עוזרת להעביר מסרים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "חשמל דורש זהירות רבה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף ברקון הכי חשוב לזכור?",
+        "options_he": [
+          "כוח מדויק עדיף מכוח גדול",
+          "אור עוזר למצוא דרך בטוחה",
+          "תזמון טוב עוזר להצלה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "כוח מדויק עדיף מכוח גדול"
+      }
+    }
+  },
+  "superheroes-original-08-timelet": {
+    "card_id": "superheroes-original-08-timelet",
+    "pack_id": "superheroes-original",
+    "pack_title_he": "גיבורי על מקוריים",
+    "title_he": "זמן קטן",
+    "facts_he": [
+      "זמן קטן מאט רגע קצר",
+      "רגע לחשוב משנה החלטה",
+      "לא כל בעיה נפתרת בכוח"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף זמן קטן?",
+        "options_he": [
+          "קול יכול להזהיר מרחוק",
+          "זמן קטן מאט רגע קצר",
+          "כוכבית מסמנת דרך בשמיים"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "זמן קטן מאט רגע קצר"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף זמן קטן?",
+        "options_he": [
+          "כוכבית מסמנת דרך בשמיים",
+          "כוח מדויק עדיף מכוח גדול",
+          "רגע לחשוב משנה החלטה"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "רגע לחשוב משנה החלטה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף זמן קטן הכי חשוב לזכור?",
+        "options_he": [
+          "טבע יכול לעזור בעיר",
+          "אומץ כולל גם זהירות",
+          "לא כל בעיה נפתרת בכוח"
+        ],
+        "correct_answer_index": 2,
+        "source_fact_he": "לא כל בעיה נפתרת בכוח"
+      }
+    }
+  },
+  "superheroes-original-09-bubblea": {
+    "card_id": "superheroes-original-09-bubblea",
+    "pack_id": "superheroes-original",
+    "pack_title_he": "גיבורי על מקוריים",
+    "title_he": "בועית",
+    "facts_he": [
+      "בועית יוצרת מעטפת מגן",
+      "בועה יכולה לרכך נפילה",
+      "היא מגנה בלי לפגוע"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף בועית?",
+        "options_he": [
+          "בועית יוצרת מעטפת מגן",
+          "קול יכול להזהיר מרחוק",
+          "עלעל מצמיח גשרים ירוקים"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "בועית יוצרת מעטפת מגן"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף בועית?",
+        "options_he": [
+          "חשמל דורש זהירות רבה",
+          "בועה יכולה לרכך נפילה",
+          "מנהיגות מתחילה בדוגמה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "בועה יכולה לרכך נפילה"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף בועית הכי חשוב לזכור?",
+        "options_he": [
+          "אורון מאיר מקומות חשוכים",
+          "היא מגנה בלי לפגוע",
+          "רוחית נעה בזריזות באוויר"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "היא מגנה בלי לפגוע"
+      }
+    }
+  },
+  "superheroes-original-10-starlet": {
+    "card_id": "superheroes-original-10-starlet",
+    "pack_id": "superheroes-original",
+    "pack_title_he": "גיבורי על מקוריים",
+    "title_he": "כוכבית",
+    "facts_he": [
+      "כוכבית מסמנת דרך בשמיים",
+      "סימן ברור עוזר לצוות",
+      "מנהיגות מתחילה בדוגמה"
+    ],
+    "quizzes": {
+      "junior": {
+        "age_band_he": "3-5",
+        "reward_brain_coins": 8,
+        "question_he": "מה לומדים בקלף כוכבית?",
+        "options_he": [
+          "כוכבית מסמנת דרך בשמיים",
+          "הקשבה חשובה כמו פעולה",
+          "קול יכול להזהיר מרחוק"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "כוכבית מסמנת דרך בשמיים"
+      },
+      "child": {
+        "age_band_he": "6-12",
+        "reward_brain_coins": 15,
+        "question_he": "איזו עובדה נכונה לפי הקלף כוכבית?",
+        "options_he": [
+          "צריך לשמור על איזון סביבתי",
+          "סימן ברור עוזר לצוות",
+          "מגן אדום חוסם סכנה"
+        ],
+        "correct_answer_index": 1,
+        "source_fact_he": "סימן ברור עוזר לצוות"
+      },
+      "advanced": {
+        "age_band_he": "13+",
+        "reward_brain_coins": 25,
+        "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף כוכבית הכי חשוב לזכור?",
+        "options_he": [
+          "מנהיגות מתחילה בדוגמה",
+          "כוח טוב דורש אחריות",
+          "תנועה מהירה דורשת שליטה"
+        ],
+        "correct_answer_index": 0,
+        "source_fact_he": "מנהיגות מתחילה בדוגמה"
+      }
+    }
   }
 };

@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "product_name_he": "אוספים עובדות",
+  "language": "he",
+  "text_direction": "rtl",
+  "season": 1,
+  "pack_id": "superheroes-original",
+  "pack_title_he": "גיבורי על מקוריים",
+  "domain_he": "דמויות מקוריות, כוחות ודילמות",
+  "age_group_he": "ילדים גדולים",
+  "pack_asset_path": "assets/season-1/packs-wave2-he/pack-superheroes-original.webp",
+  "card_count": 10,
+  "quiz_flow_he": "תמונת הקלף מציגה עובדות בלבד. בלחיצה על קלף נעול האפליקציה פותחת מבחן קצר לפי גיל. תשובה נכונה פותחת את הקלף ומעניקה מטבעות מוח.",
+  "note_he": "סט תוכן מלא עם שאלות. נכסי התמונה יופקו בהמשך לפי פרומפטים של ה-skill.",
+  "cards": [
+    {
+      "card_id": "superheroes-original-01-oron",
+      "index": 1,
+      "title_he": "אורון",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/01-oron.webp",
+      "facts_he": [
+        "אורון מאיר מקומות חשוכים",
+        "אור עוזר למצוא דרך בטוחה",
+        "כוח טוב דורש אחריות"
+      ],
+      "tags_he": [
+        "אור",
+        "אחריות"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף אורון?",
+          "options_he": [
+            "אורון מאיר מקומות חשוכים",
+            "הקשבה חשובה כמו פעולה",
+            "נחיתה נכונה חשובה לבטיחות"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אורון מאיר מקומות חשוכים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף אורון?",
+          "options_he": [
+            "אור עוזר למצוא דרך בטוחה",
+            "קול יכול להזהיר מרחוק",
+            "תנועה מהירה דורשת שליטה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אור עוזר למצוא דרך בטוחה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף אורון הכי חשוב לזכור?",
+          "options_he": [
+            "חשמל דורש זהירות רבה",
+            "כוח טוב דורש אחריות",
+            "צלילית משתמשת בגלי קול"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "כוח טוב דורש אחריות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01125e7af8819b863bf2a8886f6cd7.png",
+        "project_png": "assets/season-1/cards-wave2-he/superheroes-original/01-oron.png",
+        "project_webp": "assets/season-1/cards-wave2-he/superheroes-original/01-oron.webp",
+        "updated_at": "2026-05-10T23:33:59.509921+00:00"
+      }
+    },
+    {
+      "card_id": "superheroes-original-02-ruhit",
+      "index": 2,
+      "title_he": "רוחית",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/02-ruhit.webp",
+      "facts_he": [
+        "רוחית נעה בזריזות באוויר",
+        "תנועה מהירה דורשת שליטה",
+        "היא עוזרת להעביר מסרים"
+      ],
+      "tags_he": [
+        "רוח",
+        "מהירות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף רוחית?",
+          "options_he": [
+            "אורון מאיר מקומות חשוכים",
+            "רוחית נעה בזריזות באוויר",
+            "הגנה טובה שומרת על חברים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "רוחית נעה בזריזות באוויר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף רוחית?",
+          "options_he": [
+            "הקשבה חשובה כמו פעולה",
+            "תנועה מהירה דורשת שליטה",
+            "סימן ברור עוזר לצוות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "תנועה מהירה דורשת שליטה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף רוחית הכי חשוב לזכור?",
+          "options_he": [
+            "היא עוזרת להעביר מסרים",
+            "רגע לחשוב משנה החלטה",
+            "הגנה טובה שומרת על חברים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "היא עוזרת להעביר מסרים"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0112a52a10819b804fd2ea2c21129c.png",
+        "project_png": "assets/season-1/cards-wave2-he/superheroes-original/02-ruhit.png",
+        "project_webp": "assets/season-1/cards-wave2-he/superheroes-original/02-ruhit.webp",
+        "updated_at": "2026-05-10T23:33:59.509921+00:00"
+      }
+    },
+    {
+      "card_id": "superheroes-original-03-red-shield",
+      "index": 3,
+      "title_he": "מגן אדום",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/03-red-shield.webp",
+      "facts_he": [
+        "מגן אדום חוסם סכנה",
+        "הגנה טובה שומרת על חברים",
+        "אומץ כולל גם זהירות"
+      ],
+      "tags_he": [
+        "הגנה",
+        "אומץ"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף מגן אדום?",
+          "options_he": [
+            "מגן אדום חוסם סכנה",
+            "נחיתה נכונה חשובה לבטיחות",
+            "תזמון טוב עוזר להצלה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מגן אדום חוסם סכנה"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף מגן אדום?",
+          "options_he": [
+            "כוח טוב דורש אחריות",
+            "הקשבה חשובה כמו פעולה",
+            "הגנה טובה שומרת על חברים"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "הגנה טובה שומרת על חברים"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף מגן אדום הכי חשוב לזכור?",
+          "options_he": [
+            "אומץ כולל גם זהירות",
+            "טבע יכול לעזור בעיר",
+            "בועה יכולה לרכך נפילה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "אומץ כולל גם זהירות"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0112ec0194819b88914c1578a3c7fe.png",
+        "project_png": "assets/season-1/cards-wave2-he/superheroes-original/03-red-shield.png",
+        "project_webp": "assets/season-1/cards-wave2-he/superheroes-original/03-red-shield.webp",
+        "updated_at": "2026-05-10T23:33:59.509921+00:00"
+      }
+    },
+    {
+      "card_id": "superheroes-original-04-jumper",
+      "index": 4,
+      "title_he": "קפיצון",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/04-jumper.webp",
+      "facts_he": [
+        "קפיצון מדלג מעל מכשולים",
+        "נחיתה נכונה חשובה לבטיחות",
+        "תזמון טוב עוזר להצלה"
+      ],
+      "tags_he": [
+        "קפיצה",
+        "תזמון"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף קפיצון?",
+          "options_he": [
+            "אור עוזר למצוא דרך בטוחה",
+            "קפיצון מדלג מעל מכשולים",
+            "אומץ כולל גם זהירות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "קפיצון מדלג מעל מכשולים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף קפיצון?",
+          "options_he": [
+            "כוח מדויק עדיף מכוח גדול",
+            "הקשבה חשובה כמו פעולה",
+            "נחיתה נכונה חשובה לבטיחות"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "נחיתה נכונה חשובה לבטיחות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף קפיצון הכי חשוב לזכור?",
+          "options_he": [
+            "רוחית נעה בזריזות באוויר",
+            "כוח טוב דורש אחריות",
+            "תזמון טוב עוזר להצלה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "תזמון טוב עוזר להצלה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0113b2ad94819b9e9cf2eea7453261.png",
+        "project_png": "assets/season-1/cards-wave2-he/superheroes-original/04-jumper.png",
+        "project_webp": "assets/season-1/cards-wave2-he/superheroes-original/04-jumper.webp",
+        "updated_at": "2026-05-10T23:33:59.509921+00:00"
+      }
+    },
+    {
+      "card_id": "superheroes-original-05-sounda",
+      "index": 5,
+      "title_he": "צלילית",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/05-sounda.webp",
+      "facts_he": [
+        "צלילית משתמשת בגלי קול",
+        "קול יכול להזהיר מרחוק",
+        "הקשבה חשובה כמו פעולה"
+      ],
+      "tags_he": [
+        "קול",
+        "הקשבה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף צלילית?",
+          "options_he": [
+            "צלילית משתמשת בגלי קול",
+            "כוח טוב דורש אחריות",
+            "היא עוזרת להעביר מסרים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "צלילית משתמשת בגלי קול"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף צלילית?",
+          "options_he": [
+            "תזמון טוב עוזר להצלה",
+            "נחיתה נכונה חשובה לבטיחות",
+            "קול יכול להזהיר מרחוק"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "קול יכול להזהיר מרחוק"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף צלילית הכי חשוב לזכור?",
+          "options_he": [
+            "רגע לחשוב משנה החלטה",
+            "הקשבה חשובה כמו פעולה",
+            "בועה יכולה לרכך נפילה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "הקשבה חשובה כמו פעולה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0113fae38c819bb61fcabd2b6ef6eb.png",
+        "project_png": "assets/season-1/cards-wave2-he/superheroes-original/05-sounda.png",
+        "project_webp": "assets/season-1/cards-wave2-he/superheroes-original/05-sounda.webp",
+        "updated_at": "2026-05-10T23:33:59.509921+00:00"
+      }
+    },
+    {
+      "card_id": "superheroes-original-06-leafor",
+      "index": 6,
+      "title_he": "עלעל",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/06-leafor.webp",
+      "facts_he": [
+        "עלעל מצמיח גשרים ירוקים",
+        "טבע יכול לעזור בעיר",
+        "צריך לשמור על איזון סביבתי"
+      ],
+      "tags_he": [
+        "טבע",
+        "איזון"
+      ],
+      "rarity": "rare",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף עלעל?",
+          "options_he": [
+            "הקשבה חשובה כמו פעולה",
+            "עלעל מצמיח גשרים ירוקים",
+            "סימן ברור עוזר לצוות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "עלעל מצמיח גשרים ירוקים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף עלעל?",
+          "options_he": [
+            "מגן אדום חוסם סכנה",
+            "טבע יכול לעזור בעיר",
+            "אומץ כולל גם זהירות"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "טבע יכול לעזור בעיר"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף עלעל הכי חשוב לזכור?",
+          "options_he": [
+            "סימן ברור עוזר לצוות",
+            "צריך לשמור על איזון סביבתי",
+            "רגע לחשוב משנה החלטה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "צריך לשמור על איזון סביבתי"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a011447e980819bafbc3f5477fc0e82.png",
+        "project_png": "assets/season-1/cards-wave2-he/superheroes-original/06-leafor.png",
+        "project_webp": "assets/season-1/cards-wave2-he/superheroes-original/06-leafor.webp",
+        "updated_at": "2026-05-10T23:33:59.509921+00:00"
+      }
+    },
+    {
+      "card_id": "superheroes-original-07-sparko",
+      "index": 7,
+      "title_he": "ברקון",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/07-sparko.webp",
+      "facts_he": [
+        "ברקון יוצר ניצוצות קטנים",
+        "חשמל דורש זהירות רבה",
+        "כוח מדויק עדיף מכוח גדול"
+      ],
+      "tags_he": [
+        "חשמל",
+        "דיוק"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף ברקון?",
+          "options_he": [
+            "קפיצון מדלג מעל מכשולים",
+            "ברקון יוצר ניצוצות קטנים",
+            "טבע יכול לעזור בעיר"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "ברקון יוצר ניצוצות קטנים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף ברקון?",
+          "options_he": [
+            "קפיצון מדלג מעל מכשולים",
+            "חשמל דורש זהירות רבה",
+            "היא עוזרת להעביר מסרים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "חשמל דורש זהירות רבה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף ברקון הכי חשוב לזכור?",
+          "options_he": [
+            "כוח מדויק עדיף מכוח גדול",
+            "אור עוזר למצוא דרך בטוחה",
+            "תזמון טוב עוזר להצלה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוח מדויק עדיף מכוח גדול"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0114927538819b852a7583a233b5c5.png",
+        "project_png": "assets/season-1/cards-wave2-he/superheroes-original/07-sparko.png",
+        "project_webp": "assets/season-1/cards-wave2-he/superheroes-original/07-sparko.webp",
+        "updated_at": "2026-05-10T23:33:59.509921+00:00"
+      }
+    },
+    {
+      "card_id": "superheroes-original-08-timelet",
+      "index": 8,
+      "title_he": "זמן קטן",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/08-timelet.webp",
+      "facts_he": [
+        "זמן קטן מאט רגע קצר",
+        "רגע לחשוב משנה החלטה",
+        "לא כל בעיה נפתרת בכוח"
+      ],
+      "tags_he": [
+        "זמן",
+        "מחשבה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף זמן קטן?",
+          "options_he": [
+            "קול יכול להזהיר מרחוק",
+            "זמן קטן מאט רגע קצר",
+            "כוכבית מסמנת דרך בשמיים"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "זמן קטן מאט רגע קצר"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף זמן קטן?",
+          "options_he": [
+            "כוכבית מסמנת דרך בשמיים",
+            "כוח מדויק עדיף מכוח גדול",
+            "רגע לחשוב משנה החלטה"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "רגע לחשוב משנה החלטה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף זמן קטן הכי חשוב לזכור?",
+          "options_he": [
+            "טבע יכול לעזור בעיר",
+            "אומץ כולל גם זהירות",
+            "לא כל בעיה נפתרת בכוח"
+          ],
+          "correct_answer_index": 2,
+          "source_fact_he": "לא כל בעיה נפתרת בכוח"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a0114dd4e98819bb364ce5eff8e7f05.png",
+        "project_png": "assets/season-1/cards-wave2-he/superheroes-original/08-timelet.png",
+        "project_webp": "assets/season-1/cards-wave2-he/superheroes-original/08-timelet.webp",
+        "updated_at": "2026-05-10T23:33:59.509921+00:00"
+      }
+    },
+    {
+      "card_id": "superheroes-original-09-bubblea",
+      "index": 9,
+      "title_he": "בועית",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/09-bubblea.webp",
+      "facts_he": [
+        "בועית יוצרת מעטפת מגן",
+        "בועה יכולה לרכך נפילה",
+        "היא מגנה בלי לפגוע"
+      ],
+      "tags_he": [
+        "מגן",
+        "בועה"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף בועית?",
+          "options_he": [
+            "בועית יוצרת מעטפת מגן",
+            "קול יכול להזהיר מרחוק",
+            "עלעל מצמיח גשרים ירוקים"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "בועית יוצרת מעטפת מגן"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף בועית?",
+          "options_he": [
+            "חשמל דורש זהירות רבה",
+            "בועה יכולה לרכך נפילה",
+            "מנהיגות מתחילה בדוגמה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "בועה יכולה לרכך נפילה"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף בועית הכי חשוב לזכור?",
+          "options_he": [
+            "אורון מאיר מקומות חשוכים",
+            "היא מגנה בלי לפגוע",
+            "רוחית נעה בזריזות באוויר"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "היא מגנה בלי לפגוע"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01152f28d0819b93d558c18e991061.png",
+        "project_png": "assets/season-1/cards-wave2-he/superheroes-original/09-bubblea.png",
+        "project_webp": "assets/season-1/cards-wave2-he/superheroes-original/09-bubblea.webp",
+        "updated_at": "2026-05-10T23:33:59.509921+00:00"
+      }
+    },
+    {
+      "card_id": "superheroes-original-10-starlet",
+      "index": 10,
+      "title_he": "כוכבית",
+      "asset_path": "assets/season-1/cards-wave2-he/superheroes-original/10-starlet.webp",
+      "facts_he": [
+        "כוכבית מסמנת דרך בשמיים",
+        "סימן ברור עוזר לצוות",
+        "מנהיגות מתחילה בדוגמה"
+      ],
+      "tags_he": [
+        "כוכב",
+        "מנהיגות"
+      ],
+      "rarity": "common",
+      "quizzes": {
+        "junior": {
+          "age_band_he": "3-5",
+          "reward_brain_coins": 8,
+          "question_he": "מה לומדים בקלף כוכבית?",
+          "options_he": [
+            "כוכבית מסמנת דרך בשמיים",
+            "הקשבה חשובה כמו פעולה",
+            "קול יכול להזהיר מרחוק"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "כוכבית מסמנת דרך בשמיים"
+        },
+        "child": {
+          "age_band_he": "6-12",
+          "reward_brain_coins": 15,
+          "question_he": "איזו עובדה נכונה לפי הקלף כוכבית?",
+          "options_he": [
+            "צריך לשמור על איזון סביבתי",
+            "סימן ברור עוזר לצוות",
+            "מגן אדום חוסם סכנה"
+          ],
+          "correct_answer_index": 1,
+          "source_fact_he": "סימן ברור עוזר לצוות"
+        },
+        "advanced": {
+          "age_band_he": "13+",
+          "reward_brain_coins": 25,
+          "question_he": "כשגיבורי הצוות יוצאים לעזור, איזה פרט מהקלף כוכבית הכי חשוב לזכור?",
+          "options_he": [
+            "מנהיגות מתחילה בדוגמה",
+            "כוח טוב דורש אחריות",
+            "תנועה מהירה דורשת שליטה"
+          ],
+          "correct_answer_index": 0,
+          "source_fact_he": "מנהיגות מתחילה בדוגמה"
+        }
+      },
+      "image_generation": {
+        "mode": "single_image_tool_call",
+        "status_he": "נוצר כתמונת image generation יחידה ויובא לפרויקט.",
+        "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_054a9ae27e3037af016a01157b36b8819ba69cf77831456449.png",
+        "project_png": "assets/season-1/cards-wave2-he/superheroes-original/10-starlet.png",
+        "project_webp": "assets/season-1/cards-wave2-he/superheroes-original/10-starlet.webp",
+        "updated_at": "2026-05-10T23:33:59.509921+00:00"
+      }
+    }
+  ],
+  "asset_generation": {
+    "mode": "single_image_tool_call",
+    "status_he": "עטיפת החבילה נוצרה כתמונת image generation יחידה ויובאה לפרויקט.",
+    "source_png": "/Users/orentzezana/.codex/generated_images/019e10e8-967b-7c43-9a62-d7695eecaa98/ig_0f67a34f3064b035016a00e33281bc8191890be3b48db15c01.png",
+    "project_png": "assets/season-1/packs-wave2-he/pack-superheroes-original.png",
+    "project_webp": "assets/season-1/packs-wave2-he/pack-superheroes-original.webp",
+    "updated_at": "2026-05-10T20:01:27.434861+00:00"
+  }
+}

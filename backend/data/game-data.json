@@ -18,7 +18,7 @@
   "packs": [
     {
       "pack_id": "animals",
-      "pack_title_he": "חיות",
+      "pack_title_he": "חיות חמודות",
       "domain_he": "עולם החיות",
       "age_group_he": "ילדים קטנים",
       "pack_asset_path": "assets/season-1/packs-native-he/pack-native-animals.webp",
@@ -1488,8 +1488,8 @@
     },
     {
       "pack_id": "crystals",
-      "pack_title_he": "קריסטלים ומינרלים",
-      "domain_he": "טבע וחומרים",
+      "pack_title_he": "אבני חן",
+      "domain_he": "קריסטלים ומינרלים",
       "age_group_he": "בינוניים",
       "pack_asset_path": "assets/season-1/packs-native-he/pack-native-crystals.webp",
       "card_count": 10,
@@ -2958,8 +2958,8 @@
     },
     {
       "pack_id": "security",
-      "pack_title_he": "ביטחון והצלה",
-      "domain_he": "חברה, אזרחות וביטחון",
+      "pack_title_he": "צה״ל והצלה",
+      "domain_he": "ביטחון, הצלה ושירות",
       "age_group_he": "גדולים ומבוגרים",
       "pack_asset_path": "assets/season-1/packs-native-he/pack-native-rescue.webp",
       "card_count": 10,
